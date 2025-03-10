@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【全12集】孩子一看就涨知识的儿童科普纪录片~豆瓣9.6分纪录片《Tiny World》小小世界1-2季 适合3-15岁朋友观看 这才是英语人该看的纪录片_哔哩哔哩_bilibili</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .episode-container {
+            height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">首页</a>
+                <button class="btn btn-outline-secondary" onclick="history.back()">返回上一页</button>
+            </div>
+        </nav>
+
+        <div class="row mt-4">
+            <div class="col-md-9">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        id="player-iframe"
+                        src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=705663989&amp;bvid=BV1XQ4y1n7W1&amp;p=1&high_quality=1&danmaku=0"
+                        scrolling="no" border="0" frameborder="no" framespacing="0"
+                        allowfullscreen="true"
+                        sandbox="allow-scripts allow-same-origin allow-presentation">
+                    </iframe>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">选集</h5>
+                    </div>
+                    <div class="card-body p-0 episode-container">
+                        <div class="list-group list-group-flush" id="episode-list">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 加载视频数据
+        fetch('../data.json')
+            .then(response => response.json())
+            .then(data => {
+                const currentVideo = 7;
+                const currentUrl = document.getElementById('player-iframe').src;
+                
+                // 获取当前视频的信息
+                const video = data.videos.find(v => v.id === currentVideo);
+                if (!video) return;
+                
+                // 获取视频的总集数
+                const totalEpisodes = video.episode;
+                const episodeList = document.getElementById('episode-list');
+                
+                // 生成选集按钮
+                for (let i = 1; i <= totalEpisodes; i++) {
+                    const button = document.createElement('button');
+                    button.className = `list-group-item list-group-item-action ${i === 1 ? 'active' : ''}`;
+                    button.textContent = `第${i}集`;
+                    button.onclick = function() {
+                        // 更新播放器src
+                        const newUrl = currentUrl.replace(/&p=\d+/, `&p=${i}`);
+                        document.getElementById('player-iframe').src = newUrl;
+                        
+                        // 更新按钮状态
+                        document.querySelector('.active')?.classList.remove('active');
+                        this.classList.add('active');
+                    };
+                    episodeList.appendChild(button);
+                }
+            });
+    </script>
+</body>
+</html>
