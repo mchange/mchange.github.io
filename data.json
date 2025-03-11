@@ -15,23 +15,83 @@
   ],
   "videos": [
     {
-      "id": 6,
+      "id": 16,
       "category_id": 3,
-      "title": "【全280集】全部共24个板块的科普动画，可分享~孩子一看就涨知识的儿童科普动画（岩石矿物篇）适合3-15岁朋友观看_哔哩哔哩_bilibili",
-      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=114097484009283&bvid=BV1xU9iYsEsn&p=1",
-      "episode": 5,
-      "views": 3,
-      "thumbnail": "thumbnails/20250310180244.png",
+      "title": "网络和短视频是如何毁灭儿童的？——50分钟读懂《童年的消逝》_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=1650194279&bvid=BV1H7421T77z&p=1",
+      "episode": 1,
+      "views": 2,
+      "thumbnail": "thumbnails/20250311161404.png",
       "category_name": "儿童科普"
     },
     {
-      "id": 7,
-      "category_id": 3,
-      "title": "【全12集】孩子一看就涨知识的儿童科普纪录片~豆瓣9.6分纪录片《Tiny World》小小世界1-2季 适合3-15岁朋友观看 这才是英语人该看的纪录片_哔哩哔哩_bilibili",
-      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=705663989&bvid=BV1XQ4y1n7W1&p=1",
-      "episode": 6,
+      "id": 15,
+      "category_id": 4,
+      "title": "【全430集】高斯数学1-6年级动画版 奥数思维提升_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=113417218232246&bvid=BV1evS1YnEpV&p=1",
+      "episode": 73,
       "views": 2,
-      "thumbnail": "thumbnails/20250310180351.png",
+      "thumbnail": "thumbnails/20250311161255.png",
+      "category_name": "数学思维"
+    },
+    {
+      "id": 14,
+      "category_id": 5,
+      "title": "(全108集)2025寒假必备小学英语自然拼读课【自然拼读＋国际音标＋发音规则】零基础发音课三合-26个字母讲解让孩子见词能读，英语启蒙必备!_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=114063258424693&bvid=BV1PQPaeAEsd&p=1",
+      "episode": 34,
+      "views": 4,
+      "thumbnail": "thumbnails/20250311161154.png",
+      "category_name": "快乐英语"
+    },
+    {
+      "id": 13,
+      "category_id": 4,
+      "title": "【全700集】小学数学动画 小学数学趣味讲解 有效激发学习兴趣 看完当学霸_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=113979137459675&bvid=BV17RNoecE1G&p=1",
+      "episode": 10,
+      "views": 2,
+      "thumbnail": "thumbnails/20250311161057.png",
+      "category_name": "数学思维"
+    },
+    {
+      "id": 12,
+      "category_id": 5,
+      "title": "【全47集】完整版 B站最受欢迎的英语启蒙动画动物王国大冒险]趣味十足又好玩，趣味英语启蒙动画片《动物王国大冒险》_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=113549573623693&bvid=BV1fAz5YyERr&p=1",
+      "episode": 60,
+      "views": 4,
+      "thumbnail": "thumbnails/20250310181212.png",
+      "category_name": "快乐英语"
+    },
+    {
+      "id": 11,
+      "category_id": 5,
+      "title": "全60集 叽里呱啦萌芽Lv1-Lv3【自然拼读】英语启蒙_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=1456371216&bvid=BV1fi421h7W7&p=1",
+      "episode": 26,
+      "views": 3,
+      "thumbnail": "thumbnails/20250310181012.png",
+      "category_name": "快乐英语"
+    },
+    {
+      "id": 10,
+      "category_id": 4,
+      "title": "清华出品：小学数学启蒙动画，学霸家长抓孩子数学的秘诀！_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=113253371876510&bvid=BV19E19YbE92&p=1",
+      "episode": 183,
+      "views": 2,
+      "thumbnail": "thumbnails/20250310180727.png",
+      "category_name": "数学思维"
+    },
+    {
+      "id": 9,
+      "category_id": 3,
+      "title": "扎克伯格给女儿的科学启蒙课【52集全】（中文版），给孩子的stem教育课-科学启蒙-科学实验-科普-自然科学-幼儿课程-儿童课程-小学课程-教程-视频课程-生物_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=390377119&bvid=BV1wd4y1t7Pb&p=1",
+      "episode": 39,
+      "views": 4,
+      "thumbnail": "thumbnails/20250310180602.png",
       "category_name": "儿童科普"
     },
     {
@@ -45,44 +105,24 @@
       "category_name": "儿童科普"
     },
     {
-      "id": 9,
+      "id": 7,
       "category_id": 3,
-      "title": "扎克伯格给女儿的科学启蒙课【52集全】（中文版），给孩子的stem教育课-科学启蒙-科学实验-科普-自然科学-幼儿课程-儿童课程-小学课程-教程-视频课程-生物_哔哩哔哩_bilibili",
-      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=390377119&bvid=BV1wd4y1t7Pb&p=1",
-      "episode": 39,
-      "views": 2,
-      "thumbnail": "thumbnails/20250310180602.png",
+      "title": "【全12集】孩子一看就涨知识的儿童科普纪录片~豆瓣9.6分纪录片《Tiny World》小小世界1-2季 适合3-15岁朋友观看 这才是英语人该看的纪录片_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=705663989&bvid=BV1XQ4y1n7W1&p=1",
+      "episode": 6,
+      "views": 6,
+      "thumbnail": "thumbnails/20250310180351.png",
       "category_name": "儿童科普"
     },
     {
-      "id": 10,
-      "category_id": 4,
-      "title": "清华出品：小学数学启蒙动画，学霸家长抓孩子数学的秘诀！_哔哩哔哩_bilibili",
-      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=113253371876510&bvid=BV19E19YbE92&p=1",
-      "episode": 183,
-      "views": 2,
-      "thumbnail": "thumbnails/20250310180727.png",
-      "category_name": "数学思维"
-    },
-    {
-      "id": 11,
-      "category_id": 5,
-      "title": "全60集 叽里呱啦萌芽Lv1-Lv3【自然拼读】英语启蒙_哔哩哔哩_bilibili",
-      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=1456371216&bvid=BV1fi421h7W7&p=1",
-      "episode": 26,
-      "views": 3,
-      "thumbnail": "thumbnails/20250310181012.png",
-      "category_name": "快乐英语"
-    },
-    {
-      "id": 12,
-      "category_id": 5,
-      "title": "【全47集】完整版 B站最受欢迎的英语启蒙动画动物王国大冒险]趣味十足又好玩，趣味英语启蒙动画片《动物王国大冒险》_哔哩哔哩_bilibili",
-      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=113549573623693&bvid=BV1fAz5YyERr&p=1",
-      "episode": 60,
-      "views": 4,
-      "thumbnail": "thumbnails/20250310181212.png",
-      "category_name": "快乐英语"
+      "id": 6,
+      "category_id": 3,
+      "title": "【全280集】全部共24个板块的科普动画，可分享~孩子一看就涨知识的儿童科普动画（岩石矿物篇）适合3-15岁朋友观看_哔哩哔哩_bilibili",
+      "url": "https://player.bilibili.com/player.html?isOutside=true&aid=114097484009283&bvid=BV1xU9iYsEsn&p=1",
+      "episode": 5,
+      "views": 9,
+      "thumbnail": "thumbnails/20250310180244.png",
+      "category_name": "儿童科普"
     }
   ]
 }
