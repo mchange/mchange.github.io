@@ -1,239 +1,733 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>呱哩呱哩</title>
-    <link href="static/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .video-card { margin-bottom: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>今日听写</title>
+  <style>
+    :root {
+      --blue: #007aff;
+      --green: #34c759;
+      --red: #ff3b30;
+      --bg: #f5f6fa;
+      --card: #ffffff;
+      --text: #1c1c1e;
+      --muted: #8e8e93;
+    }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .screen {
+      display: none;
+      width: 100%;
+      max-width: 480px;
+      background: var(--card);
+      border-radius: 24px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,.08);
+    }
+    .screen.active { display: block; }
+    h1 { font-size: 26px; margin: 0 0 6px; }
+    .date { color: var(--muted); font-size: 16px; margin-bottom: 24px; }
+    .test-badge {
+      display: inline-block; font-size: 12px; color: #fff; background: var(--blue);
+      border-radius: 999px; padding: 2px 10px; margin-left: 6px; vertical-align: middle;
+    }
+    .big-emoji { font-size: 72px; line-height: 1.2; margin: 10px 0; }
+    .big-emoji.playing { animation: pulse 1s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.12); } }
+    .status { font-size: 20px; font-weight: 600; margin: 12px 0; min-height: 30px; }
+    .counter { font-size: 22px; font-weight: 700; margin: 8px 0 4px; }
+    .hint { color: var(--muted); font-size: 15px; line-height: 1.9; margin: 10px 0; }
+    .progress-wrap { margin: 18px 0 8px; }
+    .progress-bar {
+      height: 14px; background: #e9e9ee; border-radius: 999px; overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%; width: 0%; background: var(--green); border-radius: 999px;
+      transition: width .25s ease;
+    }
+    .progress-text { font-size: 14px; color: var(--muted); margin-top: 8px; }
+    button {
+      font-size: 20px; padding: 16px 40px; margin: 8px 6px; border: none;
+      border-radius: 16px; background: var(--blue); color: #fff; font-weight: 600;
+      cursor: pointer; font-family: inherit;
+    }
+    button:disabled { background: #c7c7cc; cursor: not-allowed; }
+    button.secondary { background: #e9e9ee; color: var(--text); font-size: 16px; padding: 12px 24px; }
+    button.danger { background: #fdecea; color: var(--red); font-size: 16px; padding: 12px 24px; }
+    .mic {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 15px; color: var(--muted); margin: 14px 0;
+    }
+    .mic .dot {
+      width: 10px; height: 10px; border-radius: 50%; background: #c7c7cc; display: inline-block;
+    }
+    .mic.listening .dot { background: var(--red); animation: blink 1.2s infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+    .heard { font-size: 14px; color: var(--muted); min-height: 22px; margin-top: 4px; }
+    .heard b { color: var(--blue); }
+    .cmds { display: flex; justify-content: center; gap: 10px; margin: 10px 0 4px; flex-wrap: wrap; }
+    .cmd-chip {
+      font-size: 14px; background: #eef4ff; color: #0b5cd5; border-radius: 999px; padding: 6px 14px;
+    }
+    .fallback { margin-top: 14px; }
+    .fallback .notice { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+    .link-btn {
+      background: none; color: var(--muted); font-size: 13px; padding: 6px 10px;
+      margin-top: 10px; text-decoration: underline; font-weight: 400;
+    }
+    .done-stats { font-size: 22px; margin: 14px 0 20px; }
+    /* 本次词表:只在"开始前"和"结束后"显示,听写过程中不出现,避免剧透 */
+    .wordlist-box {
+      margin-top: 22px; text-align: left;
+      border: 1px solid #e5e5ea; border-radius: 14px;
+      background: #fafafc; padding: 12px 16px;
+    }
+    .wordlist-title { font-size: 14px; color: var(--muted); margin-bottom: 6px; }
+    ol.wordlist {
+      margin: 0; padding-left: 1.7em;
+      max-height: 220px; overflow-y: auto;
+      font-size: 19px; line-height: 1.85;
+    }
+    ol.wordlist li { padding: 1px 0; word-break: break-word; }
+    .hidden { display: none !important; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">呱哩呱哩</a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav" id="category-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">全部</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-category="3">
-                                儿童科普
-                            </a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-category="4">
-                                数学思维
-                            </a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-category="5">
-                                快乐英语
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <div class="row" id="video-grid">
-            
-            <div class="col-md-3 video-card" data-category="3">
-                <div class="card">
-                    <a href="videos/16.html">
-                        <img src="static/thumbnails/20250311161404.png" class="card-img-top" alt="网络和短视频是如何毁灭儿童的？——50分钟读懂《童年的消逝》_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">网络和短视频是如何毁灭儿童的？——50分钟读懂《童年的消逝》_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：2</small>
-                        </p>
-                        <a href="videos/16.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="4">
-                <div class="card">
-                    <a href="videos/15.html">
-                        <img src="static/thumbnails/20250311161255.png" class="card-img-top" alt="【全430集】高斯数学1-6年级动画版 奥数思维提升_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">【全430集】高斯数学1-6年级动画版 奥数思维提升_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：2</small>
-                        </p>
-                        <a href="videos/15.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="5">
-                <div class="card">
-                    <a href="videos/14.html">
-                        <img src="static/thumbnails/20250311161154.png" class="card-img-top" alt="(全108集)2025寒假必备小学英语自然拼读课【自然拼读＋国际音标＋发音规则】零基础发音课三合-26个字母讲解让孩子见词能读，英语启蒙必备!_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">(全108集)2025寒假必备小学英语自然拼读课【自然拼读＋国际音标＋发音规则】零基础发音课三合-26个字母讲解让孩子见词能读，英语启蒙必备!_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：4</small>
-                        </p>
-                        <a href="videos/14.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="4">
-                <div class="card">
-                    <a href="videos/13.html">
-                        <img src="static/thumbnails/20250311161057.png" class="card-img-top" alt="【全700集】小学数学动画 小学数学趣味讲解 有效激发学习兴趣 看完当学霸_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">【全700集】小学数学动画 小学数学趣味讲解 有效激发学习兴趣 看完当学霸_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：2</small>
-                        </p>
-                        <a href="videos/13.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="5">
-                <div class="card">
-                    <a href="videos/12.html">
-                        <img src="static/thumbnails/20250310181212.png" class="card-img-top" alt="【全47集】完整版 B站最受欢迎的英语启蒙动画动物王国大冒险]趣味十足又好玩，趣味英语启蒙动画片《动物王国大冒险》_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">【全47集】完整版 B站最受欢迎的英语启蒙动画动物王国大冒险]趣味十足又好玩，趣味英语启蒙动画片《动物王国大冒险》_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：4</small>
-                        </p>
-                        <a href="videos/12.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="5">
-                <div class="card">
-                    <a href="videos/11.html">
-                        <img src="static/thumbnails/20250310181012.png" class="card-img-top" alt="全60集 叽里呱啦萌芽Lv1-Lv3【自然拼读】英语启蒙_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">全60集 叽里呱啦萌芽Lv1-Lv3【自然拼读】英语启蒙_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：3</small>
-                        </p>
-                        <a href="videos/11.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="4">
-                <div class="card">
-                    <a href="videos/10.html">
-                        <img src="static/thumbnails/20250310180727.png" class="card-img-top" alt="清华出品：小学数学启蒙动画，学霸家长抓孩子数学的秘诀！_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">清华出品：小学数学启蒙动画，学霸家长抓孩子数学的秘诀！_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：2</small>
-                        </p>
-                        <a href="videos/10.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="3">
-                <div class="card">
-                    <a href="videos/9.html">
-                        <img src="static/thumbnails/20250310180602.png" class="card-img-top" alt="扎克伯格给女儿的科学启蒙课【52集全】（中文版），给孩子的stem教育课-科学启蒙-科学实验-科普-自然科学-幼儿课程-儿童课程-小学课程-教程-视频课程-生物_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">扎克伯格给女儿的科学启蒙课【52集全】（中文版），给孩子的stem教育课-科学启蒙-科学实验-科普-自然科学-幼儿课程-儿童课程-小学课程-教程-视频课程-生物_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：4</small>
-                        </p>
-                        <a href="videos/9.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="3">
-                <div class="card">
-                    <a href="videos/8.html">
-                        <img src="static/thumbnails/20250310180520.png" class="card-img-top" alt="【儿童科普纪录片 知识百科全1-3季320集】-微生物-篇采用幽默风趣的语言和有趣的动画形式来讲解科学知识，告别枯燥的传统讲解方式。_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">【儿童科普纪录片 知识百科全1-3季320集】-微生物-篇采用幽默风趣的语言和有趣的动画形式来讲解科学知识，告别枯燥的传统讲解方式。_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：3</small>
-                        </p>
-                        <a href="videos/8.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="3">
-                <div class="card">
-                    <a href="videos/7.html">
-                        <img src="static/thumbnails/20250310180351.png" class="card-img-top" alt="【全12集】孩子一看就涨知识的儿童科普纪录片~豆瓣9.6分纪录片《Tiny World》小小世界1-2季 适合3-15岁朋友观看 这才是英语人该看的纪录片_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">【全12集】孩子一看就涨知识的儿童科普纪录片~豆瓣9.6分纪录片《Tiny World》小小世界1-2季 适合3-15岁朋友观看 这才是英语人该看的纪录片_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：6</small>
-                        </p>
-                        <a href="videos/7.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 video-card" data-category="3">
-                <div class="card">
-                    <a href="videos/6.html">
-                        <img src="static/thumbnails/20250310180244.png" class="card-img-top" alt="【全280集】全部共24个板块的科普动画，可分享~孩子一看就涨知识的儿童科普动画（岩石矿物篇）适合3-15岁朋友观看_哔哩哔哩_bilibili">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">【全280集】全部共24个板块的科普动画，可分享~孩子一看就涨知识的儿童科普动画（岩石矿物篇）适合3-15岁朋友观看_哔哩哔哩_bilibili</h5>
-                        <p class="card-text">
-                            <small class="text-muted">观看次数：9</small>
-                        </p>
-                        <a href="videos/6.html" class="btn btn-primary">观看</a>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+  <!-- 加载中 / 准备素材 -->
+  <section class="screen active" id="screen-loading">
+    <h1>今日听写</h1>
+    <div class="date" id="dateLabel">……</div>
+    <div class="big-emoji">📚</div>
+    <div class="status" id="loadingStatus">正在准备听写素材……</div>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="progress-text" id="progressText">已准备 0 / 0</div>
     </div>
-    <script src="static/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // 分类筛选功能
-        document.querySelectorAll('#category-nav .nav-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const categoryId = this.dataset.category;
-                
-                // 更新导航激活状态
-                document.querySelector('#category-nav .active').classList.remove('active');
-                this.classList.add('active');
-                
-                // 筛选视频
-                document.querySelectorAll('.video-card').forEach(card => {
-                    if (!categoryId || card.dataset.category === categoryId) {
-                        card.style.display = '';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-            });
-        });
-    </script>
+    <button id="btnStart" disabled>开始</button>
+
+    <!-- 开始前:显示本次完整词表 -->
+    <div class="wordlist-box hidden" id="readyWordList">
+      <div class="wordlist-title" id="readyWordListTitle">今日词语</div>
+      <ol class="wordlist" id="readyWordListItems"></ol>
+    </div>
+  </section>
+
+  <!-- 今天没有任务 -->
+  <section class="screen" id="screen-notask">
+    <h1>今日听写</h1>
+    <div class="date" id="dateLabel2">……</div>
+    <div class="big-emoji">🌙</div>
+    <div class="status" id="notaskStatus">今天还没有听写任务</div>
+    <div class="hint">请等家长准备好今天的听写素材后再来。</div>
+    <button class="secondary" onclick="location.reload()">刷新重试</button>
+  </section>
+
+  <!-- 听写进行中 -->
+  <section class="screen" id="screen-session">
+    <div class="counter" id="itemCounter">第 1 / 1 题</div>
+    <div class="big-emoji" id="sessionEmoji">🎧</div>
+    <div class="status" id="sessionStatus">正在听写……</div>
+
+    <div class="mic" id="micIndicator"><span class="dot"></span><span id="micText">麦克风未启动</span></div>
+    <div class="heard" id="heardText"></div>
+
+    <div class="cmds" id="cmdHints">
+      <span class="cmd-chip">说「再说一次」🔁</span>
+      <span class="cmd-chip">说「下一个」➡️</span>
+    </div>
+
+    <div class="fallback hidden" id="fallbackBox">
+      <div class="notice" id="fallbackNotice"></div>
+      <button class="secondary" id="btnRepeat">🔁 再说一次</button>
+      <button class="secondary" id="btnNext">➡️ 下一个</button>
+    </div>
+    <button class="link-btn hidden" id="btnShowFallback">改用按钮控制</button>
+
+    <div style="margin-top:18px;">
+      <button class="danger" id="btnEnd">结束听写</button>
+    </div>
+  </section>
+
+  <!-- 完成 / 已停止 -->
+  <section class="screen" id="screen-done">
+    <div class="big-emoji" id="doneEmoji">🎉</div>
+    <h1 id="doneTitle">听写完成</h1>
+    <div class="done-stats" id="doneStats">今天完成 0 / 0</div>
+
+    <!-- 结束后:再次显示本次完整词表(方便对答案) -->
+    <div class="wordlist-box hidden" id="doneWordList">
+      <div class="wordlist-title" id="doneWordListTitle">今日词语</div>
+      <ol class="wordlist" id="doneWordListItems"></ol>
+    </div>
+
+    <button class="secondary" onclick="location.reload()">返回</button>
+  </section>
+
+<script>
+"use strict";
+/* =========================================================================
+ * 学生端 · 今日听写
+ * 状态机:LOADING → READY → PLAYING ⇄ WAITING_COMMAND → DONE
+ * 素材:Cache Storage 预载,播放全部来自本地缓存,不依赖实时网络。
+ * 语音指令:Web Speech API,播放时暂停识别,识别结束后自动重启。
+ * ========================================================================= */
+
+const BASE = "./";  // 相对路径,兼容 GitHub Pages 子目录部署
+
+/* ------------------------------------------------------------ 基础工具 */
+
+const $ = (id) => document.getElementById(id);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function localDateStr(d) {
+  const p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+function dateLabelCN(dateStr) {
+  const [y, m, d] = dateStr.split("-").map(Number);
+  const dt = new Date(y, (m || 1) - 1, d || 1);
+  const week = "日一二三四五六"[dt.getDay()];
+  return `${y}年${m}月${d}日 · 周${week}`;
+}
+
+/* 词表:优先用计划 JSON 里的 words 原文;老计划没有 words 时退回文件名。
+   注意文件名经过清洗(去空格/去非法字符/截断 24 字)会失真,只作兜底。 */
+function textFromFilename(fn) {
+  return String(fn).replace(/^\d{3}-/, "").replace(/\.mp3$/, "");
+}
+
+function wordAt(i) {
+  if (plan && Array.isArray(plan.words) && typeof plan.words[i] === "string" && plan.words[i].trim()) {
+    return plan.words[i];
+  }
+  return textFromFilename(plan.items[i]);
+}
+
+/** 把本次词表渲染到"开始前"和"结束后"两处(听写过程中不显示) */
+function renderWordLists() {
+  if (!plan || !Array.isArray(plan.items) || !plan.items.length) return;
+  const title = `今日词语(${plan.items.length} 个)`;
+  const targets = [
+    ["readyWordList", "readyWordListTitle", "readyWordListItems"],
+    ["doneWordList", "doneWordListTitle", "doneWordListItems"],
+  ];
+  for (const [boxId, titleId, listId] of targets) {
+    const ol = $(listId);
+    ol.innerHTML = "";
+    plan.items.forEach((_, i) => {
+      const li = document.createElement("li");
+      li.textContent = wordAt(i);   // 用 textContent,词表内容不会被当成 HTML
+      ol.appendChild(li);
+    });
+    $(titleId).textContent = title;
+    $(boxId).classList.remove("hidden");
+  }
+}
+
+const params = new URLSearchParams(location.search);
+const TODAY = localDateStr(new Date());
+const DATE = params.get("date") || TODAY;
+const IS_TEST_DATE = DATE !== TODAY;
+const CACHE_NAME = `dictation-${DATE}`;
+// file:// 等非安全上下文没有 Cache Storage,降级为纯内存模式
+const CACHE_OK = ("caches" in window) && location.protocol.startsWith("http");
+
+/* ------------------------------------------------------------ 全局状态 */
+
+const State = {
+  LOADING: "LOADING",
+  NOTASK: "NOTASK",
+  READY: "READY",
+  PLAYING: "PLAYING",
+  WAITING_COMMAND: "WAITING_COMMAND",
+  DONE: "DONE",
+  STOPPED: "STOPPED",
+};
+
+let state = State.LOADING;
+let plan = null;            // {repeat, items:[filename], words:[词语原文]}
+let audioUrls = [];         // 每题的完整 URL(与 items 对齐)
+let blobUrls = [];          // 预载后生成的 blob URL
+let completeBlobUrl = null; // audio/system/complete.mp3(可选)
+let current = 0;            // 当前题目下标
+let completedCount = 0;     // 已完成题数
+let sessionRunning = false;
+let aborted = false;        // 中途结束标记
+let playToken = 0;          // 播放序列号,防止旧的播放循环继续
+
+const player = new Audio();
+player.preload = "auto";
+
+function setState(s) {
+  state = s;
+  console.log("[state]", s);
+}
+
+function showScreen(id) {
+  for (const el of document.querySelectorAll(".screen")) el.classList.remove("active");
+  $(id).classList.add("active");
+}
+
+/* ------------------------------------------------------------ 素材预载 */
+
+function audioUrlOf(filename) {
+  return `${BASE}audio/${DATE}/${encodeURI(filename)}`;
+}
+
+async function ensureCached(url) {
+  if (CACHE_OK) {
+    try {
+      const cache = await caches.open(CACHE_NAME);
+      const hit = await cache.match(url);
+      if (hit) return hit;
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
+      const ct = resp.headers.get("content-type") || "";
+      // GitHub Pages 404 会返回 HTML,必须挡住
+      if (ct.includes("text/html")) throw new Error("素材不存在(404)");
+      await cache.put(url, resp.clone());
+      return resp;
+    } catch (e) {
+      // Cache Storage 异常时退化为直接 fetch
+      if (e && e.name === "SecurityError") {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        return resp;
+      }
+      throw e;
+    }
+  }
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error("HTTP " + resp.status);
+  return resp;
+}
+
+function updateProgress(done, total, text) {
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  $("progressFill").style.width = pct + "%";
+  $("progressText").textContent = text || `已准备 ${done} / ${total} · ${pct}%`;
+}
+
+async function loadPlan() {
+  $("dateLabel").innerHTML = dateLabelCN(DATE) +
+    (IS_TEST_DATE ? ' <span class="test-badge">测试日期</span>' : "");
+  $("dateLabel2").innerHTML = $("dateLabel").innerHTML;
+
+  let resp;
+  try {
+    // 稳定 URL + no-store:交给 Service Worker 做离线兜底
+    resp = await fetch(`${BASE}data/${DATE}.json`, { cache: "no-store" });
+  } catch (e) {
+    // 网络错误:尝试从缓存读旧计划(离线二次打开)
+    if (CACHE_OK) {
+      try {
+        const cache = await caches.open(CACHE_NAME);
+        const hit = await cache.match(`${BASE}data/${DATE}.json`);
+        if (hit) resp = hit;
+      } catch (_) { /* 忽略 */ }
+    }
+    if (!resp) {
+      $("notaskStatus").textContent = "网络不可用,且没有缓存的任务";
+      setState(State.NOTASK);
+      showScreen("screen-notask");
+      return;
+    }
+  }
+
+  if (!resp || !resp.ok) {
+    setState(State.NOTASK);
+    showScreen("screen-notask");
+    return;
+  }
+
+  try {
+    plan = await resp.json();
+  } catch (e) {
+    $("notaskStatus").textContent = "任务文件损坏,请联系家长重新生成";
+    setState(State.NOTASK);
+    showScreen("screen-notask");
+    return;
+  }
+
+  if (!plan || !Array.isArray(plan.items) || plan.items.length === 0) {
+    setState(State.NOTASK);
+    showScreen("screen-notask");
+    return;
+  }
+  if (CACHE_OK) {
+    // 计划 JSON 也写入当天缓存,供离线兜底
+    try {
+      const cache = await caches.open(CACHE_NAME);
+      await cache.put(`${BASE}data/${DATE}.json`, new Response(JSON.stringify(plan), {
+        headers: { "Content-Type": "application/json" },
+      }));
+    } catch (_) { /* 忽略 */ }
+  }
+
+  audioUrls = plan.items.map(audioUrlOf);
+  renderWordLists();   // 开始前就把词表显示出来
+  await preloadAll();
+}
+
+async function preloadAll() {
+  const total = audioUrls.length;
+  blobUrls = new Array(total).fill(null);
+  let done = 0;
+  const failed = [];
+
+  updateProgress(0, total);
+
+  for (let i = 0; i < total; i++) {
+    $("loadingStatus").textContent = "正在准备听写素材……";
+    try {
+      const resp = await ensureCached(audioUrls[i]);
+      const blob = await resp.blob();
+      blobUrls[i] = URL.createObjectURL(blob);
+      done++;
+    } catch (e) {
+      console.warn("预载失败:", audioUrls[i], e);
+      failed.push(i);
+    }
+    updateProgress(done, total);
+  }
+
+  // 完成提示音(可选,不计入进度)
+  try {
+    const resp = await ensureCached(`${BASE}audio/system/complete.mp3`);
+    const blob = await resp.blob();
+    completeBlobUrl = URL.createObjectURL(blob);
+  } catch (_) { completeBlobUrl = null; }
+
+  if (failed.length) {
+    $("loadingStatus").innerHTML =
+      `有 ${failed.length} 条素材下载失败<br><span style="font-size:14px;color:var(--muted);">请检查网络后重试</span>`;
+    $("btnStart").textContent = "重试下载";
+    $("btnStart").disabled = false;
+    $("btnStart").onclick = () => { $("btnStart").disabled = true; preloadAll(); };
+    return;
+  }
+
+  setState(State.READY);
+  $("loadingStatus").textContent = "素材已准备就绪";
+  updateProgress(total, total, `已准备 ${total} / ${total} · 100%`);
+  const repeat = plan.repeat || 2;
+  $("loadingStatus").innerHTML =
+    `素材已准备就绪<br><span style="font-size:14px;color:var(--muted);">共 ${total} 题 · 每题自动朗读 ${repeat} 遍</span>`;
+  $("btnStart").textContent = "开始";
+  $("btnStart").disabled = false;
+  $("btnStart").onclick = startSession;
+}
+
+/* ------------------------------------------------------------ 播放 */
+
+function playOnce(src) {
+  return new Promise((resolve, reject) => {
+    player.onended = () => resolve();
+    player.onerror = () => reject(new Error("音频播放失败"));
+    player.src = src;
+    player.play().catch(reject);
+  });
+}
+
+function stopPlayback() {
+  playToken++;          // 使正在进行的播放循环全部作废
+  try { player.pause(); } catch (_) { /* 忽略 */ }
+  player.removeAttribute("src");
+}
+
+async function playItem(index, times) {
+  const token = ++playToken;
+  setState(State.PLAYING);
+  updateSessionUI();
+  pauseRecognitionForPlayback();
+
+  let playFailed = false;
+  for (let k = 0; k < times; k++) {
+    if (aborted || token !== playToken) return;
+    try {
+      await playOnce(blobUrls[index]);
+    } catch (e) {
+      console.warn(e);
+      if (aborted || token !== playToken) return;
+      playFailed = true;
+      break;
+    }
+    if (k < times - 1) {
+      await sleep(1000); // 两遍之间间隔 1 秒
+      if (aborted || token !== playToken) return;
+    }
+  }
+
+  if (aborted || token !== playToken) return;
+  setState(State.WAITING_COMMAND);
+  setSessionStatus(playFailed ? "⚠️ 这条音频播放失败,说「下一个」跳过" : "✍️ 请写下来,写好再说「下一个」");
+  updateSessionUI();
+  resumeRecognitionAfterPlayback();
+}
+
+/* ------------------------------------------------------------ 会话流程 */
+
+function startSession() {
+  if (state !== State.READY) return;
+  sessionRunning = true;
+  aborted = false;
+  current = 0;
+  completedCount = 0;
+  showScreen("screen-session");
+  initSpeech();
+  // 语音可用时也提供按钮控制的入口(嘈杂环境/麦克风故障时可切换)
+  $("btnShowFallback").classList.toggle("hidden", !srSupported);
+  playItem(current, plan.repeat || 2);
+}
+
+function handleCommand(cmd) {
+  if (!sessionRunning || state !== State.WAITING_COMMAND) return;
+  if (cmd === "repeat") {
+    showHeard(`收到:<b>再说一次</b> 🔁`);
+    playItem(current, 1);
+  } else if (cmd === "next") {
+    showHeard(`收到:<b>下一个</b> ➡️`);
+    completedCount = Math.max(completedCount, current + 1);
+    current++;
+    if (current >= plan.items.length) {
+      finishSession();
+    } else {
+      playItem(current, plan.repeat || 2);
+    }
+  }
+}
+
+async function finishSession() {
+  sessionRunning = false;
+  stopRecognition();
+  setState(State.DONE);
+  completedCount = plan.items.length;
+  showScreen("screen-done");
+  $("doneEmoji").textContent = "🎉";
+  $("doneTitle").textContent = "听写完成";
+  $("doneStats").textContent = `今天完成 ${completedCount} / ${plan.items.length}`;
+  if (completeBlobUrl) {
+    try { await playOnce(completeBlobUrl); } catch (_) { /* 忽略 */ }
+  }
+}
+
+function endSession() {
+  if (!sessionRunning) return;
+  aborted = true;
+  sessionRunning = false;
+  stopPlayback();
+  stopRecognition();
+  setState(State.STOPPED);
+  showScreen("screen-done");
+  $("doneEmoji").textContent = "🏁";
+  $("doneTitle").textContent = "听写已结束";
+  $("doneStats").textContent = `本次完成 ${completedCount} / ${plan.items.length}`;
+}
+
+/* ------------------------------------------------------------ 界面更新 */
+
+function setSessionStatus(text) { $("sessionStatus").textContent = text; }
+function showHeard(html) { $("heardText").innerHTML = html; }
+
+function updateSessionUI() {
+  $("itemCounter").textContent = `第 ${current + 1} / ${plan ? plan.items.length : 0} 题`;
+  const playing = state === State.PLAYING;
+  $("sessionEmoji").classList.toggle("playing", playing);
+  $("sessionEmoji").textContent = playing ? "🔊" : "🎧";
+  if (playing) setSessionStatus("正在朗读……");
+  updateMicIndicator();
+}
+
+function updateMicIndicator() {
+  const mic = $("micIndicator");
+  const text = $("micText");
+  if (!srSupported) {
+    mic.classList.remove("listening");
+    text.textContent = "语音不可用,请使用按钮";
+    return;
+  }
+  if (state === State.PLAYING) {
+    mic.classList.remove("listening");
+    text.textContent = "朗读中,麦克风暂歇";
+  } else if (state === State.WAITING_COMMAND && sessionRunning) {
+    mic.classList.add("listening");
+    text.textContent = "🎤 正在监听语音指令";
+  } else {
+    mic.classList.remove("listening");
+    text.textContent = "麦克风未启动";
+  }
+}
+
+/* ------------------------------------------------------------ 语音指令 */
+
+const NEXT_WORDS = [
+  "下一个", "下一個", "下一题", "下一題", "下一个吧", "下一個吧",
+  "可以了", "好了", "继续", "繼續", "跳过", "跳過",
+];
+const REPEAT_WORDS = [
+  "再说一次", "再說一次", "再说一遍", "再說一遍",
+  "再来一次", "再來一次", "再听一次", "再聽一次",
+  "再读一遍", "再讀一遍", "重复", "重複", "重听", "重聽",
+];
+
+let lastCommandAt = 0;
+
+function matchCommand(rawText) {
+  // 只做简单关键词匹配:这是听写工具,不是 AI 助手
+  const text = String(rawText || "").replace(/[\s,。.!！?？、]/g, "");
+  if (!text) return null;
+  for (const w of REPEAT_WORDS) if (text.includes(w)) return "repeat";
+  for (const w of NEXT_WORDS) if (text.includes(w)) return "next";
+  return null;
+}
+
+function handleTranscript(text) {
+  showHeard(`听到:${text}`);
+  const cmd = matchCommand(text);
+  if (!cmd) return;
+  const now = Date.now();
+  if (now - lastCommandAt < 800) return; // 防抖:识别重启可能重复返回同一句
+  lastCommandAt = now;
+  handleCommand(cmd);
+}
+
+let recognition = null;
+let srSupported = false;
+let pausedForPlayback = false;
+let restartTimer = null;
+let micDenied = false;
+
+function initSpeech() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) {
+    srSupported = false;
+    showFallback("当前浏览器不支持语音识别,请用按钮控制。建议使用 Chrome / Edge / Safari。");
+    return;
+  }
+  try {
+    recognition = new SR();
+  } catch (e) {
+    srSupported = false;
+    showFallback("语音识别初始化失败,请用按钮控制。");
+    return;
+  }
+  recognition.lang = "zh-CN";
+  recognition.continuous = true;
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+
+  recognition.onstart = () => updateMicIndicator();
+
+  recognition.onresult = (event) => {
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      if (!event.results[i].isFinal) continue;
+      const text = event.results[i][0].transcript.trim();
+      if (text) handleTranscript(text);
+    }
+  };
+
+  recognition.onerror = (event) => {
+    console.warn("[speech] error:", event.error);
+    if (event.error === "not-allowed" || event.error === "service-not-allowed") {
+      micDenied = true;
+      srSupported = false;
+      showFallback("麦克风权限被拒绝,请用按钮控制(或在浏览器设置中允许麦克风)。");
+    }
+    // no-speech / network 等错误交给 onend 自动重启
+  };
+
+  recognition.onend = () => {
+    // continuous=true 也可能被浏览器停止 → 会话期间自动重启
+    if (sessionRunning && srSupported && !pausedForPlayback && !micDenied) {
+      clearTimeout(restartTimer);
+      restartTimer = setTimeout(() => {
+        try { recognition.start(); } catch (_) { /* 已在运行 */ }
+      }, 300);
+    }
+    updateMicIndicator();
+  };
+
+  srSupported = true;
+  pausedForPlayback = false;
+  try { recognition.start(); } catch (_) { /* 忽略重复 start */ }
+  updateSessionUI();
+}
+
+// 播放时必须暂停识别,否则会把朗读内容误认为学生指令
+function pauseRecognitionForPlayback() {
+  if (!srSupported || !recognition) return;
+  pausedForPlayback = true;
+  clearTimeout(restartTimer);
+  try { recognition.stop(); } catch (_) { /* 忽略 */ }
+  updateMicIndicator();
+}
+
+function resumeRecognitionAfterPlayback() {
+  if (!srSupported || !recognition) return;
+  pausedForPlayback = false;
+  try { recognition.start(); } catch (_) { /* 已在运行 */ }
+  updateMicIndicator();
+}
+
+function stopRecognition() {
+  sessionRunning = false;
+  clearTimeout(restartTimer);
+  if (recognition) { try { recognition.stop(); } catch (_) { /* 忽略 */ } }
+  updateMicIndicator();
+}
+
+function showFallback(notice) {
+  $("fallbackBox").classList.remove("hidden");
+  $("btnShowFallback").classList.add("hidden");
+  $("cmdHints").classList.add("hidden");
+  if (notice) $("fallbackNotice").textContent = notice;
+  updateMicIndicator();
+}
+
+/* ------------------------------------------------------------ 事件绑定 */
+
+$("btnEnd").addEventListener("click", endSession);
+$("btnRepeat").addEventListener("click", () => {
+  if (state === State.WAITING_COMMAND) handleCommand("repeat");
+});
+$("btnNext").addEventListener("click", () => {
+  if (state === State.WAITING_COMMAND) handleCommand("next");
+});
+$("btnShowFallback").addEventListener("click", () => showFallback(""));
+
+/* ------------------------------------------------------------ Service Worker */
+
+function registerSW() {
+  if (!("serviceWorker" in navigator) || !location.protocol.startsWith("http")) return;
+  navigator.serviceWorker
+    .register(new URL(`${BASE}sw.js`, location.href).href)
+    .catch((e) => console.warn("SW 注册失败:", e));
+}
+
+/* ------------------------------------------------------------ 启动 */
+
+registerSW();
+loadPlan().catch((e) => {
+  console.error(e);
+  $("notaskStatus").textContent = "加载失败:" + e.message;
+  setState(State.NOTASK);
+  showScreen("screen-notask");
+});
+</script>
 </body>
 </html>
