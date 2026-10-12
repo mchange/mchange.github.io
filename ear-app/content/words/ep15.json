@@ -1,0 +1,65 @@
+{
+ "id": "ep15",
+ "words": [
+  {
+   "en": "oven",
+   "zh": "烤箱",
+   "emoji": "🍞",
+   "line": 0
+  },
+  {
+   "en": "hot",
+   "zh": "热的",
+   "emoji": "🔥",
+   "line": 13
+  },
+  {
+   "en": "cake",
+   "zh": "蛋糕",
+   "emoji": "🎂",
+   "line": 28
+  },
+  {
+   "en": "gas",
+   "zh": "燃气",
+   "emoji": "⛽",
+   "line": 20
+  },
+  {
+   "en": "burn",
+   "zh": "燃烧",
+   "emoji": "🧨",
+   "line": 20
+  },
+  {
+   "en": "heat",
+   "zh": "热量",
+   "emoji": "♨️",
+   "line": 15
+  },
+  {
+   "en": "stove",
+   "zh": "炉灶",
+   "emoji": "🍳",
+   "line": 48
+  },
+  {
+   "en": "inside",
+   "zh": "在里面",
+   "emoji": "📦",
+   "line": 16
+  },
+  {
+   "en": "fresh",
+   "zh": "新鲜的",
+   "emoji": "🍃",
+   "line": 28
+  },
+  {
+   "en": "bake",
+   "zh": "烘烤",
+   "emoji": "🥧",
+   "line": 19
+  }
+ ]
+}

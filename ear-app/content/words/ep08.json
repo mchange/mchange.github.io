@@ -1,0 +1,65 @@
+{
+ "id": "ep08",
+ "words": [
+  {
+   "en": "light",
+   "zh": "灯",
+   "emoji": "💡",
+   "line": 12
+  },
+  {
+   "en": "nightlight",
+   "zh": "夜灯",
+   "emoji": "🌟",
+   "line": 1
+  },
+  {
+   "en": "sleep",
+   "zh": "睡觉",
+   "emoji": "😴",
+   "line": 11
+  },
+  {
+   "en": "scared",
+   "zh": "害怕的",
+   "emoji": "😨",
+   "line": 4
+  },
+  {
+   "en": "electricity",
+   "zh": "电",
+   "emoji": "⚡",
+   "line": 14
+  },
+  {
+   "en": "clock",
+   "zh": "时钟",
+   "emoji": "🕐",
+   "line": 73
+  },
+  {
+   "en": "night",
+   "zh": "夜晚",
+   "emoji": "🌙",
+   "line": 1
+  },
+  {
+   "en": "monsters",
+   "zh": "怪物",
+   "emoji": "👾",
+   "line": 2
+  },
+  {
+   "en": "energy",
+   "zh": "能量",
+   "emoji": "🔋",
+   "line": 22
+  },
+  {
+   "en": "dark",
+   "zh": "黑暗的",
+   "emoji": "🌑",
+   "line": 54
+  }
+ ]
+}

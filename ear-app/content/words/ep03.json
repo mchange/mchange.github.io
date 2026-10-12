@@ -1,0 +1,65 @@
+{
+ "id": "ep03",
+ "words": [
+  {
+   "en": "refrigerator",
+   "zh": "冰箱",
+   "emoji": "🧊",
+   "line": 3
+  },
+  {
+   "en": "freezer",
+   "zh": "冷冻室",
+   "emoji": "❄️",
+   "line": 19
+  },
+  {
+   "en": "cold",
+   "zh": "冷的",
+   "emoji": "🥶",
+   "line": 26
+  },
+  {
+   "en": "warm",
+   "zh": "暖和的",
+   "emoji": "☀️",
+   "line": 26
+  },
+  {
+   "en": "gum",
+   "zh": "口香糖",
+   "emoji": "🍬",
+   "line": 14
+  },
+  {
+   "en": "liquid",
+   "zh": "液体",
+   "emoji": "💧",
+   "line": 28
+  },
+  {
+   "en": "tube",
+   "zh": "管子",
+   "emoji": "🧪",
+   "line": 28
+  },
+  {
+   "en": "pump",
+   "zh": "泵",
+   "emoji": "⚙️",
+   "line": 28
+  },
+  {
+   "en": "pants",
+   "zh": "裤子",
+   "emoji": "👖",
+   "line": 19
+  },
+  {
+   "en": "inside",
+   "zh": "在里面",
+   "emoji": "📦",
+   "line": 28
+  }
+ ]
+}

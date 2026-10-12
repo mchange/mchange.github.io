@@ -1,0 +1,65 @@
+{
+ "id": "ep04",
+ "words": [
+  {
+   "en": "vent",
+   "zh": "通风管",
+   "emoji": "🌬️",
+   "line": 2
+  },
+  {
+   "en": "water",
+   "zh": "水",
+   "emoji": "💧",
+   "line": 36
+  },
+  {
+   "en": "air",
+   "zh": "空气",
+   "emoji": "💨",
+   "line": 59
+  },
+  {
+   "en": "bubbles",
+   "zh": "泡泡",
+   "emoji": "🫧",
+   "line": 36
+  },
+  {
+   "en": "blow",
+   "zh": "吹",
+   "emoji": "🎈",
+   "line": 33
+  },
+  {
+   "en": "coin",
+   "zh": "硬币",
+   "emoji": "🪙",
+   "line": 42
+  },
+  {
+   "en": "picture",
+   "zh": "图片",
+   "emoji": "🖼️",
+   "line": 28
+  },
+  {
+   "en": "drop",
+   "zh": "水滴",
+   "emoji": "💦",
+   "line": 43
+  },
+  {
+   "en": "soap",
+   "zh": "肥皂",
+   "emoji": "🧼",
+   "line": 36
+  },
+  {
+   "en": "force",
+   "zh": "力量",
+   "emoji": "💪",
+   "line": 47
+  }
+ ]
+}

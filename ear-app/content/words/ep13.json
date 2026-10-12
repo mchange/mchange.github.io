@@ -1,0 +1,65 @@
+{
+ "id": "ep13",
+ "words": [
+  {
+   "en": "wires",
+   "zh": "电线",
+   "emoji": "➰",
+   "line": 1
+  },
+  {
+   "en": "outlet",
+   "zh": "插座",
+   "emoji": "🔌",
+   "line": 8
+  },
+  {
+   "en": "plug",
+   "zh": "插头",
+   "emoji": "🧷",
+   "line": 8
+  },
+  {
+   "en": "electricity",
+   "zh": "电",
+   "emoji": "⚡",
+   "line": 68
+  },
+  {
+   "en": "professor",
+   "zh": "教授",
+   "emoji": "👨‍🔬",
+   "line": 7
+  },
+  {
+   "en": "pull",
+   "zh": "拉",
+   "emoji": "💪",
+   "line": 15
+  },
+  {
+   "en": "laboratory",
+   "zh": "实验室",
+   "emoji": "🧪",
+   "line": 14
+  },
+  {
+   "en": "fan",
+   "zh": "风扇",
+   "emoji": "🌬️",
+   "line": 8
+  },
+  {
+   "en": "class",
+   "zh": "课",
+   "emoji": "🏫",
+   "line": 4
+  },
+  {
+   "en": "free",
+   "zh": "空着的",
+   "emoji": "🕊️",
+   "line": 14
+  }
+ ]
+}

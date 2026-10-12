@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+._*
+
+# 编辑器
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 本地大体积媒体（如需上传请单独确认）
+ear-app/content.bak*/

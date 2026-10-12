@@ -1,0 +1,65 @@
+{
+ "id": "ep09",
+ "words": [
+  {
+   "en": "pen",
+   "zh": "笔",
+   "emoji": "🖊️",
+   "line": 3
+  },
+  {
+   "en": "ink",
+   "zh": "墨水",
+   "emoji": "🖋️",
+   "line": 29
+  },
+  {
+   "en": "teacher",
+   "zh": "老师",
+   "emoji": "👩‍🏫",
+   "line": 7
+  },
+  {
+   "en": "book",
+   "zh": "书",
+   "emoji": "📖",
+   "line": 7
+  },
+  {
+   "en": "paper",
+   "zh": "纸",
+   "emoji": "📄",
+   "line": 35
+  },
+  {
+   "en": "red",
+   "zh": "红色",
+   "emoji": "🔴",
+   "line": 5
+  },
+  {
+   "en": "metal",
+   "zh": "金属",
+   "emoji": "⚙️",
+   "line": 31
+  },
+  {
+   "en": "fix",
+   "zh": "修理",
+   "emoji": "🔧",
+   "line": 11
+  },
+  {
+   "en": "problem",
+   "zh": "问题",
+   "emoji": "❓",
+   "line": 18
+  },
+  {
+   "en": "sad",
+   "zh": "难过的",
+   "emoji": "😢",
+   "line": 43
+  }
+ ]
+}

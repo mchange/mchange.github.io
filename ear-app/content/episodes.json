@@ -1,0 +1,183 @@
+{
+ "version": 1,
+ "generatedAt": "2026-10-12T05:44:31+00:00",
+ "source": "./episodes",
+ "episodes": [
+  {
+   "id": "ep01",
+   "order": 1,
+   "title": "The Alarm",
+   "durationSeconds": 346.3,
+   "video": "./episodes_h264/01 The Alarm.mp4",
+   "videoFallback": "./episodes/01 The Alarm.mp4",
+   "thumbnail": "content/thumbs/ep01.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 72
+  },
+  {
+   "id": "ep02",
+   "order": 2,
+   "title": "The Pen",
+   "durationSeconds": 342.98,
+   "video": "./episodes_h264/02 The Pen.mp4",
+   "videoFallback": "./episodes/02 The Pen.mp4",
+   "thumbnail": "content/thumbs/ep02.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 87
+  },
+  {
+   "id": "ep03",
+   "order": 3,
+   "title": "The Refrigerator",
+   "durationSeconds": 344.44,
+   "video": "./episodes_h264/03 The Refrigerator.mp4",
+   "videoFallback": "./episodes/03 The Refrigerator.mp4",
+   "thumbnail": "content/thumbs/ep03.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 84
+  },
+  {
+   "id": "ep04",
+   "order": 4,
+   "title": "The Vent",
+   "durationSeconds": 343.0,
+   "video": "./episodes_h264/04 The Vent.mp4",
+   "videoFallback": "./episodes/04 The Vent.mp4",
+   "thumbnail": "content/thumbs/ep04.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 82
+  },
+  {
+   "id": "ep05",
+   "order": 5,
+   "title": "The Washing Machine",
+   "durationSeconds": 340.52,
+   "video": "./episodes_h264/05 The Washing Machine.mp4",
+   "videoFallback": "./episodes/05 The Washing Machine.mp4",
+   "thumbnail": "content/thumbs/ep05.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 78
+  },
+  {
+   "id": "ep06",
+   "order": 6,
+   "title": "The Alarm (2)",
+   "durationSeconds": 346.42,
+   "video": "./episodes_h264/06 The Alarm (2).mp4",
+   "videoFallback": "./episodes/06 The Alarm (2).mp4",
+   "thumbnail": "content/thumbs/ep06.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 85
+  },
+  {
+   "id": "ep07",
+   "order": 7,
+   "title": "School",
+   "durationSeconds": 342.61,
+   "video": "./episodes_h264/07 School.mp4",
+   "videoFallback": "./episodes/07 School.mp4",
+   "thumbnail": "content/thumbs/ep07.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 91
+  },
+  {
+   "id": "ep08",
+   "order": 8,
+   "title": "The Nightlight",
+   "durationSeconds": 342.88,
+   "video": "./episodes_h264/08 The Nightlight.mp4",
+   "videoFallback": "./episodes/08 The Nightlight.mp4",
+   "thumbnail": "content/thumbs/ep08.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 79
+  },
+  {
+   "id": "ep09",
+   "order": 9,
+   "title": "The Assignment Book",
+   "durationSeconds": 345.0,
+   "video": "./episodes_h264/09 The Assignment Book.mp4",
+   "videoFallback": "./episodes/09 The Assignment Book.mp4",
+   "thumbnail": "content/thumbs/ep09.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 87
+  },
+  {
+   "id": "ep10",
+   "order": 10,
+   "title": "The Wires",
+   "durationSeconds": 342.7,
+   "video": "./episodes_h264/10 The Wires.mp4",
+   "videoFallback": "./episodes/10 The Wires.mp4",
+   "thumbnail": "content/thumbs/ep10.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 88
+  },
+  {
+   "id": "ep11",
+   "order": 11,
+   "title": "The Thermometer",
+   "durationSeconds": 342.17,
+   "video": "./episodes_h264/11 The Thermometer.mp4",
+   "videoFallback": "./episodes/11 The Thermometer.mp4",
+   "thumbnail": "content/thumbs/ep11.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 100
+  },
+  {
+   "id": "ep12",
+   "order": 12,
+   "title": "The Manipulator",
+   "durationSeconds": 344.35,
+   "video": "./episodes_h264/12 The Manipulator.mp4",
+   "videoFallback": "./episodes/12 The Manipulator.mp4",
+   "thumbnail": "content/thumbs/ep12.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 77
+  },
+  {
+   "id": "ep13",
+   "order": 13,
+   "title": "The Wires (2)",
+   "durationSeconds": 343.54,
+   "video": "./episodes_h264/13 The Wires (2).mp4",
+   "videoFallback": "./episodes/13 The Wires (2).mp4",
+   "thumbnail": "content/thumbs/ep13.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 89
+  },
+  {
+   "id": "ep14",
+   "order": 14,
+   "title": "The Washing Machine (2)",
+   "durationSeconds": 344.05,
+   "video": "./episodes_h264/14 The Washing Machine (2).mp4",
+   "videoFallback": "./episodes/14 The Washing Machine (2).mp4",
+   "thumbnail": "content/thumbs/ep14.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 74
+  },
+  {
+   "id": "ep15",
+   "order": 15,
+   "title": "The Oven",
+   "durationSeconds": 342.12,
+   "video": "./episodes_h264/15 The Oven.mp4",
+   "videoFallback": "./episodes/15 The Oven.mp4",
+   "thumbnail": "content/thumbs/ep15.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 76
+  },
+  {
+   "id": "ep16",
+   "order": 16,
+   "title": "The Lie Detector",
+   "durationSeconds": 351.57,
+   "video": "./episodes_h264/16 The Lie Detector.mp4",
+   "videoFallback": "./episodes/16 The Lie Detector.mp4",
+   "thumbnail": "content/thumbs/ep16.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 103
+  }
+ ]
+}

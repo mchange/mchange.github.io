@@ -1,0 +1,65 @@
+{
+ "id": "ep02",
+ "words": [
+  {
+   "en": "pen",
+   "zh": "笔",
+   "emoji": "🖊️",
+   "line": 5
+  },
+  {
+   "en": "ink",
+   "zh": "墨水",
+   "emoji": "🖋️",
+   "line": 31
+  },
+  {
+   "en": "paper",
+   "zh": "纸",
+   "emoji": "📄",
+   "line": 37
+  },
+  {
+   "en": "metal",
+   "zh": "金属",
+   "emoji": "⚙️",
+   "line": 33
+  },
+  {
+   "en": "red",
+   "zh": "红色",
+   "emoji": "🔴",
+   "line": 7
+  },
+  {
+   "en": "teacher",
+   "zh": "老师",
+   "emoji": "👩‍🏫",
+   "line": 9
+  },
+  {
+   "en": "tip",
+   "zh": "笔尖",
+   "emoji": "📍",
+   "line": 33
+  },
+  {
+   "en": "knife",
+   "zh": "刀",
+   "emoji": "🔪",
+   "line": 27
+  },
+  {
+   "en": "ball",
+   "zh": "球",
+   "emoji": "⚽",
+   "line": 28
+  },
+  {
+   "en": "book",
+   "zh": "书",
+   "emoji": "📖",
+   "line": 9
+  }
+ ]
+}

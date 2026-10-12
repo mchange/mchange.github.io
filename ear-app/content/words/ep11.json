@@ -1,0 +1,65 @@
+{
+ "id": "ep11",
+ "words": [
+  {
+   "en": "thermometer",
+   "zh": "温度计",
+   "emoji": "🌡️",
+   "line": 2
+  },
+  {
+   "en": "mercury",
+   "zh": "水银",
+   "emoji": "🔮",
+   "line": 4
+  },
+  {
+   "en": "temperature",
+   "zh": "温度",
+   "emoji": "🥵",
+   "line": 22
+  },
+  {
+   "en": "glass",
+   "zh": "玻璃",
+   "emoji": "🥛",
+   "line": 18
+  },
+  {
+   "en": "silver",
+   "zh": "银色",
+   "emoji": "🥈",
+   "line": 16
+  },
+  {
+   "en": "mom",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 11
+  },
+  {
+   "en": "math",
+   "zh": "数学",
+   "emoji": "➗",
+   "line": 7
+  },
+  {
+   "en": "test",
+   "zh": "考试",
+   "emoji": "📝",
+   "line": 7
+  },
+  {
+   "en": "liquid",
+   "zh": "液体",
+   "emoji": "💧",
+   "line": 16
+  },
+  {
+   "en": "trick",
+   "zh": "捉弄",
+   "emoji": "🎩",
+   "line": 11
+  }
+ ]
+}
