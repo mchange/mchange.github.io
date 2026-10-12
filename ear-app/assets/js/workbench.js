@@ -461,9 +461,9 @@ export async function renderWorkbench(host, ep) {
   /* 播放时自动收起进度条和控制条，把画面让出来；点画面 / 暂停即唤回 */
   let chromeTimer = 0;
   let chromeHintShown = false;
-  function chromeVisible() { return !stageScroll.classList.contains('chrome-hidden'); }
+  function chromeVisible() { return !wbRoot.classList.contains('chrome-hidden'); }
   function setChrome(visible) {
-    stageScroll.classList.toggle('chrome-hidden', !visible);
+    wbRoot.classList.toggle('chrome-hidden', !visible);
   }
   function scheduleChromeHide() {
     clearTimeout(chromeTimer);
@@ -481,6 +481,7 @@ export async function renderWorkbench(host, ep) {
   function showChrome() {
     clearTimeout(chromeTimer);
     setChrome(true);
+    if (S.playState === 'playing') scheduleChromeHide();  // 唤回后仍会自动收起
   }
   stageScroll.addEventListener('pointerdown', () => {
     if (chromeVisible()) scheduleChromeHide();

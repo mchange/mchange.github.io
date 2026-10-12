@@ -449,13 +449,15 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
 
 /* --- 播放时自动收起进度条和控制条 ---
    播放中 2.6s 无操作 → 整块收起（高度过渡到 0，不占位），
-   点一下画面 / 暂停立刻唤回。收起时把视频上限抬高，
-   画面能多吃到省出来的纵向空间。 */
+   点一下画面 / 暂停立刻唤回。收起时同时把字幕表收窄一点，
+   播放器变宽，画面真的能变大（不只是省出下面那条）。 */
 .transport, .controls-row {
   transition: max-height .3s ease, opacity .22s ease, padding .3s ease;
 }
-.chrome-hidden .transport,
-.chrome-hidden .controls-row {
+.transport { max-height: 90px; }
+.controls-row { max-height: 320px; }
+.wb.chrome-hidden .transport,
+.wb.chrome-hidden .controls-row {
   max-height: 0 !important;
   opacity: 0;
   overflow: hidden;
@@ -464,9 +466,11 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   border-top-width: 0; border-bottom-width: 0;
   box-shadow: none;
 }
-.transport { max-height: 90px; }
-.controls-row { max-height: 320px; }
-.chrome-hidden .player video { max-height: 58vh; }
+.wb.chrome-hidden .player video { max-height: 58vh; }
+.wb-body { transition: grid-template-columns .3s ease; }
+.wb.chrome-hidden .wb-body {
+  grid-template-columns: minmax(0, 1fr) clamp(230px, 21%, 320px);
+}
 
 .btn-play {
   width: 56px; height: 56px; border-radius: 50%; padding: 0;
@@ -875,6 +879,11 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
      交给上面的 grid 行 minmax(220px, 1fr) 分配剩余高度即可。 */
   .transcript { min-height: 0; }
   .player video { max-height: 38vh; }
+  /* 竖屏是上下排布，收起控制时保持单列，不参与字幕表收窄；
+     省出的高度让给播放器区域，闪卡不用滚太久就能看到 */
+  .wb.chrome-hidden .wb-body { grid-template-columns: minmax(0, 1fr); }
+  .wb.chrome-hidden .wb-stage { max-height: 76vh; }
+  .wb.chrome-hidden .player video { max-height: 46vh; }
   .fc-row { grid-auto-columns: clamp(124px, 26cqw, 168px); }
   .fc-card { height: 148px; }
   .page-title { font-size: 21px; }
@@ -892,6 +901,7 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
 /* 横屏但高度很矮（iPad 横屏 + Safari 工具栏）时的紧凑处理 */
 @media (orientation: landscape) and (max-height: 520px) {
   .player video { max-height: 46vh; }
+  .wb.chrome-hidden .player video { max-height: 56vh; }
   .fc-card { height: 132px; }
   .fc-emoji { font-size: 27px; }
   .controls-row { padding: 8px 11px; }
