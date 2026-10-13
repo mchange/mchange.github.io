@@ -2,64 +2,88 @@
  "id": "ep11",
  "words": [
   {
-   "en": "thermometer",
-   "zh": "温度计",
-   "emoji": "🌡️",
-   "line": 2
-  },
-  {
-   "en": "mercury",
-   "zh": "水银",
-   "emoji": "🔮",
-   "line": 4
-  },
-  {
-   "en": "temperature",
-   "zh": "温度",
-   "emoji": "🥵",
-   "line": 22
-  },
-  {
-   "en": "glass",
-   "zh": "玻璃",
-   "emoji": "🥛",
-   "line": 18
-  },
-  {
-   "en": "silver",
-   "zh": "银色",
-   "emoji": "🥈",
-   "line": 16
-  },
-  {
-   "en": "mom",
-   "zh": "妈妈",
-   "emoji": "👩",
-   "line": 11
-  },
-  {
+   "type": "word",
    "en": "math",
    "zh": "数学",
    "emoji": "➗",
    "line": 7
   },
   {
-   "en": "test",
-   "zh": "考试",
-   "emoji": "📝",
-   "line": 7
+   "type": "word",
+   "en": "thermometer",
+   "zh": "温度计",
+   "emoji": "🌡️",
+   "line": 12
   },
   {
+   "type": "word",
+   "en": "silver",
+   "zh": "银色",
+   "emoji": "🥈",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "mercury",
+   "zh": "水银",
+   "emoji": "🔮",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "temperature",
+   "zh": "温度",
+   "emoji": "🥵",
+   "line": 20
+  },
+  {
+   "type": "phrase",
+   "en": "Tom Thomas, you're a genius!",
+   "zh": "托马斯，你真是个天才！",
+   "emoji": "💡",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "mom",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 41
+  },
+  {
+   "type": "phrase",
+   "en": "Maybe it's better to tell the truth.",
+   "zh": "也许说实话更好。",
+   "emoji": "💬",
+   "line": 44
+  },
+  {
+   "type": "word",
    "en": "liquid",
    "zh": "液体",
    "emoji": "💧",
-   "line": 16
+   "line": 55
   },
   {
+   "type": "word",
+   "en": "glass",
+   "zh": "玻璃",
+   "emoji": "🥛",
+   "line": 66
+  },
+  {
+   "type": "word",
    "en": "trick",
    "zh": "捉弄",
    "emoji": "🎩",
-   "line": 11
+   "line": 81
+  },
+  {
+   "type": "word",
+   "en": "test",
+   "zh": "考试",
+   "emoji": "📝",
+   "line": 82
   }
  ]
 }

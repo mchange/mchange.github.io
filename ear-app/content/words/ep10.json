@@ -2,64 +2,88 @@
  "id": "ep10",
  "words": [
   {
-   "en": "wires",
-   "zh": "电线",
-   "emoji": "➰",
-   "line": 0
-  },
-  {
-   "en": "outlet",
-   "zh": "插座",
-   "emoji": "🔌",
-   "line": 8
-  },
-  {
-   "en": "plug",
-   "zh": "插头",
-   "emoji": "🧷",
-   "line": 8
-  },
-  {
-   "en": "electricity",
-   "zh": "电",
-   "emoji": "⚡",
-   "line": 68
-  },
-  {
-   "en": "professor",
-   "zh": "教授",
-   "emoji": "👨‍🔬",
-   "line": 7
-  },
-  {
-   "en": "pull",
-   "zh": "拉",
-   "emoji": "💪",
-   "line": 15
-  },
-  {
-   "en": "laboratory",
-   "zh": "实验室",
-   "emoji": "🧪",
-   "line": 13
-  },
-  {
-   "en": "class",
-   "zh": "课",
-   "emoji": "🏫",
-   "line": 3
-  },
-  {
-   "en": "fan",
-   "zh": "风扇",
-   "emoji": "🌬️",
-   "line": 8
-  },
-  {
+   "type": "word",
    "en": "hot",
    "zh": "热的",
    "emoji": "🔥",
-   "line": 3
+   "line": 4
+  },
+  {
+   "type": "word",
+   "en": "professor",
+   "zh": "教授",
+   "emoji": "👨‍🔬",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "outlet",
+   "zh": "插座",
+   "emoji": "🔌",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "wires",
+   "zh": "电线",
+   "emoji": "➰",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "plug",
+   "zh": "插头",
+   "emoji": "🧷",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "laboratory",
+   "zh": "实验室",
+   "emoji": "🧪",
+   "line": 29
+  },
+  {
+   "type": "phrase",
+   "en": "What should we do first?",
+   "zh": "我们先做什么？",
+   "emoji": "🧭",
+   "line": 37
+  },
+  {
+   "type": "word",
+   "en": "pull",
+   "zh": "拉",
+   "emoji": "💪",
+   "line": 51
+  },
+  {
+   "type": "phrase",
+   "en": "Hey, check it out!",
+   "zh": "嘿，快看这个！",
+   "emoji": "👀",
+   "line": 52
+  },
+  {
+   "type": "word",
+   "en": "fan",
+   "zh": "风扇",
+   "emoji": "🌬️",
+   "line": 64
+  },
+  {
+   "type": "word",
+   "en": "electricity",
+   "zh": "电",
+   "emoji": "⚡",
+   "line": 71
+  },
+  {
+   "type": "word",
+   "en": "class",
+   "zh": "课",
+   "emoji": "🏫",
+   "line": 80
   }
  ]
 }

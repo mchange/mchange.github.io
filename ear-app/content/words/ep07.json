@@ -2,64 +2,88 @@
  "id": "ep07",
  "words": [
   {
-   "en": "cube",
-   "zh": "立方体",
-   "emoji": "🧊",
-   "line": 6
-  },
-  {
+   "type": "word",
    "en": "puzzle",
    "zh": "谜题",
    "emoji": "🧩",
    "line": 7
   },
   {
-   "en": "solve",
-   "zh": "解开",
-   "emoji": "🧠",
-   "line": 12
-  },
-  {
-   "en": "color",
-   "zh": "颜色",
-   "emoji": "🎨",
-   "line": 11
-  },
-  {
-   "en": "side",
-   "zh": "面",
-   "emoji": "📐",
+   "type": "word",
+   "en": "cube",
+   "zh": "立方体",
+   "emoji": "🧊",
    "line": 9
   },
   {
-   "en": "pieces",
-   "zh": "碎块",
-   "emoji": "🧱",
+   "type": "word",
+   "en": "color",
+   "zh": "颜色",
+   "emoji": "🎨",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "solve",
+   "zh": "解开",
+   "emoji": "🧠",
    "line": 13
   },
   {
-   "en": "together",
-   "zh": "一起",
-   "emoji": "🤝",
-   "line": 48
-  },
-  {
-   "en": "apart",
-   "zh": "拆开",
-   "emoji": "🔧",
-   "line": 47
-  },
-  {
+   "type": "word",
    "en": "school",
    "zh": "学校",
    "emoji": "🏫",
-   "line": 2
+   "line": 21
   },
   {
-   "en": "lick",
-   "zh": "舔",
-   "emoji": "👅",
-   "line": 67
+   "type": "phrase",
+   "en": "How hard can it be?",
+   "zh": "这能有多难？",
+   "emoji": "🤔",
+   "line": 33
+  },
+  {
+   "type": "word",
+   "en": "side",
+   "zh": "面",
+   "emoji": "📐",
+   "line": 35
+  },
+  {
+   "type": "phrase",
+   "en": "Piece of cake!",
+   "zh": "小菜一碟！",
+   "emoji": "🍰",
+   "line": 36
+  },
+  {
+   "type": "word",
+   "en": "pieces",
+   "zh": "碎块",
+   "emoji": "🧱",
+   "line": 54
+  },
+  {
+   "type": "word",
+   "en": "cheat",
+   "zh": "作弊",
+   "emoji": "🚫",
+   "line": 73
+  },
+  {
+   "type": "word",
+   "en": "apart",
+   "zh": "拆开",
+   "emoji": "🔧",
+   "line": 74
+  },
+  {
+   "type": "word",
+   "en": "together",
+   "zh": "一起",
+   "emoji": "🤝",
+   "line": 78
   }
  ]
 }

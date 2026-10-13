@@ -2,64 +2,88 @@
  "id": "ep01",
  "words": [
   {
-   "en": "alarm",
-   "zh": "警报器",
-   "emoji": "🔔",
-   "line": 4
-  },
-  {
+   "type": "word",
    "en": "bunny",
    "zh": "兔子",
    "emoji": "🐰",
-   "line": 5
+   "line": 6
   },
   {
-   "en": "chocolate",
-   "zh": "巧克力",
-   "emoji": "🍫",
-   "line": 5
+   "type": "phrase",
+   "en": "Not that one, another one!",
+   "zh": "不是那个，是另一个！",
+   "emoji": "🖐️",
+   "line": 8
   },
   {
-   "en": "broken",
-   "zh": "坏掉的",
-   "emoji": "🛠️",
-   "line": 58
-  },
-  {
-   "en": "candy",
-   "zh": "糖果",
-   "emoji": "🍬",
-   "line": 22
-  },
-  {
-   "en": "door",
-   "zh": "门",
-   "emoji": "🚪",
-   "line": 45
-  },
-  {
-   "en": "fish",
-   "zh": "鱼",
-   "emoji": "🐟",
-   "line": 33
-  },
-  {
-   "en": "police",
-   "zh": "警察",
-   "emoji": "👮",
-   "line": 49
-  },
-  {
-   "en": "siren",
-   "zh": "警笛",
-   "emoji": "🚨",
-   "line": 44
-  },
-  {
+   "type": "word",
    "en": "sleepwalker",
    "zh": "梦游的人",
    "emoji": "😴",
-   "line": 15
+   "line": 16
+  },
+  {
+   "type": "word",
+   "en": "candy",
+   "zh": "糖果",
+   "emoji": "🍬",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "chocolate",
+   "zh": "巧克力",
+   "emoji": "🍫",
+   "line": 33
+  },
+  {
+   "type": "word",
+   "en": "fish",
+   "zh": "鱼",
+   "emoji": "🐟",
+   "line": 34
+  },
+  {
+   "type": "word",
+   "en": "alarm",
+   "zh": "警报器",
+   "emoji": "🔔",
+   "line": 45
+  },
+  {
+   "type": "word",
+   "en": "door",
+   "zh": "门",
+   "emoji": "🚪",
+   "line": 47
+  },
+  {
+   "type": "word",
+   "en": "siren",
+   "zh": "警笛",
+   "emoji": "🚨",
+   "line": 49
+  },
+  {
+   "type": "word",
+   "en": "police",
+   "zh": "警察",
+   "emoji": "👮",
+   "line": 50
+  },
+  {
+   "type": "word",
+   "en": "broken",
+   "zh": "坏掉的",
+   "emoji": "🛠️",
+   "line": 61
+  },
+  {
+   "type": "phrase",
+   "en": "You're under arrest! Freeze!",
+   "zh": "你被捕了！不许动！",
+   "emoji": "🚔",
+   "line": 70
   }
  ]
 }

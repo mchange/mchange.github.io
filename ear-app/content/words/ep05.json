@@ -2,64 +2,88 @@
  "id": "ep05",
  "words": [
   {
+   "type": "word",
    "en": "washing",
    "zh": "洗",
    "emoji": "🧼",
-   "line": 1
+   "line": 6
   },
   {
+   "type": "word",
    "en": "machine",
    "zh": "机器",
    "emoji": "🌀",
-   "line": 1
+   "line": 7
   },
   {
+   "type": "word",
    "en": "drum",
    "zh": "滚筒",
    "emoji": "🥁",
-   "line": 8
+   "line": 9
   },
   {
-   "en": "laundry",
-   "zh": "洗的衣物",
-   "emoji": "🧺",
-   "line": 4
-  },
-  {
-   "en": "clothes",
-   "zh": "衣服",
-   "emoji": "👕",
-   "line": 16
-  },
-  {
+   "type": "word",
    "en": "water",
    "zh": "水",
    "emoji": "💧",
-   "line": 12
+   "line": 13
   },
   {
-   "en": "television",
-   "zh": "电视",
-   "emoji": "📺",
-   "line": 2
+   "type": "word",
+   "en": "laundry",
+   "zh": "洗的衣物",
+   "emoji": "🧺",
+   "line": 14
   },
   {
+   "type": "word",
    "en": "clean",
    "zh": "干净的",
    "emoji": "✨",
-   "line": 16
+   "line": 15
   },
   {
-   "en": "white",
-   "zh": "白色",
-   "emoji": "⚪",
-   "line": 37
+   "type": "word",
+   "en": "television",
+   "zh": "电视",
+   "emoji": "📺",
+   "line": 20
   },
   {
+   "type": "phrase",
+   "en": "Are you joking with me?",
+   "zh": "你在开玩笑吗？",
+   "emoji": "😄",
+   "line": 21
+  },
+  {
+   "type": "word",
    "en": "plan",
    "zh": "计划",
    "emoji": "📝",
-   "line": 32
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "white",
+   "zh": "白色",
+   "emoji": "⚪",
+   "line": 34
+  },
+  {
+   "type": "word",
+   "en": "clothes",
+   "zh": "衣服",
+   "emoji": "👕",
+   "line": 38
+  },
+  {
+   "type": "phrase",
+   "en": "Come on! Let's get going!",
+   "zh": "快！我们走吧！",
+   "emoji": "🏃",
+   "line": 53
   }
  ]
 }

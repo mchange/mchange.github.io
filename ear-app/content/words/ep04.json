@@ -2,64 +2,88 @@
  "id": "ep04",
  "words": [
   {
-   "en": "vent",
-   "zh": "通风管",
-   "emoji": "🌬️",
-   "line": 2
-  },
-  {
-   "en": "water",
-   "zh": "水",
-   "emoji": "💧",
-   "line": 36
-  },
-  {
-   "en": "air",
-   "zh": "空气",
-   "emoji": "💨",
-   "line": 59
-  },
-  {
-   "en": "bubbles",
-   "zh": "泡泡",
-   "emoji": "🫧",
-   "line": 36
-  },
-  {
-   "en": "blow",
-   "zh": "吹",
-   "emoji": "🎈",
-   "line": 33
-  },
-  {
-   "en": "coin",
-   "zh": "硬币",
-   "emoji": "🪙",
-   "line": 42
-  },
-  {
+   "type": "word",
    "en": "picture",
    "zh": "图片",
    "emoji": "🖼️",
-   "line": 28
+   "line": 33
   },
   {
-   "en": "drop",
-   "zh": "水滴",
-   "emoji": "💦",
-   "line": 43
+   "type": "word",
+   "en": "bubbles",
+   "zh": "泡泡",
+   "emoji": "🫧",
+   "line": 34
   },
   {
-   "en": "soap",
-   "zh": "肥皂",
-   "emoji": "🧼",
-   "line": 36
+   "type": "word",
+   "en": "water",
+   "zh": "水",
+   "emoji": "💧",
+   "line": 38
   },
   {
+   "type": "word",
+   "en": "coin",
+   "zh": "硬币",
+   "emoji": "🪙",
+   "line": 41
+  },
+  {
+   "type": "word",
    "en": "force",
    "zh": "力量",
    "emoji": "💪",
+   "line": 45
+  },
+  {
+   "type": "word",
+   "en": "drop",
+   "zh": "水滴",
+   "emoji": "💦",
+   "line": 46
+  },
+  {
+   "type": "word",
+   "en": "blow",
+   "zh": "吹",
+   "emoji": "🎈",
    "line": 47
+  },
+  {
+   "type": "word",
+   "en": "soap",
+   "zh": "肥皂",
+   "emoji": "🧼",
+   "line": 48
+  },
+  {
+   "type": "phrase",
+   "en": "Look, it's flying!",
+   "zh": "看，它飞起来了！",
+   "emoji": "✈️",
+   "line": 52
+  },
+  {
+   "type": "word",
+   "en": "vent",
+   "zh": "通风管",
+   "emoji": "🌬️",
+   "line": 57
+  },
+  {
+   "type": "word",
+   "en": "air",
+   "zh": "空气",
+   "emoji": "💨",
+   "line": 62
+  },
+  {
+   "type": "phrase",
+   "en": "A present for you!",
+   "zh": "送给你的礼物！",
+   "emoji": "🎁",
+   "line": 69
   }
  ]
 }

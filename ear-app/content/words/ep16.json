@@ -2,64 +2,88 @@
  "id": "ep16",
  "words": [
   {
-   "en": "detector",
-   "zh": "探测器",
-   "emoji": "🔍",
-   "line": 4
+   "type": "phrase",
+   "en": "That's totally not true!",
+   "zh": "那完全不是真的！",
+   "emoji": "🙅",
+   "line": 16
   },
   {
+   "type": "word",
    "en": "lie",
    "zh": "谎言",
    "emoji": "🤥",
-   "line": 4
+   "line": 26
   },
   {
-   "en": "truth",
-   "zh": "真相",
-   "emoji": "✅",
-   "line": 30
-  },
-  {
-   "en": "pulse",
-   "zh": "脉搏",
-   "emoji": "💓",
-   "line": 41
-  },
-  {
-   "en": "egg",
-   "zh": "鸡蛋",
-   "emoji": "🥚",
-   "line": 44
-  },
-  {
-   "en": "heart",
-   "zh": "心脏",
-   "emoji": "❤️",
-   "line": 34
-  },
-  {
-   "en": "answer",
-   "zh": "回答",
-   "emoji": "💬",
-   "line": 57
-  },
-  {
-   "en": "ancient",
-   "zh": "古代的",
-   "emoji": "🏛️",
-   "line": 51
-  },
-  {
-   "en": "question",
-   "zh": "问题",
-   "emoji": "❓",
-   "line": 57
-  },
-  {
+   "type": "word",
    "en": "check",
    "zh": "检查",
    "emoji": "🩺",
-   "line": 27
+   "line": 29
+  },
+  {
+   "type": "word",
+   "en": "detector",
+   "zh": "探测器",
+   "emoji": "🔍",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "pulse",
+   "zh": "脉搏",
+   "emoji": "💓",
+   "line": 42
+  },
+  {
+   "type": "word",
+   "en": "heart",
+   "zh": "心脏",
+   "emoji": "❤️",
+   "line": 43
+  },
+  {
+   "type": "word",
+   "en": "egg",
+   "zh": "鸡蛋",
+   "emoji": "🥚",
+   "line": 45
+  },
+  {
+   "type": "phrase",
+   "en": "We'll see about that.",
+   "zh": "我们走着瞧。",
+   "emoji": "🤨",
+   "line": 49
+  },
+  {
+   "type": "word",
+   "en": "ancient",
+   "zh": "古代的",
+   "emoji": "🏛️",
+   "line": 52
+  },
+  {
+   "type": "word",
+   "en": "truth",
+   "zh": "真相",
+   "emoji": "✅",
+   "line": 64
+  },
+  {
+   "type": "word",
+   "en": "answer",
+   "zh": "回答",
+   "emoji": "💬",
+   "line": 66
+  },
+  {
+   "type": "word",
+   "en": "question",
+   "zh": "问题",
+   "emoji": "❓",
+   "line": 71
   }
  ]
 }

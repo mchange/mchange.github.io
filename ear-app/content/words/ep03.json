@@ -2,64 +2,88 @@
  "id": "ep03",
  "words": [
   {
-   "en": "refrigerator",
-   "zh": "冰箱",
-   "emoji": "🧊",
-   "line": 3
-  },
-  {
-   "en": "freezer",
-   "zh": "冷冻室",
-   "emoji": "❄️",
-   "line": 19
-  },
-  {
-   "en": "cold",
-   "zh": "冷的",
-   "emoji": "🥶",
-   "line": 26
-  },
-  {
-   "en": "warm",
-   "zh": "暖和的",
-   "emoji": "☀️",
-   "line": 26
-  },
-  {
-   "en": "gum",
-   "zh": "口香糖",
-   "emoji": "🍬",
-   "line": 14
-  },
-  {
-   "en": "liquid",
-   "zh": "液体",
-   "emoji": "💧",
-   "line": 28
-  },
-  {
-   "en": "tube",
-   "zh": "管子",
-   "emoji": "🧪",
-   "line": 28
-  },
-  {
-   "en": "pump",
-   "zh": "泵",
-   "emoji": "⚙️",
-   "line": 28
-  },
-  {
+   "type": "word",
    "en": "pants",
    "zh": "裤子",
    "emoji": "👖",
-   "line": 19
+   "line": 20
   },
   {
+   "type": "word",
+   "en": "gum",
+   "zh": "口香糖",
+   "emoji": "🍬",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "freezer",
+   "zh": "冷冻室",
+   "emoji": "❄️",
+   "line": 22
+  },
+  {
+   "type": "phrase",
+   "en": "It won't take long at all.",
+   "zh": "很快就好了。",
+   "emoji": "⏳",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "cold",
+   "zh": "冷的",
+   "emoji": "🥶",
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "pump",
+   "zh": "泵",
+   "emoji": "⚙️",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "tube",
+   "zh": "管子",
+   "emoji": "🧪",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "liquid",
+   "zh": "液体",
+   "emoji": "💧",
+   "line": 31
+  },
+  {
+   "type": "word",
+   "en": "warm",
+   "zh": "暖和的",
+   "emoji": "☀️",
+   "line": 38
+  },
+  {
+   "type": "word",
    "en": "inside",
    "zh": "在里面",
    "emoji": "📦",
-   "line": 28
+   "line": 53
+  },
+  {
+   "type": "phrase",
+   "en": "You scared me half to death!",
+   "zh": "你吓死我了！",
+   "emoji": "😱",
+   "line": 69
+  },
+  {
+   "type": "word",
+   "en": "refrigerator",
+   "zh": "冰箱",
+   "emoji": "🧊",
+   "line": 71
   }
  ]
 }

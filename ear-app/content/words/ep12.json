@@ -2,64 +2,88 @@
  "id": "ep12",
  "words": [
   {
+   "type": "word",
    "en": "manipulator",
    "zh": "机械臂",
    "emoji": "🦾",
-   "line": 1
+   "line": 7
   },
   {
-   "en": "arm",
-   "zh": "手臂",
-   "emoji": "💪",
-   "line": 10
-  },
-  {
-   "en": "humans",
-   "zh": "人类",
-   "emoji": "🧑",
-   "line": 13
-  },
-  {
-   "en": "joystick",
-   "zh": "摇杆",
-   "emoji": "🕹️",
-   "line": 13
-  },
-  {
-   "en": "dangerous",
-   "zh": "危险的",
-   "emoji": "⚠️",
-   "line": 11
-  },
-  {
+   "type": "word",
    "en": "mechanical",
    "zh": "机械的",
    "emoji": "⚙️",
-   "line": 10
-  },
-  {
-   "en": "remote",
-   "zh": "遥控",
-   "emoji": "📟",
    "line": 13
   },
   {
-   "en": "steer",
-   "zh": "操控",
-   "emoji": "🎮",
-   "line": 16
-  },
-  {
+   "type": "word",
    "en": "work",
    "zh": "工作",
    "emoji": "🛠️",
-   "line": 4
+   "line": 14
   },
   {
+   "type": "word",
+   "en": "joystick",
+   "zh": "摇杆",
+   "emoji": "🕹️",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "remote",
+   "zh": "遥控",
+   "emoji": "📟",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "arm",
+   "zh": "手臂",
+   "emoji": "💪",
+   "line": 16
+  },
+  {
+   "type": "word",
+   "en": "steer",
+   "zh": "操控",
+   "emoji": "🎮",
+   "line": 17
+  },
+  {
+   "type": "phrase",
+   "en": "Then off we go!",
+   "zh": "那我们就出发吧！",
+   "emoji": "🚀",
+   "line": 23
+  },
+  {
+   "type": "word",
    "en": "awesome",
    "zh": "太棒了",
    "emoji": "🤩",
-   "line": 25
+   "line": 24
+  },
+  {
+   "type": "word",
+   "en": "humans",
+   "zh": "人类",
+   "emoji": "🧑",
+   "line": 38
+  },
+  {
+   "type": "word",
+   "en": "dangerous",
+   "zh": "危险的",
+   "emoji": "⚠️",
+   "line": 44
+  },
+  {
+   "type": "phrase",
+   "en": "Calm down, it's OK.",
+   "zh": "冷静点，没事的。",
+   "emoji": "😌",
+   "line": 62
   }
  ]
 }

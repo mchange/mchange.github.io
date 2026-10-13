@@ -2,64 +2,88 @@
  "id": "ep02",
  "words": [
   {
-   "en": "pen",
-   "zh": "笔",
-   "emoji": "🖊️",
-   "line": 5
-  },
-  {
-   "en": "ink",
-   "zh": "墨水",
-   "emoji": "🖋️",
-   "line": 31
-  },
-  {
-   "en": "paper",
-   "zh": "纸",
-   "emoji": "📄",
-   "line": 37
-  },
-  {
-   "en": "metal",
-   "zh": "金属",
-   "emoji": "⚙️",
-   "line": 33
-  },
-  {
-   "en": "red",
-   "zh": "红色",
-   "emoji": "🔴",
-   "line": 7
-  },
-  {
-   "en": "teacher",
-   "zh": "老师",
-   "emoji": "👩‍🏫",
+   "type": "phrase",
+   "en": "What do you need it for?",
+   "zh": "你要它做什么用？",
+   "emoji": "❓",
    "line": 9
   },
   {
-   "en": "tip",
-   "zh": "笔尖",
-   "emoji": "📍",
-   "line": 33
-  },
-  {
-   "en": "knife",
-   "zh": "刀",
-   "emoji": "🔪",
-   "line": 27
-  },
-  {
-   "en": "ball",
-   "zh": "球",
-   "emoji": "⚽",
-   "line": 28
-  },
-  {
+   "type": "word",
    "en": "book",
    "zh": "书",
    "emoji": "📖",
-   "line": 9
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "red",
+   "zh": "红色",
+   "emoji": "🔴",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "teacher",
+   "zh": "老师",
+   "emoji": "👩‍🏫",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "pen",
+   "zh": "笔",
+   "emoji": "🖊️",
+   "line": 15
+  },
+  {
+   "type": "phrase",
+   "en": "See? No problem!",
+   "zh": "看吧？没问题！",
+   "emoji": "👌",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "knife",
+   "zh": "刀",
+   "emoji": "🔪",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "ink",
+   "zh": "墨水",
+   "emoji": "🖋️",
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "paper",
+   "zh": "纸",
+   "emoji": "📄",
+   "line": 35
+  },
+  {
+   "type": "word",
+   "en": "ball",
+   "zh": "球",
+   "emoji": "⚽",
+   "line": 36
+  },
+  {
+   "type": "word",
+   "en": "tip",
+   "zh": "笔尖",
+   "emoji": "📍",
+   "line": 40
+  },
+  {
+   "type": "word",
+   "en": "metal",
+   "zh": "金属",
+   "emoji": "⚙️",
+   "line": 43
   }
  ]
 }

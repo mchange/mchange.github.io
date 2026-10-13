@@ -361,9 +361,52 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
 .wb-body {
   flex: 1 1 auto; min-height: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(310px, 34%, 470px);
+  /* 左侧只放播放器 + 控制器，不再和闪卡分高度，所以右边收窄一点，
+     把宽度让给画面（横屏 iPad 上画面能大 ~16%）。 */
+  grid-template-columns: minmax(0, 1fr) clamp(264px, 25%, 360px);
   gap: 12px;
 }
+
+/* --- 右侧面板：字幕表 / 闪卡 两个页签 --- */
+.side-panel {
+  min-width: 0; min-height: 0;
+  display: flex; flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
+}
+.side-tabs {
+  flex: 0 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 4px; padding: 7px 7px 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.side-tab {
+  appearance: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 9px 8px 10px;
+  font: inherit; font-size: 13.5px; font-weight: 650;
+  color: var(--ink-3);
+  background: none; border: 0;
+  border-bottom: 2.5px solid transparent;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.side-tab svg { width: 15px; height: 15px; }
+.side-tab[aria-selected="true"] {
+  color: var(--green-strong);
+  border-bottom-color: var(--green);
+  background: var(--surface);
+}
+.side-pane { flex: 1 1 auto; min-height: 0; }
+.side-cards { overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 12px; }
+.side-empty { margin: 0; color: var(--ink-3); font-size: 13px; }
+/* 页签切换：只显示当前那一页 */
+.side-panel[data-tab="subs"] .side-pane[data-pane="cards"],
+.side-panel[data-tab="cards"] .side-pane[data-pane="subs"] { display: none; }
 
 .wb-stage {
   min-width: 0; min-height: 0;
@@ -386,7 +429,7 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   box-shadow: var(--shadow-2);
 }
 .player video {
-  display: block; width: 100%; max-height: 52vh; background: #12160F;
+  display: block; width: 100%; max-height: 60vh; background: #12160F;
   aspect-ratio: 16 / 9; object-fit: contain;
 }
 .player-veil {
@@ -455,7 +498,9 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   transition: max-height .3s ease, opacity .22s ease, padding .3s ease;
 }
 .transport { max-height: 90px; }
-.controls-row { max-height: 320px; }
+/* 控制条在 320px 窄屏会折到 7 行（约 402px）——上限给足，别把「速度」那行顶出卡片。
+   这个数值只在「自动隐藏」收起动画里当过渡起点用，不影响正常布局。 */
+.controls-row { max-height: 520px; }
 .wb.chrome-hidden .transport,
 .wb.chrome-hidden .controls-row {
   max-height: 0 !important;
@@ -466,10 +511,10 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   border-top-width: 0; border-bottom-width: 0;
   box-shadow: none;
 }
-.wb.chrome-hidden .player video { max-height: 58vh; }
+.wb.chrome-hidden .player video { max-height: 68vh; }
 .wb-body { transition: grid-template-columns .3s ease; }
 .wb.chrome-hidden .wb-body {
-  grid-template-columns: minmax(0, 1fr) clamp(230px, 21%, 320px);
+  grid-template-columns: minmax(0, 1fr) clamp(240px, 20%, 300px);
 }
 
 .btn-play {
@@ -538,18 +583,11 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   box-shadow: 0 2px 12px rgba(0, 0, 0, .3);
 }
 
-/* --- 闪卡：这一集的词，点卡翻面，帮孩子记住 --- */
-.fc {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-1);
-  padding: 12px 14px 6px;
-  min-width: 0;
-  container-type: inline-size;   /* 让 .fc-row 的 cqw 跟着卡片区域宽度走 */
-}
+/* --- 闪卡：这一集的词，点卡翻面，帮孩子记住 ---
+   现在住在右侧面板里，宽度只有 240~360px，所以用两列自适应网格，
+   不再是一整条横向滑动（竖屏面板会变宽，网格会自动排更多列）。 */
 .fc-head {
-  display: flex; align-items: center; gap: 10px; margin-bottom: 9px;
+  display: flex; align-items: center; gap: 10px; margin-bottom: 9px; flex-wrap: wrap;
 }
 .fc-head .btn { margin-left: auto; }
 .fc-count {
@@ -557,18 +595,14 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   font-variant-numeric: tabular-nums;
 }
 .fc-row {
-  display: grid; grid-auto-flow: column;
-  grid-auto-columns: clamp(132px, 13.5cqw, 178px);
-  gap: 11px;
-  overflow-x: auto; overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-  padding: 2px 2px 12px;
-  scrollbar-width: thin;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
+  gap: 10px;
+  align-content: start;
 }
 .fc-card {
-  position: relative; height: 158px;
+  position: relative; height: 170px;
   background: none; border: none; padding: 0; cursor: pointer;
-  scroll-snap-align: start; perspective: 900px;
+  perspective: 900px;
   -webkit-tap-highlight-color: transparent;
 }
 .fc-inner {
@@ -583,6 +617,7 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   border-radius: var(--radius-sm);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 5px; padding: 10px 9px; text-align: center;
+  overflow: hidden;          /* 例句太长时裁掉，别把圆角盒子撑破 */
 }
 .fc-front {
   background: var(--surface-2);
@@ -616,23 +651,62 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   font-size: 16px; font-weight: 680; color: var(--green-strong);
 }
 .fc-line {
-  margin: 0; font-size: 11.5px; line-height: 1.42; color: var(--ink-2);
-  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  margin: 0; font-size: 11px; line-height: 1.4; color: var(--ink-2);
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  flex: 0 0 auto;   /* overflow:hidden 会让 flex 自动最小尺寸变成 0，必须显式不许压扁 */
 }
 .fc-mark {
   background: rgba(47, 125, 91, .18); color: var(--green-strong);
   border-radius: 4px; padding: 0 2px; font-weight: 650;
 }
-.fc-actions { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; margin-top: auto; padding-bottom: 10px; }
+/* 两个按钮排成等宽两列，永远单行；卡宽只有 ~100px，用网格而不是 flex-wrap，
+   否则按钮一多就会换行把卡片背面撑爆 */
+.fc-actions {
+  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr);
+  gap: 5px; width: 100%; margin-top: auto;
+}
 .fc-btn {
-  display: inline-flex; align-items: center; gap: 4px;
-  font-size: 11.5px; font-weight: 640; color: var(--green-strong);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 640; color: var(--green-strong);
   background: #fff; border: 1px solid var(--green-line);
-  border-radius: 999px; padding: 4px 9px; cursor: pointer;
-  min-height: 26px;
+  border-radius: 999px; padding: 4px 6px; cursor: pointer;
+  min-height: 26px; min-width: 0; white-space: nowrap;
 }
 .fc-btn svg { width: 12px; height: 12px; }
 .fc-btn:active { background: var(--green-soft); }
+
+/* --- 短语卡：和单词卡同排并列，但用琥珀色区分开，
+   让「单词」和「整句/短语」一眼就分得清 --- */
+.fc-card[data-kind="phrase"] .fc-front {
+  background: var(--amber-soft); border-color: var(--amber-line);
+}
+.fc-card[data-kind="phrase"] .fc-back {
+  background: #FDF6EC; border-color: var(--amber-line);
+}
+.fc-card[data-kind="phrase"] .fc-emoji { font-size: 22px; }
+.fc-card[data-kind="phrase"] .fc-word {
+  font-size: 12.5px; line-height: 1.32; font-weight: 620;
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.fc-card[data-kind="phrase"] .fc-zh { color: var(--amber); }
+.fc-card[data-kind="phrase"] .fc-line {
+  font-size: 11px; -webkit-line-clamp: 2;
+}
+.fc-card[data-kind="phrase"] .fc-actions { padding-bottom: 0; }
+.fc-card[data-kind="phrase"] .fc-back { gap: 5px; }
+.fc-card[data-kind="phrase"] .fc-btn { color: var(--amber); border-color: var(--amber-line); }
+.fc-card[data-kind="phrase"] .fc-mark { background: rgba(180, 105, 42, .16); color: var(--amber); }
+.fc-card[data-kind="phrase"][data-known="1"] .fc-front {
+  background: var(--green-soft); border-color: var(--green-line);
+}
+.fc-kind {
+  position: absolute; top: 7px; left: 7px;
+  font-size: 9.5px; font-weight: 700; letter-spacing: .04em;
+  color: var(--amber); background: #fff;
+  border: 1px solid var(--amber-line); border-radius: 999px;
+  padding: 1px 6px; line-height: 1.5;
+}
 
 /* --- 进度恢复提示条 --- */
 .resume-bar {
@@ -647,14 +721,10 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
 .resume-bar .resume-text { flex: 1 1 auto; min-width: 0; }
 .resume-bar .btn { min-height: 34px; font-size: 13px; color: var(--blue); }
 
-/* --- 右侧字幕表 --- */
+/* --- 右侧字幕表（住进 .side-panel 的「字幕」页签里） --- */
 .transcript {
   min-height: 0;
   display: flex; flex-direction: column;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-1);
   overflow: hidden;
 }
 .transcript-head {
@@ -723,6 +793,14 @@ body.hide-zh .trow-zh { display: none; }
   border-radius: 5px; padding: 1px 5px; vertical-align: 1px; letter-spacing: .02em;
 }
 
+/* 片头「集名播报」：从台词里拆出来的独立一行，样式上明确区分 */
+.trow[data-kind="title"] {
+  background: var(--surface-2);
+  border-color: var(--line);
+}
+.trow[data-kind="title"] .trow-en { font-weight: 700; color: var(--ink); letter-spacing: .01em; }
+.trow[data-kind="title"] .trow-zh { color: var(--amber); font-weight: 620; }
+
 /* 当前播放句 */
 .trow[data-active="1"] {
   background: var(--green-soft);
@@ -741,6 +819,24 @@ body.hide-zh .trow-zh { display: none; }
 
 /* 待校对 */
 .trow[data-draft="1"] .trow-time { opacity: .55; }
+
+/* 从闪卡「听这句」跳过来时，让那一行闪一下，指明卡片对应哪句台词 */
+.trow-flash { animation: trowFlash 1.3s ease-out; }
+@keyframes trowFlash {
+  0%   { background: var(--amber-soft); box-shadow: inset 0 0 0 2px var(--amber-line); }
+  60%  { background: var(--amber-soft); box-shadow: inset 0 0 0 2px var(--amber-line); }
+  100% { background: transparent; box-shadow: inset 0 0 0 1px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trow-flash { animation-duration: .01s; }
+}
+
+/* 跳转不切页签了，所以让被点的卡片自己也闪一圈，表明「就是这张」 */
+.fc-card.fc-jump { animation: fcJump .9s ease-out; }
+@keyframes fcJump {
+  0%, 55% { outline: 3px solid var(--amber); outline-offset: 2px; border-radius: var(--radius-sm); }
+  100%    { outline: 3px solid transparent; outline-offset: 2px; border-radius: var(--radius-sm); }
+}
 
 .transcript-empty { padding: 30px 18px; text-align: center; color: var(--ink-3); font-size: 14px; line-height: 1.6; }
 
@@ -849,6 +945,10 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
 .seg-gap { display: none; }
 .wb[data-mode="shadow"] .seg-gap { display: inline-flex; }
 
+/* 播完 / 控制条两组：「循环本集 / 连播下一集 / 播完即停」「一直显示 / 自动隐藏」
+   文字偏长，收紧内边距，别把控制条顶到更多行 */
+.seg-end button, .seg-chrome button { padding: 0 10px; }
+
 /* --- 收听遍数徽标 --- */
 .badge-pass {
   background: var(--blue-soft); color: var(--blue); border-color: var(--blue-line);
@@ -870,22 +970,21 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
     grid-template-rows: auto minmax(220px, 1fr);
   }
   .wb-stage { min-height: 0; }
-  /* 竖屏下播放器 + 控制 + 闪卡可能超过一屏：让左侧内部滚动，
-     别把字幕表挤出视口（html.wb-lock 禁了页面滚动，一旦溢出就永远够不着）。 */
-  .wb-stage { max-height: 66vh; }
+  /* 竖屏下左侧只有播放器 + 控制器，不再像以前那样被闪卡顶出视口 */
+  .wb-stage { max-height: 62vh; }
   .stage-scroll { overflow-y: auto; }
-  /* 竖屏下不要给字幕面板设 min-height：它会把内容顶出 100dvh，
+  /* 竖屏下不要给右侧面板设 min-height：它会把内容顶出 100dvh，
      而 wb-lock 又禁用了页面滚动，底部就永远够不着。
      交给上面的 grid 行 minmax(220px, 1fr) 分配剩余高度即可。 */
-  .transcript { min-height: 0; }
+  .side-panel { min-height: 0; }
   .player video { max-height: 38vh; }
-  /* 竖屏是上下排布，收起控制时保持单列，不参与字幕表收窄；
-     省出的高度让给播放器区域，闪卡不用滚太久就能看到 */
+  /* 竖屏是上下排布，收起控制时保持单列，不参与右侧面板收窄；
+     省出的高度让给播放器区域 */
   .wb.chrome-hidden .wb-body { grid-template-columns: minmax(0, 1fr); }
-  .wb.chrome-hidden .wb-stage { max-height: 76vh; }
+  .wb.chrome-hidden .wb-stage { max-height: 72vh; }
   .wb.chrome-hidden .player video { max-height: 46vh; }
-  .fc-row { grid-auto-columns: clamp(124px, 26cqw, 168px); }
-  .fc-card { height: 148px; }
+  /* 竖屏面板铺满整宽：闪卡自动排成 5~6 列（卡高沿用基准值，例句才放得下） */
+  .fc-emoji { font-size: 30px; }
   .page-title { font-size: 21px; }
   .ep-grid { grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 13px; }
   .continue-thumb { display: none; }
@@ -902,8 +1001,9 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
 @media (orientation: landscape) and (max-height: 520px) {
   .player video { max-height: 46vh; }
   .wb.chrome-hidden .player video { max-height: 56vh; }
-  .fc-card { height: 132px; }
+  .fc-card { height: 142px; }
   .fc-emoji { font-size: 27px; }
+  .fc-line { -webkit-line-clamp: 2; font-size: 11px; }
   .controls-row { padding: 8px 11px; }
 }
 

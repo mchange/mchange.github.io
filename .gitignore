@@ -19,3 +19,12 @@ venv/
 
 # 本地大体积媒体（如需上传请单独确认）
 ear-app/content.bak*/
+
+# 构建 / 去重过程中的中间产物
+ear-app/content/*.before-dedup.json
+ear-app/content/*.removed-duplicates.json
+ear-app/content/subs/*.build-prev.json
+ear-app/content/subs/*.zh-prev.json
+
+# 本地协作记忆
+.workbuddy/

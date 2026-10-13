@@ -2,64 +2,88 @@
  "id": "ep08",
  "words": [
   {
-   "en": "light",
-   "zh": "灯",
-   "emoji": "💡",
-   "line": 12
-  },
-  {
-   "en": "nightlight",
-   "zh": "夜灯",
-   "emoji": "🌟",
-   "line": 1
-  },
-  {
-   "en": "sleep",
-   "zh": "睡觉",
-   "emoji": "😴",
-   "line": 11
-  },
-  {
-   "en": "scared",
-   "zh": "害怕的",
-   "emoji": "😨",
-   "line": 4
-  },
-  {
-   "en": "electricity",
-   "zh": "电",
-   "emoji": "⚡",
-   "line": 14
-  },
-  {
+   "type": "word",
    "en": "clock",
    "zh": "时钟",
    "emoji": "🕐",
-   "line": 73
+   "line": 0
   },
   {
-   "en": "night",
-   "zh": "夜晚",
-   "emoji": "🌙",
-   "line": 1
-  },
-  {
+   "type": "word",
    "en": "monsters",
    "zh": "怪物",
    "emoji": "👾",
-   "line": 2
+   "line": 6
   },
   {
-   "en": "energy",
-   "zh": "能量",
-   "emoji": "🔋",
-   "line": 22
+   "type": "word",
+   "en": "night",
+   "zh": "夜晚",
+   "emoji": "🌙",
+   "line": 10
   },
   {
+   "type": "phrase",
+   "en": "Can you believe it?",
+   "zh": "你敢信吗？",
+   "emoji": "😲",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "light",
+   "zh": "灯",
+   "emoji": "💡",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "electricity",
+   "zh": "电",
+   "emoji": "⚡",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "sleep",
+   "zh": "睡觉",
+   "emoji": "😴",
+   "line": 43
+  },
+  {
+   "type": "word",
+   "en": "scared",
+   "zh": "害怕的",
+   "emoji": "😨",
+   "line": 45
+  },
+  {
+   "type": "phrase",
+   "en": "Keep quiet, or we'll wake up your mom and dad!",
+   "zh": "小点声，不然会吵醒你爸爸妈妈！",
+   "emoji": "🤫",
+   "line": 48
+  },
+  {
+   "type": "word",
+   "en": "nightlight",
+   "zh": "夜灯",
+   "emoji": "🌟",
+   "line": 50
+  },
+  {
+   "type": "word",
    "en": "dark",
    "zh": "黑暗的",
    "emoji": "🌑",
-   "line": 54
+   "line": 52
+  },
+  {
+   "type": "word",
+   "en": "energy",
+   "zh": "能量",
+   "emoji": "🔋",
+   "line": 55
   }
  ]
 }

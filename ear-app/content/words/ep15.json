@@ -2,64 +2,88 @@
  "id": "ep15",
  "words": [
   {
+   "type": "word",
    "en": "oven",
    "zh": "烤箱",
    "emoji": "🍞",
-   "line": 0
+   "line": 22
   },
   {
-   "en": "hot",
-   "zh": "热的",
-   "emoji": "🔥",
-   "line": 13
-  },
-  {
-   "en": "cake",
-   "zh": "蛋糕",
-   "emoji": "🎂",
-   "line": 28
-  },
-  {
-   "en": "gas",
-   "zh": "燃气",
-   "emoji": "⛽",
-   "line": 20
-  },
-  {
-   "en": "burn",
-   "zh": "燃烧",
-   "emoji": "🧨",
-   "line": 20
-  },
-  {
-   "en": "heat",
-   "zh": "热量",
-   "emoji": "♨️",
-   "line": 15
-  },
-  {
-   "en": "stove",
-   "zh": "炉灶",
-   "emoji": "🍳",
-   "line": 48
-  },
-  {
+   "type": "word",
    "en": "inside",
    "zh": "在里面",
    "emoji": "📦",
-   "line": 16
+   "line": 23
   },
   {
-   "en": "fresh",
-   "zh": "新鲜的",
-   "emoji": "🍃",
-   "line": 28
-  },
-  {
+   "type": "word",
    "en": "bake",
    "zh": "烘烤",
    "emoji": "🥧",
-   "line": 19
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "gas",
+   "zh": "燃气",
+   "emoji": "⛽",
+   "line": 26
+  },
+  {
+   "type": "word",
+   "en": "hot",
+   "zh": "热的",
+   "emoji": "🔥",
+   "line": 29
+  },
+  {
+   "type": "word",
+   "en": "fresh",
+   "zh": "新鲜的",
+   "emoji": "🍃",
+   "line": 33
+  },
+  {
+   "type": "word",
+   "en": "cake",
+   "zh": "蛋糕",
+   "emoji": "🎂",
+   "line": 42
+  },
+  {
+   "type": "phrase",
+   "en": "Watch out!",
+   "zh": "小心！",
+   "emoji": "⚠️",
+   "line": 48
+  },
+  {
+   "type": "word",
+   "en": "stove",
+   "zh": "炉灶",
+   "emoji": "🍳",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "burn",
+   "zh": "燃烧",
+   "emoji": "🧨",
+   "line": 53
+  },
+  {
+   "type": "word",
+   "en": "heat",
+   "zh": "热量",
+   "emoji": "♨️",
+   "line": 54
+  },
+  {
+   "type": "phrase",
+   "en": "I just can't stop eating it!",
+   "zh": "我根本停不下来！",
+   "emoji": "😋",
+   "line": 65
   }
  ]
 }

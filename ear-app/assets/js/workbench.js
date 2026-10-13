@@ -12,10 +12,26 @@ import {
 } from './util.js';
 import {
   getPrefs, setPrefs, getProgress, saveProgress, RATES, GAP_CHOICES,
-  SUBTITLE_MODES, SUBTITLE_LABELS,
+  SUBTITLE_MODES, SUBTITLE_LABELS, SIDE_TABS, END_MODES,
   bumpPass, getPasses, isCardKnown, setCardKnown, resetCards,
 } from './store.js';
-import { loadLines, loadWords, videoSources } from './content.js';
+import { loadLines, loadWords, videoSources, loadCatalog } from './content.js';
+
+/* 右侧面板的两个页签：[键, 标签, 图标] */
+const TAB_DEFS = [['subs', '字幕', 'chinese'], ['cards', '闪卡', 'library']];
+
+/* 一集播完后的三种走向：[键, 按钮文字, 说明] */
+const END_DEFS = [
+  ['loop', '循环本集', '播完自动从头再听一遍（磨耳朵默认）'],
+  ['across', '连播下一集', '播完自动接着听下一集'],
+  ['stop', '播完即停', '播完就停下，不自动继续'],
+];
+
+/* 控制条的显示方式：[键, 按钮文字, 说明] */
+const CHROME_DEFS = [
+  ['show', '一直显示', '进度条和控制条始终留在画面上'],
+  ['auto', '自动隐藏', '播放 2.6 秒后收起，点一下画面再唤回（画面更大）'],
+];
 
 export async function renderWorkbench(host, ep) {
   const lines = await loadLines(ep);
@@ -29,8 +45,11 @@ export async function renderWorkbench(host, ep) {
     mode: prefs.mode,
     rate: prefs.rate,
     subMode: SUBTITLE_MODES.includes(prefs.subtitleMode) ? prefs.subtitleMode : 'both',
+    sideTab: SIDE_TABS.includes(prefs.sideTab) ? prefs.sideTab : 'subs',
     blind: !!prefs.blindFirst,
     gapSec: prefs.gapSeconds || 3,
+    endMode: END_MODES.includes(prefs.endMode) ? prefs.endMode : 'loop',
+    autoHide: !!prefs.autoHideChrome,
     gapLeft: 0,
     gapTimer: 0,
     passCounted: false,
@@ -43,10 +62,10 @@ export async function renderWorkbench(host, ep) {
   };
 
   let video, scrubEl, scrubFill, scrubKnob, scrubBuffer, timeNow, timeTotal,
-      playBtn, modeSeg, rateSeg, subSeg, blindBtn, gapSeg,
+      playBtn, modeSeg, rateSeg, subSeg, blindBtn, gapSeg, endSeg, chromeSeg,
       subLayer, subEn, subZh, gapChip, gapText, gapBar, veil, veilTitle,
       veilMsg, veilHint, scrollEl, rowsEl, rowEls = [], followChip, resumeBar,
-      markLayer, warningChip, headStatus, fcCount, fcRow;
+      markLayer, warningChip, headStatus, fcCount, fcRow, sidePanel;
 
   /* ------------------------------------------------------------ 构建 DOM */
 
@@ -109,6 +128,18 @@ export async function renderWorkbench(host, ep) {
     return b;
   });
 
+  /* 一集播完后的走向：循环本集（默认）/ 连播下一集 / 播完即停 */
+  endSeg = h('div.seg.seg-end', { role: 'group', 'aria-label': '本集播完后' });
+  const endBtns = END_DEFS.map(([m, label, tip]) => {
+    const b = h('button', {
+      type: 'button', 'aria-pressed': String(S.endMode === m),
+      title: tip, onclick: () => setEndMode(m),
+    }, label);
+    b.dataset.end = m;
+    endSeg.appendChild(b);
+    return b;
+  });
+
   rateSeg = h('div.seg', { role: 'group', 'aria-label': '播放速度' });
   const rateBtns = RATES.map((r) => {
     const b = h('button', {
@@ -133,6 +164,19 @@ export async function renderWorkbench(host, ep) {
     return b;
   });
 
+  /* 进度条/控制条要不要在播放时自动收起（默认一直显示） */
+  chromeSeg = h('div.seg.seg-chrome', { role: 'group', 'aria-label': '控制条显示方式' });
+  const chromeBtns = CHROME_DEFS.map(([m, label, tip]) => {
+    const b = h('button', {
+      type: 'button',
+      'aria-pressed': String((m === 'auto') === S.autoHide),
+      title: tip, onclick: () => setChromeMode(m),
+    }, label);
+    b.dataset.chrome = m;
+    chromeSeg.appendChild(b);
+    return b;
+  });
+
   const prevBtn = h('button.btn', { type: 'button', onclick: () => stepLine(-1) },
     icon('back'), '上一句');
   const replayBtn = h('button.btn', { type: 'button', onclick: () => replay() },
@@ -144,10 +188,12 @@ export async function renderWorkbench(host, ep) {
 
   const controlsRow = h('div.controls-row',
     h('div.ctrl-group', h('span.field-label', '模式'), modeSeg, gapSeg),
+    h('div.ctrl-group', h('span.field-label', '播完'), endSeg),
     h('div.ctrl-group', prevBtn, replayBtn, nextBtn),
     h('div.controls-spacer'),
     blindBtn,
     h('div.ctrl-group', h('span.field-label', '字幕'), subSeg),
+    h('div.ctrl-group', h('span.field-label', '控制条'), chromeSeg),
     h('div.ctrl-group', h('span.field-label', '速度'), rateSeg),
   );
 
@@ -155,12 +201,12 @@ export async function renderWorkbench(host, ep) {
 
   resumeBar = h('div.resume-bar', { hidden: true });
 
-  /* ---- 闪卡：原来「正在播放」字幕卡的位置，帮孩子记住这一集的词 ---- */
+  /* ---- 右侧面板：闪卡 / 字幕表 两个页签，左侧专心留给播放器 ---- */
   fcCount = h('span.fc-count', '');
   fcRow = h('div.fc-row', { role: 'list' });
-  const fcSection = h('section.fc',
+  const fcPane = h('div.side-pane.side-cards', { dataset: { pane: 'cards' } },
     h('div.fc-head',
-      h('span.field-label', '本集单词'),
+      h('span.field-label', '本集单词与短语'),
       fcCount,
       h('button.btn.btn-ghost.fc-reset', {
         type: 'button',
@@ -170,10 +216,9 @@ export async function renderWorkbench(host, ep) {
           toast('已清空这一集的认词记录');
         },
       }, '重新来')),
-    fcRow);
+    words.length ? fcRow : h('p.side-empty', '这一集还没有整理单词卡'));
 
-  const stageScroll = h('div.stage-scroll', player, transport, controlsRow, resumeBar,
-    words.length ? fcSection : h('div'));
+  const stageScroll = h('div.stage-scroll', player, transport, controlsRow, resumeBar);
   const stage = h('section.wb-stage', stageScroll);
 
   followChip = h('button.follow-chip', { type: 'button', title: '自动跟随当前句' }, icon('follow'));
@@ -185,12 +230,36 @@ export async function renderWorkbench(host, ep) {
   headStatus = h('span.badge.badge-pass', { hidden: true });
   const transcriptHead = h('div.transcript-head',
     h('span.field-label', '字幕表'), transcriptCount, headStatus, warningChip, followChip);
-  const transcript = h('aside.transcript', transcriptHead, scrollEl);
+  const transcript = h('div.transcript.side-pane', { dataset: { pane: 'subs' } },
+    transcriptHead, scrollEl);
 
-  const body = h('div.wb-body', stage, transcript);
+  sidePanel = h('aside.side-panel', { dataset: { tab: S.sideTab } },
+    h('div.side-tabs', { role: 'tablist', 'aria-label': '右侧面板' },
+      ...TAB_DEFS.map(([key, label, tabIcon]) => {
+        const b = h('button.side-tab', {
+          type: 'button', role: 'tab', 'aria-selected': String(S.sideTab === key),
+          onclick: () => setTab(key),
+        }, icon(tabIcon), label);
+        b.dataset.tab = key;
+        return b;
+      })),
+    fcPane, transcript);
+
+  const body = h('div.wb-body', stage, sidePanel);
   const wbRoot = h('div.wb', { dataset: { mode: S.mode } }, body);
   clear(host);
   host.appendChild(wbRoot);
+
+  function setTab(key) {
+    if (!SIDE_TABS.includes(key) || key === S.sideTab) return;
+    S.sideTab = key;
+    setPrefs({ sideTab: key });
+    sidePanel.dataset.tab = key;
+    sidePanel.querySelectorAll('.side-tab').forEach((b) => {
+      b.setAttribute('aria-selected', String(b.dataset.tab === key));
+    });
+    if (key === 'subs') autoScrollTo(S.activeIndex >= 0 ? S.activeIndex : (S.selectedIndex ?? 0));
+  }
 
   /* ------------------------------------------------------------ 字幕行 */
 
@@ -206,6 +275,7 @@ export async function renderWorkbench(host, ep) {
       const hasZh = !!String(L.zh || '').trim();
       const timeCell = h('span.trow-time', fmtShort(L.start));
       const enCell = h('span.trow-en', L.en);
+      if (L.kind === 'title') enCell.appendChild(h('span.trow-flag', '集名'));
       if (!hasZh) enCell.appendChild(h('span.trow-flag', '无中文'));
       const main = h('span.trow-main', enCell,
         h('span.trow-zh', { dataset: { empty: hasZh ? '0' : '1' } },
@@ -214,6 +284,7 @@ export async function renderWorkbench(host, ep) {
         type: 'button',
         dataset: {
           index: String(i),
+          kind: L.kind || '',
           draft: ep.subtitleStatus === 'verified' ? '0' : '1',
           revealed: '0',
         },
@@ -425,6 +496,7 @@ export async function renderWorkbench(host, ep) {
     if (Date.now() - S.lastSavedAt > 5000) saveNow();
     // 听到本集结尾 → 记一遍（磨耳朵靠的是重复遍数）
     const dur = mediaDuration();
+    if (S.passCounted && t < 3) S.passCounted = false;   // 绕回开头＝新的一遍
     if (!S.passCounted && dur && t >= dur - 3) {
       S.passCounted = true;
       bumpPass(ep.id);
@@ -458,7 +530,9 @@ export async function renderWorkbench(host, ep) {
 
   playBtn.addEventListener('click', playPause);
 
-  /* 播放时自动收起进度条和控制条，把画面让出来；点画面 / 暂停即唤回 */
+  /* 播放时自动收起进度条和控制条，把画面让出来；点画面 / 暂停即唤回。
+     默认「一直显示」——小孩子自己找得到按钮比多那一点画面重要，
+     需要更大画面时在「控制条」里切到「自动隐藏」。 */
   let chromeTimer = 0;
   let chromeHintShown = false;
   function chromeVisible() { return !wbRoot.classList.contains('chrome-hidden'); }
@@ -467,6 +541,7 @@ export async function renderWorkbench(host, ep) {
   }
   function scheduleChromeHide() {
     clearTimeout(chromeTimer);
+    if (!S.autoHide) return;          // 开关关着就永不收起
     chromeTimer = setTimeout(() => {
       if (S.playState === 'playing' && !scrubbing && !chromeVisible()) return;
       if (S.playState === 'playing' && !scrubbing) {
@@ -481,7 +556,24 @@ export async function renderWorkbench(host, ep) {
   function showChrome() {
     clearTimeout(chromeTimer);
     setChrome(true);
-    if (S.playState === 'playing') scheduleChromeHide();  // 唤回后仍会自动收起
+    if (S.playState === 'playing') scheduleChromeHide();  // 开了自动隐藏才会再收
+  }
+
+  function setChromeMode(m) {
+    const auto = m === 'auto';
+    if (auto === S.autoHide) return;
+    S.autoHide = auto;
+    setPrefs({ autoHideChrome: auto });
+    chromeBtns.forEach((b) => {
+      b.setAttribute('aria-pressed', String((b.dataset.chrome === 'auto') === auto));
+    });
+    if (auto) {
+      toast('播放时 2.6 秒后自动收起控制条，点画面唤回');
+      scheduleChromeHide();          // 正在播的话立刻开始计时
+    } else {
+      toast('控制条会一直显示');
+      showChrome();
+    }
   }
   stageScroll.addEventListener('pointerdown', () => {
     if (chromeVisible()) scheduleChromeHide();
@@ -580,6 +672,47 @@ export async function renderWorkbench(host, ep) {
   }
   function applyRate() { video.playbackRate = S.rate; }
 
+  /* ------------------------------------------------------------ 播完怎么办 */
+
+  function setEndMode(m) {
+    if (!END_MODES.includes(m) || S.endMode === m) return;
+    S.endMode = m;
+    setPrefs({ endMode: m });
+    applyEndMode();
+    endBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.end === m)));
+    toast({
+      loop: '播完这一集，会自动从头再听一遍',
+      across: '播完这一集，自动接着听下一集',
+      stop: '这一集播完就停下',
+    }[m]);
+  }
+  /** 循环用原生 loop（无缝、不闪黑），另两种交给 ended 事件 */
+  function applyEndMode() { video.loop = S.endMode === 'loop'; }
+
+  /** 按选集顺序取下一集；已经是最后一集则返回 null */
+  async function nextEpisode() {
+    try {
+      const cat = await loadCatalog();
+      const list = cat.episodes || [];
+      const i = list.findIndex((e) => e.id === ep.id);
+      if (i < 0 || i + 1 >= list.length) return null;
+      return list[i + 1];
+    } catch { return null; }
+  }
+
+  async function onEnded() {
+    saveNow();
+    if (S.endMode === 'across') {
+      const next = await nextEpisode();
+      if (!next) { toast('这是最后一集啦，没有下一集了'); return; }
+      toast(`这一集听完啦，接着听《${next.title}》`);
+      location.hash = `#/watch/${next.id}`;
+      return;
+    }
+    toast('这一集听完啦');
+  }
+  video.addEventListener('ended', onEnded);
+
   /* ------------------------------------------------------------ 播放器字幕四态 */
 
   function setSubMode(m) {
@@ -637,6 +770,40 @@ export async function renderWorkbench(host, ep) {
       .map((p, i) => (i % 2 ? h('mark.fc-mark', p) : document.createTextNode(p)));
   }
 
+  /** 比「例句是否就是短语本身」，用来决定卡片背面要不要再贴一遍原句 */
+  function sameText(a, b) {
+    return String(a).replace(/\s+/g, ' ').trim().toLowerCase()
+      === String(b).replace(/\s+/g, ' ').trim().toLowerCase();
+  }
+
+  /**
+   * 从闪卡跳到字幕：定位到那一句并播放。
+   *
+   * 刻意**不切页签** —— 孩子是一边看闪卡一边听，自动跳到字幕页签等于
+   * 逼他看完再切回来。反馈交给三处：播放器上会显示这一句的字幕、
+   * 被点的卡片闪一圈、底部提示跳到了哪个时间点。
+   * 字幕页签只在「已经开着」时才滚动+闪烁；下次手动切过去时，
+   * setTab 会跟着当前播放句滚到正确位置。
+   */
+  function jumpToLine(i, card) {
+    if (!(i >= 0 && i < lines.length)) return;
+    selectLine(i, { play: true });
+    if (S.sideTab === 'subs') {
+      autoScrollTo(i);
+      flash(rowEls[i], 'trow-flash');
+    }
+    flash(card, 'fc-jump');
+    toast(`已跳到 ${fmtShort(lines[i].start)} 这一句`);
+  }
+
+  function flash(el, cls) {
+    if (!el) return;
+    el.classList.remove(cls);
+    void el.offsetWidth;                        // 强制重排，让动画能重复触发
+    el.classList.add(cls);
+    setTimeout(() => el.classList.remove(cls), 1400);
+  }
+
   function paintFcCount() {
     if (!words.length) { fcCount.textContent = ''; return; }
     const n = words.filter((w) => isCardKnown(ep.id, w.en)).length;
@@ -650,8 +817,11 @@ export async function renderWorkbench(host, ep) {
     if (badge) badge.hidden = !known;
     const knowBtn = card.querySelector('.fc-btn-know');
     if (knowBtn) {
+      const label = known ? '还没会' : '我会了';
       clear(knowBtn);
-      append(knowBtn, icon(known ? 'replay' : 'check'), known ? '还没会' : '我会了');
+      append(knowBtn, label);
+      knowBtn.title = known ? '点一下改回「还没会」' : '点一下标记「我会了」';
+      knowBtn.setAttribute('aria-label', label);
     }
     paintFcCount();
   }
@@ -659,20 +829,28 @@ export async function renderWorkbench(host, ep) {
   function buildCards() {
     clear(fcRow);
     words.forEach((w) => {
+      const isPhrase = w.type === 'phrase';
       const L = Number.isInteger(w.line) && lines[w.line] ? lines[w.line] : null;
+      // 短语卡：只有当原句比短语本身更长时，才在背面把它当上下文贴出来
+      const showContext = L && (!isPhrase || !sameText(L.en, w.en));
       const front = h('div.fc-face.fc-front',
+        isPhrase ? h('span.fc-kind', '短语') : null,
         h('span.fc-emoji', w.emoji || ''),
         h('span.fc-word', w.en),
         h('span.fc-known', { hidden: true }, icon('check')),
-        h('span.fc-hint', '点我看意思'));
+        h('span.fc-hint', isPhrase ? '点我看中文' : '点我看意思'));
       const back = h('div.fc-face.fc-back',
         h('span.fc-zh', w.zh || ''),
-        L ? h('p.fc-line', highlightWord(L.en, w.en)) : null,
+        showContext ? h('p.fc-line', highlightWord(L.en, w.en)) : null,
         h('div.fc-actions',
           L ? h('button.fc-btn', {
             type: 'button',
-            onclick: (e) => { e.stopPropagation(); selectLine(w.line, { play: true }); },
-          }, icon('play'), '听这句') : null,
+            title: '跳到字幕里这一句（会留在闪卡页签，字幕显示在画面上）',
+            onclick: (e) => {
+              e.stopPropagation();
+              jumpToLine(w.line, e.currentTarget.closest('.fc-card'));
+            },
+          }, '听这句') : null,
           h('button.fc-btn.fc-btn-know', {
             type: 'button',
             onclick: (e) => {
@@ -686,10 +864,15 @@ export async function renderWorkbench(host, ep) {
       const card = h('button.fc-card', {
         type: 'button',
         role: 'listitem',
-        dataset: { known: isCardKnown(ep.id, w.en) ? '1' : '0', flip: '0' },
+        dataset: {
+          kind: isPhrase ? 'phrase' : 'word',
+          known: isCardKnown(ep.id, w.en) ? '1' : '0',
+          flip: '0',
+        },
         'aria-label': `${w.en}，${w.zh || ''}`,
         onclick: () => { card.dataset.flip = card.dataset.flip === '1' ? '0' : '1'; },
       }, h('div.fc-inner', front, back));
+      refreshCard(card, w);   // 让「我会了 / 还没会」一生成就有字，别是个空按钮
       fcRow.appendChild(card);
     });
     paintFcCount();
@@ -895,6 +1078,7 @@ export async function renderWorkbench(host, ep) {
   paint();
   timeTotal.textContent = ep.durationSeconds ? fmtTime(ep.durationSeconds) : '--:--';
   applyRate();
+  applyEndMode();
   applyBlind();
   await tryLoadSource();
   S.rafId = requestAnimationFrame(tick);

@@ -23,12 +23,17 @@ export const DEFAULT_PREFS = {
   blindFirst: false,        // 盲听：先遮住英文字幕，点某句才揭示
   gapSeconds: 3,            // 跟读模式下每句后的留白秒数
   subtitleMode: 'both',     // 播放器内字幕：both 中英 | zh 中 | en 英 | off 关
+  sideTab: 'subs',          // 右侧面板当前页签：subs 字幕表 | cards 闪卡
+  endMode: 'loop',          // 一集播完怎么办：loop 循环本集 | across 连播下一集 | stop 播完即停
+  autoHideChrome: false,    // 播放时是否自动收起进度条/控制条（默认不收，孩子自己找得到按钮）
 };
-export const RATES = [0.75, 0.9, 1.0, 1.25];
+export const RATES = [0.5, 0.75, 0.9, 1.0, 1.25];
 export const MODES = ['continuous', 'single', 'shadow'];
 export const GAP_CHOICES = [2, 3, 5];
+export const END_MODES = ['loop', 'across', 'stop'];
 export const SUBTITLE_MODES = ['off', 'zh', 'en', 'both'];
 export const SUBTITLE_LABELS = { off: '关', zh: '中', en: '英', both: '中英' };
+export const SIDE_TABS = ['subs', 'cards'];
 
 /* ---------------------------------------------------------------- localStorage */
 
@@ -62,6 +67,9 @@ export function setPrefs(patch) {
   if (!MODES.includes(next.mode)) next.mode = 'continuous';
   if (!GAP_CHOICES.includes(next.gapSeconds)) next.gapSeconds = 3;
   if (!SUBTITLE_MODES.includes(next.subtitleMode)) next.subtitleMode = 'both';
+  if (!SIDE_TABS.includes(next.sideTab)) next.sideTab = 'subs';
+  if (!END_MODES.includes(next.endMode)) next.endMode = 'loop';
+  next.autoHideChrome = !!next.autoHideChrome;
   writeJSON(KEY.prefs, next);
   return next;
 }
