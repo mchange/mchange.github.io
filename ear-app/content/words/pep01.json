@@ -1,0 +1,89 @@
+{
+ "id": "pep01",
+ "words": [
+  {
+   "type": "word",
+   "en": "raining",
+   "zh": "下雨",
+   "emoji": "🌧️",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "水坑",
+   "emoji": "💧",
+   "line": 10
+  },
+  {
+   "type": "phrase",
+   "en": "I love muddy puddles.",
+   "zh": "我最喜欢泥坑了！",
+   "emoji": "💕",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "boots",
+   "zh": "靴子",
+   "emoji": "👢",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "jump",
+   "zh": "跳",
+   "emoji": "🦘",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "safe",
+   "zh": "安全的",
+   "emoji": "✅",
+   "line": 27
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 30
+  },
+  {
+   "type": "phrase",
+   "en": "Guess what we have been doing?",
+   "zh": "猜猜我们刚才干什么了？",
+   "emoji": "🤔",
+   "line": 36
+  },
+  {
+   "type": "word",
+   "en": "television",
+   "zh": "电视",
+   "emoji": "📺",
+   "line": 38
+  },
+  {
+   "type": "word",
+   "en": "garden",
+   "zh": "花园",
+   "emoji": "🌷",
+   "line": 53
+  },
+  {
+   "type": "word",
+   "en": "everyone",
+   "zh": "每个人",
+   "emoji": "👨‍👩‍👧‍👦",
+   "line": 57
+  }
+ ]
+}

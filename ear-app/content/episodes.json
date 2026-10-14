@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "generatedAt": "2026-10-12T05:44:31+00:00",
  "source": "./episodes",
  "episodes": [
@@ -9,10 +9,10 @@
    "title": "The Alarm",
    "durationSeconds": 346.3,
    "video": "./episodes_h264/01 The Alarm.mp4",
-   "videoFallback": "./episodes/01 The Alarm.mp4",
    "thumbnail": "content/thumbs/ep01.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 73
+   "lineCount": 73,
+   "series": "fixies"
   },
   {
    "id": "ep02",
@@ -20,10 +20,10 @@
    "title": "The Pen",
    "durationSeconds": 342.98,
    "video": "./episodes_h264/02 The Pen.mp4",
-   "videoFallback": "./episodes/02 The Pen.mp4",
    "thumbnail": "content/thumbs/ep02.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 81
+   "lineCount": 81,
+   "series": "fixies"
   },
   {
    "id": "ep03",
@@ -31,10 +31,10 @@
    "title": "The Refrigerator",
    "durationSeconds": 344.44,
    "video": "./episodes_h264/03 The Refrigerator.mp4",
-   "videoFallback": "./episodes/03 The Refrigerator.mp4",
    "thumbnail": "content/thumbs/ep03.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 84
+   "lineCount": 84,
+   "series": "fixies"
   },
   {
    "id": "ep04",
@@ -42,10 +42,10 @@
    "title": "The Vent",
    "durationSeconds": 343.0,
    "video": "./episodes_h264/04 The Vent.mp4",
-   "videoFallback": "./episodes/04 The Vent.mp4",
    "thumbnail": "content/thumbs/ep04.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 75
+   "lineCount": 75,
+   "series": "fixies"
   },
   {
    "id": "ep05",
@@ -53,10 +53,10 @@
    "title": "The Washing Machine",
    "durationSeconds": 340.52,
    "video": "./episodes_h264/05 The Washing Machine.mp4",
-   "videoFallback": "./episodes/05 The Washing Machine.mp4",
    "thumbnail": "content/thumbs/ep05.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 69
+   "lineCount": 69,
+   "series": "fixies"
   },
   {
    "id": "ep07",
@@ -64,10 +64,10 @@
    "title": "School",
    "durationSeconds": 342.61,
    "video": "./episodes_h264/07 School.mp4",
-   "videoFallback": "./episodes/07 School.mp4",
    "thumbnail": "content/thumbs/ep07.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 84
+   "lineCount": 84,
+   "series": "fixies"
   },
   {
    "id": "ep08",
@@ -75,10 +75,10 @@
    "title": "The Nightlight",
    "durationSeconds": 342.88,
    "video": "./episodes_h264/08 The Nightlight.mp4",
-   "videoFallback": "./episodes/08 The Nightlight.mp4",
    "thumbnail": "content/thumbs/ep08.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 71
+   "lineCount": 71,
+   "series": "fixies"
   },
   {
    "id": "ep10",
@@ -86,10 +86,10 @@
    "title": "The Wires",
    "durationSeconds": 342.7,
    "video": "./episodes_h264/10 The Wires.mp4",
-   "videoFallback": "./episodes/10 The Wires.mp4",
    "thumbnail": "content/thumbs/ep10.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 83
+   "lineCount": 83,
+   "series": "fixies"
   },
   {
    "id": "ep11",
@@ -97,10 +97,10 @@
    "title": "The Thermometer",
    "durationSeconds": 342.17,
    "video": "./episodes_h264/11 The Thermometer.mp4",
-   "videoFallback": "./episodes/11 The Thermometer.mp4",
    "thumbnail": "content/thumbs/ep11.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 84
+   "lineCount": 84,
+   "series": "fixies"
   },
   {
    "id": "ep12",
@@ -108,10 +108,10 @@
    "title": "The Manipulator",
    "durationSeconds": 344.35,
    "video": "./episodes_h264/12 The Manipulator.mp4",
-   "videoFallback": "./episodes/12 The Manipulator.mp4",
    "thumbnail": "content/thumbs/ep12.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 70
+   "lineCount": 70,
+   "series": "fixies"
   },
   {
    "id": "ep15",
@@ -119,10 +119,10 @@
    "title": "The Oven",
    "durationSeconds": 342.12,
    "video": "./episodes_h264/15 The Oven.mp4",
-   "videoFallback": "./episodes/15 The Oven.mp4",
    "thumbnail": "content/thumbs/ep15.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 74
+   "lineCount": 74,
+   "series": "fixies"
   },
   {
    "id": "ep16",
@@ -130,11 +130,49 @@
    "title": "The Lie Detector",
    "durationSeconds": 351.57,
    "video": "./episodes_h264/16 The Lie Detector.mp4",
-   "videoFallback": "./episodes/16 The Lie Detector.mp4",
    "thumbnail": "content/thumbs/ep16.jpg",
    "subtitleStatus": "draft",
-   "lineCount": 94
+   "lineCount": 94,
+   "series": "fixies"
+  },
+  {
+   "id": "pep01",
+   "series": "peppa",
+   "order": 1,
+   "title": "Muddy Puddles",
+   "durationSeconds": 315.63,
+   "video": "./episodes_peppa/01 Muddy Puddles.mp4",
+   "thumbnail": "content/thumbs/pep01.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 64
+  },
+  {
+   "id": "pep02",
+   "series": "peppa",
+   "order": 2,
+   "title": "Gardening",
+   "durationSeconds": 315.21,
+   "video": "./episodes_peppa/02 Gardening.mp4",
+   "thumbnail": "content/thumbs/pep02.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 92
   }
  ],
- "note": "已剔除与其它集内容重复的 4 集（ep06/ep09/ep13/ep14），见 episodes.removed-duplicates.json"
+ "note": "v2：目录支持多合集（series）。order 是合集内序号；跨合集顺序由 series[*].order 决定。螺丝钉已剔除 4 集重复（见 episodes.removed-duplicates.json）；videoFallback 已移除（原指向不进部署包的 ear-app/episodes/）。",
+ "series": [
+  {
+   "id": "fixies",
+   "title": "螺丝钉",
+   "subtitle": "The Fixies",
+   "order": 1,
+   "desc": "俄罗斯科普动画，每集 6 分钟讲一个生活里的「为什么」。"
+  },
+  {
+   "id": "peppa",
+   "title": "小猪佩奇",
+   "subtitle": "Peppa Pig",
+   "order": 2,
+   "desc": "英式发音、语速慢、句式短，最适合刚开始磨耳朵。"
+  }
+ ]
 }

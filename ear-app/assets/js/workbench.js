@@ -16,6 +16,7 @@ import {
   bumpPass, getPasses, isCardKnown, setCardKnown, resetCards,
 } from './store.js';
 import { loadLines, loadWords, videoSources, loadCatalog } from './content.js';
+import { isCached, cacheEpisode, fmtMB } from './cache.js';
 
 /* 右侧面板的两个页签：[键, 标签, 图标] */
 const TAB_DEFS = [['subs', '字幕', 'chinese'], ['cards', '闪卡', 'library']];
@@ -50,6 +51,9 @@ export async function renderWorkbench(host, ep) {
     gapSec: prefs.gapSeconds || 3,
     endMode: END_MODES.includes(prefs.endMode) ? prefs.endMode : 'loop',
     autoHide: !!prefs.autoHideChrome,
+    keepAwake: prefs.keepAwake !== false,
+    cacheMode: prefs.videoCache === 'auto',
+    cached: false,            // 这一集是否已在本机（决定缓存 chip 与是否要下载）
     gapLeft: 0,
     gapTimer: 0,
     passCounted: false,
@@ -63,6 +67,7 @@ export async function renderWorkbench(host, ep) {
 
   let video, scrubEl, scrubFill, scrubKnob, scrubBuffer, timeNow, timeTotal,
       playBtn, modeSeg, rateSeg, subSeg, blindBtn, gapSeg, endSeg, chromeSeg,
+      bufSpinner, cacheChip, wakeChip,
       subLayer, subEn, subZh, gapChip, gapText, gapBar, veil, veilTitle,
       veilMsg, veilHint, scrollEl, rowsEl, rowEls = [], followChip, resumeBar,
       markLayer, warningChip, headStatus, fcCount, fcRow, sidePanel;
@@ -103,7 +108,15 @@ export async function renderWorkbench(host, ep) {
   gapChip = h('div.gap-chip', { hidden: true },
     h('span.gap-icon', icon('mic')), gapText, h('div.gap-bar', gapBar));
 
-  const player = h('div.player', video, subLayer, gapChip, veil);
+  /* 缓冲指示：iPad 上 seek 要等 Range 回来，没有指示会以为按坏了 */
+  bufSpinner = h('div.buf-spinner', { hidden: true },
+    h('span.buf-ring'), h('span.buf-text', '缓冲中…'));
+  /* 状态角标：屏幕常亮 / 本机缓存 / 缓存进度 */
+  wakeChip = h('div.pchip.pchip-wake', { hidden: true }, '屏幕常亮');
+  cacheChip = h('div.pchip.pchip-cache', { hidden: true });
+  const playerBadges = h('div.player-badges', wakeChip, cacheChip);
+
+  const player = h('div.player', video, subLayer, gapChip, bufSpinner, playerBadges, veil);
 
   modeSeg = h('div.seg', { role: 'group', 'aria-label': '播放模式' });
   const modeBtns = [['continuous', '连续'], ['single', '单句'], ['shadow', '跟读']]
@@ -474,12 +487,19 @@ export async function renderWorkbench(host, ep) {
     playBtn.setAttribute('aria-label', '暂停');
     clearGap();     // 用户主动播放 = 留白结束
     scheduleChromeHide();
+    acquireWake();  // 播放 = 别锁屏
+    // 播放稳定后再补缓存，别和首屏缓冲抢带宽
+    if (!cacheStarted) {
+      cacheStarted = true;
+      setTimeout(() => { startCache(); }, 2500);
+    }
   });
   video.addEventListener('pause', () => {
     S.playState = 'paused';
     clear(playBtn); playBtn.appendChild(icon('play'));
     playBtn.setAttribute('aria-label', '播放');
     showChrome();
+    scheduleWakeRelease();   // 短暂暂停仍保持常亮，久无动静才放开
     saveNow();
   });
   video.addEventListener('timeupdate', () => {
@@ -583,6 +603,115 @@ export async function renderWorkbench(host, ep) {
     if (chromeVisible()) scheduleChromeHide();
   }, { passive: true });
   stageScroll.addEventListener('keydown', showChrome);
+
+  /* ------------------------------------------------ 屏幕常亮：播放期间不锁屏
+   *
+   * ⚠️ Screen Wake Lock 只在**安全上下文**里存在（HTTPS 或 localhost）。
+   *    用局域网 http://192.168.x.x:8788 打开时 navigator.wakeLock 是 undefined，
+   *    怎么调都没用 —— 这曾经是「iPad 自己锁屏」的真正原因。
+   *    部署到 GitHub Pages（HTTPS）后才会真正生效。
+   *
+   * 另外：单句 / 跟读模式每到句尾就 pause，靠「视频在播」本身防不住锁屏，
+   * 所以必须显式申请、暂停时按需保持。
+   */
+  let wakeLock = null;
+  let wakeHinted = false;
+  let wakeIdleTimer = 0;
+
+  function paintWakeChip() {
+    const on = !!wakeLock && !wakeLock.released;
+    wakeChip.hidden = !on;
+  }
+  /* 暂停 ≠ 结束。单句 / 跟读模式每隔几秒就 pause 一次，一暂停就放开常亮，
+     孩子跟着念的时候屏幕反而灭了。所以暂停后**保持**常亮，只有长时间
+     （默认 2 分钟）没动静才放开，让 iPad 正常息屏省电。 */
+  function scheduleWakeRelease(ms = 120000) {
+    clearTimeout(wakeIdleTimer);
+    wakeIdleTimer = setTimeout(releaseWake, ms);
+  }
+  async function acquireWake() {
+    clearTimeout(wakeIdleTimer);
+    if (!S.keepAwake) return;
+    if (!('wakeLock' in navigator)) {
+      if (!wakeHinted) {
+        wakeHinted = true;
+        toast('当前地址不支持自动防锁屏（需要 HTTPS）。可在 iPad「设置 → 显示与亮度 → 自动锁定」里选「永不」', 5600);
+      }
+      return;
+    }
+    if (document.visibilityState !== 'visible') return;   // 页面不可见时申请必被拒
+    if (wakeLock && !wakeLock.released) return;
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => { wakeLock = null; paintWakeChip(); });
+      paintWakeChip();
+    } catch {
+      wakeLock = null;                                    // 别在 NotAllowedError 上打转
+      paintWakeChip();
+    }
+  }
+  function releaseWake() {
+    clearTimeout(wakeIdleTimer);
+    try { if (wakeLock) wakeLock.release(); } catch {}
+    wakeLock = null;
+    paintWakeChip();
+  }
+  // 系统在页面隐藏时会强制释放；回来时若还在播就重新申请
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) { wakeLock = null; paintWakeChip(); }
+    else if (S.playState === 'playing') acquireWake();
+  });
+
+  /* ------------------------------------------------ 缓冲指示 */
+  function setBuffering(on) {
+    bufSpinner.hidden = !on;
+  }
+  ['waiting', 'stalled', 'seeking'].forEach((ev) =>
+    video.addEventListener(ev, () => setBuffering(true)));
+  ['playing', 'canplay', 'seeked', 'pause', 'error', 'loadedmetadata'].forEach((ev) =>
+    video.addEventListener(ev, () => setBuffering(false)));
+
+  /* ------------------------------------------------ 本机缓存（加快跳转）
+   *
+   * 打开一集时 content.js 已经优先给了本机 blob；这里负责「没有就后台补上」。
+   * 刻意等播放稳定 2.5 秒再开始下载，避免和首屏缓冲抢带宽。
+   * 下载**不打断当前播放**，只对「下一次」生效 —— 换源会丢播放位置，不值得。
+   */
+  let cacheStarted = false;
+
+  function paintCacheChip(state, ratio) {
+    if (state === 'off') { cacheChip.hidden = true; return; }
+    cacheChip.hidden = false;
+    cacheChip.dataset.state = state;
+    cacheChip.textContent = {
+      local: '本机播放',
+      saving: `缓存到本机 ${Math.round((ratio || 0) * 100)}%`,
+      skip: '视频较大，不缓存',
+      fail: '缓存失败（下次播放重试）',
+    }[state] || '';
+  }
+
+  async function startCache() {
+    if (ep.source !== 'mounted') return;                 // 导入的集本来就在本机
+    if (S.cached) { paintCacheChip('local'); return; }
+    if (!S.cacheMode) { paintCacheChip('off'); return; }
+    if (await isCached(ep.id)) { S.cached = true; paintCacheChip('local'); return; }
+    if (!ep.video) { paintCacheChip('off'); return; }
+
+    paintCacheChip('saving', 0);
+    try {
+      const netUrl = new URL(ep.video, location.href).href;
+      const r = await cacheEpisode(ep.id, netUrl, {
+        title: ep.title,
+        durationSeconds: ep.durationSeconds,
+        onProgress: (ratio) => paintCacheChip('saving', ratio),
+      });
+      if (r.ok) { S.cached = true; paintCacheChip('local'); }
+      else paintCacheChip(r.reason === 'too-big' ? 'skip' : 'off');
+    } catch {
+      paintCacheChip('fail');
+    }
+  }
 
   /* 进度条拖拽 */
   let scrubbing = false;
@@ -689,11 +818,11 @@ export async function renderWorkbench(host, ep) {
   /** 循环用原生 loop（无缝、不闪黑），另两种交给 ended 事件 */
   function applyEndMode() { video.loop = S.endMode === 'loop'; }
 
-  /** 按选集顺序取下一集；已经是最后一集则返回 null */
+  /** 取同合集里的下一集；已经是本合集最后一集则返回 null（不跨动画连播） */
   async function nextEpisode() {
     try {
       const cat = await loadCatalog();
-      const list = cat.episodes || [];
+      const list = (cat.episodes || []).filter((e) => (e.series || '') === (ep.series || ''));
       const i = list.findIndex((e) => e.id === ep.id);
       if (i < 0 || i + 1 >= list.length) return null;
       return list[i + 1];
@@ -704,7 +833,8 @@ export async function renderWorkbench(host, ep) {
     saveNow();
     if (S.endMode === 'across') {
       const next = await nextEpisode();
-      if (!next) { toast('这是最后一集啦，没有下一集了'); return; }
+      const show = ep.seriesMeta?.title || '这一部';
+      if (!next) { toast(`《${show}》就这几集，都听完啦`); return; }
       toast(`这一集听完啦，接着听《${next.title}》`);
       location.hash = `#/watch/${next.id}`;
       return;
@@ -1060,6 +1190,8 @@ export async function renderWorkbench(host, ep) {
     cancelAnimationFrame(S.rafId);
     clearGap();
     clearTimeout(chromeTimer);
+    releaseWake();
+    setBuffering(false);
     document.removeEventListener('keydown', onKey);
     window.removeEventListener('pagehide', onHide);
     window.removeEventListener('beforeunload', onHide);
@@ -1077,6 +1209,9 @@ export async function renderWorkbench(host, ep) {
   buildCards();
   paint();
   timeTotal.textContent = ep.durationSeconds ? fmtTime(ep.durationSeconds) : '--:--';
+  S.cached = ep.source === 'mounted' && String(sources[0] || '').startsWith('blob:');
+  if (S.cached) paintCacheChip('local');
+  else if (!S.cacheMode) paintCacheChip('off');
   applyRate();
   applyEndMode();
   applyBlind();

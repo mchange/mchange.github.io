@@ -141,6 +141,11 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   border: 1px solid var(--green-line); border-radius: 6px;
   padding: 2px 7px; flex: 0 0 auto; letter-spacing: .04em;
 }
+.topbar-series {
+  font-size: 11px; font-weight: 700; color: var(--amber);
+  background: var(--amber-soft); border: 1px solid var(--amber-line);
+  border-radius: 6px; padding: 2px 7px; flex: 0 0 auto; letter-spacing: .03em;
+}
 .topbar-ep-title {
   font-size: 15px; font-weight: 600; white-space: nowrap;
   overflow: hidden; text-overflow: ellipsis;
@@ -259,6 +264,24 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   gap: 16px;
   padding-bottom: 8px;
 }
+
+/* 合集分节：一部动画一节（只有一部动画时不渲染分节标题，界面保持干净） */
+.series-block { display: flex; flex-direction: column; gap: 12px; }
+.series-block + .series-block {
+  margin-top: 10px; padding-top: 22px; border-top: 1px solid var(--line);
+}
+.series-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.series-title { font-size: 19px; font-weight: 700; margin: 0; letter-spacing: -.01em; }
+.series-sub {
+  font-size: 12.5px; color: var(--ink-3);
+  font-family: var(--font-mono); letter-spacing: .02em;
+}
+.series-count {
+  font-size: 11.5px; font-weight: 700; color: var(--green);
+  background: var(--green-soft); border: 1px solid var(--green-line);
+  border-radius: 999px; padding: 2px 9px; margin-left: auto;
+}
+.series-desc { margin: -4px 0 0; font-size: 13px; color: var(--ink-2); line-height: 1.55; max-width: 62ch; }
 
 .ep-card {
   display: flex; flex-direction: column;
@@ -1006,6 +1029,89 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
   .fc-line { -webkit-line-clamp: 2; font-size: 11px; }
   .controls-row { padding: 8px 11px; }
 }
+
+/* ==========================================================================
+   播放器状态角标（屏幕常亮 / 本机缓存）与缓冲指示
+   ========================================================================== */
+
+.player-badges {
+  position: absolute; top: 10px; right: 10px; z-index: 5;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
+  pointer-events: none;
+}
+.pchip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 11.5px; font-weight: 650; line-height: 1; white-space: nowrap;
+  padding: 6px 10px; border-radius: 999px;
+  background: rgba(255,255,255,.88); border: 1px solid var(--line); color: var(--ink-2);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(0,0,0,.18);
+}
+.pchip[hidden] { display: none; }
+.pchip-wake { color: var(--amber); border-color: var(--amber-line); background: rgba(251,240,225,.92); }
+.pchip-cache[data-state="local"] { color: var(--green-strong); border-color: var(--green-line); background: rgba(230,241,234,.92); }
+.pchip-cache[data-state="saving"] { color: var(--blue); border-color: var(--blue-line); background: rgba(232,241,248,.92); font-variant-numeric: tabular-nums; }
+.pchip-cache[data-state="skip"],
+.pchip-cache[data-state="fail"] { color: var(--ink-2); }
+
+/* seek / 等待网络时的缓冲遮罩 —— 没有它，按了「听这句」会以为坏掉了 */
+.buf-spinner {
+  position: absolute; inset: 0; z-index: 6; pointer-events: none;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  background: rgba(18,22,15,.3); color: #F0EEE6;
+  font-size: 13px; font-weight: 600;
+}
+.buf-spinner[hidden] { display: none; }
+.buf-ring {
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 2.5px solid rgba(255,255,255,.32); border-top-color: #F0EEE6;
+  animation: bufspin .8s linear infinite;
+}
+@keyframes bufspin { to { transform: rotate(360deg); } }
+
+/* ==========================================================================
+   选集页 · 播放与存储设置卡
+   ========================================================================== */
+
+.settings-card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px 18px;
+  box-shadow: var(--shadow-1);
+  display: flex; flex-direction: column; gap: 14px;
+}
+.settings-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.settings-sub { font-size: 12.5px; color: var(--ink-3); }
+
+.settings-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.settings-row + .settings-row { border-top: 1px dashed var(--line); padding-top: 14px; }
+.settings-row-block { flex-direction: column; align-items: stretch; gap: 9px; }
+
+.sr-label {
+  display: flex; flex-direction: column; gap: 3px;
+  flex: 1 1 210px; font-size: 14px; font-weight: 620; color: var(--ink);
+}
+.sr-hint { font-size: 12px; font-weight: 400; color: var(--ink-3); line-height: 1.55; }
+
+.seg-mini button { min-height: 32px; padding: 0 12px; font-size: 12.5px; }
+.btn-mini { min-height: 34px; padding: 0 12px; font-size: 13px; }
+.btn-mini svg { width: 16px; height: 16px; }
+.btn-mini[data-armed="1"] {
+  background: var(--danger-soft); border-color: var(--danger-line); color: var(--danger);
+}
+
+.cache-usage { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.cache-bar {
+  height: 6px; border-radius: 999px; overflow: hidden;
+  background: var(--surface-sunk); border: 1px solid var(--line);
+}
+.cache-bar-fill {
+  height: 100%; width: 0; border-radius: 999px; background: var(--green);
+  transition: width .3s ease;
+}
+.cache-bar[data-full="true"] .cache-bar-fill { background: var(--amber); }
+.cache-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cache-budget-label { font-size: 12px; font-weight: 600; color: var(--ink-3); }
+.cache-actions .btn-mini { margin-left: auto; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }

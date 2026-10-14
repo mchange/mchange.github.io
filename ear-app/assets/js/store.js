@@ -26,10 +26,14 @@ export const DEFAULT_PREFS = {
   sideTab: 'subs',          // 右侧面板当前页签：subs 字幕表 | cards 闪卡
   endMode: 'loop',          // 一集播完怎么办：loop 循环本集 | across 连播下一集 | stop 播完即停
   autoHideChrome: false,    // 播放时是否自动收起进度条/控制条（默认不收，孩子自己找得到按钮）
+  keepAwake: true,          // 播放期间申请屏幕常亮，别让 iPad 自己锁屏（单句/跟读会频繁暂停）
+  videoCache: 'auto',       // 视频本机缓存：auto 打开一集就后台存到本机 | off 只用网络
+  cacheBudgetMB: 260,       // 本机缓存上限（MB），超了按「最久没用」淘汰；0 = 不限
 };
 export const RATES = [0.5, 0.75, 0.9, 1.0, 1.25];
 export const MODES = ['continuous', 'single', 'shadow'];
 export const GAP_CHOICES = [2, 3, 5];
+export const CACHE_CHOICES = [130, 260, 520, 0];   // MB；0 = 不限（按设备剩余空间自便）
 export const END_MODES = ['loop', 'across', 'stop'];
 export const SUBTITLE_MODES = ['off', 'zh', 'en', 'both'];
 export const SUBTITLE_LABELS = { off: '关', zh: '中', en: '英', both: '中英' };
@@ -70,6 +74,9 @@ export function setPrefs(patch) {
   if (!SIDE_TABS.includes(next.sideTab)) next.sideTab = 'subs';
   if (!END_MODES.includes(next.endMode)) next.endMode = 'loop';
   next.autoHideChrome = !!next.autoHideChrome;
+  next.keepAwake = next.keepAwake !== false;
+  if (!['auto', 'off'].includes(next.videoCache)) next.videoCache = 'auto';
+  if (!CACHE_CHOICES.includes(next.cacheBudgetMB)) next.cacheBudgetMB = 260;
   writeJSON(KEY.prefs, next);
   return next;
 }
@@ -148,7 +155,7 @@ export function resetCards(episodeId) {
 /* ---------------------------------------------------------------- IndexedDB */
 
 const DB_NAME = 'moerduo';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 let dbPromise = null;
 
 export function openDB() {
@@ -160,6 +167,10 @@ export function openDB() {
       const db = req.result;
       if (!db.objectStoreNames.contains('episodes')) db.createObjectStore('episodes', { keyPath: 'id' });
       if (!db.objectStoreNames.contains('media')) db.createObjectStore('media', { keyPath: 'id' });
+      // 视频本机缓存：blob 与元数据分两个 store —— 列清单时只想读元数据，
+      // 若和 blob 混在一起，getAll() 会把每个视频整份读进内存。
+      if (!db.objectStoreNames.contains('vcache')) db.createObjectStore('vcache', { keyPath: 'id' });
+      if (!db.objectStoreNames.contains('vmeta')) db.createObjectStore('vmeta', { keyPath: 'id' });
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error || new Error('IndexedDB 打开失败'));
@@ -211,6 +222,79 @@ export async function deleteImportedEpisode(id) {
   await toPromise(es.delete(id));
   const ms = await tx('media', 'readwrite');
   await toPromise(ms.delete(id));
+}
+
+/* ------------------------------------------------ 视频本机缓存（vcache / vmeta）
+ *
+ * 为什么存在：iPad 走局域网看视频时，每次跳转（点字幕、拖进度、单句循环）都要
+ * 重新发 Range 请求，wifi 抖动就是几百毫秒的卡顿。整集存到本机后，跳转是纯本地
+ * 读取。存 blob 不存 base64，避免 33% 膨胀与一次性大字符串。
+ */
+
+export async function cacheHas(id) {
+  try {
+    const s = await tx('vmeta', 'readonly');
+    return !!(await toPromise(s.getKey(id)));
+  } catch { return false; }
+}
+
+export async function cacheGetBlob(id) {
+  try {
+    const s = await tx('vcache', 'readonly');
+    const rec = await toPromise(s.get(id));
+    return rec ? rec.blob : null;
+  } catch { return null; }
+}
+
+export async function cachePut(id, blob, meta = {}) {
+  const vs = await tx('vcache', 'readwrite');
+  await toPromise(vs.put({ id, blob }));
+  const ms = await tx('vmeta', 'readwrite');
+  const now = Date.now();
+  await toPromise(ms.put({
+    id, size: blob.size, savedAt: now, usedAt: now,
+    title: meta.title || '', durationSeconds: meta.durationSeconds || 0,
+  }));
+  return blob.size;
+}
+
+/** 全部缓存的元数据（不含 blob，很轻），按「最近使用」倒序 */
+export async function cacheMetaAll() {
+  try {
+    const s = await tx('vmeta', 'readonly');
+    const rows = await toPromise(s.getAll());
+    return (rows || []).sort((a, b) => (b.usedAt || 0) - (a.usedAt || 0));
+  } catch { return []; }
+}
+
+export async function cacheTouch(id) {
+  try {
+    const s = await tx('vmeta', 'readwrite');
+    const rec = await toPromise(s.get(id));
+    if (!rec) return;
+    rec.usedAt = Date.now();
+    await toPromise(s.put(rec));
+  } catch {}
+}
+
+export async function cacheDelete(id) {
+  try {
+    const vs = await tx('vcache', 'readwrite');
+    await toPromise(vs.delete(id));
+    const ms = await tx('vmeta', 'readwrite');
+    await toPromise(ms.delete(id));
+    return true;
+  } catch { return false; }
+}
+
+export async function cacheClear() {
+  try {
+    const vs = await tx('vcache', 'readwrite');
+    await toPromise(vs.clear());
+    const ms = await tx('vmeta', 'readwrite');
+    await toPromise(ms.clear());
+    return true;
+  } catch { return false; }
 }
 
 /** 估算配额（方案 §5.2 要求显示存储状态） */

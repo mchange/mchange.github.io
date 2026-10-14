@@ -1,0 +1,89 @@
+{
+ "id": "pep02",
+ "words": [
+  {
+   "type": "word",
+   "en": "seeds",
+   "zh": "种子",
+   "emoji": "🌱",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "grow",
+   "zh": "生长",
+   "emoji": "🌿",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "hole",
+   "zh": "小坑",
+   "emoji": "🕳️",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "earth",
+   "zh": "泥土",
+   "emoji": "🟫",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "garden",
+   "zh": "花园",
+   "emoji": "🌷",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "apple",
+   "zh": "苹果",
+   "emoji": "🍎",
+   "line": 22
+  },
+  {
+   "type": "word",
+   "en": "strawberry",
+   "zh": "草莓",
+   "emoji": "🍓",
+   "line": 37
+  },
+  {
+   "type": "phrase",
+   "en": "Shall I water it for you?",
+   "zh": "要我帮你浇水吗？",
+   "emoji": "🚿",
+   "line": 40
+  },
+  {
+   "type": "word",
+   "en": "patient",
+   "zh": "有耐心的",
+   "emoji": "⏳",
+   "line": 48
+  },
+  {
+   "type": "phrase",
+   "en": "Don't worry, Peppa.",
+   "zh": "别担心，佩奇。",
+   "emoji": "🤗",
+   "line": 53
+  },
+  {
+   "type": "word",
+   "en": "carrot",
+   "zh": "胡萝卜",
+   "emoji": "🥕",
+   "line": 78
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 83
+  }
+ ]
+}

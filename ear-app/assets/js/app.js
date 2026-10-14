@@ -23,7 +23,7 @@ function brandMark() {
   return span;
 }
 
-function topbar({ contextTitle, contextNo, actions }) {
+function topbar({ contextSeries, contextTitle, contextNo, actions }) {
   const bar = h('header.topbar');
   const brand = h('a.brand', { href: '#/library' },
     brandMark(),
@@ -35,6 +35,7 @@ function topbar({ contextTitle, contextNo, actions }) {
   bar.appendChild(brand);
   if (contextTitle) {
     bar.appendChild(h('div.topbar-context',
+      contextSeries ? h('span.topbar-series', contextSeries) : null,
       contextNo ? h('span.topbar-ep-no', contextNo) : null,
       h('span.topbar-ep-title', contextTitle),
     ));
@@ -109,6 +110,7 @@ async function render() {
       return;
     }
     root.appendChild(topbar({
+      contextSeries: ep.seriesMeta ? ep.seriesMeta.title : null,
       contextNo: `第 ${String(ep.order).padStart(2, '0')} 集`,
       contextTitle: ep.title,
       actions: [h('a.btn', { href: '#/library' }, icon('library'), '选集')],

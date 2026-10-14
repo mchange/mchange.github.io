@@ -1,0 +1,455 @@
+{
+ "id": "pep01",
+ "title": "Muddy Puddles",
+ "source": "manual-en-srt",
+ "lines": [
+  {
+   "start": 2.502,
+   "end": 4.57,
+   "en": "I am Peppa Pig.",
+   "i": 1,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 4.603,
+   "end": 7.106,
+   "en": "This is my little brother George.",
+   "i": 2,
+   "zh": "这是我的弟弟乔治。"
+  },
+  {
+   "start": 7.14,
+   "end": 9.408,
+   "en": "This is Mummy Pig.",
+   "i": 3,
+   "zh": "这是猪妈妈。"
+  },
+  {
+   "start": 9.442,
+   "end": 11.544,
+   "en": "And this is Daddy Pig.",
+   "i": 4,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 13.146,
+   "end": 14.781,
+   "en": "Peppa Pig.",
+   "i": 5,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 26.191,
+   "end": 31.131,
+   "en": "It is raining today, so Peppa and George cannot play outside.",
+   "i": 6,
+   "zh": "今天下雨了，所以佩奇和乔治不能到外面去玩。"
+  },
+  {
+   "start": 32.765,
+   "end": 35.325,
+   "en": "Daddy, it's stopped raining.",
+   "i": 7,
+   "zh": "爸爸，雨停啦。"
+  },
+  {
+   "start": 35.325,
+   "end": 37.336,
+   "en": "Can we go out to play?",
+   "i": 8,
+   "zh": "我们可以出去玩吗？"
+  },
+  {
+   "start": 37.369,
+   "end": 38.393,
+   "en": "All right.",
+   "i": 9,
+   "zh": "好吧。"
+  },
+  {
+   "start": 38.393,
+   "end": 40.339,
+   "en": "Run along, you two.",
+   "i": 10,
+   "zh": "你们两个去玩吧。"
+  },
+  {
+   "start": 50.816,
+   "end": 53.419,
+   "en": "Peppa loves jumping in muddy puddles.",
+   "i": 11,
+   "zh": "佩奇最喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 53.452,
+   "end": 55.988,
+   "en": "I love muddy puddles.",
+   "i": 12,
+   "zh": "我最喜欢泥坑了。"
+  },
+  {
+   "start": 59.826,
+   "end": 60.354,
+   "en": "Peppa!",
+   "i": 13,
+   "zh": "佩奇！"
+  },
+  {
+   "start": 60.354,
+   "end": 65.198,
+   "en": "If you jump in muddy puddles, you must wear your boots.",
+   "i": 14,
+   "zh": "如果你要在泥坑里跳，就必须穿上靴子。"
+  },
+  {
+   "start": 65.598,
+   "end": 66.833,
+   "en": "Sorry, Mummy.",
+   "i": 15,
+   "zh": "对不起，妈妈。"
+  },
+  {
+   "start": 76.776,
+   "end": 79.512,
+   "en": "George likes to jump in muddy puddles, too.",
+   "i": 16,
+   "zh": "乔治也喜欢在泥坑里跳。"
+  },
+  {
+   "start": 81.58,
+   "end": 82.202,
+   "en": "George!",
+   "i": 17,
+   "zh": "乔治！"
+  },
+  {
+   "start": 82.202,
+   "end": 87.087,
+   "en": "If you jump in muddy puddles, you must wear your boots.",
+   "i": 18,
+   "zh": "如果你要在泥坑里跳，就必须穿上靴子。"
+  },
+  {
+   "start": 89.689,
+   "end": 92.826,
+   "en": "Peppa likes to look after her little brother George.",
+   "i": 19,
+   "zh": "佩奇喜欢照顾她的弟弟乔治。"
+  },
+  {
+   "start": 100.633,
+   "end": 104.37,
+   "en": "George, let's find some more puddles.",
+   "i": 20,
+   "zh": "乔治，我们再去找几个泥坑吧。"
+  },
+  {
+   "start": 110.676,
+   "end": 114.08,
+   "en": "Peppa and George are having a lot of fun.",
+   "i": 21,
+   "zh": "佩奇和乔治玩得可开心了。"
+  },
+  {
+   "start": 114.113,
+   "end": 117.216,
+   "en": "Peppa has found a little puddle.",
+   "i": 22,
+   "zh": "佩奇找到了一个小泥坑。"
+  },
+  {
+   "start": 117.249,
+   "end": 120.82,
+   "en": "George has found a big puddle.",
+   "i": 23,
+   "zh": "乔治找到了一个大泥坑。"
+  },
+  {
+   "start": 128.16,
+   "end": 130.83,
+   "en": "Look, George!",
+   "i": 24,
+   "zh": "看，乔治！"
+  },
+  {
+   "start": 131.731,
+   "end": 134.3,
+   "en": "There's a really big puddle!",
+   "i": 25,
+   "zh": "那儿有一个好大好大的泥坑！"
+  },
+  {
+   "start": 137.269,
+   "end": 140.639,
+   "en": "George wants to jump into the big puddle first.",
+   "i": 26,
+   "zh": "乔治想第一个跳进那个大泥坑里。"
+  },
+  {
+   "start": 140.673,
+   "end": 142.14,
+   "en": "Stop, George!",
+   "i": 27,
+   "zh": "站住，乔治！"
+  },
+  {
+   "start": 142.14,
+   "end": 145.978,
+   "en": "I must check if it's safe for you.",
+   "i": 28,
+   "zh": "我得先检查一下这对你安不安全。"
+  },
+  {
+   "start": 146.012,
+   "end": 150.383,
+   "en": "Good, it is safe for you.",
+   "i": 29,
+   "zh": "很好，这对你是安全的。"
+  },
+  {
+   "start": 155.12,
+   "end": 156.455,
+   "en": "Sorry, George.",
+   "i": 30,
+   "zh": "对不起，乔治。"
+  },
+  {
+   "start": 156.455,
+   "end": 157.79,
+   "en": "It's only mud.",
+   "i": 31,
+   "zh": "只是泥巴而已。"
+  },
+  {
+   "start": 168.5,
+   "end": 172.305,
+   "en": "Peppa and George love jumping in muddy puddles.",
+   "i": 32,
+   "zh": "佩奇和乔治都喜欢在泥坑里跳。"
+  },
+  {
+   "start": 177.509,
+   "end": 181.181,
+   "en": "Come on, George, let's go and show Daddy.",
+   "i": 33,
+   "zh": "来吧乔治，我们去给爸爸看看。"
+  },
+  {
+   "start": 187.353,
+   "end": 188.827,
+   "en": "Goodness me!",
+   "i": 34,
+   "zh": "我的天哪！"
+  },
+  {
+   "start": 188.827,
+   "end": 189.625,
+   "en": "Daddy!",
+   "i": 35,
+   "zh": "爸爸！"
+  },
+  {
+   "start": 189.625,
+   "end": 190.423,
+   "en": "Daddy!",
+   "i": 36,
+   "zh": "爸爸！"
+  },
+  {
+   "start": 190.456,
+   "end": 193.366,
+   "en": "Guess what we have been doing?",
+   "i": 37,
+   "zh": "猜猜我们刚才干什么了？"
+  },
+  {
+   "start": 193.366,
+   "end": 194.627,
+   "en": "Let me think.",
+   "i": 38,
+   "zh": "让我想想。"
+  },
+  {
+   "start": 194.66,
+   "end": 196.929,
+   "en": "Have you been watching television?",
+   "i": 39,
+   "zh": "你们是在看电视吗？"
+  },
+  {
+   "start": 196.963,
+   "end": 199.331,
+   "en": "No, Daddy.",
+   "i": 40,
+   "zh": "不是，爸爸。"
+  },
+  {
+   "start": 199.364,
+   "end": 201.166,
+   "en": "Have you just had a bath?",
+   "i": 41,
+   "zh": "你们是刚洗完澡吗？"
+  },
+  {
+   "start": 202.701,
+   "end": 204.036,
+   "en": "No, no.",
+   "i": 42,
+   "zh": "不是，不是。"
+  },
+  {
+   "start": 205.605,
+   "end": 206.321,
+   "en": "I know!",
+   "i": 43,
+   "zh": "我知道啦！"
+  },
+  {
+   "start": 206.321,
+   "end": 210.309,
+   "en": "You have been jumping in muddy puddles.",
+   "i": 44,
+   "zh": "你们是在泥坑里跳来跳去。"
+  },
+  {
+   "start": 210.342,
+   "end": 211.625,
+   "en": "Yes, yes, Daddy!",
+   "i": 45,
+   "zh": "对呀对呀，爸爸！"
+  },
+  {
+   "start": 211.625,
+   "end": 214.513,
+   "en": "We've been jumping in muddy puddles!",
+   "i": 46,
+   "zh": "我们在泥坑里跳来跳去！"
+  },
+  {
+   "start": 214.546,
+   "end": 215.12,
+   "en": "Ho-ho.",
+   "i": 47,
+   "zh": "呵呵。"
+  },
+  {
+   "start": 215.12,
+   "end": 218.184,
+   "en": "And look at the mess you are in.",
+   "i": 48,
+   "zh": "看看你们脏成什么样了。"
+  },
+  {
+   "start": 218.217,
+   "end": 218.876,
+   "en": "Ew!",
+   "i": 49,
+   "zh": "哎呀！"
+  },
+  {
+   "start": 218.876,
+   "end": 220.853,
+   "en": "Oh, well.",
+   "i": 50,
+   "zh": "哦，好吧。"
+  },
+  {
+   "start": 220.886,
+   "end": 222.054,
+   "en": "It's only mud.",
+   "i": 51,
+   "zh": "只是泥巴而已。"
+  },
+  {
+   "start": 222.054,
+   "end": 226.226,
+   "en": "Let's clean up quickly before Mummy sees the mess.",
+   "i": 52,
+   "zh": "我们快点收拾干净，别让妈妈看见这么脏。"
+  },
+  {
+   "start": 227.994,
+   "end": 233.466,
+   "en": "Daddy, when we have cleaned up, will you and Mummy come and play, too?",
+   "i": 53,
+   "zh": "爸爸，我们收拾干净以后，你和妈妈也来一起玩好吗？"
+  },
+  {
+   "start": 233.499,
+   "end": 236.469,
+   "en": "Yes, we could all play in the garden.",
+   "i": 54,
+   "zh": "好啊，我们可以在花园里一起玩。"
+  },
+  {
+   "start": 242.775,
+   "end": 245.744,
+   "en": "Peppa and George are wearing their boots.",
+   "i": 55,
+   "zh": "佩奇和乔治穿上了靴子。"
+  },
+  {
+   "start": 245.778,
+   "end": 248.58,
+   "en": "Mummy and Daddy are wearing their boots.",
+   "i": 56,
+   "zh": "妈妈和爸爸也穿上了靴子。"
+  },
+  {
+   "start": 248.614,
+   "end": 252.118,
+   "en": "Peppa loves jumping up and down in muddy puddles.",
+   "i": 57,
+   "zh": "佩奇最喜欢在泥坑里跳上跳下。"
+  },
+  {
+   "start": 252.151,
+   "end": 256.755,
+   "en": "Everyone loves jumping up and down in muddy puddles.",
+   "i": 58,
+   "zh": "大家都喜欢在泥坑里跳上跳下。"
+  },
+  {
+   "start": 265.164,
+   "end": 266.51,
+   "en": "Oh, Daddy pig.",
+   "i": 59,
+   "zh": "哦，猪爸爸。"
+  },
+  {
+   "start": 266.51,
+   "end": 269.201,
+   "en": "Look at the mess you are in.",
+   "i": 60,
+   "zh": "看看你脏成什么样了。"
+  },
+  {
+   "start": 269.235,
+   "end": 271.571,
+   "en": "It's only mud.",
+   "i": 61,
+   "zh": "只是泥巴而已。"
+  },
+  {
+   "start": 287.486,
+   "end": 289.021,
+   "en": "Peppa Pig",
+   "i": 62,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 292.258,
+   "end": 293.892,
+   "en": "Peppa Pig",
+   "i": 63,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 296.395,
+   "end": 298.03,
+   "en": "Peppa Pig",
+   "i": 64,
+   "zh": "小猪佩奇"
+  }
+ ]
+}
