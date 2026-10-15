@@ -1,0 +1,89 @@
+{
+ "id": "pep03",
+ "words": [
+  {
+   "type": "word",
+   "en": "lost",
+   "zh": "丢失",
+   "emoji": "😢",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "toy",
+   "zh": "玩具",
+   "emoji": "🧸",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "bath",
+   "zh": "洗澡",
+   "emoji": "🛁",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "bed",
+   "zh": "床",
+   "emoji": "🛏️",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "throw",
+   "zh": "扔",
+   "emoji": "🤾",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "catch",
+   "zh": "接住",
+   "emoji": "🤲",
+   "line": 20
+  },
+  {
+   "type": "phrase",
+   "en": "What's the matter?",
+   "zh": "怎么了？",
+   "emoji": "🤔",
+   "line": 26
+  },
+  {
+   "type": "phrase",
+   "en": "Don't worry, George.",
+   "zh": "别担心，乔治。",
+   "emoji": "🤗",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "detective",
+   "zh": "侦探",
+   "emoji": "🕵️",
+   "line": 32
+  },
+  {
+   "type": "word",
+   "en": "important",
+   "zh": "重要的",
+   "emoji": "⭐",
+   "line": 34
+  },
+  {
+   "type": "word",
+   "en": "garden",
+   "zh": "花园",
+   "emoji": "🌷",
+   "line": 55
+  },
+  {
+   "type": "word",
+   "en": "hard",
+   "zh": "难的",
+   "emoji": "🧩",
+   "line": 60
+  }
+ ]
+}

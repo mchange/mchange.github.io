@@ -156,6 +156,39 @@
    "thumbnail": "content/thumbs/pep02.jpg",
    "subtitleStatus": "draft",
    "lineCount": 92
+  },
+  {
+   "id": "pep03",
+   "series": "peppa",
+   "order": 3,
+   "title": "Mr. Dinosaur Is Lost",
+   "durationSeconds": 314.24,
+   "video": "./episodes_peppa/03 Mr. Dinosaur Is Lost.mp4",
+   "thumbnail": "content/thumbs/pep03.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 69
+  },
+  {
+   "id": "pep04",
+   "series": "peppa",
+   "order": 4,
+   "title": "The Playgroup",
+   "durationSeconds": 315.26,
+   "video": "./episodes_peppa/04 The Playgroup.mp4",
+   "thumbnail": "content/thumbs/pep04.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 89
+  },
+  {
+   "id": "pep05",
+   "series": "peppa",
+   "order": 5,
+   "title": "Picnic",
+   "durationSeconds": 300.05,
+   "video": "./episodes_peppa/05 Picnic.mp4",
+   "thumbnail": "content/thumbs/pep05.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 89
   }
  ],
  "note": "v2：目录支持多合集（series）。order 是合集内序号；跨合集顺序由 series[*].order 决定。螺丝钉已剔除 4 集重复（见 episodes.removed-duplicates.json）；videoFallback 已移除（原指向不进部署包的 ear-app/episodes/）。",

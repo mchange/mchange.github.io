@@ -1,0 +1,89 @@
+{
+ "id": "pep04",
+ "words": [
+  {
+   "type": "word",
+   "en": "brother",
+   "zh": "弟弟",
+   "emoji": "👦",
+   "line": 1
+  },
+  {
+   "type": "word",
+   "en": "playgroup",
+   "zh": "幼儿园",
+   "emoji": "🏫",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "small",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "children",
+   "zh": "孩子们",
+   "emoji": "🧒",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "toy",
+   "zh": "玩具",
+   "emoji": "🧸",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "sure",
+   "zh": "确定",
+   "emoji": "🤔",
+   "line": 18
+  },
+  {
+   "type": "phrase",
+   "en": "I wish I had a little brother like George.",
+   "zh": "我真希望也有个像乔治这样的弟弟。",
+   "emoji": "💭",
+   "line": 27
+  },
+  {
+   "type": "phrase",
+   "en": "That's brilliant!",
+   "zh": "太棒了！",
+   "emoji": "🌟",
+   "line": 42
+  },
+  {
+   "type": "word",
+   "en": "proud",
+   "zh": "骄傲的",
+   "emoji": "🏆",
+   "line": 45
+  },
+  {
+   "type": "word",
+   "en": "painting",
+   "zh": "画画",
+   "emoji": "🎨",
+   "line": 47
+  },
+  {
+   "type": "word",
+   "en": "flower",
+   "zh": "花",
+   "emoji": "🌸",
+   "line": 51
+  }
+ ]
+}

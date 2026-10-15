@@ -1,0 +1,89 @@
+{
+ "id": "pep05",
+ "words": [
+  {
+   "type": "word",
+   "en": "picnic",
+   "zh": "野餐",
+   "emoji": "🧺",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "lemonade",
+   "zh": "柠檬水",
+   "emoji": "🥤",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "forgotten",
+   "zh": "忘记",
+   "emoji": "🤔",
+   "line": 10
+  },
+  {
+   "type": "phrase",
+   "en": "Is there anything we've forgotten?",
+   "zh": "我们有没有忘了什么东西？",
+   "emoji": "❓",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "outdoors",
+   "zh": "户外",
+   "emoji": "🌳",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "exercise",
+   "zh": "锻炼",
+   "emoji": "🏃",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "tummy",
+   "zh": "肚子",
+   "emoji": "🫄",
+   "line": 24
+  },
+  {
+   "type": "word",
+   "en": "pond",
+   "zh": "池塘",
+   "emoji": "💧",
+   "line": 34
+  },
+  {
+   "type": "word",
+   "en": "duck",
+   "zh": "鸭子",
+   "emoji": "🦆",
+   "line": 35
+  },
+  {
+   "type": "word",
+   "en": "wasp",
+   "zh": "黄蜂",
+   "emoji": "🐝",
+   "line": 50
+  },
+  {
+   "type": "word",
+   "en": "lucky",
+   "zh": "幸运的",
+   "emoji": "🍀",
+   "line": 80
+  },
+  {
+   "type": "phrase",
+   "en": "See you next time.",
+   "zh": "下次见。",
+   "emoji": "👋",
+   "line": 85
+  }
+ ]
+}
