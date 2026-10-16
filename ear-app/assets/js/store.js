@@ -29,6 +29,7 @@ export const DEFAULT_PREFS = {
   keepAwake: true,          // 播放期间申请屏幕常亮，别让 iPad 自己锁屏（单句/跟读会频繁暂停）
   videoCache: 'auto',       // 视频本机缓存：auto 打开一集就后台存到本机 | off 只用网络
   cacheBudgetMB: 260,       // 本机缓存上限（MB），超了按「最久没用」淘汰；0 = 不限
+  topbarHidden: false,      // 播放页是否收起顶栏（把整条高度让给播放器）；仅播放页生效
 };
 export const RATES = [0.5, 0.75, 0.9, 1.0, 1.25];
 export const MODES = ['continuous', 'single', 'shadow'];
@@ -75,6 +76,7 @@ export function setPrefs(patch) {
   if (!END_MODES.includes(next.endMode)) next.endMode = 'loop';
   next.autoHideChrome = !!next.autoHideChrome;
   next.keepAwake = next.keepAwake !== false;
+  next.topbarHidden = !!next.topbarHidden;
   if (!['auto', 'off'].includes(next.videoCache)) next.videoCache = 'auto';
   if (!CACHE_CHOICES.includes(next.cacheBudgetMB)) next.cacheBudgetMB = 260;
   writeJSON(KEY.prefs, next);

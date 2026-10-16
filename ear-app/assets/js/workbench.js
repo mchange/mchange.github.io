@@ -8,7 +8,7 @@
  */
 
 import {
-  h, clear, append, icon, fmtTime, fmtShort, toast, clamp,
+  h, clear, append, icon, fmtTime, fmtShort, toast, clamp, emit,
 } from './util.js';
 import {
   getPrefs, setPrefs, getProgress, saveProgress, RATES, GAP_CHOICES,
@@ -1182,6 +1182,8 @@ export async function renderWorkbench(host, ep) {
     else if (e.key === 'r' || e.key === 'R') { replay(); }
     else if (e.key === 'c' || e.key === 'C') { cycleSubMode(); }
     else if (e.key === 'b' || e.key === 'B') { toggleBlind(); }
+    // 顶栏收起的实现住在 app.js（顶栏归它管），这里只发一个信号
+    else if (e.key === 't' || e.key === 'T') { emit('topbar:toggle'); }
   }
   document.addEventListener('keydown', onKey);
 
