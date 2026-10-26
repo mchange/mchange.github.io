@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-page-node-id="EAXE7b2qLNzWzZASnB6Lid">
-<head data-page-node-id="AbpRbUPrf2m80326zOFLz7">
-<meta charset="UTF-8" data-page-node-id="vXOZhFnH7B2xBROjOEO3ND">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" data-page-node-id="RHtaQ5uHiHpPKDTbGqgtLi">
-<meta name="apple-mobile-web-app-capable" content="yes" data-page-node-id="JK2TMTApnJjUfkkuIQdoho">
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <title>英语单词闪卡 · Words &amp; Expressions</title>
 <style>
   :root{
@@ -88,11 +88,15 @@
   .card{
     position:relative;height:380px;perspective:1500px;cursor:pointer;
     -webkit-user-select:none;user-select:none;
+    --flip-dur:.62s;
+    /* 缓动曲线 cubic-bezier(.4,.16,.2,1) 是非线性的：旋转到 90°（卡片正好侧对屏幕、
+       完全看不见）的时刻在总时长的 32.5%，不是 50%。换曲线要同步这个系数。 */
+    --flip-swap:calc(var(--flip-dur) * .325);
   }
   .flipper{
     position:relative;width:100%;height:100%;
     transform-style:preserve-3d;-webkit-transform-style:preserve-3d;
-    transition:transform .62s cubic-bezier(.4,.16,.2,1);
+    transition:transform var(--flip-dur) cubic-bezier(.4,.16,.2,1);
   }
   .card.flipped .flipper{transform:rotateY(180deg)}
   .face{
@@ -118,6 +122,16 @@
   .face.back{pointer-events:none}
   .card.flipped .face.front{pointer-events:none}
   .card.flipped .face.back{pointer-events:auto}
+
+  /* Safari 兜底：.face 内部有 position:relative + z-index 的子层与 overflow:hidden，
+     Safari 会忽略 backface-visibility:hidden，翻到背面后正面文字仍以镜像形式透出。
+     这里再叠一层「半程硬切」：卡片转到 90°（正好侧对屏幕、不可见）的瞬间用 visibility
+     切换显示的面，两个面永远不会同时出现。切换时刻 = --flip-swap。 */
+  .face{transition:visibility 0s linear var(--flip-swap)}
+  .face.front{visibility:visible}
+  .face.back{visibility:hidden}
+  .card.flipped .face.front{visibility:hidden}
+  .card.flipped .face.back{visibility:visible}
   .card-top{display:flex;align-items:center;justify-content:space-between;font-size:12px;gap:10px;position:relative;z-index:2}
   .unit-tag{
     display:inline-flex;align-items:center;gap:6px;color:var(--accent);font-weight:700;
@@ -334,161 +348,161 @@
   @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
-<body data-page-node-id="ikEBUw06ZcCM1PajYELMS3">
-<div class="app" data-page-node-id="P42R5mtHVa69sZexkERfK8">
-  <header class="topbar" data-page-node-id="eGlRtQngmB6DQqQEVPHBH6">
-    <div class="brand" data-page-node-id="IkIqx3Bf8VuaCqNLnDrXFO">
-      <div class="logo" data-page-node-id="oSY6mBTd0lvUJXIEFadcQD">ABC</div>
-      <div data-page-node-id="RVaNRlJ2R5zPraBKJYQvOy">
-        <h1 data-page-node-id="rKw1wil6kx2cocq71896dU">英语单词闪卡</h1>
-        <p id="subtitle" data-page-node-id="QRTjC4txrqPaVL489qPYta">Words &amp; Expressions · 翻卡片背单词</p>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">ABC</div>
+      <div>
+        <h1>英语单词闪卡</h1>
+        <p id="subtitle">Words &amp; Expressions · 翻卡片背单词</p>
       </div>
     </div>
-    <div class="chips" data-page-node-id="PYwwicsq29silodwrW8oEX">
-      <div class="seg" id="modeSeg" role="group" aria-label="练习模式" data-page-node-id="DX2B7q7J7LtVzHyppL0CHI">
-        <button type="button" data-m="card" aria-pressed="true" data-page-node-id="SfaZPXoojxFTlNEh9D7Axm">闪卡</button>
-        <button type="button" data-m="spell" aria-pressed="false" data-page-node-id="h4qUqtKJpH5M5nNJBQCeJq">拼写</button>
+    <div class="chips">
+      <div class="seg" id="modeSeg" role="group" aria-label="练习模式">
+        <button type="button" data-m="card" aria-pressed="true">闪卡</button>
+        <button type="button" data-m="spell" aria-pressed="false">拼写</button>
       </div>
-      <div class="seg" id="faceSeg" role="group" aria-label="卡片正面显示什么" data-page-node-id="Ac25K7y2tSpbcyy3ay6XRa">
-        <span class="seg-lbl" data-page-node-id="uoplP8Vc5j3prOamC4iDyr">正面</span>
-        <button type="button" data-f="en" aria-pressed="true" data-page-node-id="y4GNydHGRRZOTlcWBJgmmG">英文</button>
-        <button type="button" data-f="cn" aria-pressed="false" data-page-node-id="bHKEuwZAjVNJSD1eoeRPuY">中文</button>
-        <button type="button" data-f="none" aria-pressed="false" data-page-node-id="0lIEOFC8YrVlcacjGsgu60">隐藏</button>
+      <div class="seg" id="faceSeg" role="group" aria-label="卡片正面显示什么">
+        <span class="seg-lbl">正面</span>
+        <button type="button" data-f="en" aria-pressed="true">英文</button>
+        <button type="button" data-f="cn" aria-pressed="false">中文</button>
+        <button type="button" data-f="none" aria-pressed="false">隐藏</button>
       </div>
-      <button class="chip" data-k="ex" aria-pressed="true" data-page-node-id="GNyi2p59i3xA78uQdlwEgc"><i class="dot" data-page-node-id="3scQQKKK4N7hb84nj8dXkA"></i>例句</button>
-      <button class="chip" data-k="auto" aria-pressed="false" data-page-node-id="H6TeZiKvrz4dAQrGdCAbhp"><i class="dot" data-page-node-id="4E7SxMKygyniNpCfzjOpgl"></i>自动朗读</button>
-      <div class="seg" id="voiceSeg" role="group" aria-label="发音口音" data-page-node-id="vQwEZnkYlUtY01cnVTNemY"></div>
-      <div class="seg speed-seg" id="speedSeg" role="group" aria-label="播放速度" data-page-node-id="HGdDFInkwqvNfTIG3850oN"></div>
+      <button class="chip" data-k="ex" aria-pressed="true"><i class="dot"></i>例句</button>
+      <button class="chip" data-k="auto" aria-pressed="false"><i class="dot"></i>自动朗读</button>
+      <div class="seg" id="voiceSeg" role="group" aria-label="发音口音"></div>
+      <div class="seg speed-seg" id="speedSeg" role="group" aria-label="播放速度"></div>
     </div>
   </header>
 
-  <nav class="units" id="tabs" aria-label="单元选择" data-page-node-id="eCyjMaxzsvzM9AVDHIBXpp"></nav>
+  <nav class="units" id="tabs" aria-label="单元选择"></nav>
 
-  <main class="stage" id="stage" data-page-node-id="RFn3zwhQNk35X8IW15gFDr">
-    <div class="card" id="card" role="button" tabindex="0" aria-label="单词卡，点击翻面" data-page-node-id="INJ3oiuy1XEBb9DhaBSOjJ">
-      <div class="flipper" data-page-node-id="qaEGPEWzwIiavIk5mQqsgD">
+  <main class="stage" id="stage">
+    <div class="card" id="card" role="button" tabindex="0" aria-label="单词卡，点击翻面">
+      <div class="flipper">
         <!-- 正面：英文 -->
-        <section class="face front" data-page-node-id="WT8x7plynwpS78Fef4gLHY">
-          <div class="card-top" data-page-node-id="cBoD9xPwohAllX9n7RD4iV">
-            <span class="unit-tag" id="unitTag" data-page-node-id="PAEiUQ9okNK8n20vYjf1xU">Unit 1</span>
-            <span class="counter" id="counter" data-page-node-id="baH99hGAphmtXABmYAfFTM">1 / 13</span>
+        <section class="face front">
+          <div class="card-top">
+            <span class="unit-tag" id="unitTag">Unit 1</span>
+            <span class="counter" id="counter">1 / 13</span>
           </div>
-          <div class="front-body" data-page-node-id="OkhS17J2hToeAWj3PP4ubd">
-            <h2 class="word" id="word" data-page-node-id="prcPIvE3ObJgCFIvlwEXCH">—</h2>
-            <div class="word-ipa" id="wordIpa" data-page-node-id="Cc2XUPpFhWbR7RNyLnXPso"></div>
-            <button class="spk" id="spkWord" aria-label="朗读单词" data-page-node-id="xy9ZA6pgBwtiwj5D4B7sh3">
-              <svg viewBox="0 0 24 24" data-page-node-id="cnSgJQnZGatQRsACtoHsXX"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z" data-page-node-id="7oDriQUa52ATim06xYFNJ2"/></svg>
+          <div class="front-body">
+            <h2 class="word" id="word">—</h2>
+            <div class="word-ipa" id="wordIpa"></div>
+            <button class="spk" id="spkWord" aria-label="朗读单词">
+              <svg viewBox="0 0 24 24"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z"/></svg>
             </button>
           </div>
-          <div class="flip-hint" data-page-node-id="NLj0p2KhrCTynI73xvLefj">
-            <svg viewBox="0 0 24 24" data-page-node-id="zlh4aY3yEzMeU3zsJFTtAt"><path d="M12 5V2L7 6l5 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7Z" data-page-node-id="BlIYprFGqiZLwLhASTUblK"/></svg>
-            <span id="flipHint" data-page-node-id="IunOEIyZLbFAaejCsYHZnX">点击卡片看中文</span>
+          <div class="flip-hint">
+            <svg viewBox="0 0 24 24"><path d="M12 5V2L7 6l5 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7Z"/></svg>
+            <span id="flipHint">点击卡片看中文</span>
           </div>
         </section>
 
         <!-- 背面：中文 + 例句 -->
-        <section class="face back" data-page-node-id="utbC6Q9UzEEx4DNR8vHPjl">
-          <div class="card-top" data-page-node-id="GqBWtJXupTEgfk2HKq4dyF">
-            <span class="mini-word" id="miniWord" data-page-node-id="1Xp4yTHFPqL53DCAfUBpba">—</span>
-            <span class="counter" id="counter2" data-page-node-id="xO29ynvqxasdTNNylfLrMM">1 / 13</span>
+        <section class="face back">
+          <div class="card-top">
+            <span class="mini-word" id="miniWord">—</span>
+            <span class="counter" id="counter2">1 / 13</span>
           </div>
-          <div class="back-body" data-page-node-id="qMkOQowr5UAG740hzDf4Py">
-            <div class="word-back" id="wordBackBox" data-page-node-id="aurvmXiOgaL9SySi93jYmj">
-              <h2 class="word" id="wordBack" data-page-node-id="A3F9GYxbljpjNd84Shejlk">—</h2>
-              <div class="word-ipa" id="wordBackIpa" data-page-node-id="0nIXEHDyPaCcadCMXtj2QU"></div>
-              <button class="spk" id="spkWordBack" aria-label="朗读单词" data-page-node-id="kYeojYaQ2r9vOdeOLqf5Ts">
-                <svg viewBox="0 0 24 24" data-page-node-id="fub4RfwQglvAcWRlYHjnwC"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z" data-page-node-id="KNIJDbt0wXGTl8HivGGpD8"/></svg>
+          <div class="back-body">
+            <div class="word-back" id="wordBackBox">
+              <h2 class="word" id="wordBack">—</h2>
+              <div class="word-ipa" id="wordBackIpa"></div>
+              <button class="spk" id="spkWordBack" aria-label="朗读单词">
+                <svg viewBox="0 0 24 24"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z"/></svg>
               </button>
             </div>
-            <div class="cn" id="cnBox" data-page-node-id="PHtY2jYORMsrsNfgvbyQzV">
-              <span class="lbl" data-page-node-id="oXLPJaLoeryjOyKG2Zzfem">释义</span>
-              <b id="cn" data-page-node-id="A1RNGVp5u0rEYwnE3phBCX">—</b>
+            <div class="cn" id="cnBox">
+              <span class="lbl">释义</span>
+              <b id="cn">—</b>
             </div>
-            <div class="example" id="exBox" data-page-node-id="5HPewErYRwrN08j3WH43CB">
-              <div class="ex-head" data-page-node-id="fQ8E10jAPc6pVlYeEKIdus">
-                <span data-page-node-id="BAbw344Edic7SW1e8KNHmU">Example</span>
-                <button class="spk small" id="spkEx" aria-label="朗读例句" data-page-node-id="MDHglXLULkHRml3DO0TO0B">
-                  <svg viewBox="0 0 24 24" data-page-node-id="8r4Lok1EppGfjYIt5HwaE4"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z" data-page-node-id="1ozRD7HJOGhK9qwWlT8z5e"/></svg>
+            <div class="example" id="exBox">
+              <div class="ex-head">
+                <span>Example</span>
+                <button class="spk small" id="spkEx" aria-label="朗读例句">
+                  <svg viewBox="0 0 24 24"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z"/></svg>
                 </button>
               </div>
-              <p class="ex-en" id="exEn" data-page-node-id="FS2xPU1rtYckCJSRveyPvQ">—</p>
-              <p class="ex-cn" id="exCn" data-page-node-id="WVzMiarLIQ5YxSlEgNFKLR">—</p>
+              <p class="ex-en" id="exEn">—</p>
+              <p class="ex-cn" id="exCn">—</p>
             </div>
           </div>
         </section>
       </div>
     </div>
 
-    <div class="controls" data-page-node-id="1BhHxVJxgNFqpa0BodRpjA">
-      <button class="btn icon" id="prev" aria-label="上一张" data-page-node-id="2GgX2OoNrButgPd7OGyaBC">
-        <svg viewBox="0 0 24 24" data-page-node-id="0Y3VCiVxVMl6WSJBMMhLuz"><path d="M14.7 5.3a1 1 0 0 1 0 1.4L9.4 12l5.3 5.3a1 1 0 1 1-1.4 1.4l-6-6a1 1 0 0 1 0-1.4l6-6a1 1 0 0 1 1.4 0Z" data-page-node-id="rYywqGuMvkqBAW4O8DDA89"/></svg>
+    <div class="controls">
+      <button class="btn icon" id="prev" aria-label="上一张">
+        <svg viewBox="0 0 24 24"><path d="M14.7 5.3a1 1 0 0 1 0 1.4L9.4 12l5.3 5.3a1 1 0 1 1-1.4 1.4l-6-6a1 1 0 0 1 0-1.4l6-6a1 1 0 0 1 1.4 0Z"/></svg>
       </button>
-      <button class="btn primary" id="flipBtn" data-page-node-id="OZUVkSr2iSSZvaGOCbcB1H">
-        <svg viewBox="0 0 24 24" data-page-node-id="G5MyC9X5HVFLrcJMAs5DeS"><path d="M12 5V2L7 6l5 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7Z" data-page-node-id="7DhJskcnB0IaU4RYIzmOZS"/></svg>
-        <span id="flipLabel" data-page-node-id="Z2UGo0kenCmyw3kqhXhmJu">翻面看释义</span>
+      <button class="btn primary" id="flipBtn">
+        <svg viewBox="0 0 24 24"><path d="M12 5V2L7 6l5 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7Z"/></svg>
+        <span id="flipLabel">翻面看释义</span>
       </button>
-      <button class="btn icon" id="playBtn" aria-label="朗读单词" data-page-node-id="Bq91ldNEqPAXCXbDlr4nAw">
-        <svg viewBox="0 0 24 24" data-page-node-id="CtWeSF0wc3MTXki01GyEz5"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z" data-page-node-id="EJyMDZLTVdqCd2P9qGYbHt"/></svg>
+      <button class="btn icon" id="playBtn" aria-label="朗读单词">
+        <svg viewBox="0 0 24 24"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z"/></svg>
       </button>
-      <button class="btn icon" id="listBtn" aria-label="单词列表" data-page-node-id="opWENOL2ghsaRtP3zarRUI">
-        <svg viewBox="0 0 24 24" data-page-node-id="KMXecjPijOxmomLnDuxIgQ"><path d="M4 6.5A1.5 1.5 0 0 1 5.5 5h13A1.5 1.5 0 0 1 20 6.5v1A1.5 1.5 0 0 1 18.5 9h-13A1.5 1.5 0 0 1 4 7.5v-1Zm0 5A1.5 1.5 0 0 1 5.5 10h13a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 18.5 14h-13A1.5 1.5 0 0 1 4 12.5v-1Zm0 5A1.5 1.5 0 0 1 5.5 15h13a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 18.5 19h-13A1.5 1.5 0 0 1 4 17.5v-1Z" data-page-node-id="oHtD7FxcB3iLxnHF6Uy4v2"/></svg>
+      <button class="btn icon" id="listBtn" aria-label="单词列表">
+        <svg viewBox="0 0 24 24"><path d="M4 6.5A1.5 1.5 0 0 1 5.5 5h13A1.5 1.5 0 0 1 20 6.5v1A1.5 1.5 0 0 1 18.5 9h-13A1.5 1.5 0 0 1 4 7.5v-1Zm0 5A1.5 1.5 0 0 1 5.5 10h13a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 18.5 14h-13A1.5 1.5 0 0 1 4 12.5v-1Zm0 5A1.5 1.5 0 0 1 5.5 15h13a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 18.5 19h-13A1.5 1.5 0 0 1 4 17.5v-1Z"/></svg>
       </button>
-      <button class="btn icon" id="next" aria-label="下一张" data-page-node-id="kET9bf245eAejrW10oHDl5">
-        <svg viewBox="0 0 24 24" data-page-node-id="WDelmIrWlMPVQdg8GkVCD3"><path d="M9.3 5.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4L14.6 12 9.3 6.7a1 1 0 0 1 0-1.4Z" data-page-node-id="UVjW0acTFgH3mMzfvEohHW"/></svg>
+      <button class="btn icon" id="next" aria-label="下一张">
+        <svg viewBox="0 0 24 24"><path d="M9.3 5.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4L14.6 12 9.3 6.7a1 1 0 0 1 0-1.4Z"/></svg>
       </button>
     </div>
 
-    <div class="progress" data-page-node-id="DTL2sqBIAfFtMpgP0bvBsX"><i id="bar" data-page-node-id="aUN1jLyzTvFyg1wFQdNeVc"></i></div>
+    <div class="progress"><i id="bar"></i></div>
   </main>
 
   <!-- 拼写模式：听音 → 分块 → 点词块填空 -->
-  <main class="stage" id="spellView" hidden data-page-node-id="LFgZ2CycMYruxnDwLs69Ve">
-    <section class="spell-card" id="spellCard" data-page-node-id="Ll2eG82hRFlG7NukKLVHzq">
-      <div class="card-top" data-page-node-id="gTbU1vUdGh7bnjxx3KzQZg">
-        <span class="unit-tag" id="spellUnitTag" data-page-node-id="GgsriSSde4hCl8V7HBcrsR">Unit 1</span>
-        <span class="counter" id="spellCounter" data-page-node-id="rJkN8vElnG3eVwomyscmYo">1 / 13</span>
+  <main class="stage" id="spellView" hidden>
+    <section class="spell-card" id="spellCard">
+      <div class="card-top">
+        <span class="unit-tag" id="spellUnitTag">Unit 1</span>
+        <span class="counter" id="spellCounter">1 / 13</span>
       </div>
-      <div class="spell-prompt" data-page-node-id="uEzgBRcAyC9zvNZpRqSguh">
-        <span class="lbl" data-page-node-id="GlbZl0tnvsegMmSMxFEguB">释义</span>
-        <b id="spellCn" data-page-node-id="EFxMzrsBnCkW07RUDniVMk">—</b>
+      <div class="spell-prompt">
+        <span class="lbl">释义</span>
+        <b id="spellCn">—</b>
       </div>
-      <button class="listen" id="spellListen" type="button" data-page-node-id="IGWXIRPF4Pcvug4VFND1Fq">
-        <svg viewBox="0 0 24 24" data-page-node-id="6DFsk7OxMx6BrSj0YxJgcS"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z" data-page-node-id="rAvRTSosKztsoW9bH0YR28"/></svg>
+      <button class="listen" id="spellListen" type="button">
+        <svg viewBox="0 0 24 24"><path d="M13 4.1v15.8c0 .8-.9 1.2-1.5.7l-4-3.5H4.6A1.6 1.6 0 0 1 3 15.5v-7c0-.9.7-1.6 1.6-1.6h2.9l4-3.5c.6-.5 1.5-.1 1.5.7Zm3.5 2.2a.9.9 0 0 1 1.3 0 8 8 0 0 1 0 11.4.9.9 0 0 1-1.3-1.3 6.2 6.2 0 0 0 0-8.8.9.9 0 0 1 0-1.3Zm2.6-2.5a.9.9 0 0 1 1.3 0 11.4 11.4 0 0 1 0 16.2.9.9 0 0 1-1.3-1.3 9.6 9.6 0 0 0 0-13.6.9.9 0 0 1 0-1.3Z"/></svg>
         听一听
       </button>
-      <div class="slots" id="slots" data-page-node-id="fwFm1uQnZq7mROgA003u4U"></div>
-      <div class="spell-msg" id="spellMsg" data-page-node-id="ZA1voRcuK4oCbx42Tm9EN1"></div>
+      <div class="slots" id="slots"></div>
+      <div class="spell-msg" id="spellMsg"></div>
     </section>
 
-    <div class="bank" id="bank" data-page-node-id="09DFG6vndXEvS8WWCMtibC"></div>
+    <div class="bank" id="bank"></div>
 
-    <div class="controls" data-page-node-id="TKtPsXOoqapyhQa2VUcUaA">
-      <button class="btn icon" id="sPrev" aria-label="上一题" data-page-node-id="lqREO57b04b6OouFOMZERX">
-        <svg viewBox="0 0 24 24" data-page-node-id="rdf6L1LCDolTZVzXYARiYW"><path d="M14.7 5.3a1 1 0 0 1 0 1.4L9.4 12l5.3 5.3a1 1 0 1 1-1.4 1.4l-6-6a1 1 0 0 1 0-1.4l6-6a1 1 0 0 1 1.4 0Z" data-page-node-id="XIdlO9cDEjGzzhLt6NrsPJ"/></svg>
+    <div class="controls">
+      <button class="btn icon" id="sPrev" aria-label="上一题">
+        <svg viewBox="0 0 24 24"><path d="M14.7 5.3a1 1 0 0 1 0 1.4L9.4 12l5.3 5.3a1 1 0 1 1-1.4 1.4l-6-6a1 1 0 0 1 0-1.4l6-6a1 1 0 0 1 1.4 0Z"/></svg>
       </button>
-      <button class="btn" id="sHint" data-page-node-id="4dEFLAsxkZXPhOm9m4mlEC">提示</button>
-      <button class="btn" id="sClear" data-page-node-id="PNauU81SFYsZgiK1JGypaI">清空</button>
-      <button class="btn icon" id="sNext" aria-label="下一题" data-page-node-id="d5kwTECYqiKIzX4TwOeyHl">
-        <svg viewBox="0 0 24 24" data-page-node-id="Z82BUyIjsqylq7BKYtE2hc"><path d="M9.3 5.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4L14.6 12 9.3 6.7a1 1 0 0 1 0-1.4Z" data-page-node-id="V8LKCbYu473nzR4RNlA2N6"/></svg>
+      <button class="btn" id="sHint">提示</button>
+      <button class="btn" id="sClear">清空</button>
+      <button class="btn icon" id="sNext" aria-label="下一题">
+        <svg viewBox="0 0 24 24"><path d="M9.3 5.3a1 1 0 0 1 1.4 0l6 6a1 1 0 0 1 0 1.4l-6 6a1 1 0 1 1-1.4-1.4L14.6 12 9.3 6.7a1 1 0 0 1 0-1.4Z"/></svg>
       </button>
     </div>
 
-    <div class="progress" data-page-node-id="Az7GJBd9BVTqUSbsUcengR"><i id="sBar" data-page-node-id="ZxMCHNBdsq3kEPBSW8Lryf"></i></div>
+    <div class="progress"><i id="sBar"></i></div>
   </main>
 
-  <p class="hint" id="hintBar" data-page-node-id="cluR8TQcML7dLaIyCYHxfq"><kbd data-page-node-id="62UxnDC4VrmCiGvfoq5FDq">←</kbd> <kbd data-page-node-id="grE6ZFp6EEAYj72tbTTggq">→</kbd> 切换 · <kbd data-page-node-id="c2tFwApCGyONJomAlpNxxK">空格</kbd> 翻面 · <kbd data-page-node-id="9vbyaH8rCwqUluRWbXrAmm">回车</kbd> 朗读</p>
+  <p class="hint" id="hintBar"><kbd>←</kbd> <kbd>→</kbd> 切换 · <kbd>空格</kbd> 翻面 · <kbd>回车</kbd> 朗读</p>
 </div>
 
-<div class="mask" id="mask" data-page-node-id="B1AC1MlMmJwUKgIPGx1hE5"></div>
-<div class="sheet" id="sheet" data-page-node-id="lZU0DL3a88WCrGqEw3s41X">
-  <div class="sheet-head" data-page-node-id="CCA3qqIAjEmEUMhBdStcxf">
-    <h3 id="sheetTitle" data-page-node-id="XGnk5tdD157lZjtys95QGO">本单元单词</h3>
-    <div class="sheet-actions" data-page-node-id="3BVeT15zIchRDlfCSzwXk7">
-      <button id="shuffleBtn" class="shuffle-btn" aria-label="重新打乱本单元词序" data-page-node-id="JbkRICmihB1QL8NbXCwty1">打乱</button>
-      <button id="closeSheet" aria-label="关闭" data-page-node-id="iBUoWUi6Z0CB02ZYAHPmL8">✕</button>
+<div class="mask" id="mask"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-head">
+    <h3 id="sheetTitle">本单元单词</h3>
+    <div class="sheet-actions">
+      <button id="shuffleBtn" class="shuffle-btn" aria-label="重新打乱本单元词序">打乱</button>
+      <button id="closeSheet" aria-label="关闭">✕</button>
     </div>
   </div>
-  <div class="grid" id="grid" data-page-node-id="EesQ0vYMsZSu6egQr28dMw"></div>
+  <div class="grid" id="grid"></div>
 </div>
 
 <script>

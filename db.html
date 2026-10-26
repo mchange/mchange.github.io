@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html data-page-node-id="alKOqVbDVp06XoQ4wW21pl" lang="zh-CN">
+<head data-page-node-id="3CbxJdmcDcJ8PqI0nNMMye">
+<script data-page-node-id="HE4l9ZHgOIJ3G040Xa4Yt4" src="/page/page_comm/inject.js"></script>
+<meta data-page-node-id="2uXwe8cD2jcnLWo4vzERQ3" charset="UTF-8">
+<meta data-page-node-id="TmTQ63AktPl1GQxImQtD4c" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport">
+<meta data-page-node-id="AFJ6rO2Rk2tQiD94ZIF10i" content="yes" name="apple-mobile-web-app-capable">
+<meta data-page-node-id="ve9Tnb2KGm0L3Hm1qxJSm0" content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+<meta data-page-node-id="ixh5tcMN4VTB6fBVroAeiF" content="#1a1a3e" name="theme-color">
+<title data-page-node-id="eYq3KUon1JD3cKg9TCuvuy" data-pnid-children="DlTzduVPy9XICmrScSeuCp">🪙 大声朗读爆金币</title>
+<style data-page-node-id="zVltlki1kCMJIUwMeMV38O" data-pnid-children="rEJMcRzLmt1neRggsbPLUS">
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html, body { height:100%; overscroll-behavior:none; touch-action:manipulation; }
+  body {
+    font-family: "PingFang SC","Microsoft YaHei",sans-serif;
+    min-height:100vh; min-height:100dvh;
+    background:linear-gradient(160deg,#1a1a3e 0%,#2d1b69 50%,#b8860b 130%);
+    color:#fff; display:flex; flex-direction:column; align-items:center;
+    padding:max(10px, env(safe-area-inset-top)) 12px max(16px, env(safe-area-inset-bottom));
+    overflow-x:hidden; user-select:none; -webkit-user-select:none;
+  }
+  h1 { font-size:20px; margin:4px 0 2px; text-align:center; }
+  .sub { font-size:12px; opacity:.75; margin-bottom:8px; text-align:center; }
+  /* 大屏分组容器：手机上完全穿透，不影响原布局 */
+  .head, .col-left, .col-right { display:contents; }
+  /* 主区域 */
+  .stage { position:relative; width:min(78vw,300px); max-height:38dvh; aspect-ratio:1; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .ring { position:absolute; border-radius:50%; border:6px solid #4facfe; transition:border-color .2s; will-change:transform; }
+  #ring1 { inset:0; }
+  #ring2 { inset:8%; border-width:4px; opacity:.6; }
+  #ring3 { inset:16%; border-width:3px; opacity:.35; }
+  .db-box { position:relative; text-align:center; z-index:2; }
+  #dbVal { font-size:56px; font-weight:800; line-height:1; text-shadow:0 0 24px rgba(255,210,0,.8); font-variant-numeric:tabular-nums; }
+  #dbUnit { font-size:13px; opacity:.7; }
+  #status { margin-top:5px; font-size:15px; font-weight:600; min-height:22px; padding:0 8px; }
+  canvas#fx { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; z-index:5; }
+  /* 存钱罐 */
+  #bank { position:relative; z-index:4; font-size:15px; font-weight:800; color:#ffd200;
+    background:rgba(0,0,0,.35); border:2px solid #ffd200; border-radius:24px; padding:6px 20px; margin-top:6px;
+    box-shadow:0 0 18px rgba(255,210,0,.5); transition:transform .15s; }
+  #bank.bump { transform:scale(1.15); }
+  /* 能量条 */
+  .energy-wrap { width:100%; max-width:440px; margin:10px 0 2px; }
+  .energy-label { display:flex; justify-content:space-between; font-size:12px; margin-bottom:4px; }
+  .energy-bar { height:8px; border-radius:8px; background:rgba(255,255,255,.12); overflow:hidden; }
+  #energyFill { height:100%; width:0%; border-radius:8px; background:linear-gradient(90deg,#f7971e,#ffd200); transition:width .4s; }
+  /* 声音折线图 */
+  .chart-wrap { width:100%; margin:0 0 10px; }
+  .chart-label { display:flex; justify-content:space-between; align-items:baseline; gap:8px; font-size:12px; margin-bottom:4px; }
+  .chart-label .c-title { opacity:.8; white-space:nowrap; }
+  .chart-label .c-stat { color:#ffd200; font-weight:800; font-variant-numeric:tabular-nums; text-align:right; }
+  canvas#dbChart { display:block; width:100%; height:88px; border-radius:12px; background:rgba(255,255,255,.08); }
+  .chart-axis { display:flex; justify-content:space-between; font-size:10px; opacity:.6; margin-top:3px; }
+  .goal-line { font-size:11px; opacity:.7; text-align:right; margin-top:3px; }
+  /* 表扬语 */
+  #praise { min-height:24px; font-size:16px; font-weight:700; color:#ffd200; margin:5px 0; text-align:center; }
+  /* 按钮 */
+  .btn {
+    padding:13px 36px; font-size:18px; font-weight:700; border:none; border-radius:30px; cursor:pointer;
+    background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; margin:6px 4px;
+    box-shadow:0 4px 18px rgba(255,210,0,.4); touch-action:manipulation;
+  }
+  .btn:active { transform:scale(.95); }
+  .btn.small { font-size:13px; padding:9px 18px; background:rgba(255,255,255,.15); color:#fff; box-shadow:none; }
+  /* 统计卡 */
+  .cards { display:flex; gap:8px; width:100%; max-width:440px; margin-top:6px; }
+  .card { flex:1; background:rgba(255,255,255,.1); border-radius:14px; padding:8px 4px; text-align:center; }
+  .card .num { font-size:22px; font-weight:800; color:#ffd200; font-variant-numeric:tabular-nums; }
+  .card .lab { font-size:11px; opacity:.8; }
+  /* 称号 */
+  #title { font-size:13px; font-weight:700; color:#7ee8fa; margin:6px 0 3px; text-align:center; }
+  .progress-mini { width:100%; max-width:440px; height:7px; border-radius:4px; background:rgba(255,255,255,.12); overflow:hidden; }
+  #titleFill { height:100%; background:linear-gradient(90deg,#43e97b,#38f9d7); width:0%; transition:width .5s; }
+  /* 周记录 */
+  #week { display:flex; gap:5px; margin-top:8px; }
+  .day { width:min(9vw,38px); text-align:center; font-size:10px; opacity:.85; }
+  .day .d-coin { font-size:18px; height:22px; }
+  /* 面板（设置 / 商店） */
+  .panel { display:none; position:fixed; inset:0; z-index:100; background:rgba(0,0,0,.6); backdrop-filter:blur(4px);
+    align-items:center; justify-content:center; padding:16px; }
+  .panel.open { display:flex; }
+  .panel-inner { background:#241a4d; border:1px solid rgba(255,255,255,.15); border-radius:18px;
+    padding:18px; width:100%; max-width:400px; max-height:85dvh; overflow-y:auto; }
+  .panel h2 { font-size:17px; margin-bottom:8px; text-align:center; }
+  .panel label { font-size:13px; display:block; margin:10px 0 2px; }
+  .panel input[type=range] { width:100%; height:32px; }
+  .panel .close { display:block; margin:14px auto 0; }
+  /* 自定义任务时长 */
+  .custom-row { display:flex; align-items:center; gap:8px; margin-top:8px; font-size:13px; }
+  .custom-row > span { opacity:.8; white-space:nowrap; }
+  .custom-row input { flex:0 0 112px; min-width:0; border:none; border-radius:10px; padding:9px 10px; font-size:16px;
+    font-weight:700; background:rgba(255,255,255,.12); color:#fff; text-align:center; }
+  .custom-row input:focus { outline:2px solid #ffd200; }
+  .custom-row .hint { margin-left:auto; font-size:11px; opacity:.5; white-space:nowrap; }
+  .chip-row { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .chip { border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.08); color:#fff;
+    border-radius:16px; padding:6px 12px; font-size:12px; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+  .chip:active { transform:scale(.95); }
+  .chip.on { background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; border-color:transparent; font-weight:700; }
+  /* 商店条目 */
+  .shop-item { display:flex; align-items:center; justify-content:space-between; gap:8px;
+    background:rgba(255,255,255,.08); border-radius:12px; padding:10px 12px; margin:8px 0; }
+  .shop-item .si-name { font-size:14px; flex:1; }
+  .shop-item .si-cost { font-size:14px; font-weight:800; color:#ffd200; white-space:nowrap; }
+  .shop-item button { border:none; border-radius:16px; padding:7px 16px; font-weight:700; font-size:13px;
+    background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; }
+  .shop-item button:disabled { opacity:.35; }
+  .shop-item .del { background:rgba(255,255,255,.15); color:#fff; padding:7px 10px; }
+  .add-row { display:flex; gap:8px; margin-top:10px; }
+  .add-row input { flex:1; border:none; border-radius:10px; padding:9px 10px; font-size:14px; background:rgba(255,255,255,.12); color:#fff; min-width:0; }
+  .add-row input.cost { width:76px; flex:none; }
+  .add-row button { border:none; border-radius:10px; padding:9px 16px; font-weight:700; background:#43e97b; color:#0a3a1e; flex:none; }
+  /* 全屏金币雨 */
+  canvas#rain { position:fixed; inset:0; pointer-events:none; z-index:99; }
+  @media (max-height:700px){
+    .stage { width:min(64vw,240px); }
+    #dbVal { font-size:44px; }
+    canvas#dbChart { height:64px; }
+  }
+  /* ===== 大屏 / 平板横屏：左右分栏铺满全屏 ===== */
+  @media (min-width:900px) and (orientation:landscape){
+    html, body { height:100%; }
+    body {
+      display:grid;
+      grid-template-columns:minmax(0,40%) minmax(0,60%);
+      grid-template-rows:auto auto;
+      grid-template-areas:"head head" "left right";
+      align-items:stretch; justify-items:stretch; align-content:center;
+      column-gap:28px; row-gap:0;
+      width:100%; max-width:1440px; margin:0 auto;
+      min-height:100dvh;
+      padding:max(14px, env(safe-area-inset-top)) 28px max(18px, env(safe-area-inset-bottom));
+    }
+    .head { grid-area:head; display:flex; flex-direction:column; align-items:center; }
+    .col-left { grid-area:left; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; min-width:0; }
+    .col-right { grid-area:right; display:flex; flex-direction:column; justify-content:center; align-items:center; min-width:0; width:100%; }
+    h1 { font-size:28px; margin:0; }
+    .sub { font-size:15px; margin-bottom:6px; }
+    .stage { width:min(32vw,380px); max-height:64dvh; }
+    #dbVal { font-size:min(9vw,104px); }
+    #dbUnit { font-size:18px; }
+    #status { font-size:19px; min-height:28px; }
+    #bank { font-size:22px; padding:10px 30px; margin-top:0; border-radius:28px; }
+    .energy-wrap, .cards, .progress-mini { max-width:none; width:100%; }
+    canvas#dbChart { height:clamp(140px, 22vh, 230px); border-radius:16px; }
+    .chart-wrap { margin-bottom:14px; }
+    .chart-label, .energy-label { font-size:15px; }
+    .chart-label .c-stat { font-size:16px; }
+    .chart-axis, .goal-line { font-size:12px; }
+    .energy-bar { height:10px; border-radius:10px; }
+    #energyFill { border-radius:10px; }
+    #praise { font-size:21px; min-height:32px; margin:8px 0; }
+    .btn { font-size:22px; padding:16px 52px; border-radius:34px; margin:8px 6px; }
+    .btn.small { font-size:15px; padding:12px 24px; }
+    .card { padding:12px 6px; border-radius:18px; }
+    .card .num { font-size:32px; }
+    .card .lab { font-size:14px; }
+    .cards { gap:12px; margin-top:10px; }
+    #title { font-size:17px; margin:10px 0 5px; }
+    .progress-mini { height:9px; border-radius:5px; }
+    #week { gap:12px; margin-top:10px; }
+    .day { width:min(5vw,56px); font-size:13px; }
+    .day .d-coin { font-size:26px; height:30px; }
+    .panel-inner { max-width:520px; padding:24px; }
+    .panel h2 { font-size:22px; }
+    .panel label { font-size:16px; margin:16px 0 4px; }
+    .panel input[type=range] { height:44px; }
+    .shop-item { padding:14px 16px; }
+    .shop-item .si-name, .shop-item .si-cost { font-size:17px; }
+    .add-row input, .add-row button { font-size:16px; padding:12px 14px; }
+  }
+  /* 横屏但高度偏小（如 1024×768 的 iPad）：整体收紧一档，保证一屏放得下 */
+  @media (min-width:900px) and (orientation:landscape) and (max-height:860px){
+    .stage { width:min(30vw,330px); max-height:56dvh; }
+    #dbVal { font-size:min(8vw,88px); }
+    #status { font-size:17px; }
+    #bank { font-size:19px; padding:8px 24px; }
+    canvas#dbChart { height:clamp(108px, 15vh, 170px); }
+    .chart-wrap { margin-bottom:8px; }
+    .chart-label, .energy-label { font-size:14px; }
+    .chart-axis, .goal-line { font-size:11px; }
+    #praise { font-size:19px; min-height:22px; margin:2px 0; }
+    .btn { font-size:20px; padding:11px 42px; margin:4px 5px; }
+    .btn.small { font-size:14px; padding:9px 20px; }
+    .cards { margin-top:4px; gap:10px; }
+    .card { padding:6px; }
+    .card .num { font-size:26px; }
+    .card .lab { font-size:13px; }
+    #title { margin:3px 0 2px; font-size:15px; }
+    .progress-mini { height:8px; }
+    #week { margin-top:4px; gap:10px; }
+    .day { font-size:12px; }
+    .day .d-coin { font-size:20px; height:23px; }
+  }
+</style>
+</head>
+<body data-page-node-id="EiF9Fmwht2eSzcwARsYArp">
+<div data-page-node-id="zuqaNJcGIYEezrPfxBY7ug" class="head">
+<h1 data-page-node-id="pfdq4OeZJBkriziAXekpTp"><!--pnid:0CYKe8YwPeYR7PTHDstOuN-->🪙 大声朗读爆金币</h1>
+<div data-page-node-id="8zU58qJKDCuyuftOJZMmhI" class="sub"><!--pnid:lucoJCceszEQaDp2ge2hQp-->声音越大，金币越多 · 攒满能量领今日大奖！</div>
+</div>
+
+<div data-page-node-id="RBtYyW45qwnTnYdFbwhP16" class="col-left">
+<div data-page-node-id="yyWhKxSmWW40jX7xaTBGO9" class="stage">
+  <div data-page-node-id="QAhAXBe2vpXFtU64dkMjGn" class="ring" id="ring1"></div><div data-page-node-id="LwHTiiadA83ujFe5g8UNBE" class="ring" id="ring2"></div><div data-page-node-id="OAVFRDFXnY1RdSZOU1OUqb" class="ring" id="ring3"></div>
+  <canvas data-page-node-id="VxtdSOjND6sAYG1LOeYeMd" id="fx"></canvas>
+  <div data-page-node-id="cWcMKCs5C7Qfe0YbHCAhgw" class="db-box">
+    <div data-page-node-id="Bh0fODZr1jFnwv1akjGaHi" id="dbVal"><!--pnid:DovQdlAj18CvR0aqPwQcjM-->--</div><div data-page-node-id="ofl2jFz741O5FeL9jnzYYW" id="dbUnit"><!--pnid:l6HNglCp8fAlgCB5GQfrWv-->dB</div>
+    <div data-page-node-id="cnZGNT369rtbEKwbk5lPhj" id="status"><!--pnid:Y2qOe5PDk3W3nnxAz2YsET-->点击下方开始</div>
+  </div>
+</div>
+
+<div data-page-node-id="050V6POG4BUjAi8Hb2G6sg" id="bank"><!--pnid:Jf5c80UpUY7jIzSPEBZmsT-->🪙 存钱罐：0</div>
+</div>
+
+<div data-page-node-id="RMayWLzOV5N5huViFWajO8" class="col-right">
+<div data-page-node-id="AvtvpZd4Fg15OZsQiR1ltz" class="energy-wrap">
+  <div data-page-node-id="mdxDYTX5m3kF98NSanJKFO" class="chart-wrap">
+    <div data-page-node-id="dV7VslYXun4D2QkMdf3cV1" class="chart-label"><span data-page-node-id="s8sQgfOwfWe0SYsnra642z" class="c-title"><!--pnid:tyM7aG4kwFneJGfxJ7L0Lw-->📈 本次朗读声音曲线</span><span data-page-node-id="ZR534hEgevi3JVp0PvB7y2" class="c-stat" id="avgText"><!--pnid:ufC0V6evKkVTtyrkhWxHBp-->平均 -- dB</span></div>
+    <canvas data-page-node-id="ifdC7DHhs1yMVts8LRArL2" id="dbChart"></canvas>
+    <div data-page-node-id="RdNE0QFbfroRYNx2XB8WN9" class="chart-axis"><span data-page-node-id="I9pTotyGfwdRJo9hwEP0MC"><!--pnid:bNCLLFCE8ylgpBtiZweVf0-->开始</span><span data-page-node-id="H5nrR1pVAxsPYmtpSNMLBm" id="chartDur"><!--pnid:9Nn62ms5h4Wddsjz5Z3Gvv-->00:00</span></div>
+  </div>
+  <div data-page-node-id="AVlnwXdVfyu2Vcha06hrYZ" class="energy-label"><span data-page-node-id="4zCKBH2KkD1JQifybWXOCr"><!--pnid:JgoxpiqZep1VYGb1MErfO9-->⚡ 朗读能量</span><span data-page-node-id="IfdAZCdjYSoc0lyB3JVT5w" id="energyText"><!--pnid:xH1hNPfXqkPFsrvrC9S3Nx-->0 / 180 秒达标</span></div>
+  <div data-page-node-id="1FAXkRqNVEksqlmT1pxCeD" class="energy-bar"><div data-page-node-id="RqwBA3ho0RWxtlx5q5Xbaj" id="energyFill"></div></div>
+  <div data-page-node-id="o3trskkMFivcdiFIuGjqM7" class="goal-line" id="goalLine"><!--pnid:8NqFuC5zOZmrBPsf65zBa4-->今日任务：累计达标朗读 180 秒 → 爆金币大奖！</div>
+</div>
+
+<div data-page-node-id="MiHBTTUCHt7VlksNTw9kUy" id="praise"></div>
+
+<div data-page-node-id="muoVrrSZ5qanYh21hidsfj">
+  <button data-page-node-id="vzWzLhidKgoZ9b8DkS0nLi" class="btn" id="startBtn"><!--pnid:6eUL5Iew7uK3afamdjBwsE-->🎤 开始朗读</button>
+</div>
+<div data-page-node-id="MOFtlvufj4kHtuymtjDeCU">
+  <button data-page-node-id="Hh2LyL0EVxHIzfjzzWSW0b" class="btn small" id="shopBtn"><!--pnid:1oAms9jsJ4Z86ZOzQKB34R-->🛒 金币商店</button>
+  <button data-page-node-id="SyZuAq068YtkcH92HVfxc5" class="btn small" id="settingBtn"><!--pnid:Brdz6rAb6pNZrfuNO1gta6-->⚙️ 设置</button>
+  <button data-page-node-id="lQpEGaAlR7SVzTepDEvMpj" class="btn small" id="resetBtn"><!--pnid:ysTQe1ZPfgxwHkS97f6uhu-->🗑 重置</button>
+</div>
+
+<div data-page-node-id="6wiTmFr5oGBAjOd1irjfUA" class="cards">
+  <div data-page-node-id="HCswYDYMYKnIQu9qQ20rEm" class="card"><div data-page-node-id="JEiDIF8snypBkx6VgJ0NnH" class="num" id="cStreak"><!--pnid:XM4alb5HI1hMBf42ZJGa0c-->0</div><div data-page-node-id="QxtjXCLS8ujlRkuXofA6gZ" class="lab"><!--pnid:uEGe4j8vXBMzc0ApctzLto-->连续天数</div></div>
+  <div data-page-node-id="r0YcQg7aKRNCFlC9h5nxAr" class="card"><div data-page-node-id="atxCneqsdgApui0rfZUfGN" class="num" id="cCoins"><!--pnid:wZkGSi7Wf7cUDP6F5Ziur2-->0</div><div data-page-node-id="87LY3g8LgiHQAzIB637I0M" class="lab"><!--pnid:iMODR6NBb4pYkccJCrkaSU-->累计金币</div></div>
+  <div data-page-node-id="QfJ9R7QDQ91YPzhBqK8N1o" class="card"><div data-page-node-id="djOEilWyrbqket5xRUKWaA" class="num" id="cPeak"><!--pnid:2xKP2zyYcpeH98RrruL5j0-->0</div><div data-page-node-id="8LOLsdpkaaZMf0VnRk6xdb" class="lab"><!--pnid:eJfSRIh7GTwPHb9F17NtpW-->今日最高dB</div></div>
+</div>
+
+<div data-page-node-id="HXJlsUeKY8627i3pXoCnIL" id="title"><!--pnid:ibGDWeZL0PIclRzr8229oS-->称号：朗读学徒</div>
+<div data-page-node-id="ZjwrA0E6J6KBH2ubeeWJr5" class="progress-mini"><div data-page-node-id="O9ddUbtIDWmcyKXE8lcgSK" id="titleFill"></div></div>
+<div data-page-node-id="44jCakUNl5OVlaR2tj93x7" id="week"></div>
+</div>
+
+<!--pnid:GuWJdlHwEzGK18277bqWrJ--><!-- 设置面板 -->
+<div data-page-node-id="4LlKY4QcSTrkUoEAXmUsjl" class="panel" id="settings">
+  <div data-page-node-id="ieZTurwj5kbaZ0vEjeyJNm" class="panel-inner">
+    <h2 data-page-node-id="7Z1HzHjI4iWdDk3uViwvW3"><!--pnid:moBptiRjSdYne8XmJtV2H9-->⚙️ 设置</h2>
+    <label data-page-node-id="MPNHQ8myimp7qEC7yEW5vX"><!--pnid:0KCVs7Md7N7d1M6ASL3Mpb-->达标阈值：<span data-page-node-id="heV3JJlhRw0ZsHz4AVItk2" id="thVal"><!--pnid:kBaUY3G25BrBDv9ZHXKf7Q-->70</span><!--pnid:trAeDv8m9kWWUZABnmMoHX--> dB（洪亮朗读约 70~85）</label>
+    <input data-page-node-id="g3NSunZJkAUWvXnl9CaCBW" id="threshold" max="95" min="50" type="range" value="70">
+    <label data-page-node-id="pc5CyeaYfLUXF5kNuZQZ5x"><!--pnid:tUGANZiYPL6toYsxnOVm9S-->麦克风灵敏度：<span data-page-node-id="GUUr9N3RiunQSPZOjoYgJW" id="gainVal"><!--pnid:9n4B9ScCqFt5mU1j6TnMrq-->1.5</span><!--pnid:LIBhbfHjPC0FQ3vofpRE1N-->×</label>
+    <input data-page-node-id="WzaqGBPE3p5JLfhqxz6JTS" id="gain" max="4" min="0.5" step="0.1" type="range" value="1.5">
+    <label data-page-node-id="KRDqRIqphmtuXaI0ZankuK"><!--pnid:jqzjIp1cez1ydyTeX6rH30-->今日任务时长：<span data-page-node-id="K2DR5m5QzctGB0rTC9CGTh" id="goalVal"><!--pnid:YbabwkSI0GOl3efOzS7xVI-->180</span><!--pnid:qmy7OdH0dpiIoQx8N17WZs--> 秒</label>
+    <input data-page-node-id="6pK5fFach60FLuEGwH7kDQ" id="goal" max="600" min="30" step="10" type="range" value="180">
+    <div data-page-node-id="pQkCTO4NUTuXXbp2qNAXwG" class="custom-row"><span data-page-node-id="w6DnXScnxzROzlpVIFGh80"><!--pnid:gXxTAdY72HciMCMcPLMtS3-->自定义</span><input data-page-node-id="1mBigrFl7RVDsQAlIb2z3o" id="goalMin" inputmode="decimal" max="120" min="0.5" step="0.5" type="number" value="3"><span data-page-node-id="gQhYiCriMLypl1yPp7REre"><!--pnid:aC3a31ALKQXMtPAwokQbqX-->分钟</span><span data-page-node-id="lYkoyhXW5Kaf6H56Bx2VP0" class="hint"><!--pnid:wLYRoePpCWhSgWYy5K0DlZ-->可填 0.5–120</span></div>
+    <div data-page-node-id="LOYSPqhgg2xoXB61CO5dXC" class="chip-row"><button data-page-node-id="IF0EeykHP9s7Br9FsFrni5" class="chip" data-min="1" type="button"><!--pnid:Oi6cQN030Tzkt2k3xcRmvi-->1 分钟</button><button data-page-node-id="iV1B8Lo0hiqpV7N5ugYMwl" class="chip" data-min="3" type="button"><!--pnid:lhv2BFOyFQRYzn34McnIi0-->3 分钟</button><button data-page-node-id="XfqW5QVSN2tRqshjszP099" class="chip" data-min="5" type="button"><!--pnid:EgH13wQQI2d6yoNlNDFxgb-->5 分钟</button><button data-page-node-id="MkWjZPwis8weviR9NY0tTP" class="chip" data-min="10" type="button"><!--pnid:ulZBpoM4KZDBMFjEh6RT0t-->10 分钟</button><button data-page-node-id="FDnhTFktiB1KJLAx7jXsTC" class="chip" data-min="20" type="button"><!--pnid:7OgbllGLlxd9R3ZACBYkfW-->20 分钟</button></div>
+    <label data-page-node-id="11MHl8zTyXCoIEuZIcx1hn"><!--pnid:pMYC362g0pxEbnIea6Pta6-->金币大奖：<span data-page-node-id="Xsu64Xu1bBfqCQuTau8fsT" id="bonusVal"><!--pnid:Vf9B1L2QTbvPFCzxJIaeyS-->30</span><!--pnid:ePAOakcDFXvbzcfE2CETlu--> 枚</label>
+    <input data-page-node-id="ky7LkWBqndzHPitp3Ydjaz" id="bonus" max="100" min="10" step="5" type="range" value="30">
+    <button data-page-node-id="I34qBxkRkpKbmYy1RNt4V9" class="btn small close" data-close="settings"><!--pnid:MibXjt99AaDcIbZ37yyHfa-->完成</button>
+  </div>
+</div>
+
+<!--pnid:Tjo3Oh4NoYUnWZHPsMwaKW--><!-- 金币商店 -->
+<div data-page-node-id="ZlasGSePDXXCugk2beiy3f" class="panel" id="shop">
+  <div data-page-node-id="KVR29R4YmuNT4Qbu7rv5EX" class="panel-inner">
+    <h2 data-page-node-id="2ZtsarekSVS1Ha5DBssNh3"><!--pnid:K70sSfrTTNvQjnvfj1gq1y-->🛒 金币商店（余额 <span data-page-node-id="0pdz7JdHy6gh251nsJnGve" id="shopBalance"><!--pnid:rY7CXbrztN49owp2EhdgWn-->0</span><!--pnid:P3ecBUK2c1sZcwdWkxaYO5--> 🪙）</h2>
+    <div data-page-node-id="kGeGi5zVaD1xmz4YSnsYMe" id="shopList"></div>
+    <div data-page-node-id="AwNtcaLNHzOu6act61M2tt" class="add-row">
+      <input data-page-node-id="vyzurEf1Dd3lxHQ3fmuUFi" id="newName" placeholder="家长添加奖励，如：一个冰淇淋" type="text">
+      <input data-page-node-id="TrQ0n9XCQXCwgoKtBZARvv" class="cost" id="newCost" min="1" placeholder="金币" type="number">
+      <button data-page-node-id="NBhYZEXGTCftqou9t7jJQC" id="addReward"><!--pnid:QUOIHsuxqD02lzP7MwcRUa-->添加</button>
+    </div>
+    <div data-page-node-id="QLklBf8wQvWsrFFtAezfOJ" style="font-size:11px; opacity:.6; margin-top:8px; text-align:center"><!--pnid:tefjPmdmbmgsdcFCqQwrHy-->建议：大奖设贵一点，让孩子多攒几天</div>
+    <button data-page-node-id="3iyYnMa5ymBpBZHRODgTz4" class="btn small close" data-close="shop"><!--pnid:HYYtz7NmAAni0SzQT51OJr-->完成</button>
+  </div>
+</div>
+
+<canvas data-page-node-id="ORZgLaR2RyybLG8gxPH7Vw" id="rain"></canvas>
+
+<script data-page-node-id="JAtQTjURdeHb1OglNwahOa" data-pnid-children="RLRTDb7XfMZb0hb2fW8iUu">
+const $ = id => document.getElementById(id);
+const store = {
+  get(k){ try{ return JSON.parse(localStorage.getItem(k)) }catch(e){ return null } },
+  set(k,d){ localStorage.setItem(k, JSON.stringify(d)) }
+};
+let data = store.get('zaoduCoin') || {};
+const todayKey = () => new Date().toISOString().slice(0,10);
+if(!data.days) data.days = {};
+if(data.coins===undefined) data.coins = 0;
+if(data.streak===undefined) data.streak = 0;
+let rewards = store.get('zaoduShop') || [
+  {name:'看 20 分钟动画片', cost:50},
+  {name:'一个冰淇淋', cost:100},
+  {name:'周末去公园', cost:300},
+];
+
+let running=false, audioCtx=null, analyser=null, stream=null, looping=false;
+let threshold=70, gainMul=1.5, goalSec=180, bonusCoins=30;
+const setSaved = store.get('zaoduSet');
+if(setSaved){ threshold=setSaved.threshold; gainMul=setSaved.gain; goalSec=setSaved.goal; bonusCoins=setSaved.bonus; }
+$('threshold').value=threshold; $('gain').value=gainMul; $('goal').value=goalSec; $('bonus').value=bonusCoins;
+$('thVal').textContent=threshold; $('gainVal').textContent=gainMul; $('goalVal').textContent=goalSec; $('bonusVal').textContent=bonusCoins;
+
+const TITLES=[[0,'朗读学徒'],[50,'铜钱收集者'],[150,'白银钱袋'],[300,'黄金财主'],[600,'传说金库']];
+function titleOf(n){ let t=TITLES[0],next=null; for(const it of TITLES){ if(n>=it[0]) t=it; else { next=it; break; } } return [t[1], next?next[0]-t[0]:0, next?next[1]:null]; }
+
+function render(){
+  const today=data.days[todayKey()]||{};
+  $('cStreak').textContent=data.streak;
+  $('cCoins').textContent=data.coins;
+  $('cPeak').textContent=Math.round(today.peak||0);
+  $('bank').textContent=`🪙 存钱罐：${data.coins}`;
+  $('energyText').textContent = `${today.done?goalSec:Math.round(energySec)} / ${goalSec} 秒达标`;
+  $('energyFill').style.width = (today.done?100:Math.min(100,energySec/goalSec*100))+'%';
+  $('goalLine').textContent = `今日任务：累计达标朗读 ${goalText()} → 爆金币大奖！`;
+  const [tn,need,nt]=titleOf(data.coins);
+  $('title').textContent = '称号：'+tn + (nt?`（再攒 ${need} 枚升级「${nt}」）`:'（已是最高称号！）');
+  const base = TITLES.filter(t=>t[1]===tn)[0][0];
+  $('titleFill').style.width = nt? Math.min(100,(data.coins-base)/need*100)+'%' : '100%';
+  const week=$('week'); week.innerHTML='';
+  const names=['日','一','二','三','四','五','六'];
+  for(let i=6;i>=0;i--){
+    const d=new Date(); d.setDate(d.getDate()-i);
+    const k=d.toISOString().slice(0,10), c=data.days[k];
+    week.insertAdjacentHTML('beforeend',`<div class="day"><div class="d-coin">${c&&c.done?'🪙':'·'}</div>${i===0?'今天':'周'+names[d.getDay()]}</div>`);
+  }
+  $('shopBalance').textContent=data.coins;
+}
+
+/* ===== 音频 ===== */
+async function start(){
+  if(running) return;
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+    $('status').textContent='⚠️ 此浏览器不支持麦克风（微信内请点右上角用浏览器打开）'; return;
+  }
+  if(!window.isSecureContext && location.hostname!=='localhost'){
+    $('status').textContent='⚠️ 手机需 HTTPS 才能用麦克风，请用电脑打开或部署到 https'; return;
+  }
+  try{
+    stream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false}});
+  }catch(e){ $('status').textContent='❌ 请允许麦克风权限'; return; }
+  audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+  if(audioCtx.state==='suspended') await audioCtx.resume();  // iOS 解锁
+  const src = audioCtx.createMediaStreamSource(stream);
+  analyser = audioCtx.createAnalyser(); analyser.fftSize=1024;
+  src.connect(analyser);
+  if(session.length && Date.now()-session[session.length-1].t>10000) session=[];  // 间隔太久算新的一次
+  lastSample=0;
+  running=true; $('startBtn').textContent='⏸ 暂停'; $('status').textContent='开始朗读吧，金币等你来爆！';
+  if(!looping) loop();
+}
+function stop(){
+  running=false; energyAcc=0; above=false;
+  $('startBtn').textContent='🎤 继续朗读';
+  $('status').textContent='⏸ 已暂停，点「继续朗读」接着来';
+  ['ring1','ring2','ring3'].forEach((id,i)=>{
+    const el=$(id); el.style.transform='scale(1)'; el.style.borderColor='#4facfe'; el.style.boxShadow='none';
+  });
+  if(stream){ try{ stream.getTracks().forEach(t=>t.stop()); }catch(e){} stream=null; }
+  if(audioCtx){ try{ audioCtx.close(); }catch(e){} audioCtx=null; }
+  analyser=null;
+}
+
+$('startBtn').onclick = ()=> running ? stop() : start();
+
+$('settingBtn').onclick = ()=> $('settings').classList.add('open');
+$('shopBtn').onclick = ()=>{ renderShop(); $('shop').classList.add('open'); };
+document.querySelectorAll('[data-close]').forEach(b=> b.onclick=()=> $(b.dataset.close).classList.remove('open'));
+document.querySelectorAll('.panel').forEach(p=> p.addEventListener('click', e=>{ if(e.target===p) p.classList.remove('open'); }));
+
+$('threshold').oninput = e=>{ threshold=+e.target.value; $('thVal').textContent=threshold; saveSet(); };
+$('gain').oninput = e=>{ gainMul=+e.target.value; $('gainVal').textContent=gainMul; saveSet(); };
+function goalText(){
+  if(goalSec%60===0) return (goalSec/60)+' 分钟';
+  return goalSec+' 秒';
+}
+function setGoal(sec, silent){
+  sec = Math.round(Number(sec));
+  if(!isFinite(sec) || isNaN(sec)) return;
+  sec = Math.max(30, Math.min(7200, sec));
+  goalSec = sec;
+  $('goalVal').textContent = sec;
+  $('goalMin').value = +(sec/60).toFixed(2);
+  $('goal').value = Math.min(600, Math.max(30, sec));
+  document.querySelectorAll('.chip').forEach(b=> b.classList.toggle('on', +b.dataset.min*60===sec));
+  if(!silent){ saveSet(); render(); }
+}
+$('goal').oninput = e=> setGoal(e.target.value);
+$('goalMin').oninput = e=>{ const v=parseFloat(e.target.value); if(isFinite(v) && v>0) setGoal(v*60); };
+$('goalMin').onblur = ()=>{ const v=parseFloat($('goalMin').value); setGoal(isFinite(v)&&v>0 ? v*60 : goalSec); };
+document.querySelectorAll('.chip').forEach(b=> b.addEventListener('click', ()=> setGoal(+b.dataset.min*60)));
+$('bonus').oninput = e=>{ bonusCoins=+e.target.value; $('bonusVal').textContent=bonusCoins; saveSet(); };
+function saveSet(){ store.set('zaoduSet',{threshold,gain:gainMul,goal:goalSec,bonus:bonusCoins}); }
+setGoal(goalSec, true);
+
+$('resetBtn').onclick = ()=>{ if(confirm('确定清空所有金币和记录吗？')){ data={days:{},coins:0,streak:0}; energySec=0; session=[]; store.set('zaoduCoin',data); render(); drawChart(); } };
+
+/* 商店 */
+function renderShop(){
+  $('shopBalance').textContent=data.coins;
+  const list=$('shopList'); list.innerHTML='';
+  if(!rewards.length) list.innerHTML='<div style="text-align:center;opacity:.6;font-size:13px;padding:12px">还没有奖励，让家长添加吧～</div>';
+  rewards.forEach((r,i)=>{
+    const el=document.createElement('div'); el.className='shop-item';
+    el.innerHTML=`<span class="si-name">${r.name}</span><span class="si-cost">${r.cost} 🪙</span>`;
+    const buy=document.createElement('button'); buy.textContent='兑换';
+    buy.disabled = data.coins < r.cost;
+    buy.onclick=()=>{
+      if(data.coins<r.cost) return;
+      data.coins-=r.cost; store.set('zaoduCoin',data);
+      bumpBank(); vibrate([80,60,80]);
+      $('praise').textContent=`🎁 兑换成功：「${r.name}」！找爸爸妈妈兑现吧～`;
+      coinRain(15);
+      render(); renderShop();
+    };
+    const del=document.createElement('button'); del.textContent='✕'; del.className='del';
+    del.onclick=()=>{ rewards.splice(i,1); store.set('zaoduShop',rewards); renderShop(); };
+    el.appendChild(buy); el.appendChild(del); list.appendChild(el);
+  });
+}
+$('addReward').onclick = ()=>{
+  const n=$('newName').value.trim(), c=parseInt($('newCost').value);
+  if(!n||!c||c<1){ alert('请填写奖励名称和金币数'); return; }
+  rewards.push({name:n,cost:c}); store.set('zaoduShop',rewards);
+  $('newName').value=''; $('newCost').value='';
+  renderShop();
+};
+
+const PRAISES=['叮！金币到账！💰','读得响亮，金币哗哗掉！🪙','哇！这波爆率高！✨','金嗓子值千金！🥇','继续读，存钱罐要满啦！🏦','声音洪亮 = 财大气粗！😆'];
+let lastPraise=0;
+function vibrate(p){ if(navigator.vibrate) navigator.vibrate(p); }
+function ding(){ // 金币音效
+  if(!audioCtx) return;
+  const o=audioCtx.createOscillator(), g=audioCtx.createGain();
+  o.type='square'; o.frequency.setValueAtTime(988,audioCtx.currentTime);
+  o.frequency.setValueAtTime(1319,audioCtx.currentTime+0.08);
+  g.gain.setValueAtTime(0.08,audioCtx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.25);
+  o.connect(g); g.connect(audioCtx.destination);
+  o.start(); o.stop(audioCtx.currentTime+0.25);
+}
+
+function loop(){
+  if(!running || !analyser){ looping=false; return; }
+  looping=true;
+  const buf=new Uint8Array(analyser.frequencyBinCount);
+  analyser.getByteTimeDomainData(buf);
+  let sum=0; for(let i=0;i<buf.length;i++){ const v=(buf[i]-128)/128; sum+=v*v; }
+  const rms=Math.sqrt(sum/buf.length);
+  let db = Math.round(rms>0? 20*Math.log10(rms)*gainMul + 94 - 20*Math.log10(gainMul*0.05) : 0);
+  db = Math.max(0, Math.min(110, db));
+
+  $('dbVal').textContent=db;
+  pushSample(db);
+  const t=data.days[todayKey()]||{};
+  if(db>t.peak){ t.peak=db; data.days[todayKey()]=t; store.set('zaoduCoin',data); }
+
+  above = db>=threshold;
+  const ratio=Math.min(1, db/100);
+  const size=1+ratio*0.25, hue=40+ratio*30;
+  ['ring1','ring2','ring3'].forEach((id,i)=>{
+    const el=$(id);
+    el.style.transform=`scale(${size - i*0.04})`;
+    el.style.borderColor=`hsl(${above?hue:210},90%,${55+i*8}%)`;
+    el.style.boxShadow = above? `0 0 ${30*ratio}px hsla(${hue},95%,60%,.7)` : 'none';
+  });
+  $('status').textContent = above? '💰 超级洪亮！金币在掉！' : db>=threshold-12? '再大声一点点就爆金币了！' : '太小声啦，大点声才有金币哦～';
+  if(above && Date.now()-lastPraise>6000){ $('praise').textContent=PRAISES[Math.floor(Math.random()*PRAISES.length)]; lastPraise=Date.now(); }
+
+  if(above){ energyAcc += 0.1; if(energyAcc>=1){ energyAcc=0; addEnergySecond(); } } else energyAcc=0;
+  render();
+  drawFx(ratio, above);
+  requestAnimationFrame(loop);
+}
+let energyAcc=0, above=false, energySec=0;
+function addEnergySecond(){
+  const t=data.days[todayKey()]||{peak:0};
+  if(t.done) return;
+  energySec++;
+  store.set('zaoduCoin',data);
+  if(energySec%10===0){
+    data.coins++; t.coins=(t.coins||0)+1; store.set('zaoduCoin',data);
+    popCoin(1); bumpBank(); ding(); vibrate(30);
+  }
+  if(energySec>=goalSec){
+    t.done=1; data.days[todayKey()]=t;
+    data.coins += bonusCoins; t.coins=(t.coins||0)+bonusCoins;
+    const y=new Date(); y.setDate(y.getDate()-1);
+    const yk=y.toISOString().slice(0,10);
+    data.streak = (data.days[yk]&&data.days[yk].done)? data.streak+1 : 1;
+    store.set('zaoduCoin',data);
+    coinRain(bonusCoins); bumpBank(); ding(); ding(); vibrate([100,80,100,80,200]);
+    $('praise').textContent=`🏆 今日任务完成！大奖 ${bonusCoins} 枚金币爆进存钱罐！`;
+    render();
+  }
+}
+function bumpBank(){ const b=$('bank'); b.classList.remove('bump'); void b.offsetWidth; b.classList.add('bump'); }
+
+/* ===== 声音折线图（本次朗读全程） ===== */
+const cc=$('dbChart'), cctx=cc.getContext('2d');
+const SAMPLE_MS=200, MAX_MS=10*60*1000;   // 每 200ms 采一个点，最多保留 10 分钟
+let session=[], lastSample=0;
+function pushSample(db){
+  const now=Date.now();
+  if(now-lastSample<SAMPLE_MS) return;
+  lastSample=now;
+  session.push({t:now, db});
+  while(session.length>2 && now-session[0].t>MAX_MS) session.shift();
+  drawChart();
+}
+function sessionStats(){
+  if(!session.length) return null;
+  let sum=0,min=999,max=-999,above=0;
+  for(const s of session){ sum+=s.db; if(s.db<min)min=s.db; if(s.db>max)max=s.db; if(s.db>=threshold)above++; }
+  return {avg:sum/session.length, min, max, above, n:session.length, t0:session[0].t, t1:session[session.length-1].t};
+}
+function drawChart(){
+  const dpr=window.devicePixelRatio||1;
+  const w=cc.offsetWidth||300, h=cc.offsetHeight||88;
+  if(cc.width!==Math.round(w*dpr)||cc.height!==Math.round(h*dpr)){ cc.width=Math.round(w*dpr); cc.height=Math.round(h*dpr); }
+  cctx.setTransform(dpr,0,0,dpr,0,0);
+  cctx.clearRect(0,0,w,h);
+  const st=sessionStats();
+  const padL=28, padR=8, padT=10, padB=14;
+  const gw=w-padL-padR, gh=h-padT-padB;
+  let lo=30, hi=95;
+  if(st){
+    lo=Math.max(0, Math.floor((st.min-4)/5)*5);
+    hi=Math.min(110, Math.ceil((st.max+4)/5)*5);
+    if(hi-lo<25) hi=Math.min(110, lo+25);
+  }
+  const yOf=db=> padT+gh-(db-lo)/(hi-lo)*gh;
+  cctx.font='9px sans-serif'; cctx.textBaseline='middle';
+  for(let i=0;i<=2;i++){
+    const v=lo+(hi-lo)*i/2, y=yOf(v);
+    cctx.strokeStyle='rgba(255,255,255,.12)'; cctx.lineWidth=1;
+    cctx.beginPath(); cctx.moveTo(padL,y); cctx.lineTo(w-padR,y); cctx.stroke();
+    cctx.textAlign='right'; cctx.fillStyle='rgba(255,255,255,.5)'; cctx.fillText(String(Math.round(v)), padL-4, y);
+  }
+  if(!st){
+    cctx.textAlign='center'; cctx.fillStyle='rgba(255,255,255,.45)';
+    cctx.fillText('点「开始朗读」，这里会画出你的声音曲线', w/2, h/2+2);
+    $('avgText').textContent='平均 -- dB'; $('chartDur').textContent='00:00';
+    return;
+  }
+  const t0=st.t0, t1=Math.max(st.t1, t0+1000);
+  if(threshold>=lo && threshold<=hi){
+    const y=yOf(threshold);
+    cctx.save(); cctx.setLineDash([4,4]); cctx.strokeStyle='rgba(255,130,90,.75)'; cctx.lineWidth=1;
+    cctx.beginPath(); cctx.moveTo(padL,y); cctx.lineTo(w-padR,y); cctx.stroke(); cctx.restore();
+  }
+  const cols=Math.max(2, Math.floor(gw));
+  const bMin=new Array(cols).fill(NaN), bMax=new Array(cols).fill(NaN), bSum=new Array(cols).fill(0), bN=new Array(cols).fill(0);
+  for(const s of session){
+    let c=Math.round((s.t-t0)/(t1-t0)*(cols-1));
+    if(c<0)c=0; if(c>=cols)c=cols-1;
+    if(isNaN(bMin[c])||s.db<bMin[c]) bMin[c]=s.db;
+    if(isNaN(bMax[c])||s.db>bMax[c]) bMax[c]=s.db;
+    bSum[c]+=s.db; bN[c]++;
+  }
+  cctx.fillStyle='rgba(79,172,254,.38)';
+  for(let c=0;c<cols;c++){
+    if(!bN[c]) continue;
+    const y1=yOf(bMax[c]), y2=yOf(bMin[c]);
+    cctx.fillRect(padL+c, y1, 1, Math.max(1, y2-y1));
+  }
+  const grad=cctx.createLinearGradient(0,padT,0,padT+gh);
+  grad.addColorStop(0,'#ffd200'); grad.addColorStop(1,'#4facfe');
+  cctx.strokeStyle=grad; cctx.lineWidth=1.6; cctx.lineJoin='round'; cctx.beginPath();
+  let started=false;
+  for(let c=0;c<cols;c++){
+    if(!bN[c]) continue;
+    const x=padL+c, y=yOf(bSum[c]/bN[c]);
+    if(!started){ cctx.moveTo(x,y); started=true; } else cctx.lineTo(x,y);
+  }
+  cctx.stroke();
+  const ay=yOf(st.avg);
+  cctx.save(); cctx.setLineDash([6,4]); cctx.strokeStyle='#ffd200'; cctx.lineWidth=1.2;
+  cctx.beginPath(); cctx.moveTo(padL,ay); cctx.lineTo(w-padR,ay); cctx.stroke(); cctx.restore();
+  cctx.textAlign='left'; cctx.fillStyle='#ffd200'; cctx.font='bold 9px sans-serif';
+  cctx.fillText('平均 '+st.avg.toFixed(1), padL+3, Math.max(padT+5, ay-7));
+  $('avgText').textContent=`平均 ${st.avg.toFixed(1)} dB · 峰值 ${st.max} · 达标 ${Math.round(st.above/st.n*100)}%`;
+  const secs=Math.round((st.t1-st.t0)/1000);
+  $('chartDur').textContent=`${String(Math.floor(secs/60)).padStart(2,'0')}:${String(secs%60).padStart(2,'0')}`;
+}
+window.addEventListener('resize', drawChart);
+window.addEventListener('orientationchange', ()=> setTimeout(drawChart, 300));
+
+/* FX */
+const pc=$('fx'), pctx=pc.getContext('2d');
+let coins=[], sparks=[];
+function popCoin(n){ const w=pc.offsetWidth,h=pc.offsetHeight;
+  for(let i=0;i<n;i++) coins.push({x:w/2+(Math.random()-0.5)*100,y:h/2,vx:(Math.random()-0.5)*2,vy:-3-Math.random()*3,rot:0,vr:0.15+Math.random()*0.2,life:70,r:12+Math.random()*6});
+}
+function drawFx(ratio, above){
+  const w=pc.width=pc.offsetWidth, h=pc.height=pc.offsetHeight;
+  pctx.clearRect(0,0,w,h);
+  if(above && Math.random()<ratio*0.6) sparks.push({x:w/2+(Math.random()-0.5)*80,y:h/2,vx:(Math.random()-0.5)*3,vy:-Math.random()*4-1,life:50,c:`hsl(${40+ratio*20},95%,65%)`,r:2+Math.random()*3});
+  sparks=sparks.filter(p=>p.life>0);
+  sparks.forEach(p=>{ p.x+=p.vx;p.y+=p.vy;p.vy+=0.05;p.life--; pctx.globalAlpha=p.life/50; pctx.fillStyle=p.c; pctx.beginPath();pctx.arc(p.x,p.y,p.r,0,7);pctx.fill(); });
+  coins=coins.filter(c=>c.life>0);
+  coins.forEach(c=>{
+    c.x+=c.vx;c.y+=c.vy;c.vy+=0.08;c.rot+=c.vr;c.life--;
+    const squish=Math.abs(Math.cos(c.rot));
+    pctx.globalAlpha=Math.min(1,c.life/30);
+    pctx.fillStyle='#ffd200'; pctx.strokeStyle='#b8860b'; pctx.lineWidth=2;
+    pctx.beginPath(); pctx.ellipse(c.x,c.y,Math.max(1.5,c.r*squish),c.r,0,0,7); pctx.fill(); pctx.stroke();
+    if(squish>0.5){ pctx.fillStyle='#b8860b'; pctx.font=`bold ${c.r}px sans-serif`; pctx.textAlign='center'; pctx.fillText('¥',c.x,c.y+c.r*0.35); }
+  });
+  pctx.globalAlpha=1;
+}
+
+/* 金币雨 */
+const rc=$('rain'), rctx=rc.getContext('2d');
+function coinRain(n){
+  rc.width=innerWidth; rc.height=innerHeight;
+  let rs=[]; for(let i=0;i<Math.min(n*3,120);i++) rs.push({x:Math.random()*rc.width,y:-30-Math.random()*400,vx:(Math.random()-0.5)*1.5,vy:3+Math.random()*4,rot:Math.random()*7,vr:0.1+Math.random()*0.25,r:10+Math.random()*10});
+  let frames=0;
+  (function tick(){
+    rctx.clearRect(0,0,rc.width,rc.height);
+    rs.forEach(c=>{
+      c.x+=c.vx;c.y+=c.vy;c.rot+=c.vr;
+      const squish=Math.abs(Math.cos(c.rot));
+      rctx.fillStyle='#ffd200'; rctx.strokeStyle='#b8860b'; rctx.lineWidth=2;
+      rctx.beginPath(); rctx.ellipse(c.x,c.y,Math.max(1.5,c.r*squish),c.r,0,0,7); rctx.fill(); rctx.stroke();
+    });
+    if(++frames<300) requestAnimationFrame(tick); else rctx.clearRect(0,0,rc.width,rc.height);
+  })();
+}
+
+/* 页面切到后台自动暂停，防止能量空涨 */
+document.addEventListener('visibilitychange', ()=>{ if(document.hidden && running) stop(); });
+
+render();
+drawChart();
+</script>
+</body>
+</html>
