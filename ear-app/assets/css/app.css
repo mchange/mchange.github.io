@@ -51,6 +51,9 @@
   --shadow-inset: inset 0 0 0 1px var(--line);
 
   --tap: 44px;             /* 最小触控目标 */
+  /* 播放页收起顶栏后「让给播放器」的额外高度：--topbar-h 由 JS 按实际量出来写入，
+     下面所有播放器高度上限都统一加这个值，所以收起顶栏不会白收。 */
+  --vh-extra: 0px;
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
           "Hiragino Sans GB", "Microsoft YaHei", system-ui, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
@@ -152,6 +155,55 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
 }
 
 .topbar-actions { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; }
+
+/* --- 播放页：顶栏可整条收起（点击顶栏空白处或右上角按钮） ---
+   收起后高度过渡到 0，省下的空间交给播放器（见 .player video 的 --vh-extra）。
+   唤回入口是左上角的 .topbar-peek 小胶囊，收起时才会出现。 */
+.topbar-collapsible {
+  max-height: var(--topbar-h, 96px);
+  transition: max-height .28s ease, opacity .2s ease, padding .28s ease, border-bottom-color .22s ease;
+  cursor: pointer;
+}
+.topbar-collapsible .brand,
+.topbar-collapsible .topbar-toggle { cursor: pointer; }
+html.topbar-hidden .topbar-collapsible {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  border-bottom-width: 0;
+  border-bottom-color: transparent;
+}
+html.topbar-hidden { --vh-extra: var(--topbar-h, 54px); }
+
+.topbar-toggle { color: var(--ink-2); }
+.topbar-toggle svg { width: 20px; height: 20px; }
+
+.topbar-peek {
+  position: fixed;
+  top: calc(6px + env(safe-area-inset-top));
+  left: calc(8px + env(safe-area-inset-left));
+  z-index: 45;
+  appearance: none; cursor: pointer; font: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+  min-height: 30px; padding: 5px 11px 5px 8px;
+  font-size: 12px; font-weight: 650; letter-spacing: .02em;
+  color: #F0EEE6;
+  background: rgba(18,22,15,.62);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 2px 10px rgba(0,0,0,.28);
+  opacity: .8;
+  transition: opacity .18s ease, transform .12s ease;
+}
+.topbar-peek:hover { opacity: 1; }
+.topbar-peek:active { transform: scale(.96); }
+.topbar-peek[hidden] { display: none; }
+.topbar-peek svg { width: 14px; height: 14px; }
 
 /* ==========================================================================
    通用控件
@@ -452,7 +504,8 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   box-shadow: var(--shadow-2);
 }
 .player video {
-  display: block; width: 100%; max-height: 60vh; background: #12160F;
+  display: block; width: 100%; background: #12160F;
+  max-height: calc(60vh + var(--vh-extra));
   aspect-ratio: 16 / 9; object-fit: contain;
 }
 .player-veil {
@@ -534,9 +587,14 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
   border-top-width: 0; border-bottom-width: 0;
   box-shadow: none;
 }
-.wb.chrome-hidden .player video { max-height: 68vh; }
+.wb.chrome-hidden .player video { max-height: calc(68vh + var(--vh-extra)); }
 .wb-body { transition: grid-template-columns .3s ease; }
 .wb.chrome-hidden .wb-body {
+  grid-template-columns: minmax(0, 1fr) clamp(240px, 20%, 300px);
+}
+/* 顶栏收起后：右侧面板再收窄一点，把宽度让给画面（横屏 iPad 上画面才是真的变大）。
+   竖屏是单列布局，这条在下面的竖屏媒体查询里被显式复位。 */
+html.topbar-hidden .wb-body {
   grid-template-columns: minmax(0, 1fr) clamp(240px, 20%, 300px);
 }
 
@@ -593,6 +651,36 @@ html.wb-lock .app { height: 100vh; height: 100dvh; min-height: 0; }
 .sub-en[data-blind="1"] {
   filter: blur(7px); opacity: .55; user-select: none;
   transition: filter .18s ease, opacity .18s ease;
+}
+
+/* --- 中文隐藏字幕集（subtitleKind=zh-cc）-------------------------------
+   英文字幕是烧录在画面底部的，字幕层只有中文：
+   · en 为空 → 空行不占位，字幕表里中文升级为主行；
+   · 字幕层上移到烧录字幕带上方，避免两条字幕叠在一起看不清；
+   · 盲听时改遮中文（英文在画面里，遮不住也没必要）。 */
+/* 只在这个合集里隐藏空英文行：常规集停到句间空隙时 en 也会短暂为空，
+   全局 :empty 会让「字幕四态」验收误判，别外溢。 */
+.wb[data-zhcc="1"] .sub-en:empty,
+.wb[data-zhcc="1"] .trow-en:empty { display: none; }
+.wb[data-zhcc="1"] .sub-layer { bottom: 15%; padding-bottom: 0; }
+.wb[data-zhcc="1"] .sub-zh {
+  margin-top: 0; color: #fff; font-weight: 620;
+  font-size: 17px;
+  font-size: clamp(14px, 2.55cqw, 26px);
+}
+.wb[data-zhcc="1"] .trow-zh {
+  font-size: 15.5px; font-weight: 500; color: var(--ink);
+}
+.sub-zh[data-blind="1"] {
+  filter: blur(7px); opacity: .55; user-select: none;
+  transition: filter .18s ease, opacity .18s ease;
+}
+body.blind .wb[data-zhcc="1"] .trow:not([data-revealed="1"]) .trow-zh {
+  filter: blur(6px); opacity: .5; user-select: none;
+  transition: filter .18s ease, opacity .18s ease;
+}
+body.blind .wb[data-zhcc="1"] .trow[data-revealed="1"] .trow-zh {
+  filter: none; opacity: 1;
 }
 
 /* 播放器需要成为容器，让字幕字号跟着播放器宽度走 */
@@ -1004,6 +1092,7 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
   /* 竖屏是上下排布，收起控制时保持单列，不参与右侧面板收窄；
      省出的高度让给播放器区域 */
   .wb.chrome-hidden .wb-body { grid-template-columns: minmax(0, 1fr); }
+  html.topbar-hidden .wb-body { grid-template-columns: minmax(0, 1fr); }
   .wb.chrome-hidden .wb-stage { max-height: 72vh; }
   .wb.chrome-hidden .player video { max-height: 46vh; }
   /* 竖屏面板铺满整宽：闪卡自动排成 5~6 列（卡高沿用基准值，例句才放得下） */
@@ -1022,8 +1111,8 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
 
 /* 横屏但高度很矮（iPad 横屏 + Safari 工具栏）时的紧凑处理 */
 @media (orientation: landscape) and (max-height: 520px) {
-  .player video { max-height: 46vh; }
-  .wb.chrome-hidden .player video { max-height: 56vh; }
+  .player video { max-height: calc(46vh + var(--vh-extra)); }
+  .wb.chrome-hidden .player video { max-height: calc(56vh + var(--vh-extra)); }
   .fc-card { height: 142px; }
   .fc-emoji { font-size: 27px; }
   .fc-line { -webkit-line-clamp: 2; font-size: 11px; }

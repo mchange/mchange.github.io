@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-12T05:44:31+00:00",
+ "generatedAt": "2026-11-09T06:30:52+00:00",
  "source": "./episodes",
  "episodes": [
   {
@@ -189,9 +189,249 @@
    "thumbnail": "content/thumbs/pep05.jpg",
    "subtitleStatus": "draft",
    "lineCount": 89
+  },
+  {
+   "id": "jtw01",
+   "series": "jtw",
+   "order": 1,
+   "title": "The Monkey",
+   "durationSeconds": 351.88,
+   "video": "./episodes_jtw/01 The Monkey.mp4",
+   "thumbnail": "content/thumbs/jtw01.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 109,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw02",
+   "series": "jtw",
+   "order": 2,
+   "title": "The Waterfall Cave",
+   "durationSeconds": 334.27,
+   "video": "./episodes_jtw/02 The Waterfall Cave.mp4",
+   "thumbnail": "content/thumbs/jtw02.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 113,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw03",
+   "series": "jtw",
+   "order": 3,
+   "title": "Subodhi",
+   "durationSeconds": 338.9,
+   "video": "./episodes_jtw/03 Subodhi.mp4",
+   "thumbnail": "content/thumbs/jtw03.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 132,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw04",
+   "series": "jtw",
+   "order": 4,
+   "title": "Secret Formulas",
+   "durationSeconds": 317.87,
+   "video": "./episodes_jtw/04 Secret Formulas.mp4",
+   "thumbnail": "content/thumbs/jtw04.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 111,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw05",
+   "series": "jtw",
+   "order": 5,
+   "title": "The Demon of Chaos",
+   "durationSeconds": 311.73,
+   "video": "./episodes_jtw/05 The Demon of Chaos.mp4",
+   "thumbnail": "content/thumbs/jtw05.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 116,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw06",
+   "series": "jtw",
+   "order": 6,
+   "title": "The Dragon King",
+   "durationSeconds": 308.22,
+   "video": "./episodes_jtw/06 The Dragon King.mp4",
+   "thumbnail": "content/thumbs/jtw06.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 107,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw07",
+   "series": "jtw",
+   "order": 7,
+   "title": "The Land of Darkness",
+   "durationSeconds": 343.7,
+   "video": "./episodes_jtw/07 The Land of Darkness.mp4",
+   "thumbnail": "content/thumbs/jtw07.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 97,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw08",
+   "series": "jtw",
+   "order": 8,
+   "title": "A Job in Heaven",
+   "durationSeconds": 309.71,
+   "video": "./episodes_jtw/08 A Job in Heaven.mp4",
+   "thumbnail": "content/thumbs/jtw08.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 90,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw09",
+   "series": "jtw",
+   "order": 9,
+   "title": "The Peach Garden",
+   "durationSeconds": 352.2,
+   "video": "./episodes_jtw/09 The Peach Garden.mp4",
+   "thumbnail": "content/thumbs/jtw09.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 122,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw10",
+   "series": "jtw",
+   "order": 10,
+   "title": "The Powerful Sage",
+   "durationSeconds": 322.17,
+   "video": "./episodes_jtw/10 The Powerful Sage.mp4",
+   "thumbnail": "content/thumbs/jtw10.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 102,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw11",
+   "series": "jtw",
+   "order": 11,
+   "title": "Trouble in Heaven",
+   "durationSeconds": 342.73,
+   "video": "./episodes_jtw/11 Trouble in Heaven.mp4",
+   "thumbnail": "content/thumbs/jtw11.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 106,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw12",
+   "series": "jtw",
+   "order": 12,
+   "title": "The Bet",
+   "durationSeconds": 325.73,
+   "video": "./episodes_jtw/12 The Bet.mp4",
+   "thumbnail": "content/thumbs/jtw12.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 117,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw13",
+   "series": "jtw",
+   "order": 13,
+   "title": "The True Scriptures",
+   "durationSeconds": 339.71,
+   "video": "./episodes_jtw/13 The True Scriptures.mp4",
+   "thumbnail": "content/thumbs/jtw13.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 91,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw14",
+   "series": "jtw",
+   "order": 14,
+   "title": "A Promise to Protect",
+   "durationSeconds": 314.21,
+   "video": "./episodes_jtw/14 A Promise to Protect.mp4",
+   "thumbnail": "content/thumbs/jtw14.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 109,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw15",
+   "series": "jtw",
+   "order": 15,
+   "title": "Tea with a Dragon",
+   "durationSeconds": 314.21,
+   "video": "./episodes_jtw/15 Tea with a Dragon.mp4",
+   "thumbnail": "content/thumbs/jtw15.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 123,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw16",
+   "series": "jtw",
+   "order": 16,
+   "title": "Wukong Gets Tricked",
+   "durationSeconds": 305.71,
+   "video": "./episodes_jtw/16 Wukong Gets Tricked.mp4",
+   "thumbnail": "content/thumbs/jtw16.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 115,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw17",
+   "series": "jtw",
+   "order": 17,
+   "title": "The Dragon",
+   "durationSeconds": 301.72,
+   "video": "./episodes_jtw/17 The Dragon.mp4",
+   "thumbnail": "content/thumbs/jtw17.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 108,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw18",
+   "series": "jtw",
+   "order": 18,
+   "title": "The Robe",
+   "durationSeconds": 320.71,
+   "video": "./episodes_jtw/18 The Robe.mp4",
+   "thumbnail": "content/thumbs/jtw18.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 100,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw19",
+   "series": "jtw",
+   "order": 19,
+   "title": "An Evil Plan",
+   "durationSeconds": 307.71,
+   "video": "./episodes_jtw/19 An Evil Plan.mp4",
+   "thumbnail": "content/thumbs/jtw19.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 111,
+   "subtitleKind": "zh-cc"
+  },
+  {
+   "id": "jtw20",
+   "series": "jtw",
+   "order": 20,
+   "title": "The Back Bear",
+   "durationSeconds": 297.73,
+   "video": "./episodes_jtw/20 The Back Bear.mp4",
+   "thumbnail": "content/thumbs/jtw20.jpg",
+   "subtitleStatus": "draft",
+   "lineCount": 108,
+   "subtitleKind": "zh-cc"
   }
  ],
- "note": "v2：目录支持多合集（series）。order 是合集内序号；跨合集顺序由 series[*].order 决定。螺丝钉已剔除 4 集重复（见 episodes.removed-duplicates.json）；videoFallback 已移除（原指向不进部署包的 ear-app/episodes/）。",
+ "note": "v2：目录支持多合集（series）。order 是合集内序号；跨合集顺序由 series[*].order 决定。螺丝钉已剔除 4 集重复（见 episodes.removed-duplicates.json）；videoFallback 已移除（原指向不进部署包的 ear-app/episodes/）。 西游记合集（jtw）：英文字幕烧录在画面中，只提供中文隐藏字幕（subtitleKind=zh-cc，subs 的 en 为空、words 为空卡表）。",
  "series": [
   {
    "id": "fixies",
@@ -206,6 +446,13 @@
    "subtitle": "Peppa Pig",
    "order": 2,
    "desc": "英式发音、语速慢、句式短，最适合刚开始磨耳朵。"
+  },
+  {
+   "id": "jtw",
+   "title": "西游记",
+   "subtitle": "Journey to the West",
+   "order": 3,
+   "desc": "英文启蒙动画，英文字幕已烧录在画面里；中文是可开关的隐藏字幕。"
   }
  ]
 }

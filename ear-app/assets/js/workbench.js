@@ -39,6 +39,10 @@ export async function renderWorkbench(host, ep) {
   const [sources, words] = await Promise.all([videoSources(ep), loadWords(ep)]);
   const prefs = getPrefs();
 
+  /* 「中文隐藏字幕」集（subtitleKind=zh-cc）：英文字幕已烧录在画面里，
+     subs 只有 zh、en 为空。此时中文是主行，播放器不叠加英文，避免和画面字幕打架。 */
+  const ZH_CC = ep.subtitleKind === 'zh-cc';
+
   const S = {
     lines,
     activeIndex: -1,
@@ -229,7 +233,8 @@ export async function renderWorkbench(host, ep) {
           toast('已清空这一集的认词记录');
         },
       }, '重新来')),
-    words.length ? fcRow : h('p.side-empty', '这一集还没有整理单词卡'));
+    // 中文隐藏字幕集没有英文台词可挑词，让 fcRow 进场，由 buildCards() 写清楚原因
+    (words.length || ZH_CC) ? fcRow : h('p.side-empty', '这一集还没有整理单词卡'));
 
   const stageScroll = h('div.stage-scroll', player, transport, controlsRow, resumeBar);
   const stage = h('section.wb-stage', stageScroll);
@@ -259,7 +264,7 @@ export async function renderWorkbench(host, ep) {
     fcPane, transcript);
 
   const body = h('div.wb-body', stage, sidePanel);
-  const wbRoot = h('div.wb', { dataset: { mode: S.mode } }, body);
+  const wbRoot = h('div.wb', { dataset: { mode: S.mode, zhcc: ZH_CC ? '1' : '0' } }, body);
   clear(host);
   host.appendChild(wbRoot);
 
@@ -301,7 +306,7 @@ export async function renderWorkbench(host, ep) {
           draft: ep.subtitleStatus === 'verified' ? '0' : '1',
           revealed: '0',
         },
-        'aria-label': `${fmtShort(L.start)} ${L.en}`,
+        'aria-label': `${fmtShort(L.start)} ${ZH_CC ? (L.zh || '') : (L.en || '')}`,
         onclick: () => {
           row.dataset.revealed = '1';       // 盲听模式下：点哪句揭示哪句
           selectLine(i, { play: true });
@@ -372,9 +377,12 @@ export async function renderWorkbench(host, ep) {
     const zh = L ? String(L.zh || '').trim() : '';
     subZh.textContent = zh;
     subZh.dataset.empty = zh ? '0' : '1';
-    // 盲听模式：当前句还没被点开 → 遮住英文，逼耳朵工作
+    // 盲听模式：当前句还没被点开 → 遮住「唯一的字幕文本」，逼耳朵工作。
+    // 常规集遮英文；中文隐藏字幕集的英文在画面里、字幕层只有中文，所以遮中文。
     const revealed = !!(L && rowEls[i] && rowEls[i].dataset.revealed === '1');
-    subEn.dataset.blind = (S.blind && L && !revealed) ? '1' : '0';
+    const blindOn = !!(S.blind && L && !revealed);
+    subEn.dataset.blind = (!ZH_CC && blindOn) ? '1' : '0';
+    subZh.dataset.blind = (ZH_CC && blindOn) ? '1' : '0';
   }
 
   function updateActive(t) {
@@ -851,12 +859,17 @@ export async function renderWorkbench(host, ep) {
     setPrefs({ subtitleMode: m });
     subLayer.dataset.mode = m;
     subBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.sub === m)));
-    toast({
+    toast((ZH_CC ? {
+      off: '中文字幕已隐藏',
+      zh: '显示中文字幕',
+      en: '只看画面里的英文字幕',
+      both: '显示中文字幕（英文在画面里）',
+    } : {
       off: '字幕已关闭',
       zh: '字幕：只看中文',
       en: '字幕：只看英文',
       both: '字幕：中英文一起看',
-    }[m]);
+    })[m]);
   }
   function cycleSubMode() {
     const i = SUBTITLE_MODES.indexOf(S.subMode);
@@ -958,6 +971,16 @@ export async function renderWorkbench(host, ep) {
 
   function buildCards() {
     clear(fcRow);
+    if (!words.length) {
+      // 中文隐藏字幕集没有逐句英文文本，卡片页给个说明，别是一片空白像坏了
+      fcRow.appendChild(h('div.transcript-empty',
+        ZH_CC ? '这一集没有闪卡：英文字幕在画面里，没有逐句英文文本可挑词。'
+              : '这一集还没有闪卡。'));
+      const reset = sidePanel.querySelector('.fc-reset');
+      if (reset) reset.hidden = true;       // 没卡片就别留个「重新来」空按钮
+      paintFcCount();
+      return;
+    }
     words.forEach((w) => {
       const isPhrase = w.type === 'phrase';
       const L = Number.isInteger(w.line) && lines[w.line] ? lines[w.line] : null;
