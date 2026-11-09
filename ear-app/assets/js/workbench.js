@@ -42,6 +42,9 @@ export async function renderWorkbench(host, ep) {
   /* 「中文隐藏字幕」集（subtitleKind=zh-cc）：英文字幕已烧录在画面里，
      subs 只有 zh、en 为空。此时中文是主行，播放器不叠加英文，避免和画面字幕打架。 */
   const ZH_CC = ep.subtitleKind === 'zh-cc';
+  /* 「无字幕」集（subtitleKind=none，例如主题曲）：没有字幕表、没有闪卡，
+     也不该出现「字幕待整理」那种误导性提示或直接叠一层空字幕。 */
+  const NO_SUBS = ep.subtitleKind === 'none';
 
   const S = {
     lines,
@@ -173,7 +176,9 @@ export async function renderWorkbench(host, ep) {
     const b = h('button', {
       type: 'button',
       'aria-pressed': String(S.subMode === m),
-      title: { off: '不显示字幕', zh: '只显示中文', en: '只显示英文', both: '中英文一起显示' }[m],
+      disabled: NO_SUBS,
+      title: NO_SUBS ? '这一集没有字幕' :
+        { off: '不显示字幕', zh: '只显示中文', en: '只显示英文', both: '中英文一起显示' }[m],
       onclick: () => setSubMode(m),
     }, SUBTITLE_LABELS[m]);
     b.dataset.sub = m;
@@ -201,7 +206,11 @@ export async function renderWorkbench(host, ep) {
   const nextBtn = h('button.btn', { type: 'button', onclick: () => stepLine(1) },
     '下一句', icon('forward'));
 
-  blindBtn = h('button.btn', { type: 'button', onclick: toggleBlind });
+  blindBtn = h('button.btn', {
+    type: 'button', onclick: toggleBlind,
+    disabled: NO_SUBS,
+    title: NO_SUBS ? '这一集没有字幕，盲听用不上' : undefined,
+  });
 
   const controlsRow = h('div.controls-row',
     h('div.ctrl-group', h('span.field-label', '模式'), modeSeg, gapSeg),
@@ -233,8 +242,9 @@ export async function renderWorkbench(host, ep) {
           toast('已清空这一集的认词记录');
         },
       }, '重新来')),
-    // 中文隐藏字幕集没有英文台词可挑词，让 fcRow 进场，由 buildCards() 写清楚原因
-    (words.length || ZH_CC) ? fcRow : h('p.side-empty', '这一集还没有整理单词卡'));
+    // 没有逐句英文文本的集（中文隐藏字幕 / 无字幕集）让 fcRow 进场，
+    // 由 buildCards() 写清楚「为什么是空的」，别是一片空白像坏了
+    (words.length || ZH_CC || NO_SUBS) ? fcRow : h('p.side-empty', '这一集还没有整理单词卡'));
 
   const stageScroll = h('div.stage-scroll', player, transport, controlsRow, resumeBar);
   const stage = h('section.wb-stage', stageScroll);
@@ -243,7 +253,7 @@ export async function renderWorkbench(host, ep) {
   scrollEl = h('div.transcript-scroll');
   rowsEl = h('div.rows');
   scrollEl.appendChild(rowsEl);
-  const transcriptCount = h('span.transcript-count', `${lines.length} 句`);
+  const transcriptCount = h('span.transcript-count', NO_SUBS ? '无字幕' : `${lines.length} 句`);
   warningChip = h('span');
   headStatus = h('span.badge.badge-pass', { hidden: true });
   const transcriptHead = h('div.transcript-head',
@@ -264,7 +274,9 @@ export async function renderWorkbench(host, ep) {
     fcPane, transcript);
 
   const body = h('div.wb-body', stage, sidePanel);
-  const wbRoot = h('div.wb', { dataset: { mode: S.mode, zhcc: ZH_CC ? '1' : '0' } }, body);
+  const wbRoot = h('div.wb', {
+    dataset: { mode: S.mode, zhcc: ZH_CC ? '1' : '0', nosubs: NO_SUBS ? '1' : '0' },
+  }, body);
   clear(host);
   host.appendChild(wbRoot);
 
@@ -285,8 +297,11 @@ export async function renderWorkbench(host, ep) {
     clear(rowsEl);
     rowEls = [];
     if (!lines.length) {
-      rowsEl.appendChild(h('div.transcript-empty',
-        '这一集的字幕还没有整理好。', h('br'), '可以在「内容整理」里补充字幕后重试。'));
+      rowsEl.appendChild(NO_SUBS
+        ? h('div.transcript-empty',
+            '这一集是主题曲，没有字幕。', h('br'), '画面里的英文歌词是视频自带的，放松听就好。')
+        : h('div.transcript-empty',
+            '这一集的字幕还没有整理好。', h('br'), '可以在「内容整理」里补充字幕后重试。'));
       return;
     }
     lines.forEach((L, i) => {
@@ -854,6 +869,7 @@ export async function renderWorkbench(host, ep) {
   /* ------------------------------------------------------------ 播放器字幕四态 */
 
   function setSubMode(m) {
+    if (NO_SUBS) return;                 // 无字幕集：字幕四态按钮已禁用，快捷键也不改状态
     if (!SUBTITLE_MODES.includes(m) || S.subMode === m) return;
     S.subMode = m;
     setPrefs({ subtitleMode: m });
@@ -879,6 +895,7 @@ export async function renderWorkbench(host, ep) {
   /* ------------------------------------------------------------ 盲听（先听后看） */
 
   function toggleBlind() {
+    if (NO_SUBS) return;                 // 无字幕集没有可遮的文本
     S.blind = !S.blind;
     setPrefs({ blindFirst: S.blind });
     applyBlind();
@@ -900,7 +917,9 @@ export async function renderWorkbench(host, ep) {
     blindBtn.appendChild(icon(S.blind ? 'ear' : 'eyeOff'));
     blindBtn.appendChild(document.createTextNode(S.blind ? '盲听：开' : '盲听：关'));
     blindBtn.setAttribute('aria-pressed', String(S.blind));
-    blindBtn.title = S.blind ? '英文已遮住，点某句可揭示' : '遮住英文，先听一遍再看';
+    blindBtn.disabled = NO_SUBS;
+    blindBtn.title = NO_SUBS ? '这一集没有字幕，盲听用不上'
+      : (S.blind ? '英文已遮住，点某句可揭示' : '遮住英文，先听一遍再看');
   }
 
   /* ------------------------------------------------------------ 闪卡 */
@@ -974,8 +993,9 @@ export async function renderWorkbench(host, ep) {
     if (!words.length) {
       // 中文隐藏字幕集没有逐句英文文本，卡片页给个说明，别是一片空白像坏了
       fcRow.appendChild(h('div.transcript-empty',
-        ZH_CC ? '这一集没有闪卡：英文字幕在画面里，没有逐句英文文本可挑词。'
-              : '这一集还没有闪卡。'));
+        NO_SUBS ? '主题曲没有字幕，也就没有单词卡。'
+          : (ZH_CC ? '这一集没有闪卡：英文字幕在画面里，没有逐句英文文本可挑词。'
+                   : '这一集还没有闪卡。')));
       const reset = sidePanel.querySelector('.fc-reset');
       if (reset) reset.hidden = true;       // 没卡片就别留个「重新来」空按钮
       paintFcCount();

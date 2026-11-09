@@ -1,6 +1,6 @@
 /* 页面 1 · 动画选集 */
 
-import { h, clear, icon, fmtTime, toast, tintFor } from './util.js';
+import { h, clear, icon, fmtTime, toast, tintFor, epNoLabel } from './util.js';
 import {
   getPrefs, setPrefs, getProgress, lastEpisodeId, getPasses, CACHE_CHOICES,
 } from './store.js';
@@ -10,6 +10,10 @@ import { stats, enforceBudget, clearAll, fmtMB } from './cache.js';
 function statusOf(ep) {
   if (!ep.video && ep.source !== 'imported') {
     return { kind: 'danger', label: '缺视频', iconName: 'alert' };
+  }
+  // 主题曲这类「本来就没有字幕」的集，不能打成「字幕待整理」的黄标
+  if (ep.subtitleKind === 'none') {
+    return { kind: 'blue', label: '无字幕', iconName: 'info' };
   }
   if (!ep.lineCount && !(ep.lines && ep.lines.length)) {
     return { kind: 'amber', label: '字幕待整理', iconName: 'alert' };
@@ -30,7 +34,7 @@ function episodeCard(ep, onOpen) {
     // 内容全在本地，缩略图仅 ~20KB/张：直接加载，避免懒加载造成的首屏空占位
     thumb.appendChild(h('img', { src: tu, alt: '', decoding: 'async' }));
   }
-  thumb.appendChild(h('span.ep-thumb-no', `第 ${String(ep.order).padStart(2, '0')} 集`));
+  thumb.appendChild(h('span.ep-thumb-no', epNoLabel(ep)));
   if (ep.durationSeconds) thumb.appendChild(h('span.ep-thumb-dur', fmtTime(ep.durationSeconds)));
   if (playable) {
     thumb.appendChild(h('div.ep-thumb-play', h('span', icon('play'))));
@@ -44,7 +48,7 @@ function episodeCard(ep, onOpen) {
   const card = h('button.ep-card', {
     type: 'button',
     'aria-disabled': String(!playable),
-    'aria-label': `第 ${ep.order} 集 ${ep.title}`,
+    'aria-label': `${epNoLabel(ep)} ${ep.title}`,
     onclick: () => playable ? onOpen(ep) : toast('这一集缺少视频文件，无法播放'),
   },
     thumb,
@@ -234,7 +238,7 @@ export function renderLibrary(host, catalog, ctx) {
       h('div.continue-thumb', tu ? h('img', { src: tu, alt: '' }) : icon('play')),
       h('div.continue-meta',
         h('div.continue-kicker', `${lastEp.seriesMeta ? `${lastEp.seriesMeta.title} · ` : ''}继续磨耳朵`),
-        h('h2.continue-title', `第 ${String(lastEp.order).padStart(2, '0')} 集 · ${lastEp.title}`),
+        h('h2.continue-title', `${epNoLabel(lastEp)} · ${lastEp.title}`),
         h('div.continue-pos', `上次听到 ${fmtTime(prog.lastPositionSeconds)}${prog.lastLineIndex != null ? ` · 第 ${prog.lastLineIndex + 1} 句` : ''}`),
       ),
       h('button.btn.btn-primary', { type: 'button', onclick: () => ctx.go(`#/watch/${lastEp.id}`) },

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-09T06:30:52+00:00",
+ "generatedAt": "2026-11-09T07:09:56+00:00",
  "source": "./episodes",
  "episodes": [
   {
@@ -189,6 +189,19 @@
    "thumbnail": "content/thumbs/pep05.jpg",
    "subtitleStatus": "draft",
    "lineCount": 89
+  },
+  {
+   "id": "jtw00",
+   "series": "jtw",
+   "order": 0,
+   "title": "主题曲",
+   "epLabel": "主题曲",
+   "durationSeconds": 81.32,
+   "video": "./episodes_jtw/00 主题曲.mp4",
+   "thumbnail": "content/thumbs/jtw00.jpg",
+   "subtitleStatus": "none",
+   "lineCount": 0,
+   "subtitleKind": "none"
   },
   {
    "id": "jtw01",
@@ -431,7 +444,7 @@
    "subtitleKind": "zh-cc"
   }
  ],
- "note": "v2：目录支持多合集（series）。order 是合集内序号；跨合集顺序由 series[*].order 决定。螺丝钉已剔除 4 集重复（见 episodes.removed-duplicates.json）；videoFallback 已移除（原指向不进部署包的 ear-app/episodes/）。 西游记合集（jtw）：英文字幕烧录在画面中，只提供中文隐藏字幕（subtitleKind=zh-cc，subs 的 en 为空、words 为空卡表）。",
+ "note": "v2：目录支持多合集（series）。order 是合集内序号；跨合集顺序由 series[*].order 决定。螺丝钉已剔除 4 集重复（见 episodes.removed-duplicates.json）；videoFallback 已移除（原指向不进部署包的 ear-app/episodes/）。 西游记合集（jtw）：主题曲排第一、无字幕（subtitleKind=none，order=0，用 epLabel 显示「主题曲」）；正片英文字幕烧录在画面中，只提供中文隐藏字幕（subtitleKind=zh-cc，subs 的 en 为空、words 为空卡表）。",
  "series": [
   {
    "id": "fixies",

@@ -58,6 +58,15 @@ export function fmtTime(sec) {
   return hr > 0 ? `${hr}:${p(mi)}:${p(s)}` : `${mi}:${p(s)}`;
 }
 
+/**
+ * 集号显示：常规「第 NN 集」；主题曲这类没有集号的特殊条目用目录里的 epLabel。
+ * 目录里 epLabel 是可选的，所以老数据、导入内容一律走原来的序号格式。
+ */
+export function epNoLabel(ep) {
+  if (ep && ep.epLabel) return ep.epLabel;
+  return `第 ${String((ep && ep.order) || 0).padStart(2, '0')} 集`;
+}
+
 /** 秒 → 00:00.0（字幕表用的弱化时间标签） */
 export function fmtShort(sec) {
   if (!Number.isFinite(sec) || sec < 0) sec = 0;

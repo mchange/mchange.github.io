@@ -1,6 +1,6 @@
 /* 应用入口：路由 + 顶部栏 + 启动自检 */
 
-import { h, clear, append, icon, toast, bus } from './util.js';
+import { h, clear, append, icon, toast, bus, epNoLabel } from './util.js';
 import { loadCatalog, invalidateCatalog, releaseBlobUrls } from './content.js';
 import { getPrefs, setPrefs, storageAvailable } from './store.js';
 import { renderLibrary } from './library.js';
@@ -195,7 +195,7 @@ async function render() {
     }
     root.appendChild(topbar({
       contextSeries: ep.seriesMeta ? ep.seriesMeta.title : null,
-      contextNo: `第 ${String(ep.order).padStart(2, '0')} 集`,
+      contextNo: epNoLabel(ep),
       contextTitle: ep.title,
       actions: [h('a.btn', { href: '#/library' }, icon('library'), '选集')],
       collapsible: true,

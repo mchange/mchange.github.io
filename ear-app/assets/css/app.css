@@ -683,6 +683,15 @@ body.blind .wb[data-zhcc="1"] .trow[data-revealed="1"] .trow-zh {
   filter: none; opacity: 1;
 }
 
+/* --- 无字幕集（subtitleKind=none，如主题曲）----------------------------
+   没有字幕表、没有闪卡：画面里若有英文歌词是视频自带的，
+   所以字幕层整个不渲染，控制条里的字幕/盲听按钮置灰，别让人以为坏了。 */
+.wb[data-nosubs="1"] .sub-layer { display: none; }
+.wb[data-nosubs="1"] .seg-sub button:disabled,
+.wb[data-nosubs="1"] .controls-row > button.btn:disabled {
+  opacity: .42; cursor: not-allowed;
+}
+
 /* 播放器需要成为容器，让字幕字号跟着播放器宽度走 */
 .player { container-type: inline-size; }
 
