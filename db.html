@@ -33,6 +33,8 @@
   #dbVal { font-size:56px; font-weight:800; line-height:1; text-shadow:0 0 24px rgba(255,210,0,.8); font-variant-numeric:tabular-nums; }
   #dbUnit { font-size:13px; opacity:.7; }
   #status { margin-top:5px; font-size:15px; font-weight:600; min-height:22px; padding:0 8px; }
+  #wakeBadge { display:none; margin-top:2px; font-size:11px; font-weight:600; color:#ffd200; opacity:.9; }
+  #wakeBadge.warn { color:#ffb3b3; }
   canvas#fx { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; z-index:5; }
   /* 存钱罐 */
   #bank { position:relative; z-index:4; font-size:15px; font-weight:800; color:#ffd200;
@@ -97,6 +99,71 @@
     border-radius:16px; padding:6px 12px; font-size:12px; cursor:pointer; -webkit-tap-highlight-color:transparent; }
   .chip:active { transform:scale(.95); }
   .chip.on { background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; border-color:transparent; font-weight:700; }
+  /* 家长密码 */
+  .pwd-box { max-width:340px; text-align:center; }
+  .pwd-tip { font-size:12px; opacity:.7; line-height:1.6; margin:2px 0 14px; }
+  .pwd-input { width:100%; box-sizing:border-box; border:1px solid rgba(255,255,255,.25); border-radius:12px;
+    padding:12px 14px; font-size:20px; letter-spacing:6px; text-align:center;
+    background:rgba(255,255,255,.10); color:#fff; }
+  .pwd-input:focus { outline:2px solid #ffd200; }
+  .pwd-err { color:#ff9a9a; font-size:12px; min-height:18px; margin-top:8px; }
+  .pwd-btns { display:flex; gap:10px; margin-top:4px; }
+  .pwd-btns .btn { margin:0; flex:1; }
+  .pwd-btns #pwdOk { background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; }
+  /* 钱包余额 */
+  .set-cols, .set-col { display:contents; }
+  .wallet-box { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14);
+    border-radius:14px; padding:12px; margin-top:14px; }
+  .wallet-head { display:flex; align-items:baseline; justify-content:space-between; gap:8px; }
+  .wallet-head .w-label { font-size:13px; opacity:.85; }
+  .wallet-head .w-val { font-size:26px; font-weight:800; color:#ffd200; font-variant-numeric:tabular-nums; }
+  .wallet-ops { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .wallet-btn { flex:1 1 auto; min-width:48px; border:1px solid rgba(255,255,255,.25);
+    background:rgba(255,255,255,.08); color:#fff; border-radius:12px; padding:8px 6px;
+    font-size:14px; font-weight:700; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+  .wallet-btn.plus { background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; border-color:transparent; }
+  .wallet-btn:active { transform:scale(.95); }
+  .wallet-set { display:flex; align-items:center; gap:8px; margin-top:10px; }
+  .wallet-set input { flex:1; min-width:0; border:none; border-radius:10px; padding:9px 10px;
+    font-size:15px; font-weight:700; background:rgba(255,255,255,.12); color:#fff; text-align:center; }
+  .wallet-set input:focus { outline:2px solid #ffd200; }
+  .wallet-set button { border:none; border-radius:10px; padding:9px 12px; font-size:13px; font-weight:700;
+    background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; cursor:pointer; white-space:nowrap; }
+  .wallet-set button.ghost { background:rgba(255,255,255,.15); color:#fff; }
+  .wallet-msg { font-size:11px; opacity:.7; min-height:16px; margin-top:8px; text-align:center; }
+  /* 危险操作（仅设置内可见） */
+  .danger-row { margin-top:12px; padding:12px; border:1px dashed rgba(255,120,120,.35);
+    border-radius:12px; text-align:center; }
+  .danger-tip { font-size:11px; color:#ffb3b3; opacity:.75; margin-bottom:8px; }
+  #resetBtn { width:100%; box-sizing:border-box; margin:0; font-size:13px;
+    background:rgba(255,90,90,.14); color:#ff9a9a; border:1px solid rgba(255,120,120,.4); }
+  #resetBtn:active { background:rgba(255,90,90,.26); }
+  /* 奖励条目管理（仅设置内，商店只负责兑换） */
+  .reward-manage { margin-top:12px; padding:12px; border-radius:14px;
+    background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14); }
+  .rm-title { font-size:13px; font-weight:700; color:#ffd200; list-style:none;
+    display:flex; align-items:center; gap:8px; cursor:pointer; }
+  .rm-title::-webkit-details-marker { display:none; }
+  .rm-title::after { content:'▸'; opacity:.6; transition:transform .2s; }
+  .reward-manage[open] .rm-title::after { transform:rotate(90deg); }
+  .rm-fold { font-size:11px; opacity:.6; font-weight:400; color:#fff; margin-left:auto; }
+  .rm-body { padding-top:8px; }
+  .rm-sub { font-size:11px; opacity:.6; margin-top:2px; }
+  #rewardList { margin-top:8px; max-height:168px; overflow-y:auto; }
+  .reward-item { display:flex; align-items:center; gap:8px; padding:6px 8px;
+    background:rgba(255,255,255,.08); border-radius:10px; margin-bottom:5px; font-size:12px; }
+  .reward-item .ri-name { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .reward-item .ri-cost { color:#ffd200; font-weight:800; white-space:nowrap; }
+  .reward-item .ri-del { flex:none; border:1px solid rgba(255,150,150,.4);
+    background:rgba(255,90,90,.12); color:#ff9a9a; border-radius:10px;
+    padding:4px 9px; font-size:12px; font-weight:700; }
+  .reward-item .ri-del:active { background:rgba(255,90,90,.26); }
+  .rm-tip { font-size:11px; opacity:.55; text-align:center; margin-top:8px; }
+  .rm-clear-row { display:flex; gap:8px; margin-top:10px; }
+  #redeemClear.rm-clear, #checkinClear.rm-clear { flex:1; min-width:0; width:auto; margin:0; padding:7px 8px; font-size:12px; }
+  #settings .close { position:sticky; bottom:0; z-index:2; width:100%; box-sizing:border-box;
+    margin:12px auto 0; padding:12px 0; border-radius:12px; background:#3a2b68;
+    box-shadow:0 -10px 20px rgba(36,26,77,.95); }
   /* 商店条目 */
   .shop-item { display:flex; align-items:center; justify-content:space-between; gap:8px;
     background:rgba(255,255,255,.08); border-radius:12px; padding:10px 12px; margin:8px 0; }
@@ -105,11 +172,43 @@
   .shop-item button { border:none; border-radius:16px; padding:7px 16px; font-weight:700; font-size:13px;
     background:linear-gradient(90deg,#f7971e,#ffd200); color:#5a3e00; }
   .shop-item button:disabled { opacity:.35; }
-  .shop-item .del { background:rgba(255,255,255,.15); color:#fff; padding:7px 10px; }
   .add-row { display:flex; gap:8px; margin-top:10px; }
   .add-row input { flex:1; border:none; border-radius:10px; padding:9px 10px; font-size:14px; background:rgba(255,255,255,.12); color:#fff; min-width:0; }
   .add-row input.cost { width:76px; flex:none; }
   .add-row button { border:none; border-radius:10px; padding:9px 16px; font-weight:700; background:#43e97b; color:#0a3a1e; flex:none; }
+  /* 兑换记录 */
+  .redeem-box { margin-top:14px; padding-top:10px; border-top:1px dashed rgba(255,255,255,.18); }
+  .redeem-head { display:flex; align-items:center; gap:8px; font-size:13px; }
+  .redeem-head .r-title { font-weight:700; color:#ffd200; white-space:nowrap; }
+  .redeem-head .r-stat { opacity:.7; font-size:11px; flex:1; min-width:0; }
+  .log-clear { flex:none; border:1px solid rgba(255,150,150,.4); background:rgba(255,90,90,.12);
+    color:#ff9a9a; border-radius:12px; padding:4px 10px; font-size:11px; font-weight:700; }
+  .log-clear:active { background:rgba(255,90,90,.26); }
+  .redeem-list { max-height:150px; overflow-y:auto; margin-top:8px; padding-right:2px; }
+  .redeem-row { display:flex; align-items:center; gap:8px; padding:6px 8px; border-radius:10px;
+    background:rgba(255,255,255,.06); margin-bottom:5px; font-size:12px; }
+  .redeem-row .r-time { opacity:.6; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .redeem-row .r-name { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .redeem-row .r-cost { color:#ff9a9a; font-weight:800; white-space:nowrap; }
+  .redeem-row .r-bal { opacity:.6; white-space:nowrap; }
+  .redeem-empty { text-align:center; opacity:.55; font-size:12px; padding:12px 6px; }
+  #shop .close { position:sticky; bottom:0; z-index:2; background:#3a2b68;
+    box-shadow:0 -4px 10px rgba(36,26,77,.6); }
+  /* 每日打卡记录 */
+  #checkin .panel-inner { max-width:560px; }
+  .checkin-sum { text-align:center; font-size:13px; font-weight:700; color:#ffd200; margin:2px 0 10px; }
+  .checkin-head, .checkin-row { display:grid; grid-template-columns:1.35fr 1.15fr 1fr .85fr; gap:6px; align-items:center; }
+  .checkin-head { font-size:11px; opacity:.6; padding:0 8px 4px; }
+  .checkin-list { max-height:min(46dvh,320px); }
+  .checkin-row { background:rgba(255,255,255,.06); border-radius:10px; padding:8px; margin-bottom:5px; font-size:12px; }
+  .checkin-row.is-today { background:rgba(255,210,0,.15); }
+  .checkin-row .ck-date { white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .checkin-row .ck-sec { color:#7ee8fa; font-weight:700; white-space:nowrap; }
+  .checkin-row .ck-coin { color:#ffd200; font-weight:800; white-space:nowrap; }
+  .checkin-row .ck-done { opacity:.75; white-space:nowrap; }
+  .checkin-tip { font-size:11px; opacity:.55; text-align:center; margin-top:10px; }
+  #checkin .close { position:sticky; bottom:0; z-index:2; background:#3a2b68;
+    box-shadow:0 -4px 10px rgba(36,26,77,.6); }
   /* 全屏金币雨 */
   canvas#rain { position:fixed; inset:0; pointer-events:none; z-index:99; }
   @media (max-height:700px){
@@ -140,6 +239,7 @@
     #dbVal { font-size:min(9vw,104px); }
     #dbUnit { font-size:18px; }
     #status { font-size:19px; min-height:28px; }
+    #wakeBadge { font-size:13px; }
     #bank { font-size:22px; padding:10px 30px; margin-top:0; border-radius:28px; }
     .energy-wrap, .cards, .progress-mini { max-width:none; width:100%; }
     canvas#dbChart { height:clamp(140px, 22vh, 230px); border-radius:16px; }
@@ -168,6 +268,50 @@
     .shop-item { padding:14px 16px; }
     .shop-item .si-name, .shop-item .si-cost { font-size:17px; }
     .add-row input, .add-row button { font-size:16px; padding:12px 14px; }
+    #shop .panel-inner { max-width:620px; max-height:98dvh; }
+    .redeem-list { max-height:162px; }
+    .redeem-head { font-size:15px; }
+    .redeem-head .r-stat { font-size:12px; }
+    .redeem-row { font-size:14px; }
+    .redeem-empty { font-size:14px; }
+    .log-clear { font-size:12px; padding:6px 12px; }
+    #checkin .panel-inner { max-width:640px; max-height:94dvh; }
+    .checkin-sum { font-size:16px; }
+    .checkin-head { font-size:13px; }
+    .checkin-row { font-size:15px; padding:10px 8px; }
+    .checkin-list { max-height:min(48dvh,360px); }
+    .checkin-tip { font-size:13px; }
+    .pwd-box { max-width:420px; }
+    .pwd-tip { font-size:15px; }
+    .pwd-input { font-size:24px; padding:14px; }
+    .pwd-err { font-size:14px; }
+    .wallet-box { padding:16px; margin-top:18px; }
+    .wallet-head .w-label { font-size:16px; }
+    .wallet-head .w-val { font-size:34px; }
+    .wallet-btn { font-size:16px; padding:10px 8px; }
+    .wallet-set input { font-size:16px; padding:11px 10px; }
+    .wallet-set button { font-size:15px; padding:11px 14px; }
+    .wallet-msg { font-size:13px; }
+    #settings .panel-inner { max-width:840px; max-height:94dvh; }
+    .set-cols { display:grid; grid-template-columns:1fr 1fr; gap:18px; align-items:start; margin-top:12px; }
+    .set-col { display:block; min-width:0; }
+    #settings .close { margin-top:12px; }
+    #settings .panel label { margin:9px 0 2px; }
+    #settings .panel input[type=range] { height:36px; }
+    #settings .custom-row, #settings .chip-row { margin-top:6px; }
+    #settings .wallet-box { margin-top:0; padding:12px; }
+    #settings .wallet-ops, #settings .wallet-set { margin-top:8px; }
+    #settings .wallet-msg { margin-top:6px; }
+    #settings .reward-manage { margin-top:10px; padding:10px; }
+    #settings .add-row { margin-top:8px; }
+    #settings .add-row input, #settings .add-row button { padding:10px 12px; font-size:15px; }
+    .rm-title { font-size:15px; }
+    .rm-sub, .rm-tip { font-size:12px; }
+    .reward-item { font-size:14px; }
+    #rewardList { max-height:190px; }
+    .danger-row { margin-top:14px; padding:14px; }
+    .danger-tip { font-size:13px; }
+    #resetBtn { font-size:15px; padding:12px 14px; }
   }
   /* 横屏但高度偏小（如 1024×768 的 iPad）：整体收紧一档，保证一屏放得下 */
   @media (min-width:900px) and (orientation:landscape) and (max-height:860px){
@@ -207,6 +351,7 @@
   <div data-page-node-id="cWcMKCs5C7Qfe0YbHCAhgw" class="db-box">
     <div data-page-node-id="Bh0fODZr1jFnwv1akjGaHi" id="dbVal"><!--pnid:DovQdlAj18CvR0aqPwQcjM-->--</div><div data-page-node-id="ofl2jFz741O5FeL9jnzYYW" id="dbUnit"><!--pnid:l6HNglCp8fAlgCB5GQfrWv-->dB</div>
     <div data-page-node-id="cnZGNT369rtbEKwbk5lPhj" id="status"><!--pnid:Y2qOe5PDk3W3nnxAz2YsET-->点击下方开始</div>
+    <div data-page-node-id="WbWakeBadge2026E01Tv7Kd" id="wakeBadge"></div>
   </div>
 </div>
 
@@ -233,7 +378,7 @@
 <div data-page-node-id="MOFtlvufj4kHtuymtjDeCU">
   <button data-page-node-id="Hh2LyL0EVxHIzfjzzWSW0b" class="btn small" id="shopBtn"><!--pnid:1oAms9jsJ4Z86ZOzQKB34R-->🛒 金币商店</button>
   <button data-page-node-id="SyZuAq068YtkcH92HVfxc5" class="btn small" id="settingBtn"><!--pnid:Brdz6rAb6pNZrfuNO1gta6-->⚙️ 设置</button>
-  <button data-page-node-id="lQpEGaAlR7SVzTepDEvMpj" class="btn small" id="resetBtn"><!--pnid:ysTQe1ZPfgxwHkS97f6uhu-->🗑 重置</button>
+  <button data-page-node-id="CkBtn2026G09Mn2Fn" class="btn small" id="checkinBtn" type="button"><!--pnid:9E76AsxauTwxHTE1JfCCAf-->📅 打卡记录</button>
 </div>
 
 <div data-page-node-id="6wiTmFr5oGBAjOd1irjfUA" class="cards">
@@ -247,10 +392,26 @@
 <div data-page-node-id="44jCakUNl5OVlaR2tj93x7" id="week"></div>
 </div>
 
+<!--pnid:R0xddnvqGNNKUzURpZ2Kfa--><!-- 家长密码验证 -->
+<div data-page-node-id="WbPwdPanel2026A01Xk9Qz" class="panel" id="pwdPanel">
+  <div data-page-node-id="WbPwdInner2026A02Lm7Tv" class="panel-inner pwd-box">
+    <h2 data-page-node-id="WbPwdTitle2026A03Rp4Wc"><!--pnid:XmbFafNMP4hDisRPose6DI-->🔒 家长验证</h2>
+    <div data-page-node-id="WbPwdTip2026A04Ns8Bd" class="pwd-tip"><!--pnid:xKUkV7xEmvmSSGKODdiFDu-->设置和钱包只有家长可以修改<br data-page-node-id="0LHugIJ0XQuKA0kuXs2Ni8"><!--pnid:1CJk5cxh0VHdZRTLpXLMw7-->请输入家长密码</div>
+    <input data-page-node-id="WbPwdInput2026A05Jy2Hf" autocomplete="off" class="pwd-input" id="pwdInput" inputmode="numeric" placeholder="••••" type="password">
+    <div data-page-node-id="WbPwdErr2026A06Kt6Mg" class="pwd-err" id="pwdErr"></div>
+    <div data-page-node-id="WbPwdBtns2026A07Dx3Vq" class="pwd-btns">
+      <button data-page-node-id="WbPwdCancel2026A08Ue5Za" class="btn small" id="pwdCancel" type="button"><!--pnid:YaJeglFXbmieYuO0MrHJYv-->取消</button>
+      <button data-page-node-id="WbPwdOk2026A09Pc1Yn" class="btn small" id="pwdOk" type="button"><!--pnid:W4Xt0Cjm1sPr8NBsRi82rc-->解锁</button>
+    </div>
+  </div>
+</div>
+
 <!--pnid:GuWJdlHwEzGK18277bqWrJ--><!-- 设置面板 -->
 <div data-page-node-id="4LlKY4QcSTrkUoEAXmUsjl" class="panel" id="settings">
   <div data-page-node-id="ieZTurwj5kbaZ0vEjeyJNm" class="panel-inner">
     <h2 data-page-node-id="7Z1HzHjI4iWdDk3uViwvW3"><!--pnid:moBptiRjSdYne8XmJtV2H9-->⚙️ 设置</h2>
+    <div data-page-node-id="WbSetCols2026C01Kd8Lm" class="set-cols">
+    <div data-page-node-id="WbSetColL2026C02Xp4Rt" class="set-col">
     <label data-page-node-id="MPNHQ8myimp7qEC7yEW5vX"><!--pnid:0KCVs7Md7N7d1M6ASL3Mpb-->达标阈值：<span data-page-node-id="heV3JJlhRw0ZsHz4AVItk2" id="thVal"><!--pnid:kBaUY3G25BrBDv9ZHXKf7Q-->70</span><!--pnid:trAeDv8m9kWWUZABnmMoHX--> dB（洪亮朗读约 70~85）</label>
     <input data-page-node-id="g3NSunZJkAUWvXnl9CaCBW" id="threshold" max="95" min="50" type="range" value="70">
     <label data-page-node-id="pc5CyeaYfLUXF5kNuZQZ5x"><!--pnid:tUGANZiYPL6toYsxnOVm9S-->麦克风灵敏度：<span data-page-node-id="GUUr9N3RiunQSPZOjoYgJW" id="gainVal"><!--pnid:9n4B9ScCqFt5mU1j6TnMrq-->1.5</span><!--pnid:LIBhbfHjPC0FQ3vofpRE1N-->×</label>
@@ -261,6 +422,48 @@
     <div data-page-node-id="LOYSPqhgg2xoXB61CO5dXC" class="chip-row"><button data-page-node-id="IF0EeykHP9s7Br9FsFrni5" class="chip" data-min="1" type="button"><!--pnid:Oi6cQN030Tzkt2k3xcRmvi-->1 分钟</button><button data-page-node-id="iV1B8Lo0hiqpV7N5ugYMwl" class="chip" data-min="3" type="button"><!--pnid:lhv2BFOyFQRYzn34McnIi0-->3 分钟</button><button data-page-node-id="XfqW5QVSN2tRqshjszP099" class="chip" data-min="5" type="button"><!--pnid:EgH13wQQI2d6yoNlNDFxgb-->5 分钟</button><button data-page-node-id="MkWjZPwis8weviR9NY0tTP" class="chip" data-min="10" type="button"><!--pnid:ulZBpoM4KZDBMFjEh6RT0t-->10 分钟</button><button data-page-node-id="FDnhTFktiB1KJLAx7jXsTC" class="chip" data-min="20" type="button"><!--pnid:7OgbllGLlxd9R3ZACBYkfW-->20 分钟</button></div>
     <label data-page-node-id="11MHl8zTyXCoIEuZIcx1hn"><!--pnid:pMYC362g0pxEbnIea6Pta6-->金币大奖：<span data-page-node-id="Xsu64Xu1bBfqCQuTau8fsT" id="bonusVal"><!--pnid:Vf9B1L2QTbvPFCzxJIaeyS-->30</span><!--pnid:ePAOakcDFXvbzcfE2CETlu--> 枚</label>
     <input data-page-node-id="ky7LkWBqndzHPitp3Ydjaz" id="bonus" max="100" min="10" step="5" type="range" value="30">
+    </div>
+    <div data-page-node-id="WbSetColR2026C03Vn7Qb" class="set-col">
+    <div data-page-node-id="WbWalletBox2026B01Qs7Ld" class="wallet-box">
+      <div data-page-node-id="WbWalletHead2026B02Vm4Rt" class="wallet-head"><span data-page-node-id="WbWalletLabel2026B03Hb9Kx" class="w-label"><!--pnid:wYaS8gq1MuAABlDk1sKtcf-->🪙 钱包余额</span><span data-page-node-id="WbWalletVal2026B04Zf2Nw" class="w-val" id="walletVal"><!--pnid:6KejTe9Lctde8iStu5Qq7K-->0</span></div>
+      <div data-page-node-id="WbWalletOps2026B05Jc8Py" class="wallet-ops">
+        <button data-page-node-id="WbWalletBtn2026B06Tg3Sw" class="wallet-btn" data-delta="-50" type="button"><!--pnid:xhkwU5xvgofyApgZP7bpw6-->−50</button>
+        <button data-page-node-id="WbWalletBtn2026B07Nk5Qx" class="wallet-btn" data-delta="-10" type="button"><!--pnid:9OfrKIb07lnCsPvkhgNOnw-->−10</button>
+        <button data-page-node-id="WbWalletBtn2026B08Yd2Lv" class="wallet-btn" data-delta="-1" type="button"><!--pnid:L4Jl0FIxq3LYHqgow4VvvI-->−1</button>
+        <button data-page-node-id="WbWalletBtn2026B09Hb6Rj" class="wallet-btn plus" data-delta="1" type="button"><!--pnid:f6VCFUM7Hv0Juq8iT1tWt6-->+1</button>
+        <button data-page-node-id="WbWalletBtn2026B10Zp8Mc" class="wallet-btn plus" data-delta="10" type="button"><!--pnid:8ZLrE1diOXIKQbsfmaN9ML-->+10</button>
+        <button data-page-node-id="WbWalletBtn2026B11Uw4Va" class="wallet-btn plus" data-delta="50" type="button"><!--pnid:jEtGp8Dgwdpi6oTTmXIGV6-->+50</button>
+      </div>
+      <div data-page-node-id="WbWalletSetRow2026B12Cf7En" class="wallet-set">
+        <input data-page-node-id="WbWalletSet2026B13Js2Kd" id="walletSet" inputmode="numeric" max="99999" min="0" placeholder="直接设定" type="number">
+        <button data-page-node-id="WbWalletSetBtn2026B14Xt5Gy" id="walletSetBtn" type="button"><!--pnid:4jvvAg0gXVmHgvGB2mLnC2-->设为</button>
+        <button data-page-node-id="WbWalletZero2026B15Rh9Pq" class="ghost" id="walletZeroBtn" type="button"><!--pnid:WCjaVm199ZrBxLKK70M6bK-->清零</button>
+      </div>
+      <div data-page-node-id="WbWalletMsg2026B16Lb3Ac" class="wallet-msg" id="walletMsg"><!--pnid:MaFA0Zd4OpaldDqaqzzch5-->增减会立即同步到存钱罐、称号和商店</div>
+    </div>
+    <details data-page-node-id="RmManageBox2026F01Kd7Lm" class="reward-manage" id="rewardManage">
+      <summary data-page-node-id="RmTitle2026F02Xp8Nt" class="rm-title"><!--pnid:Gwp3GDEyPE5j17bDEyeEsi--><!--pnid:RmPnTitle2026F02Xp8Nt--><!--pnid:8LviU9GBwu17A1Ztk842pV-->🎁 奖励条目管理<span data-page-node-id="8UgXU1jMdsvw29AXWi6llX" class="rm-fold"><!--pnid:nSqRnSmbBfZXfTspfhTsKm-->增删 / 定价</span></summary>
+      <div data-page-node-id="qMwcy6ISBKoNyu6UWd8zEx" class="rm-body">
+      <div data-page-node-id="RmSub2026F03Yq9Pv" class="rm-sub"><!--pnid:DETV7AYxwHP6F6yuSxMsgj--><!--pnid:RmPnSub2026F03Yq9Pv--><!--pnid:1FqRhQ4T4GQQqldxwRdesY-->商店只用来兑换，增删奖励在这里操作</div>
+      <div data-page-node-id="RmList2026F04Zr0Qw" id="rewardList"></div>
+      <div data-page-node-id="AwNtcaLNHzOu6act61M2tt" class="add-row">
+        <input data-page-node-id="vyzurEf1Dd3lxHQ3fmuUFi" id="newName" placeholder="奖励名称，如：一个冰淇淋" type="text">
+        <input data-page-node-id="TrQ0n9XCQXCwgoKtBZARvv" class="cost" id="newCost" min="1" placeholder="金币" type="number">
+        <button data-page-node-id="NBhYZEXGTCftqou9t7jJQC" id="addReward"><!--pnid:QUOIHsuxqD02lzP7MwcRUa-->添加</button>
+      </div>
+      <div data-page-node-id="QLklBf8wQvWsrFFtAezfOJ" class="rm-tip"><!--pnid:tefjPmdmbmgsdcFCqQwrHy-->建议：大奖设贵一点，让孩子多攒几天</div>
+      <div data-page-node-id="CkClearRow2026G11Oq4Hp" class="rm-clear-row">
+        <button data-page-node-id="RlRedeemClear2026E05Qw0Af" class="log-clear rm-clear" id="redeemClear" type="button"><!--pnid:FSfF1GWSM9ctUAbuMQENt3--><!--pnid:RlPnClear2026E05Qw0Af--><!--pnid:5LjG1TGLGMN05HkkWl9hzn-->🗑 清空兑换记录</button>
+        <button data-page-node-id="CkClear2026G10Np3Go" class="log-clear rm-clear" id="checkinClear" type="button"><!--pnid:V6oijnpyvMlN7qTZsXqgs7-->🗑 清空打卡记录</button>
+      </div>
+      </div>
+    </details>
+    <div data-page-node-id="WbDangerRow2026D01Yr6Kp" class="danger-row">
+      <div data-page-node-id="WbDangerTip2026D02Qf4Jm" class="danger-tip"><!--pnid:74SRTvbsl3cNnvTW8Sh2dv-->危险操作 · 清空后无法恢复</div>
+      <button data-page-node-id="lQpEGaAlR7SVzTepDEvMpj" class="btn small" id="resetBtn"><!--pnid:ysTQe1ZPfgxwHkS97f6uhu-->🗑 清空金币和全部记录</button>
+    </div>
+    </div>
+    </div>
     <button data-page-node-id="I34qBxkRkpKbmYy1RNt4V9" class="btn small close" data-close="settings"><!--pnid:MibXjt99AaDcIbZ37yyHfa-->完成</button>
   </div>
 </div>
@@ -270,13 +473,23 @@
   <div data-page-node-id="KVR29R4YmuNT4Qbu7rv5EX" class="panel-inner">
     <h2 data-page-node-id="2ZtsarekSVS1Ha5DBssNh3"><!--pnid:K70sSfrTTNvQjnvfj1gq1y-->🛒 金币商店（余额 <span data-page-node-id="0pdz7JdHy6gh251nsJnGve" id="shopBalance"><!--pnid:rY7CXbrztN49owp2EhdgWn-->0</span><!--pnid:P3ecBUK2c1sZcwdWkxaYO5--> 🪙）</h2>
     <div data-page-node-id="kGeGi5zVaD1xmz4YSnsYMe" id="shopList"></div>
-    <div data-page-node-id="AwNtcaLNHzOu6act61M2tt" class="add-row">
-      <input data-page-node-id="vyzurEf1Dd3lxHQ3fmuUFi" id="newName" placeholder="家长添加奖励，如：一个冰淇淋" type="text">
-      <input data-page-node-id="TrQ0n9XCQXCwgoKtBZARvv" class="cost" id="newCost" min="1" placeholder="金币" type="number">
-      <button data-page-node-id="NBhYZEXGTCftqou9t7jJQC" id="addReward"><!--pnid:QUOIHsuxqD02lzP7MwcRUa-->添加</button>
+    <div data-page-node-id="RlRedeemBox2026E01Kp9Ws" class="redeem-box">
+      <div data-page-node-id="RlRedeemHead2026E02Mq3Xv" class="redeem-head"><span data-page-node-id="RlRedeemTitle2026E03Nt7Yd" class="r-title"><!--pnid:ibI1rH9aY3n6HYLNevKIoD--><!--pnid:RlPnTitle2026E03Nt7Yd--><!--pnid:tzY4nXcsHv91XTXCXwlshr-->🧾 兑换记录</span><span data-page-node-id="RlRedeemStat2026E04Pv8Ze" class="r-stat" id="redeemStat"><!--pnid:RDNIC4SuXINV6S1rLwTxbb--><!--pnid:RlPnStat2026E04Pv8Ze--><!--pnid:DGGKwMlV8Tsfx9WmUPp6u4-->共 0 次 · 花费 0 🪙</span></div>
+      <div data-page-node-id="RlRedeemList2026E06Rx1Bg" class="redeem-list" id="redeemList"></div>
     </div>
-    <div data-page-node-id="QLklBf8wQvWsrFFtAezfOJ" style="font-size:11px; opacity:.6; margin-top:8px; text-align:center"><!--pnid:tefjPmdmbmgsdcFCqQwrHy-->建议：大奖设贵一点，让孩子多攒几天</div>
     <button data-page-node-id="3iyYnMa5ymBpBZHRODgTz4" class="btn small close" data-close="shop"><!--pnid:HYYtz7NmAAni0SzQT51OJr-->完成</button>
+  </div>
+</div>
+
+<!--pnid:Hdw6QFWyBsmlZrOiNEr9Tr--><!-- 每日打卡记录 -->
+<div data-page-node-id="CkPanel2026G01Ab3Xd" class="panel" id="checkin">
+  <div data-page-node-id="CkInner2026G02Cd5Yf" class="panel-inner">
+    <h2 data-page-node-id="CkTitle2026G03Ef6Zg"><!--pnid:VEFqdNzBPUDO29UbMVMWPS-->📅 每日打卡记录</h2>
+    <div data-page-node-id="CkStat2026G04Gh7Ah" class="checkin-sum" id="checkinStat"><!--pnid:RSsKJqk5vq17W10rYC76fU-->打卡 0 天 · 朗读 0 秒 · 奖励 0 🪙</div>
+    <div data-page-node-id="CkHead2026G05Ij8Bi" class="checkin-head"><span data-page-node-id="BSdUlUaXkFy2nC0AJ5r6mj"><!--pnid:uarRNMX9WZGHRKqSTwfrUB-->日期</span><span data-page-node-id="5vhQvyq744QHKdIUZ9SKK8"><!--pnid:pqIM6x5UZhJ157dyR2WTC2-->朗读时长</span><span data-page-node-id="rEp0vJeHxYnSK4eZvFtFZd"><!--pnid:HWLy4Y25TU2hVXDdy1Xypo-->奖励金币</span><span data-page-node-id="CiXPUHZjNb5uQWJdLHcuT6"><!--pnid:EBM8oZf4Itc6fQlddC3R1p-->任务</span></div>
+    <div data-page-node-id="CkList2026G06Jk9Cj" class="redeem-list checkin-list" id="checkinList"></div>
+    <div data-page-node-id="CkTip2026G07Kl0Dk" class="checkin-tip"><!--pnid:3QUKFvxBEFvd6OKoV57vT4-->记录达标朗读时长与当天奖励金币，只保存在这台设备上，刷新或关闭页面都不会丢失</div>
+    <button data-page-node-id="CkClose2026G08Lm1El" class="btn small close" data-close="checkin" type="button"><!--pnid:nqepwv94ttHkATlmbIPASL-->完成</button>
   </div>
 </div>
 
@@ -298,6 +511,34 @@ let rewards = store.get('zaoduShop') || [
   {name:'一个冰淇淋', cost:100},
   {name:'周末去公园', cost:300},
 ];
+/* 兑换记录：只存本地 localStorage，最多保留 100 条 */
+let redeemLog = store.get('zaoduRedeemLog');
+if(!Array.isArray(redeemLog)) redeemLog = [];
+redeemLog = redeemLog.filter(r=>r && typeof r==='object');
+const REDEEM_MAX = 100;
+
+/* ===== 每日打卡记录：按天累计朗读时长与奖励金币，只保存在本地 localStorage ===== */
+const CHECKIN_MAX = 180;
+let checkinLog = store.get('zaoduCheckin');
+if(!Array.isArray(checkinLog)) checkinLog = [];
+checkinLog = checkinLog.filter(r=> r && typeof r==='object' && /^\d{4}-\d{2}-\d{2}$/.test(String(r.date)))
+  .map(r=>({ date:String(r.date), sec:Math.max(0,Math.round(Number(r.sec)||0)),
+             coins:Math.max(0,Math.round(Number(r.coins)||0)), done:r.done?1:0, legacy:r.legacy?1:0 }));
+if(store.get('zaoduCheckin')===null){
+  /* 首次启用：把旧版已有的每日金币/达标数据带过来；旧版没有存时长，时长显示「—」 */
+  Object.keys(data.days||{}).forEach(k=>{
+    const d=data.days[k];
+    if(d && (Number(d.coins)||0 || d.done || Number(d.sec)||0))
+      checkinLog.push({ date:k, sec:Math.max(0,Math.round(Number(d.sec)||0)),
+                        coins:Math.max(0,Math.round(Number(d.coins)||0)), done:d.done?1:0, legacy:Number(d.sec)?0:1 });
+  });
+  saveCheckin();
+}
+function saveCheckin(){
+  checkinLog.sort((a,b)=> b.date.localeCompare(a.date));
+  if(checkinLog.length>CHECKIN_MAX) checkinLog.length=CHECKIN_MAX;
+  store.set('zaoduCheckin', checkinLog);
+}
 
 let running=false, audioCtx=null, analyser=null, stream=null, looping=false;
 let threshold=70, gainMul=1.5, goalSec=180, bonusCoins=30;
@@ -330,20 +571,88 @@ function render(){
     week.insertAdjacentHTML('beforeend',`<div class="day"><div class="d-coin">${c&&c.done?'🪙':'·'}</div>${i===0?'今天':'周'+names[d.getDay()]}</div>`);
   }
   $('shopBalance').textContent=data.coins;
+  $('walletVal').textContent=data.coins;
+}
+
+/* ===== 屏幕常亮：原生 Wake Lock 为主，隐形静音视频兜底 =====
+   兜底用于 iOS 16.3 及更早、以及「添加到主屏幕」的 Web App（该类环境 Wake Lock 会失效）。
+   视频数据取自 NoSleep.js (MIT)，为一段极小的静音 MP4。 */
+let wakeLock=null, wakeWanted=false, noSleepVideo=null;
+const NO_SLEEP_MP4 = 'data:video/mp4;base64,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';
+
+function wakeBadge(mode){
+  const el=$('wakeBadge');
+  if(mode==='on' || mode==='fallback'){
+    el.textContent = mode==='on' ? '🔆 屏幕常亮中' : '🔆 屏幕常亮（兼容模式）';
+    el.className=''; el.style.display='block';
+  }else if(mode==='warn'){
+    el.textContent='🔆 常亮不可用，请手动关闭自动锁定';
+    el.className='warn'; el.style.display='block';
+  }else{
+    el.textContent=''; el.className=''; el.style.display='none';
+  }
+}
+function startNoSleepVideo(){
+  if(noSleepVideo) return;
+  try{
+    const v=document.createElement('video');
+    v.setAttribute('playsinline',''); v.setAttribute('muted','');
+    v.muted=true; v.playsInline=true;
+    v.style.cssText='position:fixed;left:-10px;top:-10px;width:2px;height:2px;opacity:0;pointer-events:none;z-index:-1';
+    const s=document.createElement('source'); s.src=NO_SLEEP_MP4; s.type='video/mp4';
+    v.appendChild(s); document.body.appendChild(v);
+    v.addEventListener('loadedmetadata', ()=>{ if(v.duration<=1 || !isFinite(v.duration)) v.loop=true; });
+    v.addEventListener('timeupdate', ()=>{ if(!v.loop && v.currentTime>0.5) v.currentTime=Math.random()*0.4; });
+    const p=v.play();
+    if(p && p.catch) p.catch(()=>{ if(wakeWanted && !wakeLock && noSleepVideo===v) wakeBadge('warn'); });
+    noSleepVideo=v;
+  }catch(e){ noSleepVideo=null; }
+}
+function stopNoSleepVideo(){
+  if(!noSleepVideo) return;
+  try{ noSleepVideo.pause(); noSleepVideo.remove(); }catch(e){}
+  noSleepVideo=null;
+}
+async function requestWakeLock(){
+  if(!wakeWanted || wakeLock || !navigator.wakeLock || typeof navigator.wakeLock.request!=='function'
+     || document.visibilityState!=='visible') return;
+  try{
+    wakeLock = await navigator.wakeLock.request('screen');
+    wakeLock.addEventListener('release', ()=>{ wakeLock=null; });
+    stopNoSleepVideo();   // 原生常亮已生效，撤掉兜底视频
+    wakeBadge('on');
+  }catch(e){
+    wakeLock=null;
+    wakeBadge(noSleepVideo ? 'fallback' : 'warn');
+  }
+}
+function armWakeLock(){
+  wakeWanted=true;
+  startNoSleepVideo();  // 必须在点击的同步栈内启动，iOS 才允许静音自动播放
+  if(!navigator.wakeLock || typeof navigator.wakeLock.request!=='function'){
+    wakeBadge(noSleepVideo ? 'fallback' : 'warn'); return;
+  }
+  requestWakeLock();
+}
+function disarmWakeLock(){
+  wakeWanted=false;
+  if(wakeLock){ try{ wakeLock.release(); }catch(e){} wakeLock=null; }
+  stopNoSleepVideo();
+  wakeBadge('off');
 }
 
 /* ===== 音频 ===== */
 async function start(){
   if(running) return;
   if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
-    $('status').textContent='⚠️ 此浏览器不支持麦克风（微信内请点右上角用浏览器打开）'; return;
+    $('status').textContent='⚠️ 此浏览器不支持麦克风（微信内请点右上角用浏览器打开）'; disarmWakeLock(); return;
   }
   if(!window.isSecureContext && location.hostname!=='localhost'){
-    $('status').textContent='⚠️ 手机需 HTTPS 才能用麦克风，请用电脑打开或部署到 https'; return;
+    $('status').textContent='⚠️ 手机需 HTTPS 才能用麦克风，请用电脑打开或部署到 https'; disarmWakeLock(); return;
   }
   try{
     stream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false}});
-  }catch(e){ $('status').textContent='❌ 请允许麦克风权限'; return; }
+  }catch(e){ $('status').textContent='❌ 请允许麦克风权限'; disarmWakeLock(); return; }
   audioCtx = new (window.AudioContext||window.webkitAudioContext)();
   if(audioCtx.state==='suspended') await audioCtx.resume();  // iOS 解锁
   const src = audioCtx.createMediaStreamSource(stream);
@@ -355,7 +664,7 @@ async function start(){
   if(!looping) loop();
 }
 function stop(){
-  running=false; energyAcc=0; above=false;
+  running=false; energyAcc=0; above=false; disarmWakeLock();
   $('startBtn').textContent='🎤 继续朗读';
   $('status').textContent='⏸ 已暂停，点「继续朗读」接着来';
   ['ring1','ring2','ring3'].forEach((id,i)=>{
@@ -366,10 +675,42 @@ function stop(){
   analyser=null;
 }
 
-$('startBtn').onclick = ()=> running ? stop() : start();
+let startPending=false;
+$('startBtn').onclick = ()=>{
+  if(running){ stop(); return; }
+  if(startPending) return;                 // 麦克风权限未返回前防止连点重复启动
+  startPending=true;
+  armWakeLock();
+  start().catch(()=>{ $('status').textContent='⚠️ 启动失败，请重试'; disarmWakeLock(); })
+         .finally(()=>{ startPending=false; });
+};
 
-$('settingBtn').onclick = ()=> $('settings').classList.add('open');
-$('shopBtn').onclick = ()=>{ renderShop(); $('shop').classList.add('open'); };
+/* ===== 家长密码（写死在此，改这一行即可） ===== */
+const PARENT_PASSWORD = '3721';
+function openPwd(){
+  $('pwdInput').value=''; $('pwdErr').textContent='';
+  $('pwdPanel').classList.add('open');
+  setTimeout(()=>{ try{ $('pwdInput').focus(); }catch(e){} }, 80);
+}
+function tryUnlock(){
+  if($('pwdInput').value === PARENT_PASSWORD){
+    $('pwdPanel').classList.remove('open');
+    $('pwdInput').value=''; $('pwdErr').textContent='';
+    $('walletMsg').textContent='增减会立即同步到存钱罐、称号和商店';
+    renderRewards();
+    $('settings').classList.add('open');
+  }else{
+    $('pwdErr').textContent='密码不对，再试一次';
+    try{ $('pwdInput').select(); }catch(e){}
+  }
+}
+$('settingBtn').onclick = openPwd;
+$('pwdOk').onclick = tryUnlock;
+$('pwdCancel').onclick = ()=> $('pwdPanel').classList.remove('open');
+$('pwdInput').addEventListener('keydown', e=>{ if(e.key==='Enter') tryUnlock(); });
+
+$('shopBtn').onclick = ()=>{ renderShop(); renderRedeemLog(); $('shop').classList.add('open'); };
+$('checkinBtn').onclick = ()=>{ renderCheckin(); $('checkin').classList.add('open'); };
 document.querySelectorAll('[data-close]').forEach(b=> b.onclick=()=> $(b.dataset.close).classList.remove('open'));
 document.querySelectorAll('.panel').forEach(p=> p.addEventListener('click', e=>{ if(e.target===p) p.classList.remove('open'); }));
 
@@ -398,38 +739,176 @@ $('bonus').oninput = e=>{ bonusCoins=+e.target.value; $('bonusVal').textContent=
 function saveSet(){ store.set('zaoduSet',{threshold,gain:gainMul,goal:goalSec,bonus:bonusCoins}); }
 setGoal(goalSec, true);
 
-$('resetBtn').onclick = ()=>{ if(confirm('确定清空所有金币和记录吗？')){ data={days:{},coins:0,streak:0}; energySec=0; session=[]; store.set('zaoduCoin',data); render(); drawChart(); } };
+/* ===== 钱包余额（家长手动调增调减） ===== */
+function setWallet(v, msg){
+  v = Math.round(Number(v));
+  if(!isFinite(v)){ $('walletMsg').textContent='请填入有效数字'; return; }
+  v = Math.max(0, Math.min(99999, v));
+  const before = data.coins;
+  data.coins = v;
+  store.set('zaoduCoin', data);
+  render(); renderShop();
+  const d = v - before;
+  $('walletMsg').textContent = msg || (d===0 ? '余额没有变化' : `已 ${d>0?'+':''}${d} 枚，当前 ${v} 🪙`);
+}
+document.querySelectorAll('.wallet-btn').forEach(b=> b.onclick = ()=> setWallet(data.coins + Number(b.dataset.delta)));
+function applyWalletSet(){
+  const raw = $('walletSet').value.trim();
+  if(raw===''){ $('walletMsg').textContent='请先填入要设定的金币数'; return; }
+  const v = Math.round(Number(raw));
+  if(!isFinite(v) || v<0){ $('walletMsg').textContent='请填入 0–99999 之间的数字'; return; }
+  setWallet(v, `余额已设为 ${Math.max(0,Math.min(99999,v))} 🪙`);
+  $('walletSet').value='';
+}
+$('walletSetBtn').onclick = applyWalletSet;
+$('walletSet').addEventListener('keydown', e=>{ if(e.key==='Enter') applyWalletSet(); });
+$('walletZeroBtn').onclick = ()=>{ if(confirm('确定把钱包余额清零吗？此操作不可撤销')) setWallet(0, '余额已清零'); };
+
+$('resetBtn').onclick = ()=>{
+  if(!confirm('⚠️ 确定清空所有金币、称号、朗读记录、兑换记录和打卡记录吗？\n此操作不可撤销！')) return;
+  data={days:{},coins:0,streak:0}; energySec=0; session=[];
+  redeemLog=[]; saveRedeemLog();
+  checkinLog=[]; saveCheckin();
+  store.set('zaoduCoin',data); render(); drawChart(); renderRedeemLog(); renderCheckin();
+  $('walletSet').value=''; $('walletMsg').textContent='已清空所有金币和记录';
+};
+
+/* ===== 兑换记录：只保存在本地，刷新页面依然存在 ===== */
+function saveRedeemLog(){ store.set('zaoduRedeemLog', redeemLog); }
+function addRedeem(name, cost, balance){
+  redeemLog.unshift({ts:Date.now(), name:String(name), cost:Number(cost)||0, balance:Number(balance)||0});
+  if(redeemLog.length>REDEEM_MAX) redeemLog.length=REDEEM_MAX;
+  saveRedeemLog(); renderRedeemLog();
+}
+function fmtRedeemTime(ts){
+  const d=new Date(ts);
+  if(isNaN(d.getTime())) return '--';
+  const p=n=>String(n).padStart(2,'0');
+  return `${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+function renderRedeemLog(){
+  const box=$('redeemList'); if(!box) return;
+  const spent=redeemLog.reduce((s,r)=>s+(Number(r.cost)||0),0);
+  $('redeemStat').textContent=`共 ${redeemLog.length} 次 · 花费 ${spent} 🪙`;
+  box.innerHTML='';
+  if(!redeemLog.length){
+    box.innerHTML='<div class="redeem-empty">还没有兑换记录，兑换一次就会出现在这里～</div>';
+    return;
+  }
+  redeemLog.forEach(r=>{
+    const row=document.createElement('div'); row.className='redeem-row';
+    [['r-time',fmtRedeemTime(r.ts)], ['r-name',String(r.name||'奖励')],
+     ['r-cost',`−${Number(r.cost)||0} 🪙`], ['r-bal',`余 ${Number(r.balance)||0}`]].forEach(([cls,txt])=>{
+      const s=document.createElement('span'); s.className=cls; s.textContent=txt; row.appendChild(s);
+    });
+    box.appendChild(row);
+  });
+}
+$('redeemClear').onclick = ()=>{
+  if(!redeemLog.length) return;
+  if(!confirm('确定清空全部兑换记录吗？此操作不可撤销！')) return;
+  redeemLog=[]; saveRedeemLog(); renderRedeemLog();
+};
+
+/* ===== 每日打卡记录：日期 / 朗读时长 / 奖励金币 ===== */
+function addCheckin(sec, coins, done){
+  const k=todayKey();
+  let r=checkinLog.find(x=>x.date===k);
+  if(!r){ r={date:k,sec:0,coins:0,done:0,legacy:0}; checkinLog.push(r); }
+  r.sec+=sec; r.coins+=coins;
+  if(done) r.done=1;
+  r.legacy=0;
+  saveCheckin();
+  if($('checkin').classList.contains('open')) renderCheckin();
+}
+function fmtDur(sec){
+  sec=Math.max(0,Math.round(Number(sec)||0));
+  const m=Math.floor(sec/60), r=sec%60;
+  return m? `${m} 分 ${r} 秒` : `${r} 秒`;
+}
+function fmtCheckinDate(date){
+  const q=date.split('-');
+  const d=new Date(+q[0], +q[1]-1, +q[2], 12);
+  const names=['日','一','二','三','四','五','六'];
+  const wd=isNaN(d.getTime())? '' : ' 周'+names[d.getDay()];
+  return `${q[1]}-${q[2]}${wd}` + (date===todayKey()? ' · 今天':'');
+}
+function renderCheckin(){
+  const box=$('checkinList'); if(!box) return;
+  const totalSec=checkinLog.reduce((s,r)=>s+r.sec,0);
+  const totalCoins=checkinLog.reduce((s,r)=>s+r.coins,0);
+  $('checkinStat').textContent=`打卡 ${checkinLog.length} 天 · 朗读 ${fmtDur(totalSec)} · 奖励 ${totalCoins} 🪙`;
+  box.innerHTML='';
+  if(!checkinLog.length){
+    box.innerHTML='<div class="redeem-empty">还没有打卡记录，开始朗读就会自动记下今天的时长和金币～</div>';
+    return;
+  }
+  checkinLog.forEach(r=>{
+    const row=document.createElement('div');
+    row.className='checkin-row'+(r.date===todayKey()?' is-today':'');
+    [['ck-date',fmtCheckinDate(r.date)],
+     ['ck-sec',(r.legacy && !r.sec)?'—':fmtDur(r.sec)],
+     ['ck-coin',`+${r.coins} 🪙`],
+     ['ck-done',r.done?'✅ 达标':'· 未达标']].forEach(([cls,txt])=>{
+      const s=document.createElement('span'); s.className=cls; s.textContent=txt; row.appendChild(s);
+    });
+    box.appendChild(row);
+  });
+}
+$('checkinClear').onclick = ()=>{
+  if(!checkinLog.length) return;
+  if(!confirm('确定清空全部每日打卡记录吗？此操作不可撤销！')) return;
+  checkinLog=[]; saveCheckin(); renderCheckin();
+};
 
 /* 商店 */
 function renderShop(){
   $('shopBalance').textContent=data.coins;
   const list=$('shopList'); list.innerHTML='';
-  if(!rewards.length) list.innerHTML='<div style="text-align:center;opacity:.6;font-size:13px;padding:12px">还没有奖励，让家长添加吧～</div>';
-  rewards.forEach((r,i)=>{
+  if(!rewards.length) list.innerHTML='<div style="text-align:center;opacity:.6;font-size:13px;padding:12px">还没有可兑换的奖励，请家长在设置里添加～</div>';
+  rewards.forEach(r=>{
     const el=document.createElement('div'); el.className='shop-item';
-    el.innerHTML=`<span class="si-name">${r.name}</span><span class="si-cost">${r.cost} 🪙</span>`;
+    const nm=document.createElement('span'); nm.className='si-name'; nm.textContent=String(r.name);
+    const cost=document.createElement('span'); cost.className='si-cost'; cost.textContent=`${r.cost} 🪙`;
+    el.appendChild(nm); el.appendChild(cost);
     const buy=document.createElement('button'); buy.textContent='兑换';
     buy.disabled = data.coins < r.cost;
     buy.onclick=()=>{
       if(data.coins<r.cost) return;
       data.coins-=r.cost; store.set('zaoduCoin',data);
+      addRedeem(r.name, r.cost, data.coins);
       bumpBank(); vibrate([80,60,80]);
       $('praise').textContent=`🎁 兑换成功：「${r.name}」！找爸爸妈妈兑现吧～`;
       coinRain(15);
       render(); renderShop();
     };
-    const del=document.createElement('button'); del.textContent='✕'; del.className='del';
-    del.onclick=()=>{ rewards.splice(i,1); store.set('zaoduShop',rewards); renderShop(); };
-    el.appendChild(buy); el.appendChild(del); list.appendChild(el);
+    el.appendChild(buy); list.appendChild(el);
   });
+}
+/* 奖励条目的增删只在设置里（家长密码保护），改完同步商店 */
+function renderRewards(){
+  const box=$('rewardList'); if(!box) return;
+  box.innerHTML='';
+  if(!rewards.length) box.innerHTML='<div class="rm-tip">还没有奖励，在下面添加一个吧～</div>';
+  rewards.forEach((r,i)=>{
+    const row=document.createElement('div'); row.className='reward-item';
+    const nm=document.createElement('span'); nm.className='ri-name'; nm.textContent=String(r.name);
+    const cost=document.createElement('span'); cost.className='ri-cost'; cost.textContent=`${r.cost} 🪙`;
+    const del=document.createElement('button'); del.className='ri-del'; del.textContent='✕ 删除';
+    del.onclick=()=>{ rewards.splice(i,1); store.set('zaoduShop',rewards); renderRewards(); };
+    row.appendChild(nm); row.appendChild(cost); row.appendChild(del); box.appendChild(row);
+  });
+  renderShop();
 }
 $('addReward').onclick = ()=>{
   const n=$('newName').value.trim(), c=parseInt($('newCost').value);
   if(!n||!c||c<1){ alert('请填写奖励名称和金币数'); return; }
   rewards.push({name:n,cost:c}); store.set('zaoduShop',rewards);
   $('newName').value=''; $('newCost').value='';
-  renderShop();
+  renderRewards();
 };
+$('newName').addEventListener('keydown', e=>{ if(e.key==='Enter') $('addReward').click(); });
+$('newCost').addEventListener('keydown', e=>{ if(e.key==='Enter') $('addReward').click(); });
 
 const PRAISES=['叮！金币到账！💰','读得响亮，金币哗哗掉！🪙','哇！这波爆率高！✨','金嗓子值千金！🥇','继续读，存钱罐要满啦！🏦','声音洪亮 = 财大气粗！😆'];
 let lastPraise=0;
@@ -477,19 +956,22 @@ function loop(){
   drawFx(ratio, above);
   requestAnimationFrame(loop);
 }
-let energyAcc=0, above=false, energySec=0;
+let energyAcc=0, above=false, energySec=Math.max(0,Math.round(Number((data.days[todayKey()]||{}).sec)||0));
 function addEnergySecond(){
-  const t=data.days[todayKey()]||{peak:0};
+  const k=todayKey();
+  const t=data.days[k]||{peak:0};
   if(t.done) return;
   energySec++;
+  t.sec=energySec; data.days[k]=t;   /* 当日累计时长写回，刷新页面不丢失 */
+  let gained=0, done=false;
   store.set('zaoduCoin',data);
   if(energySec%10===0){
-    data.coins++; t.coins=(t.coins||0)+1; store.set('zaoduCoin',data);
+    data.coins++; t.coins=(t.coins||0)+1; gained=1; store.set('zaoduCoin',data);
     popCoin(1); bumpBank(); ding(); vibrate(30);
   }
   if(energySec>=goalSec){
-    t.done=1; data.days[todayKey()]=t;
-    data.coins += bonusCoins; t.coins=(t.coins||0)+bonusCoins;
+    t.done=1; data.days[k]=t; done=true;
+    data.coins += bonusCoins; t.coins=(t.coins||0)+bonusCoins; gained+=bonusCoins;
     const y=new Date(); y.setDate(y.getDate()-1);
     const yk=y.toISOString().slice(0,10);
     data.streak = (data.days[yk]&&data.days[yk].done)? data.streak+1 : 1;
@@ -498,6 +980,7 @@ function addEnergySecond(){
     $('praise').textContent=`🏆 今日任务完成！大奖 ${bonusCoins} 枚金币爆进存钱罐！`;
     render();
   }
+  addCheckin(1, gained, done);
 }
 function bumpBank(){ const b=$('bank'); b.classList.remove('bump'); void b.offsetWidth; b.classList.add('bump'); }
 
@@ -633,10 +1116,16 @@ function coinRain(n){
   })();
 }
 
-/* 页面切到后台自动暂停，防止能量空涨 */
-document.addEventListener('visibilitychange', ()=>{ if(document.hidden && running) stop(); });
+/* 页面切到后台自动暂停，防止能量空涨；回到前台时按需恢复屏幕常亮 */
+document.addEventListener('visibilitychange', ()=>{
+  if(document.hidden){ if(running) stop(); }
+  else if(wakeWanted && !wakeLock){ startNoSleepVideo(); requestWakeLock(); }
+});
 
 render();
+renderRedeemLog();
+renderCheckin();
+renderRewards();
 drawChart();
 </script>
 </body>
