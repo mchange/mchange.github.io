@@ -383,7 +383,7 @@
 
 <div data-page-node-id="6wiTmFr5oGBAjOd1irjfUA" class="cards">
   <div data-page-node-id="HCswYDYMYKnIQu9qQ20rEm" class="card"><div data-page-node-id="JEiDIF8snypBkx6VgJ0NnH" class="num" id="cStreak"><!--pnid:XM4alb5HI1hMBf42ZJGa0c-->0</div><div data-page-node-id="QxtjXCLS8ujlRkuXofA6gZ" class="lab"><!--pnid:uEGe4j8vXBMzc0ApctzLto-->连续天数</div></div>
-  <div data-page-node-id="r0YcQg7aKRNCFlC9h5nxAr" class="card"><div data-page-node-id="atxCneqsdgApui0rfZUfGN" class="num" id="cCoins"><!--pnid:wZkGSi7Wf7cUDP6F5Ziur2-->0</div><div data-page-node-id="87LY3g8LgiHQAzIB637I0M" class="lab"><!--pnid:iMODR6NBb4pYkccJCrkaSU-->累计金币</div></div>
+  <div data-page-node-id="r0YcQg7aKRNCFlC9h5nxAr" class="card"><div data-page-node-id="atxCneqsdgApui0rfZUfGN" class="num" id="cCoins"><!--pnid:wZkGSi7Wf7cUDP6F5Ziur2-->0</div><div data-page-node-id="87LY3g8LgiHQAzIB637I0M" class="lab"><!--pnid:iMODR6NBb4pYkccJCrkaSU-->可用金币</div></div>
   <div data-page-node-id="QfJ9R7QDQ91YPzhBqK8N1o" class="card"><div data-page-node-id="djOEilWyrbqket5xRUKWaA" class="num" id="cPeak"><!--pnid:2xKP2zyYcpeH98RrruL5j0-->0</div><div data-page-node-id="8LOLsdpkaaZMf0VnRk6xdb" class="lab"><!--pnid:eJfSRIh7GTwPHb9F17NtpW-->今日最高dB</div></div>
 </div>
 
@@ -488,7 +488,7 @@
     <div data-page-node-id="CkStat2026G04Gh7Ah" class="checkin-sum" id="checkinStat"><!--pnid:RSsKJqk5vq17W10rYC76fU-->打卡 0 天 · 朗读 0 秒 · 奖励 0 🪙</div>
     <div data-page-node-id="CkHead2026G05Ij8Bi" class="checkin-head"><span data-page-node-id="BSdUlUaXkFy2nC0AJ5r6mj"><!--pnid:uarRNMX9WZGHRKqSTwfrUB-->日期</span><span data-page-node-id="5vhQvyq744QHKdIUZ9SKK8"><!--pnid:pqIM6x5UZhJ157dyR2WTC2-->朗读时长</span><span data-page-node-id="rEp0vJeHxYnSK4eZvFtFZd"><!--pnid:HWLy4Y25TU2hVXDdy1Xypo-->奖励金币</span><span data-page-node-id="CiXPUHZjNb5uQWJdLHcuT6"><!--pnid:EBM8oZf4Itc6fQlddC3R1p-->任务</span></div>
     <div data-page-node-id="CkList2026G06Jk9Cj" class="redeem-list checkin-list" id="checkinList"></div>
-    <div data-page-node-id="CkTip2026G07Kl0Dk" class="checkin-tip"><!--pnid:3QUKFvxBEFvd6OKoV57vT4-->记录达标朗读时长与当天奖励金币，只保存在这台设备上，刷新或关闭页面都不会丢失</div>
+    <div data-page-node-id="CkTip2026G07Kl0Dk" class="checkin-tip"><!--pnid:3QUKFvxBEFvd6OKoV57vT4-->记录达标朗读时长与当天奖励金币，只保存在这台设备上；称号按累计获得金币计算，兑换不会降级</div>
     <button data-page-node-id="CkClose2026G08Lm1El" class="btn small close" data-close="checkin" type="button"><!--pnid:nqepwv94ttHkATlmbIPASL-->完成</button>
   </div>
 </div>
@@ -540,6 +540,17 @@ function saveCheckin(){
   store.set('zaoduCheckin', checkinLog);
 }
 
+/* ===== 累计获得金币：只增不减，称号按它计算，兑换 / 家长调减都不会让孩子掉级 ===== */
+if(data.earned===undefined){
+  /* 首次启用只按本地已有的真实记录回填，不编造数额：
+     打卡记录累计奖励（朗读实际赚到的）与「当前余额 + 已兑换花费」取较大值，作为累计获得的下界估计 */
+  const earnedFromCheckin = checkinLog.reduce((s,r)=>s+(Number(r.coins)||0),0);
+  const earnedFromSpend = (Number(data.coins)||0) + redeemLog.reduce((s,r)=>s+(Number(r.cost)||0),0);
+  data.earned = Math.max(0, Math.round(Math.max(earnedFromCheckin, earnedFromSpend)));
+  store.set('zaoduCoin', data);
+}
+data.earned = Math.max(0, Math.round(Number(data.earned)||0));
+
 let running=false, audioCtx=null, analyser=null, stream=null, looping=false;
 let threshold=70, gainMul=1.5, goalSec=180, bonusCoins=30;
 const setSaved = store.get('zaoduSet');
@@ -559,10 +570,12 @@ function render(){
   $('energyText').textContent = `${today.done?goalSec:Math.round(energySec)} / ${goalSec} 秒达标`;
   $('energyFill').style.width = (today.done?100:Math.min(100,energySec/goalSec*100))+'%';
   $('goalLine').textContent = `今日任务：累计达标朗读 ${goalText()} → 爆金币大奖！`;
-  const [tn,need,nt]=titleOf(data.coins);
-  $('title').textContent = '称号：'+tn + (nt?`（再攒 ${need} 枚升级「${nt}」）`:'（已是最高称号！）');
+  const earned = Math.max(0, Math.round(Number(data.earned)||0));
+  const [tn,need,nt]=titleOf(earned);
   const base = TITLES.filter(t=>t[1]===tn)[0][0];
-  $('titleFill').style.width = nt? Math.min(100,(data.coins-base)/need*100)+'%' : '100%';
+  const nextBase = nt? TITLES.filter(t=>t[1]===nt)[0][0] : null;
+  $('title').textContent = '称号：'+tn + (nt?`（再获得 ${Math.max(0,nextBase-earned)} 枚升级「${nt}」）`:'（已是最高称号！）');
+  $('titleFill').style.width = nt? Math.min(100,(earned-base)/need*100)+'%' : '100%';
   const week=$('week'); week.innerHTML='';
   const names=['日','一','二','三','四','五','六'];
   for(let i=6;i>=0;i--){
@@ -766,7 +779,7 @@ $('walletZeroBtn').onclick = ()=>{ if(confirm('确定把钱包余额清零吗？
 
 $('resetBtn').onclick = ()=>{
   if(!confirm('⚠️ 确定清空所有金币、称号、朗读记录、兑换记录和打卡记录吗？\n此操作不可撤销！')) return;
-  data={days:{},coins:0,streak:0}; energySec=0; session=[];
+  data={days:{},coins:0,streak:0,earned:0}; energySec=0; session=[];
   redeemLog=[]; saveRedeemLog();
   checkinLog=[]; saveCheckin();
   store.set('zaoduCoin',data); render(); drawChart(); renderRedeemLog(); renderCheckin();
@@ -978,9 +991,10 @@ function addEnergySecond(){
     store.set('zaoduCoin',data);
     coinRain(bonusCoins); bumpBank(); ding(); ding(); vibrate([100,80,100,80,200]);
     $('praise').textContent=`🏆 今日任务完成！大奖 ${bonusCoins} 枚金币爆进存钱罐！`;
-    render();
   }
+  if(gained){ data.earned=(Number(data.earned)||0)+gained; store.set('zaoduCoin',data); }
   addCheckin(1, gained, done);
+  if(gained || done) render();   /* 累计获得落地后再刷新称号，避免短暂滞后 */
 }
 function bumpBank(){ const b=$('bank'); b.classList.remove('bump'); void b.offsetWidth; b.classList.add('bump'); }
 
