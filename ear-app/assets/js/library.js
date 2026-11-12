@@ -5,7 +5,7 @@ import {
   getPrefs, setPrefs, getProgress, lastEpisodeId, getPasses, CACHE_CHOICES,
 } from './store.js';
 import { thumbUrl, groupBySeries } from './content.js';
-import { stats, enforceBudget, clearAll, fmtMB } from './cache.js';
+import { stats, enforceBudget, clearAuto, fmtMB } from './cache.js';
 
 function statusOf(ep) {
   if (!ep.video && ep.source !== 'imported') {
@@ -94,16 +94,22 @@ function storageCard(episodes) {
   const usageText = h('span.cache-usage-text', '统计中…');
   const barFill = h('div.cache-bar-fill');
   const bar = h('div.cache-bar', barFill);
-  const clearBtn = h('button.btn.btn-mini', { type: 'button' }, icon('trash'), '清空缓存');
+  const clearBtn = h('button.btn.btn-mini', {
+    type: 'button', title: '只清自动缓存；在「内容整理」里手动配置的本机视频会保留',
+  }, icon('trash'), '清空自动缓存');
 
   const refresh = async (budgetMB = getPrefs().cacheBudgetMB) => {
-    const { bytes, count } = await stats();
+    const st = await stats();
+    const { bytes, count, manualCount, manualBytes, autoBytes } = st;
     const budget = budgetMB > 0 ? budgetMB * 1024 * 1024 : 0;
     usageText.textContent = count
-      ? `${count} 集 · ${fmtMB(bytes)}${budget ? ` / 上限 ${fmtMB(budget)}` : '（不限）'}`
+      ? `${count} 集 · ${fmtMB(bytes)}`
+        + (budget ? `（自动缓存占上限 ${fmtMB(autoBytes)} / ${fmtMB(budget)}）` : '（上限不限）')
+        + (manualCount ? ` · 手动配置 ${manualCount} 集 / ${fmtMB(manualBytes)} 不计入上限` : '')
       : '还没有缓存任何视频';
-    barFill.style.width = budget ? `${Math.min(100, (bytes / budget) * 100)}%` : (count ? '100%' : '0%');
-    bar.dataset.full = String(budget > 0 && bytes / budget > 0.9);
+    // 进度条只量自动缓存：手动配置豁免淘汰，算进去会显示成「超预算」误导
+    barFill.style.width = budget ? `${Math.min(100, (autoBytes / budget) * 100)}%` : (count ? '100%' : '0%');
+    bar.dataset.full = String(budget > 0 && autoBytes / budget > 0.9);
   };
 
   let armed = false;
@@ -116,16 +122,16 @@ function storageCard(episodes) {
       armTimer = setTimeout(() => {
         armed = false;
         clearBtn.dataset.armed = '0';
-        clearBtn.lastChild.textContent = '清空缓存';
+        clearBtn.lastChild.textContent = '清空自动缓存';
       }, 3500);
       return;
     }
     clearTimeout(armTimer);
     armed = false;
     clearBtn.dataset.armed = '0';
-    clearBtn.lastChild.textContent = '清空缓存';
-    await clearAll();
-    toast('本机缓存已清空');
+    clearBtn.lastChild.textContent = '清空自动缓存';
+    const n = await clearAuto();
+    toast(n ? `清掉 ${n} 集自动缓存，手动配置的本机视频已保留` : '没有自动缓存可清');
     refresh();
   });
 
@@ -144,7 +150,7 @@ function storageCard(episodes) {
     ),
     h('div.settings-row',
       h('div.sr-label', '视频存到本机',
-        h('span.sr-hint', '存一份到 iPad 里，跳转 / 单句定位不再走网络，明显更跟手')),
+        h('span.sr-hint', '播放时自动存一份到 iPad，跳转 / 单句定位不再走网络；在「内容整理」里手动配置的本机视频不受此开关影响')),
       miniSeg([['auto', '开'], ['off', '关']], prefs.videoCache, (v) => {
         setPrefs({ videoCache: v });
         toast(v === 'auto' ? '打开一集后会自动存到本机' : '只用网络播放，不再缓存新视频');

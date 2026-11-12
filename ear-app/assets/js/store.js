@@ -248,6 +248,15 @@ export async function cacheGetBlob(id) {
   } catch { return null; }
 }
 
+/**
+ * 写入一条本机视频。
+ *
+ * meta.origin：
+ *   'auto'   —— 播放时后台从网络下载的自动缓存，**参与** LRU 预算淘汰；
+ *   'manual' —— 家长在「内容整理」里手动指定的 iPad 本地文件，**不参与**淘汰。
+ *              手动放进去的东西不能被系统悄悄删掉，否则「明明配好了却又要联网」。
+ * 老记录没有 origin 字段，一律按 auto 处理（向后兼容）。
+ */
 export async function cachePut(id, blob, meta = {}) {
   const vs = await tx('vcache', 'readwrite');
   await toPromise(vs.put({ id, blob }));
@@ -256,8 +265,18 @@ export async function cachePut(id, blob, meta = {}) {
   await toPromise(ms.put({
     id, size: blob.size, savedAt: now, usedAt: now,
     title: meta.title || '', durationSeconds: meta.durationSeconds || 0,
+    origin: meta.origin === 'manual' ? 'manual' : 'auto',
+    fileName: meta.fileName || '',
   }));
   return blob.size;
+}
+
+/** 单集缓存元数据（不含 blob），用于内容整理页判断「手动 / 自动 / 没配」 */
+export async function cacheMeta(id) {
+  try {
+    const s = await tx('vmeta', 'readonly');
+    return (await toPromise(s.get(id))) || null;
+  } catch { return null; }
 }
 
 /** 全部缓存的元数据（不含 blob，很轻），按「最近使用」倒序 */
@@ -297,6 +316,37 @@ export async function cacheClear() {
     await toPromise(ms.clear());
     return true;
   } catch { return false; }
+}
+
+/**
+ * 只清自动缓存，保留家长手动配置的本机视频。
+ * 选集页的「清空缓存」用这个 —— 手动放到 iPad 里的文件不该被一键清掉。
+ */
+export async function cacheClearAuto() {
+  try {
+    const db = await openDB();
+    const rows = await toPromise(
+      db.transaction('vmeta', 'readonly').objectStore('vmeta').getAll(),
+    );
+    const ids = (rows || []).filter((r) => r.origin !== 'manual').map((r) => r.id);
+    if (!ids.length) return 0;
+    /* 两个 store 必须在**同一个事务**里删：若先 `await tx('vcache')` 再
+       `await tx('vmeta')`，第一个事务在还没有任何请求时就会自动提交，
+       后面 vs.delete() 会抛 TransactionInactiveError。 */
+    const t = db.transaction(['vcache', 'vmeta'], 'readwrite');
+    const vs = t.objectStore('vcache');
+    const mw = t.objectStore('vmeta');
+    for (const id of ids) { vs.delete(id); mw.delete(id); }
+    await new Promise((res, rej) => {
+      t.oncomplete = res;
+      t.onerror = () => rej(t.error);
+      t.onabort = () => rej(t.error || new Error('事务被中止'));
+    });
+    return ids.length;
+  } catch (e) {
+    console.error('[cacheClearAuto] 清理自动缓存失败', e);
+    return 0;
+  }
 }
 
 /** 估算配额（方案 §5.2 要求显示存储状态） */

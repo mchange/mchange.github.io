@@ -12,6 +12,7 @@ import {
   storageEstimate, persistStorage, setVerified,
 } from './store.js';
 import { invalidateCatalog, invalidateLines, loadLines } from './content.js';
+import { createLocalVideoPanel } from './localvideo.js';
 
 const VIDEO_EXT = /\.(mp4|m4v|mov|webm)$/i;
 const SUB_EXT = /\.(srt|vtt)$/i;
@@ -130,6 +131,8 @@ export async function renderImport(host, ctx) {
   const grid = h('div.import-grid');
   page.appendChild(grid);
 
+  /* 本机视频配置放在最上面：这是「让 iPad 离线看」的主入口 */
+  grid.appendChild(createLocalVideoPanel(catalog));
   grid.appendChild(panelSource(catalog, { totalLines, storageRow }));
 
   /* --- 已整理内容 + 校对 --- */

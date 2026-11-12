@@ -12,8 +12,8 @@
  */
 
 import {
-  cacheHas, cacheGetBlob, cachePut, cacheMetaAll, cacheDelete, cacheClear,
-  cacheTouch, persistStorage,
+  cacheHas, cacheGetBlob, cachePut, cacheMetaAll, cacheMeta, cacheDelete,
+  cacheClear, cacheClearAuto, cacheTouch, persistStorage,
 } from './store.js';
 
 /* 单集超过这个大小就不缓存了 —— 本机 12 集约 64MB/集，给大文件留个闸门，
@@ -44,7 +44,60 @@ export async function cachedUrl(id) {
 export async function stats() {
   const items = await cacheMetaAll();
   const bytes = items.reduce((s, r) => s + (r.size || 0), 0);
-  return { items, count: items.length, bytes };
+  const manual = items.filter((r) => r.origin === 'manual');
+  const manualBytes = manual.reduce((s, r) => s + (r.size || 0), 0);
+  return {
+    items, count: items.length, bytes,
+    manualCount: manual.length, manualBytes,
+    autoBytes: bytes - manualBytes,
+  };
+}
+
+/* ---------------------------------------------------------------- 手动本机视频
+ *
+ * 用途：家长把 mp4 存进 iPad 的「文件」App，在「内容整理」里选一次，网页把视频
+ * 写进本机缓存。之后播放直接命中 blob（videoSources 已把本机排第一、网络排第二），
+ * 没配的集照常走网络。iPad 网页读不到「文件」App 的任意路径，只能由用户选一次，
+ * 但选完就常驻 IndexedDB —— 刷新、断网都还在。
+ */
+
+/** 把用户选中的本地文件写成这一集的本机视频（origin=manual，豁免 LRU 淘汰） */
+export async function putLocalVideo(id, file, meta = {}) {
+  const blob = new Blob([file], { type: file.type || 'video/mp4' });
+  await persistStorage();
+  try {
+    await cachePut(id, blob, {
+      ...meta, origin: 'manual', fileName: file.name || '',
+    });
+  } catch (err) {
+    const quota = err && (err.name === 'QuotaExceededError'
+      || /quota|storage full|空间/i.test(String(err.message || '')));
+    if (quota) {
+      throw new Error('这台设备的浏览器存储空间不够了。请先移除几集本机视频，或只配置常看的几集。');
+    }
+    throw new Error(`写入失败：${err && err.message ? err.message : err}`);
+  }
+  return blob.size;
+}
+
+/** 移除手动配置：这一集回到「从网络加载」 */
+export async function removeLocalVideo(id) {
+  return cacheDelete(id);
+}
+
+/** id → 元数据，只含手动配置的集；内容整理页用来渲染状态 */
+export async function localVideoMap() {
+  const items = await cacheMetaAll();
+  return new Map(items.filter((r) => r.origin === 'manual').map((r) => [r.id, r]));
+}
+
+export async function localVideoMeta(id) {
+  return cacheMeta(id);
+}
+
+/** 只清自动缓存，手动配置的本机视频保留 */
+export async function clearAuto() {
+  return cacheClearAuto();
 }
 
 /**
@@ -106,29 +159,39 @@ export async function enforceBudget(budgetMB, validIds = null) {
   const items = await cacheMetaAll();          // 已按最近使用倒序
 
   let removed = 0;
-  let bytes = 0;
+  let manualBytes = 0;
+  let manualCount = 0;
+  let autoBytes = 0;
+  const evictable = [];                       // 只有自动缓存可以被淘汰
 
-  // 1) 孤儿：缓存还在，但目录里已经没有这一集了
-  const keep = [];
+  // 1) 孤儿：缓存还在，但目录里已经没有这一集了（含手动配置的孤儿，一并清掉）
   for (const r of items) {
     if (validIds && !validIds.has(r.id)) {
       await cacheDelete(r.id);
       removed += 1;
       continue;
     }
-    keep.push(r);
-    bytes += r.size || 0;
+    if (r.origin === 'manual') {
+      manualBytes += r.size || 0;
+      manualCount += 1;
+      continue;                               // 家长手动放的不动
+    }
+    autoBytes += r.size || 0;
+    evictable.push(r);
   }
 
-  // 2) 超预算：从最久没用的开始删
+  // 2) 超预算：预算只约束「自动缓存」，从最久没用的开始删
   const budget = budgetMB > 0 ? budgetMB * 1024 * 1024 : Infinity;
-  for (let i = keep.length - 1; i >= 0 && bytes > budget; i -= 1) {
-    await cacheDelete(keep[i].id);
-    bytes -= keep[i].size || 0;
+  for (let i = evictable.length - 1; i >= 0 && autoBytes > budget; i -= 1) {
+    await cacheDelete(evictable[i].id);
+    autoBytes -= evictable[i].size || 0;
     removed += 1;
   }
 
-  return { removed, bytes };
+  return {
+    removed, bytes: autoBytes + manualBytes,
+    autoBytes, manualBytes, manualCount,
+  };
 }
 
 export async function clearAll() {

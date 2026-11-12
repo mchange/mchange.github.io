@@ -195,6 +195,18 @@ export function thumbUrl(ep) {
   return null;
 }
 
+/**
+ * 让某一集的视频源立即失效（在「内容整理」里写入/移除本机视频后调用）。
+ * 不清掉的话，videoSources() 会一直用内存里缓存的旧 blob URL。
+ * 注意：内容整理页没有正在播放的 video 元素，revoke 不会打断播放。
+ */
+export function invalidateVideoSource(id) {
+  const u = blobUrls.get(id);
+  if (!u) return;
+  try { URL.revokeObjectURL(u); } catch {}
+  blobUrls.delete(id);
+}
+
 export function releaseBlobUrls() {
   for (const u of blobUrls.values()) URL.revokeObjectURL(u);
   blobUrls.clear();

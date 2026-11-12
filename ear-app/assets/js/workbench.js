@@ -717,8 +717,10 @@ export async function renderWorkbench(host, ep) {
   async function startCache() {
     if (ep.source !== 'mounted') return;                 // 导入的集本来就在本机
     if (S.cached) { paintCacheChip('local'); return; }
-    if (!S.cacheMode) { paintCacheChip('off'); return; }
+    // 已经在本机（含「内容整理」里手动配置的）就优先显示「本机播放」，
+    // 不能因为「视频存到本机」开关关着就显示成「不缓存」误导人。
     if (await isCached(ep.id)) { S.cached = true; paintCacheChip('local'); return; }
+    if (!S.cacheMode) { paintCacheChip('off'); return; }
     if (!ep.video) { paintCacheChip('off'); return; }
 
     paintCacheChip('saving', 0);
