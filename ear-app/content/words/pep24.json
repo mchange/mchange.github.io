@@ -1,0 +1,89 @@
+{
+ "id": "pep24",
+ "words": [
+  {
+   "type": "word",
+   "en": "granny",
+   "zh": "奶奶",
+   "emoji": "👵",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "map",
+   "zh": "地图",
+   "emoji": "🗺️",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "treasure",
+   "zh": "宝藏",
+   "emoji": "💎",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "garden",
+   "zh": "花园",
+   "emoji": "🌷",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "grandpa",
+   "zh": "爷爷",
+   "emoji": "👴",
+   "line": 6
+  },
+  {
+   "type": "phrase",
+   "en": "Where is it?",
+   "zh": "在哪里？",
+   "emoji": "💬",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 24
+  },
+  {
+   "type": "word",
+   "en": "apple",
+   "zh": "苹果",
+   "emoji": "🍎",
+   "line": 36
+  },
+  {
+   "type": "word",
+   "en": "tree",
+   "zh": "树",
+   "emoji": "🌳",
+   "line": 36
+  },
+  {
+   "type": "phrase",
+   "en": "Well done, Peppa!",
+   "zh": "干得好，佩奇！",
+   "emoji": "💬",
+   "line": 46
+  },
+  {
+   "type": "word",
+   "en": "chocolate",
+   "zh": "巧克力",
+   "emoji": "🍫",
+   "line": 83
+  }
+ ]
+}

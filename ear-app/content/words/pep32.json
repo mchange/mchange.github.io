@@ -1,0 +1,89 @@
+{
+ "id": "pep32",
+ "words": [
+  {
+   "type": "word",
+   "en": "teddy",
+   "zh": "泰迪熊",
+   "emoji": "🧸",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 10
+  },
+  {
+   "type": "phrase",
+   "en": "Thank you, Teddy.",
+   "zh": "谢谢你，泰迪。",
+   "emoji": "💬",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "thunder",
+   "zh": "雷",
+   "emoji": "⚡",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "rain",
+   "zh": "下雨",
+   "emoji": "🌧️",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 29
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 29
+  },
+  {
+   "type": "phrase",
+   "en": "Well done, Peppa.",
+   "zh": "做得好，佩奇。",
+   "emoji": "💬",
+   "line": 48
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 60
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 60
+  },
+  {
+   "type": "word",
+   "en": "puddle",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 60
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 60
+  }
+ ]
+}

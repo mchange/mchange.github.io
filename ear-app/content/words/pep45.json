@@ -1,0 +1,89 @@
+{
+ "id": "pep45",
+ "words": [
+  {
+   "type": "word",
+   "en": "new",
+   "zh": "新的",
+   "emoji": "✨",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "picture",
+   "zh": "画",
+   "emoji": "🖼️",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "pen",
+   "zh": "笔",
+   "emoji": "🖊️",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "silly",
+   "zh": "傻乎乎的",
+   "emoji": "🤪",
+   "line": 22
+  },
+  {
+   "type": "phrase",
+   "en": "Easy as pie.",
+   "zh": "小菜一碟。",
+   "emoji": "💬",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "broken",
+   "zh": "坏掉的",
+   "emoji": "🛠️",
+   "line": 26
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 37
+  },
+  {
+   "type": "phrase",
+   "en": "Easy as pie.",
+   "zh": "小菜一碟。",
+   "emoji": "💬",
+   "line": 47
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "bee",
+   "zh": "蜜蜂",
+   "emoji": "🐝",
+   "line": 62
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "pep50",
+ "words": [
+  {
+   "type": "word",
+   "en": "birthday",
+   "zh": "生日",
+   "emoji": "🎂",
+   "line": 6
+  },
+  {
+   "type": "phrase",
+   "en": "It's my birthday.",
+   "zh": "这是我的生日。",
+   "emoji": "💬",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "party",
+   "zh": "聚会",
+   "emoji": "🎉",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "happy",
+   "zh": "开心的",
+   "emoji": "😊",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "teddy",
+   "zh": "泰迪熊",
+   "emoji": "🧸",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "everyone",
+   "zh": "大家",
+   "emoji": "👨‍👩‍👧‍👦",
+   "line": 22
+  },
+  {
+   "type": "word",
+   "en": "friend",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "friends",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 28
+  },
+  {
+   "type": "phrase",
+   "en": "Wow, it's Teddy.",
+   "zh": "哇，这是泰迪。",
+   "emoji": "💬",
+   "line": 46
+  },
+  {
+   "type": "word",
+   "en": "red",
+   "zh": "红色",
+   "emoji": "🔴",
+   "line": 52
+  }
+ ]
+}

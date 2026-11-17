@@ -1,0 +1,89 @@
+{
+ "id": "pep22",
+ "words": [
+  {
+   "type": "word",
+   "en": "tooth",
+   "zh": "牙齿",
+   "emoji": "🦷",
+   "line": 9
+  },
+  {
+   "type": "phrase",
+   "en": "It's a tooth.",
+   "zh": "这是一颗牙齿。",
+   "emoji": "💬",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "mirror",
+   "zh": "镜子",
+   "emoji": "🪞",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "milk",
+   "zh": "牛奶",
+   "emoji": "🥛",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 16
+  },
+  {
+   "type": "word",
+   "en": "fairy",
+   "zh": "仙子",
+   "emoji": "🧚",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "clean",
+   "zh": "打扫",
+   "emoji": "🧹",
+   "line": 31
+  },
+  {
+   "type": "phrase",
+   "en": "Good night Mummy.",
+   "zh": "晚安妈妈。",
+   "emoji": "💬",
+   "line": 35
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 37
+  },
+  {
+   "type": "word",
+   "en": "sleep",
+   "zh": "睡觉",
+   "emoji": "😴",
+   "line": 38
+  },
+  {
+   "type": "word",
+   "en": "tired",
+   "zh": "累的",
+   "emoji": "😪",
+   "line": 46
+  }
+ ]
+}

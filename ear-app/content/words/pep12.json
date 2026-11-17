@@ -1,0 +1,89 @@
+{
+ "id": "pep12",
+ "words": [
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Come on George!",
+   "zh": "加油乔治！",
+   "emoji": "💬",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "friend",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "friends",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "bicycle",
+   "zh": "自行车",
+   "emoji": "🚲",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "broken",
+   "zh": "坏掉的",
+   "emoji": "🛠️",
+   "line": 16
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "baby",
+   "zh": "宝宝",
+   "emoji": "👶",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "bike",
+   "zh": "自行车",
+   "emoji": "🚲",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "ride",
+   "zh": "骑",
+   "emoji": "🚲",
+   "line": 25
+  },
+  {
+   "type": "phrase",
+   "en": "It's not funny!",
+   "zh": "这不好笑！",
+   "emoji": "💬",
+   "line": 43
+  }
+ ]
+}

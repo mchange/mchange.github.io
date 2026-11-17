@@ -1,650 +1,462 @@
 {
  "id": "pep02",
- "title": "Gardening",
- "source": "manual-en-srt",
+ "title": "Mr. Dinosaur is Lost",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
  "lines": [
   {
-   "start": 2.234,
-   "end": 4.47,
-   "en": "I'm Peppa Pig.",
+   "start": 3.0,
+   "end": 7.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
    "i": 1,
-   "zh": "我是佩奇。"
+   "zh": "我是佩奇，这是我的弟弟乔治，"
   },
   {
-   "start": 4.504,
-   "end": 7.206,
-   "en": "This is my little brother, George.",
+   "start": 7.326,
+   "end": 11.0,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
    "i": 2,
-   "zh": "这是我的弟弟乔治。"
+   "zh": "这是猪妈妈，这是猪爸爸。"
   },
   {
-   "start": 7.24,
-   "end": 9.175,
-   "en": "This is Mummy Pig.",
+   "start": 11.001,
+   "end": 14.0,
+   "en": "Peppa Pig!",
    "i": 3,
-   "zh": "这是猪妈妈。"
+   "zh": "小猪佩奇！"
   },
   {
-   "start": 9.209,
-   "end": 11.544,
-   "en": "And this is Daddy Pig.",
+   "start": 20.0,
+   "end": 23.0,
+   "en": "Mr Dinosaur is lost.",
    "i": 4,
-   "zh": "这是猪爸爸。"
+   "zh": "恐龙先生迷路了。"
   },
   {
-   "start": 13.079,
-   "end": 14.781,
-   "en": "Peppa Pig.",
+   "start": 26.875,
+   "end": 29.0,
+   "en": "George's favourite toy is Mr Dinosaur.",
    "i": 5,
-   "zh": "小猪佩奇。"
+   "zh": "乔治最喜欢的玩具是恐龙先生。"
   },
   {
-   "start": 22.788,
-   "end": 26.626,
-   "en": "Peppa and George are playing at Granny Pig and Grandpa Pig's house.",
+   "start": 29.925,
+   "end": 32.0,
+   "en": "Dinosaur!",
    "i": 6,
-   "zh": "佩奇和乔治在猪奶奶和猪爷爷家玩。"
+   "zh": "恐龙！"
   },
   {
-   "start": 31.864,
-   "end": 33.825,
-   "en": "Grandpa, catch!",
+   "start": 33.0,
+   "end": 35.0,
+   "en": "George loves Mr Dinosaur.",
    "i": 7,
-   "zh": "爷爷，接住！"
+   "zh": "乔治喜欢恐龙先生。"
   },
   {
-   "start": 33.825,
-   "end": 35.001,
-   "en": "Ho-ho-ho!",
+   "start": 37.0,
+   "end": 41.0,
+   "en": "Sometimes George likes to scare Peppa with Mr Dinosaur.",
    "i": 8,
-   "zh": "呵呵呵！"
+   "zh": "有时乔治喜欢用恐龙先生吓唬佩奇。"
   },
   {
-   "start": 35.034,
-   "end": 36.469,
-   "en": "Catch!",
+   "start": 42.0,
+   "end": 44.0,
+   "en": "Too scary!",
    "i": 9,
-   "zh": "接住！"
+   "zh": "太可怕了！"
   },
   {
-   "start": 38.371,
-   "end": 40.201,
-   "en": "What's this?",
+   "start": 49.875,
+   "end": 53.0,
+   "en": "At suppertime, Mr Dinosaur sits next to George.",
    "i": 10,
-   "zh": "这是什么？"
+   "zh": "晚餐时间，恐龙先生坐在乔治旁边。"
   },
   {
-   "start": 40.201,
-   "end": 41.574,
-   "en": "Dinosaur.",
+   "start": 55.0,
+   "end": 60.0,
+   "en": "I beg your pardon, was that you George, or was it Mr Dinosaur?",
    "i": 11,
+   "zh": "对不起，是你乔治，还是恐龙先生？"
+  },
+  {
+   "start": 60.001,
+   "end": 62.0,
+   "en": "Dinosaur!",
+   "i": 12,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 65.249,
+   "end": 69.0,
+   "en": "At bathtime, George shares his bath with Mr Dinosaur.",
+   "i": 13,
+   "zh": "洗澡的时候，乔治和恐龙先生一起洗澡。"
+  },
+  {
+   "start": 73.749,
+   "end": 75.0,
+   "en": "Goodnight Peppa.",
+   "i": 14,
+   "zh": "晚安佩奇。"
+  },
+  {
+   "start": 75.001,
+   "end": 77.0,
+   "en": "Goodnight Mummy.",
+   "i": 15,
+   "zh": "晚安妈妈。"
+  },
+  {
+   "start": 77.424,
+   "end": 81.0,
+   "en": "Goodnight George, and goodnight Mr Dinosaur.",
+   "i": 16,
+   "zh": "晚安乔治，晚安恐龙先生。"
+  },
+  {
+   "start": 82.0,
+   "end": 86.0,
+   "en": "When George goes to bed, Mr Dinosaur is tucked up with him.",
+   "i": 17,
+   "zh": "当乔治上床睡觉时，恐龙先生和他一起被窝。"
+  },
+  {
+   "start": 91.0,
+   "end": 95.0,
+   "en": "George's favourite game is throwing Mr Dinosaur up in the air.",
+   "i": 18,
+   "zh": "乔治最喜欢的游戏是将恐龙先生扔到空中。"
+  },
+  {
+   "start": 96.374,
+   "end": 99.0,
+   "en": "And catching him when he falls back down.",
+   "i": 19,
+   "zh": "当他跌倒时扶住他。"
+  },
+  {
+   "start": 107.049,
+   "end": 110.0,
+   "en": "Peppa and Daddy Pig are playing drafts.",
+   "i": 20,
+   "zh": "佩奇和猪爸爸正在打跳棋。"
+  },
+  {
+   "start": 111.924,
+   "end": 114.0,
+   "en": "I win Daddy!",
+   "i": 21,
+   "zh": "我赢了爸爸！"
+  },
+  {
+   "start": 114.001,
+   "end": 116.0,
+   "en": "Oh, well done Peppa.",
+   "i": 22,
+   "zh": "哦，佩奇干得好。"
+  },
+  {
+   "start": 118.0,
+   "end": 120.0,
+   "en": "George?",
+   "i": 23,
+   "zh": "乔治？"
+  },
+  {
+   "start": 122.0,
+   "end": 124.0,
+   "en": "George, what's the matter?",
+   "i": 24,
+   "zh": "乔治，怎么了？"
+  },
+  {
+   "start": 124.249,
+   "end": 126.0,
+   "en": "Dinosaur.",
+   "i": 25,
    "zh": "恐龙。"
   },
   {
-   "start": 41.607,
-   "end": 43.776,
-   "en": "Grr...",
-   "i": 12,
-   "zh": "吼……"
-  },
-  {
-   "start": 43.809,
-   "end": 45.077,
-   "en": "A dinosaur?",
-   "i": 13,
-   "zh": "一只恐龙？"
-  },
-  {
-   "start": 45.11,
-   "end": 46.679,
-   "en": "Ho-ho-ho!",
-   "i": 14,
-   "zh": "呵呵呵！"
-  },
-  {
-   "start": 46.713,
-   "end": 49.445,
-   "en": "Grandpa, what are you doing?",
-   "i": 15,
-   "zh": "爷爷，你在干什么呀？"
-  },
-  {
-   "start": 49.445,
-   "end": 51.884,
-   "en": "I'm planting these seeds.",
-   "i": 16,
-   "zh": "我在种这些种子。"
-  },
-  {
-   "start": 51.918,
-   "end": 52.623,
-   "en": "Seeds?",
-   "i": 17,
-   "zh": "种子？"
-  },
-  {
-   "start": 52.623,
-   "end": 54.62,
-   "en": "What do seeds do?",
-   "i": 18,
-   "zh": "种子能干什么呀？"
-  },
-  {
-   "start": 54.653,
-   "end": 57.79,
-   "en": "Seeds grow into plants.",
-   "i": 19,
-   "zh": "种子会长成植物。"
-  },
-  {
-   "start": 57.823,
-   "end": 62.053,
-   "en": "I just make a little hole and put the seed in.",
-   "i": 20,
-   "zh": "我先挖一个小坑，把种子放进去。"
-  },
-  {
-   "start": 62.053,
-   "end": 65.732,
-   "en": "Then I cover it with earth and water it.",
-   "i": 21,
-   "zh": "然后用土盖上，再浇点水。"
-  },
-  {
-   "start": 65.765,
-   "end": 72.272,
-   "en": "Everything in my garden grows from tiny seeds like these.",
-   "i": 22,
-   "zh": "我花园里的东西，都是这样小小的种子长出来的。"
-  },
-  {
-   "start": 72.305,
-   "end": 74.14,
-   "en": "Even the big apple tree?",
-   "i": 23,
-   "zh": "连那棵大苹果树也是吗？"
-  },
-  {
-   "start": 74.173,
-   "end": 75.142,
-   "en": "Oh, yes.",
-   "i": 24,
-   "zh": "哦，是的。"
-  },
-  {
-   "start": 75.142,
-   "end": 83.257,
-   "en": "This tiny apple seed will grow into a little apple tree, like this.",
-   "i": 25,
-   "zh": "这颗小小的苹果种子，会长成这样一棵小苹果树。"
-  },
-  {
-   "start": 83.257,
-   "end": 83.85,
-   "en": "Oh!",
+   "start": 126.074,
+   "end": 129.0,
+   "en": "George, have you lost Mr Dinosaur?",
    "i": 26,
-   "zh": "哦！"
+   "zh": "乔治，你失去了恐龙先生吗？"
   },
   {
-   "start": 83.883,
-   "end": 91.357,
-   "en": "And that little apple tree will grow into a big apple tree, like this.",
+   "start": 130.824,
+   "end": 133.0,
+   "en": "George has lost Mr Dinosaur.",
    "i": 27,
-   "zh": "然后那棵小苹果树，会长成这样一棵大苹果树。"
+   "zh": "乔治失去了恐龙先生。"
   },
   {
-   "start": 92.124,
-   "end": 93.693,
-   "en": "Ouch!",
+   "start": 133.55,
+   "end": 136.0,
+   "en": "Don't worry George, we'll find Mr Dinosaur.",
    "i": 28,
-   "zh": "哎呀！"
+   "zh": "别担心乔治，我们会找到恐龙先生的。"
   },
   {
-   "start": 93.726,
-   "end": 96.028,
-   "en": "Mmm...",
+   "start": 136.001,
+   "end": 139.0,
+   "en": "It's a job for a detective.",
    "i": 29,
-   "zh": "嗯……"
+   "zh": "这是侦探的工作。"
   },
   {
-   "start": 99.498,
-   "end": 104.069,
-   "en": "And inside this apple are more seeds.",
+   "start": 139.4,
+   "end": 143.0,
+   "en": "Daddy, what is a detective?",
    "i": 30,
-   "zh": "这个苹果里面还有更多种子。"
+   "zh": "爸爸，什么是侦探？"
   },
   {
-   "start": 104.103,
-   "end": 106.806,
-   "en": "To make more apple trees.",
+   "start": 143.05,
+   "end": 149.0,
+   "en": "A detective is a very important person who is good at finding things.",
    "i": 31,
-   "zh": "可以种出更多苹果树。"
+   "zh": "侦探是一个很重要的人，善于发现事情。"
   },
   {
-   "start": 106.839,
-   "end": 108.842,
-   "en": "Exactly.",
+   "start": 149.001,
+   "end": 152.0,
+   "en": "Me, me! I'm good at finding things.",
    "i": 32,
-   "zh": "没错。"
+   "zh": "我我我！我很擅长找东西。"
   },
   {
-   "start": 108.875,
-   "end": 109.725,
-   "en": "Grandpa!",
+   "start": 152.25,
+   "end": 155.0,
+   "en": "Alright, Peppa is the detective.",
    "i": 33,
-   "zh": "爷爷！"
+   "zh": "好吧，佩奇是侦探。"
   },
   {
-   "start": 109.725,
-   "end": 110.576,
-   "en": "Grandpa!",
+   "start": 155.899,
+   "end": 159.0,
+   "en": "George? Are you the detective?",
    "i": 34,
-   "zh": "爷爷！"
+   "zh": "乔治？你是侦探吗？"
   },
   {
-   "start": 110.61,
-   "end": 112.745,
-   "en": "I want to plant a seed.",
+   "start": 159.15,
+   "end": 162.0,
+   "en": "I will help you find Mr Dinosaur.",
    "i": 35,
-   "zh": "我也想种一颗种子。"
+   "zh": "我会帮你找到恐龙先生。"
   },
   {
-   "start": 112.778,
-   "end": 115.715,
-   "en": "Would you like to plant a strawberry seed?",
+   "start": 163.375,
+   "end": 168.0,
+   "en": "Maybe the detective should ask George some simple questions.",
    "i": 36,
-   "zh": "你想种一颗草莓种子吗？"
+   "zh": "也许侦探应该问乔治一些简单的问题。"
   },
   {
-   "start": 115.748,
-   "end": 117.316,
-   "en": "Yes, please.",
+   "start": 168.05,
+   "end": 171.0,
+   "en": "George, where's Mr Dinosaur?",
    "i": 37,
-   "zh": "好的，谢谢。"
+   "zh": "乔治，恐龙先生在哪里？"
   },
   {
-   "start": 117.349,
-   "end": 122.155,
-   "en": "This seed will grow into a lovely strawberry plant.",
+   "start": 173.0,
+   "end": 176.0,
+   "en": "George does not know where Mr Dinosaur is.",
    "i": 38,
-   "zh": "这颗种子会长成一棵可爱的草莓苗。"
+   "zh": "乔治不知道恐龙先生在哪里。"
   },
   {
-   "start": 122.989,
-   "end": 126.425,
-   "en": "First, make a little hole.",
+   "start": 176.001,
+   "end": 180.0,
+   "en": "The detective could try and guess where Mr Dinosaur might be.",
    "i": 39,
-   "zh": "先挖一个小坑。"
+   "zh": "侦探可以尝试猜测恐龙先生可能在哪里。"
   },
   {
-   "start": 126.459,
-   "end": 131.063,
-   "en": "Then I put the seed in and cover it with earth.",
+   "start": 181.225,
+   "end": 183.0,
+   "en": "I know, I know where he is.",
    "i": 40,
-   "zh": "然后把种子放进去，用土盖上。"
+   "zh": "我知道，我知道他在哪里。"
   },
   {
-   "start": 131.096,
-   "end": 133.738,
-   "en": "Shall I water it for you?",
+   "start": 187.0,
+   "end": 191.0,
+   "en": "George always has Mr Dinosaur with him in the bath.",
    "i": 41,
-   "zh": "要我帮你浇水吗？"
+   "zh": "乔治总是带着恐龙先生和他一起洗澡。"
   },
   {
-   "start": 133.738,
-   "end": 134.07,
-   "en": "No.",
+   "start": 191.8,
+   "end": 194.0,
+   "en": "So Mr Dinosaur is in the bath.",
    "i": 42,
-   "zh": "不用。"
+   "zh": "所以恐龙先生正在洗澡。"
   },
   {
-   "start": 134.07,
-   "end": 136.169,
-   "en": "I want to water it.",
+   "start": 194.6,
+   "end": 196.0,
+   "en": "Mr Dinosaur is not in the bath.",
    "i": 43,
-   "zh": "我想自己来浇。"
+   "zh": "恐龙先生不在洗澡。"
   },
   {
-   "start": 138.07,
-   "end": 139.105,
-   "en": "Good.",
+   "start": 196.001,
+   "end": 201.0,
+   "en": "Oh, I know, I know where Mr Dinosaur is.",
    "i": 44,
-   "zh": "好的。"
+   "zh": "哦，我知道了，我知道恐龙先生在哪里了。"
   },
   {
-   "start": 139.138,
-   "end": 141.908,
-   "en": "Now we wait for it to grow.",
+   "start": 202.025,
+   "end": 206.0,
+   "en": "George always has Mr Dinosaur in his bed at night.",
    "i": 45,
-   "zh": "现在我们就等它长大吧。"
+   "zh": "乔治晚上总是把恐龙先生放在他的床上。"
   },
   {
-   "start": 144.577,
-   "end": 148.08,
-   "en": "Peppa and George are waiting for the seed to grow.",
+   "start": 206.05,
+   "end": 209.0,
+   "en": "See, that's where he is.",
    "i": 46,
-   "zh": "佩奇和乔治在等种子长大。"
+   "zh": "看，他就在那里。"
   },
   {
-   "start": 148.114,
-   "end": 151.183,
-   "en": "It's not doing anything.",
+   "start": 209.9,
+   "end": 212.0,
+   "en": "Mr Dinosaur is not in George's bed.",
    "i": 47,
-   "zh": "它怎么一点动静都没有。"
+   "zh": "恐龙先生不在乔治的床上。"
   },
   {
-   "start": 151.217,
-   "end": 152.075,
-   "en": "Ho-ho-ho!",
+   "start": 212.001,
+   "end": 213.001,
+   "en": "Oh.",
    "i": 48,
-   "zh": "呵呵呵！"
+   "zh": "哦。"
   },
   {
-   "start": 152.075,
-   "end": 155.22,
-   "en": "You'll have to be patient, Peppa!",
+   "start": 213.6,
+   "end": 216.0,
+   "en": "Maybe we should try the garden.",
    "i": 49,
-   "zh": "你得有点耐心，佩奇！"
+   "zh": "也许我们应该去花园试试。"
   },
   {
-   "start": 155.254,
-   "end": 158.124,
-   "en": "It will take a long time to grow.",
+   "start": 216.45,
+   "end": 218.0,
+   "en": "Yes, the garden.",
    "i": 50,
-   "zh": "它要很久才能长大呢。"
+   "zh": "是的，花园。"
   },
   {
-   "start": 158.157,
-   "end": 160.793,
-   "en": "Peppa, George, it's time to go home.",
+   "start": 218.1,
+   "end": 220.0,
+   "en": "I was going to say that.",
    "i": 51,
-   "zh": "佩奇，乔治，该回家了。"
+   "zh": "我正想说这个。"
   },
   {
-   "start": 160.826,
-   "end": 164.063,
-   "en": "But we're waiting for my strawberry plant to grow.",
+   "start": 225.0,
+   "end": 227.0,
+   "en": "Where is Mr Dinosaur?",
    "i": 52,
-   "zh": "可是我们还在等我的草莓长大呀。"
+   "zh": "恐龙先生在哪里？"
   },
   {
-   "start": 164.096,
-   "end": 167.332,
-   "en": "I wanted strawberries for tea.",
+   "start": 227.001,
+   "end": 230.0,
+   "en": "Mr Dinosaur is very hard to find.",
    "i": 53,
-   "zh": "我还想吃草莓当下午茶呢。"
+   "zh": "恐龙先生很难找到。"
   },
   {
-   "start": 167.366,
-   "end": 169.112,
-   "en": "Don't worry, Peppa.",
+   "start": 230.001,
+   "end": 234.0,
+   "en": "Oh, Mr Dinosaur isn't anywhere.",
    "i": 54,
-   "zh": "别担心，佩奇。"
+   "zh": "哦，恐龙先生不在任何地方。"
   },
   {
-   "start": 169.112,
-   "end": 174.44,
-   "en": "Next time you come, the seed will have grown into a plant.",
+   "start": 235.8,
+   "end": 240.0,
+   "en": "George, you do love to throw Mr Dinosaur in the air.",
    "i": 55,
-   "zh": "下次你们来的时候，种子就已经长成一棵苗了。"
+   "zh": "乔治，你真喜欢把恐龙先生扔到空中。"
   },
   {
-   "start": 174.473,
-   "end": 177.609,
-   "en": "And we'll have strawberries?",
+   "start": 241.05,
+   "end": 245.0,
+   "en": "I wonder if this time you threw Mr Dinosaur just a bit too high.",
    "i": 56,
-   "zh": "那我们就能吃到草莓了吗？"
+   "zh": "我想知道这次你把恐龙先生扔得太高了一点。"
   },
   {
-   "start": 177.643,
-   "end": 179.145,
-   "en": "Yes.",
+   "start": 246.0,
+   "end": 250.0,
+   "en": "There he is! There he is! I saw him first!",
    "i": 57,
-   "zh": "是的。"
+   "zh": "他来了！他在那儿！我先看见他了！"
   },
   {
-   "start": 179.178,
-   "end": 181.014,
-   "en": "Come on, Peppa.",
+   "start": 251.35,
+   "end": 256.0,
+   "en": "Well done, Pepper. You really are a very good detective.",
    "i": 58,
-   "zh": "走吧，佩奇。"
+   "zh": "干得好，佩珀。你确实是一个非常好的侦探。"
   },
   {
-   "start": 181.047,
-   "end": 183.082,
-   "en": "Bye-bye, Grandpa.",
+   "start": 261.25,
+   "end": 263.0,
+   "en": "I'm sore.",
    "i": 59,
-   "zh": "再见，爷爷。"
+   "zh": "我好痛。"
   },
   {
-   "start": 183.115,
-   "end": 185.318,
-   "en": "Bye-bye, Strawberry.",
+   "start": 265.125,
+   "end": 269.0,
+   "en": "George is so happy to have Mr Dinosaur back again.",
    "i": 60,
-   "zh": "再见，草莓。"
+   "zh": "乔治很高兴恐龙先生再次回来。"
   },
   {
-   "start": 191.925,
-   "end": 195.728,
-   "en": "Grandpa Pig looks after Peppa's strawberry plant.",
+   "start": 272.05,
+   "end": 277.0,
+   "en": "Maybe it isn't a good idea to play with dinosaurs near trees.",
    "i": 61,
-   "zh": "猪爷爷帮佩奇照看她的草莓苗。"
+   "zh": "也许在树附近和恐龙玩耍不是一个好主意。"
   },
   {
-   "start": 195.762,
-   "end": 200.233,
-   "en": "After many days, Grandpa Pig finds a tiny plant growing.",
+   "start": 282.0,
+   "end": 284.0,
+   "en": "Dinosaur!",
    "i": 62,
-   "zh": "很多天以后，猪爷爷发现一棵小小的苗长出来了。"
+   "zh": "恐龙！"
   },
   {
-   "start": 200.266,
-   "end": 203.87,
-   "en": "Day by day, the plant grows bigger and bigger.",
+   "start": 287.0,
+   "end": 289.0,
+   "en": "Peppa Pig",
    "i": 63,
-   "zh": "一天一天，这棵苗越长越大。"
+   "zh": "小猪佩奇"
   },
   {
-   "start": 203.903,
-   "end": 207.94,
-   "en": "And one day, Grandpa Pig finds something very special.",
+   "start": 292.0,
+   "end": 294.0,
+   "en": "Peppa Pig",
    "i": 64,
-   "zh": "有一天，猪爷爷发现了很特别的东西。"
+   "zh": "小猪佩奇"
   },
   {
-   "start": 207.974,
-   "end": 210.91,
-   "en": "Strawberries!",
+   "start": 296.0,
+   "end": 298.0,
+   "en": "Peppa Pig",
    "i": 65,
-   "zh": "草莓！"
-  },
-  {
-   "start": 210.943,
-   "end": 212.945,
-   "en": "Grandpa, we're back!",
-   "i": 66,
-   "zh": "爷爷，我们回来啦！"
-  },
-  {
-   "start": 212.978,
-   "end": 216.382,
-   "en": "Peppa and George have come to play again.",
-   "i": 67,
-   "zh": "佩奇和乔治又来玩了。"
-  },
-  {
-   "start": 216.416,
-   "end": 220.079,
-   "en": "Grandpa, Grandpa, did my plant grow?",
-   "i": 68,
-   "zh": "爷爷，爷爷，我的草莓长出来了吗？"
-  },
-  {
-   "start": 220.079,
-   "end": 220.486,
-   "en": "Yes.",
-   "i": 69,
-   "zh": "长出来了。"
-  },
-  {
-   "start": 220.519,
-   "end": 221.612,
-   "en": "Look.",
-   "i": 70,
-   "zh": "你看。"
-  },
-  {
-   "start": 221.612,
-   "end": 222.487,
-   "en": "Ooh!",
-   "i": 71,
-   "zh": "哇！"
-  },
-  {
-   "start": 222.521,
-   "end": 226.159,
-   "en": "Strawberries!",
-   "i": 72,
-   "zh": "草莓！"
-  },
-  {
-   "start": 226.192,
-   "end": 228.561,
-   "en": "Thank you, Grandpa!",
-   "i": 73,
-   "zh": "谢谢你，爷爷！"
-  },
-  {
-   "start": 233.199,
-   "end": 235.701,
-   "en": "Grandpa, can we plant something else?",
-   "i": 74,
-   "zh": "爷爷，我们可以再种点别的吗？"
-  },
-  {
-   "start": 235.734,
-   "end": 236.221,
-   "en": "Yes.",
-   "i": 75,
-   "zh": "可以呀。"
-  },
-  {
-   "start": 236.221,
-   "end": 240.239,
-   "en": "Now it's George's turn to choose.",
-   "i": 76,
-   "zh": "这次轮到乔治来选了。"
-  },
-  {
-   "start": 240.273,
-   "end": 243.342,
-   "en": "Yes, you choose, George.",
-   "i": 77,
-   "zh": "对，乔治，你来选。"
-  },
-  {
-   "start": 243.375,
-   "end": 245.844,
-   "en": "Choose a carrot.",
-   "i": 78,
-   "zh": "选胡萝卜吧。"
-  },
-  {
-   "start": 245.878,
-   "end": 249.515,
-   "en": "Grandpa, I think George wants to grow a carrot.",
-   "i": 79,
-   "zh": "爷爷，我想乔治是想种胡萝卜。"
-  },
-  {
-   "start": 249.548,
-   "end": 254.087,
-   "en": "George, would you like to grow a carrot?",
-   "i": 80,
-   "zh": "乔治，你想种胡萝卜吗？"
-  },
-  {
-   "start": 254.12,
-   "end": 254.453,
-   "en": "No!",
-   "i": 81,
-   "zh": "不想！"
-  },
-  {
-   "start": 254.453,
-   "end": 257.557,
-   "en": "What would you like to grow?",
-   "i": 82,
-   "zh": "那你想种什么呀？"
-  },
-  {
-   "start": 259.158,
-   "end": 261.828,
-   "en": "George has thought of something he wants to grow.",
-   "i": 83,
-   "zh": "乔治想到了一样想种的东西。"
-  },
-  {
-   "start": 264.43,
-   "end": 267.133,
-   "en": "Dinosaur!",
-   "i": 84,
-   "zh": "恐龙！"
-  },
-  {
-   "start": 267.166,
-   "end": 270.103,
-   "en": "George wants to grow a dinosaur tree.",
-   "i": 85,
-   "zh": "乔治想种一棵恐龙树。"
-  },
-  {
-   "start": 270.136,
-   "end": 272.604,
-   "en": "Silly George.",
-   "i": 86,
-   "zh": "傻乔治。"
-  },
-  {
-   "start": 272.638,
-   "end": 275.307,
-   "en": "Dinosaurs don't grow on trees.",
-   "i": 87,
-   "zh": "恐龙可不会长在树上。"
-  },
-  {
-   "start": 281.848,
-   "end": 283.673,
-   "en": "Dinosaur!",
-   "i": 88,
-   "zh": "恐龙！"
-  },
-  {
-   "start": 283.673,
-   "end": 284.484,
-   "en": "Grr!",
-   "i": 89,
-   "zh": "吼！"
-  },
-  {
-   "start": 287.753,
-   "end": 289.321,
-   "en": "Peppa Pig",
-   "i": 90,
-   "zh": "小猪佩奇"
-  },
-  {
-   "start": 292.191,
-   "end": 293.959,
-   "en": "Peppa Pig",
-   "i": 91,
-   "zh": "小猪佩奇"
-  },
-  {
-   "start": 296.295,
-   "end": 298.063,
-   "en": "Peppa Pig",
-   "i": 92,
    "zh": "小猪佩奇"
   }
  ]

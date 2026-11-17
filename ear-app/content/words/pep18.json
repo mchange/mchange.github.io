@@ -1,0 +1,89 @@
+{
+ "id": "pep18",
+ "words": [
+  {
+   "type": "word",
+   "en": "dress",
+   "zh": "裙子",
+   "emoji": "👗",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "box",
+   "zh": "盒子",
+   "emoji": "📦",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "hat",
+   "zh": "帽子",
+   "emoji": "🎩",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 14
+  },
+  {
+   "type": "phrase",
+   "en": "Hello Daddy Pig.",
+   "zh": "猪爸爸你好。",
+   "emoji": "💬",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "shoes",
+   "zh": "鞋",
+   "emoji": "👟",
+   "line": 18
+  },
+  {
+   "type": "phrase",
+   "en": "No, thank you.",
+   "zh": "不，谢谢。",
+   "emoji": "💬",
+   "line": 42
+  },
+  {
+   "type": "word",
+   "en": "careful",
+   "zh": "小心的",
+   "emoji": "⚠️",
+   "line": 57
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 62
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 62
+  }
+ ]
+}

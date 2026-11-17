@@ -1,0 +1,89 @@
+{
+ "id": "pep23",
+ "words": [
+  {
+   "type": "word",
+   "en": "car",
+   "zh": "汽车",
+   "emoji": "🚗",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "ready",
+   "zh": "准备好了",
+   "emoji": "🏁",
+   "line": 7
+  },
+  {
+   "type": "phrase",
+   "en": "Is everybody ready?",
+   "zh": "大家准备好了吗？",
+   "emoji": "💬",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "dog",
+   "zh": "狗",
+   "emoji": "🐶",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 16
+  },
+  {
+   "type": "word",
+   "en": "new",
+   "zh": "新的",
+   "emoji": "✨",
+   "line": 22
+  },
+  {
+   "type": "word",
+   "en": "red",
+   "zh": "红色",
+   "emoji": "🔴",
+   "line": 27
+  },
+  {
+   "type": "word",
+   "en": "blue",
+   "zh": "蓝色",
+   "emoji": "🔵",
+   "line": 35
+  },
+  {
+   "type": "word",
+   "en": "wind",
+   "zh": "风",
+   "emoji": "🌬️",
+   "line": 39
+  },
+  {
+   "type": "word",
+   "en": "rain",
+   "zh": "下雨",
+   "emoji": "🌧️",
+   "line": 47
+  },
+  {
+   "type": "phrase",
+   "en": "Oops! Silly me!",
+   "zh": "哎呀！傻我啊！",
+   "emoji": "💬",
+   "line": 51
+  }
+ ]
+}

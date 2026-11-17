@@ -1,0 +1,799 @@
+{
+ "id": "pep38",
+ "title": "Fancy Dress Party",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.44,
+   "end": 7.742,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.766,
+   "end": 11.44,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.441,
+   "end": 14.44,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 17.96,
+   "end": 19.96,
+   "en": "Fancy Dress Party!",
+   "i": 4,
+   "zh": "化装舞会！"
+  },
+  {
+   "start": 22.16,
+   "end": 25.12,
+   "en": "Peppa and George are having a fancy dress party.",
+   "i": 5,
+   "zh": "佩奇和乔治正在举办化装舞会。"
+  },
+  {
+   "start": 25.121,
+   "end": 27.12,
+   "en": "All their friends are invited.",
+   "i": 6,
+   "zh": "他们所有的朋友都被邀请了。"
+  },
+  {
+   "start": 27.121,
+   "end": 34.24,
+   "en": "Peppa is dressed as a fairy princess and George is dressed as a dinosaur.",
+   "i": 7,
+   "zh": "佩奇打扮成童话公主，乔治打扮成恐龙。"
+  },
+  {
+   "start": 38.24,
+   "end": 41.36,
+   "en": "Here are Peppa's friends. Candy Cat, Suzy",
+   "i": 8,
+   "zh": "这是佩奇的朋友。小猫坎迪，苏西"
+  },
+  {
+   "start": 41.384,
+   "end": 45.04,
+   "en": "Sheep, Danny Dog, Rebecca Rabbit and Pedro Pony.",
+   "i": 9,
+   "zh": "羊、小狗丹尼、小兔瑞贝卡和佩德罗小马。"
+  },
+  {
+   "start": 45.041,
+   "end": 49.04,
+   "en": "Suzy is wearing her nurse's costume.",
+   "i": 10,
+   "zh": "苏西穿着护士服。"
+  },
+  {
+   "start": 49.164,
+   "end": 51.04,
+   "en": "Hello Suzy.",
+   "i": 11,
+   "zh": "苏西你好。"
+  },
+  {
+   "start": 51.041,
+   "end": 53.04,
+   "en": "Hello Mr Pig.",
+   "i": 12,
+   "zh": "猪先生你好。"
+  },
+  {
+   "start": 53.239,
+   "end": 55.04,
+   "en": "I'm glad the nurse has arrived.",
+   "i": 13,
+   "zh": "我很高兴护士来了。"
+  },
+  {
+   "start": 55.264,
+   "end": 57.04,
+   "en": "Have you just come from the hospital?",
+   "i": 14,
+   "zh": "你刚从医院回来吗？"
+  },
+  {
+   "start": 57.089,
+   "end": 62.04,
+   "en": "I'm not a real nurse, I just pretend.",
+   "i": 15,
+   "zh": "我不是真正的护士，我只是假装。"
+  },
+  {
+   "start": 62.041,
+   "end": 64.04,
+   "en": "Very good.",
+   "i": 16,
+   "zh": "非常好。"
+  },
+  {
+   "start": 64.439,
+   "end": 67.04,
+   "en": "My, my, who have we here?",
+   "i": 17,
+   "zh": "天哪，天哪，我们这里有谁？"
+  },
+  {
+   "start": 67.041,
+   "end": 69.04,
+   "en": "I'm a pirate.",
+   "i": 18,
+   "zh": "我是海盗。"
+  },
+  {
+   "start": 69.04,
+   "end": 71.04,
+   "en": "Shiver me timbers.",
+   "i": 19,
+   "zh": "让我颤抖吧。"
+  },
+  {
+   "start": 71.041,
+   "end": 73.04,
+   "en": "Meow.",
+   "i": 20,
+   "zh": "喵。"
+  },
+  {
+   "start": 73.041,
+   "end": 76.04,
+   "en": "I'm a witch. I can turn you into a frog.",
+   "i": 21,
+   "zh": "我是女巫。我可以把你变成青蛙。"
+  },
+  {
+   "start": 76.041,
+   "end": 77.04,
+   "en": "Nay.",
+   "i": 22,
+   "zh": "不。"
+  },
+  {
+   "start": 77.041,
+   "end": 79.04,
+   "en": "I'm a clown.",
+   "i": 23,
+   "zh": "我是一个小丑。"
+  },
+  {
+   "start": 79.041,
+   "end": 82.04,
+   "en": "That's funny.",
+   "i": 24,
+   "zh": "这很有趣。"
+  },
+  {
+   "start": 82.041,
+   "end": 84.04,
+   "en": "What are you Rebecca Rabbit?",
+   "i": 25,
+   "zh": "你是什么小兔瑞贝卡？"
+  },
+  {
+   "start": 84.289,
+   "end": 86.04,
+   "en": "I'm a carrot.",
+   "i": 26,
+   "zh": "我是胡萝卜。"
+  },
+  {
+   "start": 86.041,
+   "end": 88.04,
+   "en": "Fantastic. Come in.",
+   "i": 27,
+   "zh": "太棒了。进来吧。"
+  },
+  {
+   "start": 88.041,
+   "end": 93.04,
+   "en": "There's a fairy princess and a dinosaur waiting to meet you.",
+   "i": 28,
+   "zh": "有一位童话公主和一只恐龙在等着与你见面。"
+  },
+  {
+   "start": 93.041,
+   "end": 95.04,
+   "en": "Hello everyone.",
+   "i": 29,
+   "zh": "大家好。"
+  },
+  {
+   "start": 95.041,
+   "end": 97.04,
+   "en": "Hello Peppa.",
+   "i": 30,
+   "zh": "你好，佩奇。"
+  },
+  {
+   "start": 97.115,
+   "end": 100.04,
+   "en": "Hello Suzy. I'm Princess Peppa.",
+   "i": 31,
+   "zh": "苏西你好。我是佩奇公主。"
+  },
+  {
+   "start": 100.04,
+   "end": 103.04,
+   "en": "You must bow when you speak to me.",
+   "i": 32,
+   "zh": "跟我说话时必须鞠躬。"
+  },
+  {
+   "start": 103.041,
+   "end": 105.04,
+   "en": "Hello your majesty.",
+   "i": 33,
+   "zh": "陛下您好。"
+  },
+  {
+   "start": 105.041,
+   "end": 107.04,
+   "en": "I'm Nurse Suzy.",
+   "i": 34,
+   "zh": "我是苏西护士。"
+  },
+  {
+   "start": 111.389,
+   "end": 114.04,
+   "en": "Hahahaha.",
+   "i": 35,
+   "zh": "哈哈哈。"
+  },
+  {
+   "start": 114.041,
+   "end": 115.04,
+   "en": "Nay.",
+   "i": 36,
+   "zh": "不。"
+  },
+  {
+   "start": 115.041,
+   "end": 118.04,
+   "en": "I'm a clown. Do something funny.",
+   "i": 37,
+   "zh": "我是一个小丑。做一些有趣的事情。"
+  },
+  {
+   "start": 118.389,
+   "end": 120.04,
+   "en": "Hahahaha.",
+   "i": 38,
+   "zh": "哈哈哈。"
+  },
+  {
+   "start": 120.041,
+   "end": 123.04,
+   "en": "Rebecca, why are you dressed as a carrot?",
+   "i": 39,
+   "zh": "丽贝卡，你为什么打扮成胡萝卜？"
+  },
+  {
+   "start": 123.041,
+   "end": 125.04,
+   "en": "I like carrots.",
+   "i": 40,
+   "zh": "我喜欢胡萝卜。"
+  },
+  {
+   "start": 125.041,
+   "end": 127.04,
+   "en": "Hahahaha.",
+   "i": 41,
+   "zh": "哈哈哈。"
+  },
+  {
+   "start": 127.041,
+   "end": 129.039,
+   "en": "Dinosaur.",
+   "i": 42,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 129.04,
+   "end": 131.039,
+   "en": "A scary dinosaur.",
+   "i": 43,
+   "zh": "可怕的恐龙。"
+  },
+  {
+   "start": 131.04,
+   "end": 133.04,
+   "en": "Hahahaha.",
+   "i": 44,
+   "zh": "哈哈哈。"
+  },
+  {
+   "start": 133.09,
+   "end": 135.04,
+   "en": "Peppa is admiring herself in the mirror.",
+   "i": 45,
+   "zh": "佩奇正在镜子里欣赏自己。"
+  },
+  {
+   "start": 135.041,
+   "end": 137.04,
+   "en": "Mirror, mirror on the wall.",
+   "i": 46,
+   "zh": "镜子，墙上的镜子。"
+  },
+  {
+   "start": 137.041,
+   "end": 140.04,
+   "en": "Who's the fairest of them all?",
+   "i": 47,
+   "zh": "他们中谁是最美丽的？"
+  },
+  {
+   "start": 140.041,
+   "end": 143.04,
+   "en": "You are Peppa.",
+   "i": 48,
+   "zh": "你是佩奇。"
+  },
+  {
+   "start": 143.14,
+   "end": 144.04,
+   "en": "Meow.",
+   "i": 49,
+   "zh": "喵。"
+  },
+  {
+   "start": 144.041,
+   "end": 145.041,
+   "en": "Hello Peppa.",
+   "i": 50,
+   "zh": "你好，佩奇。"
+  },
+  {
+   "start": 145.09,
+   "end": 148.04,
+   "en": "Hello. I'm a little fairy princess.",
+   "i": 51,
+   "zh": "你好。我是一个小仙女。"
+  },
+  {
+   "start": 148.041,
+   "end": 150.04,
+   "en": "I'm a witch.",
+   "i": 52,
+   "zh": "我是女巫。"
+  },
+  {
+   "start": 150.24,
+   "end": 151.04,
+   "en": "Meow.",
+   "i": 53,
+   "zh": "喵。"
+  },
+  {
+   "start": 151.041,
+   "end": 153.04,
+   "en": "And I've got a magic wand.",
+   "i": 54,
+   "zh": "我有一根魔杖。"
+  },
+  {
+   "start": 153.041,
+   "end": 155.04,
+   "en": "I've got a magic wand too.",
+   "i": 55,
+   "zh": "我也有一根魔杖。"
+  },
+  {
+   "start": 155.041,
+   "end": 157.04,
+   "en": "I can turn you into a frog.",
+   "i": 56,
+   "zh": "我可以把你变成青蛙。"
+  },
+  {
+   "start": 157.041,
+   "end": 160.04,
+   "en": "And I'll turn you into a frog.",
+   "i": 57,
+   "zh": "我会把你变成青蛙。"
+  },
+  {
+   "start": 160.041,
+   "end": 162.04,
+   "en": "Hahahaha.",
+   "i": 58,
+   "zh": "哈哈哈。"
+  },
+  {
+   "start": 162.041,
+   "end": 164.04,
+   "en": "Dinosaur.",
+   "i": 59,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 164.041,
+   "end": 166.04,
+   "en": "Grrr.",
+   "i": 60,
+   "zh": "咕噜。"
+  },
+  {
+   "start": 166.041,
+   "end": 170.04,
+   "en": "Oh dear. George is scared of his own reflection.",
+   "i": 61,
+   "zh": "哦天哪。乔治害怕自己的倒影。"
+  },
+  {
+   "start": 170.041,
+   "end": 172.04,
+   "en": "Oh silly George.",
+   "i": 62,
+   "zh": "噢，愚蠢的乔治。"
+  },
+  {
+   "start": 172.041,
+   "end": 175.04,
+   "en": "Look, it's you in the mirror.",
+   "i": 63,
+   "zh": "看，镜子里的就是你。"
+  },
+  {
+   "start": 175.041,
+   "end": 177.04,
+   "en": "Grrr.",
+   "i": 64,
+   "zh": "咕噜。"
+  },
+  {
+   "start": 177.041,
+   "end": 182.04,
+   "en": "Children, it's time to decide who has the best fancy dress costume.",
+   "i": 65,
+   "zh": "孩子们，是时候决定谁拥有最好的化装服装了。"
+  },
+  {
+   "start": 182.041,
+   "end": 184.04,
+   "en": "We need a judge.",
+   "i": 66,
+   "zh": "我们需要一名法官。"
+  },
+  {
+   "start": 184.041,
+   "end": 186.04,
+   "en": "Me, me.",
+   "i": 67,
+   "zh": "我，我。"
+  },
+  {
+   "start": 186.041,
+   "end": 189.04,
+   "en": "As it's Peppa's party, maybe she should be the judge.",
+   "i": 68,
+   "zh": "既然是佩奇的聚会，也许她应该来当评委。"
+  },
+  {
+   "start": 189.041,
+   "end": 192.04,
+   "en": "I'm the judge, I'm the judge.",
+   "i": 69,
+   "zh": "我是法官，我是法官。"
+  },
+  {
+   "start": 192.64,
+   "end": 194.04,
+   "en": "Daddy, what is a judge?",
+   "i": 70,
+   "zh": "爸爸，什么是法官？"
+  },
+  {
+   "start": 194.041,
+   "end": 197.04,
+   "en": "The judge decides who has the best costume.",
+   "i": 71,
+   "zh": "评委决定谁拥有最好的服装。"
+  },
+  {
+   "start": 197.24,
+   "end": 199.04,
+   "en": "Oh goody.",
+   "i": 72,
+   "zh": "哦，太好了。"
+  },
+  {
+   "start": 199.041,
+   "end": 201.04,
+   "en": "Peppa is going to choose who has the best costume.",
+   "i": 73,
+   "zh": "佩奇要选出谁的服装最好。"
+  },
+  {
+   "start": 201.041,
+   "end": 205.04,
+   "en": "Suzy, can I see your costume please?",
+   "i": 74,
+   "zh": "苏西，我可以看看你的服装吗？"
+  },
+  {
+   "start": 205.041,
+   "end": 207.04,
+   "en": "I'm Nurse Suzy.",
+   "i": 75,
+   "zh": "我是苏西护士。"
+  },
+  {
+   "start": 207.041,
+   "end": 209.04,
+   "en": "I make people better.",
+   "i": 76,
+   "zh": "我让人们变得更好。"
+  },
+  {
+   "start": 209.041,
+   "end": 211.04,
+   "en": "Very good Nurse Suzy.",
+   "i": 77,
+   "zh": "非常好的苏西护士。"
+  },
+  {
+   "start": 211.14,
+   "end": 213.04,
+   "en": "Now Danny.",
+   "i": 78,
+   "zh": "现在丹尼。"
+  },
+  {
+   "start": 213.041,
+   "end": 214.04,
+   "en": "I'm a porrot.",
+   "i": 79,
+   "zh": "我是一只鹦鹉。"
+  },
+  {
+   "start": 214.041,
+   "end": 217.04,
+   "en": "Shuffle me timbers.",
+   "i": 80,
+   "zh": "拖着我的木头。"
+  },
+  {
+   "start": 217.041,
+   "end": 219.04,
+   "en": "Now Candy.",
+   "i": 81,
+   "zh": "现在是糖果。"
+  },
+  {
+   "start": 219.041,
+   "end": 220.04,
+   "en": "Meow.",
+   "i": 82,
+   "zh": "喵。"
+  },
+  {
+   "start": 220.041,
+   "end": 221.04,
+   "en": "I'm a witch.",
+   "i": 83,
+   "zh": "我是女巫。"
+  },
+  {
+   "start": 221.041,
+   "end": 223.04,
+   "en": "I can turn you into a frog.",
+   "i": 84,
+   "zh": "我可以把你变成青蛙。"
+  },
+  {
+   "start": 223.041,
+   "end": 226.04,
+   "en": "I'm a ferret princess and I can turn you into a frog.",
+   "i": 85,
+   "zh": "我是雪貂公主，我可以把你变成青蛙。"
+  },
+  {
+   "start": 226.041,
+   "end": 228.04,
+   "en": "Snort, snort, snort.",
+   "i": 86,
+   "zh": "哼哼，哼哼，哼哼。"
+  },
+  {
+   "start": 228.041,
+   "end": 230.04,
+   "en": "Children, children.",
+   "i": 87,
+   "zh": "孩子们，孩子们。"
+  },
+  {
+   "start": 230.041,
+   "end": 231.041,
+   "en": "Sorry Mummy.",
+   "i": 88,
+   "zh": "对不起，妈妈。"
+  },
+  {
+   "start": 231.49,
+   "end": 233.04,
+   "en": "Who's next?",
+   "i": 89,
+   "zh": "下一个是谁？"
+  },
+  {
+   "start": 233.041,
+   "end": 235.04,
+   "en": "I'm a clown.",
+   "i": 90,
+   "zh": "我是一个小丑。"
+  },
+  {
+   "start": 236.914,
+   "end": 239.04,
+   "en": "That's funny.",
+   "i": 91,
+   "zh": "这很有趣。"
+  },
+  {
+   "start": 239.041,
+   "end": 241.04,
+   "en": "And Rebecca?",
+   "i": 92,
+   "zh": "丽贝卡呢？"
+  },
+  {
+   "start": 241.041,
+   "end": 243.04,
+   "en": "I'm a carrot.",
+   "i": 93,
+   "zh": "我是胡萝卜。"
+  },
+  {
+   "start": 243.041,
+   "end": 245.04,
+   "en": "Lovely.",
+   "i": 94,
+   "zh": "可爱。"
+  },
+  {
+   "start": 246.04,
+   "end": 250.04,
+   "en": "And my little brother George is a scary dinosaur.",
+   "i": 95,
+   "zh": "我的弟弟乔治是一只可怕的恐龙。"
+  },
+  {
+   "start": 250.041,
+   "end": 251.04,
+   "en": "Grrr.",
+   "i": 96,
+   "zh": "咕噜。"
+  },
+  {
+   "start": 251.041,
+   "end": 253.04,
+   "en": "Everyone's costume is very good.",
+   "i": 97,
+   "zh": "大家的服装都很好。"
+  },
+  {
+   "start": 253.041,
+   "end": 255.04,
+   "en": "Hurray!",
+   "i": 98,
+   "zh": "好耶！"
+  },
+  {
+   "start": 256.14,
+   "end": 258.04,
+   "en": "Now you say who the winner is.",
+   "i": 99,
+   "zh": "现在你说谁是获胜者。"
+  },
+  {
+   "start": 258.14,
+   "end": 259.04,
+   "en": "Oh yes.",
+   "i": 100,
+   "zh": "哦，是的。"
+  },
+  {
+   "start": 259.041,
+   "end": 260.041,
+   "en": "Ahem.",
+   "i": 101,
+   "zh": "咳咳。"
+  },
+  {
+   "start": 260.79,
+   "end": 264.04,
+   "en": "And the winner is... Me.",
+   "i": 102,
+   "zh": "获胜者是……我。"
+  },
+  {
+   "start": 264.041,
+   "end": 265.04,
+   "en": "Oh.",
+   "i": 103,
+   "zh": "哦。"
+  },
+  {
+   "start": 265.041,
+   "end": 267.04,
+   "en": "Peppa, you can't pick yourself.",
+   "i": 104,
+   "zh": "佩奇，你自己挑不出来。"
+  },
+  {
+   "start": 267.041,
+   "end": 269.04,
+   "en": "You're the judge.",
+   "i": 105,
+   "zh": "你是法官。"
+  },
+  {
+   "start": 269.09,
+   "end": 270.04,
+   "en": "Oh, can't I?",
+   "i": 106,
+   "zh": "哦，我不能吗？"
+  },
+  {
+   "start": 270.041,
+   "end": 272.04,
+   "en": "You have to pick another winner.",
+   "i": 107,
+   "zh": "你必须选出另一个获胜者。"
+  },
+  {
+   "start": 272.041,
+   "end": 273.04,
+   "en": "OK.",
+   "i": 108,
+   "zh": "好的。"
+  },
+  {
+   "start": 273.041,
+   "end": 275.04,
+   "en": "The carrot wins.",
+   "i": 109,
+   "zh": "胡萝卜获胜。"
+  },
+  {
+   "start": 275.24,
+   "end": 276.04,
+   "en": "Hurray!",
+   "i": 110,
+   "zh": "好耶！"
+  },
+  {
+   "start": 276.041,
+   "end": 278.04,
+   "en": "Thank you.",
+   "i": 111,
+   "zh": "谢谢。"
+  },
+  {
+   "start": 278.041,
+   "end": 280.04,
+   "en": "Peppa loves fancy dress parties.",
+   "i": 112,
+   "zh": "佩奇喜欢化装舞会。"
+  },
+  {
+   "start": 280.041,
+   "end": 283.04,
+   "en": "Everyone loves fancy dress parties.",
+   "i": 113,
+   "zh": "每个人都喜欢化装舞会。"
+  }
+ ]
+}

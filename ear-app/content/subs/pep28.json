@@ -1,0 +1,561 @@
+{
+ "id": "pep28",
+ "title": "My Cousin Chloé",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 4.88,
+   "end": 9.182,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 9.206,
+   "end": 12.88,
+   "en": "This is Mummy Pig. And this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。"
+  },
+  {
+   "start": 12.881,
+   "end": 14.88,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 17.88,
+   "end": 20.88,
+   "en": "My cousin, Chloe.",
+   "i": 4,
+   "zh": "我的表弟，克洛伊。"
+  },
+  {
+   "start": 20.881,
+   "end": 23.88,
+   "en": "Peppa and George are playing in the garden.",
+   "i": 5,
+   "zh": "佩奇和乔治正在花园里玩耍。"
+  },
+  {
+   "start": 23.881,
+   "end": 25.88,
+   "en": "To me, George!",
+   "i": 6,
+   "zh": "对我来说，乔治！"
+  },
+  {
+   "start": 25.881,
+   "end": 33.88,
+   "en": "You threw the ball too hard, George. So the rules say I win. Now it's my turn.",
+   "i": 7,
+   "zh": "你把球扔得太用力了，乔治。所以规则说我赢了。现在轮到我了。"
+  },
+  {
+   "start": 35.88,
+   "end": 37.88,
+   "en": "I win again!",
+   "i": 8,
+   "zh": "我又赢了！"
+  },
+  {
+   "start": 37.881,
+   "end": 41.88,
+   "en": "Peppa! George! Today your big cousin Chloe is coming to visit.",
+   "i": 9,
+   "zh": "佩奇！乔治！今天你的大克洛伊姐姐要来拜访。"
+  },
+  {
+   "start": 41.98,
+   "end": 43.88,
+   "en": "Yippee! Cousin Chloe!",
+   "i": 10,
+   "zh": "耶皮！克洛伊姐姐！"
+  },
+  {
+   "start": 44.054,
+   "end": 47.073,
+   "en": "George, Chloe's a big girl, like me.",
+   "i": 11,
+   "zh": "乔治，克洛伊是个大女孩，和我一样。"
+  },
+  {
+   "start": 47.097,
+   "end": 51.892,
+   "en": "So don't be sad if she finds you too little to play with.",
+   "i": 12,
+   "zh": "因此，如果她发现你太小而无法玩耍，请不要伤心。"
+  },
+  {
+   "start": 52.029,
+   "end": 55.88,
+   "en": "I'm sure Chloe will play with both of you.",
+   "i": 13,
+   "zh": "我确信克洛伊会和你们俩一起玩。"
+  },
+  {
+   "start": 56.179,
+   "end": 57.88,
+   "en": "Chloe's here!",
+   "i": 14,
+   "zh": "克洛伊来了！"
+  },
+  {
+   "start": 57.881,
+   "end": 61.723,
+   "en": "Auntie Pig has brought Chloe to spend the day at Peppa's house.",
+   "i": 15,
+   "zh": "猪阿姨带着克洛伊去佩奇家玩了一天。"
+  },
+  {
+   "start": 61.747,
+   "end": 63.892,
+   "en": "Chloe is Peppa and George's cousin.",
+   "i": 16,
+   "zh": "克洛伊是佩奇和乔治的表弟。"
+  },
+  {
+   "start": 63.893,
+   "end": 66.88,
+   "en": "Chloe is a bit older than Peppa and George.",
+   "i": 17,
+   "zh": "克洛伊比佩奇和乔治年长一点。"
+  },
+  {
+   "start": 66.881,
+   "end": 68.88,
+   "en": "Hello, Chloe.",
+   "i": 18,
+   "zh": "你好，克洛伊。"
+  },
+  {
+   "start": 68.881,
+   "end": 70.88,
+   "en": "Hello, Peppa. Hello, George.",
+   "i": 19,
+   "zh": "你好，佩奇。你好，乔治。"
+  },
+  {
+   "start": 70.881,
+   "end": 73.88,
+   "en": "See you later.",
+   "i": 20,
+   "zh": "回头见。"
+  },
+  {
+   "start": 74.229,
+   "end": 75.88,
+   "en": "Do you want to play a game?",
+   "i": 21,
+   "zh": "你想玩游戏吗？"
+  },
+  {
+   "start": 76.079,
+   "end": 77.88,
+   "en": "Yes, let's play catch.",
+   "i": 22,
+   "zh": "是的，我们来玩接球吧。"
+  },
+  {
+   "start": 77.881,
+   "end": 79.88,
+   "en": "Peppa loves playing catch.",
+   "i": 23,
+   "zh": "佩奇喜欢玩接球游戏。"
+  },
+  {
+   "start": 79.881,
+   "end": 81.88,
+   "en": "Do you still play catch?",
+   "i": 24,
+   "zh": "你还玩接球吗？"
+  },
+  {
+   "start": 81.881,
+   "end": 83.88,
+   "en": "That's a game for little children.",
+   "i": 25,
+   "zh": "这是小孩子的游戏。"
+  },
+  {
+   "start": 83.881,
+   "end": 88.88,
+   "en": "Oh. We only play catch because George likes it.",
+   "i": 26,
+   "zh": "哦。我们只玩接球游戏，因为乔治喜欢它。"
+  },
+  {
+   "start": 88.881,
+   "end": 94.88,
+   "en": "OK, let's play it for George. Do you play it with the proper rules or the baby rules?",
+   "i": 27,
+   "zh": "好的，让我们为乔治演奏吧。您是否按照正确的规则或婴儿规则进行游戏？"
+  },
+  {
+   "start": 94.881,
+   "end": 96.88,
+   "en": "Proper rules. I'll start.",
+   "i": 28,
+   "zh": "正确的规则。我开始吧。"
+  },
+  {
+   "start": 96.881,
+   "end": 98.88,
+   "en": "Peppa, you're it.",
+   "i": 29,
+   "zh": "佩奇，就是你了。"
+  },
+  {
+   "start": 99.129,
+   "end": 100.88,
+   "en": "Catch me if you can.",
+   "i": 30,
+   "zh": "如果可以的话请联系我。"
+  },
+  {
+   "start": 100.881,
+   "end": 104.88,
+   "en": "Peppa is it. She has to chase Chloe and George.",
+   "i": 31,
+   "zh": "佩奇就是它。她必须去追克洛伊和乔治。"
+  },
+  {
+   "start": 104.881,
+   "end": 106.88,
+   "en": "Can't catch me!",
+   "i": 32,
+   "zh": "抓不到我！"
+  },
+  {
+   "start": 106.881,
+   "end": 108.88,
+   "en": "George!",
+   "i": 33,
+   "zh": "乔治！"
+  },
+  {
+   "start": 108.881,
+   "end": 112.88,
+   "en": "I can easily catch you. You're so little.",
+   "i": 34,
+   "zh": "我可以轻松抓住你。你还这么小啊"
+  },
+  {
+   "start": 112.881,
+   "end": 116.88,
+   "en": "That's not fair. You're helping George.",
+   "i": 35,
+   "zh": "这不公平。你正在帮助乔治。"
+  },
+  {
+   "start": 116.881,
+   "end": 118.88,
+   "en": "That's because he's little.",
+   "i": 36,
+   "zh": "那是因为他还小。"
+  },
+  {
+   "start": 118.881,
+   "end": 120.88,
+   "en": "Do you want me to help you?",
+   "i": 37,
+   "zh": "你需要我帮助你吗？"
+  },
+  {
+   "start": 120.881,
+   "end": 123.88,
+   "en": "No, I don't need help. I'm a big girl like you.",
+   "i": 38,
+   "zh": "不，我不需要帮助。我和你一样是个大女孩。"
+  },
+  {
+   "start": 123.881,
+   "end": 127.88,
+   "en": "Come on then, Peppa. Try and catch us.",
+   "i": 39,
+   "zh": "加油吧，佩奇。尝试抓住我们。"
+  },
+  {
+   "start": 127.881,
+   "end": 130.88,
+   "en": "Can't catch us.",
+   "i": 40,
+   "zh": "抓不到我们。"
+  },
+  {
+   "start": 130.881,
+   "end": 132.88,
+   "en": "Can't catch us.",
+   "i": 41,
+   "zh": "抓不到我们。"
+  },
+  {
+   "start": 132.881,
+   "end": 135.88,
+   "en": "This is a silly game. Can we play something else?",
+   "i": 42,
+   "zh": "这是一个愚蠢的游戏。我们可以玩点别的吗？"
+  },
+  {
+   "start": 135.881,
+   "end": 141.88,
+   "en": "OK, I know a really good game for big children. It's called Sly Fox.",
+   "i": 43,
+   "zh": "好的，我知道一个非常适合大孩子的游戏。它的名字叫狡猾的狐狸。"
+  },
+  {
+   "start": 141.881,
+   "end": 145.88,
+   "en": "Sly Fox? I want to play Sly Fox.",
+   "i": 44,
+   "zh": "狡猾的狐狸？我想扮演狡猾的狐狸。"
+  },
+  {
+   "start": 146.78,
+   "end": 147.88,
+   "en": "What is it?",
+   "i": 45,
+   "zh": "这是什么？"
+  },
+  {
+   "start": 147.93,
+   "end": 153.88,
+   "en": "One person is the Sly Fox and the others creep up on them.",
+   "i": 46,
+   "zh": "一个人是狡猾的狐狸，其他人则向他们爬去。"
+  },
+  {
+   "start": 153.905,
+   "end": 156.88,
+   "en": "Me, me. I want to be the Sly Fox.",
+   "i": 47,
+   "zh": "我，我。我想成为狡猾的狐狸。"
+  },
+  {
+   "start": 156.881,
+   "end": 161.88,
+   "en": "Peppa is the Sly Fox. While her back is turned, the others creep up on her.",
+   "i": 48,
+   "zh": "佩奇是狡猾的狐狸。当她转身时，其他人却悄悄向她袭来。"
+  },
+  {
+   "start": 161.881,
+   "end": 166.88,
+   "en": "But if Peppa turns and sees someone move, they have to go back to the start.",
+   "i": 49,
+   "zh": "但如果佩奇转身看到有人移动，他们就得回到起点。"
+  },
+  {
+   "start": 167.08,
+   "end": 171.88,
+   "en": "George, I saw you move. Back to the start.",
+   "i": 50,
+   "zh": "乔治，我看到你动了。回到起点。"
+  },
+  {
+   "start": 171.881,
+   "end": 173.88,
+   "en": "Got you. I win.",
+   "i": 51,
+   "zh": "明白了。我赢了。"
+  },
+  {
+   "start": 174.23,
+   "end": 175.88,
+   "en": "You moved before I was ready.",
+   "i": 52,
+   "zh": "在我准备好之前你就搬走了。"
+  },
+  {
+   "start": 175.881,
+   "end": 180.88,
+   "en": "The rules say I can move when I like, don't they, George?",
+   "i": 53,
+   "zh": "规则说我可以随心所欲地移动，不是吗，乔治？"
+  },
+  {
+   "start": 181.38,
+   "end": 183.88,
+   "en": "Now it's Chloe's turn to be the Sly Fox.",
+   "i": 54,
+   "zh": "现在轮到克洛伊扮演狡猾的狐狸了。"
+  },
+  {
+   "start": 187.18,
+   "end": 190.88,
+   "en": "Peppa and George must stay very still.",
+   "i": 55,
+   "zh": "佩奇和乔治必须保持静止。"
+  },
+  {
+   "start": 190.881,
+   "end": 194.88,
+   "en": "Peppa, I saw you move. Back to the start.",
+   "i": 56,
+   "zh": "佩奇，我看到你动了。回到起点。"
+  },
+  {
+   "start": 194.881,
+   "end": 197.88,
+   "en": "It's not fair. You look too long.",
+   "i": 57,
+   "zh": "这不公平。你看起来太长了。"
+  },
+  {
+   "start": 197.881,
+   "end": 202.88,
+   "en": "The rules say I can look as long as I want. Back to the start.",
+   "i": 58,
+   "zh": "规则说我想看多久就看多久。回到起点。"
+  },
+  {
+   "start": 206.08,
+   "end": 207.88,
+   "en": "George is the winner.",
+   "i": 59,
+   "zh": "乔治是获胜者。"
+  },
+  {
+   "start": 207.881,
+   "end": 209.88,
+   "en": "Can we play a different game?",
+   "i": 60,
+   "zh": "我们可以玩不同的游戏吗？"
+  },
+  {
+   "start": 209.881,
+   "end": 212.88,
+   "en": "Yes, but as long as it's a grown-up game.",
+   "i": 61,
+   "zh": "是的，但只要它是成人游戏。"
+  },
+  {
+   "start": 212.881,
+   "end": 217.88,
+   "en": "I know. Let's play my favourite game. It's very grown-up.",
+   "i": 62,
+   "zh": "我知道。我们来玩我最喜欢的游戏吧。已经非常成熟了。"
+  },
+  {
+   "start": 218.28,
+   "end": 222.88,
+   "en": "George, do you know what Peppa's favourite game is?",
+   "i": 63,
+   "zh": "乔治，你知道佩奇最喜欢的游戏是什么吗？"
+  },
+  {
+   "start": 222.881,
+   "end": 226.88,
+   "en": "Peppa's favourite game is jumping up and down in muddy puddles.",
+   "i": 64,
+   "zh": "佩奇最喜欢的游戏是在泥坑里跳来跳去。"
+  },
+  {
+   "start": 226.881,
+   "end": 231.88,
+   "en": "George, if you jump in puddles, you must wear your boots.",
+   "i": 65,
+   "zh": "乔治，如果你跳泥坑，你必须穿靴子。"
+  },
+  {
+   "start": 231.881,
+   "end": 234.88,
+   "en": "I've brought some boots for you too, Chloe.",
+   "i": 66,
+   "zh": "我也给你带来了一些靴子，克洛伊。"
+  },
+  {
+   "start": 234.881,
+   "end": 238.88,
+   "en": "I'm too grown-up to jump in muddy puddles.",
+   "i": 67,
+   "zh": "我已经长大了，不能跳泥坑了。"
+  },
+  {
+   "start": 238.93,
+   "end": 241.88,
+   "en": "Oh, so will I.",
+   "i": 68,
+   "zh": "哦，我也会的。"
+  },
+  {
+   "start": 241.881,
+   "end": 245.88,
+   "en": "George loves jumping in muddy puddles.",
+   "i": 69,
+   "zh": "乔治喜欢在泥坑里跳。"
+  },
+  {
+   "start": 246.28,
+   "end": 250.88,
+   "en": "Secretly, Peppa would love to jump in the puddle, but she wants to look grown-up.",
+   "i": 70,
+   "zh": "佩奇偷偷地很想跳进泥坑，但她想让自己看起来像个大人。"
+  },
+  {
+   "start": 250.881,
+   "end": 253.88,
+   "en": "I hear there's some puddle jumping going on.",
+   "i": 71,
+   "zh": "听说有泥坑跳跃活动。"
+  },
+  {
+   "start": 253.881,
+   "end": 257.88,
+   "en": "Mummy Pig and Daddy Pig love jumping in muddy puddles.",
+   "i": 72,
+   "zh": "猪妈妈和猪爸爸最喜欢跳泥坑了。"
+  },
+  {
+   "start": 257.881,
+   "end": 259.88,
+   "en": "It does look fun.",
+   "i": 73,
+   "zh": "看起来确实很有趣。"
+  },
+  {
+   "start": 260.03,
+   "end": 261.88,
+   "en": "Yes, it does.",
+   "i": 74,
+   "zh": "是的，确实如此。"
+  },
+  {
+   "start": 264.88,
+   "end": 268.88,
+   "en": "Maybe there's a rule that says big girls can jump in muddy puddles.",
+   "i": 75,
+   "zh": "也许有规定说大女孩可以跳泥坑。"
+  },
+  {
+   "start": 268.881,
+   "end": 270.88,
+   "en": "Yes, that's a good rule.",
+   "i": 76,
+   "zh": "是的，这是一个很好的规则。"
+  },
+  {
+   "start": 271.88,
+   "end": 274.88,
+   "en": "Race you! Race you!",
+   "i": 77,
+   "zh": "与你赛跑！与你赛跑！"
+  },
+  {
+   "start": 274.881,
+   "end": 278.88,
+   "en": "Peppa and Chloe love jumping up and down in muddy puddles.",
+   "i": 78,
+   "zh": "佩奇和克洛伊喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 278.881,
+   "end": 284.88,
+   "en": "Everyone loves jumping up and down in muddy puddles, even grown-up girls.",
+   "i": 79,
+   "zh": "每个人都喜欢在泥坑里跳来跳去，甚至成年女孩也不例外。"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "pep19",
+ "words": [
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "shoes",
+   "zh": "鞋",
+   "emoji": "👟",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "new",
+   "zh": "新的",
+   "emoji": "✨",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "red",
+   "zh": "红色",
+   "emoji": "🔴",
+   "line": 18
+  },
+  {
+   "type": "phrase",
+   "en": "Hello, Miss Rabbit.",
+   "zh": "你好，兔小姐。",
+   "emoji": "💬",
+   "line": 22
+  },
+  {
+   "type": "phrase",
+   "en": "Good night, Mummy.",
+   "zh": "晚安，妈妈。",
+   "emoji": "💬",
+   "line": 49
+  },
+  {
+   "type": "word",
+   "en": "boots",
+   "zh": "靴子",
+   "emoji": "👢",
+   "line": 53
+  },
+  {
+   "type": "word",
+   "en": "puddle",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 62
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 62
+  }
+ ]
+}

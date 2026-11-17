@@ -1,0 +1,673 @@
+{
+ "id": "pep43",
+ "title": "Tidying Up",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.615,
+   "en": "I'm Peppa Pig.",
+   "i": 1,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 3.616,
+   "end": 7.12,
+   "en": "This is my little brother, George.",
+   "i": 2,
+   "zh": "这是我的弟弟乔治。"
+  },
+  {
+   "start": 7.121,
+   "end": 8.898,
+   "en": "This is Mummy Pig.",
+   "i": 3,
+   "zh": "这是猪妈妈。"
+  },
+  {
+   "start": 8.899,
+   "end": 11.029,
+   "en": "-And this is Daddy Pig.",
+   "i": 4,
+   "zh": "-这是猪爸爸。"
+  },
+  {
+   "start": 11.03,
+   "end": 14.88,
+   "en": "Peppa Pig!",
+   "i": 5,
+   "zh": "佩奇！"
+  },
+  {
+   "start": 18.88,
+   "end": 20.28,
+   "en": "Tidying up.",
+   "i": 6,
+   "zh": "正在整理。"
+  },
+  {
+   "start": 23.08,
+   "end": 25.92,
+   "en": "Peppa and George are in their bedroom playing with their toys.",
+   "i": 7,
+   "zh": "佩奇和乔治正在卧室里玩玩具。"
+  },
+  {
+   "start": 25.97,
+   "end": 30.16,
+   "en": "-George, let's play dollies and dinosaurs.",
+   "i": 8,
+   "zh": "-乔治，我们玩洋娃娃和恐龙吧。"
+  },
+  {
+   "start": 30.161,
+   "end": 35.04,
+   "en": "- What is that?",
+   "i": 9,
+   "zh": "- 那是什么？"
+  },
+  {
+   "start": 35.089,
+   "end": 38.64,
+   "en": "It looks like a horrible monster. -Dinosaur.",
+   "i": 10,
+   "zh": "它看起来像一个可怕的怪物。-恐龙。"
+  },
+  {
+   "start": 41.389,
+   "end": 43.12,
+   "en": "It's a dinosaur!",
+   "i": 11,
+   "zh": "这是一只恐龙！"
+  },
+  {
+   "start": 43.144,
+   "end": 45.04,
+   "en": "Help! Help!",
+   "i": 12,
+   "zh": "救命！帮助！"
+  },
+  {
+   "start": 45.139,
+   "end": 47.9,
+   "en": "Help!",
+   "i": 13,
+   "zh": "救命！"
+  },
+  {
+   "start": 47.901,
+   "end": 48.88,
+   "en": "Help!",
+   "i": 14,
+   "zh": "救命！"
+  },
+  {
+   "start": 50.641,
+   "end": 53.6,
+   "en": "Daddy Pig is in the sitting room reading his newspaper.",
+   "i": 15,
+   "zh": "猪爸爸正在客厅里看报纸。"
+  },
+  {
+   "start": 53.601,
+   "end": 55.52,
+   "en": "Mummy Pig is reading her book.",
+   "i": 16,
+   "zh": "猪妈妈正在看她的书。"
+  },
+  {
+   "start": 55.521,
+   "end": 58.68,
+   "en": "Help! Help! -What are they doing?",
+   "i": 17,
+   "zh": "救命！帮助！-他们在做什么？"
+  },
+  {
+   "start": 58.681,
+   "end": 61.2,
+   "en": "-Help! Help!",
+   "i": 18,
+   "zh": "救命！帮助！"
+  },
+  {
+   "start": 63.441,
+   "end": 66.28,
+   "en": "Peppa, George, what's going on?",
+   "i": 19,
+   "zh": "佩奇，乔治，怎么了？"
+  },
+  {
+   "start": 70.721,
+   "end": 72.32,
+   "en": "What's all this noise?",
+   "i": 20,
+   "zh": "这是什么噪音？"
+  },
+  {
+   "start": 72.321,
+   "end": 74.28,
+   "en": "Whoa!",
+   "i": 21,
+   "zh": "哇！"
+  },
+  {
+   "start": 74.281,
+   "end": 75.72,
+   "en": "Help!",
+   "i": 22,
+   "zh": "救命！"
+  },
+  {
+   "start": 75.721,
+   "end": 77.56,
+   "en": "Oh! Oh!",
+   "i": 23,
+   "zh": "哦！哦！-"
+  },
+  {
+   "start": 80.059,
+   "end": 82.12,
+   "en": "What on earth is going on?",
+   "i": 24,
+   "zh": "到底是怎么回事？"
+  },
+  {
+   "start": 83.469,
+   "end": 85.2,
+   "en": "What a lot of noise!",
+   "i": 25,
+   "zh": "噪音太大了！"
+  },
+  {
+   "start": 85.449,
+   "end": 87.52,
+   "en": "And look at all this mess on the floor.",
+   "i": 26,
+   "zh": "看看地板上这些乱七八糟的东西。"
+  },
+  {
+   "start": 87.569,
+   "end": 89.76,
+   "en": "Someone could trip over and hurt themselves.",
+   "i": 27,
+   "zh": "有人可能会被绊倒并受伤。"
+  },
+  {
+   "start": 89.909,
+   "end": 93.16,
+   "en": "Someone did trip over and hurt themselves.",
+   "i": 28,
+   "zh": "确实有人绊倒受伤了。"
+  },
+  {
+   "start": 93.409,
+   "end": 95.52,
+   "en": "Oh, dear. Poor Daddy Pig.",
+   "i": 29,
+   "zh": "哦，亲爱的。可怜的猪爸爸。"
+  },
+  {
+   "start": 95.619,
+   "end": 98.44,
+   "en": "-Come on, children. Let's do a bit of tidying up.",
+   "i": 30,
+   "zh": "-来吧，孩子们。让我们做一些整理工作。"
+  },
+  {
+   "start": 98.539,
+   "end": 102.16,
+   "en": "But, Mummy, we're playing dollies and dinosaurs.",
+   "i": 31,
+   "zh": "但是，妈妈，我们正在玩洋娃娃和恐龙。"
+  },
+  {
+   "start": 102.259,
+   "end": 105.16,
+   "en": "You can play again when you've tidied up.",
+   "i": 32,
+   "zh": "收拾好后可以再玩。"
+  },
+  {
+   "start": 105.359,
+   "end": 107.64,
+   "en": "But it's all George's mess.",
+   "i": 33,
+   "zh": "但这都是乔治的烂摊子。"
+  },
+  {
+   "start": 107.789,
+   "end": 109.36,
+   "en": "Is it really?",
+   "i": 34,
+   "zh": "真的吗？"
+  },
+  {
+   "start": 109.459,
+   "end": 112.32,
+   "en": "So this must be one of George's lovely dresses.",
+   "i": 35,
+   "zh": "所以这一定是乔治最可爱的衣服之一。"
+  },
+  {
+   "start": 113.321,
+   "end": 116.0,
+   "en": "No.",
+   "i": 36,
+   "zh": "号"
+  },
+  {
+   "start": 116.249,
+   "end": 118.72,
+   "en": "Or maybe some of the mess is mine.",
+   "i": 37,
+   "zh": "或者也许有些混乱是我的。"
+  },
+  {
+   "start": 118.72,
+   "end": 120.905,
+   "en": "Right.",
+   "i": 38,
+   "zh": "对。"
+  },
+  {
+   "start": 121.005,
+   "end": 124.28,
+   "en": "I'll help George tidy and Mummy Pig can help Peppa.",
+   "i": 39,
+   "zh": "我会帮乔治打扫卫生，猪妈妈会帮佩奇。"
+  },
+  {
+   "start": 124.329,
+   "end": 127.8,
+   "en": "We can have a race. Girls against boys.",
+   "i": 40,
+   "zh": "我们可以来一场比赛。女孩对抗男孩。"
+  },
+  {
+   "start": 127.999,
+   "end": 130.84,
+   "en": "Good idea. Let's see who can tidy up first.",
+   "i": 41,
+   "zh": "好主意。看看谁能先收拾好。"
+  },
+  {
+   "start": 131.04,
+   "end": 133.36,
+   "en": "Ready, steady, go!",
+   "i": 42,
+   "zh": "各就各位，预备，开始！"
+  },
+  {
+   "start": 133.61,
+   "end": 135.84,
+   "en": "We're winning.",
+   "i": 43,
+   "zh": "我们赢了。"
+  },
+  {
+   "start": 135.841,
+   "end": 137.44,
+   "en": "No, you're not.",
+   "i": 44,
+   "zh": "不，你不是。"
+  },
+  {
+   "start": 137.441,
+   "end": 139.97,
+   "en": "Look.",
+   "i": 45,
+   "zh": "看。"
+  },
+  {
+   "start": 139.971,
+   "end": 140.916,
+   "en": "There.",
+   "i": 46,
+   "zh": "好啦。"
+  },
+  {
+   "start": 140.94,
+   "end": 143.44,
+   "en": "Oh! -What's this?",
+   "i": 47,
+   "zh": "哦！-这是什么？"
+  },
+  {
+   "start": 143.54,
+   "end": 146.16,
+   "en": "Teddy! I've been looking for you.",
+   "i": 48,
+   "zh": "泰迪！我一直在找你。"
+  },
+  {
+   "start": 146.26,
+   "end": 148.84,
+   "en": "Quick, Peppa. Put Teddy in your toy basket.",
+   "i": 49,
+   "zh": "快点，佩奇。把泰迪放在你的玩具篮里。"
+  },
+  {
+   "start": 148.841,
+   "end": 153.145,
+   "en": "There.",
+   "i": 50,
+   "zh": "那里。"
+  },
+  {
+   "start": 153.195,
+   "end": 155.04,
+   "en": "Now these books.",
+   "i": 51,
+   "zh": "现在这些书。"
+  },
+  {
+   "start": 158.03,
+   "end": 159.04,
+   "en": "Lovely.",
+   "i": 52,
+   "zh": "可爱。"
+  },
+  {
+   "start": 164.081,
+   "end": 166.08,
+   "en": "What do we have here?",
+   "i": 53,
+   "zh": "我们这里有什么？"
+  },
+  {
+   "start": 166.23,
+   "end": 168.76,
+   "en": "Dinosaur! -That's right.",
+   "i": 54,
+   "zh": "恐龙！-这是正确的。"
+  },
+  {
+   "start": 168.885,
+   "end": 170.6,
+   "en": "It's a dinosaur book.",
+   "i": 55,
+   "zh": "这是一本恐龙书。"
+  },
+  {
+   "start": 170.601,
+   "end": 173.24,
+   "en": "It's George's pop-up dinosaur book.",
+   "i": 56,
+   "zh": "这是乔治的立体恐龙书。"
+  },
+  {
+   "start": 175.805,
+   "end": 179.36,
+   "en": "This is a Tyrannosaurus Rex.",
+   "i": 57,
+   "zh": "这是霸王龙。"
+  },
+  {
+   "start": 179.361,
+   "end": 181.84,
+   "en": "Tyrannosaurus Rex.",
+   "i": 58,
+   "zh": "霸王龙。"
+  },
+  {
+   "start": 181.89,
+   "end": 184.68,
+   "en": "That's right.",
+   "i": 59,
+   "zh": "没错。"
+  },
+  {
+   "start": 184.83,
+   "end": 188.92,
+   "en": "Oh, this is a Brontosaurus.",
+   "i": 60,
+   "zh": "哦，这是雷龙。"
+  },
+  {
+   "start": 189.195,
+   "end": 190.52,
+   "en": "Brontosaurus.",
+   "i": 61,
+   "zh": "雷龙。"
+  },
+  {
+   "start": 190.545,
+   "end": 193.32,
+   "en": "Yes.",
+   "i": 62,
+   "zh": "是的。"
+  },
+  {
+   "start": 193.321,
+   "end": 196.96,
+   "en": "And this is a Triceratops.",
+   "i": 63,
+   "zh": "这是三角龙。"
+  },
+  {
+   "start": 197.085,
+   "end": 198.52,
+   "en": "Triceratops.",
+   "i": 64,
+   "zh": "三角龙。"
+  },
+  {
+   "start": 198.521,
+   "end": 202.0,
+   "en": "Well done, George.",
+   "i": 65,
+   "zh": "干得好，乔治。"
+  },
+  {
+   "start": 202.001,
+   "end": 204.16,
+   "en": "George loves dinosaurs.",
+   "i": 66,
+   "zh": "乔治喜欢恐龙。"
+  },
+  {
+   "start": 204.161,
+   "end": 207.76,
+   "en": "Daddy, George, you've stopped tidying up.",
+   "i": 67,
+   "zh": "爸爸，乔治，你已经不再收拾东西了。"
+  },
+  {
+   "start": 207.761,
+   "end": 209.48,
+   "en": "You'll lose the race.",
+   "i": 68,
+   "zh": "你会输掉比赛。"
+  },
+  {
+   "start": 209.53,
+   "end": 212.6,
+   "en": "-Oh, yes. The race.",
+   "i": 69,
+   "zh": "-噢，是的。比赛。"
+  },
+  {
+   "start": 212.601,
+   "end": 215.08,
+   "en": "Come on, George. Put this back on the bookshelf.",
+   "i": 70,
+   "zh": "来吧，乔治。把这个放回书架上。"
+  },
+  {
+   "start": 217.521,
+   "end": 220.52,
+   "en": "Daddy, you're very slow at tidying up.",
+   "i": 71,
+   "zh": "爸爸，你收拾东西太慢了。"
+  },
+  {
+   "start": 220.521,
+   "end": 222.36,
+   "en": "Mummy and I are going to win.",
+   "i": 72,
+   "zh": "妈妈和我会赢。"
+  },
+  {
+   "start": 222.361,
+   "end": 224.32,
+   "en": "No, we're going to win.",
+   "i": 73,
+   "zh": "不，我们会赢。"
+  },
+  {
+   "start": 225.681,
+   "end": 232.159,
+   "en": "We win.",
+   "i": 74,
+   "zh": "我们赢了。"
+  },
+  {
+   "start": 232.16,
+   "end": 233.16,
+   "en": "No, we win.",
+   "i": 75,
+   "zh": "不，我们赢了。"
+  },
+  {
+   "start": 233.21,
+   "end": 235.821,
+   "en": "We all win.",
+   "i": 76,
+   "zh": "我们都赢了。"
+  },
+  {
+   "start": 235.896,
+   "end": 238.12,
+   "en": "Look how tidy the room is.",
+   "i": 77,
+   "zh": "看房间多整洁啊。"
+  },
+  {
+   "start": 238.22,
+   "end": 240.0,
+   "en": "Hooray! -Hooray!",
+   "i": 78,
+   "zh": "万岁！-万岁！"
+  },
+  {
+   "start": 240.1,
+   "end": 241.56,
+   "en": "What a tidy room.",
+   "i": 79,
+   "zh": "房间真整洁。"
+  },
+  {
+   "start": 241.61,
+   "end": 244.12,
+   "en": "Well done, everyone.",
+   "i": 80,
+   "zh": "大家干得好。"
+  },
+  {
+   "start": 245.22,
+   "end": 248.04,
+   "en": "Mummy, now that we've tidied our room,",
+   "i": 81,
+   "zh": "妈妈，现在我们已经收拾好房间了，"
+  },
+  {
+   "start": 248.14,
+   "end": 250.64,
+   "en": "can we play dollies and dinosaurs again?",
+   "i": 82,
+   "zh": "我们可以再玩洋娃娃和恐龙吗？"
+  },
+  {
+   "start": 250.74,
+   "end": 253.6,
+   "en": "Yes. You can carry on with your game now.",
+   "i": 83,
+   "zh": "是的。您现在可以继续您的游戏了。"
+  },
+  {
+   "start": 253.7,
+   "end": 255.04,
+   "en": "Yippee!",
+   "i": 84,
+   "zh": "太棒啦！"
+  },
+  {
+   "start": 255.19,
+   "end": 256.01,
+   "en": "Where are my dolls?",
+   "i": 85,
+   "zh": "我的娃娃在哪里？"
+  },
+  {
+   "start": 256.011,
+   "end": 260.519,
+   "en": "-Where's Mr Dinosaur?",
+   "i": 86,
+   "zh": "-恐龙先生在哪里？-"
+  },
+  {
+   "start": 264.52,
+   "end": 266.064,
+   "en": "Here they are.",
+   "i": 87,
+   "zh": "他们在这里。"
+  },
+  {
+   "start": 266.065,
+   "end": 268.282,
+   "en": "-Dinosaur.",
+   "i": 88,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 268.283,
+   "end": 272.92,
+   "en": "It's a dinosaur. Help! Help!",
+   "i": 89,
+   "zh": "这是一只恐龙。帮助！帮助！"
+  },
+  {
+   "start": 272.921,
+   "end": 275.6,
+   "en": "Oh, dear. The room is untidy again.",
+   "i": 90,
+   "zh": "哦，亲爱的。房间又乱了。"
+  },
+  {
+   "start": 275.7,
+   "end": 277.24,
+   "en": "Oh. -Oh.",
+   "i": 91,
+   "zh": "哦。-哦。"
+  },
+  {
+   "start": 277.29,
+   "end": 280.4,
+   "en": "Well, at least it was tidy for a bit.",
+   "i": 92,
+   "zh": "好吧，至少整洁了一点。"
+  },
+  {
+   "start": 285.04,
+   "end": 288.92,
+   "en": "- Peppa Pig",
+   "i": 93,
+   "zh": "- 小猪佩奇"
+  },
+  {
+   "start": 292.081,
+   "end": 293.72,
+   "en": "Peppa Pig",
+   "i": 94,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 296.241,
+   "end": 297.92,
+   "en": "Peppa Pig",
+   "i": 95,
+   "zh": "小猪佩奇"
+  }
+ ]
+}

@@ -1,0 +1,610 @@
+{
+ "id": "pep48",
+ "title": "Grandpa Pig's Boat",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.0,
+   "end": 7.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.326,
+   "end": 11.0,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.001,
+   "end": 15.0,
+   "en": "Peppa Pig.",
+   "i": 3,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 18.1,
+   "end": 20.0,
+   "en": "Grandpa Pig's Boat.",
+   "i": 4,
+   "zh": "猪爷爷的船。"
+  },
+  {
+   "start": 20.2,
+   "end": 25.0,
+   "en": "Granny Pig and Grandpa Pig are taking Peppa and George out for a day on the river.",
+   "i": 5,
+   "zh": "猪奶奶和猪爷爷要带佩奇和乔治去河里玩一天。"
+  },
+  {
+   "start": 25.001,
+   "end": 28.0,
+   "en": "Welcome aboard, me hearties!",
+   "i": 6,
+   "zh": "欢迎加入，亲爱的！"
+  },
+  {
+   "start": 28.001,
+   "end": 32.0,
+   "en": "Peppa, George, let's put your life jackets on.",
+   "i": 7,
+   "zh": "佩奇，乔治，我们穿上救生衣吧。"
+  },
+  {
+   "start": 32.001,
+   "end": 36.0,
+   "en": "When Peppa and George are on Grandpa Pig's boat, they must wear life jackets.",
+   "i": 8,
+   "zh": "佩奇和乔治在猪爷爷的船上时，必须穿救生衣。"
+  },
+  {
+   "start": 36.025,
+   "end": 40.0,
+   "en": "On this boat, I'm the captain.",
+   "i": 9,
+   "zh": "在这条船上，我是船长。"
+  },
+  {
+   "start": 40.001,
+   "end": 41.0,
+   "en": "Aye, aye, captain.",
+   "i": 10,
+   "zh": "是，船长。"
+  },
+  {
+   "start": 41.001,
+   "end": 43.0,
+   "en": "Aye, aye, captain.",
+   "i": 11,
+   "zh": "是，船长。"
+  },
+  {
+   "start": 43.001,
+   "end": 48.0,
+   "en": "When Captain and Grandpa tells you all to do something, you must do it.",
+   "i": 12,
+   "zh": "当队长和爷爷告诉你们要做某事时，你们就必须去做。"
+  },
+  {
+   "start": 48.199,
+   "end": 51.0,
+   "en": "Unless it's something silly.",
+   "i": 13,
+   "zh": "除非是一些愚蠢的事情。"
+  },
+  {
+   "start": 51.001,
+   "end": 54.0,
+   "en": "Captain and Grandpa never says anything silly.",
+   "i": 14,
+   "zh": "队长和爷爷从来不说傻话。"
+  },
+  {
+   "start": 54.001,
+   "end": 57.0,
+   "en": "Of course not, Captain and Grandpa.",
+   "i": 15,
+   "zh": "当然不是，队长和爷爷。"
+  },
+  {
+   "start": 57.001,
+   "end": 60.0,
+   "en": "George, raise the flag.",
+   "i": 16,
+   "zh": "乔治，升旗。"
+  },
+  {
+   "start": 63.174,
+   "end": 65.0,
+   "en": "Peppa, ring the bell.",
+   "i": 17,
+   "zh": "佩奇，按铃。"
+  },
+  {
+   "start": 65.001,
+   "end": 67.0,
+   "en": "Aye, aye, captain.",
+   "i": 18,
+   "zh": "是，船长。"
+  },
+  {
+   "start": 68.0,
+   "end": 70.0,
+   "en": "Granny Pig, take the wheel.",
+   "i": 19,
+   "zh": "猪奶奶，开车吧。"
+  },
+  {
+   "start": 70.001,
+   "end": 72.0,
+   "en": "Aye, aye, captain.",
+   "i": 20,
+   "zh": "是，船长。"
+  },
+  {
+   "start": 72.001,
+   "end": 74.0,
+   "en": "Full sail.",
+   "i": 21,
+   "zh": "扬帆起航。"
+  },
+  {
+   "start": 76.0,
+   "end": 78.0,
+   "en": "Full sail.",
+   "i": 22,
+   "zh": "扬帆起航。"
+  },
+  {
+   "start": 85.0,
+   "end": 88.0,
+   "en": "Maybe you should go a little slower, Grandpa Pig.",
+   "i": 23,
+   "zh": "也许你应该走慢一点，猪爷爷。"
+  },
+  {
+   "start": 88.001,
+   "end": 93.0,
+   "en": "Good idea, Granny Pig. I don't want to use up all my petrol.",
+   "i": 24,
+   "zh": "好主意，猪奶奶。我不想用完我所有的汽油。"
+  },
+  {
+   "start": 95.0,
+   "end": 98.0,
+   "en": "Grandpa, I liked it when we went fast.",
+   "i": 25,
+   "zh": "爷爷，我喜欢我们走得快。"
+  },
+  {
+   "start": 98.001,
+   "end": 102.0,
+   "en": "Don't worry, Peppa. We'll go fast later.",
+   "i": 26,
+   "zh": "别担心，佩奇。稍后我们就走快点。"
+  },
+  {
+   "start": 102.001,
+   "end": 104.0,
+   "en": "Look, there's another boat.",
+   "i": 27,
+   "zh": "看，还有另一条船。"
+  },
+  {
+   "start": 104.001,
+   "end": 108.0,
+   "en": "Here's Granddad Dog. He's taking Danny Dog out for a day on the river.",
+   "i": 28,
+   "zh": "这是狗爷爷。他要带小狗丹尼去河里玩一天。"
+  },
+  {
+   "start": 108.001,
+   "end": 111.0,
+   "en": "Ahoy there, Granddad Dog.",
+   "i": 29,
+   "zh": "嘿，狗爷爷。"
+  },
+  {
+   "start": 111.001,
+   "end": 114.0,
+   "en": "Ahoy there, Grandpa Pig.",
+   "i": 30,
+   "zh": "嘿嘿，猪爷爷。"
+  },
+  {
+   "start": 114.049,
+   "end": 116.0,
+   "en": "Hello, Danny.",
+   "i": 31,
+   "zh": "你好，丹尼。"
+  },
+  {
+   "start": 116.001,
+   "end": 118.0,
+   "en": "Hello, Peppa.",
+   "i": 32,
+   "zh": "你好，佩奇。"
+  },
+  {
+   "start": 120.0,
+   "end": 123.0,
+   "en": "Granddad Dog is Grandpa Pig's very best friend.",
+   "i": 33,
+   "zh": "狗爷爷是猪爷爷最好的朋友。"
+  },
+  {
+   "start": 123.001,
+   "end": 125.0,
+   "en": "Ho ho ho ho ho.",
+   "i": 34,
+   "zh": "嗬嗬嗬嗬。"
+  },
+  {
+   "start": 125.001,
+   "end": 129.0,
+   "en": "I'm surprised your boat is still afloat, Granddad Dog.",
+   "i": 35,
+   "zh": "我很惊讶你的船还在漂浮，狗爷爷。"
+  },
+  {
+   "start": 129.001,
+   "end": 132.0,
+   "en": "It must be almost as old as you are.",
+   "i": 36,
+   "zh": "肯定和你差不多大了。"
+  },
+  {
+   "start": 132.001,
+   "end": 138.0,
+   "en": "This old boat can go faster than your rusty bucket, eh, day, Grandpa Pig?",
+   "i": 37,
+   "zh": "这艘老船比你生锈的水桶跑得还快，诶，猪爷爷？"
+  },
+  {
+   "start": 138.001,
+   "end": 142.0,
+   "en": "All right, you old sea dog. Race you.",
+   "i": 38,
+   "zh": "好吧，你这个老水手。与你赛跑。"
+  },
+  {
+   "start": 142.001,
+   "end": 145.0,
+   "en": "Prepare to lose, water hog.",
+   "i": 39,
+   "zh": "准备失败吧，水霸。"
+  },
+  {
+   "start": 145.001,
+   "end": 147.0,
+   "en": "Ruff, ruff, ruff.",
+   "i": 40,
+   "zh": "鲁夫，鲁夫，鲁夫。"
+  },
+  {
+   "start": 147.001,
+   "end": 150.0,
+   "en": "You two are acting like little children.",
+   "i": 41,
+   "zh": "你们两个表现得像小孩子一样。"
+  },
+  {
+   "start": 150.001,
+   "end": 154.0,
+   "en": "Granddad Dog called me a water hog.",
+   "i": 42,
+   "zh": "狗爷爷叫我水猪。"
+  },
+  {
+   "start": 154.001,
+   "end": 157.0,
+   "en": "You called him a sea dog first, Grandpa.",
+   "i": 43,
+   "zh": "爷爷，你先叫他水手。"
+  },
+  {
+   "start": 157.05,
+   "end": 159.0,
+   "en": "You should say sorry.",
+   "i": 44,
+   "zh": "你应该说对不起。"
+  },
+  {
+   "start": 159.001,
+   "end": 162.0,
+   "en": "Only if he says sorry first.",
+   "i": 45,
+   "zh": "只有他先说抱歉。"
+  },
+  {
+   "start": 162.001,
+   "end": 165.0,
+   "en": "Granddad, say sorry to Grandpa Pig.",
+   "i": 46,
+   "zh": "爷爷，向猪爷爷说对不起。"
+  },
+  {
+   "start": 165.001,
+   "end": 167.0,
+   "en": "He is your best friend.",
+   "i": 47,
+   "zh": "他是你最好的朋友。"
+  },
+  {
+   "start": 167.001,
+   "end": 172.0,
+   "en": "No, he's a water hog and my boat is faster than his.",
+   "i": 48,
+   "zh": "不，他是个水霸，我的船比他的快。"
+  },
+  {
+   "start": 172.001,
+   "end": 177.0,
+   "en": "All right, sea dog. Let's race to the next bridge.",
+   "i": 49,
+   "zh": "好吧，海狗。让我们跑到下一座桥吧。"
+  },
+  {
+   "start": 177.001,
+   "end": 183.0,
+   "en": "On the count of three... One, two... Go!",
+   "i": 50,
+   "zh": "数到三……一、二……开始！"
+  },
+  {
+   "start": 183.001,
+   "end": 185.0,
+   "en": "You started too soon.",
+   "i": 51,
+   "zh": "你开始得太早了。"
+  },
+  {
+   "start": 185.001,
+   "end": 188.0,
+   "en": "Catch me if you can, water hog.",
+   "i": 52,
+   "zh": "如果可以的话，来抓我吧，水霸。"
+  },
+  {
+   "start": 188.001,
+   "end": 189.0,
+   "en": "Ruff, ruff.",
+   "i": 53,
+   "zh": "鲁夫，鲁夫。"
+  },
+  {
+   "start": 189.001,
+   "end": 191.0,
+   "en": "Sea dog.",
+   "i": 54,
+   "zh": "海狗。"
+  },
+  {
+   "start": 194.0,
+   "end": 197.0,
+   "en": "Is that as fast as you can go?",
+   "i": 55,
+   "zh": "这是你能跑的最快速度吗？"
+  },
+  {
+   "start": 197.001,
+   "end": 200.0,
+   "en": "Can't catch me.",
+   "i": 56,
+   "zh": "抓不到我。"
+  },
+  {
+   "start": 202.0,
+   "end": 204.0,
+   "en": "I win.",
+   "i": 57,
+   "zh": "我赢了。"
+  },
+  {
+   "start": 206.0,
+   "end": 209.0,
+   "en": "Oh, dear. Grandpa Pig's boat has run out of petrol.",
+   "i": 58,
+   "zh": "哦，亲爱的。猪爷爷的船没油了。"
+  },
+  {
+   "start": 209.001,
+   "end": 211.0,
+   "en": "Very clever, Captain Grandpa.",
+   "i": 59,
+   "zh": "爷爷队长真聪明。"
+  },
+  {
+   "start": 211.001,
+   "end": 214.0,
+   "en": "Maybe I did go a bit too fast.",
+   "i": 60,
+   "zh": "也许我确实走得太快了一点。"
+  },
+  {
+   "start": 214.001,
+   "end": 216.0,
+   "en": "How will we get home?",
+   "i": 61,
+   "zh": "我们怎样回家？"
+  },
+  {
+   "start": 216.1,
+   "end": 219.0,
+   "en": "Look, there's Granddad Dog.",
+   "i": 62,
+   "zh": "看，狗爷爷来了。"
+  },
+  {
+   "start": 220.45,
+   "end": 222.0,
+   "en": "Granddad Dog can tow us home.",
+   "i": 63,
+   "zh": "狗爷爷可以拖我们回家。"
+  },
+  {
+   "start": 222.001,
+   "end": 226.0,
+   "en": "I'm not being towed by that sea dog.",
+   "i": 64,
+   "zh": "我不会被那只水手拖走。"
+  },
+  {
+   "start": 226.001,
+   "end": 229.0,
+   "en": "I haven't offered to tow the water hog.",
+   "i": 65,
+   "zh": "我还没有主动提出拖水车。"
+  },
+  {
+   "start": 229.001,
+   "end": 232.0,
+   "en": "Will you two ever grow up?",
+   "i": 66,
+   "zh": "你们两个会长大吗？"
+  },
+  {
+   "start": 232.4,
+   "end": 236.0,
+   "en": "Grandpa, say sorry to Granddad Dog.",
+   "i": 67,
+   "zh": "爷爷，向狗爷爷说声对不起。"
+  },
+  {
+   "start": 236.375,
+   "end": 240.0,
+   "en": "I'm sorry I called you a sea dog.",
+   "i": 68,
+   "zh": "很抱歉我称你为水手。"
+  },
+  {
+   "start": 240.2,
+   "end": 244.0,
+   "en": "Granddad, say sorry to Grandpa Pig.",
+   "i": 69,
+   "zh": "爷爷，向猪爷爷说对不起。"
+  },
+  {
+   "start": 244.05,
+   "end": 247.0,
+   "en": "I'm sorry I called you a water hog.",
+   "i": 70,
+   "zh": "对不起，我叫你水猪。"
+  },
+  {
+   "start": 247.001,
+   "end": 248.0,
+   "en": "That's nice.",
+   "i": 71,
+   "zh": "太好了。"
+  },
+  {
+   "start": 248.001,
+   "end": 252.0,
+   "en": "Granddad Dog, would you be so kind as to tow us home?",
+   "i": 72,
+   "zh": "狗爷爷，您能好心拖我们回家吗？"
+  },
+  {
+   "start": 252.001,
+   "end": 255.0,
+   "en": "It would be my pleasure, madam.",
+   "i": 73,
+   "zh": "这是我的荣幸，女士。"
+  },
+  {
+   "start": 255.001,
+   "end": 257.0,
+   "en": "Catch this, Captain.",
+   "i": 74,
+   "zh": "听清楚了，队长。"
+  },
+  {
+   "start": 257.001,
+   "end": 259.0,
+   "en": "Aye, aye, skipper.",
+   "i": 75,
+   "zh": "是的，是的，船长。"
+  },
+  {
+   "start": 259.125,
+   "end": 262.0,
+   "en": "Granddad Dog is Grandpa Pig's very best friend.",
+   "i": 76,
+   "zh": "狗爷爷是猪爷爷最好的朋友。"
+  },
+  {
+   "start": 262.001,
+   "end": 264.0,
+   "en": "Ruff, ruff.",
+   "i": 77,
+   "zh": "鲁夫，鲁夫。"
+  },
+  {
+   "start": 264.001,
+   "end": 267.0,
+   "en": "Granddad Dog is towing Grandpa Pig's boat home.",
+   "i": 78,
+   "zh": "狗爷爷拖着猪爷爷的船回家。"
+  },
+  {
+   "start": 267.001,
+   "end": 271.0,
+   "en": "The main thing is, I won the race.",
+   "i": 79,
+   "zh": "最主要的是，我赢得了比赛。"
+  },
+  {
+   "start": 271.001,
+   "end": 273.0,
+   "en": "Grandpa Pig.",
+   "i": 80,
+   "zh": "猪爷爷。"
+  },
+  {
+   "start": 273.001,
+   "end": 275.0,
+   "en": "Naughty Grandpa Pig.",
+   "i": 81,
+   "zh": "淘气的猪爷爷。"
+  },
+  {
+   "start": 275.001,
+   "end": 279.0,
+   "en": "Ho, ho, ho. Peppa, ring the bell.",
+   "i": 82,
+   "zh": "嗬，嗬，嗬。佩奇，按铃。"
+  },
+  {
+   "start": 279.001,
+   "end": 281.0,
+   "en": "Aye, aye, Captain Grandpa.",
+   "i": 83,
+   "zh": "是啊是啊，爷爷队长。"
+  },
+  {
+   "start": 287.0,
+   "end": 289.0,
+   "en": "Peppa Pig.",
+   "i": 84,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 292.0,
+   "end": 294.0,
+   "en": "Peppa Pig.",
+   "i": 85,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 296.0,
+   "end": 298.0,
+   "en": "Peppa Pig.",
+   "i": 86,
+   "zh": "小猪佩奇。"
+  }
+ ]
+}

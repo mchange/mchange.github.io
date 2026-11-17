@@ -1,0 +1,89 @@
+{
+ "id": "pep13",
+ "words": [
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Thank you Mummy.",
+   "zh": "谢谢妈妈。",
+   "emoji": "💬",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "box",
+   "zh": "盒子",
+   "emoji": "📦",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "secret",
+   "zh": "秘密",
+   "emoji": "🤫",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 22
+  },
+  {
+   "type": "word",
+   "en": "picture",
+   "zh": "画",
+   "emoji": "🖼️",
+   "line": 27
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 27
+  },
+  {
+   "type": "word",
+   "en": "glasses",
+   "zh": "眼镜",
+   "emoji": "👓",
+   "line": 33
+  },
+  {
+   "type": "phrase",
+   "en": "Peppa likes secrets.",
+   "zh": "佩奇喜欢秘密。",
+   "emoji": "💬",
+   "line": 39
+  },
+  {
+   "type": "word",
+   "en": "toy",
+   "zh": "玩具",
+   "emoji": "🧸",
+   "line": 46
+  },
+  {
+   "type": "word",
+   "en": "hide",
+   "zh": "藏",
+   "emoji": "🙈",
+   "line": 69
+  }
+ ]
+}

@@ -491,6 +491,18 @@ export async function renderWorkbench(host, ep) {
       return;
     }
     const code = video.error ? video.error.code : 0;
+    /* 视频不入库的集（小猪佩奇第一季）：远程地址必然 404，别只报「网络错误」，
+       直接告诉家长去「内容整理 → 本机视频」关联 iPad 本地文件。 */
+    const remote = !String(video.currentSrc || '').startsWith('blob:');
+    if (ep.videoLocalOnly && remote) {
+      const fileName = String(ep.video || '').split('/').pop();
+      showVeil(
+        '这一集需要先关联本机视频',
+        '项目里没有打包视频文件。请到「内容整理 → 本机视频」选中 iPad 里对应的 mp4，之后会直接读本机文件，不用联网。',
+        `期望文件名：${fileName || '（未知）'}`,
+      );
+      return;
+    }
     const reasons = {
       1: '播放被中止。',
       2: '读取视频文件时发生网络错误。',

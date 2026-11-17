@@ -1,0 +1,582 @@
+{
+ "id": "pep25",
+ "title": "Not Very Well",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.4,
+   "end": 7.702,
+   "en": "I'm Peppa Pig. This is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.726,
+   "end": 11.412,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.4,
+   "end": 14.4,
+   "en": "Peppa Pig.",
+   "i": 3,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 18.975,
+   "end": 20.4,
+   "en": "Not very well.",
+   "i": 4,
+   "zh": "不太好。"
+  },
+  {
+   "start": 24.325,
+   "end": 28.4,
+   "en": "Mummy Pig and Daddy Pig have just made breakfast for Peppa and George.",
+   "i": 5,
+   "zh": "猪妈妈和猪爸爸刚刚给佩奇和乔治做了早餐。"
+  },
+  {
+   "start": 28.45,
+   "end": 30.4,
+   "en": "Breakfast is ready!",
+   "i": 6,
+   "zh": "早餐准备好了！"
+  },
+  {
+   "start": 35.599,
+   "end": 37.4,
+   "en": "Peppa has red spots on her face.",
+   "i": 7,
+   "zh": "佩奇脸上有红斑。"
+  },
+  {
+   "start": 37.401,
+   "end": 41.4,
+   "en": "Not me, I don't feel very well.",
+   "i": 8,
+   "zh": "不是我，我感觉不太舒服。"
+  },
+  {
+   "start": 41.649,
+   "end": 44.4,
+   "en": "Oh dear Peppa, you don't look very well.",
+   "i": 9,
+   "zh": "哦亲爱的佩奇，你看起来不太好。"
+  },
+  {
+   "start": 45.499,
+   "end": 48.4,
+   "en": "Don't worry, I'll ring Doctor Brown Bear.",
+   "i": 10,
+   "zh": "别担心，我会给棕熊医生打电话。"
+  },
+  {
+   "start": 51.4,
+   "end": 53.4,
+   "en": "Doctor Brown Bear speaking.",
+   "i": 11,
+   "zh": "棕熊博士讲话。"
+  },
+  {
+   "start": 53.599,
+   "end": 57.4,
+   "en": "Peppa is not very well. Her face is covered in red spots.",
+   "i": 12,
+   "zh": "佩奇不太好。她的脸上长满了红斑。"
+  },
+  {
+   "start": 58.175,
+   "end": 62.4,
+   "en": "Put Peppa to bed and I'll come straight round.",
+   "i": 13,
+   "zh": "把佩奇放到床上，我就过来。"
+  },
+  {
+   "start": 65.474,
+   "end": 67.4,
+   "en": "Doctor Brown Bear has come to make Peppa better.",
+   "i": 14,
+   "zh": "棕熊医生来让佩奇好起来。"
+  },
+  {
+   "start": 67.401,
+   "end": 70.4,
+   "en": "Hello Peppa, how are you today?",
+   "i": 15,
+   "zh": "佩奇你好，今天怎么样？"
+  },
+  {
+   "start": 70.401,
+   "end": 72.4,
+   "en": "I'm not very well.",
+   "i": 16,
+   "zh": "我不太舒服。"
+  },
+  {
+   "start": 72.699,
+   "end": 74.4,
+   "en": "Stick your tongue out please.",
+   "i": 17,
+   "zh": "请伸出你的舌头。"
+  },
+  {
+   "start": 76.899,
+   "end": 80.4,
+   "en": "It's not anything serious, Peppa has just got a rash.",
+   "i": 18,
+   "zh": "没什么大不了的，佩奇只是出了皮疹。"
+  },
+  {
+   "start": 80.401,
+   "end": 82.4,
+   "en": "Do I need medicine?",
+   "i": 19,
+   "zh": "我需要吃药吗？"
+  },
+  {
+   "start": 82.649,
+   "end": 88.4,
+   "en": "The rash will clear up quickly, but if you like I can give you just a little medicine.",
+   "i": 20,
+   "zh": "皮疹很快就会消失，但如果你愿意的话我可以给你一点药。"
+  },
+  {
+   "start": 88.499,
+   "end": 90.4,
+   "en": "Yes please.",
+   "i": 21,
+   "zh": "好的，请。"
+  },
+  {
+   "start": 90.4,
+   "end": 94.4,
+   "en": "I'm afraid it doesn't taste very nice. Open wide please.",
+   "i": 22,
+   "zh": "恐怕味道不太好。请张开。"
+  },
+  {
+   "start": 96.274,
+   "end": 99.4,
+   "en": "Eww, disgusting!",
+   "i": 23,
+   "zh": "呃，恶心！"
+  },
+  {
+   "start": 99.401,
+   "end": 103.4,
+   "en": "You are a brave little one for taking it so well.",
+   "i": 24,
+   "zh": "你是一个勇敢的小家伙，能如此顺利地接受它。"
+  },
+  {
+   "start": 103.899,
+   "end": 108.4,
+   "en": "Peppa must stay in bed. I'll call back later to check that she's better.",
+   "i": 25,
+   "zh": "佩奇必须留在床上。我稍后再打电话确认她是否好些了。"
+  },
+  {
+   "start": 108.401,
+   "end": 110.4,
+   "en": "Can Peppa have visitors?",
+   "i": 26,
+   "zh": "佩奇可以有访客吗？"
+  },
+  {
+   "start": 110.649,
+   "end": 114.4,
+   "en": "Oh yes, she can have visitors. The rash isn't catching.",
+   "i": 27,
+   "zh": "哦，是的，她可以接待访客。皮疹没有传染。"
+  },
+  {
+   "start": 114.401,
+   "end": 116.4,
+   "en": "Goodbye.",
+   "i": 28,
+   "zh": "再见。"
+  },
+  {
+   "start": 116.401,
+   "end": 118.4,
+   "en": "Goodbye Doctor Brown Bear.",
+   "i": 29,
+   "zh": "再见棕熊博士。"
+  },
+  {
+   "start": 118.401,
+   "end": 120.4,
+   "en": "Mummy, can I get up now?",
+   "i": 30,
+   "zh": "妈妈，我现在可以起床了吗？"
+  },
+  {
+   "start": 120.401,
+   "end": 124.4,
+   "en": "Doctor Brown Bear says that you must stay in bed for a little bit, Peppa.",
+   "i": 31,
+   "zh": "棕熊医生说你必须在床上躺一会儿，佩奇。"
+  },
+  {
+   "start": 124.599,
+   "end": 126.4,
+   "en": "But it's so boring.",
+   "i": 32,
+   "zh": "但这太无聊了。"
+  },
+  {
+   "start": 126.401,
+   "end": 129.4,
+   "en": "Doctor Brown Bear did say you could have visitors.",
+   "i": 33,
+   "zh": "棕熊博士确实说过你可以接待访客。"
+  },
+  {
+   "start": 129.401,
+   "end": 132.4,
+   "en": "Can Susie Sheep visit me?",
+   "i": 34,
+   "zh": "小羊苏西可以来看我吗？"
+  },
+  {
+   "start": 132.75,
+   "end": 134.4,
+   "en": "Susie Sheep is Peppa's best friend.",
+   "i": 35,
+   "zh": "小羊苏西是佩奇最好的朋友。"
+  },
+  {
+   "start": 134.401,
+   "end": 137.4,
+   "en": "I'll ring Susie Sheep's mummy.",
+   "i": 36,
+   "zh": "我给小羊苏西妈妈打电话。"
+  },
+  {
+   "start": 141.65,
+   "end": 143.4,
+   "en": "Hello Mrs Pig.",
+   "i": 37,
+   "zh": "猪太太你好。"
+  },
+  {
+   "start": 143.401,
+   "end": 145.4,
+   "en": "May Peppa talk with Susie please.",
+   "i": 38,
+   "zh": "请佩奇和苏西谈谈。"
+  },
+  {
+   "start": 146.45,
+   "end": 148.4,
+   "en": "Hello Susie.",
+   "i": 39,
+   "zh": "苏西你好。"
+  },
+  {
+   "start": 148.401,
+   "end": 149.401,
+   "en": "Hello Peppa.",
+   "i": 40,
+   "zh": "你好，佩奇。"
+  },
+  {
+   "start": 149.75,
+   "end": 153.4,
+   "en": "I'm not very well. I have red spots on my face.",
+   "i": 41,
+   "zh": "我不太舒服。我脸上有红斑。"
+  },
+  {
+   "start": 153.95,
+   "end": 155.4,
+   "en": "Has the doctor been?",
+   "i": 42,
+   "zh": "医生去过吗？"
+  },
+  {
+   "start": 155.45,
+   "end": 157.4,
+   "en": "Yes, Doctor Brown Bear was here.",
+   "i": 43,
+   "zh": "是的，棕熊博士在这里。"
+  },
+  {
+   "start": 157.401,
+   "end": 161.4,
+   "en": "He said I wasn't very well and that I was very brave.",
+   "i": 44,
+   "zh": "他说我身体不太好，但我很勇敢。"
+  },
+  {
+   "start": 162.0,
+   "end": 163.4,
+   "en": "So are you really ill?",
+   "i": 45,
+   "zh": "那你真的病了吗？"
+  },
+  {
+   "start": 163.75,
+   "end": 168.4,
+   "en": "Yes, yes. It's not pretend. I have to stay in bed.",
+   "i": 46,
+   "zh": "是的，是的。这不是假装。我必须留在床上。"
+  },
+  {
+   "start": 168.401,
+   "end": 173.4,
+   "en": "Doctor Brown Bear gave me a bed he sent that tasted really horrible.",
+   "i": 47,
+   "zh": "棕熊医生给了我一张他寄来的床，味道真的很糟糕。"
+  },
+  {
+   "start": 173.6,
+   "end": 175.4,
+   "en": "I'm coming to see you.",
+   "i": 48,
+   "zh": "我来看你了。"
+  },
+  {
+   "start": 175.401,
+   "end": 178.4,
+   "en": "I'm going to wear my nurse's outfit.",
+   "i": 49,
+   "zh": "我要穿我的护士服。"
+  },
+  {
+   "start": 180.4,
+   "end": 182.4,
+   "en": "Susie Sheep has come to see Peppa.",
+   "i": 50,
+   "zh": "小羊苏西来看佩奇了。"
+  },
+  {
+   "start": 182.5,
+   "end": 185.4,
+   "en": "Susie is wearing her nurse's costume.",
+   "i": 51,
+   "zh": "苏西穿着护士服。"
+  },
+  {
+   "start": 185.401,
+   "end": 188.4,
+   "en": "Danny Dog and Rebecca Rabbit have come along too.",
+   "i": 52,
+   "zh": "狗丹尼和小兔瑞贝卡也来了。"
+  },
+  {
+   "start": 191.5,
+   "end": 192.5,
+   "en": "Hello Peppa.",
+   "i": 53,
+   "zh": "你好，佩奇。"
+  },
+  {
+   "start": 192.7,
+   "end": 194.4,
+   "en": "Hello.",
+   "i": 54,
+   "zh": "你好。"
+  },
+  {
+   "start": 195.4,
+   "end": 197.4,
+   "en": "How do you feel?",
+   "i": 55,
+   "zh": "你感觉怎么样？"
+  },
+  {
+   "start": 197.45,
+   "end": 201.4,
+   "en": "I'm not very well, Susie. I have to stay in bed.",
+   "i": 56,
+   "zh": "我不太好，苏西。我必须留在床上。"
+  },
+  {
+   "start": 201.55,
+   "end": 203.4,
+   "en": "What can we do to make you better?",
+   "i": 57,
+   "zh": "我们能做些什么来让你变得更好？"
+  },
+  {
+   "start": 204.45,
+   "end": 206.4,
+   "en": "You could get me some orange juice.",
+   "i": 58,
+   "zh": "你可以给我一些橙汁。"
+  },
+  {
+   "start": 207.224,
+   "end": 208.4,
+   "en": "Okay.",
+   "i": 59,
+   "zh": "好吧。"
+  },
+  {
+   "start": 210.4,
+   "end": 212.4,
+   "en": "Peppa seems to be quite enjoying herself.",
+   "i": 60,
+   "zh": "佩奇看起来很享受。"
+  },
+  {
+   "start": 214.4,
+   "end": 215.4,
+   "en": "Thank you, Susie.",
+   "i": 61,
+   "zh": "谢谢你，苏西。"
+  },
+  {
+   "start": 216.9,
+   "end": 218.4,
+   "en": "Do you feel any better?",
+   "i": 62,
+   "zh": "你感觉好些了吗？"
+  },
+  {
+   "start": 218.95,
+   "end": 220.4,
+   "en": "A little bit.",
+   "i": 63,
+   "zh": "一点点。"
+  },
+  {
+   "start": 220.401,
+   "end": 221.401,
+   "en": "Danny?",
+   "i": 64,
+   "zh": "丹尼？"
+  },
+  {
+   "start": 222.224,
+   "end": 225.4,
+   "en": "Ask my mummy if I could have some ice cream.",
+   "i": 65,
+   "zh": "问我妈妈是否可以吃点冰淇淋。"
+  },
+  {
+   "start": 225.401,
+   "end": 230.4,
+   "en": "And Rebecca, could you bring me some flowers from the garden?",
+   "i": 66,
+   "zh": "丽贝卡，你能给我从花园里摘一些花吗？"
+  },
+  {
+   "start": 231.4,
+   "end": 234.4,
+   "en": "Doctor Brown Bear is here to see if Peppa is better.",
+   "i": 67,
+   "zh": "棕熊医生来看看佩奇有没有好点。"
+  },
+  {
+   "start": 234.401,
+   "end": 238.4,
+   "en": "Ah, good. The nurse is already here. How is the patient?",
+   "i": 68,
+   "zh": "啊，很好。护士已经来了。病人怎么样？"
+  },
+  {
+   "start": 239.7,
+   "end": 243.4,
+   "en": "I'm not a real nurse. It's just pretend.",
+   "i": 69,
+   "zh": "我不是真正的护士。这只是假装而已。"
+  },
+  {
+   "start": 244.0,
+   "end": 247.4,
+   "en": "I see. Would you like me to take a look myself?",
+   "i": 70,
+   "zh": "我明白了。要我亲自去看看吗？"
+  },
+  {
+   "start": 247.401,
+   "end": 248.401,
+   "en": "Yes, please.",
+   "i": 71,
+   "zh": "好的，谢谢。"
+  },
+  {
+   "start": 249.4,
+   "end": 254.4,
+   "en": "I say, no more red spots. You're completely better.",
+   "i": 72,
+   "zh": "我说，不再有红点了。你已经完全好了。"
+  },
+  {
+   "start": 254.65,
+   "end": 256.399,
+   "en": "Aren't I still a bit ill?",
+   "i": 73,
+   "zh": "我不是还有点病吗？"
+  },
+  {
+   "start": 256.4,
+   "end": 257.399,
+   "en": "How do you feel?",
+   "i": 74,
+   "zh": "你感觉怎么样？"
+  },
+  {
+   "start": 257.4,
+   "end": 261.399,
+   "en": "I think I should stay in bed a little bit more.",
+   "i": 75,
+   "zh": "我想我应该在床上多呆一会儿。"
+  },
+  {
+   "start": 262.75,
+   "end": 266.4,
+   "en": "I fancy a game with this ball in the garden.",
+   "i": 76,
+   "zh": "我喜欢在花园里玩这个球的游戏。"
+  },
+  {
+   "start": 266.401,
+   "end": 268.4,
+   "en": "Who wants to join me?",
+   "i": 77,
+   "zh": "谁想加入我？"
+  },
+  {
+   "start": 268.401,
+   "end": 269.401,
+   "en": "Me, me, me.",
+   "i": 78,
+   "zh": "我，我，我。"
+  },
+  {
+   "start": 269.45,
+   "end": 270.45,
+   "en": "Me too.",
+   "i": 79,
+   "zh": "我也是。"
+  },
+  {
+   "start": 272.4,
+   "end": 275.4,
+   "en": "Well, I never. A complete recovery.",
+   "i": 80,
+   "zh": "嗯，我从来没有。完全康复。"
+  },
+  {
+   "start": 285.4,
+   "end": 287.4,
+   "en": "George, you're doing it all wrong.",
+   "i": 81,
+   "zh": "乔治，你完全错了。"
+  },
+  {
+   "start": 290.325,
+   "end": 292.4,
+   "en": "This is how to catch a ball.",
+   "i": 82,
+   "zh": "这就是接球的方法。"
+  }
+ ]
+}

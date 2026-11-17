@@ -1,0 +1,645 @@
+{
+ "id": "pep20",
+ "title": "The School Fete",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 12.0,
+   "end": 15.255,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 15.279,
+   "end": 20.012,
+   "en": "This is Mummy Pig. And this is Daddy Pig. Peppa Pig. The school fates.",
+   "i": 2,
+   "zh": "这是猪妈妈。这就是猪爸爸。佩奇。学校的命运。"
+  },
+  {
+   "start": 21.0,
+   "end": 25.0,
+   "en": "Today is the day of the school fete. Peppa loves coming to the fete.",
+   "i": 3,
+   "zh": "今天是校庆日。佩奇喜欢参加节日。"
+  },
+  {
+   "start": 25.001,
+   "end": 27.752,
+   "en": "Here are Peppa's friends, Pandy Cat, Suzy",
+   "i": 4,
+   "zh": "这是佩奇的朋友，潘迪猫，苏西"
+  },
+  {
+   "start": 27.776,
+   "end": 31.0,
+   "en": "Sheep, Danny Dog, Rebecca Rabbit and Pedro Pony.",
+   "i": 5,
+   "zh": "羊、小狗丹尼、小兔瑞贝卡和佩德罗小马。"
+  },
+  {
+   "start": 31.001,
+   "end": 33.0,
+   "en": "Hello everyone.",
+   "i": 6,
+   "zh": "大家好。"
+  },
+  {
+   "start": 33.249,
+   "end": 35.0,
+   "en": "Hello Peppa.",
+   "i": 7,
+   "zh": "佩奇你好。"
+  },
+  {
+   "start": 36.05,
+   "end": 37.915,
+   "en": "I love the school fete.",
+   "i": 8,
+   "zh": "我喜欢学校的节日。"
+  },
+  {
+   "start": 37.916,
+   "end": 39.0,
+   "en": "\"Me too.",
+   "i": 9,
+   "zh": "我也是。"
+  },
+  {
+   "start": 39.149,
+   "end": 40.914,
+   "en": "What do you like best?",
+   "i": 10,
+   "zh": "你最喜欢什么？"
+  },
+  {
+   "start": 40.915,
+   "end": 43.0,
+   "en": "\"The face painting.",
+   "i": 11,
+   "zh": "脸部彩绘。"
+  },
+  {
+   "start": 43.825,
+   "end": 46.0,
+   "en": "I like the balloons.",
+   "i": 12,
+   "zh": "我喜欢气球。"
+  },
+  {
+   "start": 47.074,
+   "end": 50.0,
+   "en": "I like the bouncy castle the best.",
+   "i": 13,
+   "zh": "我最喜欢充气城堡。"
+  },
+  {
+   "start": 50.324,
+   "end": 52.0,
+   "en": "I like everything.",
+   "i": 14,
+   "zh": "我喜欢一切。"
+  },
+  {
+   "start": 54.025,
+   "end": 56.0,
+   "en": "A very good choice, Peppa.",
+   "i": 15,
+   "zh": "非常好的选择，佩奇。"
+  },
+  {
+   "start": 56.499,
+   "end": 57.912,
+   "en": "See you later, Peppa.",
+   "i": 16,
+   "zh": "再见，佩奇。"
+  },
+  {
+   "start": 57.913,
+   "end": 60.0,
+   "en": "\"See you later.",
+   "i": 17,
+   "zh": "稍后见。"
+  },
+  {
+   "start": 60.549,
+   "end": 63.0,
+   "en": "George, what do you like best?",
+   "i": 18,
+   "zh": "乔治，你最喜欢什么？"
+  },
+  {
+   "start": 63.149,
+   "end": 65.0,
+   "en": "Dinosaur.",
+   "i": 19,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 66.224,
+   "end": 68.943,
+   "en": "Oh dear. There aren't any dinosaurs at the fete, George.",
+   "i": 20,
+   "zh": "哦天哪。乔治，宴会上没有恐龙。"
+  },
+  {
+   "start": 69.043,
+   "end": 71.939,
+   "en": "\"Maybe we can get you a dinosaur balloon.",
+   "i": 21,
+   "zh": "也许我们可以给你一个恐龙气球。"
+  },
+  {
+   "start": 71.94,
+   "end": 74.934,
+   "en": "\"Are you sure they have dinosaur balloons, Daddy Pig?",
+   "i": 22,
+   "zh": "\"猪爸爸，你确定他们有恐龙气球吗？"
+  },
+  {
+   "start": 74.935,
+   "end": 77.0,
+   "en": "\"I'm certain of it.",
+   "i": 23,
+   "zh": "我确信这一点。"
+  },
+  {
+   "start": 78.249,
+   "end": 80.937,
+   "en": "Can George and I get our faces painted first?",
+   "i": 24,
+   "zh": "乔治和我可以先画脸吗？"
+  },
+  {
+   "start": 80.938,
+   "end": 82.0,
+   "en": "\"Of course.",
+   "i": 25,
+   "zh": "当然。"
+  },
+  {
+   "start": 84.199,
+   "end": 87.0,
+   "en": "Miss Rabbit has painted Peppa's friends as tigers.",
+   "i": 26,
+   "zh": "兔小姐把佩奇的朋友们画成了老虎。"
+  },
+  {
+   "start": 87.001,
+   "end": 89.933,
+   "en": "There you are, Suzy. Now you look like a tiger.",
+   "i": 27,
+   "zh": "你来了，苏西。现在你看起来像一只老虎。"
+  },
+  {
+   "start": 89.934,
+   "end": 92.0,
+   "en": "\"Thank you, Miss Rabbit.",
+   "i": 28,
+   "zh": "“谢谢兔小姐。"
+  },
+  {
+   "start": 95.449,
+   "end": 100.0,
+   "en": "Wow. I like your face, Suzy. Are you a pussycat?",
+   "i": 29,
+   "zh": "哇。我喜欢你的脸，苏西。你是小猫咪吗？"
+  },
+  {
+   "start": 100.349,
+   "end": 102.907,
+   "en": "No, I'm a tiger.",
+   "i": 30,
+   "zh": "不，我是一只老虎。"
+  },
+  {
+   "start": 102.908,
+   "end": 106.0,
+   "en": "\"Peppa, would you like your face painted?",
+   "i": 31,
+   "zh": "\"佩奇，你要画脸吗？"
+  },
+  {
+   "start": 106.149,
+   "end": 110.0,
+   "en": "Yes, please. Can I be an elephant?",
+   "i": 32,
+   "zh": "好的，请问。我可以成为一头大象吗？"
+  },
+  {
+   "start": 110.249,
+   "end": 114.0,
+   "en": "Oh dear. I don't know how to do elephants. I can do tigers.",
+   "i": 33,
+   "zh": "天哪。我不知道怎么做大象。我可以做老虎。"
+  },
+  {
+   "start": 115.0,
+   "end": 118.0,
+   "en": "Yes. A tiger, please.",
+   "i": 34,
+   "zh": "是的。请给我一只老虎。"
+  },
+  {
+   "start": 118.499,
+   "end": 121.0,
+   "en": "There you are, Peppa. Now you're a tiger.",
+   "i": 35,
+   "zh": "佩奇，你来了。现在你是一只老虎了。"
+  },
+  {
+   "start": 121.199,
+   "end": 123.0,
+   "en": "I'm a tiger.",
+   "i": 36,
+   "zh": "我是一只老虎。"
+  },
+  {
+   "start": 124.099,
+   "end": 126.0,
+   "en": "George, what would you like to be?",
+   "i": 37,
+   "zh": "乔治，你想成为什么？"
+  },
+  {
+   "start": 126.649,
+   "end": 128.0,
+   "en": "Dinosaur.",
+   "i": 38,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 129.1,
+   "end": 134.0,
+   "en": "A dinosaur? How about a tiger instead? I'm good at tigers.",
+   "i": 39,
+   "zh": "恐龙？老虎怎么样？我擅长老虎。"
+  },
+  {
+   "start": 136.225,
+   "end": 138.0,
+   "en": "I'm a tiger.",
+   "i": 40,
+   "zh": "我是一只老虎。"
+  },
+  {
+   "start": 138.225,
+   "end": 139.845,
+   "en": "So am I.",
+   "i": 41,
+   "zh": "我也是。"
+  },
+  {
+   "start": 139.846,
+   "end": 140.919,
+   "en": "\"Meow.",
+   "i": 42,
+   "zh": "“喵。"
+  },
+  {
+   "start": 140.92,
+   "end": 142.918,
+   "en": "\"Tigers don't say woof woof.",
+   "i": 43,
+   "zh": "\"老虎不会汪汪叫。"
+  },
+  {
+   "start": 142.919,
+   "end": 144.92,
+   "en": "\"How do you know?",
+   "i": 44,
+   "zh": "“你怎么知道？"
+  },
+  {
+   "start": 144.921,
+   "end": 146.923,
+   "en": "\"Because tigers are big cats.",
+   "i": 45,
+   "zh": "“因为老虎是大型猫科动物。"
+  },
+  {
+   "start": 146.924,
+   "end": 147.92,
+   "en": "\"Meow.",
+   "i": 46,
+   "zh": "“喵。"
+  },
+  {
+   "start": 147.921,
+   "end": 149.0,
+   "en": "\"And I'm a cat.",
+   "i": 47,
+   "zh": "而我是一只猫。"
+  },
+  {
+   "start": 149.1,
+   "end": 152.915,
+   "en": "Cat D, please can you teach us how to be tigers?",
+   "i": 48,
+   "zh": "D猫，你能教我们如何做老虎吗？"
+  },
+  {
+   "start": 152.916,
+   "end": 153.916,
+   "en": "\"Okay.",
+   "i": 49,
+   "zh": "“好的。"
+  },
+  {
+   "start": 153.954,
+   "end": 158.904,
+   "en": "\"Tigers creep very, very slowly, and then they jump.",
+   "i": 50,
+   "zh": "“老虎爬得非常非常慢，然后他们跳了起来。"
+  },
+  {
+   "start": 158.954,
+   "end": 159.872,
+   "en": "\"Grrr.",
+   "i": 51,
+   "zh": "“呃。"
+  },
+  {
+   "start": 159.873,
+   "end": 160.888,
+   "en": "\"Ahh!",
+   "i": 52,
+   "zh": "“啊！"
+  },
+  {
+   "start": 160.889,
+   "end": 163.088,
+   "en": "\"Grrr.",
+   "i": 53,
+   "zh": "咕噜。"
+  },
+  {
+   "start": 164.4,
+   "end": 167.0,
+   "en": "Tigers like to lick themselves clean.",
+   "i": 54,
+   "zh": "老虎喜欢把自己舔干净。"
+  },
+  {
+   "start": 169.001,
+   "end": 173.0,
+   "en": "But best of all, when tigers are happy, they purr.",
+   "i": 55,
+   "zh": "但最重要的是，当老虎高兴时，它们会发出咕噜声。"
+  },
+  {
+   "start": 177.001,
+   "end": 182.0,
+   "en": "Hello, children. My goodness, you're all tigers.",
+   "i": 56,
+   "zh": "哈喽，孩子们。天哪，你们都是老虎。"
+  },
+  {
+   "start": 182.25,
+   "end": 184.927,
+   "en": "And I'm teaching them to be proper tigers.",
+   "i": 57,
+   "zh": "我正在教他们成为真正的老虎。"
+  },
+  {
+   "start": 184.928,
+   "end": 185.896,
+   "en": "\"Grrr.",
+   "i": 58,
+   "zh": "“呃。"
+  },
+  {
+   "start": 187.001,
+   "end": 189.928,
+   "en": "What do you little tigers want to do next?",
+   "i": 59,
+   "zh": "你们小老虎接下来想做什么？"
+  },
+  {
+   "start": 189.929,
+   "end": 190.929,
+   "en": "\"Dinosaur.",
+   "i": 60,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 190.93,
+   "end": 195.0,
+   "en": "\"That's right. We have to find George a dinosaur balloon.",
+   "i": 61,
+   "zh": "“没错。我们必须给乔治找到一个恐龙气球。"
+  },
+  {
+   "start": 196.125,
+   "end": 197.926,
+   "en": "Let's get you all balloons.",
+   "i": 62,
+   "zh": "让我们给你们拿走所有的气球。"
+  },
+  {
+   "start": 197.927,
+   "end": 198.814,
+   "en": "\"Hooray!",
+   "i": 63,
+   "zh": "“万岁！"
+  },
+  {
+   "start": 202.001,
+   "end": 204.941,
+   "en": "Hello, Madam Gazelle. We'd like some balloons, please.",
+   "i": 64,
+   "zh": "你好，瞪羚女士。请给我们一些气球。"
+  },
+  {
+   "start": 204.942,
+   "end": 207.933,
+   "en": "\"Certainly. I've got lots of different ones.",
+   "i": 65,
+   "zh": "“当然。我有很多不同的。"
+  },
+  {
+   "start": 207.934,
+   "end": 211.0,
+   "en": "\"Could I have an elephant balloon, please?",
+   "i": 66,
+   "zh": "\"能给我一个大象气球吗？"
+  },
+  {
+   "start": 211.25,
+   "end": 212.921,
+   "en": "Here you are, Peppa.",
+   "i": 67,
+   "zh": "给你，佩奇。"
+  },
+  {
+   "start": 212.971,
+   "end": 214.931,
+   "en": "\"Can I have a kangaroo?",
+   "i": 68,
+   "zh": "\"能给我一只袋鼠吗？"
+  },
+  {
+   "start": 214.932,
+   "end": 215.921,
+   "en": "\"A lion, please.",
+   "i": 69,
+   "zh": "\"请来一头狮子。"
+  },
+  {
+   "start": 215.922,
+   "end": 217.924,
+   "en": "\"A monkey, please.",
+   "i": 70,
+   "zh": "“请给我一只猴子。"
+  },
+  {
+   "start": 217.925,
+   "end": 218.921,
+   "en": "\"A parrot, please.",
+   "i": 71,
+   "zh": "“一只鹦鹉，请。"
+  },
+  {
+   "start": 218.922,
+   "end": 221.905,
+   "en": "\"Oh, yes, I've got all those.",
+   "i": 72,
+   "zh": "“噢，是的，这些我都有了。"
+  },
+  {
+   "start": 223.001,
+   "end": 227.916,
+   "en": "Most important of all, we need a dinosaur balloon for George.",
+   "i": 73,
+   "zh": "最重要的是，我们需要一个给乔治的恐龙气球。"
+  },
+  {
+   "start": 227.917,
+   "end": 232.904,
+   "en": "\"Oh, dear. I do not seem to have any dinosaur balloons.",
+   "i": 74,
+   "zh": "“噢，亲爱的。我好像没有恐龙气球。"
+  },
+  {
+   "start": 232.905,
+   "end": 234.0,
+   "en": "\"Oh.",
+   "i": 75,
+   "zh": "哦。"
+  },
+  {
+   "start": 238.001,
+   "end": 240.23,
+   "en": "Don't worry, George. I've got an idea.",
+   "i": 76,
+   "zh": "别担心，乔治。我有一个主意。"
+  },
+  {
+   "start": 240.254,
+   "end": 243.012,
+   "en": "Could we have two of the long balloons, please?",
+   "i": 77,
+   "zh": "能给我们两个长气球吗？"
+  },
+  {
+   "start": 244.2,
+   "end": 246.0,
+   "en": "Watch this, everybody.",
+   "i": 78,
+   "zh": "大家看这个。"
+  },
+  {
+   "start": 246.799,
+   "end": 250.0,
+   "en": "What is Daddy Pig doing with the balloons?",
+   "i": 79,
+   "zh": "猪爸爸拿着气球做什么呢？"
+  },
+  {
+   "start": 251.0,
+   "end": 253.912,
+   "en": "There. Can anyone guess what it is?",
+   "i": 80,
+   "zh": "那里。谁能猜出它是什么吗？"
+  },
+  {
+   "start": 253.913,
+   "end": 255.862,
+   "en": "\"Is it a kangaroo?",
+   "i": 81,
+   "zh": "“是袋鼠吗？"
+  },
+  {
+   "start": 255.863,
+   "end": 259.899,
+   "en": "\"No. It's a... \" \"Dinosaur.",
+   "i": 82,
+   "zh": "“不。这是一只……” “恐龙。"
+  },
+  {
+   "start": 259.9,
+   "end": 263.0,
+   "en": "\"That's right. A dinosaur.",
+   "i": 83,
+   "zh": "“没错。一只恐龙。"
+  },
+  {
+   "start": 263.25,
+   "end": 264.946,
+   "en": "Daddy Pig has made a balloon dinosaur.",
+   "i": 84,
+   "zh": "猪爸爸做了一只气球恐龙。"
+  },
+  {
+   "start": 264.947,
+   "end": 267.398,
+   "en": "\"Dinosaur.",
+   "i": 85,
+   "zh": "\"恐龙。"
+  },
+  {
+   "start": 268.625,
+   "end": 269.858,
+   "en": "Now at the bouncy castle.",
+   "i": 86,
+   "zh": "现在在充气城堡。"
+  },
+  {
+   "start": 274.001,
+   "end": 277.0,
+   "en": "Peppa loves bouncing on the bouncy castle.",
+   "i": 87,
+   "zh": "佩奇喜欢在充气城堡上弹跳。"
+  },
+  {
+   "start": 278.0,
+   "end": 280.926,
+   "en": "Everyone loves bouncing on the bouncy castle.",
+   "i": 88,
+   "zh": "每个人都喜欢在充气城堡上弹跳。"
+  },
+  {
+   "start": 280.927,
+   "end": 284.0,
+   "en": "\"This is the best full face ever.",
+   "i": 89,
+   "zh": "这是有史以来最好的全脸。"
+  },
+  {
+   "start": 286.0,
+   "end": 289.897,
+   "en": "George, I'll pick up the sticks and you can carry them.",
+   "i": 90,
+   "zh": "乔治，我把棍子捡起来，你拿着。"
+  },
+  {
+   "start": 293.001,
+   "end": 295.0,
+   "en": "Collecting sticks is fun.",
+   "i": 91,
+   "zh": "收集棍子很有趣。"
+  }
+ ]
+}

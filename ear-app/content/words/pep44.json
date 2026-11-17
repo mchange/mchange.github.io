@@ -1,0 +1,89 @@
+{
+ "id": "pep44",
+ "words": [
+  {
+   "type": "word",
+   "en": "climb",
+   "zh": "爬",
+   "emoji": "🧗",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "read",
+   "zh": "读",
+   "emoji": "📖",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "ready",
+   "zh": "准备好了",
+   "emoji": "🏁",
+   "line": 9
+  },
+  {
+   "type": "phrase",
+   "en": "Are you ready?",
+   "zh": "你准备好了吗？",
+   "emoji": "💬",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "sorry",
+   "zh": "对不起",
+   "emoji": "🙇",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 36
+  },
+  {
+   "type": "word",
+   "en": "help",
+   "zh": "帮忙",
+   "emoji": "🤝",
+   "line": 44
+  },
+  {
+   "type": "phrase",
+   "en": "Thank you everyone!",
+   "zh": "谢谢大家！",
+   "emoji": "💬",
+   "line": 46
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 58
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 78
+  }
+ ]
+}

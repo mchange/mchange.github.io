@@ -1,0 +1,89 @@
+{
+ "id": "pep40",
+ "words": [
+  {
+   "type": "word",
+   "en": "hot",
+   "zh": "热的",
+   "emoji": "🔥",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "puddle",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "sun",
+   "zh": "太阳",
+   "emoji": "☀️",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "swim",
+   "zh": "游泳",
+   "emoji": "🏊",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 15
+  },
+  {
+   "type": "phrase",
+   "en": "Come on George.",
+   "zh": "来吧，乔治。",
+   "emoji": "💬",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "rabbit",
+   "zh": "兔子",
+   "emoji": "🐰",
+   "line": 30
+  },
+  {
+   "type": "phrase",
+   "en": "Hello Miss Rabbit.",
+   "zh": "兔小姐你好。",
+   "emoji": "💬",
+   "line": 39
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 46
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "pep07",
+ "words": [
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Thank you Daddy!",
+   "zh": "谢谢爸爸！",
+   "emoji": "💬",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "chicken",
+   "zh": "鸡",
+   "emoji": "🐔",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "happy",
+   "zh": "开心的",
+   "emoji": "😊",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "help",
+   "zh": "帮忙",
+   "emoji": "🤝",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "sorry",
+   "zh": "对不起",
+   "emoji": "🙇",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "lunch",
+   "zh": "午饭",
+   "emoji": "🍽️",
+   "line": 26
+  },
+  {
+   "type": "phrase",
+   "en": "Thanks for watching!",
+   "zh": "感谢您的观看！",
+   "emoji": "💬",
+   "line": 43
+  }
+ ]
+}

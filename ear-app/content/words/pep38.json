@@ -1,0 +1,89 @@
+{
+ "id": "pep38",
+ "words": [
+  {
+   "type": "word",
+   "en": "friends",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "dress",
+   "zh": "裙子",
+   "emoji": "👗",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "fairy",
+   "zh": "仙子",
+   "emoji": "🧚",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "costume",
+   "zh": "装扮服",
+   "emoji": "🎭",
+   "line": 9
+  },
+  {
+   "type": "phrase",
+   "en": "Hello Mr Pig.",
+   "zh": "猪先生你好。",
+   "emoji": "💬",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "frog",
+   "zh": "青蛙",
+   "emoji": "🐸",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "car",
+   "zh": "汽车",
+   "emoji": "🚗",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "carrot",
+   "zh": "胡萝卜",
+   "emoji": "🥕",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "everyone",
+   "zh": "大家",
+   "emoji": "👨‍👩‍👧‍👦",
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "mirror",
+   "zh": "镜子",
+   "emoji": "🪞",
+   "line": 44
+  },
+  {
+   "type": "phrase",
+   "en": "Oh silly George.",
+   "zh": "噢，愚蠢的乔治。",
+   "emoji": "💬",
+   "line": 61
+  }
+ ]
+}

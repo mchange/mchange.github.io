@@ -1,0 +1,68 @@
+{
+ "id": "pep16",
+ "words": [
+  {
+   "type": "word",
+   "en": "box",
+   "zh": "盒子",
+   "emoji": "📦",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 24
+  },
+  {
+   "type": "phrase",
+   "en": "Thank you Daddy.",
+   "zh": "谢谢爸爸。",
+   "emoji": "💬",
+   "line": 24
+  },
+  {
+   "type": "phrase",
+   "en": "Just this horn.",
+   "zh": "就这个号角。",
+   "emoji": "💬",
+   "line": 38
+  },
+  {
+   "type": "word",
+   "en": "big",
+   "zh": "大的",
+   "emoji": "🐘",
+   "line": 45
+  }
+ ]
+}

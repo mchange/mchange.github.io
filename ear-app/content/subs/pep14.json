@@ -1,0 +1,442 @@
+{
+ "id": "pep14",
+ "title": "Flying a Kite",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 6.0,
+   "end": 10.302,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 10.326,
+   "end": 14.0,
+   "en": "This is Mummy Pig. And this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。"
+  },
+  {
+   "start": 14.001,
+   "end": 15.001,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "Flying a kite.",
+   "i": 4,
+   "zh": "放风筝。"
+  },
+  {
+   "start": 25.0,
+   "end": 28.988,
+   "en": "It is a bright sunny day. Peppa and her family",
+   "i": 5,
+   "zh": "这是一个阳光灿烂的日子。佩奇和她的家人"
+  },
+  {
+   "start": 29.012,
+   "end": 33.012,
+   "en": "are in the park. They are going to fly a kite.",
+   "i": 6,
+   "zh": "在公园里。他们要去放风筝。"
+  },
+  {
+   "start": 39.05,
+   "end": 42.322,
+   "en": "George is going to fly the kite first.",
+   "i": 7,
+   "zh": "乔治要先放风筝。"
+  },
+  {
+   "start": 42.346,
+   "end": 47.012,
+   "en": "George runs as fast as he can. But the kite won't fly.",
+   "i": 8,
+   "zh": "乔治尽可能快地跑。但风筝不会飞。"
+  },
+  {
+   "start": 51.549,
+   "end": 54.0,
+   "en": "George, you're doing it all wrong!",
+   "i": 9,
+   "zh": "乔治，你完全错了！"
+  },
+  {
+   "start": 56.299,
+   "end": 60.0,
+   "en": "You didn't run fast enough. Now it's my turn.",
+   "i": 10,
+   "zh": "你跑得不够快。现在轮到我了。"
+  },
+  {
+   "start": 61.0,
+   "end": 68.0,
+   "en": "Peppa runs as fast as she can. But the kite still won't fly.",
+   "i": 11,
+   "zh": "佩奇尽可能快地跑。但风筝还是飞不起来。"
+  },
+  {
+   "start": 74.299,
+   "end": 79.0,
+   "en": "The kite won't fly if there isn't any wind, no matter how fast you run.",
+   "i": 12,
+   "zh": "如果没有风，无论你跑得多快，风筝也飞不起来。"
+  },
+  {
+   "start": 80.449,
+   "end": 84.0,
+   "en": "We just have to wait until the wind picks up a bit.",
+   "i": 13,
+   "zh": "我们只需要等到风刮起来就可以了。"
+  },
+  {
+   "start": 85.149,
+   "end": 91.0,
+   "en": "Look! It's getting windy!",
+   "i": 14,
+   "zh": "看！起风了！"
+  },
+  {
+   "start": 91.124,
+   "end": 94.0,
+   "en": "Now that it is windy, the kite can fly.",
+   "i": 15,
+   "zh": "现在起风了，风筝可以飞了。"
+  },
+  {
+   "start": 97.0,
+   "end": 103.0,
+   "en": "The wind is quite strong now. The wind is very strong now.",
+   "i": 16,
+   "zh": "现在风很大。现在风很大。"
+  },
+  {
+   "start": 103.001,
+   "end": 105.0,
+   "en": "George!",
+   "i": 17,
+   "zh": "乔治！"
+  },
+  {
+   "start": 108.0,
+   "end": 110.0,
+   "en": "Thank you Daddy!",
+   "i": 18,
+   "zh": "谢谢爸爸！"
+  },
+  {
+   "start": 111.0,
+   "end": 113.0,
+   "en": "Daddy Pig flies the kite.",
+   "i": 19,
+   "zh": "猪爸爸放风筝。"
+  },
+  {
+   "start": 113.001,
+   "end": 115.0,
+   "en": "Hurray!",
+   "i": 20,
+   "zh": "好耶！"
+  },
+  {
+   "start": 115.999,
+   "end": 118.0,
+   "en": "Higher! Higher!",
+   "i": 21,
+   "zh": "更高！更高！"
+  },
+  {
+   "start": 125.0,
+   "end": 128.0,
+   "en": "Daddy Pig flies the kite very well.",
+   "i": 22,
+   "zh": "猪爸爸风筝放得很好。"
+  },
+  {
+   "start": 130.0,
+   "end": 132.0,
+   "en": "Wow!",
+   "i": 23,
+   "zh": "哇！"
+  },
+  {
+   "start": 132.25,
+   "end": 135.0,
+   "en": "Yes, I am a bit of an expert at these things.",
+   "i": 24,
+   "zh": "是的，我在这些方面有点专家。"
+  },
+  {
+   "start": 138.0,
+   "end": 142.0,
+   "en": "Watch out for the trees. You might get the kite stuck in one.",
+   "i": 25,
+   "zh": "小心树木。你可能会把风筝卡在其中。"
+  },
+  {
+   "start": 142.001,
+   "end": 145.0,
+   "en": "Don't worry. I know what I'm doing.",
+   "i": 26,
+   "zh": "别担心。我知道我在做什么。"
+  },
+  {
+   "start": 148.1,
+   "end": 152.0,
+   "en": "Oh dear. Daddy Pig has got the kite caught in a tree.",
+   "i": 27,
+   "zh": "哦天哪。猪爸爸把风筝挂在树上了。"
+  },
+  {
+   "start": 152.3,
+   "end": 154.0,
+   "en": "Oh no!",
+   "i": 28,
+   "zh": "哦不！"
+  },
+  {
+   "start": 162.0,
+   "end": 166.0,
+   "en": "Don't worry, George. Daddy will get the kite down.",
+   "i": 29,
+   "zh": "别担心，乔治。爸爸会把风筝拿下来。"
+  },
+  {
+   "start": 166.001,
+   "end": 168.0,
+   "en": "Hurray!",
+   "i": 30,
+   "zh": "好耶！"
+  },
+  {
+   "start": 168.874,
+   "end": 172.0,
+   "en": "Yes.",
+   "i": 31,
+   "zh": "是的。"
+  },
+  {
+   "start": 172.001,
+   "end": 175.0,
+   "en": "Careful! There's a big muddy puddle.",
+   "i": 32,
+   "zh": "小心！有一个很大的泥坑。"
+  },
+  {
+   "start": 175.05,
+   "end": 178.0,
+   "en": "Peppa and George love to jump in muddy puddles.",
+   "i": 33,
+   "zh": "佩奇和乔治喜欢跳泥坑。"
+  },
+  {
+   "start": 178.001,
+   "end": 181.0,
+   "en": "Can we jump in the puddle? Please?",
+   "i": 34,
+   "zh": "泥坑里可以跳吗？请？"
+  },
+  {
+   "start": 181.1,
+   "end": 184.0,
+   "en": "No, I don't want you covered in mud.",
+   "i": 35,
+   "zh": "不，我不想让你浑身是泥。"
+  },
+  {
+   "start": 184.1,
+   "end": 186.0,
+   "en": "Aww!",
+   "i": 36,
+   "zh": "哇！"
+  },
+  {
+   "start": 186.001,
+   "end": 188.0,
+   "en": "Stand back, children.",
+   "i": 37,
+   "zh": "退后一点，孩子们。"
+  },
+  {
+   "start": 189.0,
+   "end": 191.0,
+   "en": "Please be careful, Daddy Pig.",
+   "i": 38,
+   "zh": "猪爸爸请小心。"
+  },
+  {
+   "start": 191.924,
+   "end": 194.0,
+   "en": "I know what I'm doing.",
+   "i": 39,
+   "zh": "我知道我在做什么。"
+  },
+  {
+   "start": 200.0,
+   "end": 202.0,
+   "en": "Please be careful.",
+   "i": 40,
+   "zh": "请小心。"
+  },
+  {
+   "start": 204.0,
+   "end": 206.0,
+   "en": "Just a bit further, Daddy.",
+   "i": 41,
+   "zh": "再远一点，爸爸。"
+  },
+  {
+   "start": 209.0,
+   "end": 212.0,
+   "en": "Daddy Pig, you are much too heavy for that branch.",
+   "i": 42,
+   "zh": "猪爸爸，你对那个树枝来说太重了。"
+  },
+  {
+   "start": 212.001,
+   "end": 216.0,
+   "en": "Nonsense! I know exactly how heavy I am.",
+   "i": 43,
+   "zh": "废话！我清楚地知道我有多重。"
+  },
+  {
+   "start": 217.05,
+   "end": 219.0,
+   "en": "There.",
+   "i": 44,
+   "zh": "好啦。"
+  },
+  {
+   "start": 219.05,
+   "end": 220.0,
+   "en": "Hurray!",
+   "i": 45,
+   "zh": "好耶！"
+  },
+  {
+   "start": 220.001,
+   "end": 222.0,
+   "en": "Daddy Pig has rescued the kite.",
+   "i": 46,
+   "zh": "猪爸爸救出了风筝。"
+  },
+  {
+   "start": 226.0,
+   "end": 229.0,
+   "en": "Oh dear. Everyone is covered in mud.",
+   "i": 47,
+   "zh": "哦天哪。每个人都浑身是泥。"
+  },
+  {
+   "start": 231.0,
+   "end": 233.0,
+   "en": "It's only mud.",
+   "i": 48,
+   "zh": "这只是泥土。"
+  },
+  {
+   "start": 236.25,
+   "end": 239.0,
+   "en": "Luckily, Daddy Pig hasn't hurt himself.",
+   "i": 49,
+   "zh": "幸运的是，猪爸爸没有伤到自己。"
+  },
+  {
+   "start": 239.001,
+   "end": 241.0,
+   "en": "And the kite is out of the tree.",
+   "i": 50,
+   "zh": "风筝已经离开了树。"
+  },
+  {
+   "start": 241.001,
+   "end": 243.0,
+   "en": "Hurray!",
+   "i": 51,
+   "zh": "好耶！"
+  },
+  {
+   "start": 244.924,
+   "end": 249.0,
+   "en": "Mummy, now that we're all muddy, can we jump in the puddle?",
+   "i": 52,
+   "zh": "妈妈，现在我们都泥泞了，我们可以跳泥坑吗？"
+  },
+  {
+   "start": 249.15,
+   "end": 253.0,
+   "en": "I suppose so. After all, you can't get any muddier.",
+   "i": 53,
+   "zh": "我想是的。毕竟，你不能再浑浊了。"
+  },
+  {
+   "start": 255.0,
+   "end": 258.0,
+   "en": "And I think Daddy Pig is going to be doing the washing.",
+   "i": 54,
+   "zh": "我想猪爸爸会来洗衣服。"
+  },
+  {
+   "start": 258.001,
+   "end": 260.0,
+   "en": "Oh.",
+   "i": 55,
+   "zh": "哦。"
+  },
+  {
+   "start": 264.0,
+   "end": 267.0,
+   "en": "Peppa and George love jumping up and down in muddy puddles.",
+   "i": 56,
+   "zh": "佩奇和乔治喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 270.0,
+   "end": 273.0,
+   "en": "Mummy and Daddy love jumping up and down in muddy puddles.",
+   "i": 57,
+   "zh": "妈妈和爸爸最喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 274.0,
+   "end": 277.0,
+   "en": "Everyone loves jumping up and down in muddy puddles.",
+   "i": 58,
+   "zh": "大家都喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 279.0,
+   "end": 284.0,
+   "en": "Jumping up and down in muddy puddles is just as much fun as flying the kite.",
+   "i": 59,
+   "zh": "在泥坑里跳上跳下就像放风筝一样有趣。"
+  },
+  {
+   "start": 286.0,
+   "end": 289.0,
+   "en": "Peppa Pig.",
+   "i": 60,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 292.0,
+   "end": 294.0,
+   "en": "Peppa Pig.",
+   "i": 61,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 296.0,
+   "end": 298.0,
+   "en": "Peppa Pig.",
+   "i": 62,
+   "zh": "小猪佩奇。"
+  }
+ ]
+}

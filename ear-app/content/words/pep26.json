@@ -1,0 +1,89 @@
+{
+ "id": "pep26",
+ "words": [
+  {
+   "type": "word",
+   "en": "cold",
+   "zh": "冷的",
+   "emoji": "🥶",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "gloves",
+   "zh": "手套",
+   "emoji": "🧤",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "hat",
+   "zh": "帽子",
+   "emoji": "🎩",
+   "line": 7
+  },
+  {
+   "type": "phrase",
+   "en": "Come on George.",
+   "zh": "来吧，乔治。",
+   "emoji": "💬",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "snow",
+   "zh": "雪",
+   "emoji": "❄️",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "snowman",
+   "zh": "雪人",
+   "emoji": "⛄",
+   "line": 20
+  },
+  {
+   "type": "phrase",
+   "en": "This is his face.",
+   "zh": "这是他的脸。",
+   "emoji": "💬",
+   "line": 27
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "scarf",
+   "zh": "围巾",
+   "emoji": "🧣",
+   "line": 33
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 34
+  }
+ ]
+}

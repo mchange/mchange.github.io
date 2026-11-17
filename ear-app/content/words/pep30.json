@@ -1,0 +1,89 @@
+{
+ "id": "pep30",
+ "words": [
+  {
+   "type": "word",
+   "en": "grandpa",
+   "zh": "爷爷",
+   "emoji": "👴",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "granny",
+   "zh": "奶奶",
+   "emoji": "👵",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "sleep",
+   "zh": "睡觉",
+   "emoji": "😴",
+   "line": 10
+  },
+  {
+   "type": "phrase",
+   "en": "Goodnight, sleep tight.",
+   "zh": "晚安，睡个好觉。",
+   "emoji": "💬",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "gardening",
+   "zh": "园艺",
+   "emoji": "🌱",
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "cat",
+   "zh": "猫",
+   "emoji": "🐱",
+   "line": 40
+  },
+  {
+   "type": "word",
+   "en": "catch",
+   "zh": "接住",
+   "emoji": "🤲",
+   "line": 40
+  },
+  {
+   "type": "phrase",
+   "en": "Hello? Anyone here?",
+   "zh": "你好？这里有人吗？",
+   "emoji": "💬",
+   "line": 53
+  }
+ ]
+}

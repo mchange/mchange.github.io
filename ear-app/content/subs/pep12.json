@@ -1,0 +1,582 @@
+{
+ "id": "pep12",
+ "title": "Bicycles",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 4.0,
+   "end": 8.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 8.326,
+   "end": 12.012,
+   "en": "this is Mummy Pig, and this is Daddy Pig!",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸！"
+  },
+  {
+   "start": 13.0,
+   "end": 15.0,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "Bicycles!",
+   "i": 4,
+   "zh": "自行车！"
+  },
+  {
+   "start": 23.0,
+   "end": 28.0,
+   "en": "It is a lovely sunny day and Peppa and George are riding their bicycles.",
+   "i": 5,
+   "zh": "这是一个阳光明媚的日子，佩奇和乔治正在骑自行车。"
+  },
+  {
+   "start": 31.0,
+   "end": 34.0,
+   "en": "That's a fine pumpkin, Daddy Pig!",
+   "i": 6,
+   "zh": "真是个好南瓜，猪爸爸！"
+  },
+  {
+   "start": 34.001,
+   "end": 37.0,
+   "en": "Daddy Pig is very proud of his pumpkin.",
+   "i": 7,
+   "zh": "猪爸爸对他的南瓜感到非常自豪。"
+  },
+  {
+   "start": 37.001,
+   "end": 43.0,
+   "en": "Pumpkins are the only thing I can grow, probably because I love pumpkin pie.",
+   "i": 8,
+   "zh": "南瓜是我唯一能种的东西，可能是因为我喜欢南瓜派。"
+  },
+  {
+   "start": 44.0,
+   "end": 46.0,
+   "en": "Come on George!",
+   "i": 9,
+   "zh": "加油乔治！"
+  },
+  {
+   "start": 46.001,
+   "end": 48.0,
+   "en": "Daddy, Susie, Rebecca!",
+   "i": 10,
+   "zh": "爸爸，苏西，丽贝卡！"
+  },
+  {
+   "start": 48.001,
+   "end": 50.46,
+   "en": "Peppa and her friends Danny Dog, Susie Sheep",
+   "i": 11,
+   "zh": "佩奇和她的朋友小狗丹尼，小羊苏西"
+  },
+  {
+   "start": 50.484,
+   "end": 53.012,
+   "en": "and Rebecca Rabbit are riding their bicycles.",
+   "i": 12,
+   "zh": "和小兔瑞贝卡正在骑自行车。"
+  },
+  {
+   "start": 53.013,
+   "end": 56.0,
+   "en": "George is riding his tricycle.",
+   "i": 13,
+   "zh": "乔治正在骑着他的三轮车。"
+  },
+  {
+   "start": 56.001,
+   "end": 60.0,
+   "en": "He's going so slowly!",
+   "i": 14,
+   "zh": "他走得太慢了！"
+  },
+  {
+   "start": 62.0,
+   "end": 65.0,
+   "en": "Let's race to Daddy Pig's pumpkin.",
+   "i": 15,
+   "zh": "我们一起去猪爸爸的南瓜赛跑吧。"
+  },
+  {
+   "start": 65.001,
+   "end": 71.0,
+   "en": "If we race to Daddy's pumpkin, we have to be very careful not to bump into it.",
+   "i": 16,
+   "zh": "如果我们跑向爸爸的南瓜，我们必须非常小心，不要撞到它。"
+  },
+  {
+   "start": 71.0,
+   "end": 75.0,
+   "en": "Daddy would be very sad if the pumpkin got broken.",
+   "i": 17,
+   "zh": "如果南瓜坏了，爸爸会很难过的。"
+  },
+  {
+   "start": 75.001,
+   "end": 78.0,
+   "en": "Don't worry Peppa, race you!",
+   "i": 18,
+   "zh": "别担心佩奇，和你赛跑！"
+  },
+  {
+   "start": 78.001,
+   "end": 82.0,
+   "en": "Peppa and her friends are racing to Daddy Pig's pumpkin.",
+   "i": 19,
+   "zh": "佩奇和她的朋友们正在奔向猪爸爸的南瓜。"
+  },
+  {
+   "start": 82.001,
+   "end": 86.0,
+   "en": "Hey, watch out for my pumpkin!",
+   "i": 20,
+   "zh": "嘿，小心我的南瓜！"
+  },
+  {
+   "start": 89.0,
+   "end": 93.0,
+   "en": "Peppa, look out! Daddy's pumpkin!",
+   "i": 21,
+   "zh": "佩奇，小心！爸爸的南瓜！"
+  },
+  {
+   "start": 94.099,
+   "end": 96.0,
+   "en": "Sorry Daddy.",
+   "i": 22,
+   "zh": "对不起，爸爸。"
+  },
+  {
+   "start": 97.0,
+   "end": 100.0,
+   "en": "Look at George, he's going so slowly.",
+   "i": 23,
+   "zh": "看看乔治，他走得好慢。"
+  },
+  {
+   "start": 101.999,
+   "end": 105.0,
+   "en": "George is still riding a baby bike.",
+   "i": 24,
+   "zh": "乔治还在骑婴儿自行车。"
+  },
+  {
+   "start": 106.199,
+   "end": 111.0,
+   "en": "Yours is a baby bike too Peppa, you've still got stabilizers.",
+   "i": 25,
+   "zh": "你的也是一辆婴儿自行车佩奇，你还有稳定器。"
+  },
+  {
+   "start": 111.549,
+   "end": 114.0,
+   "en": "I can ride without my stabilizers.",
+   "i": 26,
+   "zh": "我可以在没有稳定器的情况下骑行。"
+  },
+  {
+   "start": 114.001,
+   "end": 116.0,
+   "en": "Me too!",
+   "i": 27,
+   "zh": "我也是！"
+  },
+  {
+   "start": 116.274,
+   "end": 118.0,
+   "en": "And me!",
+   "i": 28,
+   "zh": "还有我！"
+  },
+  {
+   "start": 120.0,
+   "end": 122.0,
+   "en": "Let's ride up the hill again.",
+   "i": 29,
+   "zh": "我们再骑上山吧。"
+  },
+  {
+   "start": 122.001,
+   "end": 124.0,
+   "en": "Are you coming Peppa?",
+   "i": 30,
+   "zh": "佩奇你来吗？"
+  },
+  {
+   "start": 124.099,
+   "end": 126.0,
+   "en": "No, I think I'll stay here.",
+   "i": 31,
+   "zh": "不，我想我会留在这里。"
+  },
+  {
+   "start": 128.0,
+   "end": 130.0,
+   "en": "See you later!",
+   "i": 32,
+   "zh": "再见！"
+  },
+  {
+   "start": 130.001,
+   "end": 132.0,
+   "en": "Bye.",
+   "i": 33,
+   "zh": "再见。"
+  },
+  {
+   "start": 132.001,
+   "end": 136.0,
+   "en": "Peppa wishes she did not have stabilizers on her bicycle.",
+   "i": 34,
+   "zh": "佩奇希望她的自行车上没有稳定器。"
+  },
+  {
+   "start": 136.1,
+   "end": 139.0,
+   "en": "Daddy, I don't want stabilizers anymore.",
+   "i": 35,
+   "zh": "爸爸，我不要稳定剂了。"
+  },
+  {
+   "start": 139.001,
+   "end": 142.0,
+   "en": "Do you think you can ride without them?",
+   "i": 36,
+   "zh": "你认为没有他们你可以骑车吗？"
+  },
+  {
+   "start": 142.05,
+   "end": 143.0,
+   "en": "Yes!",
+   "i": 37,
+   "zh": "是的！"
+  },
+  {
+   "start": 143.001,
+   "end": 146.0,
+   "en": "Alright Peppa, let's take them off.",
+   "i": 38,
+   "zh": "好吧，佩奇，我们把它们脱掉吧。"
+  },
+  {
+   "start": 146.25,
+   "end": 150.0,
+   "en": "Daddy Pig is taking the stabilizers off Peppa's bicycle.",
+   "i": 39,
+   "zh": "猪爸爸正在把佩奇自行车上的稳定器取下来。"
+  },
+  {
+   "start": 150.3,
+   "end": 153.0,
+   "en": "Are you sure you want to ride without stabilizers?",
+   "i": 40,
+   "zh": "您确定要在没有稳定器的情况下骑行吗？"
+  },
+  {
+   "start": 153.001,
+   "end": 154.001,
+   "en": "Yes!",
+   "i": 41,
+   "zh": "是的！"
+  },
+  {
+   "start": 154.2,
+   "end": 156.0,
+   "en": "You've never done it before?",
+   "i": 42,
+   "zh": "你以前从未做过吗？"
+  },
+  {
+   "start": 156.001,
+   "end": 159.0,
+   "en": "I can do it, I can, I can!",
+   "i": 43,
+   "zh": "我能做到，我能，我能！"
+  },
+  {
+   "start": 164.0,
+   "end": 166.0,
+   "en": "It's not funny!",
+   "i": 44,
+   "zh": "这不好笑！"
+  },
+  {
+   "start": 166.25,
+   "end": 169.0,
+   "en": "Riding without stabilizers is not easy.",
+   "i": 45,
+   "zh": "没有稳定器的骑行并不容易。"
+  },
+  {
+   "start": 169.001,
+   "end": 171.0,
+   "en": "Would you like some help Peppa?",
+   "i": 46,
+   "zh": "佩奇需要帮助吗？"
+  },
+  {
+   "start": 171.1,
+   "end": 173.0,
+   "en": "Yes please Daddy.",
+   "i": 47,
+   "zh": "是的，爸爸。"
+  },
+  {
+   "start": 173.1,
+   "end": 178.0,
+   "en": "Alright, ready, steady, go!",
+   "i": 48,
+   "zh": "好了，准备好了，稳住，出发！"
+  },
+  {
+   "start": 178.001,
+   "end": 180.0,
+   "en": "Don't let go Daddy.",
+   "i": 49,
+   "zh": "别放开爸爸。"
+  },
+  {
+   "start": 180.001,
+   "end": 182.0,
+   "en": "Don't worry, I've got you.",
+   "i": 50,
+   "zh": "别担心，我有你。"
+  },
+  {
+   "start": 182.001,
+   "end": 185.0,
+   "en": "You're doing really well Peppa.",
+   "i": 51,
+   "zh": "佩奇你做得很好。"
+  },
+  {
+   "start": 186.0,
+   "end": 188.0,
+   "en": "Hold on Daddy.",
+   "i": 52,
+   "zh": "爸爸坚持住。"
+  },
+  {
+   "start": 189.0,
+   "end": 191.0,
+   "en": "Just keep pedaling.",
+   "i": 53,
+   "zh": "继续踩踏板。"
+  },
+  {
+   "start": 191.001,
+   "end": 195.0,
+   "en": "Peppa is riding on her own, without stabilizers.",
+   "i": 54,
+   "zh": "佩奇独自骑行，没有稳定器。"
+  },
+  {
+   "start": 196.874,
+   "end": 199.0,
+   "en": "Daddy, you let go!",
+   "i": 55,
+   "zh": "爸爸，你放手！"
+  },
+  {
+   "start": 200.25,
+   "end": 203.0,
+   "en": "You've been cycling on your own for ages.",
+   "i": 56,
+   "zh": "你已经独自骑自行车很多年了。"
+  },
+  {
+   "start": 203.001,
+   "end": 204.0,
+   "en": "Have I?",
+   "i": 57,
+   "zh": "我有吗？"
+  },
+  {
+   "start": 204.001,
+   "end": 207.0,
+   "en": "You're really very good at it.",
+   "i": 58,
+   "zh": "你真的很擅长。"
+  },
+  {
+   "start": 207.001,
+   "end": 208.001,
+   "en": "Am I?",
+   "i": 59,
+   "zh": "我是吗？"
+  },
+  {
+   "start": 209.0,
+   "end": 211.0,
+   "en": "Oh, I can do it.",
+   "i": 60,
+   "zh": "哦，我能行。"
+  },
+  {
+   "start": 211.001,
+   "end": 212.0,
+   "en": "Look at me, look at me.",
+   "i": 61,
+   "zh": "看着我，看着我。"
+  },
+  {
+   "start": 212.001,
+   "end": 215.0,
+   "en": "I can ride my bike properly.",
+   "i": 62,
+   "zh": "我可以正常骑自行车了。"
+  },
+  {
+   "start": 217.0,
+   "end": 220.0,
+   "en": "Daddy, Suzy, Rebecca, look!",
+   "i": 63,
+   "zh": "爸爸、苏西、丽贝卡，看！"
+  },
+  {
+   "start": 220.001,
+   "end": 223.0,
+   "en": "I don't need my stabilizers anymore.",
+   "i": 64,
+   "zh": "我不再需要稳定器了。"
+  },
+  {
+   "start": 224.0,
+   "end": 225.0,
+   "en": "Look at me!",
+   "i": 65,
+   "zh": "看着我！"
+  },
+  {
+   "start": 225.001,
+   "end": 226.001,
+   "en": "Hurray!",
+   "i": 66,
+   "zh": "好耶！"
+  },
+  {
+   "start": 228.0,
+   "end": 230.0,
+   "en": "Race you to Daddy's pumpkin!",
+   "i": 67,
+   "zh": "带你去爸爸的南瓜赛跑！"
+  },
+  {
+   "start": 235.0,
+   "end": 238.0,
+   "en": "Peppa, look out, my pumpkin!",
+   "i": 68,
+   "zh": "佩奇，小心，我的南瓜！"
+  },
+  {
+   "start": 238.001,
+   "end": 240.0,
+   "en": "I'm going to win!",
+   "i": 69,
+   "zh": "我要赢了！"
+  },
+  {
+   "start": 240.001,
+   "end": 242.0,
+   "en": "Peppa isn't looking where she's going.",
+   "i": 70,
+   "zh": "佩奇没有看她要去哪里。"
+  },
+  {
+   "start": 248.0,
+   "end": 252.0,
+   "en": "Oh dear, Peppa has squashed Daddy Pig's pumpkin.",
+   "i": 71,
+   "zh": "天哪，佩奇把猪爸爸的南瓜压扁了。"
+  },
+  {
+   "start": 252.5,
+   "end": 255.0,
+   "en": "Sorry I squashed your pumpkin Daddy.",
+   "i": 72,
+   "zh": "对不起，我压碎了你的南瓜爸爸。"
+  },
+  {
+   "start": 256.0,
+   "end": 258.0,
+   "en": "Never mind the pumpkin.",
+   "i": 73,
+   "zh": "别介意南瓜。"
+  },
+  {
+   "start": 258.05,
+   "end": 260.0,
+   "en": "The important thing is that you are okay.",
+   "i": 74,
+   "zh": "重要的是你没事。"
+  },
+  {
+   "start": 260.375,
+   "end": 263.0,
+   "en": "In future, you really must look where you're going.",
+   "i": 75,
+   "zh": "以后，你真的得看看你要去哪里。"
+  },
+  {
+   "start": 263.55,
+   "end": 265.0,
+   "en": "I promise I will Daddy.",
+   "i": 76,
+   "zh": "我保证我会爸爸。"
+  },
+  {
+   "start": 265.001,
+   "end": 266.001,
+   "en": "Good.",
+   "i": 77,
+   "zh": "好。"
+  },
+  {
+   "start": 266.875,
+   "end": 271.0,
+   "en": "Anyway, now the pumpkin is broken, I can make it into pumpkin pie.",
+   "i": 78,
+   "zh": "不管怎样，现在南瓜坏了，我可以把它做成南瓜饼了。"
+  },
+  {
+   "start": 272.0,
+   "end": 274.0,
+   "en": "I love pumpkin pie!",
+   "i": 79,
+   "zh": "我喜欢南瓜派！"
+  },
+  {
+   "start": 275.0,
+   "end": 277.374,
+   "en": "And because Daddy Pig's pumpkin is so big,",
+   "i": 80,
+   "zh": "而且因为猪爸爸的南瓜太大了，"
+  },
+  {
+   "start": 277.398,
+   "end": 280.012,
+   "en": "there will be enough pumpkin pie for everyone.",
+   "i": 81,
+   "zh": "每个人都会有足够的南瓜派。"
+  },
+  {
+   "start": 280.013,
+   "end": 282.0,
+   "en": "Hurray!",
+   "i": 82,
+   "zh": "好耶！"
+  }
+ ]
+}

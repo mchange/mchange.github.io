@@ -1,0 +1,512 @@
+{
+ "id": "pep45",
+ "title": "Daddy Puts up a Picture",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 5.64,
+   "end": 9.942,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 9.966,
+   "end": 13.64,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.641,
+   "end": 20.14,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 20.141,
+   "end": 24.74,
+   "en": "Daddy puts up a picture.",
+   "i": 4,
+   "zh": "爸爸放了一张照片。"
+  },
+  {
+   "start": 24.741,
+   "end": 28.38,
+   "en": "Mummy Pig and Daddy Pig have a new picture of Peppa and George.",
+   "i": 5,
+   "zh": "猪妈妈和猪爸爸有佩奇和乔治的新照片。"
+  },
+  {
+   "start": 28.381,
+   "end": 31.84,
+   "en": "We should put this lovely new picture on the wall.",
+   "i": 6,
+   "zh": "我们应该把这张可爱的新照片挂在墙上。"
+  },
+  {
+   "start": 31.841,
+   "end": 36.76,
+   "en": "Leave it to me, I am the DIY expert of the house.",
+   "i": 7,
+   "zh": "交给我吧，我是家里的DIY专家。"
+  },
+  {
+   "start": 36.761,
+   "end": 38.44,
+   "en": "Are you sure you can do it?",
+   "i": 8,
+   "zh": "你确定你能做到吗？"
+  },
+  {
+   "start": 38.441,
+   "end": 42.8,
+   "en": "Of course, I'll just put a nail in the wall and hang the picture on it.",
+   "i": 9,
+   "zh": "当然，我只是在墙上钉一个钉子，然后把照片挂在上面。"
+  },
+  {
+   "start": 42.849,
+   "end": 47.72,
+   "en": "Very good, I'm just off to visit Granny and Grandpa Pig.",
+   "i": 10,
+   "zh": "很好，我要去看看奶奶和猪爷爷了。"
+  },
+  {
+   "start": 47.721,
+   "end": 52.4,
+   "en": "I'll see you later, and please don't make a mess.",
+   "i": 11,
+   "zh": "一会儿见，请不要搞乱。"
+  },
+  {
+   "start": 52.401,
+   "end": 53.4,
+   "en": "Mess?",
+   "i": 12,
+   "zh": "混乱？"
+  },
+  {
+   "start": 53.401,
+   "end": 58.44,
+   "en": "Goodbye, goodbye.",
+   "i": 13,
+   "zh": "再见，再见。"
+  },
+  {
+   "start": 58.589,
+   "end": 63.6,
+   "en": "Daddy, can we help put up the picture?",
+   "i": 14,
+   "zh": "爸爸，我们可以帮忙贴张照片吗？"
+  },
+  {
+   "start": 63.601,
+   "end": 66.7,
+   "en": "You can watch, and then you'll learn how to do it properly.",
+   "i": 15,
+   "zh": "你可以观看，然后你就会学会如何正确地做到这一点。"
+  },
+  {
+   "start": 70.52,
+   "end": 78.52,
+   "en": "First, I need a tape measure, and a pencil.",
+   "i": 16,
+   "zh": "首先，我需要一个卷尺和一支铅笔。"
+  },
+  {
+   "start": 78.521,
+   "end": 81.32,
+   "en": "That is where I'm going to put the nail.",
+   "i": 17,
+   "zh": "那就是我要钉钉子的地方。"
+  },
+  {
+   "start": 81.321,
+   "end": 84.84,
+   "en": "Don't break the wall, Daddy.",
+   "i": 18,
+   "zh": "别打破这堵墙，爸爸。"
+  },
+  {
+   "start": 84.841,
+   "end": 88.42,
+   "en": "Now I need a hammer and a nail.",
+   "i": 19,
+   "zh": "现在我需要一把锤子和一颗钉子。"
+  },
+  {
+   "start": 88.421,
+   "end": 91.72,
+   "en": "Stand back, children, and watch a craftsman at work.",
+   "i": 20,
+   "zh": "孩子们，退后一步，观看工匠的工作。"
+  },
+  {
+   "start": 91.72,
+   "end": 94.6,
+   "en": "Daddy Pig is going to knock the nail into the wall.",
+   "i": 21,
+   "zh": "猪爸爸要把钉子敲到墙上。"
+  },
+  {
+   "start": 94.601,
+   "end": 99.04,
+   "en": "Don't break the wall, Daddy.",
+   "i": 22,
+   "zh": "别打破这堵墙，爸爸。"
+  },
+  {
+   "start": 99.114,
+   "end": 103.92,
+   "en": "Don't be silly, Peppa.",
+   "i": 23,
+   "zh": "别傻了，佩奇。"
+  },
+  {
+   "start": 103.921,
+   "end": 105.84,
+   "en": "Easy as pie.",
+   "i": 24,
+   "zh": "小菜一碟。"
+  },
+  {
+   "start": 105.841,
+   "end": 108.84,
+   "en": "Oh, it's not meant to do that.",
+   "i": 25,
+   "zh": "哦，这不是故意的。"
+  },
+  {
+   "start": 108.84,
+   "end": 111.56,
+   "en": "Daddy Pig has made a big crack in the wall.",
+   "i": 26,
+   "zh": "猪爸爸把墙上弄出了一条大裂缝。"
+  },
+  {
+   "start": 111.561,
+   "end": 115.24,
+   "en": "Oh, Daddy, you've broken the wall.",
+   "i": 27,
+   "zh": "哦，爸爸，你打破了墙壁。"
+  },
+  {
+   "start": 115.241,
+   "end": 117.28,
+   "en": "It's just a tiny crack.",
+   "i": 28,
+   "zh": "这只是一个微小的裂缝。"
+  },
+  {
+   "start": 117.281,
+   "end": 119.24,
+   "en": "The picture will hide it.",
+   "i": 29,
+   "zh": "图片会将其隐藏。"
+  },
+  {
+   "start": 119.241,
+   "end": 120.241,
+   "en": "There.",
+   "i": 30,
+   "zh": "好啦。"
+  },
+  {
+   "start": 120.689,
+   "end": 123.6,
+   "en": "I can still see the crack, Daddy.",
+   "i": 31,
+   "zh": "我仍然可以看到裂缝，爸爸。"
+  },
+  {
+   "start": 123.601,
+   "end": 127.52,
+   "en": "Yes, I'll just take the nail out and fill in the crack.",
+   "i": 32,
+   "zh": "是的，我只要把钉子拿出来，填上裂缝就可以了。"
+  },
+  {
+   "start": 127.521,
+   "end": 130.0,
+   "en": "Don't make a mess, Daddy.",
+   "i": 33,
+   "zh": "别搞砸了，爸爸。"
+  },
+  {
+   "start": 130.001,
+   "end": 131.84,
+   "en": "Don't be silly, Peppa.",
+   "i": 34,
+   "zh": "别傻了，佩奇。"
+  },
+  {
+   "start": 131.841,
+   "end": 135.12,
+   "en": "Oh, it's coming out.",
+   "i": 35,
+   "zh": "哦，出来了。"
+  },
+  {
+   "start": 135.121,
+   "end": 143.08,
+   "en": "Oh, Daddy, now you really have broken the wall.",
+   "i": 36,
+   "zh": "噢，爸爸，你现在真的打破了墙。"
+  },
+  {
+   "start": 143.081,
+   "end": 144.081,
+   "en": "Hmm.",
+   "i": 37,
+   "zh": "嗯。"
+  },
+  {
+   "start": 144.305,
+   "end": 147.0,
+   "en": "Do you think Mummy will notice?",
+   "i": 38,
+   "zh": "你觉得妈妈会注意到吗？"
+  },
+  {
+   "start": 147.001,
+   "end": 150.08,
+   "en": "Yes, I think she might.",
+   "i": 39,
+   "zh": "是的，我想她可能会。"
+  },
+  {
+   "start": 150.081,
+   "end": 152.56,
+   "en": "Quick, George.",
+   "i": 40,
+   "zh": "快点，乔治。"
+  },
+  {
+   "start": 152.561,
+   "end": 156.48,
+   "en": "What are they doing?",
+   "i": 41,
+   "zh": "他们在做什么？"
+  },
+  {
+   "start": 156.481,
+   "end": 163.24,
+   "en": "Daddy, we can see you.",
+   "i": 42,
+   "zh": "爸爸，我们可以见到你了。"
+  },
+  {
+   "start": 163.241,
+   "end": 169.48,
+   "en": "Daddy Pig has to mend the wall before Mummy Pig comes home.",
+   "i": 43,
+   "zh": "猪爸爸必须在猪妈妈回家之前把墙修好。"
+  },
+  {
+   "start": 169.481,
+   "end": 171.48,
+   "en": "Brick please.",
+   "i": 44,
+   "zh": "请砖。"
+  },
+  {
+   "start": 171.481,
+   "end": 179.48,
+   "en": "First Daddy Pig fills the hole with bricks.",
+   "i": 45,
+   "zh": "第一个猪爸爸用砖块填满了洞。"
+  },
+  {
+   "start": 181.04,
+   "end": 189.04,
+   "en": "There.",
+   "i": 46,
+   "zh": "好啦。"
+  },
+  {
+   "start": 189.041,
+   "end": 195.28,
+   "en": "Next Daddy Pig puts plaster over the bricks.",
+   "i": 47,
+   "zh": "接下来猪爸爸给砖块抹灰。"
+  },
+  {
+   "start": 195.281,
+   "end": 197.4,
+   "en": "Easy as pie.",
+   "i": 48,
+   "zh": "小菜一碟。"
+  },
+  {
+   "start": 198.4,
+   "end": 206.4,
+   "en": "Then Daddy Pig paints the wall.",
+   "i": 49,
+   "zh": "然后猪爸爸粉刷墙壁。"
+  },
+  {
+   "start": 206.401,
+   "end": 207.4,
+   "en": "Good as new.",
+   "i": 50,
+   "zh": "完好如新。"
+  },
+  {
+   "start": 207.401,
+   "end": 211.02,
+   "en": "The wall is mended.",
+   "i": 51,
+   "zh": "墙修好了。"
+  },
+  {
+   "start": 211.021,
+   "end": 213.6,
+   "en": "But look at all the mess they have made.",
+   "i": 52,
+   "zh": "但是看看他们弄得一团糟。"
+  },
+  {
+   "start": 213.601,
+   "end": 217.56,
+   "en": "Goodness me, we'd better clean up before Mummy comes back.",
+   "i": 53,
+   "zh": "天哪，我们最好在妈妈回来之前清理干净。"
+  },
+  {
+   "start": 217.561,
+   "end": 221.44,
+   "en": "Daddy Pig quickly washes Peppa and George.",
+   "i": 54,
+   "zh": "猪爸爸赶紧给佩奇和乔治洗澡。"
+  },
+  {
+   "start": 221.441,
+   "end": 227.88,
+   "en": "Then Peppa vacuums the floor and Daddy Pig tidies up the tools.",
+   "i": 55,
+   "zh": "然后佩奇用吸尘器吸地板，猪爸爸收拾工具。"
+  },
+  {
+   "start": 227.881,
+   "end": 230.0,
+   "en": "Mummy!",
+   "i": 56,
+   "zh": "妈妈！"
+  },
+  {
+   "start": 230.001,
+   "end": 231.16,
+   "en": "Mummy Pig is home.",
+   "i": 57,
+   "zh": "猪妈妈回家了。"
+  },
+  {
+   "start": 231.161,
+   "end": 232.16,
+   "en": "Mummy!",
+   "i": 58,
+   "zh": "妈妈！"
+  },
+  {
+   "start": 232.161,
+   "end": 233.16,
+   "en": "Mummy's here.",
+   "i": 59,
+   "zh": "妈妈来了。"
+  },
+  {
+   "start": 233.161,
+   "end": 237.0,
+   "en": "Quick, pretend nothing has happened.",
+   "i": 60,
+   "zh": "快点，假装什么都没发生。"
+  },
+  {
+   "start": 237.001,
+   "end": 238.0,
+   "en": "Hello.",
+   "i": 61,
+   "zh": "你好。"
+  },
+  {
+   "start": 238.001,
+   "end": 239.0,
+   "en": "Hello.",
+   "i": 62,
+   "zh": "你好。"
+  },
+  {
+   "start": 239.001,
+   "end": 242.48,
+   "en": "What have you been doing?",
+   "i": 63,
+   "zh": "你最近在做什么？"
+  },
+  {
+   "start": 242.481,
+   "end": 244.48,
+   "en": "Oh, nothing.",
+   "i": 64,
+   "zh": "哦，没什么。"
+  },
+  {
+   "start": 244.78,
+   "end": 252.4,
+   "en": "Yes, I can see you've been doing nothing.",
+   "i": 65,
+   "zh": "是的，我看得出你什么也没做。"
+  },
+  {
+   "start": 252.401,
+   "end": 254.72,
+   "en": "I thought you were going to put the picture up.",
+   "i": 66,
+   "zh": "我以为你会把照片放上去。"
+  },
+  {
+   "start": 254.721,
+   "end": 258.76,
+   "en": "In all the excitement, Daddy Pig has forgotten to put the picture up.",
+   "i": 67,
+   "zh": "猪爸爸一兴奋，忘记把照片放上来了。"
+  },
+  {
+   "start": 258.761,
+   "end": 259.761,
+   "en": "Oh.",
+   "i": 68,
+   "zh": "哦。"
+  },
+  {
+   "start": 259.91,
+   "end": 265.48,
+   "en": "Well, I'm no expert, but I'm sure it's quite easy.",
+   "i": 69,
+   "zh": "嗯，我不是专家，但我确信这很简单。"
+  },
+  {
+   "start": 265.481,
+   "end": 270.76,
+   "en": "Yes, that did look quite easy.",
+   "i": 70,
+   "zh": "是的，这看起来确实很简单。"
+  },
+  {
+   "start": 271.06,
+   "end": 274.2,
+   "en": "But when you did it, Daddy, it looked really hard.",
+   "i": 71,
+   "zh": "但是当你这么做的时候，爸爸，看起来真的很难。"
+  },
+  {
+   "start": 274.45,
+   "end": 276.8,
+   "en": "Shush, Peppa, don't tell anyone.",
+   "i": 72,
+   "zh": "嘘，佩奇，别告诉任何人。"
+  }
+ ]
+}

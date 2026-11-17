@@ -1,0 +1,540 @@
+{
+ "id": "pep46",
+ "title": "At the Beach",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 4.68,
+   "end": 8.982,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 9.006,
+   "end": 12.68,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 12.681,
+   "end": 19.8,
+   "en": "Peppa Pig at the beach.",
+   "i": 3,
+   "zh": "佩奇在海滩。"
+  },
+  {
+   "start": 19.801,
+   "end": 23.48,
+   "en": "Peppa and her family are going to the beach.",
+   "i": 4,
+   "zh": "佩奇和她的家人要去海滩。"
+  },
+  {
+   "start": 23.481,
+   "end": 31.28,
+   "en": "Peppa and George love going to the beach.",
+   "i": 5,
+   "zh": "佩奇和乔治喜欢去海滩。"
+  },
+  {
+   "start": 31.281,
+   "end": 33.24,
+   "en": "What a lot of stuff.",
+   "i": 6,
+   "zh": "好多东西啊。"
+  },
+  {
+   "start": 33.241,
+   "end": 36.8,
+   "en": "We must be careful not to forget anything when we go.",
+   "i": 7,
+   "zh": "我们去的时候一定要小心，不要忘记任何东西。"
+  },
+  {
+   "start": 36.801,
+   "end": 43.04,
+   "en": "Sun shade, beach bag, towels, buckets and spades, and a spotty ball.",
+   "i": 8,
+   "zh": "遮阳伞、沙滩包、毛巾、水桶和铲子，以及一个斑点球。"
+  },
+  {
+   "start": 43.04,
+   "end": 50.36,
+   "en": "Good, now before you start playing, you need some sun cream on.",
+   "i": 9,
+   "zh": "好，现在开始玩之前，你需要涂一些防晒霜。"
+  },
+  {
+   "start": 50.361,
+   "end": 55.24,
+   "en": "The sun is very hot, so Peppa and George have to have sun cream on.",
+   "i": 10,
+   "zh": "太阳很热，佩奇和乔治必须涂防晒霜。"
+  },
+  {
+   "start": 55.241,
+   "end": 58.48,
+   "en": "Let's try out this spotty ball.",
+   "i": 11,
+   "zh": "让我们试试这个斑点球。"
+  },
+  {
+   "start": 58.481,
+   "end": 60.42,
+   "en": "It seems to work.",
+   "i": 12,
+   "zh": "看来可行。"
+  },
+  {
+   "start": 60.421,
+   "end": 63.32,
+   "en": "What a great spotty ball.",
+   "i": 13,
+   "zh": "多么棒的斑点球啊。"
+  },
+  {
+   "start": 66.68,
+   "end": 74.68,
+   "en": "George, you throw the ball and I will catch it.",
+   "i": 14,
+   "zh": "乔治，你扔球，我接住它。"
+  },
+  {
+   "start": 74.681,
+   "end": 76.6,
+   "en": "George, catch!",
+   "i": 15,
+   "zh": "乔治，接住！"
+  },
+  {
+   "start": 76.601,
+   "end": 82.28,
+   "en": "Oh dear, George is too little to catch the ball.",
+   "i": 16,
+   "zh": "噢天哪，乔治太小了，接不住球。"
+  },
+  {
+   "start": 82.281,
+   "end": 86.28,
+   "en": "Never mind George, would you and Peppa like to have a paddle in the sea?",
+   "i": 17,
+   "zh": "别介意乔治，你和佩奇想在海里划桨吗？"
+  },
+  {
+   "start": 86.281,
+   "end": 88.96,
+   "en": "Yes please Daddy.",
+   "i": 18,
+   "zh": "是的，爸爸。"
+  },
+  {
+   "start": 89.109,
+   "end": 96.96,
+   "en": "Let's put your water wings on.",
+   "i": 19,
+   "zh": "让我们戴上你的水翼吧。"
+  },
+  {
+   "start": 96.961,
+   "end": 100.64,
+   "en": "There we go, you look very smart in your water wings George.",
+   "i": 20,
+   "zh": "好了，你戴着水翼看起来很聪明，乔治。"
+  },
+  {
+   "start": 100.641,
+   "end": 107.56,
+   "en": "My turn, my turn.",
+   "i": 21,
+   "zh": "轮到我了，轮到我了。"
+  },
+  {
+   "start": 107.56,
+   "end": 113.12,
+   "en": "Good, now we can play in the water.",
+   "i": 22,
+   "zh": "好，现在我们可以玩水了。"
+  },
+  {
+   "start": 113.121,
+   "end": 115.28,
+   "en": "Hooray!",
+   "i": 23,
+   "zh": "好耶！"
+  },
+  {
+   "start": 115.281,
+   "end": 119.6,
+   "en": "Is the water cold?",
+   "i": 24,
+   "zh": "水冷吗？"
+  },
+  {
+   "start": 119.601,
+   "end": 123.56,
+   "en": "It's lovely and warm.",
+   "i": 25,
+   "zh": "可爱又温暖。"
+  },
+  {
+   "start": 129.52,
+   "end": 137.52,
+   "en": "You started it Daddy Pig.",
+   "i": 26,
+   "zh": "猪爸爸是你开始的。"
+  },
+  {
+   "start": 137.521,
+   "end": 139.72,
+   "en": "Maybe that's enough splashing.",
+   "i": 27,
+   "zh": "也许溅得够多了。"
+  },
+  {
+   "start": 139.92,
+   "end": 145.52,
+   "en": "Daddy, I love being at the beach.",
+   "i": 28,
+   "zh": "爸爸，我喜欢在海滩。"
+  },
+  {
+   "start": 145.521,
+   "end": 149.4,
+   "en": "Peppa and George love the beach, everyone loves the beach.",
+   "i": 29,
+   "zh": "佩奇和乔治喜欢海滩，每个人都喜欢海滩。"
+  },
+  {
+   "start": 149.401,
+   "end": 152.84,
+   "en": "Peppa, George, would you like to play with your buckets and spades?",
+   "i": 30,
+   "zh": "佩奇，乔治，你想玩你的水桶和铁锹吗？"
+  },
+  {
+   "start": 152.965,
+   "end": 153.936,
+   "en": "Yes please, Mummy.",
+   "i": 31,
+   "zh": "好的，妈妈。"
+  },
+  {
+   "start": 153.96,
+   "end": 161.96,
+   "en": "Daddy, Daddy, can we bury you in the sand?",
+   "i": 32,
+   "zh": "爸爸爸爸，我们可以把你埋在沙子里吗？"
+  },
+  {
+   "start": 161.961,
+   "end": 164.68,
+   "en": "Er, well... Please, Daddy.",
+   "i": 33,
+   "zh": "呃，好吧……拜托，爸爸。"
+  },
+  {
+   "start": 164.681,
+   "end": 166.2,
+   "en": "Oh, alright.",
+   "i": 34,
+   "zh": "哦，好吧。"
+  },
+  {
+   "start": 166.201,
+   "end": 167.201,
+   "en": "Yippee!",
+   "i": 35,
+   "zh": "太棒啦！"
+  },
+  {
+   "start": 169.48,
+   "end": 177.48,
+   "en": "Peppa and George are burying Daddy Pig in the sand.",
+   "i": 36,
+   "zh": "佩奇和乔治正在把猪爸爸埋在沙子里。"
+  },
+  {
+   "start": 177.481,
+   "end": 179.48,
+   "en": "Steady on.",
+   "i": 37,
+   "zh": "稳定运行。"
+  },
+  {
+   "start": 179.481,
+   "end": 180.481,
+   "en": "There.",
+   "i": 38,
+   "zh": "好啦。"
+  },
+  {
+   "start": 180.605,
+   "end": 184.68,
+   "en": "Now you can't escape.",
+   "i": 39,
+   "zh": "现在你无法逃脱了。"
+  },
+  {
+   "start": 184.681,
+   "end": 186.4,
+   "en": "My head is getting a bit hot.",
+   "i": 40,
+   "zh": "我的头有点热。"
+  },
+  {
+   "start": 186.401,
+   "end": 187.8,
+   "en": "Can I have my straw hat?",
+   "i": 41,
+   "zh": "能给我我的草帽吗？"
+  },
+  {
+   "start": 187.801,
+   "end": 190.76,
+   "en": "Well, if you say please.",
+   "i": 42,
+   "zh": "好吧，如果你说请。"
+  },
+  {
+   "start": 190.761,
+   "end": 192.8,
+   "en": "Please can I have my straw hat?",
+   "i": 43,
+   "zh": "能给我我的草帽吗？"
+  },
+  {
+   "start": 192.801,
+   "end": 198.36,
+   "en": "Yes you may Daddy.",
+   "i": 44,
+   "zh": "是的，爸爸。"
+  },
+  {
+   "start": 198.361,
+   "end": 199.36,
+   "en": "That's nice.",
+   "i": 45,
+   "zh": "太好了。"
+  },
+  {
+   "start": 199.361,
+   "end": 205.84,
+   "en": "Oh, maybe I'll just have a little sleep.",
+   "i": 46,
+   "zh": "哦，也许我会睡一会儿。"
+  },
+  {
+   "start": 205.841,
+   "end": 211.92,
+   "en": "George, let's make sandcastles.",
+   "i": 47,
+   "zh": "乔治，我们来做沙堡吧。"
+  },
+  {
+   "start": 211.921,
+   "end": 213.36,
+   "en": "Peppa and George are making sandcastles.",
+   "i": 48,
+   "zh": "佩奇和乔治正在制作沙堡。"
+  },
+  {
+   "start": 213.361,
+   "end": 217.08,
+   "en": "First we put sand in the buckets, like this.",
+   "i": 49,
+   "zh": "首先我们把沙子放进桶里，像这样。"
+  },
+  {
+   "start": 217.91,
+   "end": 225.76,
+   "en": "We turn the buckets upside down and tap them and lift the bucket up.",
+   "i": 50,
+   "zh": "我们将桶倒置并敲击它们并将桶抬起。"
+  },
+  {
+   "start": 225.761,
+   "end": 226.76,
+   "en": "Hey, presto!",
+   "i": 51,
+   "zh": "嘿，快点！"
+  },
+  {
+   "start": 226.761,
+   "end": 227.76,
+   "en": "A sandcastle.",
+   "i": 52,
+   "zh": "一座沙堡。"
+  },
+  {
+   "start": 227.761,
+   "end": 228.76,
+   "en": "Hey, presto!",
+   "i": 53,
+   "zh": "嘿，快点！"
+  },
+  {
+   "start": 228.761,
+   "end": 229.76,
+   "en": "Another sandcastle.",
+   "i": 54,
+   "zh": "另一个沙堡。"
+  },
+  {
+   "start": 229.761,
+   "end": 230.76,
+   "en": "Peppa!",
+   "i": 55,
+   "zh": "佩奇！"
+  },
+  {
+   "start": 230.761,
+   "end": 231.76,
+   "en": "George!",
+   "i": 56,
+   "zh": "乔治！"
+  },
+  {
+   "start": 231.761,
+   "end": 237.32,
+   "en": "Home time!",
+   "i": 57,
+   "zh": "回家时间！"
+  },
+  {
+   "start": 237.321,
+   "end": 240.32,
+   "en": "Don't leave any stuff behind.",
+   "i": 58,
+   "zh": "不要留下任何东西。"
+  },
+  {
+   "start": 240.321,
+   "end": 242.72,
+   "en": "Let's check that we haven't forgotten anything.",
+   "i": 59,
+   "zh": "让我们检查一下我们没有忘记任何东西。"
+  },
+  {
+   "start": 242.721,
+   "end": 248.8,
+   "en": "Towels, beach bag, sun shade and the spotty ball, that's everything.",
+   "i": 60,
+   "zh": "毛巾、沙滩包、遮阳伞和斑点球，这就是一切。"
+  },
+  {
+   "start": 249.0,
+   "end": 257.0,
+   "en": "I'm sure we've forgotten something.",
+   "i": 61,
+   "zh": "我确信我们忘记了什么。"
+  },
+  {
+   "start": 257.1,
+   "end": 263.4,
+   "en": "Of course, we forgot the hat.",
+   "i": 62,
+   "zh": "当然，我们忘记了帽子。"
+  },
+  {
+   "start": 263.401,
+   "end": 264.4,
+   "en": "Daddy!",
+   "i": 63,
+   "zh": "爸爸！"
+  },
+  {
+   "start": 264.401,
+   "end": 265.4,
+   "en": "We forgot Daddy!",
+   "i": 64,
+   "zh": "我们忘了爸爸！"
+  },
+  {
+   "start": 265.401,
+   "end": 266.4,
+   "en": "Oh, yes!",
+   "i": 65,
+   "zh": "哦，是的！"
+  },
+  {
+   "start": 266.401,
+   "end": 267.401,
+   "en": "We forgot Daddy, Pig.",
+   "i": 66,
+   "zh": "我们忘记了爸爸、猪。"
+  },
+  {
+   "start": 267.45,
+   "end": 268.45,
+   "en": "Eh?",
+   "i": 67,
+   "zh": "呃？"
+  },
+  {
+   "start": 268.55,
+   "end": 269.4,
+   "en": "What?",
+   "i": 68,
+   "zh": "什么？"
+  },
+  {
+   "start": 269.401,
+   "end": 270.4,
+   "en": "Daddy!",
+   "i": 69,
+   "zh": "爸爸！"
+  },
+  {
+   "start": 270.401,
+   "end": 272.48,
+   "en": "We almost left you behind.",
+   "i": 70,
+   "zh": "我们差点就把你抛在后面了。"
+  },
+  {
+   "start": 272.53,
+   "end": 274.32,
+   "en": "But George remembered you.",
+   "i": 71,
+   "zh": "但乔治记得你。"
+  },
+  {
+   "start": 274.67,
+   "end": 279.92,
+   "en": "Well, I'm glad George remembered me.",
+   "i": 72,
+   "zh": "嗯，我很高兴乔治还记得我。"
+  },
+  {
+   "start": 286.8,
+   "end": 294.8,
+   "en": "I'm glad you remembered me, too, Daddy Pig.",
+   "i": 73,
+   "zh": "我很高兴你也记得我，猪爸爸。"
+  },
+  {
+   "start": 294.801,
+   "end": 298.84,
+   "en": "I'm glad you remembered me, too, Daddy Pig.",
+   "i": 74,
+   "zh": "我很高兴你也记得我，猪爸爸。"
+  },
+  {
+   "start": 298.841,
+   "end": 299.841,
+   "en": "Peppa Pig!",
+   "i": 75,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 299.94,
+   "end": 300.94,
+   "en": "Peppa Pig!",
+   "i": 76,
+   "zh": "小猪佩奇！"
+  }
+ ]
+}

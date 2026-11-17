@@ -1,0 +1,470 @@
+{
+ "id": "pep32",
+ "title": "Thunderstorm",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.28,
+   "end": 7.582,
+   "en": "I'm Peppa Pig. This is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.606,
+   "end": 11.28,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.281,
+   "end": 14.28,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 17.28,
+   "end": 19.28,
+   "en": "Thunderstorm!",
+   "i": 4,
+   "zh": "雷雨！"
+  },
+  {
+   "start": 22.28,
+   "end": 25.28,
+   "en": "It is a lovely sunny day.",
+   "i": 5,
+   "zh": "这是一个阳光明媚的日子。"
+  },
+  {
+   "start": 25.281,
+   "end": 28.28,
+   "en": "Peppa and George are having a picnic.",
+   "i": 6,
+   "zh": "佩奇和乔治正在野餐。"
+  },
+  {
+   "start": 28.281,
+   "end": 31.0,
+   "en": "Here's some orange juice for you, Teddy.",
+   "i": 7,
+   "zh": "这是给你的橙汁，泰迪。"
+  },
+  {
+   "start": 31.15,
+   "end": 33.0,
+   "en": "What do you say?",
+   "i": 8,
+   "zh": "你说什么？"
+  },
+  {
+   "start": 33.001,
+   "end": 35.0,
+   "en": "Thank you very much, Peppa.",
+   "i": 9,
+   "zh": "非常感谢你，佩奇。"
+  },
+  {
+   "start": 35.399,
+   "end": 38.0,
+   "en": "You're very welcome, Teddy.",
+   "i": 10,
+   "zh": "不客气，泰迪。"
+  },
+  {
+   "start": 38.001,
+   "end": 41.0,
+   "en": "Here's some orange juice for you, Mr. Dinosaur.",
+   "i": 11,
+   "zh": "这是给你的橙汁，恐龙先生。"
+  },
+  {
+   "start": 41.149,
+   "end": 43.0,
+   "en": "And what do you say?",
+   "i": 12,
+   "zh": "那你说什么？"
+  },
+  {
+   "start": 44.875,
+   "end": 48.0,
+   "en": "You're very welcome, Mr. Dinosaur.",
+   "i": 13,
+   "zh": "不客气，恐龙先生。"
+  },
+  {
+   "start": 49.0,
+   "end": 52.0,
+   "en": "Would Teddy or Mr. Dinosaur like a cookie?",
+   "i": 14,
+   "zh": "泰迪或恐龙先生喜欢饼干吗？"
+  },
+  {
+   "start": 52.449,
+   "end": 57.0,
+   "en": "We're not very hungry, so Peppa and George can eat all the cookies.",
+   "i": 15,
+   "zh": "我们不是很饿，所以佩奇和乔治可以吃掉所有的饼干。"
+  },
+  {
+   "start": 57.249,
+   "end": 59.0,
+   "en": "Thank you, Teddy.",
+   "i": 16,
+   "zh": "谢谢你，泰迪。"
+  },
+  {
+   "start": 66.499,
+   "end": 69.0,
+   "en": "What was that strange noise?",
+   "i": 17,
+   "zh": "那奇怪的声音是什么？"
+  },
+  {
+   "start": 70.0,
+   "end": 75.0,
+   "en": "Peppa! George! Quick, come inside the house!",
+   "i": 18,
+   "zh": "佩奇！乔治！快，快进屋去！"
+  },
+  {
+   "start": 75.001,
+   "end": 78.0,
+   "en": "Mummy, there was a loud bang sound.",
+   "i": 19,
+   "zh": "妈妈，一声巨响。"
+  },
+  {
+   "start": 78.001,
+   "end": 80.0,
+   "en": "It's thunder, Peppa.",
+   "i": 20,
+   "zh": "打雷了，佩奇。"
+  },
+  {
+   "start": 80.001,
+   "end": 84.0,
+   "en": "It means there will be a thunderstorm with lots of rain.",
+   "i": 21,
+   "zh": "这意味着将会有雷雨大雨。"
+  },
+  {
+   "start": 84.001,
+   "end": 87.0,
+   "en": "Quick, into the house before the rain starts.",
+   "i": 22,
+   "zh": "快，在下雨之前进屋。"
+  },
+  {
+   "start": 87.001,
+   "end": 92.0,
+   "en": "No need to panic. The rain is still a long way off.",
+   "i": 23,
+   "zh": "无需惊慌。距离下雨还很远。"
+  },
+  {
+   "start": 93.0,
+   "end": 96.0,
+   "en": "The sky is getting darker and darker.",
+   "i": 24,
+   "zh": "天色越来越暗。"
+  },
+  {
+   "start": 96.001,
+   "end": 99.0,
+   "en": "There is going to be a thunderstorm.",
+   "i": 25,
+   "zh": "将会有雷雨。"
+  },
+  {
+   "start": 101.0,
+   "end": 105.0,
+   "en": "Peppa, George, did you bring all your toys in from the garden?",
+   "i": 26,
+   "zh": "佩奇，乔治，你把花园里的玩具都带进来了吗？"
+  },
+  {
+   "start": 105.001,
+   "end": 107.0,
+   "en": "Dinosaur.",
+   "i": 27,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 107.599,
+   "end": 110.0,
+   "en": "Good. Mr. Dinosaur is safe.",
+   "i": 28,
+   "zh": "好。恐龙先生很安全。"
+  },
+  {
+   "start": 110.099,
+   "end": 114.0,
+   "en": "Teddy, I left Teddy in the garden. He'll get wet.",
+   "i": 29,
+   "zh": "泰迪，我把泰迪留在花园里了。他会被淋湿。"
+  },
+  {
+   "start": 114.001,
+   "end": 117.0,
+   "en": "Don't worry, Peppa. Daddy Pig will rescue Teddy.",
+   "i": 30,
+   "zh": "别担心，佩奇。猪爸爸会救泰迪的。"
+  },
+  {
+   "start": 117.001,
+   "end": 120.0,
+   "en": "You'd better hurry, Daddy Pig. It's just about to rain.",
+   "i": 31,
+   "zh": "猪爸爸，你最好快点。马上要下雨了。"
+  },
+  {
+   "start": 120.001,
+   "end": 124.0,
+   "en": "I know all about thunderstorms. It won't rain for ages.",
+   "i": 32,
+   "zh": "我知道关于雷暴的一切。好久都不会下雨了。"
+  },
+  {
+   "start": 129.0,
+   "end": 133.0,
+   "en": "As I thought, plenty of time before it rains.",
+   "i": 33,
+   "zh": "正如我所想，距离下雨还有很多时间。"
+  },
+  {
+   "start": 141.0,
+   "end": 145.0,
+   "en": "Poor Teddy. He's soaking wet.",
+   "i": 34,
+   "zh": "可怜的泰迪。他浑身湿透了。"
+  },
+  {
+   "start": 145.45,
+   "end": 148.0,
+   "en": "Yes, poor Teddy. Let's get him dry.",
+   "i": 35,
+   "zh": "是的，可怜的泰迪。让我们把他擦干吧。"
+  },
+  {
+   "start": 148.001,
+   "end": 150.0,
+   "en": "Poor Teddy.",
+   "i": 36,
+   "zh": "可怜的泰迪。"
+  },
+  {
+   "start": 152.0,
+   "end": 155.0,
+   "en": "There you are, Teddy. All dry.",
+   "i": 37,
+   "zh": "你来了，泰迪。都干了。"
+  },
+  {
+   "start": 155.001,
+   "end": 161.0,
+   "en": "Achoo! What about poor Daddy? I'm soaking wet too.",
+   "i": 38,
+   "zh": "阿呼！可怜的爸爸呢？我也湿透了"
+  },
+  {
+   "start": 161.15,
+   "end": 165.0,
+   "en": "Oh, sorry, Daddy Pig. Let's get you dry.",
+   "i": 39,
+   "zh": "哦，对不起，猪爸爸。让我们给你擦干。"
+  },
+  {
+   "start": 169.0,
+   "end": 173.0,
+   "en": "There you are, Daddy Pig. Nice and dry.",
+   "i": 40,
+   "zh": "你来了，猪爸爸。又好又干。"
+  },
+  {
+   "start": 177.55,
+   "end": 180.0,
+   "en": "The rain is coming in the house.",
+   "i": 41,
+   "zh": "雨要进屋了。"
+  },
+  {
+   "start": 182.874,
+   "end": 185.0,
+   "en": "The floor is getting wet.",
+   "i": 42,
+   "zh": "地板湿了。"
+  },
+  {
+   "start": 185.2,
+   "end": 188.0,
+   "en": "Oh, dear. What can we do, Daddy Pig?",
+   "i": 43,
+   "zh": "哦，亲爱的。猪爸爸我们能做什么？"
+  },
+  {
+   "start": 188.001,
+   "end": 190.0,
+   "en": "Don't worry.",
+   "i": 44,
+   "zh": "别担心。"
+  },
+  {
+   "start": 190.2,
+   "end": 194.0,
+   "en": "Daddy Pig is using a bucket to catch the drips.",
+   "i": 45,
+   "zh": "猪爸爸正在用桶接水滴。"
+  },
+  {
+   "start": 194.001,
+   "end": 196.0,
+   "en": "Well done, Daddy Pig.",
+   "i": 46,
+   "zh": "干得好，猪爸爸。"
+  },
+  {
+   "start": 196.001,
+   "end": 200.0,
+   "en": "Easy as pie. Eh? What?",
+   "i": 47,
+   "zh": "简单易行。呃？什么？"
+  },
+  {
+   "start": 202.15,
+   "end": 205.0,
+   "en": "Quick. Find something else to catch the water.",
+   "i": 48,
+   "zh": "快点。寻找其他东西来接水。"
+  },
+  {
+   "start": 208.05,
+   "end": 210.0,
+   "en": "Well done, Peppa.",
+   "i": 49,
+   "zh": "做得好，佩奇。"
+  },
+  {
+   "start": 210.05,
+   "end": 212.0,
+   "en": "Easy as pie.",
+   "i": 50,
+   "zh": "小菜一碟。"
+  },
+  {
+   "start": 216.0,
+   "end": 219.0,
+   "en": "Mummy, the thunderbags are very loud.",
+   "i": 51,
+   "zh": "妈妈，雷声很大。"
+  },
+  {
+   "start": 219.001,
+   "end": 223.0,
+   "en": "It's OK, children. Don't be frightened.",
+   "i": 52,
+   "zh": "没关系，孩子们。别害怕。"
+  },
+  {
+   "start": 223.325,
+   "end": 226.0,
+   "en": "Let's count between each flash and bang.",
+   "i": 53,
+   "zh": "让我们在每次闪光和爆炸之间数一下。"
+  },
+  {
+   "start": 226.15,
+   "end": 230.0,
+   "en": "The higher we can count, the further away the thunderstorm is.",
+   "i": 54,
+   "zh": "我们数得越高，雷暴距离就越远。"
+  },
+  {
+   "start": 230.85,
+   "end": 235.0,
+   "en": "One, two, three.",
+   "i": 55,
+   "zh": "一、二、三。"
+  },
+  {
+   "start": 237.05,
+   "end": 239.0,
+   "en": "That's three.",
+   "i": 56,
+   "zh": "那是三个。"
+  },
+  {
+   "start": 240.4,
+   "end": 247.0,
+   "en": "One, two, three, four, five.",
+   "i": 57,
+   "zh": "一、二、三、四、五。"
+  },
+  {
+   "start": 248.824,
+   "end": 253.0,
+   "en": "That's five. The thunderstorm is going away.",
+   "i": 58,
+   "zh": "那是五个。雷暴即将消失。"
+  },
+  {
+   "start": 256.125,
+   "end": 258.0,
+   "en": "The thunderstorm is over.",
+   "i": 59,
+   "zh": "雷雨结束了。"
+  },
+  {
+   "start": 258.001,
+   "end": 260.0,
+   "en": "Hooray!",
+   "i": 60,
+   "zh": "好耶！"
+  },
+  {
+   "start": 260.001,
+   "end": 264.0,
+   "en": "The thunderstorm has filled the garden with muddy puddles.",
+   "i": 61,
+   "zh": "雷暴把花园填满了泥坑。"
+  },
+  {
+   "start": 265.0,
+   "end": 269.0,
+   "en": "Peppa loves jumping up and down in muddy puddles.",
+   "i": 62,
+   "zh": "佩奇喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 269.001,
+   "end": 273.0,
+   "en": "Everyone loves jumping up and down in muddy puddles.",
+   "i": 63,
+   "zh": "大家都喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 274.0,
+   "end": 279.0,
+   "en": "I love thunderstorms. They make muddy puddles.",
+   "i": 64,
+   "zh": "我喜欢雷暴。他们制作泥坑。"
+  },
+  {
+   "start": 279.1,
+   "end": 281.0,
+   "en": "Bish, bish, bosh, bish.",
+   "i": 65,
+   "zh": "毕什，毕什，波什，毕什。"
+  },
+  {
+   "start": 289.25,
+   "end": 295.0,
+   "en": "I'm going to wave my magic wand and turn you into a frog.",
+   "i": 66,
+   "zh": "我要挥舞我的魔杖，把你变成青蛙。"
+  }
+ ]
+}

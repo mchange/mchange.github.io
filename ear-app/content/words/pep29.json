@@ -1,0 +1,89 @@
+{
+ "id": "pep29",
+ "words": [
+  {
+   "type": "word",
+   "en": "pancake",
+   "zh": "煎饼",
+   "emoji": "🥞",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pancakes",
+   "zh": "煎饼",
+   "emoji": "🥞",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "I love pancakes.",
+   "zh": "我喜欢煎饼。",
+   "emoji": "💬",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "everyone",
+   "zh": "大家",
+   "emoji": "👨‍👩‍👧‍👦",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "help",
+   "zh": "帮忙",
+   "emoji": "🤝",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "milk",
+   "zh": "牛奶",
+   "emoji": "🥛",
+   "line": 17
+  },
+  {
+   "type": "phrase",
+   "en": "Is everyone watching?",
+   "zh": "大家都在看吗？",
+   "emoji": "💬",
+   "line": 45
+  },
+  {
+   "type": "word",
+   "en": "silly",
+   "zh": "傻乎乎的",
+   "emoji": "🤪",
+   "line": 48
+  },
+  {
+   "type": "word",
+   "en": "jump",
+   "zh": "跳",
+   "emoji": "🦘",
+   "line": 57
+  }
+ ]
+}

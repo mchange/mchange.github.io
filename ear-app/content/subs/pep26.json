@@ -1,0 +1,330 @@
+{
+ "id": "pep26",
+ "title": "Snow",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 7.0,
+   "end": 10.828,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 10.852,
+   "end": 15.012,
+   "en": "This is Mummy Pig. And this is Daddy Pig. Peppa Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。小猪佩奇。"
+  },
+  {
+   "start": 21.0,
+   "end": 22.0,
+   "en": "Snow!",
+   "i": 3,
+   "zh": "下雪了！"
+  },
+  {
+   "start": 27.0,
+   "end": 31.0,
+   "en": "Peppa and George are very excited today. It is snowing outside.",
+   "i": 4,
+   "zh": "佩奇和乔治今天很兴奋。外面正在下雪。"
+  },
+  {
+   "start": 32.449,
+   "end": 34.0,
+   "en": "Mummy, can we go and play in the snow?",
+   "i": 5,
+   "zh": "妈妈，我们可以去玩雪吗？"
+  },
+  {
+   "start": 35.0,
+   "end": 38.0,
+   "en": "Yes, but it's very cold outside, so you must wrap up warm.",
+   "i": 6,
+   "zh": "是的，但是外面很冷，所以你一定要穿得暖和一些。"
+  },
+  {
+   "start": 39.0,
+   "end": 40.0,
+   "en": "Hurray!",
+   "i": 7,
+   "zh": "好耶！"
+  },
+  {
+   "start": 41.0,
+   "end": 44.0,
+   "en": "And don't forget to wear your hats and scarves and gloves.",
+   "i": 8,
+   "zh": "并且不要忘记戴上帽子、围巾和手套。"
+  },
+  {
+   "start": 47.0,
+   "end": 55.012,
+   "en": "It is very cold outside. Peppa and George must wear their hats and scarves and gloves.",
+   "i": 9,
+   "zh": "外面很冷。佩奇和乔治必须戴上帽子、围巾和手套。"
+  },
+  {
+   "start": 58.0,
+   "end": 60.0,
+   "en": "Come on George.",
+   "i": 10,
+   "zh": "来吧，乔治。"
+  },
+  {
+   "start": 61.0,
+   "end": 64.0,
+   "en": "Peppa and George are making footprints in the snow.",
+   "i": 11,
+   "zh": "佩奇和乔治正在雪地里留下脚印。"
+  },
+  {
+   "start": 66.0,
+   "end": 69.0,
+   "en": "Peppa and George love making footprints in the snow.",
+   "i": 12,
+   "zh": "佩奇和乔治喜欢在雪地里留下脚印。"
+  },
+  {
+   "start": 77.0,
+   "end": 78.0,
+   "en": "Oh dear.",
+   "i": 13,
+   "zh": "哦天哪。"
+  },
+  {
+   "start": 83.0,
+   "end": 85.0,
+   "en": "It's not funny.",
+   "i": 14,
+   "zh": "这不好笑。"
+  },
+  {
+   "start": 94.0,
+   "end": 96.0,
+   "en": "George, let's play snowballs.",
+   "i": 15,
+   "zh": "乔治，我们来玩雪球吧。"
+  },
+  {
+   "start": 100.449,
+   "end": 102.0,
+   "en": "Peppa has made a snowball.",
+   "i": 16,
+   "zh": "佩奇做了一个雪球。"
+  },
+  {
+   "start": 114.0,
+   "end": 116.0,
+   "en": "Peppa and George are having a lot of fun.",
+   "i": 17,
+   "zh": "佩奇和乔治玩得很开心。"
+  },
+  {
+   "start": 118.0,
+   "end": 121.0,
+   "en": "George, come back you little piggy!",
+   "i": 18,
+   "zh": "乔治，回来吧你的小猪！"
+  },
+  {
+   "start": 143.0,
+   "end": 147.0,
+   "en": "Oh dear, maybe this game is getting a little too rough.",
+   "i": 19,
+   "zh": "哦天哪，也许这个游戏有点太粗糙了。"
+  },
+  {
+   "start": 147.924,
+   "end": 149.0,
+   "en": "Sorry George.",
+   "i": 20,
+   "zh": "对不起乔治。"
+  },
+  {
+   "start": 151.5,
+   "end": 153.0,
+   "en": "George, let's build a snowman.",
+   "i": 21,
+   "zh": "乔治，我们来堆雪人吧。"
+  },
+  {
+   "start": 157.0,
+   "end": 161.0,
+   "en": "Peppa and George are making a snowman. First they make the body.",
+   "i": 22,
+   "zh": "佩奇和乔治正在堆雪人。首先他们制造身体。"
+  },
+  {
+   "start": 162.15,
+   "end": 164.0,
+   "en": "George, this is the snowman's body.",
+   "i": 23,
+   "zh": "乔治，这是雪人的身体。"
+  },
+  {
+   "start": 166.0,
+   "end": 168.0,
+   "en": "Now they make the snowman's head.",
+   "i": 24,
+   "zh": "现在他们开始制作雪人的头了。"
+  },
+  {
+   "start": 171.05,
+   "end": 174.0,
+   "en": "Now he needs arms and eyes and a mouth.",
+   "i": 25,
+   "zh": "现在他需要手臂、眼睛和嘴巴。"
+  },
+  {
+   "start": 177.1,
+   "end": 180.0,
+   "en": "George has found some sticks for the snowman's arms.",
+   "i": 26,
+   "zh": "乔治找到了一些用来做雪人手臂的棍子。"
+  },
+  {
+   "start": 181.15,
+   "end": 185.0,
+   "en": "Peppa has found some stones for the snowman's eyes and mouth.",
+   "i": 27,
+   "zh": "佩奇找到了一些石头，用来做雪人的眼睛和嘴巴。"
+  },
+  {
+   "start": 186.0,
+   "end": 187.0,
+   "en": "This is his face.",
+   "i": 28,
+   "zh": "这是他的脸。"
+  },
+  {
+   "start": 189.5,
+   "end": 191.0,
+   "en": "Now the snowman needs a nose.",
+   "i": 29,
+   "zh": "现在雪人需要一个鼻子。"
+  },
+  {
+   "start": 193.849,
+   "end": 198.0,
+   "en": "Peppa has got a carrot to make the snowman's nose.",
+   "i": 30,
+   "zh": "佩奇有一根胡萝卜可以做雪人的鼻子。"
+  },
+  {
+   "start": 200.0,
+   "end": 205.0,
+   "en": "The snowman looks very happy but maybe he is a bit cold.",
+   "i": 31,
+   "zh": "雪人看起来很高兴，但也许他有点冷。"
+  },
+  {
+   "start": 206.0,
+   "end": 209.0,
+   "en": "The snowman needs some clothes to keep him warm.",
+   "i": 32,
+   "zh": "雪人需要一些衣服来保暖。"
+  },
+  {
+   "start": 214.0,
+   "end": 218.0,
+   "en": "George has found some clothes to keep the snowman nice and warm.",
+   "i": 33,
+   "zh": "乔治找到了一些衣服来让雪人保持温暖。"
+  },
+  {
+   "start": 220.0,
+   "end": 226.0,
+   "en": "The snowman is wearing his hat and scarf and gloves.",
+   "i": 34,
+   "zh": "雪人戴着帽子、围巾和手套。"
+  },
+  {
+   "start": 227.05,
+   "end": 230.0,
+   "en": "Mummy, Daddy, come and look!",
+   "i": 35,
+   "zh": "妈妈爸爸快来看！"
+  },
+  {
+   "start": 231.975,
+   "end": 235.0,
+   "en": "Mummy Pig is wearing her hat and scarf and gloves.",
+   "i": 36,
+   "zh": "猪妈妈戴着帽子、围巾和手套。"
+  },
+  {
+   "start": 236.3,
+   "end": 240.0,
+   "en": "That is the best snowman I have ever seen!",
+   "i": 37,
+   "zh": "这是我见过的最好的雪人！"
+  },
+  {
+   "start": 245.0,
+   "end": 250.0,
+   "en": "Daddy Pig looks quite cold. He isn't wearing his hat and scarf and gloves.",
+   "i": 38,
+   "zh": "猪爸爸看起来很冷。他没有戴帽子、围巾和手套。"
+  },
+  {
+   "start": 253.05,
+   "end": 258.0,
+   "en": "Daddy, why aren't you wearing your hat and scarf and gloves?",
+   "i": 39,
+   "zh": "爸爸，你为什么不戴帽子、围巾和手套？"
+  },
+  {
+   "start": 259.0,
+   "end": 262.0,
+   "en": "I don't know where they are. I can't find them anywhere.",
+   "i": 40,
+   "zh": "我不知道他们在哪里。我到处都找不到他们。"
+  },
+  {
+   "start": 263.0,
+   "end": 266.0,
+   "en": "I think I know where Daddy's hat, scarf and gloves are.",
+   "i": 41,
+   "zh": "我想我知道爸爸的帽子、围巾和手套在哪里。"
+  },
+  {
+   "start": 267.0,
+   "end": 270.0,
+   "en": "Daddy Pig's hat and scarf and gloves are on the snowman.",
+   "i": 42,
+   "zh": "猪爸爸的帽子、围巾和手套都在雪人身上。"
+  },
+  {
+   "start": 271.0,
+   "end": 272.0,
+   "en": "Oh!",
+   "i": 43,
+   "zh": "哦！"
+  },
+  {
+   "start": 283.0,
+   "end": 284.0,
+   "en": "I want to be a nurse.",
+   "i": 44,
+   "zh": "我想成为一名护士。"
+  },
+  {
+   "start": 285.125,
+   "end": 287.0,
+   "en": "I want to be a doctor.",
+   "i": 45,
+   "zh": "我想成为一名医生。"
+  },
+  {
+   "start": 288.0,
+   "end": 290.0,
+   "en": "But who's going to be the sick person?",
+   "i": 46,
+   "zh": "可是谁来当病人呢？"
+  }
+ ]
+}

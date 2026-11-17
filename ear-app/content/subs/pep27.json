@@ -1,0 +1,666 @@
+{
+ "id": "pep27",
+ "title": "Windy Castle",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.0,
+   "end": 7.302,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 7.326,
+   "end": 11.0,
+   "en": "This is Mummy Pig. And this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。"
+  },
+  {
+   "start": 11.001,
+   "end": 15.0,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 16.95,
+   "end": 20.0,
+   "en": "Windy Castle!",
+   "i": 4,
+   "zh": "风之堡！"
+  },
+  {
+   "start": 20.001,
+   "end": 23.0,
+   "en": "Peppa and her family are going out for the day.",
+   "i": 5,
+   "zh": "佩奇和她的家人今天要出去玩。"
+  },
+  {
+   "start": 23.15,
+   "end": 28.0,
+   "en": "Peppa, George, today we're going to Windy Castle.",
+   "i": 6,
+   "zh": "佩奇，乔治，今天我们要去风城堡。"
+  },
+  {
+   "start": 28.001,
+   "end": 30.0,
+   "en": "What's Windy Castle, Daddy?",
+   "i": 7,
+   "zh": "爸爸，风之城堡是什么？"
+  },
+  {
+   "start": 30.001,
+   "end": 33.0,
+   "en": "It's a castle on a very high hill.",
+   "i": 8,
+   "zh": "这是一座很高的山上的城堡。"
+  },
+  {
+   "start": 33.199,
+   "end": 35.0,
+   "en": "George likes castles.",
+   "i": 9,
+   "zh": "乔治喜欢城堡。"
+  },
+  {
+   "start": 35.099,
+   "end": 39.0,
+   "en": "Windy Castle sounds like a boring thing for boys.",
+   "i": 10,
+   "zh": "风之城堡对于男孩来说听起来很无聊。"
+  },
+  {
+   "start": 39.001,
+   "end": 42.459,
+   "en": "No, Peppa, you'll love it. There's a great view from the top",
+   "i": 11,
+   "zh": "不，佩奇，你会喜欢的。从顶部可以看到很棒的景色风之堡"
+  },
+  {
+   "start": 42.483,
+   "end": 46.012,
+   "en": "of Windy Castle. You can even see Granny and Grandpa's house.",
+   "i": 12,
+   "zh": "你甚至可以看到奶奶和爷爷的房子。"
+  },
+  {
+   "start": 46.199,
+   "end": 49.0,
+   "en": "Wow! Let's go!",
+   "i": 13,
+   "zh": "哇！我们走吧！"
+  },
+  {
+   "start": 49.001,
+   "end": 52.0,
+   "en": "I'll map read and Mummy Pig will drive.",
+   "i": 14,
+   "zh": "我会看地图，猪妈妈会开车。"
+  },
+  {
+   "start": 52.099,
+   "end": 57.0,
+   "en": "Are you sure, Daddy Pig? When you map read, we always get lost and you get grumpy.",
+   "i": 15,
+   "zh": "你确定吗，猪爸爸？当你看地图时，我们总是会迷路，你也会变得脾气暴躁。"
+  },
+  {
+   "start": 57.124,
+   "end": 61.0,
+   "en": "We will not get lost and I will not get grumpy.",
+   "i": 16,
+   "zh": "我们不会迷路，我也不会脾气暴躁。"
+  },
+  {
+   "start": 63.0,
+   "end": 66.0,
+   "en": "Windy Castle, here we come.",
+   "i": 17,
+   "zh": "风堡，我们来了。"
+  },
+  {
+   "start": 70.0,
+   "end": 72.0,
+   "en": "Are we nearly there yet?",
+   "i": 18,
+   "zh": "我们快到了吗？"
+  },
+  {
+   "start": 72.001,
+   "end": 73.0,
+   "en": "Not quite.",
+   "i": 19,
+   "zh": "不完全是。"
+  },
+  {
+   "start": 73.001,
+   "end": 74.0,
+   "en": "Oh.",
+   "i": 20,
+   "zh": "哦。"
+  },
+  {
+   "start": 74.001,
+   "end": 76.0,
+   "en": "Would you like to play a game?",
+   "i": 21,
+   "zh": "你想玩游戏吗？"
+  },
+  {
+   "start": 76.001,
+   "end": 79.0,
+   "en": "Yes, please. Let's play I Spy.",
+   "i": 22,
+   "zh": "是的，请。我们来玩《我是间谍》吧。"
+  },
+  {
+   "start": 79.001,
+   "end": 81.0,
+   "en": "Okay, I'll go first.",
+   "i": 23,
+   "zh": "好的，我先走了。"
+  },
+  {
+   "start": 81.001,
+   "end": 86.0,
+   "en": "Daddy Pig has to secretly look at something and the others have to guess what it is.",
+   "i": 24,
+   "zh": "猪爸爸必须偷偷看某样东西，其他人必须猜那是什么。"
+  },
+  {
+   "start": 86.001,
+   "end": 90.0,
+   "en": "I spy with my little eye something coloured red.",
+   "i": 25,
+   "zh": "我用我的小眼睛发现了一些红色的东西。"
+  },
+  {
+   "start": 90.001,
+   "end": 91.0,
+   "en": "Red.",
+   "i": 26,
+   "zh": "红色。"
+  },
+  {
+   "start": 91.001,
+   "end": 94.0,
+   "en": "My dress. That's red.",
+   "i": 27,
+   "zh": "我的衣服。那是红色的。"
+  },
+  {
+   "start": 94.001,
+   "end": 97.0,
+   "en": "No, it's not your dress.",
+   "i": 28,
+   "zh": "不，这不是你的衣服。"
+  },
+  {
+   "start": 97.001,
+   "end": 99.0,
+   "en": "Hmm. The car.",
+   "i": 29,
+   "zh": "嗯。汽车。"
+  },
+  {
+   "start": 99.001,
+   "end": 102.0,
+   "en": "That's right. Our red car.",
+   "i": 30,
+   "zh": "没错。我们的红色汽车。"
+  },
+  {
+   "start": 104.0,
+   "end": 109.0,
+   "en": "My girl, I spy with my little eye something blue.",
+   "i": 31,
+   "zh": "我的女孩，我用我的小眼睛发现了一些蓝色的东西。"
+  },
+  {
+   "start": 109.001,
+   "end": 111.0,
+   "en": "Hmm. George's blue shirt.",
+   "i": 32,
+   "zh": "嗯。乔治的蓝色衬衫。"
+  },
+  {
+   "start": 111.001,
+   "end": 112.0,
+   "en": "Nope.",
+   "i": 33,
+   "zh": "不。"
+  },
+  {
+   "start": 112.001,
+   "end": 115.0,
+   "en": "Is it something in the car?",
+   "i": 34,
+   "zh": "车里有东西吗？"
+  },
+  {
+   "start": 115.001,
+   "end": 116.0,
+   "en": "No. Give up?",
+   "i": 35,
+   "zh": "不。放弃？"
+  },
+  {
+   "start": 116.001,
+   "end": 117.0,
+   "en": "Yes.",
+   "i": 36,
+   "zh": "是的。"
+  },
+  {
+   "start": 117.001,
+   "end": 119.0,
+   "en": "The sky. The blue sky.",
+   "i": 37,
+   "zh": "天空。蓝天。"
+  },
+  {
+   "start": 119.001,
+   "end": 121.0,
+   "en": "I win.",
+   "i": 38,
+   "zh": "我赢了。"
+  },
+  {
+   "start": 122.0,
+   "end": 125.0,
+   "en": "Daddy Pig, do you know where we are?",
+   "i": 39,
+   "zh": "猪爸爸，你知道我们在哪里吗？"
+  },
+  {
+   "start": 125.001,
+   "end": 127.0,
+   "en": "I know exactly where we are.",
+   "i": 40,
+   "zh": "我确切地知道我们在哪里。"
+  },
+  {
+   "start": 127.001,
+   "end": 132.0,
+   "en": "Although, this road doesn't look the same as it does on the map.",
+   "i": 41,
+   "zh": "不过，这条路看起来和地图上不太一样。"
+  },
+  {
+   "start": 132.001,
+   "end": 135.0,
+   "en": "Oh, Daddy Pig, we're lost.",
+   "i": 42,
+   "zh": "噢，猪爸爸，我们迷路了。"
+  },
+  {
+   "start": 135.001,
+   "end": 137.0,
+   "en": "We are not lost.",
+   "i": 43,
+   "zh": "我们没有迷路。"
+  },
+  {
+   "start": 137.001,
+   "end": 140.0,
+   "en": "So how do we get to Windy Castle from here?",
+   "i": 44,
+   "zh": "那么我们怎么从这里去风之堡呢？"
+  },
+  {
+   "start": 140.3,
+   "end": 142.0,
+   "en": "Just give me a moment.",
+   "i": 45,
+   "zh": "请给我一点时间。"
+  },
+  {
+   "start": 143.0,
+   "end": 146.0,
+   "en": "I know. We can ring Granny and Grandpa.",
+   "i": 46,
+   "zh": "我知道。我们可以给奶奶和爷爷打电话。"
+  },
+  {
+   "start": 146.25,
+   "end": 149.0,
+   "en": "There's no need to ring Granny and Grandpa.",
+   "i": 47,
+   "zh": "不用叫奶奶和爷爷。"
+  },
+  {
+   "start": 149.25,
+   "end": 152.0,
+   "en": "I'll get us to Windy Castle if it takes me all day.",
+   "i": 48,
+   "zh": "如果需要一整天的话我会带我们去风之堡。"
+  },
+  {
+   "start": 152.2,
+   "end": 154.0,
+   "en": "We haven't got all day.",
+   "i": 49,
+   "zh": "我们没有一整天的时间。"
+  },
+  {
+   "start": 158.0,
+   "end": 161.0,
+   "en": "Hello, Grandpa Pig speaking.",
+   "i": 50,
+   "zh": "你好，猪爷爷。"
+  },
+  {
+   "start": 161.001,
+   "end": 165.0,
+   "en": "Grandpa Pig, we've got a bit lost on the way to Windy Castle.",
+   "i": 51,
+   "zh": "猪爷爷，我们在去风堡的路上有点迷路了。"
+  },
+  {
+   "start": 165.001,
+   "end": 170.0,
+   "en": "Oh, is Daddy Pig doing the map reading?",
+   "i": 52,
+   "zh": "哦，猪爸爸在看地图吗？"
+  },
+  {
+   "start": 170.001,
+   "end": 175.0,
+   "en": "Yes, Daddy Pig is doing the map reading and he's a bit grumpy at the moment.",
+   "i": 53,
+   "zh": "是的，猪爸爸正在看地图，他现在有点脾气。"
+  },
+  {
+   "start": 175.001,
+   "end": 177.0,
+   "en": "I am not grumpy.",
+   "i": 54,
+   "zh": "我不脾气暴躁。"
+  },
+  {
+   "start": 178.15,
+   "end": 180.0,
+   "en": "This is the best route.",
+   "i": 55,
+   "zh": "这是最好的路线。"
+  },
+  {
+   "start": 180.001,
+   "end": 185.0,
+   "en": "Keep on the main road until you see Windy Castle up ahead.",
+   "i": 56,
+   "zh": "继续沿主干道行驶，直到您看到前面的风城堡。"
+  },
+  {
+   "start": 185.6,
+   "end": 187.0,
+   "en": "Thank you, Grandpa Pig.",
+   "i": 57,
+   "zh": "谢谢猪爷爷。"
+  },
+  {
+   "start": 187.4,
+   "end": 191.0,
+   "en": "We follow the main road and look out for Windy Castle.",
+   "i": 58,
+   "zh": "我们沿着主路走，寻找风堡。"
+  },
+  {
+   "start": 191.001,
+   "end": 193.0,
+   "en": "As I thought.",
+   "i": 59,
+   "zh": "正如我所想。"
+  },
+  {
+   "start": 193.001,
+   "end": 196.0,
+   "en": "Look. Is that a castle?",
+   "i": 60,
+   "zh": "看。那是一座城堡吗？"
+  },
+  {
+   "start": 196.001,
+   "end": 199.0,
+   "en": "Yes, it's Windy Castle.",
+   "i": 61,
+   "zh": "是的，就是风之堡。"
+  },
+  {
+   "start": 200.0,
+   "end": 202.0,
+   "en": "Come on, car.",
+   "i": 62,
+   "zh": "来吧，车。"
+  },
+  {
+   "start": 202.001,
+   "end": 205.0,
+   "en": "Come on, car. You can make it.",
+   "i": 63,
+   "zh": "来吧，车。你可以做到的。"
+  },
+  {
+   "start": 206.0,
+   "end": 208.0,
+   "en": "Hurray!",
+   "i": 64,
+   "zh": "好耶！"
+  },
+  {
+   "start": 208.001,
+   "end": 211.0,
+   "en": "Peppa and her family have arrived at Windy Castle.",
+   "i": 65,
+   "zh": "佩奇一家人已经抵达风堡了。"
+  },
+  {
+   "start": 211.15,
+   "end": 213.0,
+   "en": "Wow, it's so tall.",
+   "i": 66,
+   "zh": "哇，好高啊。"
+  },
+  {
+   "start": 213.001,
+   "end": 215.0,
+   "en": "Let's go inside.",
+   "i": 67,
+   "zh": "我们进去吧。"
+  },
+  {
+   "start": 215.001,
+   "end": 218.0,
+   "en": "The view from the top is fantastic.",
+   "i": 68,
+   "zh": "从顶部看到的景色太棒了。"
+  },
+  {
+   "start": 222.0,
+   "end": 224.0,
+   "en": "Wow.",
+   "i": 69,
+   "zh": "哇。"
+  },
+  {
+   "start": 224.001,
+   "end": 226.0,
+   "en": "Look at the view.",
+   "i": 70,
+   "zh": "看风景。"
+  },
+  {
+   "start": 226.001,
+   "end": 229.0,
+   "en": "Mummy, is that Granny and Grandpa's house?",
+   "i": 71,
+   "zh": "妈妈，那是奶奶和爷爷的家吗？"
+  },
+  {
+   "start": 230.0,
+   "end": 232.0,
+   "en": "Yes, it is.",
+   "i": 72,
+   "zh": "是的，确实如此。"
+  },
+  {
+   "start": 232.001,
+   "end": 234.0,
+   "en": "It's so far away.",
+   "i": 73,
+   "zh": "好远啊。"
+  },
+  {
+   "start": 234.001,
+   "end": 237.0,
+   "en": "Let's take a look through the telescope.",
+   "i": 74,
+   "zh": "我们用望远镜看一下。"
+  },
+  {
+   "start": 237.001,
+   "end": 240.0,
+   "en": "Can I look first, please?",
+   "i": 75,
+   "zh": "我可以先看一下吗？"
+  },
+  {
+   "start": 240.001,
+   "end": 243.0,
+   "en": "Yes, but you must let George look next.",
+   "i": 76,
+   "zh": "是的，但是你必须让乔治接着看。"
+  },
+  {
+   "start": 243.001,
+   "end": 245.0,
+   "en": "Wow.",
+   "i": 77,
+   "zh": "哇。"
+  },
+  {
+   "start": 245.001,
+   "end": 247.0,
+   "en": "The telescope makes everything look bigger.",
+   "i": 78,
+   "zh": "望远镜让一切看起来都更大。"
+  },
+  {
+   "start": 247.25,
+   "end": 250.0,
+   "en": "I can see Granny and Grandpa.",
+   "i": 79,
+   "zh": "我能看到奶奶和爷爷。"
+  },
+  {
+   "start": 250.05,
+   "end": 252.0,
+   "en": "Look, George.",
+   "i": 80,
+   "zh": "看，乔治。"
+  },
+  {
+   "start": 253.45,
+   "end": 256.0,
+   "en": "Granny egg, Peppa egg.",
+   "i": 81,
+   "zh": "奶奶蛋，佩奇蛋。"
+  },
+  {
+   "start": 256.3,
+   "end": 259.0,
+   "en": "George is waving at Granny and Grandpa.",
+   "i": 82,
+   "zh": "乔治正在向奶奶和爷爷招手。"
+  },
+  {
+   "start": 259.001,
+   "end": 261.0,
+   "en": "Silly George.",
+   "i": 83,
+   "zh": "傻乔治。"
+  },
+  {
+   "start": 261.001,
+   "end": 265.0,
+   "en": "Granny and Grandpa are too far away to see you waving.",
+   "i": 84,
+   "zh": "奶奶和爷爷离得太远，看不到你在挥手。"
+  },
+  {
+   "start": 265.05,
+   "end": 267.0,
+   "en": "I know. We can ring them.",
+   "i": 85,
+   "zh": "我知道。我们可以给他们打电话。"
+  },
+  {
+   "start": 270.0,
+   "end": 271.0,
+   "en": "Hello?",
+   "i": 86,
+   "zh": "你好？"
+  },
+  {
+   "start": 271.15,
+   "end": 274.0,
+   "en": "Grandpa Pig, we can see you from Windy Castle.",
+   "i": 87,
+   "zh": "猪爷爷，我们在风之堡见到你了。"
+  },
+  {
+   "start": 274.001,
+   "end": 276.0,
+   "en": "Wave at us.",
+   "i": 88,
+   "zh": "向我们挥手。"
+  },
+  {
+   "start": 276.001,
+   "end": 279.0,
+   "en": "Granny and Grandpa are waving at us.",
+   "i": 89,
+   "zh": "奶奶和爷爷正在向我们招手。"
+  },
+  {
+   "start": 279.001,
+   "end": 282.0,
+   "en": "I love Windy Castle.",
+   "i": 90,
+   "zh": "我喜欢风城堡。"
+  },
+  {
+   "start": 288.0,
+   "end": 290.0,
+   "en": "Hello, Polly.",
+   "i": 91,
+   "zh": "你好，波莉。"
+  },
+  {
+   "start": 290.001,
+   "end": 292.0,
+   "en": "Hello, Polly.",
+   "i": 92,
+   "zh": "你好，波莉。"
+  },
+  {
+   "start": 292.001,
+   "end": 294.0,
+   "en": "What a sweet little parrot.",
+   "i": 93,
+   "zh": "多可爱的小鹦鹉啊。"
+  },
+  {
+   "start": 294.001,
+   "end": 296.0,
+   "en": "What a sweet little parrot.",
+   "i": 94,
+   "zh": "多可爱的小鹦鹉啊。"
+  }
+ ]
+}

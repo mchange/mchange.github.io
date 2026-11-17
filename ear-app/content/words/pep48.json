@@ -1,0 +1,89 @@
+{
+ "id": "pep48",
+ "words": [
+  {
+   "type": "word",
+   "en": "boat",
+   "zh": "船",
+   "emoji": "⛵",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "grandpa",
+   "zh": "爷爷",
+   "emoji": "👴",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 7
+  },
+  {
+   "type": "phrase",
+   "en": "Aye, aye, captain.",
+   "zh": "是，船长。",
+   "emoji": "💬",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "dog",
+   "zh": "狗",
+   "emoji": "🐶",
+   "line": 27
+  },
+  {
+   "type": "word",
+   "en": "friend",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 32
+  },
+  {
+   "type": "word",
+   "en": "sea",
+   "zh": "大海",
+   "emoji": "🌊",
+   "line": 37
+  },
+  {
+   "type": "word",
+   "en": "water",
+   "zh": "水",
+   "emoji": "💧",
+   "line": 38
+  },
+  {
+   "type": "word",
+   "en": "sorry",
+   "zh": "对不起",
+   "emoji": "🙇",
+   "line": 43
+  },
+  {
+   "type": "word",
+   "en": "cat",
+   "zh": "猫",
+   "emoji": "🐱",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "catch",
+   "zh": "接住",
+   "emoji": "🤲",
+   "line": 51
+  },
+  {
+   "type": "phrase",
+   "en": "Can't catch me.",
+   "zh": "抓不到我。",
+   "emoji": "💬",
+   "line": 55
+  }
+ ]
+}

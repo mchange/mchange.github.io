@@ -1,0 +1,351 @@
+{
+ "id": "pep11",
+ "title": "Hiccups",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 0.125,
+   "end": 3.0,
+   "en": "I'm Peppa Pig.",
+   "i": 1,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 3.001,
+   "end": 6.0,
+   "en": "This is my little brother George.",
+   "i": 2,
+   "zh": "这是我的弟弟乔治。"
+  },
+  {
+   "start": 6.001,
+   "end": 9.0,
+   "en": "This is Mummy Pig.",
+   "i": 3,
+   "zh": "这是猪妈妈。"
+  },
+  {
+   "start": 9.001,
+   "end": 12.0,
+   "en": "And this is Daddy Pig.",
+   "i": 4,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 12.001,
+   "end": 15.0,
+   "en": "Peppa Pig.",
+   "i": 5,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "Hiccups.",
+   "i": 6,
+   "zh": "打嗝。"
+  },
+  {
+   "start": 26.875,
+   "end": 31.0,
+   "en": "Peppa, George, Mummy and Daddy are having breakfast.",
+   "i": 7,
+   "zh": "佩奇，乔治，妈妈和爸爸正在吃早餐。"
+  },
+  {
+   "start": 31.001,
+   "end": 34.0,
+   "en": "It is a lovely sunny day.",
+   "i": 8,
+   "zh": "这是一个阳光明媚的日子。"
+  },
+  {
+   "start": 34.001,
+   "end": 38.0,
+   "en": "And Peppa and George can't wait to go into the garden to play.",
+   "i": 9,
+   "zh": "佩奇和乔治迫不及待地想去花园里玩。"
+  },
+  {
+   "start": 38.199,
+   "end": 41.0,
+   "en": "Mummy, please can we go out to play?",
+   "i": 10,
+   "zh": "妈妈，我们可以出去玩吗？"
+  },
+  {
+   "start": 41.349,
+   "end": 44.0,
+   "en": "You can go out to play when you finish your breakfast.",
+   "i": 11,
+   "zh": "吃完早餐就可以出去玩了。"
+  },
+  {
+   "start": 50.0,
+   "end": 54.0,
+   "en": "George, don't drink your juice too quickly.",
+   "i": 12,
+   "zh": "乔治，别喝得太快。"
+  },
+  {
+   "start": 57.0,
+   "end": 61.0,
+   "en": "George drank his juice too quickly and now he has hiccups.",
+   "i": 13,
+   "zh": "乔治喝得太快了，现在他打嗝了。"
+  },
+  {
+   "start": 64.399,
+   "end": 66.0,
+   "en": "Can we go out to play now, Mummy?",
+   "i": 14,
+   "zh": "妈妈我们现在可以出去玩吗？"
+  },
+  {
+   "start": 66.001,
+   "end": 68.0,
+   "en": "Not while George has hiccups.",
+   "i": 15,
+   "zh": "乔治打嗝的时候不行。"
+  },
+  {
+   "start": 68.001,
+   "end": 72.0,
+   "en": "But George's hiccups have gone, Mummy. Haven't they, George?",
+   "i": 16,
+   "zh": "但是乔治的打嗝已经消失了，妈妈。乔治，他们不是吗？"
+  },
+  {
+   "start": 78.299,
+   "end": 81.0,
+   "en": "Oh, all right, you can go out and play.",
+   "i": 17,
+   "zh": "哦，好吧，你可以出去玩了。"
+  },
+  {
+   "start": 81.199,
+   "end": 84.0,
+   "en": "But look after George.",
+   "i": 18,
+   "zh": "但是照顾乔治。"
+  },
+  {
+   "start": 84.001,
+   "end": 88.0,
+   "en": "Peppa and George love playing in the garden.",
+   "i": 19,
+   "zh": "佩奇和乔治喜欢在花园里玩耍。"
+  },
+  {
+   "start": 88.001,
+   "end": 93.0,
+   "en": "George, I'm going to throw the ball and then you have to catch it.",
+   "i": 20,
+   "zh": "乔治，我要扔球，然后你必须接住它。"
+  },
+  {
+   "start": 93.001,
+   "end": 96.0,
+   "en": "George, please stop hiccuping.",
+   "i": 21,
+   "zh": "乔治，请停止打嗝。"
+  },
+  {
+   "start": 100.799,
+   "end": 102.0,
+   "en": "George!",
+   "i": 22,
+   "zh": "乔治！"
+  },
+  {
+   "start": 102.001,
+   "end": 107.0,
+   "en": "Now you throw the ball to me and I have to catch it.",
+   "i": 23,
+   "zh": "现在你把球扔给我，我必须接住它。"
+  },
+  {
+   "start": 107.001,
+   "end": 109.0,
+   "en": "George!",
+   "i": 24,
+   "zh": "乔治！"
+  },
+  {
+   "start": 109.749,
+   "end": 114.0,
+   "en": "Oh dear, George's hiccups are spoiling the game.",
+   "i": 25,
+   "zh": "天哪，乔治的打嗝破坏了比赛。"
+  },
+  {
+   "start": 114.199,
+   "end": 117.0,
+   "en": "George, I know how to cure hiccups.",
+   "i": 26,
+   "zh": "乔治，我知道如何治疗打嗝。"
+  },
+  {
+   "start": 117.001,
+   "end": 120.0,
+   "en": "You have to do what I say.",
+   "i": 27,
+   "zh": "你必须按我说的做。"
+  },
+  {
+   "start": 123.124,
+   "end": 126.0,
+   "en": "Rub the top of your head and rub your tummy.",
+   "i": 28,
+   "zh": "揉揉你的头顶，揉揉你的肚子。"
+  },
+  {
+   "start": 132.05,
+   "end": 134.0,
+   "en": "George!",
+   "i": 29,
+   "zh": "乔治！"
+  },
+  {
+   "start": 134.001,
+   "end": 139.0,
+   "en": "Now your hiccups have gone.",
+   "i": 30,
+   "zh": "现在你的打嗝已经消失了。"
+  },
+  {
+   "start": 143.95,
+   "end": 145.351,
+   "en": "Peppa's cure for hiccups doesn't seem to have worked.",
+   "i": 31,
+   "zh": "佩奇治疗打嗝的方法似乎不起作用。"
+  },
+  {
+   "start": 145.375,
+   "end": 148.0,
+   "en": "George, you've done it all wrong.",
+   "i": 32,
+   "zh": "乔治，你都做错了。"
+  },
+  {
+   "start": 150.0,
+   "end": 153.0,
+   "en": "I know a better way to cure hiccups.",
+   "i": 33,
+   "zh": "我知道一个更好的治疗打嗝的方法。"
+  },
+  {
+   "start": 153.05,
+   "end": 158.0,
+   "en": "First, jump up and down three times on one leg.",
+   "i": 34,
+   "zh": "首先，单腿上下跳三下。"
+  },
+  {
+   "start": 161.0,
+   "end": 167.0,
+   "en": "Now wave your arms up and down and stick your tongue out.",
+   "i": 35,
+   "zh": "现在上下挥动你的手臂并伸出你的舌头。"
+  },
+  {
+   "start": 173.0,
+   "end": 179.0,
+   "en": "And now close your eyes and turn around quickly three times.",
+   "i": 36,
+   "zh": "现在闭上眼睛，快速转三圈。"
+  },
+  {
+   "start": 186.1,
+   "end": 189.0,
+   "en": "Peppa's new cure hasn't worked either.",
+   "i": 37,
+   "zh": "佩奇的新疗法也不起作用。"
+  },
+  {
+   "start": 189.001,
+   "end": 191.0,
+   "en": "George still has hiccups.",
+   "i": 38,
+   "zh": "乔治仍然打嗝。"
+  },
+  {
+   "start": 194.8,
+   "end": 199.0,
+   "en": "I know. To cure hiccups, the ill piggy must be given a shock.",
+   "i": 39,
+   "zh": "我知道。为了治愈打嗝，必须对生病的小猪进行电击。"
+  },
+  {
+   "start": 199.125,
+   "end": 202.798,
+   "en": "George, I'm going to scare you but you must remember",
+   "i": 40,
+   "zh": "乔治，我会吓到你，但你一定要记住"
+  },
+  {
+   "start": 202.822,
+   "end": 206.012,
+   "en": "it's only a game and it'll stop your hiccups.",
+   "i": 41,
+   "zh": "这只是一个游戏，它会阻止你打嗝。"
+  },
+  {
+   "start": 209.85,
+   "end": 213.0,
+   "en": "Remember, this is just pretend scaring.",
+   "i": 42,
+   "zh": "记住，这只是假装吓人。"
+  },
+  {
+   "start": 218.0,
+   "end": 225.0,
+   "en": "Peppa, you mustn't play so roughly with George. He's only little.",
+   "i": 43,
+   "zh": "佩奇，你不能对乔治这么粗鲁。他还小啊"
+  },
+  {
+   "start": 225.001,
+   "end": 230.0,
+   "en": "Sorry, Mummy. I was just trying to stop George's hiccups.",
+   "i": 44,
+   "zh": "对不起，妈妈。我只是想阻止乔治打嗝。"
+  },
+  {
+   "start": 231.0,
+   "end": 234.0,
+   "en": "George's hiccups have gone.",
+   "i": 45,
+   "zh": "乔治的打嗝已经消失了。"
+  },
+  {
+   "start": 236.924,
+   "end": 241.0,
+   "en": "Here comes Daddy Pig with two beakers of juice.",
+   "i": 46,
+   "zh": "猪爸爸来了，带着两杯果汁。"
+  },
+  {
+   "start": 243.0,
+   "end": 249.0,
+   "en": "George, if you drink too quickly you will get hiccups again.",
+   "i": 47,
+   "zh": "乔治，喝得太快又会打嗝。"
+  },
+  {
+   "start": 249.001,
+   "end": 255.0,
+   "en": "I'm not as little as George. I can drink juice as quickly as I want to.",
+   "i": 48,
+   "zh": "我不像乔治那么小。我可以随心所欲地喝果汁。"
+  },
+  {
+   "start": 273.0,
+   "end": 279.0,
+   "en": "Thanks for watching. Please like, share and subscribe.",
+   "i": 49,
+   "zh": "感谢您的观看。请喜欢、分享和订阅。"
+  }
+ ]
+}

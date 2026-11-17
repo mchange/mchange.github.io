@@ -1,0 +1,547 @@
+{
+ "id": "pep18",
+ "title": "Dressing Up",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 5.0,
+   "end": 9.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 9.326,
+   "end": 13.0,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.001,
+   "end": 15.0,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 19.0,
+   "end": 21.0,
+   "en": "Dressing up",
+   "i": 4,
+   "zh": "装扮"
+  },
+  {
+   "start": 25.0,
+   "end": 29.0,
+   "en": "Peppa and George are playing Mummy and Daddy's Playroom.",
+   "i": 5,
+   "zh": "佩奇和乔治正在玩妈妈和爸爸的游戏室。"
+  },
+  {
+   "start": 30.0,
+   "end": 32.0,
+   "en": "Dressing up",
+   "i": 6,
+   "zh": "装扮"
+  },
+  {
+   "start": 33.0,
+   "end": 35.0,
+   "en": "What's this?",
+   "i": 7,
+   "zh": "这是什么？"
+  },
+  {
+   "start": 35.149,
+   "end": 37.0,
+   "en": "Peppa has found a box of old clothes.",
+   "i": 8,
+   "zh": "佩奇找到了一盒旧衣服。"
+  },
+  {
+   "start": 37.001,
+   "end": 39.0,
+   "en": "Wow!",
+   "i": 9,
+   "zh": "哇！"
+  },
+  {
+   "start": 39.001,
+   "end": 41.0,
+   "en": "This is Daddy's hat.",
+   "i": 10,
+   "zh": "这是爸爸的帽子。"
+  },
+  {
+   "start": 41.05,
+   "end": 43.0,
+   "en": "And this is Mummy's dress.",
+   "i": 11,
+   "zh": "这是妈妈的衣服。"
+  },
+  {
+   "start": 43.05,
+   "end": 48.0,
+   "en": "George, let's dress up and pretend to be Mummy and Daddy.",
+   "i": 12,
+   "zh": "乔治，让我们装扮成妈妈和爸爸吧。"
+  },
+  {
+   "start": 49.149,
+   "end": 51.0,
+   "en": "Here is Daddy's hat.",
+   "i": 13,
+   "zh": "这是爸爸的帽子。"
+  },
+  {
+   "start": 52.699,
+   "end": 54.0,
+   "en": "And here is Daddy's coat.",
+   "i": 14,
+   "zh": "这是爸爸的外套。"
+  },
+  {
+   "start": 56.0,
+   "end": 58.0,
+   "en": "Hello Daddy Pig.",
+   "i": 15,
+   "zh": "猪爸爸你好。"
+  },
+  {
+   "start": 61.0,
+   "end": 63.0,
+   "en": "Now it's my turn.",
+   "i": 16,
+   "zh": "现在轮到我了。"
+  },
+  {
+   "start": 63.999,
+   "end": 66.0,
+   "en": "This is Mummy's dress.",
+   "i": 17,
+   "zh": "这是妈妈的衣服。"
+  },
+  {
+   "start": 67.299,
+   "end": 69.0,
+   "en": "This is Mummy's hat.",
+   "i": 18,
+   "zh": "这是妈妈的帽子。"
+  },
+  {
+   "start": 73.324,
+   "end": 76.0,
+   "en": "Daddy Pig, where are your shoes?",
+   "i": 19,
+   "zh": "猪爸爸，你的鞋子呢？"
+  },
+  {
+   "start": 82.049,
+   "end": 85.0,
+   "en": "I need some shoes too.",
+   "i": 20,
+   "zh": "我也需要一些鞋子。"
+  },
+  {
+   "start": 91.0,
+   "end": 95.0,
+   "en": "Now I need to look beautiful, just like Mummy.",
+   "i": 21,
+   "zh": "现在我需要看起来很漂亮，就像妈妈一样。"
+  },
+  {
+   "start": 97.149,
+   "end": 100.0,
+   "en": "Peppa has found Mummy's make-up box.",
+   "i": 22,
+   "zh": "佩奇找到了妈妈的化妆盒。"
+  },
+  {
+   "start": 100.249,
+   "end": 102.0,
+   "en": "Aha!",
+   "i": 23,
+   "zh": "啊哈！"
+  },
+  {
+   "start": 103.399,
+   "end": 105.0,
+   "en": "For some powder.",
+   "i": 24,
+   "zh": "一些粉末。"
+  },
+  {
+   "start": 107.85,
+   "end": 110.0,
+   "en": "Lovely!",
+   "i": 25,
+   "zh": "可爱！"
+  },
+  {
+   "start": 110.149,
+   "end": 112.0,
+   "en": "Now for some lipstick.",
+   "i": 26,
+   "zh": "现在来点口红。"
+  },
+  {
+   "start": 114.925,
+   "end": 117.0,
+   "en": "What a pretty Mummy Pig.",
+   "i": 27,
+   "zh": "好漂亮的猪妈妈。"
+  },
+  {
+   "start": 120.299,
+   "end": 123.0,
+   "en": "Come along Daddy Pig, it's time to go to work.",
+   "i": 28,
+   "zh": "猪爸爸来吧，上班时间到了。"
+  },
+  {
+   "start": 127.349,
+   "end": 130.0,
+   "en": "Mummy Pig is working on her computer.",
+   "i": 29,
+   "zh": "猪妈妈正在电脑上工作。"
+  },
+  {
+   "start": 131.0,
+   "end": 133.0,
+   "en": "Hello Peppa, hello George.",
+   "i": 30,
+   "zh": "你好佩奇，你好乔治。"
+  },
+  {
+   "start": 133.001,
+   "end": 135.0,
+   "en": "I beg your pardon.",
+   "i": 31,
+   "zh": "请原谅。"
+  },
+  {
+   "start": 135.5,
+   "end": 137.0,
+   "en": "Peppa, I was just saying hello.",
+   "i": 32,
+   "zh": "佩奇，我只是打个招呼。"
+  },
+  {
+   "start": 137.4,
+   "end": 140.0,
+   "en": "I'm not Peppa Pig, I'm Mummy Pig.",
+   "i": 33,
+   "zh": "我不是佩奇，我是猪妈妈。"
+  },
+  {
+   "start": 141.375,
+   "end": 144.0,
+   "en": "Oh yes, of course. Hello Mummy Pig.",
+   "i": 34,
+   "zh": "哦，是的，当然。猪妈妈你好。"
+  },
+  {
+   "start": 144.001,
+   "end": 145.001,
+   "en": "Hello.",
+   "i": 35,
+   "zh": "你好。"
+  },
+  {
+   "start": 145.1,
+   "end": 147.0,
+   "en": "And this is Daddy Pig.",
+   "i": 36,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 148.65,
+   "end": 150.0,
+   "en": "George.",
+   "i": 37,
+   "zh": "乔治。"
+  },
+  {
+   "start": 150.924,
+   "end": 153.0,
+   "en": "And hello to you too Daddy Pig.",
+   "i": 38,
+   "zh": "猪爸爸你也好。"
+  },
+  {
+   "start": 156.0,
+   "end": 159.0,
+   "en": "Excuse me, I've got a lot of work to do.",
+   "i": 39,
+   "zh": "对不起，我还有很多工作要做。"
+  },
+  {
+   "start": 160.1,
+   "end": 161.1,
+   "en": "Hello.",
+   "i": 40,
+   "zh": "你好。"
+  },
+  {
+   "start": 161.824,
+   "end": 163.0,
+   "en": "Yes.",
+   "i": 41,
+   "zh": "是的。"
+  },
+  {
+   "start": 163.001,
+   "end": 164.0,
+   "en": "Do this, do that.",
+   "i": 42,
+   "zh": "这样做，那样做。"
+  },
+  {
+   "start": 164.001,
+   "end": 166.0,
+   "en": "No, thank you.",
+   "i": 43,
+   "zh": "不，谢谢。"
+  },
+  {
+   "start": 166.2,
+   "end": 167.2,
+   "en": "Goodbye.",
+   "i": 44,
+   "zh": "再见。"
+  },
+  {
+   "start": 170.0,
+   "end": 173.0,
+   "en": "Peppa is enjoying pretending to be Mummy Pig.",
+   "i": 45,
+   "zh": "佩奇很享受扮演猪妈妈。"
+  },
+  {
+   "start": 174.15,
+   "end": 176.0,
+   "en": "But George is getting a bit bored.",
+   "i": 46,
+   "zh": "但是乔治有点无聊了。"
+  },
+  {
+   "start": 177.1,
+   "end": 180.0,
+   "en": "Sorry Daddy Pig, I'm nearly finished.",
+   "i": 47,
+   "zh": "对不起猪爸爸，我快说完了。"
+  },
+  {
+   "start": 181.0,
+   "end": 183.0,
+   "en": "There, all done.",
+   "i": 48,
+   "zh": "好了，一切都完成了。"
+  },
+  {
+   "start": 183.15,
+   "end": 186.0,
+   "en": "Come on Daddy Pig, it's time you did some work.",
+   "i": 49,
+   "zh": "加油猪爸爸，是时候做点事情了。"
+  },
+  {
+   "start": 186.001,
+   "end": 188.0,
+   "en": "Goodbye Mummy Pig and Daddy Pig.",
+   "i": 50,
+   "zh": "再见猪妈妈和猪爸爸。"
+  },
+  {
+   "start": 188.15,
+   "end": 189.15,
+   "en": "Goodbye.",
+   "i": 51,
+   "zh": "再见。"
+  },
+  {
+   "start": 193.0,
+   "end": 195.0,
+   "en": "Daddy Pig is digging in the garden.",
+   "i": 52,
+   "zh": "猪爸爸正在花园里挖土。"
+  },
+  {
+   "start": 197.0,
+   "end": 199.0,
+   "en": "Hello Peppa, hello George.",
+   "i": 53,
+   "zh": "你好佩奇，你好乔治。"
+  },
+  {
+   "start": 199.924,
+   "end": 202.0,
+   "en": "I'm not Peppa, I'm Mummy Pig.",
+   "i": 54,
+   "zh": "我不是佩奇，我是猪妈妈。"
+  },
+  {
+   "start": 202.05,
+   "end": 204.0,
+   "en": "And this is Daddy Pig.",
+   "i": 55,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 205.45,
+   "end": 207.0,
+   "en": "Daddy Pig is here to do some work.",
+   "i": 56,
+   "zh": "猪爸爸来干活了。"
+  },
+  {
+   "start": 207.001,
+   "end": 209.0,
+   "en": "That's very kind of you Daddy Pig.",
+   "i": 57,
+   "zh": "猪爸爸你真好。"
+  },
+  {
+   "start": 210.05,
+   "end": 212.0,
+   "en": "Now be careful, it's a very deep hole.",
+   "i": 58,
+   "zh": "现在要小心，这是一个很深的洞。"
+  },
+  {
+   "start": 216.0,
+   "end": 221.0,
+   "en": "I hope you are not digging in your best clothes Daddy Pig.",
+   "i": 59,
+   "zh": "我希望你不要在穿你最好的衣服猪爸爸。"
+  },
+  {
+   "start": 225.0,
+   "end": 228.0,
+   "en": "I want to make big snots too.",
+   "i": 60,
+   "zh": "我也想流鼻涕。"
+  },
+  {
+   "start": 235.0,
+   "end": 237.0,
+   "en": "Ice cream everyone.",
+   "i": 61,
+   "zh": "大家冰淇淋。"
+  },
+  {
+   "start": 237.001,
+   "end": 239.0,
+   "en": "Ice cream?",
+   "i": 62,
+   "zh": "冰淇淋？"
+  },
+  {
+   "start": 239.001,
+   "end": 244.0,
+   "en": "Peppa, George, you must take off those muddy clothes before you eat.",
+   "i": 63,
+   "zh": "佩奇，乔治，你吃饭前必须把沾满泥的衣服脱掉。"
+  },
+  {
+   "start": 244.001,
+   "end": 247.0,
+   "en": "I'm Mummy Pig and this is Daddy Pig.",
+   "i": 64,
+   "zh": "我是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 247.001,
+   "end": 249.0,
+   "en": "Are you sure?",
+   "i": 65,
+   "zh": "你确定吗？"
+  },
+  {
+   "start": 249.001,
+   "end": 250.0,
+   "en": "Yes.",
+   "i": 66,
+   "zh": "是的。"
+  },
+  {
+   "start": 250.001,
+   "end": 253.0,
+   "en": "So, where are Peppa and George?",
+   "i": 67,
+   "zh": "那么，佩奇和乔治在哪里？"
+  },
+  {
+   "start": 253.2,
+   "end": 255.0,
+   "en": "We don't know.",
+   "i": 68,
+   "zh": "我们不知道。"
+  },
+  {
+   "start": 255.001,
+   "end": 259.0,
+   "en": "Oh well that's a shame because I've got their favourite ice cream here.",
+   "i": 69,
+   "zh": "噢，真遗憾，因为我这里有他们最喜欢的冰淇淋。"
+  },
+  {
+   "start": 259.2,
+   "end": 262.0,
+   "en": "But if we can't find them then... Peppa!",
+   "i": 70,
+   "zh": "但是如果我们找不到他们那么...佩奇！"
+  },
+  {
+   "start": 263.0,
+   "end": 265.0,
+   "en": "George! There you are!",
+   "i": 71,
+   "zh": "乔治！你在那里！"
+  },
+  {
+   "start": 265.15,
+   "end": 269.0,
+   "en": "Yes Mummy, we were just pretending to be you and Daddy.",
+   "i": 72,
+   "zh": "是的妈妈，我们只是假装是你和爸爸。"
+  },
+  {
+   "start": 269.001,
+   "end": 272.0,
+   "en": "You really had us fooled.",
+   "i": 73,
+   "zh": "你真是把我们骗了。"
+  },
+  {
+   "start": 282.0,
+   "end": 284.0,
+   "en": "Peppa Pig!",
+   "i": 74,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 289.0,
+   "end": 292.0,
+   "en": "Peppa Pig!",
+   "i": 75,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 292.001,
+   "end": 294.0,
+   "en": "Peppa Pig!",
+   "i": 76,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 296.0,
+   "end": 298.0,
+   "en": "Peppa Pig!",
+   "i": 77,
+   "zh": "小猪佩奇！"
+  }
+ ]
+}

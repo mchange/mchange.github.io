@@ -1,0 +1,89 @@
+{
+ "id": "pep15",
+ "words": [
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "picnic",
+   "zh": "野餐",
+   "emoji": "🧺",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "cake",
+   "zh": "蛋糕",
+   "emoji": "🎂",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "strawberry",
+   "zh": "草莓",
+   "emoji": "🍓",
+   "line": 8
+  },
+  {
+   "type": "phrase",
+   "en": "Mommy's strawberry cake.",
+   "zh": "妈妈的草莓蛋糕。",
+   "emoji": "💬",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "run",
+   "zh": "跑",
+   "emoji": "🏃",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "eat",
+   "zh": "吃",
+   "emoji": "🍽️",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "duck",
+   "zh": "鸭子",
+   "emoji": "🦆",
+   "line": 24
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "wasp",
+   "zh": "黄蜂",
+   "emoji": "🐝",
+   "line": 38
+  },
+  {
+   "type": "phrase",
+   "en": "Go away, wasp!",
+   "zh": "走开，黄蜂！",
+   "emoji": "💬",
+   "line": 40
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "pep28",
+ "words": [
+  {
+   "type": "phrase",
+   "en": "To me, George!",
+   "zh": "对我来说，乔治！",
+   "emoji": "💬",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "big",
+   "zh": "大的",
+   "emoji": "🐘",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "cat",
+   "zh": "猫",
+   "emoji": "🐱",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "catch",
+   "zh": "接住",
+   "emoji": "🤲",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "star",
+   "zh": "星星",
+   "emoji": "⭐",
+   "line": 27
+  },
+  {
+   "type": "phrase",
+   "en": "Can't catch us.",
+   "zh": "抓不到我们。",
+   "emoji": "💬",
+   "line": 40
+  },
+  {
+   "type": "word",
+   "en": "jump",
+   "zh": "跳",
+   "emoji": "🦘",
+   "line": 63
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 63
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 63
+  },
+  {
+   "type": "word",
+   "en": "puddle",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 63
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 63
+  }
+ ]
+}

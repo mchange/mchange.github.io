@@ -1,0 +1,428 @@
+{
+ "id": "pep36",
+ "title": "The Sleepy Princess",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 4.0,
+   "end": 8.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 8.326,
+   "end": 12.012,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.0,
+   "end": 15.0,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 19.0,
+   "end": 21.0,
+   "en": "The Sleepy Princess",
+   "i": 4,
+   "zh": "瞌睡公主"
+  },
+  {
+   "start": 22.0,
+   "end": 26.0,
+   "en": "It is night time. Peppa and George are going to bed.",
+   "i": 5,
+   "zh": "现在是晚上。佩奇和乔治要去睡觉了。"
+  },
+  {
+   "start": 30.0,
+   "end": 32.0,
+   "en": "Good night Peppa and George.",
+   "i": 6,
+   "zh": "晚安佩奇和乔治。"
+  },
+  {
+   "start": 32.049,
+   "end": 34.0,
+   "en": "Mummy? Daddy?",
+   "i": 7,
+   "zh": "妈妈？爸爸？"
+  },
+  {
+   "start": 34.001,
+   "end": 35.001,
+   "en": "Yes Peppa?",
+   "i": 8,
+   "zh": "是佩奇吗？"
+  },
+  {
+   "start": 35.149,
+   "end": 38.0,
+   "en": "I'm not sleepy. Can I have a story?",
+   "i": 9,
+   "zh": "我不困。我可以讲故事吗？"
+  },
+  {
+   "start": 38.001,
+   "end": 41.0,
+   "en": "But maybe George is sleepy and doesn't want a story.",
+   "i": 10,
+   "zh": "但也许乔治很困，不想听故事。"
+  },
+  {
+   "start": 41.001,
+   "end": 46.0,
+   "en": "George, do you want a story? Say yes.",
+   "i": 11,
+   "zh": "乔治，你想要一个故事吗？说是的。"
+  },
+  {
+   "start": 48.099,
+   "end": 52.0,
+   "en": "Alright, I will tell you just one story.",
+   "i": 12,
+   "zh": "好吧，我只告诉你一个故事。"
+  },
+  {
+   "start": 52.149,
+   "end": 57.0,
+   "en": "If Daddy Pig tells you a story, you must both promise to go to sleep.",
+   "i": 13,
+   "zh": "如果猪爸爸给你讲故事，你们必须答应去睡觉。"
+  },
+  {
+   "start": 57.349,
+   "end": 59.0,
+   "en": "We promise.",
+   "i": 14,
+   "zh": "我们保证。"
+  },
+  {
+   "start": 61.05,
+   "end": 66.0,
+   "en": "Hmm, I think I'll tell you the story of The Sleepy Princess.",
+   "i": 15,
+   "zh": "嗯，我想我会告诉你《瞌睡公主》的故事。"
+  },
+  {
+   "start": 66.001,
+   "end": 70.0,
+   "en": "Is it a good story? It sounds a bit boring.",
+   "i": 16,
+   "zh": "这是一个好故事吗？听起来有点无聊。"
+  },
+  {
+   "start": 70.001,
+   "end": 73.0,
+   "en": "It's not boring. It's very good.",
+   "i": 17,
+   "zh": "这并不无聊。非常好。"
+  },
+  {
+   "start": 73.001,
+   "end": 76.0,
+   "en": "Is there a little princess in it?",
+   "i": 18,
+   "zh": "里面有小公主吗？"
+  },
+  {
+   "start": 76.149,
+   "end": 80.0,
+   "en": "Peppa, if you keep talking Daddy Pig can't start the story.",
+   "i": 19,
+   "zh": "佩奇，你再讲猪爸爸就没法开始故事了。"
+  },
+  {
+   "start": 80.001,
+   "end": 85.0,
+   "en": "Sorry Mummy. Is there a little princess in the story Daddy?",
+   "i": 20,
+   "zh": "对不起，妈妈。爸爸的故事里有小公主吗？"
+  },
+  {
+   "start": 85.001,
+   "end": 90.0,
+   "en": "Yes, there is a little princess in it.",
+   "i": 21,
+   "zh": "是的，里面有一个小公主。"
+  },
+  {
+   "start": 94.299,
+   "end": 96.0,
+   "en": "The Sleepy Princess",
+   "i": 22,
+   "zh": "瞌睡公主"
+  },
+  {
+   "start": 100.449,
+   "end": 105.0,
+   "en": "Once upon a time, in a castle, there lived a little princess.",
+   "i": 23,
+   "zh": "从前，在一座城堡里，住着一位小公主。"
+  },
+  {
+   "start": 105.001,
+   "end": 109.0,
+   "en": "And she was called The Sleepy Princess.",
+   "i": 24,
+   "zh": "她被称为“瞌睡公主”。"
+  },
+  {
+   "start": 109.001,
+   "end": 112.0,
+   "en": "Daddy, why was she called that?",
+   "i": 25,
+   "zh": "爸爸，为什么这么叫她？"
+  },
+  {
+   "start": 112.001,
+   "end": 113.0,
+   "en": "I'll get to that later.",
+   "i": 26,
+   "zh": "我稍后再讲。"
+  },
+  {
+   "start": 113.001,
+   "end": 116.0,
+   "en": "Was The Sleepy Princess pretty?",
+   "i": 27,
+   "zh": "瞌睡公主漂亮吗？"
+  },
+  {
+   "start": 116.249,
+   "end": 121.0,
+   "en": "Yes, she was very pretty. She loved looking at herself in the mirror.",
+   "i": 28,
+   "zh": "是的，她很漂亮。她喜欢照镜子。"
+  },
+  {
+   "start": 121.001,
+   "end": 123.0,
+   "en": "I am so pretty.",
+   "i": 29,
+   "zh": "我好漂亮。"
+  },
+  {
+   "start": 125.749,
+   "end": 128.0,
+   "en": "Who else was living at the castle?",
+   "i": 30,
+   "zh": "城堡里还有谁住？"
+  },
+  {
+   "start": 128.001,
+   "end": 129.001,
+   "en": "Well…",
+   "i": 31,
+   "zh": "嗯……"
+  },
+  {
+   "start": 130.0,
+   "end": 138.0,
+   "en": "The others in the castle were The Small Prince, Queen Mummy and King Daddy.",
+   "i": 32,
+   "zh": "城堡里的其他人是小王子、王后妈妈和国王爸爸。"
+  },
+  {
+   "start": 138.001,
+   "end": 141.0,
+   "en": "That's right. They were all living there as well.",
+   "i": 33,
+   "zh": "没错。他们也都住在那里。"
+  },
+  {
+   "start": 141.001,
+   "end": 143.0,
+   "en": "Did King Daddy have a big tummy?",
+   "i": 34,
+   "zh": "爸爸大王肚子大吗？"
+  },
+  {
+   "start": 143.15,
+   "end": 148.0,
+   "en": "Of course not. He was very handsome. Like me.",
+   "i": 35,
+   "zh": "当然不是。他非常英俊。像我这样的。"
+  },
+  {
+   "start": 149.0,
+   "end": 152.0,
+   "en": "Anyway, there was also a dragon.",
+   "i": 36,
+   "zh": "总而言之，还有一条龙。"
+  },
+  {
+   "start": 152.001,
+   "end": 154.0,
+   "en": "Dinosaur!",
+   "i": 37,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 154.5,
+   "end": 159.0,
+   "en": "A dinosaur? Oh yes, it wasn't a dragon. It was a dinosaur.",
+   "i": 38,
+   "zh": "恐龙？哦，是的，那不是龙。那是一只恐龙。"
+  },
+  {
+   "start": 159.001,
+   "end": 165.0,
+   "en": "Living outside was a huge, fierce dinosaur.",
+   "i": 39,
+   "zh": "外面生活着一只巨大而凶猛的恐龙。"
+  },
+  {
+   "start": 165.2,
+   "end": 172.0,
+   "en": "Roar!",
+   "i": 40,
+   "zh": "咆哮！"
+  },
+  {
+   "start": 172.001,
+   "end": 178.0,
+   "en": "Oh dear, maybe the dinosaur wasn't quite that fierce, Daddy Pig.",
+   "i": 41,
+   "zh": "天哪，也许恐龙没那么凶猛，猪爸爸。"
+  },
+  {
+   "start": 178.001,
+   "end": 186.0,
+   "en": "Sorry, George. No, the dinosaur was very gentle. It ate lots of grass.",
+   "i": 42,
+   "zh": "对不起，乔治。不，恐龙非常温柔。它吃了很多草。"
+  },
+  {
+   "start": 189.924,
+   "end": 191.0,
+   "en": "Daddy Pig!",
+   "i": 43,
+   "zh": "猪爸爸！"
+  },
+  {
+   "start": 191.1,
+   "end": 196.0,
+   "en": "Sorry, I was being the dinosaur.",
+   "i": 44,
+   "zh": "抱歉，我是恐龙。"
+  },
+  {
+   "start": 196.924,
+   "end": 201.0,
+   "en": "Daddy, why is the princess called The Sleepy Princess?",
+   "i": 45,
+   "zh": "爸爸，为什么公主叫瞌睡公主呢？"
+  },
+  {
+   "start": 201.1,
+   "end": 203.0,
+   "en": "I'm coming to that.",
+   "i": 46,
+   "zh": "我正要讲这个。"
+  },
+  {
+   "start": 203.15,
+   "end": 211.012,
+   "en": "You see, the sun set, and the stars and moon came out, and everyone got very sleepy.",
+   "i": 47,
+   "zh": "你看，太阳落山了，星星月亮出来了，大家都困了。"
+  },
+  {
+   "start": 218.0,
+   "end": 223.0,
+   "en": "But the most sleepy of all was The Sleepy Princess.",
+   "i": 48,
+   "zh": "但最困的是《瞌睡公主》。"
+  },
+  {
+   "start": 226.5,
+   "end": 228.0,
+   "en": "Peppa, are you sleepy?",
+   "i": 49,
+   "zh": "佩奇，你困了吗？"
+  },
+  {
+   "start": 228.05,
+   "end": 232.0,
+   "en": "No, Daddy. I am not sleepy at all.",
+   "i": 50,
+   "zh": "不，爸爸。我一点也不困。"
+  },
+  {
+   "start": 235.4,
+   "end": 237.0,
+   "en": "But somebody is.",
+   "i": 51,
+   "zh": "但有人是。"
+  },
+  {
+   "start": 237.1,
+   "end": 242.0,
+   "en": "George, wake up! You'll miss the end of the story.",
+   "i": 52,
+   "zh": "乔治，醒醒！你会错过故事的结局。"
+  },
+  {
+   "start": 242.55,
+   "end": 247.0,
+   "en": "Well, Peppa might not be sleepy, but The Sleepy Princess certainly was.",
+   "i": 53,
+   "zh": "嗯，佩奇可能不困，但瞌睡公主肯定是。"
+  },
+  {
+   "start": 247.15,
+   "end": 252.0,
+   "en": "Looking at herself all day in the mirror had completely worn her out.",
+   "i": 54,
+   "zh": "整天对着镜子看自己，已经把她累坏了。"
+  },
+  {
+   "start": 253.1,
+   "end": 255.0,
+   "en": "Let's carry you to bed.",
+   "i": 55,
+   "zh": "让我们抱你去睡觉吧。"
+  },
+  {
+   "start": 258.0,
+   "end": 259.0,
+   "en": "Good night.",
+   "i": 56,
+   "zh": "晚安。"
+  },
+  {
+   "start": 260.0,
+   "end": 267.0,
+   "en": "The Sleepy Princess was so sleepy, she had fallen fast asleep.",
+   "i": 57,
+   "zh": "瞌睡公主太困了，她已经睡着了。"
+  },
+  {
+   "start": 271.875,
+   "end": 275.0,
+   "en": "Thank you for that story, King Daddy.",
+   "i": 58,
+   "zh": "谢谢你的故事，爸爸国王。"
+  },
+  {
+   "start": 275.001,
+   "end": 277.0,
+   "en": "You're welcome, Queen Mother.",
+   "i": 59,
+   "zh": "不客气，太后。"
+  },
+  {
+   "start": 278.0,
+   "end": 282.0,
+   "en": "And our little prince and princess enjoyed it, too.",
+   "i": 60,
+   "zh": "我们的小王子和小公主也很喜欢。"
+  }
+ ]
+}

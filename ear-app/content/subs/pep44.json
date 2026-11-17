@@ -1,0 +1,638 @@
+{
+ "id": "pep44",
+ "title": "The Playground",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.5,
+   "end": 7.124,
+   "en": "I'm Peppa Pig, this is my little brother",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟"
+  },
+  {
+   "start": 7.148,
+   "end": 11.5,
+   "en": "George, this is Mommy Pig and this is Daddy Pig.",
+   "i": 2,
+   "zh": "乔治，这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.501,
+   "end": 14.5,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 14.501,
+   "end": 19.5,
+   "en": "The playground!",
+   "i": 4,
+   "zh": "游乐场！"
+  },
+  {
+   "start": 19.501,
+   "end": 24.5,
+   "en": "Peppa and George are at the playground with their friends.",
+   "i": 5,
+   "zh": "佩奇和乔治和他们的朋友在操场上。"
+  },
+  {
+   "start": 24.501,
+   "end": 29.5,
+   "en": "Candy Cat and Pedro Pony are on the climbing frame.",
+   "i": 6,
+   "zh": "小猫坎迪和佩德罗小马在攀爬架上。"
+  },
+  {
+   "start": 31.9,
+   "end": 36.5,
+   "en": "Susie Sheep, Danny Dog and Rebecca Rabbit are playing on the slide.",
+   "i": 7,
+   "zh": "小羊苏西、小狗丹尼和小兔瑞贝卡正在玩滑梯。"
+  },
+  {
+   "start": 36.501,
+   "end": 43.5,
+   "en": "Peppa is playing on the swing.",
+   "i": 8,
+   "zh": "佩奇正在荡秋千。"
+  },
+  {
+   "start": 43.501,
+   "end": 47.5,
+   "en": "Mummy, Mummy, push me please!",
+   "i": 9,
+   "zh": "妈妈妈妈，请推我一下！"
+  },
+  {
+   "start": 47.501,
+   "end": 48.501,
+   "en": "Are you ready?",
+   "i": 10,
+   "zh": "你准备好了吗？"
+  },
+  {
+   "start": 48.799,
+   "end": 51.5,
+   "en": "Yes, I want to go really high!",
+   "i": 11,
+   "zh": "是的，我想要飞得很高！"
+  },
+  {
+   "start": 54.5,
+   "end": 62.5,
+   "en": "Hiya Mummy!",
+   "i": 12,
+   "zh": "嗨妈妈！"
+  },
+  {
+   "start": 62.501,
+   "end": 65.5,
+   "en": "George wants to play on the swing.",
+   "i": 13,
+   "zh": "乔治想玩秋千。"
+  },
+  {
+   "start": 65.574,
+   "end": 68.5,
+   "en": "Now it's your turn George!",
+   "i": 14,
+   "zh": "现在轮到你了乔治！"
+  },
+  {
+   "start": 68.501,
+   "end": 70.5,
+   "en": "Hold tight!",
+   "i": 15,
+   "zh": "抓紧！"
+  },
+  {
+   "start": 70.501,
+   "end": 72.5,
+   "en": "I want to push George!",
+   "i": 16,
+   "zh": "我要推乔治！"
+  },
+  {
+   "start": 72.849,
+   "end": 74.5,
+   "en": "Push George gently Peppa!",
+   "i": 17,
+   "zh": "轻轻推乔治佩奇！"
+  },
+  {
+   "start": 74.6,
+   "end": 75.6,
+   "en": "Yes Mummy!",
+   "i": 18,
+   "zh": "是的妈妈！"
+  },
+  {
+   "start": 76.374,
+   "end": 78.5,
+   "en": "Hold tight George!",
+   "i": 19,
+   "zh": "抱紧乔治！"
+  },
+  {
+   "start": 78.501,
+   "end": 81.5,
+   "en": "Whee!",
+   "i": 20,
+   "zh": "哇——！"
+  },
+  {
+   "start": 81.501,
+   "end": 85.5,
+   "en": "Oh dear, Peppa has pushed George too high.",
+   "i": 21,
+   "zh": "天啊，佩奇把乔治推得太高了。"
+  },
+  {
+   "start": 85.501,
+   "end": 87.5,
+   "en": "George does not like being up high.",
+   "i": 22,
+   "zh": "乔治不喜欢在高处。"
+  },
+  {
+   "start": 87.874,
+   "end": 91.5,
+   "en": "Peppa, you know George is a bit scared of heights.",
+   "i": 23,
+   "zh": "佩奇，你知道乔治有点恐高。"
+  },
+  {
+   "start": 91.599,
+   "end": 94.5,
+   "en": "Sorry George!",
+   "i": 24,
+   "zh": "对不起乔治！"
+  },
+  {
+   "start": 94.749,
+   "end": 99.5,
+   "en": "Let's play on the climbing frame!",
+   "i": 25,
+   "zh": "我们去攀爬架玩吧！"
+  },
+  {
+   "start": 99.501,
+   "end": 101.5,
+   "en": "Hello Susie!",
+   "i": 26,
+   "zh": "苏西你好！"
+  },
+  {
+   "start": 101.599,
+   "end": 103.5,
+   "en": "Hello Danny!",
+   "i": 27,
+   "zh": "你好丹尼！"
+  },
+  {
+   "start": 103.501,
+   "end": 105.5,
+   "en": "Hello Peppa!",
+   "i": 28,
+   "zh": "佩奇你好！"
+  },
+  {
+   "start": 105.501,
+   "end": 107.5,
+   "en": "Whee!",
+   "i": 29,
+   "zh": "哇——！"
+  },
+  {
+   "start": 107.501,
+   "end": 109.5,
+   "en": "Whee!",
+   "i": 30,
+   "zh": "哇——！"
+  },
+  {
+   "start": 109.501,
+   "end": 111.5,
+   "en": "Whee!",
+   "i": 31,
+   "zh": "哇——！"
+  },
+  {
+   "start": 111.501,
+   "end": 113.5,
+   "en": "You were doing it all wrong!",
+   "i": 32,
+   "zh": "你都做错了！"
+  },
+  {
+   "start": 113.501,
+   "end": 116.5,
+   "en": "This is the proper way to swing across!",
+   "i": 33,
+   "zh": "这才是正确的荡秋千方式！"
+  },
+  {
+   "start": 117.449,
+   "end": 118.5,
+   "en": "Stand back!",
+   "i": 34,
+   "zh": "退后！"
+  },
+  {
+   "start": 118.501,
+   "end": 121.5,
+   "en": "Ready, steady, go!",
+   "i": 35,
+   "zh": "各就各位，预备，开始！"
+  },
+  {
+   "start": 121.6,
+   "end": 122.5,
+   "en": "Whee!",
+   "i": 36,
+   "zh": "哇——！"
+  },
+  {
+   "start": 122.501,
+   "end": 123.5,
+   "en": "Look at me!",
+   "i": 37,
+   "zh": "看着我！"
+  },
+  {
+   "start": 123.501,
+   "end": 126.5,
+   "en": "I'm flying like a bird!",
+   "i": 38,
+   "zh": "我像小鸟一样飞翔！"
+  },
+  {
+   "start": 126.501,
+   "end": 127.5,
+   "en": "Whee!",
+   "i": 39,
+   "zh": "哇——！"
+  },
+  {
+   "start": 127.501,
+   "end": 135.5,
+   "en": "Oh, I can't get out!",
+   "i": 40,
+   "zh": "哦，我出不去！"
+  },
+  {
+   "start": 135.7,
+   "end": 140.5,
+   "en": "Peppa is stuck in the tyre.",
+   "i": 41,
+   "zh": "佩奇卡在轮胎里了。"
+  },
+  {
+   "start": 140.501,
+   "end": 143.5,
+   "en": "It's not funny!",
+   "i": 42,
+   "zh": "这不好笑！"
+  },
+  {
+   "start": 143.501,
+   "end": 148.5,
+   "en": "Well it does look a bit funny!",
+   "i": 43,
+   "zh": "嗯，看起来确实有点搞笑！"
+  },
+  {
+   "start": 148.501,
+   "end": 150.5,
+   "en": "We'll have to pull you out!",
+   "i": 44,
+   "zh": "我们得把你拉出来！"
+  },
+  {
+   "start": 150.501,
+   "end": 156.5,
+   "en": "Peppa's friends are helping to free you!",
+   "i": 45,
+   "zh": "佩奇的朋友们正在帮助你解救！"
+  },
+  {
+   "start": 156.501,
+   "end": 157.501,
+   "en": "Hurray!",
+   "i": 46,
+   "zh": "好耶！"
+  },
+  {
+   "start": 157.6,
+   "end": 159.5,
+   "en": "Thank you everyone!",
+   "i": 47,
+   "zh": "谢谢大家！"
+  },
+  {
+   "start": 160.175,
+   "end": 163.5,
+   "en": "George, do you want to play on the climbing frame?",
+   "i": 48,
+   "zh": "乔治，你想玩爬架吗？"
+  },
+  {
+   "start": 163.501,
+   "end": 165.5,
+   "en": "The climbing frame is quite high.",
+   "i": 49,
+   "zh": "攀爬架相当高。"
+  },
+  {
+   "start": 165.501,
+   "end": 168.5,
+   "en": "George does not like being up high.",
+   "i": 50,
+   "zh": "乔治不喜欢在高处。"
+  },
+  {
+   "start": 169.0,
+   "end": 170.5,
+   "en": "Whee!",
+   "i": 51,
+   "zh": "哇——！"
+  },
+  {
+   "start": 170.501,
+   "end": 172.5,
+   "en": "Whee!",
+   "i": 52,
+   "zh": "哇——！"
+  },
+  {
+   "start": 172.501,
+   "end": 174.5,
+   "en": "Sorry George!",
+   "i": 53,
+   "zh": "对不起乔治！"
+  },
+  {
+   "start": 174.75,
+   "end": 176.5,
+   "en": "Let's play on the slide!",
+   "i": 54,
+   "zh": "我们玩滑梯吧！"
+  },
+  {
+   "start": 176.65,
+   "end": 178.5,
+   "en": "Yes, the slide!",
+   "i": 55,
+   "zh": "是的，幻灯片！"
+  },
+  {
+   "start": 178.501,
+   "end": 180.5,
+   "en": "Yippee!",
+   "i": 56,
+   "zh": "太棒啦！"
+  },
+  {
+   "start": 180.501,
+   "end": 182.5,
+   "en": "Peppa loves the slide!",
+   "i": 57,
+   "zh": "佩奇很喜欢滑梯！"
+  },
+  {
+   "start": 182.501,
+   "end": 184.5,
+   "en": "Everyone loves the slide!",
+   "i": 58,
+   "zh": "每个人都喜欢幻灯片！"
+  },
+  {
+   "start": 184.501,
+   "end": 186.5,
+   "en": "Mummy, Daddy, look at me!",
+   "i": 59,
+   "zh": "妈妈爸爸你们看我！"
+  },
+  {
+   "start": 186.501,
+   "end": 189.5,
+   "en": "Ready, steady, go!",
+   "i": 60,
+   "zh": "各就各位，预备，开始！"
+  },
+  {
+   "start": 189.501,
+   "end": 191.5,
+   "en": "Whee!",
+   "i": 61,
+   "zh": "哇——！"
+  },
+  {
+   "start": 191.501,
+   "end": 192.5,
+   "en": "Whee!",
+   "i": 62,
+   "zh": "哇——！"
+  },
+  {
+   "start": 192.501,
+   "end": 193.5,
+   "en": "Whee!",
+   "i": 63,
+   "zh": "哇——！"
+  },
+  {
+   "start": 193.501,
+   "end": 194.5,
+   "en": "Whee!",
+   "i": 64,
+   "zh": "哇——！"
+  },
+  {
+   "start": 194.501,
+   "end": 195.5,
+   "en": "Whee!",
+   "i": 65,
+   "zh": "哇——！"
+  },
+  {
+   "start": 195.501,
+   "end": 196.5,
+   "en": "Whee!",
+   "i": 66,
+   "zh": "哇——！"
+  },
+  {
+   "start": 196.501,
+   "end": 197.5,
+   "en": "Whee!",
+   "i": 67,
+   "zh": "哇——！"
+  },
+  {
+   "start": 197.501,
+   "end": 198.5,
+   "en": "Whee!",
+   "i": 68,
+   "zh": "哇——！"
+  },
+  {
+   "start": 198.501,
+   "end": 205.5,
+   "en": "George wants to play on the slide.",
+   "i": 69,
+   "zh": "乔治想玩滑梯。"
+  },
+  {
+   "start": 205.501,
+   "end": 206.501,
+   "en": "Are you sure George?",
+   "i": 70,
+   "zh": "你确定乔治吗？"
+  },
+  {
+   "start": 206.9,
+   "end": 208.5,
+   "en": "It is a bit high.",
+   "i": 71,
+   "zh": "有点高了。"
+  },
+  {
+   "start": 208.95,
+   "end": 212.5,
+   "en": "Alright, I'll help you up the steps.",
+   "i": 72,
+   "zh": "好的，我帮你上台阶。"
+  },
+  {
+   "start": 212.75,
+   "end": 218.5,
+   "en": "Oh dear, it is a bit too high for George.",
+   "i": 73,
+   "zh": "哦天哪，这对乔治来说有点太高了。"
+  },
+  {
+   "start": 218.501,
+   "end": 223.5,
+   "en": "Don't worry George, I'll slide down with you.",
+   "i": 74,
+   "zh": "别担心乔治，我会和你一起滑下去。"
+  },
+  {
+   "start": 223.55,
+   "end": 226.5,
+   "en": "Daddy, you're too big to go down the slide.",
+   "i": 75,
+   "zh": "爸爸，你太大了，不能从滑梯上下来。"
+  },
+  {
+   "start": 226.501,
+   "end": 230.5,
+   "en": "Don't be silly Peppa, I'm not too big.",
+   "i": 76,
+   "zh": "佩奇别傻了，我还没太大。"
+  },
+  {
+   "start": 230.501,
+   "end": 231.5,
+   "en": "Stand back!",
+   "i": 77,
+   "zh": "退后！"
+  },
+  {
+   "start": 231.501,
+   "end": 236.5,
+   "en": "Ready, steady, go!",
+   "i": 78,
+   "zh": "各就各位，预备，开始！"
+  },
+  {
+   "start": 236.501,
+   "end": 242.5,
+   "en": "Daddy Pig is stuck!",
+   "i": 79,
+   "zh": "猪爸爸卡住了！"
+  },
+  {
+   "start": 242.501,
+   "end": 244.5,
+   "en": "It's not funny!",
+   "i": 80,
+   "zh": "这不好笑！"
+  },
+  {
+   "start": 244.501,
+   "end": 248.5,
+   "en": "It looks very funny, Daddy.",
+   "i": 81,
+   "zh": "看起来很有趣，爸爸。"
+  },
+  {
+   "start": 248.501,
+   "end": 251.5,
+   "en": "I suppose it is a bit funny.",
+   "i": 82,
+   "zh": "我觉得有点好笑。"
+  },
+  {
+   "start": 251.6,
+   "end": 258.5,
+   "en": "We'll have to push you down.",
+   "i": 83,
+   "zh": "我们得把你推下去。"
+  },
+  {
+   "start": 264.5,
+   "end": 272.5,
+   "en": "Whee!",
+   "i": 84,
+   "zh": "哇——！"
+  },
+  {
+   "start": 272.501,
+   "end": 276.5,
+   "en": "Daddy's tummy is just like a bouncy castle.",
+   "i": 85,
+   "zh": "爸爸的肚子就像充气城堡一样。"
+  },
+  {
+   "start": 276.501,
+   "end": 281.5,
+   "en": "George loves bouncing on Daddy's tummy.",
+   "i": 86,
+   "zh": "乔治喜欢在爸爸的肚子上跳来跳去。"
+  },
+  {
+   "start": 281.501,
+   "end": 287.5,
+   "en": "George isn't afraid of heights anymore.",
+   "i": 87,
+   "zh": "乔治不再恐高了。"
+  },
+  {
+   "start": 287.501,
+   "end": 292.5,
+   "en": "Peppa Pig!",
+   "i": 88,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 292.501,
+   "end": 296.5,
+   "en": "Peppa Pig!",
+   "i": 89,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 296.501,
+   "end": 299.5,
+   "en": "Peppa Pig!",
+   "i": 90,
+   "zh": "小猪佩奇！"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "pep47",
+ "words": [
+  {
+   "type": "word",
+   "en": "doll",
+   "zh": "洋娃娃",
+   "emoji": "🪆",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "party",
+   "zh": "聚会",
+   "emoji": "🎉",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "tea",
+   "zh": "茶",
+   "emoji": "🍵",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 9
+  },
+  {
+   "type": "word",
+   "en": "children",
+   "zh": "孩子们",
+   "emoji": "🧒",
+   "line": 10
+  },
+  {
+   "type": "phrase",
+   "en": "George isn't listening.",
+   "zh": "乔治没有在听。",
+   "emoji": "💬",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "help",
+   "zh": "帮忙",
+   "emoji": "🤝",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "spider",
+   "zh": "蜘蛛",
+   "emoji": "🕷️",
+   "line": 28
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 54
+  },
+  {
+   "type": "phrase",
+   "en": "Who wants tea?",
+   "zh": "谁要茶？",
+   "emoji": "💬",
+   "line": 73
+  }
+ ]
+}

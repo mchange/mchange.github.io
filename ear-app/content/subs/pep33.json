@@ -1,0 +1,498 @@
+{
+ "id": "pep33",
+ "title": "Cleaning the Car",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.16,
+   "end": 6.784,
+   "en": "I'm Peppa Pig, this is my little brother",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟"
+  },
+  {
+   "start": 6.808,
+   "end": 11.16,
+   "en": "George, this is Mummy Pig and this is Daddy Pig.",
+   "i": 2,
+   "zh": "乔治，这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.44,
+   "end": 14.44,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 19.68,
+   "end": 21.68,
+   "en": "Cleaning the car!",
+   "i": 4,
+   "zh": "清洁汽车！"
+  },
+  {
+   "start": 25.84,
+   "end": 28.84,
+   "en": "Daddy Pig is taking the family for a drive in the country.",
+   "i": 5,
+   "zh": "猪爸爸要带家人去乡下兜风。"
+  },
+  {
+   "start": 28.841,
+   "end": 31.52,
+   "en": "Come on! Is everybody ready?",
+   "i": 6,
+   "zh": "加油！大家准备好了吗？"
+  },
+  {
+   "start": 31.521,
+   "end": 33.52,
+   "en": "Ready!",
+   "i": 7,
+   "zh": "准备好了！"
+  },
+  {
+   "start": 33.521,
+   "end": 36.52,
+   "en": "Yes, Daddy Pig, we're ready!",
+   "i": 8,
+   "zh": "是的，猪爸爸，我们准备好了！"
+  },
+  {
+   "start": 36.521,
+   "end": 41.52,
+   "en": "But the car isn't ready. Look how messy it is!",
+   "i": 9,
+   "zh": "但车还没有准备好。看看多乱啊！"
+  },
+  {
+   "start": 41.694,
+   "end": 47.52,
+   "en": "Oh, it's not too bad. You should see how messy it is inside.",
+   "i": 10,
+   "zh": "哦，还不错。你应该看看里面有多乱。"
+  },
+  {
+   "start": 47.744,
+   "end": 51.52,
+   "en": "Naughty, messy Daddy!",
+   "i": 11,
+   "zh": "淘气、乱七八糟的爸爸！"
+  },
+  {
+   "start": 51.521,
+   "end": 55.52,
+   "en": "Naughty, messy Daddy!",
+   "i": 12,
+   "zh": "淘气、乱七八糟的爸爸！"
+  },
+  {
+   "start": 55.57,
+   "end": 59.52,
+   "en": "Look at all this rubbish! Newspapers?",
+   "i": 13,
+   "zh": "看看这些垃圾！报纸？"
+  },
+  {
+   "start": 59.521,
+   "end": 60.521,
+   "en": "They're mine!",
+   "i": 14,
+   "zh": "他们是我的！"
+  },
+  {
+   "start": 60.769,
+   "end": 62.52,
+   "en": "Sweets?",
+   "i": 15,
+   "zh": "糖果？"
+  },
+  {
+   "start": 62.521,
+   "end": 63.521,
+   "en": "They're mine!",
+   "i": 16,
+   "zh": "他们是我的！"
+  },
+  {
+   "start": 63.57,
+   "end": 65.519,
+   "en": "Mr Dinosaur?",
+   "i": 17,
+   "zh": "恐龙先生？"
+  },
+  {
+   "start": 65.52,
+   "end": 68.52,
+   "en": "Dinosaur!",
+   "i": 18,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 68.569,
+   "end": 72.52,
+   "en": "We must clean the car before we go for a drive.",
+   "i": 19,
+   "zh": "开车前我们必须清洁汽车。"
+  },
+  {
+   "start": 72.819,
+   "end": 74.52,
+   "en": "Oh, right you are, Mummy Pig.",
+   "i": 20,
+   "zh": "哦，对了，猪妈妈。"
+  },
+  {
+   "start": 74.52,
+   "end": 77.52,
+   "en": "Mummy, can we help to clean the car?",
+   "i": 21,
+   "zh": "妈妈，我们可以帮忙擦车吗？"
+  },
+  {
+   "start": 77.521,
+   "end": 78.52,
+   "en": "Yes, if you want to.",
+   "i": 22,
+   "zh": "是的，如果你愿意的话。"
+  },
+  {
+   "start": 78.521,
+   "end": 80.52,
+   "en": "Hooray!",
+   "i": 23,
+   "zh": "好耶！"
+  },
+  {
+   "start": 82.52,
+   "end": 85.52,
+   "en": "Daddy Pig has some warm, soapy water to wash the car.",
+   "i": 24,
+   "zh": "猪爸爸有一些温肥皂水来洗车。"
+  },
+  {
+   "start": 88.52,
+   "end": 91.52,
+   "en": "Daddy Pig is washing the roof.",
+   "i": 25,
+   "zh": "猪爸爸正在洗屋顶。"
+  },
+  {
+   "start": 91.521,
+   "end": 94.52,
+   "en": "Mummy Pig is washing the bonnet.",
+   "i": 26,
+   "zh": "猪妈妈正在洗引擎盖。"
+  },
+  {
+   "start": 95.52,
+   "end": 97.52,
+   "en": "Peppa is washing the doors.",
+   "i": 27,
+   "zh": "佩奇正在洗门。"
+  },
+  {
+   "start": 99.52,
+   "end": 103.52,
+   "en": "George wants to wash the windows, but he is too little.",
+   "i": 28,
+   "zh": "乔治想擦窗户，但他太小了。"
+  },
+  {
+   "start": 105.519,
+   "end": 108.52,
+   "en": "Poor George. Let me help you.",
+   "i": 29,
+   "zh": "可怜的乔治。让我来帮助你。"
+  },
+  {
+   "start": 113.569,
+   "end": 116.52,
+   "en": "Oh dear, George has dropped his sponge in a muddy puddle.",
+   "i": 30,
+   "zh": "天哪，乔治把他的海绵掉进了泥坑里。"
+  },
+  {
+   "start": 120.52,
+   "end": 124.52,
+   "en": "George, you're making the car all muddy again.",
+   "i": 31,
+   "zh": "乔治，你又把车搞得满地泥泞了。"
+  },
+  {
+   "start": 128.57,
+   "end": 130.52,
+   "en": "I will wash the mud off.",
+   "i": 32,
+   "zh": "我会把泥巴洗掉的。"
+  },
+  {
+   "start": 131.02,
+   "end": 132.52,
+   "en": "Peppa, don't use the...",
+   "i": 33,
+   "zh": "佩奇，别用……"
+  },
+  {
+   "start": 134.92,
+   "end": 136.52,
+   "en": "...muddy water.",
+   "i": 34,
+   "zh": "...浑水。"
+  },
+  {
+   "start": 137.57,
+   "end": 141.52,
+   "en": "Oh dear, Peppa has thrown the muddy water all over the car.",
+   "i": 35,
+   "zh": "天哪，佩奇把泥水泼得满车都是。"
+  },
+  {
+   "start": 141.521,
+   "end": 142.521,
+   "en": "Oh.",
+   "i": 36,
+   "zh": "哦。"
+  },
+  {
+   "start": 143.57,
+   "end": 146.52,
+   "en": "Never mind, we can use the garden hose to clean it off.",
+   "i": 37,
+   "zh": "没关系，我们可以用花园软管把它清理掉。"
+  },
+  {
+   "start": 146.521,
+   "end": 150.52,
+   "en": "Yes, yes. Can I hold the hose?",
+   "i": 38,
+   "zh": "是的，是的。我可以握住软管吗？"
+  },
+  {
+   "start": 157.52,
+   "end": 161.52,
+   "en": "Peppa holds the hose and Daddy Pig turns on the water.",
+   "i": 39,
+   "zh": "佩奇拿着水管，猪爸爸打开水。"
+  },
+  {
+   "start": 164.67,
+   "end": 166.52,
+   "en": "Where's the water?",
+   "i": 40,
+   "zh": "水在哪里？"
+  },
+  {
+   "start": 172.52,
+   "end": 175.52,
+   "en": "Ah! Peppa, stop!",
+   "i": 41,
+   "zh": "啊！佩奇，站住！"
+  },
+  {
+   "start": 175.521,
+   "end": 177.52,
+   "en": "Sorry, Mummy.",
+   "i": 42,
+   "zh": "对不起，妈妈。"
+  },
+  {
+   "start": 182.52,
+   "end": 185.52,
+   "en": "Daddy Pig, please turn off the water.",
+   "i": 43,
+   "zh": "猪爸爸，请把水关掉。"
+  },
+  {
+   "start": 187.52,
+   "end": 189.52,
+   "en": "No need to panic.",
+   "i": 44,
+   "zh": "无需惊慌。"
+  },
+  {
+   "start": 191.67,
+   "end": 193.52,
+   "en": "Oh dear, everyone is wet.",
+   "i": 45,
+   "zh": "天啊，大家都湿透了。"
+  },
+  {
+   "start": 195.394,
+   "end": 197.52,
+   "en": "At least the car has been washed.",
+   "i": 46,
+   "zh": "至少车已经洗好了。"
+  },
+  {
+   "start": 197.521,
+   "end": 199.52,
+   "en": "We've all been washed.",
+   "i": 47,
+   "zh": "我们都被洗干净了。"
+  },
+  {
+   "start": 200.52,
+   "end": 203.52,
+   "en": "You go and dry yourselves while I polish the car.",
+   "i": 48,
+   "zh": "你去把身体擦干，我把车擦亮。"
+  },
+  {
+   "start": 203.82,
+   "end": 205.52,
+   "en": "See you later.",
+   "i": 49,
+   "zh": "回头见。"
+  },
+  {
+   "start": 205.521,
+   "end": 207.52,
+   "en": "See you later.",
+   "i": 50,
+   "zh": "回头见。"
+  },
+  {
+   "start": 214.52,
+   "end": 218.52,
+   "en": "Daddy Pig is polishing the car so well he can see his face in it.",
+   "i": 51,
+   "zh": "猪爸爸正在把车擦得很好，他可以在车里看到他的脸。"
+  },
+  {
+   "start": 222.52,
+   "end": 224.52,
+   "en": "What a funny face.",
+   "i": 52,
+   "zh": "真是一张滑稽的脸。"
+  },
+  {
+   "start": 225.47,
+   "end": 227.52,
+   "en": "Oh, more funny faces.",
+   "i": 53,
+   "zh": "哦，更多有趣的面孔。"
+  },
+  {
+   "start": 228.52,
+   "end": 231.52,
+   "en": "Peppa and George and Mummy Pig.",
+   "i": 54,
+   "zh": "佩奇和乔治和猪妈妈。"
+  },
+  {
+   "start": 231.521,
+   "end": 234.52,
+   "en": "What a lovely shiny car.",
+   "i": 55,
+   "zh": "多么可爱、闪亮的汽车啊。"
+  },
+  {
+   "start": 234.521,
+   "end": 237.52,
+   "en": "Yes, I am a bit of an expert at these things.",
+   "i": 56,
+   "zh": "是的，我在这些方面有点专家。"
+  },
+  {
+   "start": 239.52,
+   "end": 241.52,
+   "en": "Come on, I'll drive today.",
+   "i": 57,
+   "zh": "来吧，我今天开车。"
+  },
+  {
+   "start": 241.521,
+   "end": 243.52,
+   "en": "Is everybody ready?",
+   "i": 58,
+   "zh": "大家准备好了吗？"
+  },
+  {
+   "start": 243.57,
+   "end": 244.57,
+   "en": "Ready!",
+   "i": 59,
+   "zh": "准备好了！"
+  },
+  {
+   "start": 245.52,
+   "end": 247.52,
+   "en": "Then let's go!",
+   "i": 60,
+   "zh": "那我们走吧！"
+  },
+  {
+   "start": 253.52,
+   "end": 256.519,
+   "en": "I hope you will all keep this car clean today.",
+   "i": 61,
+   "zh": "我希望你们今天都能保持这辆车的清洁。"
+  },
+  {
+   "start": 256.52,
+   "end": 258.519,
+   "en": "Yes, Mummy Pig.",
+   "i": 62,
+   "zh": "是的，猪妈妈。"
+  },
+  {
+   "start": 258.52,
+   "end": 260.519,
+   "en": "Yes, Mummy Pig.",
+   "i": 63,
+   "zh": "是的，猪妈妈。"
+  },
+  {
+   "start": 267.52,
+   "end": 271.52,
+   "en": "Mummy, now you've made the car all muddy again.",
+   "i": 64,
+   "zh": "妈妈，你又把车弄脏了。"
+  },
+  {
+   "start": 272.319,
+   "end": 274.52,
+   "en": "Naughty Mummy.",
+   "i": 65,
+   "zh": "淘气的妈妈。"
+  },
+  {
+   "start": 274.521,
+   "end": 277.52,
+   "en": "Naughty messy Mummy.",
+   "i": 66,
+   "zh": "顽皮的凌乱妈妈。"
+  },
+  {
+   "start": 287.57,
+   "end": 289.52,
+   "en": "Hello, I'm Danny Dog.",
+   "i": 67,
+   "zh": "大家好，我是小狗丹尼。"
+  },
+  {
+   "start": 290.52,
+   "end": 292.52,
+   "en": "Is that a dinosaur?",
+   "i": 68,
+   "zh": "那是恐龙吗？"
+  },
+  {
+   "start": 292.77,
+   "end": 294.52,
+   "en": "It's just a toy dinosaur.",
+   "i": 69,
+   "zh": "这只是一个玩具恐龙。"
+  },
+  {
+   "start": 294.521,
+   "end": 297.52,
+   "en": "Grrr, dinosaur.",
+   "i": 70,
+   "zh": "咕噜，恐龙。"
+  }
+ ]
+}

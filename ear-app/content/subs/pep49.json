@@ -1,0 +1,729 @@
+{
+ "id": "pep49",
+ "title": "Shopping",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.52,
+   "end": 7.822,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.846,
+   "end": 11.52,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.521,
+   "end": 14.52,
+   "en": "Peppa Pig.",
+   "i": 3,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 20.52,
+   "end": 21.52,
+   "en": "Shopping.",
+   "i": 4,
+   "zh": "购物。"
+  },
+  {
+   "start": 24.52,
+   "end": 26.52,
+   "en": "Peppa and George are going shopping.",
+   "i": 5,
+   "zh": "佩奇和乔治去购物。"
+  },
+  {
+   "start": 28.52,
+   "end": 30.52,
+   "en": "Peppa and George like shopping.",
+   "i": 6,
+   "zh": "佩奇和乔治喜欢购物。"
+  },
+  {
+   "start": 32.52,
+   "end": 34.52,
+   "en": "George loves sitting in the trolley.",
+   "i": 7,
+   "zh": "乔治喜欢坐在手推车里。"
+  },
+  {
+   "start": 37.445,
+   "end": 38.52,
+   "en": "So does Peppa.",
+   "i": 8,
+   "zh": "佩奇也是。"
+  },
+  {
+   "start": 38.669,
+   "end": 41.52,
+   "en": "Daddy, can I sit in the trolley too?",
+   "i": 9,
+   "zh": "爸爸，我也可以坐车吗？"
+  },
+  {
+   "start": 42.57,
+   "end": 44.52,
+   "en": "You're too big for the trolley, Peppa.",
+   "i": 10,
+   "zh": "你太大了，推不了手推车，佩奇。"
+  },
+  {
+   "start": 46.395,
+   "end": 47.52,
+   "en": "But you can help with the shopping.",
+   "i": 11,
+   "zh": "但是你可以帮忙购物。"
+  },
+  {
+   "start": 47.521,
+   "end": 48.521,
+   "en": "Oh goody!",
+   "i": 12,
+   "zh": "哦，太好了！"
+  },
+  {
+   "start": 49.969,
+   "end": 51.52,
+   "en": "We've got four things on the list.",
+   "i": 13,
+   "zh": "我们的清单上有四件事。"
+  },
+  {
+   "start": 52.52,
+   "end": 55.52,
+   "en": "Tomatoes, spaghetti, onions and fruit.",
+   "i": 14,
+   "zh": "西红柿、意大利面、洋葱和水果。"
+  },
+  {
+   "start": 56.52,
+   "end": 57.52,
+   "en": "I'll find it all!",
+   "i": 15,
+   "zh": "我会找到这一切！"
+  },
+  {
+   "start": 62.52,
+   "end": 63.52,
+   "en": "This way!",
+   "i": 16,
+   "zh": "这边！"
+  },
+  {
+   "start": 64.519,
+   "end": 66.52,
+   "en": "Peppa and George love shopping.",
+   "i": 17,
+   "zh": "佩奇和乔治喜欢购物。"
+  },
+  {
+   "start": 69.394,
+   "end": 71.52,
+   "en": "Peppa, first we need tomatoes.",
+   "i": 18,
+   "zh": "佩奇，首先我们需要西红柿。"
+  },
+  {
+   "start": 73.494,
+   "end": 75.52,
+   "en": "I can see them, I can see them.",
+   "i": 19,
+   "zh": "我能看到他们，我能看到他们。"
+  },
+  {
+   "start": 76.494,
+   "end": 78.52,
+   "en": "Here are the tomatoes, Mummy.",
+   "i": 20,
+   "zh": "这是西红柿，妈妈。"
+  },
+  {
+   "start": 78.521,
+   "end": 79.521,
+   "en": "Well done, Peppa.",
+   "i": 21,
+   "zh": "做得好，佩奇。"
+  },
+  {
+   "start": 80.394,
+   "end": 84.52,
+   "en": "One, two, three, four.",
+   "i": 22,
+   "zh": "一、二、三、四。"
+  },
+  {
+   "start": 85.445,
+   "end": 87.52,
+   "en": "Now, put them in the trolley.",
+   "i": 23,
+   "zh": "现在，把它们放进手推车里。"
+  },
+  {
+   "start": 88.669,
+   "end": 90.52,
+   "en": "I found the tomatoes.",
+   "i": 24,
+   "zh": "我找到了西红柿。"
+  },
+  {
+   "start": 91.344,
+   "end": 92.52,
+   "en": "Well done, Peppa.",
+   "i": 25,
+   "zh": "做得好，佩奇。"
+  },
+  {
+   "start": 93.619,
+   "end": 96.52,
+   "en": "Tomatoes, that's one thing off the list.",
+   "i": 26,
+   "zh": "西红柿，这是清单上的一件事。"
+  },
+  {
+   "start": 97.419,
+   "end": 98.52,
+   "en": "What's next on the list?",
+   "i": 27,
+   "zh": "列表中的下一个是什么？"
+  },
+  {
+   "start": 99.444,
+   "end": 100.52,
+   "en": "Spaghetti!",
+   "i": 28,
+   "zh": "意大利面条！"
+  },
+  {
+   "start": 101.52,
+   "end": 105.52,
+   "en": "That's right, George, but it's called spaghetti.",
+   "i": 29,
+   "zh": "是的，乔治，但它叫意大利面条。"
+  },
+  {
+   "start": 107.444,
+   "end": 110.52,
+   "en": "Spaghetti is Peppa and George's favourite food.",
+   "i": 30,
+   "zh": "意大利面条是佩奇和乔治最喜欢的食物。"
+  },
+  {
+   "start": 110.569,
+   "end": 112.52,
+   "en": "I wonder where the spaghetti is.",
+   "i": 31,
+   "zh": "我想知道意大利面在哪里。"
+  },
+  {
+   "start": 112.521,
+   "end": 113.521,
+   "en": "I can see it!",
+   "i": 32,
+   "zh": "我看得见！"
+  },
+  {
+   "start": 113.619,
+   "end": 114.619,
+   "en": "This way!",
+   "i": 33,
+   "zh": "这边！"
+  },
+  {
+   "start": 115.52,
+   "end": 116.52,
+   "en": "Spaghetti!",
+   "i": 34,
+   "zh": "意大利面条！"
+  },
+  {
+   "start": 116.521,
+   "end": 118.52,
+   "en": "Look, Mummy, here's the spaghetti!",
+   "i": 35,
+   "zh": "看，妈妈，这是意大利面！"
+  },
+  {
+   "start": 119.52,
+   "end": 120.52,
+   "en": "Well done, Peppa.",
+   "i": 36,
+   "zh": "做得好，佩奇。"
+  },
+  {
+   "start": 120.521,
+   "end": 122.52,
+   "en": "Let's put the spaghetti in the trolley.",
+   "i": 37,
+   "zh": "我们把意大利面放进手推车吧。"
+  },
+  {
+   "start": 122.521,
+   "end": 123.521,
+   "en": "Yes, Mummy!",
+   "i": 38,
+   "zh": "是的，妈妈！"
+  },
+  {
+   "start": 125.52,
+   "end": 126.52,
+   "en": "Peekety!",
+   "i": 39,
+   "zh": "偷偷摸摸！"
+  },
+  {
+   "start": 127.444,
+   "end": 131.52,
+   "en": "George, it's called spaghetti.",
+   "i": 40,
+   "zh": "乔治，这叫意大利面条。"
+  },
+  {
+   "start": 132.695,
+   "end": 134.52,
+   "en": "Peekety.",
+   "i": 41,
+   "zh": "偷偷摸摸。"
+  },
+  {
+   "start": 136.42,
+   "end": 138.52,
+   "en": "What's next on the list, Peppa?",
+   "i": 42,
+   "zh": "名单上的下一个是什么，佩奇？"
+  },
+  {
+   "start": 138.72,
+   "end": 139.72,
+   "en": "Crisps!",
+   "i": 43,
+   "zh": "薯片！"
+  },
+  {
+   "start": 140.52,
+   "end": 142.52,
+   "en": "Crisps are not on the list.",
+   "i": 44,
+   "zh": "薯片不在列表中。"
+  },
+  {
+   "start": 142.521,
+   "end": 144.52,
+   "en": "We have plenty of crisps at home, Peppa.",
+   "i": 45,
+   "zh": "佩奇，我们家里有很多薯片。"
+  },
+  {
+   "start": 144.62,
+   "end": 145.62,
+   "en": "Have another guess.",
+   "i": 46,
+   "zh": "再猜一下。"
+  },
+  {
+   "start": 146.52,
+   "end": 149.52,
+   "en": "Hmm, I just can't remember.",
+   "i": 47,
+   "zh": "嗯，我就是不记得了。"
+  },
+  {
+   "start": 149.92,
+   "end": 151.52,
+   "en": "Can you remember, George?",
+   "i": 48,
+   "zh": "你还记得吗，乔治？"
+  },
+  {
+   "start": 151.521,
+   "end": 152.52,
+   "en": "Dinosaur!",
+   "i": 49,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 152.521,
+   "end": 153.521,
+   "en": "Dinosaur?",
+   "i": 50,
+   "zh": "恐龙？"
+  },
+  {
+   "start": 153.57,
+   "end": 154.57,
+   "en": "George!",
+   "i": 51,
+   "zh": "乔治！"
+  },
+  {
+   "start": 155.42,
+   "end": 158.52,
+   "en": "There aren't any dinosaurs in the supermarket.",
+   "i": 52,
+   "zh": "超市里没有恐龙。"
+  },
+  {
+   "start": 160.52,
+   "end": 162.52,
+   "en": "No, George.",
+   "i": 53,
+   "zh": "不，乔治。"
+  },
+  {
+   "start": 162.521,
+   "end": 165.52,
+   "en": "The next thing on the list is onions.",
+   "i": 54,
+   "zh": "名单上的下一个是洋葱。"
+  },
+  {
+   "start": 165.521,
+   "end": 166.521,
+   "en": "Onions!",
+   "i": 55,
+   "zh": "洋葱！"
+  },
+  {
+   "start": 166.87,
+   "end": 168.52,
+   "en": "I remember now.",
+   "i": 56,
+   "zh": "我现在想起来了。"
+  },
+  {
+   "start": 168.745,
+   "end": 170.52,
+   "en": "Here they are.",
+   "i": 57,
+   "zh": "他们在这里。"
+  },
+  {
+   "start": 171.52,
+   "end": 172.52,
+   "en": "Well done.",
+   "i": 58,
+   "zh": "干得好。"
+  },
+  {
+   "start": 173.394,
+   "end": 177.52,
+   "en": "One, two, three, four...",
+   "i": 59,
+   "zh": "一、二、三、四……"
+  },
+  {
+   "start": 179.72,
+   "end": 180.72,
+   "en": "Onions!",
+   "i": 60,
+   "zh": "洋葱！"
+  },
+  {
+   "start": 181.72,
+   "end": 182.52,
+   "en": "Very good.",
+   "i": 61,
+   "zh": "很好。"
+  },
+  {
+   "start": 182.521,
+   "end": 185.52,
+   "en": "That's nearly everything on our list.",
+   "i": 62,
+   "zh": "这几乎就是我们清单上的所有内容。"
+  },
+  {
+   "start": 185.97,
+   "end": 187.52,
+   "en": "There's one last thing on the list.",
+   "i": 63,
+   "zh": "清单上还有最后一件事。"
+  },
+  {
+   "start": 190.67,
+   "end": 192.52,
+   "en": "A plant?",
+   "i": 64,
+   "zh": "植物？"
+  },
+  {
+   "start": 192.521,
+   "end": 193.521,
+   "en": "Is that on the list?",
+   "i": 65,
+   "zh": "在名单上吗？"
+  },
+  {
+   "start": 193.92,
+   "end": 195.52,
+   "en": "Oh, no, George.",
+   "i": 66,
+   "zh": "哦，不，乔治。"
+  },
+  {
+   "start": 195.521,
+   "end": 198.52,
+   "en": "The last thing on the list is fruit.",
+   "i": 67,
+   "zh": "清单上的最后一件事是水果。"
+  },
+  {
+   "start": 198.521,
+   "end": 199.52,
+   "en": "Oh.",
+   "i": 68,
+   "zh": "哦。"
+  },
+  {
+   "start": 199.521,
+   "end": 200.52,
+   "en": "Never mind, George.",
+   "i": 69,
+   "zh": "没关系，乔治。"
+  },
+  {
+   "start": 200.521,
+   "end": 202.52,
+   "en": "You can choose the fruit.",
+   "i": 70,
+   "zh": "你可以选择水果。"
+  },
+  {
+   "start": 203.52,
+   "end": 205.52,
+   "en": "Where is the fruit?",
+   "i": 71,
+   "zh": "水果在哪里？"
+  },
+  {
+   "start": 205.521,
+   "end": 206.521,
+   "en": "Over there.",
+   "i": 72,
+   "zh": "在那儿。"
+  },
+  {
+   "start": 207.52,
+   "end": 213.52,
+   "en": "There are apples and oranges and bananas and a very big melon.",
+   "i": 73,
+   "zh": "有苹果、橙子、香蕉和一个很大的瓜。"
+  },
+  {
+   "start": 214.52,
+   "end": 216.52,
+   "en": "What fruit shall we have, George?",
+   "i": 74,
+   "zh": "我们该吃什么水果呢，乔治？"
+  },
+  {
+   "start": 216.521,
+   "end": 217.52,
+   "en": "Apples?",
+   "i": 75,
+   "zh": "苹果？"
+  },
+  {
+   "start": 217.521,
+   "end": 218.52,
+   "en": "Oranges?",
+   "i": 76,
+   "zh": "橘子？"
+  },
+  {
+   "start": 218.521,
+   "end": 219.521,
+   "en": "Bananas?",
+   "i": 77,
+   "zh": "香蕉？"
+  },
+  {
+   "start": 221.52,
+   "end": 222.52,
+   "en": "A melon!",
+   "i": 78,
+   "zh": "一个瓜！"
+  },
+  {
+   "start": 227.52,
+   "end": 231.52,
+   "en": "This is the checkout where all the food is paid for.",
+   "i": 79,
+   "zh": "这是所有食物付款的结账处。"
+  },
+  {
+   "start": 231.521,
+   "end": 233.52,
+   "en": "Tomatoes.",
+   "i": 80,
+   "zh": "西红柿。"
+  },
+  {
+   "start": 233.521,
+   "end": 235.52,
+   "en": "Spaghetti.",
+   "i": 81,
+   "zh": "意大利面条。"
+  },
+  {
+   "start": 235.521,
+   "end": 237.52,
+   "en": "Onions.",
+   "i": 82,
+   "zh": "洋葱。"
+  },
+  {
+   "start": 237.521,
+   "end": 239.52,
+   "en": "Melon.",
+   "i": 83,
+   "zh": "瓜。"
+  },
+  {
+   "start": 239.521,
+   "end": 241.52,
+   "en": "Chocolate cake.",
+   "i": 84,
+   "zh": "巧克力蛋糕。"
+  },
+  {
+   "start": 241.521,
+   "end": 243.52,
+   "en": "Chocolate cake?",
+   "i": 85,
+   "zh": "巧克力蛋糕？"
+  },
+  {
+   "start": 243.521,
+   "end": 246.52,
+   "en": "Chocolate cake? Is that on the list?",
+   "i": 86,
+   "zh": "巧克力蛋糕？名单上有这个吗？"
+  },
+  {
+   "start": 246.87,
+   "end": 250.52,
+   "en": "Peppa, did you put the chocolate cake in the trolley?",
+   "i": 87,
+   "zh": "佩奇，你把巧克力蛋糕放进手推车了吗？"
+  },
+  {
+   "start": 250.521,
+   "end": 251.521,
+   "en": "No, Mummy.",
+   "i": 88,
+   "zh": "不，妈妈。"
+  },
+  {
+   "start": 251.97,
+   "end": 254.52,
+   "en": "George, did you put the chocolate cake in the trolley?",
+   "i": 89,
+   "zh": "乔治，你把巧克力蛋糕放进手推车了吗？"
+  },
+  {
+   "start": 254.521,
+   "end": 255.52,
+   "en": "No.",
+   "i": 90,
+   "zh": "不。"
+  },
+  {
+   "start": 255.521,
+   "end": 257.519,
+   "en": "Well, I didn't put it in.",
+   "i": 91,
+   "zh": "好吧，我没有把它放进去。"
+  },
+  {
+   "start": 257.52,
+   "end": 259.519,
+   "en": "Then who did?",
+   "i": 92,
+   "zh": "那是谁干的呢？"
+  },
+  {
+   "start": 261.97,
+   "end": 263.52,
+   "en": "I thought it might be nice for pudding.",
+   "i": 93,
+   "zh": "我觉得这可能适合布丁。"
+  },
+  {
+   "start": 263.521,
+   "end": 265.52,
+   "en": "Daddy Pig.",
+   "i": 94,
+   "zh": "猪爸爸。"
+  },
+  {
+   "start": 265.521,
+   "end": 267.52,
+   "en": "Naughty Daddy.",
+   "i": 95,
+   "zh": "淘气的爸爸。"
+  },
+  {
+   "start": 267.521,
+   "end": 270.52,
+   "en": "Sorry, it just looks so delicious.",
+   "i": 96,
+   "zh": "抱歉，它看起来很好吃。"
+  },
+  {
+   "start": 270.521,
+   "end": 272.52,
+   "en": "It does look rather yummy.",
+   "i": 97,
+   "zh": "它看起来确实很好吃。"
+  },
+  {
+   "start": 272.521,
+   "end": 275.52,
+   "en": "Oh, let's pretend it was on the list.",
+   "i": 98,
+   "zh": "哦，让我们假设它在列表中。"
+  },
+  {
+   "start": 275.521,
+   "end": 277.52,
+   "en": "Chocolate cake!",
+   "i": 99,
+   "zh": "巧克力蛋糕！"
+  },
+  {
+   "start": 277.57,
+   "end": 278.57,
+   "en": "Hooray!",
+   "i": 100,
+   "zh": "好耶！"
+  },
+  {
+   "start": 286.52,
+   "end": 288.52,
+   "en": "Peppa Pig.",
+   "i": 101,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 291.52,
+   "end": 293.52,
+   "en": "Peppa Pig.",
+   "i": 102,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 295.52,
+   "end": 297.52,
+   "en": "Peppa Pig.",
+   "i": 103,
+   "zh": "小猪佩奇。"
+  }
+ ]
+}

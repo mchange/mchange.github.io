@@ -1,0 +1,652 @@
+{
+ "id": "pep24",
+ "title": "Treasure Hunt",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 5.0,
+   "end": 9.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 9.326,
+   "end": 13.0,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.001,
+   "end": 15.0,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 20.175,
+   "end": 22.0,
+   "en": "Treasure Hunt",
+   "i": 4,
+   "zh": "寻宝"
+  },
+  {
+   "start": 23.6,
+   "end": 28.0,
+   "en": "Granny Pig and Grandpa Pig are making a treasure hunt for Peppa and George.",
+   "i": 5,
+   "zh": "猪奶奶和猪爷爷正在为佩奇和乔治寻宝。"
+  },
+  {
+   "start": 28.05,
+   "end": 31.0,
+   "en": "Granny Pig is drawing the treasure map.",
+   "i": 6,
+   "zh": "猪奶奶正在画藏宝图。"
+  },
+  {
+   "start": 32.249,
+   "end": 37.0,
+   "en": "Grandpa Pig is burying the treasure in a secret place in the garden.",
+   "i": 7,
+   "zh": "猪爷爷正在花园的一个秘密地方埋藏宝藏。"
+  },
+  {
+   "start": 37.001,
+   "end": 40.0,
+   "en": "Grandpa Pig, have you finished?",
+   "i": 8,
+   "zh": "猪爷爷，你写完了吗？"
+  },
+  {
+   "start": 40.001,
+   "end": 43.0,
+   "en": "Peppa and George will be here soon.",
+   "i": 9,
+   "zh": "佩奇和乔治很快就会来。"
+  },
+  {
+   "start": 43.199,
+   "end": 47.0,
+   "en": "No need to panic, Granny Pig.",
+   "i": 10,
+   "zh": "不用惊慌，猪奶奶。"
+  },
+  {
+   "start": 47.299,
+   "end": 49.0,
+   "en": "Peppa and her family are here.",
+   "i": 11,
+   "zh": "佩奇和她的家人在这里。"
+  },
+  {
+   "start": 49.001,
+   "end": 53.0,
+   "en": "Quick, Grandpa Pig, they're here!",
+   "i": 12,
+   "zh": "快点，猪爷爷，他们来了！"
+  },
+  {
+   "start": 53.001,
+   "end": 55.0,
+   "en": "Almost done!",
+   "i": 13,
+   "zh": "快完成了！"
+  },
+  {
+   "start": 58.0,
+   "end": 61.0,
+   "en": "Grandpa Pig just finished in time.",
+   "i": 14,
+   "zh": "猪爷爷刚刚及时完成。"
+  },
+  {
+   "start": 61.849,
+   "end": 64.0,
+   "en": "Granny Pig, we're here!",
+   "i": 15,
+   "zh": "猪奶奶，我们来了！"
+  },
+  {
+   "start": 64.001,
+   "end": 65.0,
+   "en": "Granny Pig!",
+   "i": 16,
+   "zh": "猪奶奶！"
+  },
+  {
+   "start": 65.001,
+   "end": 67.0,
+   "en": "Hello, my little ones!",
+   "i": 17,
+   "zh": "哈喽，我的小宝贝们！"
+  },
+  {
+   "start": 67.001,
+   "end": 69.0,
+   "en": "Grandpa Pig!",
+   "i": 18,
+   "zh": "猪爷爷！"
+  },
+  {
+   "start": 69.001,
+   "end": 70.0,
+   "en": "Peppa Pig!",
+   "i": 19,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 70.001,
+   "end": 73.0,
+   "en": "Ahoy there, me heart is!",
+   "i": 20,
+   "zh": "嘿，我的心在！"
+  },
+  {
+   "start": 73.001,
+   "end": 77.0,
+   "en": "Peppa, George, we've made you a treasure hunt.",
+   "i": 21,
+   "zh": "佩奇，乔治，我们为你安排了一次寻宝活动。"
+  },
+  {
+   "start": 77.001,
+   "end": 81.0,
+   "en": "Somewhere in the garden is buried treasure.",
+   "i": 22,
+   "zh": "花园里的某个地方埋藏着宝藏。"
+  },
+  {
+   "start": 81.001,
+   "end": 84.0,
+   "en": "Wow, treasure!",
+   "i": 23,
+   "zh": "哇，宝藏！"
+  },
+  {
+   "start": 84.649,
+   "end": 86.0,
+   "en": "Where is it?",
+   "i": 24,
+   "zh": "在哪里？"
+  },
+  {
+   "start": 86.249,
+   "end": 89.0,
+   "en": "You have to look for it.",
+   "i": 25,
+   "zh": "你必须寻找它。"
+  },
+  {
+   "start": 89.249,
+   "end": 91.0,
+   "en": "Here's a treasure map for Peppa.",
+   "i": 26,
+   "zh": "这是佩奇的藏宝图。"
+  },
+  {
+   "start": 91.001,
+   "end": 95.0,
+   "en": "And George could wear my pirate hat.",
+   "i": 27,
+   "zh": "乔治可以戴上我的海盗帽。"
+  },
+  {
+   "start": 95.299,
+   "end": 98.0,
+   "en": "Ahoy there, Captain George!",
+   "i": 28,
+   "zh": "嘿嘿，乔治船长！"
+  },
+  {
+   "start": 100.099,
+   "end": 102.0,
+   "en": "The map is a bit difficult.",
+   "i": 29,
+   "zh": "地图有点难。"
+  },
+  {
+   "start": 102.001,
+   "end": 104.0,
+   "en": "Daddy, can you help?",
+   "i": 30,
+   "zh": "爸爸，你能帮忙吗？"
+  },
+  {
+   "start": 104.599,
+   "end": 107.0,
+   "en": "Of course, Peppa. I'm very good with maps.",
+   "i": 31,
+   "zh": "当然，佩奇。我很擅长地图。"
+  },
+  {
+   "start": 109.349,
+   "end": 111.0,
+   "en": "It is a bit difficult.",
+   "i": 32,
+   "zh": "有点困难。"
+  },
+  {
+   "start": 111.001,
+   "end": 115.0,
+   "en": "Daddy Pig, you're holding the map upside down.",
+   "i": 33,
+   "zh": "猪爸爸，你把地图拿反了。"
+  },
+  {
+   "start": 116.0,
+   "end": 118.0,
+   "en": "Yes, I thought as much.",
+   "i": 34,
+   "zh": "是的，我也是这么想的。"
+  },
+  {
+   "start": 119.199,
+   "end": 121.0,
+   "en": "It's easy.",
+   "i": 35,
+   "zh": "这很容易。"
+  },
+  {
+   "start": 121.001,
+   "end": 124.0,
+   "en": "The red cross shows where the treasure is.",
+   "i": 36,
+   "zh": "红十字表明宝藏在哪里。"
+  },
+  {
+   "start": 124.0,
+   "end": 127.0,
+   "en": "But where in the garden are those two apple trees?",
+   "i": 37,
+   "zh": "但是那两棵苹果树在花园的什么地方呢？"
+  },
+  {
+   "start": 127.0,
+   "end": 130.0,
+   "en": "Hmm, I don't know.",
+   "i": 38,
+   "zh": "嗯，我不知道。"
+  },
+  {
+   "start": 130.001,
+   "end": 131.0,
+   "en": "Would you like a clue?",
+   "i": 39,
+   "zh": "你想要线索吗？"
+  },
+  {
+   "start": 131.001,
+   "end": 133.0,
+   "en": "Yes, please.",
+   "i": 40,
+   "zh": "好的，谢谢。"
+  },
+  {
+   "start": 133.325,
+   "end": 136.0,
+   "en": "The first clue is in a bottle.",
+   "i": 41,
+   "zh": "第一条线索在一个瓶子里。"
+  },
+  {
+   "start": 136.525,
+   "end": 139.0,
+   "en": "But where is the bottle?",
+   "i": 42,
+   "zh": "但是瓶子在哪里？"
+  },
+  {
+   "start": 139.05,
+   "end": 141.0,
+   "en": "I can see it!",
+   "i": 43,
+   "zh": "我看得见！"
+  },
+  {
+   "start": 145.05,
+   "end": 147.0,
+   "en": "Peppa has found the first clue.",
+   "i": 44,
+   "zh": "佩奇找到了第一条线索。"
+  },
+  {
+   "start": 147.001,
+   "end": 149.0,
+   "en": "A message in a bottle.",
+   "i": 45,
+   "zh": "瓶中信。"
+  },
+  {
+   "start": 149.2,
+   "end": 152.0,
+   "en": "Look, everyone! Here's the bottle!",
+   "i": 46,
+   "zh": "大家看！这是瓶子！"
+  },
+  {
+   "start": 152.001,
+   "end": 154.0,
+   "en": "Well done, Peppa!",
+   "i": 47,
+   "zh": "干得好，佩奇！"
+  },
+  {
+   "start": 154.05,
+   "end": 157.0,
+   "en": "Let's see what the message says.",
+   "i": 48,
+   "zh": "让我们看看消息内容。"
+  },
+  {
+   "start": 157.25,
+   "end": 160.0,
+   "en": "It's a message from a pirate.",
+   "i": 49,
+   "zh": "这是来自海盗的消息。"
+  },
+  {
+   "start": 160.375,
+   "end": 164.0,
+   "en": "Mummy, can you read the pirate's message?",
+   "i": 50,
+   "zh": "妈妈，你能看懂盗版者的留言吗？"
+  },
+  {
+   "start": 164.2,
+   "end": 168.0,
+   "en": "Hmm, this pirate has very bad handwriting.",
+   "i": 51,
+   "zh": "嗯，这个海盗字迹很差。"
+  },
+  {
+   "start": 168.001,
+   "end": 171.0,
+   "en": "The pirate's handwriting is excellent.",
+   "i": 52,
+   "zh": "海贼的字写得很好。"
+  },
+  {
+   "start": 171.3,
+   "end": 173.0,
+   "en": "No, I can't make it out at all.",
+   "i": 53,
+   "zh": "不，我根本听不懂。"
+  },
+  {
+   "start": 173.2,
+   "end": 175.0,
+   "en": "The pirate is clearly written.",
+   "i": 54,
+   "zh": "海盗写得清清楚楚。"
+  },
+  {
+   "start": 175.1,
+   "end": 177.0,
+   "en": "Follow the arrows.",
+   "i": 55,
+   "zh": "按照箭头指示。"
+  },
+  {
+   "start": 177.1,
+   "end": 179.0,
+   "en": "Follow the arrows?",
+   "i": 56,
+   "zh": "按照箭头走？"
+  },
+  {
+   "start": 180.0,
+   "end": 182.0,
+   "en": "George has found the second clue.",
+   "i": 57,
+   "zh": "乔治找到了第二条线索。"
+  },
+  {
+   "start": 182.001,
+   "end": 184.0,
+   "en": "Sticks in the shape of an arrow.",
+   "i": 58,
+   "zh": "呈箭头形状。"
+  },
+  {
+   "start": 184.001,
+   "end": 186.0,
+   "en": "Look, they point this way!",
+   "i": 59,
+   "zh": "看，他们指着这边！"
+  },
+  {
+   "start": 187.0,
+   "end": 190.0,
+   "en": "Peppa and George are following the arrows.",
+   "i": 60,
+   "zh": "佩奇和乔治正沿着箭头走。"
+  },
+  {
+   "start": 193.0,
+   "end": 195.0,
+   "en": "Look, George, a key!",
+   "i": 61,
+   "zh": "看，乔治，一把钥匙！"
+  },
+  {
+   "start": 195.001,
+   "end": 197.0,
+   "en": "Peppa has found the next clue.",
+   "i": 62,
+   "zh": "佩奇找到了下一条线索。"
+  },
+  {
+   "start": 197.2,
+   "end": 198.2,
+   "en": "A key.",
+   "i": 63,
+   "zh": "一把钥匙。"
+  },
+  {
+   "start": 198.25,
+   "end": 200.0,
+   "en": "Well done, Peppa!",
+   "i": 64,
+   "zh": "干得好，佩奇！"
+  },
+  {
+   "start": 200.3,
+   "end": 205.0,
+   "en": "Now you just have to find the treasure chest that it unlocks.",
+   "i": 65,
+   "zh": "现在你只需要找到它解锁的宝箱即可。"
+  },
+  {
+   "start": 205.8,
+   "end": 208.0,
+   "en": "But there aren't any more clues.",
+   "i": 66,
+   "zh": "但没有更多的线索。"
+  },
+  {
+   "start": 208.25,
+   "end": 211.0,
+   "en": "Maybe you should take another look at the map.",
+   "i": 67,
+   "zh": "也许你应该再看看地图。"
+  },
+  {
+   "start": 211.2,
+   "end": 215.0,
+   "en": "Look, Peppa, the map has two apple trees on it.",
+   "i": 68,
+   "zh": "看，佩奇，地图上有两棵苹果树。"
+  },
+  {
+   "start": 216.0,
+   "end": 218.0,
+   "en": "Here's an apple tree!",
+   "i": 69,
+   "zh": "这是一棵苹果树！"
+  },
+  {
+   "start": 218.001,
+   "end": 220.0,
+   "en": "And here's an apple tree!",
+   "i": 70,
+   "zh": "这是一棵苹果树！"
+  },
+  {
+   "start": 221.0,
+   "end": 224.0,
+   "en": "So the treasure must be here!",
+   "i": 71,
+   "zh": "所以宝藏一定在这里！"
+  },
+  {
+   "start": 224.001,
+   "end": 226.0,
+   "en": "Let's take a look.",
+   "i": 72,
+   "zh": "我们来看看吧。"
+  },
+  {
+   "start": 231.5,
+   "end": 235.0,
+   "en": "Oh dear, there doesn't seem to be anything here.",
+   "i": 73,
+   "zh": "天哪，这里好像什么都没有。"
+  },
+  {
+   "start": 237.4,
+   "end": 240.0,
+   "en": "Hang on, there is something here.",
+   "i": 74,
+   "zh": "等一下，这里有东西。"
+  },
+  {
+   "start": 240.001,
+   "end": 242.0,
+   "en": "Wow, treasure!",
+   "i": 75,
+   "zh": "哇，宝藏！"
+  },
+  {
+   "start": 242.001,
+   "end": 243.0,
+   "en": "Hooray!",
+   "i": 76,
+   "zh": "好耶！"
+  },
+  {
+   "start": 243.001,
+   "end": 245.0,
+   "en": "Well done, well done!",
+   "i": 77,
+   "zh": "干得好，干得好！"
+  },
+  {
+   "start": 246.0,
+   "end": 248.0,
+   "en": "I've got the keys to open it.",
+   "i": 78,
+   "zh": "我有打开它的钥匙。"
+  },
+  {
+   "start": 250.0,
+   "end": 252.0,
+   "en": "Wow, I can't believe it!",
+   "i": 79,
+   "zh": "哇，我简直不敢相信！"
+  },
+  {
+   "start": 252.001,
+   "end": 254.0,
+   "en": "Gold coins!",
+   "i": 80,
+   "zh": "金币！"
+  },
+  {
+   "start": 254.001,
+   "end": 256.0,
+   "en": "They must be worth a fortune.",
+   "i": 81,
+   "zh": "它们一定值很多钱。"
+  },
+  {
+   "start": 256.001,
+   "end": 258.0,
+   "en": "It's better than that.",
+   "i": 82,
+   "zh": "比那更好。"
+  },
+  {
+   "start": 258.001,
+   "end": 260.0,
+   "en": "They're not gold coins.",
+   "i": 83,
+   "zh": "它们不是金币。"
+  },
+  {
+   "start": 260.45,
+   "end": 263.0,
+   "en": "They're chocolate coins.",
+   "i": 84,
+   "zh": "它们是巧克力币。"
+  },
+  {
+   "start": 263.175,
+   "end": 266.0,
+   "en": "And there's a chocolate coin for everybody.",
+   "i": 85,
+   "zh": "每个人都有一枚巧克力币。"
+  },
+  {
+   "start": 266.175,
+   "end": 267.175,
+   "en": "Hooray!",
+   "i": 86,
+   "zh": "好耶！"
+  },
+  {
+   "start": 268.0,
+   "end": 271.0,
+   "en": "Peppa and George love chocolate coins.",
+   "i": 87,
+   "zh": "佩奇和乔治喜欢巧克力硬币。"
+  },
+  {
+   "start": 271.05,
+   "end": 273.0,
+   "en": "Everyone loves chocolate coins.",
+   "i": 88,
+   "zh": "每个人都喜欢巧克力硬币。"
+  },
+  {
+   "start": 273.001,
+   "end": 278.0,
+   "en": "Granny Grandpa, this is the best treasure hunt ever.",
+   "i": 89,
+   "zh": "奶奶爷爷，这是有史以来最好的寻宝活动。"
+  },
+  {
+   "start": 288.0,
+   "end": 290.0,
+   "en": "I want to be a nurse.",
+   "i": 90,
+   "zh": "我想成为一名护士。"
+  },
+  {
+   "start": 290.45,
+   "end": 292.0,
+   "en": "I want to be a doctor.",
+   "i": 91,
+   "zh": "我想成为一名医生。"
+  },
+  {
+   "start": 292.075,
+   "end": 295.0,
+   "en": "But who's going to be the sick person?",
+   "i": 92,
+   "zh": "可是谁来当病人呢？"
+  }
+ ]
+}

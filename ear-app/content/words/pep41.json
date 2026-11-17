@@ -1,0 +1,89 @@
+{
+ "id": "pep41",
+ "words": [
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "brother",
+   "zh": "弟弟",
+   "emoji": "👦",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "lunch",
+   "zh": "午饭",
+   "emoji": "🍽️",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "everyone",
+   "zh": "大家",
+   "emoji": "👨‍👩‍👧‍👦",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "big",
+   "zh": "大的",
+   "emoji": "🐘",
+   "line": 15
+  },
+  {
+   "type": "phrase",
+   "en": "Hello, big brother.",
+   "zh": "大哥你好。",
+   "emoji": "💬",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "cousin",
+   "zh": "堂/表兄弟姐妹",
+   "emoji": "🧒",
+   "line": 16
+  },
+  {
+   "type": "word",
+   "en": "puppet",
+   "zh": "木偶",
+   "emoji": "🎭",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 32
+  },
+  {
+   "type": "word",
+   "en": "spaghetti",
+   "zh": "意大利面",
+   "emoji": "🍝",
+   "line": 44
+  },
+  {
+   "type": "phrase",
+   "en": "Best spaghetti ever.",
+   "zh": "有史以来最好的意大利面。",
+   "emoji": "💬",
+   "line": 46
+  }
+ ]
+}

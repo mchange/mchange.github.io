@@ -1,0 +1,505 @@
+{
+ "id": "pep29",
+ "title": "Pancakes",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.0,
+   "end": 6.624,
+   "en": "I'm Peppa Pig. This is my little brother",
+   "i": 1,
+   "zh": "我是佩奇。这是我的小弟弟"
+  },
+  {
+   "start": 6.648,
+   "end": 11.0,
+   "en": "George, this is Mummy Pig and this is Daddy Pig.",
+   "i": 2,
+   "zh": "乔治，这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.001,
+   "end": 15.0,
+   "en": "Peppa Pig.",
+   "i": 3,
+   "zh": "佩奇。"
+  },
+  {
+   "start": 18.925,
+   "end": 21.0,
+   "en": "Pancakes.",
+   "i": 4,
+   "zh": "煎饼。"
+  },
+  {
+   "start": 24.1,
+   "end": 28.0,
+   "en": "It is tea time and Mummy Pig has a surprise for everyone.",
+   "i": 5,
+   "zh": "下午茶时间到了，猪妈妈给大家带来了惊喜。"
+  },
+  {
+   "start": 28.15,
+   "end": 31.0,
+   "en": "Today is a day for pancakes.",
+   "i": 6,
+   "zh": "今天是煎饼日。"
+  },
+  {
+   "start": 31.001,
+   "end": 33.0,
+   "en": "Pancakes. Delicious.",
+   "i": 7,
+   "zh": "煎饼。可口的。"
+  },
+  {
+   "start": 33.9,
+   "end": 36.0,
+   "en": "I love pancakes.",
+   "i": 8,
+   "zh": "我喜欢煎饼。"
+  },
+  {
+   "start": 39.0,
+   "end": 41.0,
+   "en": "Everyone loves pancakes.",
+   "i": 9,
+   "zh": "每个人都喜欢煎饼。"
+  },
+  {
+   "start": 41.149,
+   "end": 45.0,
+   "en": "I'm the expert at flipping the pancakes over. Leave that to me.",
+   "i": 10,
+   "zh": "我是翻煎饼的专家。交给我吧。"
+  },
+  {
+   "start": 45.499,
+   "end": 47.714,
+   "en": "Are you sure, Daddy Pig? Last time you got a bit",
+   "i": 11,
+   "zh": "你确定吗，猪爸爸？上次你有一点"
+  },
+  {
+   "start": 47.738,
+   "end": 50.012,
+   "en": "grumpy when you dropped the pancake on the floor.",
+   "i": 12,
+   "zh": "当你把煎饼掉在地板上时脾气暴躁。"
+  },
+  {
+   "start": 50.013,
+   "end": 55.0,
+   "en": "I did not get grumpy. There was a problem with the frying pan.",
+   "i": 13,
+   "zh": "我没有脾气暴躁。煎锅有问题。"
+  },
+  {
+   "start": 57.025,
+   "end": 61.0,
+   "en": "Mummy, can we help make the pancakes, please?",
+   "i": 14,
+   "zh": "妈妈，我们可以帮忙做煎饼吗？"
+  },
+  {
+   "start": 62.099,
+   "end": 65.0,
+   "en": "Yes, you can help me make the batter.",
+   "i": 15,
+   "zh": "是的，你可以帮我做面糊。"
+  },
+  {
+   "start": 65.001,
+   "end": 68.0,
+   "en": "First I put some flour in the bowl.",
+   "i": 16,
+   "zh": "首先我在碗里放了一些面粉。"
+  },
+  {
+   "start": 70.149,
+   "end": 72.0,
+   "en": "Now I add an egg.",
+   "i": 17,
+   "zh": "现在我加一个鸡蛋。"
+  },
+  {
+   "start": 74.149,
+   "end": 76.0,
+   "en": "Now the milk.",
+   "i": 18,
+   "zh": "现在是牛奶。"
+  },
+  {
+   "start": 77.0,
+   "end": 79.0,
+   "en": "And I give it all a stir.",
+   "i": 19,
+   "zh": "我搅动了这一切。"
+  },
+  {
+   "start": 80.049,
+   "end": 82.0,
+   "en": "Mummy, can I stir?",
+   "i": 20,
+   "zh": "妈妈，我可以搅拌一下吗？"
+  },
+  {
+   "start": 82.099,
+   "end": 84.0,
+   "en": "Yes, of course, Peppa.",
+   "i": 21,
+   "zh": "是的，当然，佩奇。"
+  },
+  {
+   "start": 85.0,
+   "end": 87.0,
+   "en": "Peppa loves stirring.",
+   "i": 22,
+   "zh": "佩奇爱搅动。"
+  },
+  {
+   "start": 87.001,
+   "end": 89.0,
+   "en": "George wants to stir as well.",
+   "i": 23,
+   "zh": "乔治也想搅拌。"
+  },
+  {
+   "start": 91.001,
+   "end": 94.0,
+   "en": "No, George, like this.",
+   "i": 24,
+   "zh": "不，乔治，就像这样。"
+  },
+  {
+   "start": 97.001,
+   "end": 99.0,
+   "en": "OK, that's enough stirring.",
+   "i": 25,
+   "zh": "好吧，已经够激动了。"
+  },
+  {
+   "start": 99.001,
+   "end": 103.0,
+   "en": "You two sit at the table while I cook the pancakes.",
+   "i": 26,
+   "zh": "我做煎饼的时候你们两个坐在桌边。"
+  },
+  {
+   "start": 111.0,
+   "end": 114.0,
+   "en": "Mummy Pig is going to flip the pancake over.",
+   "i": 27,
+   "zh": "猪妈妈要把煎饼翻过来。"
+  },
+  {
+   "start": 114.899,
+   "end": 117.0,
+   "en": "Hooray!",
+   "i": 28,
+   "zh": "好耶！"
+  },
+  {
+   "start": 117.001,
+   "end": 120.0,
+   "en": "You could flip it higher, Mummy Pig.",
+   "i": 29,
+   "zh": "你可以把它调高一点，猪妈妈。"
+  },
+  {
+   "start": 120.001,
+   "end": 123.0,
+   "en": "You can show us how when you flip your own pancake, Daddy Pig.",
+   "i": 30,
+   "zh": "猪爸爸，你可以向我们展示你自己翻煎饼的方法。"
+  },
+  {
+   "start": 123.924,
+   "end": 126.0,
+   "en": "This first pancake is for George.",
+   "i": 31,
+   "zh": "这第一块煎饼是给乔治的。"
+  },
+  {
+   "start": 126.499,
+   "end": 129.0,
+   "en": "Mummy Pig pours a little syrup on George's pancake.",
+   "i": 32,
+   "zh": "猪妈妈在乔治的煎饼上倒了一点糖浆。"
+  },
+  {
+   "start": 132.0,
+   "end": 134.0,
+   "en": "Delicious.",
+   "i": 33,
+   "zh": "好吃。"
+  },
+  {
+   "start": 136.2,
+   "end": 138.0,
+   "en": "This pancake is for Peppa.",
+   "i": 34,
+   "zh": "这个煎饼是给佩奇的。"
+  },
+  {
+   "start": 139.1,
+   "end": 141.0,
+   "en": "Hooray!",
+   "i": 35,
+   "zh": "好耶！"
+  },
+  {
+   "start": 142.0,
+   "end": 145.0,
+   "en": "You could flip it higher, Mummy Pig.",
+   "i": 36,
+   "zh": "你可以把它翻高一点，猪妈妈。"
+  },
+  {
+   "start": 145.05,
+   "end": 149.0,
+   "en": "You will get a chance to show me when you flip your own pancake, Daddy Pig.",
+   "i": 37,
+   "zh": "猪爸爸，你自己翻煎饼的时候就有机会给我看。"
+  },
+  {
+   "start": 149.25,
+   "end": 151.0,
+   "en": "Syrup, please.",
+   "i": 38,
+   "zh": "糖浆，请。"
+  },
+  {
+   "start": 154.924,
+   "end": 157.0,
+   "en": "Mmm, delicious.",
+   "i": 39,
+   "zh": "嗯，好吃。"
+  },
+  {
+   "start": 160.0,
+   "end": 162.0,
+   "en": "This pancake is for Mummy Pig.",
+   "i": 40,
+   "zh": "这个煎饼是给猪妈妈的。"
+  },
+  {
+   "start": 162.874,
+   "end": 165.0,
+   "en": "Hooray!",
+   "i": 41,
+   "zh": "好耶！"
+  },
+  {
+   "start": 166.0,
+   "end": 169.0,
+   "en": "You still aren't flipping them high enough, Mummy Pig.",
+   "i": 42,
+   "zh": "你还是把它们弹得不够高，猪妈妈。"
+  },
+  {
+   "start": 169.15,
+   "end": 171.0,
+   "en": "The next pancake is yours, Daddy Pig.",
+   "i": 43,
+   "zh": "下一个煎饼就是你的了，猪爸爸。"
+  },
+  {
+   "start": 171.001,
+   "end": 174.0,
+   "en": "So now you can show us how it should be done.",
+   "i": 44,
+   "zh": "现在您可以向我们展示应该如何完成。"
+  },
+  {
+   "start": 177.0,
+   "end": 179.0,
+   "en": "Mmm, delicious.",
+   "i": 45,
+   "zh": "嗯，好吃。"
+  },
+  {
+   "start": 181.15,
+   "end": 183.0,
+   "en": "Is everyone watching?",
+   "i": 46,
+   "zh": "大家都在看吗？"
+  },
+  {
+   "start": 185.0,
+   "end": 190.0,
+   "en": "The secret of making a good pancake is to flip it high into the air.",
+   "i": 47,
+   "zh": "做好煎饼的秘诀就是把它高高地翻转到空中。"
+  },
+  {
+   "start": 191.225,
+   "end": 196.0,
+   "en": "A-one, two, three, whoop-la!",
+   "i": 48,
+   "zh": "一、二、三，哎哟！"
+  },
+  {
+   "start": 200.0,
+   "end": 202.0,
+   "en": "Silly Daddy.",
+   "i": 49,
+   "zh": "傻爸爸。"
+  },
+  {
+   "start": 202.45,
+   "end": 205.0,
+   "en": "Oh, maybe that was just a bit too high.",
+   "i": 50,
+   "zh": "哦，也许这有点太高了。"
+  },
+  {
+   "start": 205.001,
+   "end": 208.0,
+   "en": "Oh, what a shame. That was the last pancake.",
+   "i": 51,
+   "zh": "噢，真可惜。那是最后一块煎饼。"
+  },
+  {
+   "start": 208.375,
+   "end": 211.0,
+   "en": "It should be a simple matter to get it down.",
+   "i": 52,
+   "zh": "记下来应该是一件简单的事情。"
+  },
+  {
+   "start": 213.874,
+   "end": 217.0,
+   "en": "Oh dear, Daddy Pig cannot reach his pancake.",
+   "i": 53,
+   "zh": "天啊，猪爸爸够不到他的煎饼了。"
+  },
+  {
+   "start": 217.001,
+   "end": 220.0,
+   "en": "Don't worry, Daddy Pig. I think I know a way to get it down.",
+   "i": 54,
+   "zh": "别担心，猪爸爸。我想我知道有办法把它放下来。"
+  },
+  {
+   "start": 220.3,
+   "end": 222.0,
+   "en": "Let's go upstairs, children.",
+   "i": 55,
+   "zh": "孩子们，我们上楼吧。"
+  },
+  {
+   "start": 224.0,
+   "end": 226.0,
+   "en": "This way.",
+   "i": 56,
+   "zh": "这边走。"
+  },
+  {
+   "start": 226.001,
+   "end": 229.0,
+   "en": "What is Mummy Pig planning to do?",
+   "i": 57,
+   "zh": "猪妈妈打算做什么？"
+  },
+  {
+   "start": 229.001,
+   "end": 233.0,
+   "en": "On the count of three, we all have to start jumping up and down.",
+   "i": 58,
+   "zh": "数到三，我们都得开始上蹿下跳。"
+  },
+  {
+   "start": 233.001,
+   "end": 236.0,
+   "en": "One, two, three, jump!",
+   "i": 59,
+   "zh": "一二三，跳！"
+  },
+  {
+   "start": 241.0,
+   "end": 243.0,
+   "en": "What are they doing?",
+   "i": 60,
+   "zh": "他们在做什么？"
+  },
+  {
+   "start": 252.15,
+   "end": 255.0,
+   "en": "It worked. Now Daddy Pig has his pancake.",
+   "i": 61,
+   "zh": "成功了。现在猪爸爸有他的煎饼了。"
+  },
+  {
+   "start": 255.001,
+   "end": 257.0,
+   "en": "Daddy has a pancake on his head.",
+   "i": 62,
+   "zh": "爸爸头上顶着一块煎饼。"
+  },
+  {
+   "start": 257.001,
+   "end": 259.0,
+   "en": "Oh!",
+   "i": 63,
+   "zh": "哦！"
+  },
+  {
+   "start": 260.05,
+   "end": 262.0,
+   "en": "Syrup on your pancake, Daddy Pig?",
+   "i": 64,
+   "zh": "你的煎饼上有糖浆吗，猪爸爸？"
+  },
+  {
+   "start": 262.25,
+   "end": 264.0,
+   "en": "Yes, please.",
+   "i": 65,
+   "zh": "好的，谢谢。"
+  },
+  {
+   "start": 267.4,
+   "end": 272.0,
+   "en": "One, two, three, whoop-la!",
+   "i": 66,
+   "zh": "一、二、三，哎哟！"
+  },
+  {
+   "start": 275.875,
+   "end": 278.0,
+   "en": "Delicious.",
+   "i": 67,
+   "zh": "好吃。"
+  },
+  {
+   "start": 280.0,
+   "end": 282.0,
+   "en": "Silly Daddy.",
+   "i": 68,
+   "zh": "傻爸爸。"
+  },
+  {
+   "start": 288.0,
+   "end": 290.0,
+   "en": "I want to be a nurse.",
+   "i": 69,
+   "zh": "我想成为一名护士。"
+  },
+  {
+   "start": 290.45,
+   "end": 293.0,
+   "en": "I want to be a doctor.",
+   "i": 70,
+   "zh": "我想成为一名医生。"
+  },
+  {
+   "start": 293.001,
+   "end": 296.0,
+   "en": "But who's going to be the sick person?",
+   "i": 71,
+   "zh": "可是谁来当病人呢？"
+  }
+ ]
+}

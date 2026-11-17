@@ -1,0 +1,596 @@
+{
+ "id": "pep21",
+ "title": "Mummy Pig's Birthday",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 5.0,
+   "end": 8.624,
+   "en": "I'm Peppa Pig, this is my little brother",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟"
+  },
+  {
+   "start": 8.648,
+   "end": 13.0,
+   "en": "George, this is Mummy Pig and this is Daddy Pig.",
+   "i": 2,
+   "zh": "乔治，这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.001,
+   "end": 15.0,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 19.849,
+   "end": 26.0,
+   "en": "Mummy Pig's Birthday Today is Mummy Pig's birthday.",
+   "i": 4,
+   "zh": "猪妈妈的生日。今天是猪妈妈的生日。"
+  },
+  {
+   "start": 26.001,
+   "end": 29.0,
+   "en": "Daddy Pig has made Mummy Pig breakfast in bed.",
+   "i": 5,
+   "zh": "猪爸爸已经在床上给猪妈妈做了早餐了。"
+  },
+  {
+   "start": 29.25,
+   "end": 32.0,
+   "en": "Happy Birthday Mummy Pig!",
+   "i": 6,
+   "zh": "猪妈妈生日快乐！"
+  },
+  {
+   "start": 32.099,
+   "end": 35.0,
+   "en": "Peppa and George have made Mummy Pig a birthday card.",
+   "i": 7,
+   "zh": "佩奇和乔治给猪妈妈做了一张生日贺卡。"
+  },
+  {
+   "start": 35.05,
+   "end": 37.0,
+   "en": "Happy Birthday Mummy!",
+   "i": 8,
+   "zh": "妈妈生日快乐！"
+  },
+  {
+   "start": 37.05,
+   "end": 41.0,
+   "en": "Oh, what a lovely birthday surprise.",
+   "i": 9,
+   "zh": "噢，多么可爱的生日惊喜啊。"
+  },
+  {
+   "start": 41.001,
+   "end": 46.0,
+   "en": "And there are more surprises to come. Enjoy your birthday breakfast, take your time.",
+   "i": 10,
+   "zh": "还有更多惊喜。享受你的生日早餐，慢慢来。"
+  },
+  {
+   "start": 49.0,
+   "end": 51.0,
+   "en": "Mmm, yummy!",
+   "i": 11,
+   "zh": "嗯，好吃！"
+  },
+  {
+   "start": 51.001,
+   "end": 54.0,
+   "en": "Quick, we have to get everything else ready.",
+   "i": 12,
+   "zh": "快点，我们得把一切都准备好。"
+  },
+  {
+   "start": 54.749,
+   "end": 57.0,
+   "en": "Daddy Pig has made a birthday cake for Mummy Pig.",
+   "i": 13,
+   "zh": "猪爸爸给猪妈妈做了生日蛋糕。"
+  },
+  {
+   "start": 57.001,
+   "end": 60.0,
+   "en": "We've just got to put the candles on.",
+   "i": 14,
+   "zh": "我们必须点上蜡烛。"
+  },
+  {
+   "start": 60.001,
+   "end": 63.0,
+   "en": "One, two.",
+   "i": 15,
+   "zh": "一，二。"
+  },
+  {
+   "start": 63.05,
+   "end": 67.0,
+   "en": "Here I come. Mummy Pig has finished her birthday breakfast.",
+   "i": 16,
+   "zh": "我来了。猪妈妈已经吃完了生日早餐。"
+  },
+  {
+   "start": 67.399,
+   "end": 69.0,
+   "en": "Mummy's coming.",
+   "i": 17,
+   "zh": "妈妈来了。"
+  },
+  {
+   "start": 69.001,
+   "end": 71.0,
+   "en": "Oh no, we're not ready yet.",
+   "i": 18,
+   "zh": "哦不，我们还没准备好。"
+  },
+  {
+   "start": 71.374,
+   "end": 74.0,
+   "en": "Who is it?",
+   "i": 19,
+   "zh": "是谁？"
+  },
+  {
+   "start": 74.249,
+   "end": 76.0,
+   "en": "It's Mummy, can I come in?",
+   "i": 20,
+   "zh": "是妈妈，我可以进来吗？"
+  },
+  {
+   "start": 76.199,
+   "end": 78.0,
+   "en": "No, no!",
+   "i": 21,
+   "zh": "不，不！"
+  },
+  {
+   "start": 78.001,
+   "end": 80.0,
+   "en": "Is there something secret going on?",
+   "i": 22,
+   "zh": "有什么秘密吗？"
+  },
+  {
+   "start": 80.001,
+   "end": 82.0,
+   "en": "No, nothing's going on.",
+   "i": 23,
+   "zh": "不，什么也没发生。"
+  },
+  {
+   "start": 82.0,
+   "end": 84.0,
+   "en": "But you can't come in.",
+   "i": 24,
+   "zh": "但你不能进来。"
+  },
+  {
+   "start": 84.149,
+   "end": 86.0,
+   "en": "I see.",
+   "i": 25,
+   "zh": "我明白了。"
+  },
+  {
+   "start": 86.449,
+   "end": 89.0,
+   "en": "Peppa Pig, why don't you relax in the sitting room?",
+   "i": 26,
+   "zh": "佩奇，你去客厅休息一下吧？"
+  },
+  {
+   "start": 89.001,
+   "end": 91.0,
+   "en": "That sounds nice.",
+   "i": 27,
+   "zh": "听起来不错。"
+  },
+  {
+   "start": 91.001,
+   "end": 93.0,
+   "en": "Well it is your birthday.",
+   "i": 28,
+   "zh": "嗯，今天是你的生日。"
+  },
+  {
+   "start": 93.001,
+   "end": 96.0,
+   "en": "OK Peppa, I think I know what the sitting room is.",
+   "i": 29,
+   "zh": "好的佩奇，我想我知道客厅是什么了。"
+  },
+  {
+   "start": 96.001,
+   "end": 99.0,
+   "en": "Here's a nice magazine.",
+   "i": 30,
+   "zh": "这是一本不错的杂志。"
+  },
+  {
+   "start": 99.001,
+   "end": 101.0,
+   "en": "Thank you Peppa.",
+   "i": 31,
+   "zh": "谢谢佩奇。"
+  },
+  {
+   "start": 101.001,
+   "end": 103.0,
+   "en": "And here's some pretty music.",
+   "i": 32,
+   "zh": "这里有一些美妙的音乐。"
+  },
+  {
+   "start": 103.001,
+   "end": 105.0,
+   "en": "Thank you Peppa.",
+   "i": 33,
+   "zh": "谢谢佩奇。"
+  },
+  {
+   "start": 107.774,
+   "end": 112.0,
+   "en": "We need the same number of candles as Mummy's age.",
+   "i": 34,
+   "zh": "我们需要与妈妈年龄相同数量的蜡烛。"
+  },
+  {
+   "start": 112.149,
+   "end": 115.0,
+   "en": "One, two, three.",
+   "i": 35,
+   "zh": "一、二、三。"
+  },
+  {
+   "start": 115.001,
+   "end": 118.0,
+   "en": "Here, we haven't got nearly enough candles.",
+   "i": 36,
+   "zh": "在这里，我们的蜡烛还不够。"
+  },
+  {
+   "start": 118.001,
+   "end": 121.0,
+   "en": "Daddy, how old is Mummy?",
+   "i": 37,
+   "zh": "爸爸，妈妈几岁了？"
+  },
+  {
+   "start": 121.001,
+   "end": 125.0,
+   "en": "I'll whisper it in your ear.",
+   "i": 38,
+   "zh": "我会在你耳边低语。"
+  },
+  {
+   "start": 125.001,
+   "end": 129.0,
+   "en": "Wow, really old.",
+   "i": 39,
+   "zh": "哇，真的老了。"
+  },
+  {
+   "start": 129.001,
+   "end": 132.0,
+   "en": "You know, I think three candles will be fine.",
+   "i": 40,
+   "zh": "你知道，我想三支蜡烛就可以了。"
+  },
+  {
+   "start": 132.001,
+   "end": 135.0,
+   "en": "Mummy Pig's birthday cake is ready.",
+   "i": 41,
+   "zh": "猪妈妈的生日蛋糕准备好了。"
+  },
+  {
+   "start": 135.001,
+   "end": 137.0,
+   "en": "Hooray!",
+   "i": 42,
+   "zh": "好耶！"
+  },
+  {
+   "start": 137.001,
+   "end": 140.0,
+   "en": "We just have to put up the decorations in the sitting room.",
+   "i": 43,
+   "zh": "我们只需要把客厅的装饰品摆好就可以了。"
+  },
+  {
+   "start": 142.824,
+   "end": 145.0,
+   "en": "Hello Mummy.",
+   "i": 44,
+   "zh": "妈妈你好。"
+  },
+  {
+   "start": 145.001,
+   "end": 148.0,
+   "en": "Oh there you all are. I was getting a little bored.",
+   "i": 45,
+   "zh": "哦，你们都在。我有点无聊了。"
+  },
+  {
+   "start": 148.001,
+   "end": 152.0,
+   "en": "Mummy, would you like to have a nice walk in the garden?",
+   "i": 46,
+   "zh": "妈妈，你想在花园里散步吗？"
+  },
+  {
+   "start": 152.001,
+   "end": 154.0,
+   "en": "Do I have any choice?",
+   "i": 47,
+   "zh": "我有什么选择吗？"
+  },
+  {
+   "start": 154.001,
+   "end": 156.0,
+   "en": "Nope.",
+   "i": 48,
+   "zh": "不。"
+  },
+  {
+   "start": 156.001,
+   "end": 159.0,
+   "en": "Bye bye Mummy, have a lovely walk.",
+   "i": 49,
+   "zh": "再见妈妈，祝你散步愉快。"
+  },
+  {
+   "start": 159.001,
+   "end": 162.0,
+   "en": "We'll call you when it's safe to come back in.",
+   "i": 50,
+   "zh": "当可以安全返回时我们会给您打电话。"
+  },
+  {
+   "start": 162.2,
+   "end": 166.0,
+   "en": "I've forgotten what hard work birthdays were.",
+   "i": 51,
+   "zh": "我已经忘记生日是多么辛苦了。"
+  },
+  {
+   "start": 166.001,
+   "end": 170.0,
+   "en": "Daddy Pig, Peppa and George are decorating the sitting room.",
+   "i": 52,
+   "zh": "猪爸爸、佩奇和乔治正在装饰客厅。"
+  },
+  {
+   "start": 174.0,
+   "end": 176.0,
+   "en": "This is fun!",
+   "i": 53,
+   "zh": "这很有趣！"
+  },
+  {
+   "start": 178.225,
+   "end": 182.0,
+   "en": "Granny Pig and Grandpa Pig have arrived for Mummy Pig's birthday.",
+   "i": 54,
+   "zh": "猪奶奶和猪爷爷来给猪妈妈过生日了。"
+  },
+  {
+   "start": 182.001,
+   "end": 185.0,
+   "en": "Happy birthday Mummy Pig.",
+   "i": 55,
+   "zh": "猪妈妈生日快乐。"
+  },
+  {
+   "start": 185.1,
+   "end": 187.0,
+   "en": "Aren't you coming inside?",
+   "i": 56,
+   "zh": "你不进来吗？"
+  },
+  {
+   "start": 187.001,
+   "end": 189.0,
+   "en": "Oh I can't come in yet.",
+   "i": 57,
+   "zh": "哦，我还不能进来。"
+  },
+  {
+   "start": 189.001,
+   "end": 192.0,
+   "en": "Daddy Pig, Peppa and George are doing secret things for my birthday.",
+   "i": 58,
+   "zh": "猪爸爸、佩奇和乔治正在为我的生日做一些秘密的事情。"
+  },
+  {
+   "start": 192.001,
+   "end": 194.0,
+   "en": "How lovely.",
+   "i": 59,
+   "zh": "多可爱啊。"
+  },
+  {
+   "start": 194.001,
+   "end": 195.0,
+   "en": "See you later.",
+   "i": 60,
+   "zh": "回头见。"
+  },
+  {
+   "start": 195.001,
+   "end": 197.0,
+   "en": "Bye.",
+   "i": 61,
+   "zh": "再见。"
+  },
+  {
+   "start": 200.15,
+   "end": 204.0,
+   "en": "Mummy, would you like to come inside now?",
+   "i": 62,
+   "zh": "妈妈，你现在想进来吗？"
+  },
+  {
+   "start": 204.001,
+   "end": 206.0,
+   "en": "I'd love to.",
+   "i": 63,
+   "zh": "我很乐意。"
+  },
+  {
+   "start": 206.001,
+   "end": 208.0,
+   "en": "Close your eyes.",
+   "i": 64,
+   "zh": "闭上眼睛。"
+  },
+  {
+   "start": 210.95,
+   "end": 213.0,
+   "en": "Keep your eyes closed Mummy.",
+   "i": 65,
+   "zh": "妈妈，闭上眼睛。"
+  },
+  {
+   "start": 215.6,
+   "end": 219.0,
+   "en": "One, two, three, open your eyes.",
+   "i": 66,
+   "zh": "一二三，睁开眼睛。"
+  },
+  {
+   "start": 219.001,
+   "end": 222.0,
+   "en": "Happy birthday Mummy Pig.",
+   "i": 67,
+   "zh": "猪妈妈生日快乐。"
+  },
+  {
+   "start": 224.0,
+   "end": 226.0,
+   "en": "What a lovely surprise.",
+   "i": 68,
+   "zh": "真是一个可爱的惊喜。"
+  },
+  {
+   "start": 226.001,
+   "end": 230.0,
+   "en": "Blow the candles out and make a wish.",
+   "i": 69,
+   "zh": "吹灭蜡烛并许愿。"
+  },
+  {
+   "start": 231.125,
+   "end": 235.0,
+   "en": "Mummy Mummy, open your present. Can you guess what it is?",
+   "i": 70,
+   "zh": "妈妈妈妈，打开你的礼物。你能猜出那是什么吗？"
+  },
+  {
+   "start": 235.3,
+   "end": 237.0,
+   "en": "I've no idea.",
+   "i": 71,
+   "zh": "我不知道。"
+  },
+  {
+   "start": 237.001,
+   "end": 239.0,
+   "en": "Open it and see.",
+   "i": 72,
+   "zh": "打开看看。"
+  },
+  {
+   "start": 242.0,
+   "end": 245.0,
+   "en": "It's a beautiful dress.",
+   "i": 73,
+   "zh": "这是一件漂亮的衣服。"
+  },
+  {
+   "start": 248.6,
+   "end": 251.0,
+   "en": "You're beautiful Mummy.",
+   "i": 74,
+   "zh": "你是美丽的妈妈。"
+  },
+  {
+   "start": 251.1,
+   "end": 254.0,
+   "en": "Now you just need somewhere nice to wear it.",
+   "i": 75,
+   "zh": "现在你只需要一个合适的地方来佩戴它。"
+  },
+  {
+   "start": 254.5,
+   "end": 256.0,
+   "en": "What's this?",
+   "i": 76,
+   "zh": "这是什么？"
+  },
+  {
+   "start": 256.001,
+   "end": 259.0,
+   "en": "Two tickets to the theatre, tonight.",
+   "i": 77,
+   "zh": "两张今晚剧院的票。"
+  },
+  {
+   "start": 259.65,
+   "end": 261.0,
+   "en": "Thank you.",
+   "i": 78,
+   "zh": "谢谢。"
+  },
+  {
+   "start": 261.25,
+   "end": 263.0,
+   "en": "Mummy Pig loves going to the theatre.",
+   "i": 79,
+   "zh": "猪妈妈喜欢看戏。"
+  },
+  {
+   "start": 263.45,
+   "end": 268.0,
+   "en": "And Granny Pig and I are going to babysit the little ones.",
+   "i": 80,
+   "zh": "我和猪奶奶要照顾小孩子们。"
+  },
+  {
+   "start": 268.001,
+   "end": 270.0,
+   "en": "Hooray!",
+   "i": 81,
+   "zh": "好耶！"
+  },
+  {
+   "start": 270.001,
+   "end": 275.0,
+   "en": "What a super birthday. I'm the luckiest mummy in the whole world.",
+   "i": 82,
+   "zh": "真是一个超级棒的生日。我是全世界最幸运的妈妈。"
+  },
+  {
+   "start": 275.001,
+   "end": 278.0,
+   "en": "And the most beautiful.",
+   "i": 83,
+   "zh": "最美丽的。"
+  },
+  {
+   "start": 285.0,
+   "end": 290.0,
+   "en": "Thanks for watching. Please like, share and subscribe.",
+   "i": 84,
+   "zh": "感谢您的观看。请喜欢、分享和订阅。"
+  }
+ ]
+}

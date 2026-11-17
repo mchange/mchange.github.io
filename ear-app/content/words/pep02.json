@@ -3,87 +3,87 @@
  "words": [
   {
    "type": "word",
-   "en": "seeds",
-   "zh": "种子",
-   "emoji": "🌱",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "throw",
+   "zh": "扔",
+   "emoji": "🤾",
    "line": 17
   },
   {
    "type": "word",
-   "en": "grow",
-   "zh": "生长",
-   "emoji": "🌿",
-   "line": 18
-  },
-  {
-   "type": "word",
-   "en": "hole",
-   "zh": "小坑",
-   "emoji": "🕳️",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
    "line": 19
   },
   {
    "type": "word",
-   "en": "earth",
-   "zh": "泥土",
-   "emoji": "🟫",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 19
+  },
+  {
+   "type": "phrase",
+   "en": "I win Daddy!",
+   "zh": "我赢了爸爸！",
+   "emoji": "💬",
    "line": 20
+  },
+  {
+   "type": "word",
+   "en": "lost",
+   "zh": "丢了",
+   "emoji": "😢",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "find",
+   "zh": "找到",
+   "emoji": "🔍",
+   "line": 27
   },
   {
    "type": "word",
    "en": "garden",
    "zh": "花园",
    "emoji": "🌷",
-   "line": 21
-  },
-  {
-   "type": "word",
-   "en": "apple",
-   "zh": "苹果",
-   "emoji": "🍎",
-   "line": 22
-  },
-  {
-   "type": "word",
-   "en": "strawberry",
-   "zh": "草莓",
-   "emoji": "🍓",
-   "line": 37
-  },
-  {
-   "type": "phrase",
-   "en": "Shall I water it for you?",
-   "zh": "要我帮你浇水吗？",
-   "emoji": "🚿",
-   "line": 40
-  },
-  {
-   "type": "word",
-   "en": "patient",
-   "zh": "有耐心的",
-   "emoji": "⏳",
    "line": 48
   },
   {
    "type": "phrase",
-   "en": "Don't worry, Peppa.",
-   "zh": "别担心，佩奇。",
-   "emoji": "🤗",
-   "line": 53
+   "en": "Yes, the garden.",
+   "zh": "是的，花园。",
+   "emoji": "💬",
+   "line": 49
   },
   {
    "type": "word",
-   "en": "carrot",
-   "zh": "胡萝卜",
-   "emoji": "🥕",
-   "line": 78
+   "en": "happy",
+   "zh": "开心的",
+   "emoji": "😊",
+   "line": 59
   },
   {
    "type": "word",
-   "en": "dinosaur",
-   "zh": "恐龙",
-   "emoji": "🦕",
-   "line": 83
+   "en": "tree",
+   "zh": "树",
+   "emoji": "🌳",
+   "line": 60
   }
  ]
 }

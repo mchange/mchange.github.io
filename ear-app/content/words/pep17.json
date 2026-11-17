@@ -1,0 +1,89 @@
+{
+ "id": "pep17",
+ "words": [
+  {
+   "type": "word",
+   "en": "butterfly",
+   "zh": "蝴蝶",
+   "emoji": "🦋",
+   "line": 6
+  },
+  {
+   "type": "phrase",
+   "en": "What a beautiful butterfly!",
+   "zh": "多么美丽的蝴蝶啊！",
+   "emoji": "💬",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "flower",
+   "zh": "花",
+   "emoji": "🌸",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 20
+  },
+  {
+   "type": "word",
+   "en": "worm",
+   "zh": "虫子",
+   "emoji": "🐛",
+   "line": 23
+  },
+  {
+   "type": "phrase",
+   "en": "That was fun.",
+   "zh": "很有趣。",
+   "emoji": "💬",
+   "line": 42
+  },
+  {
+   "type": "word",
+   "en": "frog",
+   "zh": "青蛙",
+   "emoji": "🐸",
+   "line": 45
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "puddle",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 51
+  }
+ ]
+}

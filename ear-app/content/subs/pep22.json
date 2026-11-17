@@ -1,0 +1,470 @@
+{
+ "id": "pep22",
+ "title": "The Tooth Fairy",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 5.0,
+   "end": 9.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 9.326,
+   "end": 13.0,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.001,
+   "end": 15.0,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 19.825,
+   "end": 22.0,
+   "en": "The Tooth Fairy",
+   "i": 4,
+   "zh": "牙仙子"
+  },
+  {
+   "start": 27.0,
+   "end": 31.0,
+   "en": "Peppa and George are having their favourite food, spaghetti.",
+   "i": 5,
+   "zh": "佩奇和乔治正在吃他们最喜欢的食物，意大利面。"
+  },
+  {
+   "start": 36.099,
+   "end": 38.0,
+   "en": "What a lot of noise!",
+   "i": 6,
+   "zh": "噪音太大了！"
+  },
+  {
+   "start": 39.099,
+   "end": 41.0,
+   "en": "Finished!",
+   "i": 7,
+   "zh": "完成了！"
+  },
+  {
+   "start": 41.875,
+   "end": 44.0,
+   "en": "Ah, now we'll have a bit of quiet.",
+   "i": 8,
+   "zh": "啊，现在我们安静一下。"
+  },
+  {
+   "start": 49.399,
+   "end": 51.0,
+   "en": "What's that?",
+   "i": 9,
+   "zh": "那是什么？"
+  },
+  {
+   "start": 51.001,
+   "end": 52.0,
+   "en": "It's a tooth.",
+   "i": 10,
+   "zh": "这是一颗牙齿。"
+  },
+  {
+   "start": 52.001,
+   "end": 54.0,
+   "en": "Where did that come from?",
+   "i": 11,
+   "zh": "这是从哪里来的？"
+  },
+  {
+   "start": 55.0,
+   "end": 58.0,
+   "en": "Peppa, maybe you should look in the mirror.",
+   "i": 12,
+   "zh": "佩奇，也许你应该照照镜子。"
+  },
+  {
+   "start": 64.599,
+   "end": 66.0,
+   "en": "It's my tooth.",
+   "i": 13,
+   "zh": "这是我的牙齿。"
+  },
+  {
+   "start": 66.299,
+   "end": 68.0,
+   "en": "It's fallen out.",
+   "i": 14,
+   "zh": "掉下来了。"
+  },
+  {
+   "start": 68.001,
+   "end": 71.0,
+   "en": "Don't worry Peppa, it's just a milk tooth.",
+   "i": 15,
+   "zh": "别担心佩奇，这只是一颗乳牙。"
+  },
+  {
+   "start": 71.001,
+   "end": 73.0,
+   "en": "They're meant to fall out.",
+   "i": 16,
+   "zh": "他们注定要闹翻。"
+  },
+  {
+   "start": 73.099,
+   "end": 75.0,
+   "en": "Will I grow a new one Mummy?",
+   "i": 17,
+   "zh": "我会长出一个新妈妈吗？"
+  },
+  {
+   "start": 75.0,
+   "end": 77.0,
+   "en": "Yes you will Peppa.",
+   "i": 18,
+   "zh": "是的，你会佩奇。"
+  },
+  {
+   "start": 77.199,
+   "end": 80.0,
+   "en": "It also means the Tooth Fairy will be paying you a visit.",
+   "i": 19,
+   "zh": "也代表牙仙子要来拜访你了。"
+  },
+  {
+   "start": 80.001,
+   "end": 82.0,
+   "en": "Tooth Fairy?",
+   "i": 20,
+   "zh": "牙仙子？"
+  },
+  {
+   "start": 82.249,
+   "end": 84.0,
+   "en": "Yes the Tooth Fairy.",
+   "i": 21,
+   "zh": "是的牙仙子。"
+  },
+  {
+   "start": 84.0,
+   "end": 89.0,
+   "en": "If you put the tooth under your pillow tonight, the Tooth Fairy will come.",
+   "i": 22,
+   "zh": "如果你今晚把牙齿放在枕头下，牙仙子就会来。"
+  },
+  {
+   "start": 94.424,
+   "end": 100.0,
+   "en": "The Tooth Fairy will take the tooth and in its place she will leave a shiny coin.",
+   "i": 23,
+   "zh": "牙仙子会拿走牙齿，并在其位置上留下一枚闪亮的硬币。"
+  },
+  {
+   "start": 103.049,
+   "end": 106.0,
+   "en": "When I grow up I want to be a Tooth Fairy.",
+   "i": 24,
+   "zh": "长大后我想成为牙仙子。"
+  },
+  {
+   "start": 107.199,
+   "end": 110.0,
+   "en": "And what would you like to be when you grow up George?",
+   "i": 25,
+   "zh": "乔治，你长大后想做什么？"
+  },
+  {
+   "start": 110.001,
+   "end": 112.0,
+   "en": "I'm sure.",
+   "i": 26,
+   "zh": "我确定。"
+  },
+  {
+   "start": 113.0,
+   "end": 115.0,
+   "en": "A dinosaur.",
+   "i": 27,
+   "zh": "一只恐龙。"
+  },
+  {
+   "start": 116.174,
+   "end": 118.0,
+   "en": "Quick George, it's bedtime.",
+   "i": 28,
+   "zh": "快点乔治，该睡觉了。"
+  },
+  {
+   "start": 118.001,
+   "end": 121.0,
+   "en": "We don't want to miss the Tooth Fairy.",
+   "i": 29,
+   "zh": "我们不想错过牙仙子。"
+  },
+  {
+   "start": 122.0,
+   "end": 126.0,
+   "en": "Before going to bed, Peppa and George brush their teeth.",
+   "i": 30,
+   "zh": "睡觉前，佩奇和乔治刷牙。"
+  },
+  {
+   "start": 127.199,
+   "end": 129.0,
+   "en": "Peppa, what are you doing?",
+   "i": 31,
+   "zh": "佩奇，你在做什么？"
+  },
+  {
+   "start": 129.001,
+   "end": 134.0,
+   "en": "I'm brushing my tooth so it's nice and clean for the Tooth Fairy.",
+   "i": 32,
+   "zh": "我正在刷牙，这样对牙仙子来说又干净又漂亮。"
+  },
+  {
+   "start": 136.0,
+   "end": 139.0,
+   "en": "Peppa cannot wait to get into bed.",
+   "i": 33,
+   "zh": "佩奇迫不及待地想上床睡觉。"
+  },
+  {
+   "start": 139.001,
+   "end": 142.0,
+   "en": "Peppa is putting her tooth under the pillow for the Tooth Fairy.",
+   "i": 34,
+   "zh": "佩奇正在把牙齿放在枕头下给牙仙子。"
+  },
+  {
+   "start": 143.0,
+   "end": 145.0,
+   "en": "Good night Peppa and George.",
+   "i": 35,
+   "zh": "晚安佩奇和乔治。"
+  },
+  {
+   "start": 148.1,
+   "end": 150.0,
+   "en": "Good night Mummy.",
+   "i": 36,
+   "zh": "晚安妈妈。"
+  },
+  {
+   "start": 150.001,
+   "end": 152.0,
+   "en": "Good night Daddy.",
+   "i": 37,
+   "zh": "晚安爸爸。"
+  },
+  {
+   "start": 152.001,
+   "end": 154.0,
+   "en": "Good night my little piggies.",
+   "i": 38,
+   "zh": "晚安，我的小猪们。"
+  },
+  {
+   "start": 159.1,
+   "end": 161.0,
+   "en": "George, I'm not going to sleep.",
+   "i": 39,
+   "zh": "乔治，我不会睡觉。"
+  },
+  {
+   "start": 161.15,
+   "end": 165.0,
+   "en": "Let's both stay awake all night and see the Tooth Fairy.",
+   "i": 40,
+   "zh": "让我们一起彻夜不眠看看牙仙子吧。"
+  },
+  {
+   "start": 173.15,
+   "end": 175.0,
+   "en": "This Tooth Fairy is very late.",
+   "i": 41,
+   "zh": "这个牙仙子来得太晚了。"
+  },
+  {
+   "start": 178.05,
+   "end": 181.0,
+   "en": "The Tooth Fairy is taking a long time to arrive.",
+   "i": 42,
+   "zh": "牙仙子要等很长时间才能到达。"
+  },
+  {
+   "start": 182.05,
+   "end": 184.0,
+   "en": "Where is that Tooth Fairy?",
+   "i": 43,
+   "zh": "那个牙仙子在哪里？"
+  },
+  {
+   "start": 186.5,
+   "end": 189.0,
+   "en": "What is that noise? Is it the Tooth Fairy?",
+   "i": 44,
+   "zh": "那是什么噪音？是牙仙子吗？"
+  },
+  {
+   "start": 189.001,
+   "end": 192.0,
+   "en": "George? Can you hear something?",
+   "i": 45,
+   "zh": "乔治？你能听到什么吗？"
+  },
+  {
+   "start": 193.849,
+   "end": 196.0,
+   "en": "Oh George.",
+   "i": 46,
+   "zh": "哦乔治。"
+  },
+  {
+   "start": 196.1,
+   "end": 201.0,
+   "en": "Oh the noise is George. He was so tired he has fallen asleep.",
+   "i": 47,
+   "zh": "哦，噪音是乔治。他太累了，已经睡着了。"
+  },
+  {
+   "start": 202.6,
+   "end": 206.0,
+   "en": "George is not very good at staying awake.",
+   "i": 48,
+   "zh": "乔治不太擅长保持清醒。"
+  },
+  {
+   "start": 206.25,
+   "end": 211.0,
+   "en": "But I am. I'm going to stay awake and see the Tooth Fairy.",
+   "i": 49,
+   "zh": "但我是。我要保持清醒去看看牙仙子。"
+  },
+  {
+   "start": 212.35,
+   "end": 215.0,
+   "en": "But I'm not going to sleep.",
+   "i": 50,
+   "zh": "但我不会睡觉。"
+  },
+  {
+   "start": 220.0,
+   "end": 222.0,
+   "en": "The Tooth Fairy has arrived.",
+   "i": 51,
+   "zh": "牙仙子来了。"
+  },
+  {
+   "start": 224.0,
+   "end": 226.0,
+   "en": "But Peppa is asleep.",
+   "i": 52,
+   "zh": "但是佩奇睡着了。"
+  },
+  {
+   "start": 226.05,
+   "end": 230.0,
+   "en": "Hello Peppa. Would you like this coin in return for your tooth?",
+   "i": 53,
+   "zh": "佩奇你好。你想要用这枚硬币来换取你的牙齿吗？"
+  },
+  {
+   "start": 233.45,
+   "end": 239.0,
+   "en": "What a nice clean tooth. Thank you Peppa. Good night.",
+   "i": 54,
+   "zh": "多么干净的牙齿啊。谢谢佩奇。晚安。"
+  },
+  {
+   "start": 246.425,
+   "end": 249.0,
+   "en": "Peppa, George, wake up. It's morning.",
+   "i": 55,
+   "zh": "佩奇，乔治，醒醒。现在是早上。"
+  },
+  {
+   "start": 249.001,
+   "end": 252.0,
+   "en": "What? I wasn't asleep.",
+   "i": 56,
+   "zh": "什么？我没有睡着。"
+  },
+  {
+   "start": 252.45,
+   "end": 254.0,
+   "en": "Did the Tooth Fairy come?",
+   "i": 57,
+   "zh": "牙仙子来了吗？"
+  },
+  {
+   "start": 254.001,
+   "end": 256.0,
+   "en": "No.",
+   "i": 58,
+   "zh": "不。"
+  },
+  {
+   "start": 256.25,
+   "end": 258.0,
+   "en": "Let's take a look under your pillow.",
+   "i": 59,
+   "zh": "让我们看看你的枕头底下。"
+  },
+  {
+   "start": 259.7,
+   "end": 265.0,
+   "en": "Look Peppa. The Tooth Fairy has been and she's left you a coin.",
+   "i": 60,
+   "zh": "看佩奇。牙仙子已经来了，她给你留了一枚硬币。"
+  },
+  {
+   "start": 265.025,
+   "end": 267.0,
+   "en": "Hooray!",
+   "i": 61,
+   "zh": "好耶！"
+  },
+  {
+   "start": 269.125,
+   "end": 271.0,
+   "en": "You fell asleep, didn't you?",
+   "i": 62,
+   "zh": "你睡着了，不是吗？"
+  },
+  {
+   "start": 271.001,
+   "end": 274.0,
+   "en": "Well, maybe I fell asleep just for a little bit.",
+   "i": 63,
+   "zh": "好吧，也许我只是睡了一会儿。"
+  },
+  {
+   "start": 274.15,
+   "end": 280.0,
+   "en": "Next time I will stay awake and I will see the Tooth Fairy.",
+   "i": 64,
+   "zh": "下次我会保持清醒，我会看到牙仙子。"
+  },
+  {
+   "start": 285.0,
+   "end": 289.0,
+   "en": "George, I'll pick up the sticks and you can carry them.",
+   "i": 65,
+   "zh": "乔治，我把棍子捡起来，你拿着。"
+  },
+  {
+   "start": 292.0,
+   "end": 294.0,
+   "en": "Collecting sticks is fun.",
+   "i": 66,
+   "zh": "收集棍子很有趣。"
+  }
+ ]
+}

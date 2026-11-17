@@ -1,0 +1,533 @@
+{
+ "id": "pep10",
+ "title": "Gardening",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 4.0,
+   "end": 8.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 8.326,
+   "end": 12.012,
+   "en": "this is Mummy Pig, and this is Daddy Pig!",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸！"
+  },
+  {
+   "start": 13.0,
+   "end": 15.0,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "Gardening!",
+   "i": 4,
+   "zh": "园艺！"
+  },
+  {
+   "start": 23.0,
+   "end": 27.0,
+   "en": "Peppa and George are playing at Granny Pig and Grandpa Pig's house.",
+   "i": 5,
+   "zh": "佩奇和乔治在猪奶奶和猪爷爷家玩。"
+  },
+  {
+   "start": 30.0,
+   "end": 32.0,
+   "en": "Grandpa, catch!",
+   "i": 6,
+   "zh": "爷爷，接住！"
+  },
+  {
+   "start": 33.0,
+   "end": 35.0,
+   "en": "Catch!",
+   "i": 7,
+   "zh": "抓住！"
+  },
+  {
+   "start": 36.0,
+   "end": 38.0,
+   "en": "What's this?",
+   "i": 8,
+   "zh": "这是什么？"
+  },
+  {
+   "start": 38.099,
+   "end": 40.0,
+   "en": "Dinosaur!",
+   "i": 9,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 41.0,
+   "end": 43.0,
+   "en": "A dinosaur?",
+   "i": 10,
+   "zh": "恐龙？"
+  },
+  {
+   "start": 44.099,
+   "end": 46.0,
+   "en": "Grandpa, what are you doing?",
+   "i": 11,
+   "zh": "爷爷，你在做什么？"
+  },
+  {
+   "start": 46.001,
+   "end": 49.0,
+   "en": "I'm planting these seeds.",
+   "i": 12,
+   "zh": "我正在播下这些种子。"
+  },
+  {
+   "start": 49.001,
+   "end": 52.0,
+   "en": "Seeds? What do seeds do?",
+   "i": 13,
+   "zh": "种子？种子有什么作用？"
+  },
+  {
+   "start": 52.249,
+   "end": 55.0,
+   "en": "Seeds grow into plants.",
+   "i": 14,
+   "zh": "种子长成植物。"
+  },
+  {
+   "start": 55.001,
+   "end": 60.0,
+   "en": "I just make a little hole and put the seed in.",
+   "i": 15,
+   "zh": "我只是挖一个小洞，然后把种子放进去。"
+  },
+  {
+   "start": 60.001,
+   "end": 64.0,
+   "en": "Then I cover it with earth and water it.",
+   "i": 16,
+   "zh": "然后我用土覆盖它并浇水。"
+  },
+  {
+   "start": 64.001,
+   "end": 70.0,
+   "en": "Everything in my garden grows from tiny seeds like these.",
+   "i": 17,
+   "zh": "我花园里的一切都是从这样的微小种子中生长出来的。"
+  },
+  {
+   "start": 70.001,
+   "end": 72.0,
+   "en": "Even the big apple tree?",
+   "i": 18,
+   "zh": "即使是大苹果树？"
+  },
+  {
+   "start": 72.699,
+   "end": 74.0,
+   "en": "Oh yes!",
+   "i": 19,
+   "zh": "哦，是的！"
+  },
+  {
+   "start": 74.001,
+   "end": 80.0,
+   "en": "This tiny seed will grow into a little apple tree, like this.",
+   "i": 20,
+   "zh": "这颗小小的种子会长成一棵小苹果树，就像这样。"
+  },
+  {
+   "start": 80.001,
+   "end": 82.0,
+   "en": "Oooh!",
+   "i": 21,
+   "zh": "噢！"
+  },
+  {
+   "start": 82.099,
+   "end": 89.0,
+   "en": "And that little apple tree will grow into a big apple tree, like this.",
+   "i": 22,
+   "zh": "那棵小苹果树会长成一棵大苹果树，就像这样。"
+  },
+  {
+   "start": 90.0,
+   "end": 92.0,
+   "en": "Ouch!",
+   "i": 23,
+   "zh": "哎呀！"
+  },
+  {
+   "start": 98.0,
+   "end": 102.0,
+   "en": "And inside this apple are more seeds.",
+   "i": 24,
+   "zh": "这个苹果里面还有更多的种子。"
+  },
+  {
+   "start": 102.349,
+   "end": 105.0,
+   "en": "To make more apple trees!",
+   "i": 25,
+   "zh": "为了种植更多的苹果树！"
+  },
+  {
+   "start": 105.001,
+   "end": 107.0,
+   "en": "Exactly!",
+   "i": 26,
+   "zh": "正是如此！"
+  },
+  {
+   "start": 107.001,
+   "end": 109.0,
+   "en": "Grandpa! Grandpa!",
+   "i": 27,
+   "zh": "爷爷！爷爷！"
+  },
+  {
+   "start": 109.001,
+   "end": 112.0,
+   "en": "I want to plant a seed.",
+   "i": 28,
+   "zh": "我想种下一颗种子。"
+  },
+  {
+   "start": 112.174,
+   "end": 115.0,
+   "en": "Would you like to plant a strawberry seed?",
+   "i": 29,
+   "zh": "你想种草莓种子吗？"
+  },
+  {
+   "start": 115.001,
+   "end": 117.0,
+   "en": "Yes, please.",
+   "i": 30,
+   "zh": "好的，谢谢。"
+  },
+  {
+   "start": 117.599,
+   "end": 122.0,
+   "en": "This seed will grow into a lovely strawberry plant.",
+   "i": 31,
+   "zh": "这颗种子会长成一棵可爱的草莓植物。"
+  },
+  {
+   "start": 122.299,
+   "end": 125.0,
+   "en": "First, make a little hole.",
+   "i": 32,
+   "zh": "首先，打一个小洞。"
+  },
+  {
+   "start": 125.001,
+   "end": 130.0,
+   "en": "Then I put the seed in and cover it with earth.",
+   "i": 33,
+   "zh": "然后我把种子放进去，并用土覆盖它。"
+  },
+  {
+   "start": 130.001,
+   "end": 133.0,
+   "en": "Shall I water it for you?",
+   "i": 34,
+   "zh": "要我给你浇水吗？"
+  },
+  {
+   "start": 133.001,
+   "end": 136.0,
+   "en": "No, no. I want to water it.",
+   "i": 35,
+   "zh": "不，不。我想给它浇水。"
+  },
+  {
+   "start": 137.0,
+   "end": 142.0,
+   "en": "Good. Now we wait for it to grow.",
+   "i": 36,
+   "zh": "好。现在我们等待它成长。"
+  },
+  {
+   "start": 145.0,
+   "end": 148.0,
+   "en": "Peppa and George are waiting for the seed to grow.",
+   "i": 37,
+   "zh": "佩奇和乔治正在等待种子发芽。"
+  },
+  {
+   "start": 148.3,
+   "end": 151.0,
+   "en": "It's not doing anything.",
+   "i": 38,
+   "zh": "它什么也没做。"
+  },
+  {
+   "start": 151.35,
+   "end": 155.0,
+   "en": "You'll have to be patient, Peppa.",
+   "i": 39,
+   "zh": "你必须要有耐心，佩奇。"
+  },
+  {
+   "start": 155.25,
+   "end": 158.0,
+   "en": "It will take a long time to grow.",
+   "i": 40,
+   "zh": "需要很长时间才能成长。"
+  },
+  {
+   "start": 158.3,
+   "end": 161.0,
+   "en": "Peppa! George! It's time to go home!",
+   "i": 41,
+   "zh": "佩奇！乔治！是时候回家了！"
+  },
+  {
+   "start": 161.25,
+   "end": 164.0,
+   "en": "But we're waiting for my strawberry plant to grow.",
+   "i": 42,
+   "zh": "但我们正在等待我的草莓植物生长。"
+  },
+  {
+   "start": 164.55,
+   "end": 167.0,
+   "en": "I want a strawberry for tea.",
+   "i": 43,
+   "zh": "我想要一个草莓当茶。"
+  },
+  {
+   "start": 167.001,
+   "end": 170.0,
+   "en": "Don't worry, Peppa.",
+   "i": 44,
+   "zh": "别担心，佩奇。"
+  },
+  {
+   "start": 170.001,
+   "end": 174.0,
+   "en": "Next time you come, the seed will have grown into a plant.",
+   "i": 45,
+   "zh": "下次你来的时候，种子已经长成植物了。"
+  },
+  {
+   "start": 174.001,
+   "end": 177.0,
+   "en": "I will have strawberries!",
+   "i": 46,
+   "zh": "我要草莓！"
+  },
+  {
+   "start": 177.001,
+   "end": 179.0,
+   "en": "Yes!",
+   "i": 47,
+   "zh": "是的！"
+  },
+  {
+   "start": 179.25,
+   "end": 181.0,
+   "en": "Come on, Peppa.",
+   "i": 48,
+   "zh": "加油，佩奇。"
+  },
+  {
+   "start": 181.275,
+   "end": 183.0,
+   "en": "Bye-bye, Grandpa.",
+   "i": 49,
+   "zh": "再见，爷爷。"
+  },
+  {
+   "start": 183.125,
+   "end": 185.0,
+   "en": "Bye-bye, strawberry.",
+   "i": 50,
+   "zh": "再见，草莓。"
+  },
+  {
+   "start": 192.0,
+   "end": 196.0,
+   "en": "Grandpa Pig looks after Peppa's strawberry plant.",
+   "i": 51,
+   "zh": "猪爷爷照顾佩奇的草莓园。"
+  },
+  {
+   "start": 196.001,
+   "end": 200.0,
+   "en": "After many days, Grandpa Pig finds a tiny plant growing.",
+   "i": 52,
+   "zh": "过了很多天，猪爷爷发现一棵小植物在生长。"
+  },
+  {
+   "start": 200.001,
+   "end": 204.0,
+   "en": "Day by day, the plant grows bigger and bigger.",
+   "i": 53,
+   "zh": "一天天过去，植物越长越大。"
+  },
+  {
+   "start": 204.05,
+   "end": 208.0,
+   "en": "Then one day, Grandpa Pig finds something very special.",
+   "i": 54,
+   "zh": "然后有一天，猪爷爷发现了一些非常特别的东西。"
+  },
+  {
+   "start": 208.001,
+   "end": 211.0,
+   "en": "Strawberries!",
+   "i": 55,
+   "zh": "草莓！"
+  },
+  {
+   "start": 211.001,
+   "end": 214.0,
+   "en": "Grandpa, we're back!",
+   "i": 56,
+   "zh": "爷爷，我们回来了！"
+  },
+  {
+   "start": 214.1,
+   "end": 216.0,
+   "en": "Peppa and George have come to play again.",
+   "i": 57,
+   "zh": "佩奇和乔治又来玩了。"
+  },
+  {
+   "start": 216.45,
+   "end": 219.0,
+   "en": "Grandpa! Grandpa! Did my plant grow?",
+   "i": 58,
+   "zh": "爷爷！爷爷！我的植物长大了吗？"
+  },
+  {
+   "start": 219.15,
+   "end": 221.0,
+   "en": "Yes! Look!",
+   "i": 59,
+   "zh": "是的！看！"
+  },
+  {
+   "start": 221.125,
+   "end": 224.0,
+   "en": "Strawberries!",
+   "i": 60,
+   "zh": "草莓！"
+  },
+  {
+   "start": 226.0,
+   "end": 228.0,
+   "en": "Thank you, Grandpa.",
+   "i": 61,
+   "zh": "谢谢爷爷。"
+  },
+  {
+   "start": 231.924,
+   "end": 235.0,
+   "en": "Grandpa, can we plant something else?",
+   "i": 62,
+   "zh": "爷爷，我们可以种点别的吗？"
+  },
+  {
+   "start": 236.0,
+   "end": 240.0,
+   "en": "Yes. Now it's George's turn to choose.",
+   "i": 63,
+   "zh": "是的。现在轮到乔治做出选择了。"
+  },
+  {
+   "start": 240.3,
+   "end": 243.0,
+   "en": "Yes, you choose, George.",
+   "i": 64,
+   "zh": "是的，你选择，乔治。"
+  },
+  {
+   "start": 243.001,
+   "end": 245.0,
+   "en": "Choose a carrot.",
+   "i": 65,
+   "zh": "选择一根胡萝卜。"
+  },
+  {
+   "start": 245.65,
+   "end": 249.0,
+   "en": "Grandpa, I think George wants to grow a carrot.",
+   "i": 66,
+   "zh": "爷爷，我想乔治想种胡萝卜。"
+  },
+  {
+   "start": 249.001,
+   "end": 253.0,
+   "en": "George, would you like to grow a carrot?",
+   "i": 67,
+   "zh": "乔治，你想种胡萝卜吗？"
+  },
+  {
+   "start": 253.75,
+   "end": 255.0,
+   "en": "No.",
+   "i": 68,
+   "zh": "不。"
+  },
+  {
+   "start": 255.35,
+   "end": 258.0,
+   "en": "What would you like to grow?",
+   "i": 69,
+   "zh": "你想种什么？"
+  },
+  {
+   "start": 258.05,
+   "end": 262.0,
+   "en": "George has thought of something he wants to grow.",
+   "i": 70,
+   "zh": "乔治想到了他想要种植的东西。"
+  },
+  {
+   "start": 264.35,
+   "end": 267.0,
+   "en": "Dinosaur!",
+   "i": 71,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 267.25,
+   "end": 270.0,
+   "en": "George wants to grow a dinosaur tree.",
+   "i": 72,
+   "zh": "乔治想要种一棵恐龙树。"
+  },
+  {
+   "start": 270.001,
+   "end": 273.0,
+   "en": "Silly George.",
+   "i": 73,
+   "zh": "傻乔治。"
+  },
+  {
+   "start": 273.1,
+   "end": 276.0,
+   "en": "Dinosaurs don't grow trees.",
+   "i": 74,
+   "zh": "恐龙不长树。"
+  },
+  {
+   "start": 280.0,
+   "end": 283.0,
+   "en": "Dinosaur!",
+   "i": 75,
+   "zh": "恐龙！"
+  }
+ ]
+}

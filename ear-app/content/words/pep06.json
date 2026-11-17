@@ -1,0 +1,89 @@
+{
+ "id": "pep06",
+ "words": [
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "playgroup",
+   "zh": "幼儿园",
+   "emoji": "🏫",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "big",
+   "zh": "大的",
+   "emoji": "🐘",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "children",
+   "zh": "孩子们",
+   "emoji": "🧒",
+   "line": 13
+  },
+  {
+   "type": "phrase",
+   "en": "He'll be fine.",
+   "zh": "他会没事的。",
+   "emoji": "💬",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "brother",
+   "zh": "弟弟",
+   "emoji": "👦",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "paint",
+   "zh": "涂色",
+   "emoji": "🎨",
+   "line": 41
+  },
+  {
+   "type": "word",
+   "en": "picture",
+   "zh": "画",
+   "emoji": "🖼️",
+   "line": 41
+  },
+  {
+   "type": "word",
+   "en": "flower",
+   "zh": "花",
+   "emoji": "🌸",
+   "line": 45
+  },
+  {
+   "type": "phrase",
+   "en": "Yes, I am.",
+   "zh": "是的，我是。",
+   "emoji": "💬",
+   "line": 64
+  }
+ ]
+}

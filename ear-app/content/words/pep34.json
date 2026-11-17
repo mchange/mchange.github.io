@@ -1,0 +1,33 @@
+{
+ "id": "pep34",
+ "words": [
+  {
+   "type": "word",
+   "en": "grandpa",
+   "zh": "爷爷",
+   "emoji": "👴",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "lunch",
+   "zh": "午饭",
+   "emoji": "🍽️",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Grandpa Pig and Grandpa Pig's house for lunch.",
+   "zh": "猪爷爷和猪爷爷家里吃午饭。",
+   "emoji": "💬",
+   "line": 62
+  }
+ ]
+}

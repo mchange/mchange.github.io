@@ -1,0 +1,421 @@
+{
+ "id": "pep30",
+ "title": "Babysitting",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.0,
+   "end": 7.302,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 7.326,
+   "end": 11.0,
+   "en": "This is Mummy Pig. And this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。"
+  },
+  {
+   "start": 11.001,
+   "end": 14.0,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 19.0,
+   "end": 21.0,
+   "en": "Babysitting",
+   "i": 4,
+   "zh": "保姆"
+  },
+  {
+   "start": 24.0,
+   "end": 27.0,
+   "en": "Mummy Pig and Daddy Pig are going out for the evening.",
+   "i": 5,
+   "zh": "猪妈妈和猪爸爸晚上要出去玩。"
+  },
+  {
+   "start": 27.525,
+   "end": 30.0,
+   "en": "Granny Pig and Grandpa Pig are going to babysit.",
+   "i": 6,
+   "zh": "猪奶奶和猪爷爷要去照顾孩子了。"
+  },
+  {
+   "start": 30.3,
+   "end": 35.0,
+   "en": "Granny Pig! Grandpa Pig! Granny Igg! Papa Igg!",
+   "i": 7,
+   "zh": "猪奶奶！猪爷爷！哇哦！伊格爸爸！"
+  },
+  {
+   "start": 35.001,
+   "end": 39.0,
+   "en": "Hello my little ones! Hello!",
+   "i": 8,
+   "zh": "哈喽，我的小宝贝们！你好！"
+  },
+  {
+   "start": 39.001,
+   "end": 42.0,
+   "en": "Peppa, George, into your beds, quick!",
+   "i": 9,
+   "zh": "佩奇，乔治，到你的床上去，快点！"
+  },
+  {
+   "start": 44.0,
+   "end": 46.0,
+   "en": "Goodnight my little piggies.",
+   "i": 10,
+   "zh": "晚安我的小猪们。"
+  },
+  {
+   "start": 46.001,
+   "end": 48.0,
+   "en": "Goodnight, sleep tight.",
+   "i": 11,
+   "zh": "晚安，睡个好觉。"
+  },
+  {
+   "start": 48.399,
+   "end": 51.0,
+   "en": "Goodnight Mummy. Goodnight Daddy.",
+   "i": 12,
+   "zh": "晚安妈妈。爸爸晚安。"
+  },
+  {
+   "start": 52.099,
+   "end": 54.0,
+   "en": "What little darlings!",
+   "i": 13,
+   "zh": "多么可爱的小宝贝啊！"
+  },
+  {
+   "start": 54.975,
+   "end": 57.0,
+   "en": "Now go to sleep quickly.",
+   "i": 14,
+   "zh": "现在赶紧去睡觉吧。"
+  },
+  {
+   "start": 57.001,
+   "end": 58.001,
+   "en": "Yes Mummy.",
+   "i": 15,
+   "zh": "是的妈妈。"
+  },
+  {
+   "start": 58.199,
+   "end": 60.0,
+   "en": "So well behaved.",
+   "i": 16,
+   "zh": "表现得很好。"
+  },
+  {
+   "start": 62.95,
+   "end": 66.0,
+   "en": "Mummy Pig and Daddy Pig are leaving for their evening out.",
+   "i": 17,
+   "zh": "猪妈妈和猪爸爸要出去玩了。"
+  },
+  {
+   "start": 77.0,
+   "end": 83.0,
+   "en": "Peppa and George are so good. They just fell asleep when Mummy Pig told them to.",
+   "i": 18,
+   "zh": "佩奇和乔治太好了。当猪妈妈叫他们睡的时候，他们就睡着了。"
+  },
+  {
+   "start": 83.099,
+   "end": 86.0,
+   "en": "This babysitting is easy.",
+   "i": 19,
+   "zh": "这个保姆很容易。"
+  },
+  {
+   "start": 89.699,
+   "end": 93.0,
+   "en": "George? George? Are you awake?",
+   "i": 20,
+   "zh": "乔治？乔治？你醒了吗？"
+  },
+  {
+   "start": 112.0,
+   "end": 114.0,
+   "en": "What strange noises.",
+   "i": 21,
+   "zh": "多么奇怪的声音。"
+  },
+  {
+   "start": 114.899,
+   "end": 118.0,
+   "en": "I wonder if we should check upstairs.",
+   "i": 22,
+   "zh": "我想知道我们是否应该去楼上检查一下。"
+  },
+  {
+   "start": 126.0,
+   "end": 130.0,
+   "en": "Peppa! George! Are you awake?",
+   "i": 23,
+   "zh": "佩奇！乔治！你醒了吗？"
+  },
+  {
+   "start": 134.874,
+   "end": 138.0,
+   "en": "Well I never. Fast asleep.",
+   "i": 24,
+   "zh": "好吧，我从来没有。睡得很快。"
+  },
+  {
+   "start": 138.15,
+   "end": 143.0,
+   "en": "So, it wasn't Peppa and George making all that noise.",
+   "i": 25,
+   "zh": "所以，发出这些噪音的并不是佩奇和乔治。"
+  },
+  {
+   "start": 150.4,
+   "end": 152.0,
+   "en": "I can't hear anything.",
+   "i": 26,
+   "zh": "我什么也听不到。"
+  },
+  {
+   "start": 152.001,
+   "end": 155.0,
+   "en": "I think they really have fallen asleep.",
+   "i": 27,
+   "zh": "我想他们真的睡着了。"
+  },
+  {
+   "start": 155.924,
+   "end": 158.0,
+   "en": "Let's watch some television.",
+   "i": 28,
+   "zh": "我们看电视吧。"
+  },
+  {
+   "start": 159.325,
+   "end": 163.0,
+   "en": "Gardening. Today we are talking about roses.",
+   "i": 29,
+   "zh": "园艺。今天我们要说的是玫瑰。"
+  },
+  {
+   "start": 163.001,
+   "end": 166.0,
+   "en": "Oh, I love gardening programmes.",
+   "i": 30,
+   "zh": "哦，我喜欢园艺节目。"
+  },
+  {
+   "start": 167.874,
+   "end": 171.0,
+   "en": "The kiff skate is a particularly thorny rose.",
+   "i": 31,
+   "zh": "这种玫瑰的刺特别多。"
+  },
+  {
+   "start": 172.1,
+   "end": 178.0,
+   "en": "To prune it, start by lopping off the head and then snip away the budding shoots.",
+   "i": 32,
+   "zh": "要修剪它，首先要砍掉头部，然后剪掉萌芽的芽。"
+  },
+  {
+   "start": 179.0,
+   "end": 180.0,
+   "en": "Granny Pig?",
+   "i": 33,
+   "zh": "猪奶奶？"
+  },
+  {
+   "start": 180.05,
+   "end": 184.0,
+   "en": "Peppa? George? You should be in bed asleep.",
+   "i": 34,
+   "zh": "佩奇？乔治？你应该在床上睡觉。"
+  },
+  {
+   "start": 184.001,
+   "end": 188.0,
+   "en": "George and I aren't sleepy at all. Can we watch TV with you?",
+   "i": 35,
+   "zh": "乔治和我一点也不困。我们可以和你一起看电视吗？"
+  },
+  {
+   "start": 188.001,
+   "end": 193.0,
+   "en": "Well, I suppose watching a little TV might make you sleepy.",
+   "i": 36,
+   "zh": "嗯，我想看一点电视可能会让你昏昏欲睡。"
+  },
+  {
+   "start": 193.001,
+   "end": 195.0,
+   "en": "Hooray!",
+   "i": 37,
+   "zh": "好耶！"
+  },
+  {
+   "start": 196.0,
+   "end": 201.0,
+   "en": "Icelandic roses are a rare treat for the discerning horticulturalist.",
+   "i": 38,
+   "zh": "冰岛玫瑰对于挑剔的园艺家来说是一种难得的享受。"
+  },
+  {
+   "start": 201.001,
+   "end": 204.0,
+   "en": "But they are prone to lobbing in severed habitats.",
+   "i": 39,
+   "zh": "但它们很容易在被切断的栖息地中投掷。"
+  },
+  {
+   "start": 205.45,
+   "end": 208.0,
+   "en": "This programme is very boring.",
+   "i": 40,
+   "zh": "这个节目很无聊。"
+  },
+  {
+   "start": 209.0,
+   "end": 214.0,
+   "en": "Grandpa Pig, can you play that game where you throw us up and catch us?",
+   "i": 41,
+   "zh": "猪爷爷，你能玩那个把我们扔起来然后接住我们的游戏吗？"
+  },
+  {
+   "start": 214.001,
+   "end": 217.0,
+   "en": "Okay, but just one turn each.",
+   "i": 42,
+   "zh": "好的，但每人只转一圈。"
+  },
+  {
+   "start": 221.0,
+   "end": 223.0,
+   "en": "You seem heavier than before.",
+   "i": 43,
+   "zh": "你看起来比以前更重了。"
+  },
+  {
+   "start": 225.0,
+   "end": 227.0,
+   "en": "Now it's George's turn.",
+   "i": 44,
+   "zh": "现在轮到乔治了。"
+  },
+  {
+   "start": 230.0,
+   "end": 231.0,
+   "en": "My turn!",
+   "i": 45,
+   "zh": "轮到我了！"
+  },
+  {
+   "start": 234.0,
+   "end": 235.0,
+   "en": "Higher, higher!",
+   "i": 46,
+   "zh": "更高，更高！"
+  },
+  {
+   "start": 236.0,
+   "end": 239.0,
+   "en": "Maybe Grandpa Pig is a bit tired.",
+   "i": 47,
+   "zh": "猪爷爷可能有点累了。"
+  },
+  {
+   "start": 239.824,
+   "end": 241.0,
+   "en": "I know!",
+   "i": 48,
+   "zh": "我知道！"
+  },
+  {
+   "start": 241.025,
+   "end": 243.0,
+   "en": "Granny Pig, let's play catch.",
+   "i": 49,
+   "zh": "猪奶奶，我们来玩接球吧。"
+  },
+  {
+   "start": 245.05,
+   "end": 247.0,
+   "en": "You're it! Catch us if you can!",
+   "i": 50,
+   "zh": "就是你了！如果可以的话，请抓住我们！"
+  },
+  {
+   "start": 250.0,
+   "end": 252.0,
+   "en": "I'm going to catch you!",
+   "i": 51,
+   "zh": "我要抓住你了！"
+  },
+  {
+   "start": 261.0,
+   "end": 263.0,
+   "en": "Lummy Pig and Daddy Pig are back home.",
+   "i": 52,
+   "zh": "猪妈妈和猪爸爸回家了。"
+  },
+  {
+   "start": 263.2,
+   "end": 266.0,
+   "en": "I hope our little piggies are asleep.",
+   "i": 53,
+   "zh": "我希望我们的小猪都睡着了。"
+  },
+  {
+   "start": 267.875,
+   "end": 270.0,
+   "en": "Hello? Anyone here?",
+   "i": 54,
+   "zh": "你好？这里有人吗？"
+  },
+  {
+   "start": 274.0,
+   "end": 278.0,
+   "en": "The little piggies are asleep and so are the big piggies.",
+   "i": 55,
+   "zh": "小猪睡着了，大猪也睡了。"
+  },
+  {
+   "start": 285.0,
+   "end": 286.0,
+   "en": "Hello Polly.",
+   "i": 56,
+   "zh": "你好波莉。"
+  },
+  {
+   "start": 286.001,
+   "end": 288.0,
+   "en": "Hello Polly!",
+   "i": 57,
+   "zh": "你好波莉！"
+  },
+  {
+   "start": 288.001,
+   "end": 290.0,
+   "en": "What a sweet little parrot.",
+   "i": 58,
+   "zh": "多可爱的小鹦鹉啊。"
+  },
+  {
+   "start": 290.001,
+   "end": 292.0,
+   "en": "What a sweet little parrot!",
+   "i": 59,
+   "zh": "好可爱的小鹦鹉啊！"
+  }
+ ]
+}

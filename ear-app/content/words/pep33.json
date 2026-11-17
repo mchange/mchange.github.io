@@ -1,0 +1,89 @@
+{
+ "id": "pep33",
+ "words": [
+  {
+   "type": "word",
+   "en": "read",
+   "zh": "读",
+   "emoji": "📖",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "ready",
+   "zh": "准备好了",
+   "emoji": "🏁",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "car",
+   "zh": "汽车",
+   "emoji": "🚗",
+   "line": 8
+  },
+  {
+   "type": "phrase",
+   "en": "Naughty, messy Daddy!",
+   "zh": "淘气、乱七八糟的爸爸！",
+   "emoji": "💬",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "wash",
+   "zh": "洗",
+   "emoji": "🧼",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "water",
+   "zh": "水",
+   "emoji": "💧",
+   "line": 23
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 29
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 29
+  },
+  {
+   "type": "phrase",
+   "en": "Where's the water?",
+   "zh": "水在哪里？",
+   "emoji": "💬",
+   "line": 39
+  }
+ ]
+}

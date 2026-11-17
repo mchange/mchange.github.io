@@ -1,0 +1,456 @@
+{
+ "id": "pep08",
+ "title": "Piggy in the Middle",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.4,
+   "end": 7.702,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.726,
+   "end": 11.4,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.401,
+   "end": 14.6,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 20.65,
+   "end": 22.6,
+   "en": "Piggie in the middle!",
+   "i": 4,
+   "zh": "小猪在中间！"
+  },
+  {
+   "start": 28.6,
+   "end": 31.6,
+   "en": "George is playing with his ball in the garden.",
+   "i": 5,
+   "zh": "乔治正在花园里玩他的球。"
+  },
+  {
+   "start": 39.6,
+   "end": 41.6,
+   "en": "Peppa wants to play too.",
+   "i": 6,
+   "zh": "佩奇也想玩。"
+  },
+  {
+   "start": 41.874,
+   "end": 44.6,
+   "en": "George, you're doing it all wrong!",
+   "i": 7,
+   "zh": "乔治，你完全错了！"
+  },
+  {
+   "start": 47.6,
+   "end": 49.6,
+   "en": "This is how to catch a ball.",
+   "i": 8,
+   "zh": "这就是接球的方法。"
+  },
+  {
+   "start": 54.849,
+   "end": 56.6,
+   "en": "Not like this.",
+   "i": 9,
+   "zh": "不是这样的。"
+  },
+  {
+   "start": 59.6,
+   "end": 61.6,
+   "en": "That's what you do.",
+   "i": 10,
+   "zh": "这就是你所做的。"
+  },
+  {
+   "start": 61.601,
+   "end": 64.599,
+   "en": "What a cheeky little one Peppa is!",
+   "i": 11,
+   "zh": "佩奇真是个厚脸皮的小家伙！"
+  },
+  {
+   "start": 66.6,
+   "end": 69.6,
+   "en": "George, come back you little piggies!",
+   "i": 12,
+   "zh": "乔治，回来吧，小猪们！"
+  },
+  {
+   "start": 89.5,
+   "end": 93.6,
+   "en": "Maybe Peppa is teasing George just a bit too much.",
+   "i": 13,
+   "zh": "也许佩奇戏弄乔治有点太多了。"
+  },
+  {
+   "start": 95.249,
+   "end": 97.6,
+   "en": "Peppa, have you been teasing George?",
+   "i": 14,
+   "zh": "佩奇，你是不是在捉弄乔治？"
+  },
+  {
+   "start": 97.601,
+   "end": 101.6,
+   "en": "Not really Mummy, I was teaching him how to catch.",
+   "i": 15,
+   "zh": "不是妈妈，我在教他如何抓。"
+  },
+  {
+   "start": 101.849,
+   "end": 105.6,
+   "en": "Really? Oh, well I know a game that will teach George how to catch.",
+   "i": 16,
+   "zh": "真的吗？哦，我知道有一个游戏可以教乔治如何接球。"
+  },
+  {
+   "start": 105.601,
+   "end": 107.6,
+   "en": "It's called Piggy in the Middle.",
+   "i": 17,
+   "zh": "它的名字叫《中间的小猪》。"
+  },
+  {
+   "start": 109.6,
+   "end": 114.6,
+   "en": "Peppa, you take the ball and stand over there, and George, you stand over there.",
+   "i": 18,
+   "zh": "佩奇，你拿着球站在那里，乔治，你站在那里。"
+  },
+  {
+   "start": 115.6,
+   "end": 121.6,
+   "en": "Good, you have to throw the ball to each other, and I have to try and catch it.",
+   "i": 19,
+   "zh": "好，你们必须把球扔给对方，而我必须尝试接住它。"
+  },
+  {
+   "start": 121.601,
+   "end": 123.6,
+   "en": "I'm the piggy in the middle.",
+   "i": 20,
+   "zh": "我是中间的小猪。"
+  },
+  {
+   "start": 123.874,
+   "end": 126.6,
+   "en": "Mummy is the piggy in the middle!",
+   "i": 21,
+   "zh": "妈妈就是中间的小猪！"
+  },
+  {
+   "start": 128.6,
+   "end": 130.6,
+   "en": "Catch George!",
+   "i": 22,
+   "zh": "抓住乔治！"
+  },
+  {
+   "start": 130.7,
+   "end": 132.6,
+   "en": "Oh, missed it!",
+   "i": 23,
+   "zh": "噢，错过了！"
+  },
+  {
+   "start": 133.474,
+   "end": 135.6,
+   "en": "George has caught the ball.",
+   "i": 24,
+   "zh": "乔治接住了球。"
+  },
+  {
+   "start": 135.601,
+   "end": 137.6,
+   "en": "Hooray!",
+   "i": 25,
+   "zh": "好耶！"
+  },
+  {
+   "start": 137.601,
+   "end": 140.6,
+   "en": "Well done George, now you throw the ball to Peppa.",
+   "i": 26,
+   "zh": "干得好，乔治，现在你把球扔给佩奇。"
+  },
+  {
+   "start": 142.6,
+   "end": 145.6,
+   "en": "Try again.",
+   "i": 27,
+   "zh": "再试一次。"
+  },
+  {
+   "start": 145.601,
+   "end": 147.6,
+   "en": "Oh, try again.",
+   "i": 28,
+   "zh": "哦，再试一次。"
+  },
+  {
+   "start": 149.549,
+   "end": 152.6,
+   "en": "George cannot throw the ball past Mummy Pig.",
+   "i": 29,
+   "zh": "乔治不能把球扔过猪妈妈。"
+  },
+  {
+   "start": 152.601,
+   "end": 155.6,
+   "en": "Come on George, give the ball to me.",
+   "i": 30,
+   "zh": "乔治，来吧，把球给我。"
+  },
+  {
+   "start": 161.6,
+   "end": 163.6,
+   "en": "Silly George.",
+   "i": 31,
+   "zh": "傻乔治。"
+  },
+  {
+   "start": 164.65,
+   "end": 166.6,
+   "en": "I can do that too.",
+   "i": 32,
+   "zh": "我也能做到。"
+  },
+  {
+   "start": 168.6,
+   "end": 173.6,
+   "en": "Peppa wanted to copy George, but she's too big and has got stuck.",
+   "i": 33,
+   "zh": "佩奇想模仿乔治，但她太大了，卡住了。"
+  },
+  {
+   "start": 177.499,
+   "end": 181.6,
+   "en": "I've got the ball, Peppa, now it's your turn to be piggy.",
+   "i": 34,
+   "zh": "球我拿到了，佩奇，现在轮到你当小猪了。"
+  },
+  {
+   "start": 184.3,
+   "end": 185.6,
+   "en": "George, catch!",
+   "i": 35,
+   "zh": "乔治，接住！"
+  },
+  {
+   "start": 186.6,
+   "end": 188.6,
+   "en": "Hooray!",
+   "i": 36,
+   "zh": "好耶！"
+  },
+  {
+   "start": 189.6,
+   "end": 190.6,
+   "en": "Got it!",
+   "i": 37,
+   "zh": "明白了！"
+  },
+  {
+   "start": 190.601,
+   "end": 193.6,
+   "en": "George, you're the piggy.",
+   "i": 38,
+   "zh": "乔治，你是小猪。"
+  },
+  {
+   "start": 194.6,
+   "end": 196.6,
+   "en": "George, catch!",
+   "i": 39,
+   "zh": "乔治，接住！"
+  },
+  {
+   "start": 198.6,
+   "end": 200.6,
+   "en": "Catch the ball, George!",
+   "i": 40,
+   "zh": "接住球，乔治！"
+  },
+  {
+   "start": 201.6,
+   "end": 203.6,
+   "en": "Catch, George!",
+   "i": 41,
+   "zh": "抓住，乔治！"
+  },
+  {
+   "start": 203.601,
+   "end": 205.6,
+   "en": "George, catch!",
+   "i": 42,
+   "zh": "乔治，接住！"
+  },
+  {
+   "start": 208.7,
+   "end": 210.6,
+   "en": "Here's the ball, George.",
+   "i": 43,
+   "zh": "球来了，乔治。"
+  },
+  {
+   "start": 213.6,
+   "end": 215.6,
+   "en": "Whee!",
+   "i": 44,
+   "zh": "哇——！"
+  },
+  {
+   "start": 218.6,
+   "end": 222.6,
+   "en": "Oh dear, Peppa, you shouldn't tease George like that.",
+   "i": 45,
+   "zh": "哦亲爱的佩奇，你不应该这样取笑乔治。"
+  },
+  {
+   "start": 223.6,
+   "end": 225.6,
+   "en": "Sorry, George.",
+   "i": 46,
+   "zh": "对不起，乔治。"
+  },
+  {
+   "start": 226.7,
+   "end": 228.6,
+   "en": "What's all the noise?",
+   "i": 47,
+   "zh": "什么噪音？"
+  },
+  {
+   "start": 228.8,
+   "end": 232.6,
+   "en": "Daddy, George is too little to play piggy in the middle.",
+   "i": 48,
+   "zh": "爸爸，乔治太小了，不能在中间扮演小猪。"
+  },
+  {
+   "start": 233.825,
+   "end": 235.6,
+   "en": "Oh, I'm sure he's big enough.",
+   "i": 49,
+   "zh": "哦，我确信他足够大了。"
+  },
+  {
+   "start": 235.95,
+   "end": 238.6,
+   "en": "No he isn't, Daddy, watch.",
+   "i": 50,
+   "zh": "不，他不是，爸爸，看。"
+  },
+  {
+   "start": 239.3,
+   "end": 240.6,
+   "en": "Catch it, George.",
+   "i": 51,
+   "zh": "抓住它，乔治。"
+  },
+  {
+   "start": 240.601,
+   "end": 242.6,
+   "en": "Hooray!",
+   "i": 52,
+   "zh": "好耶！"
+  },
+  {
+   "start": 244.6,
+   "end": 246.6,
+   "en": "That's not fair.",
+   "i": 53,
+   "zh": "这不公平。"
+  },
+  {
+   "start": 246.875,
+   "end": 250.6,
+   "en": "Yes it is. I just gave George a helping hand.",
+   "i": 54,
+   "zh": "是的。我刚刚向乔治伸出了援助之手。"
+  },
+  {
+   "start": 252.85,
+   "end": 255.6,
+   "en": "Mummy, can I have a helping hand?",
+   "i": 55,
+   "zh": "妈妈，我可以帮忙吗？"
+  },
+  {
+   "start": 255.601,
+   "end": 257.6,
+   "en": "Of course you can, Peppa.",
+   "i": 56,
+   "zh": "当然可以，佩奇。"
+  },
+  {
+   "start": 262.6,
+   "end": 264.6,
+   "en": "To me, George.",
+   "i": 57,
+   "zh": "对我来说，乔治。"
+  },
+  {
+   "start": 265.6,
+   "end": 267.6,
+   "en": "Catch, George.",
+   "i": 58,
+   "zh": "抓住，乔治。"
+  },
+  {
+   "start": 269.6,
+   "end": 271.6,
+   "en": "Peppa loves catching the ball.",
+   "i": 59,
+   "zh": "佩奇喜欢接球。"
+  },
+  {
+   "start": 271.601,
+   "end": 273.6,
+   "en": "George loves catching the ball.",
+   "i": 60,
+   "zh": "乔治喜欢接球。"
+  },
+  {
+   "start": 273.601,
+   "end": 276.6,
+   "en": "Everyone loves catching the ball.",
+   "i": 61,
+   "zh": "每个人都喜欢接球。"
+  },
+  {
+   "start": 286.6,
+   "end": 288.6,
+   "en": "Peppa Pig",
+   "i": 62,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 291.6,
+   "end": 293.6,
+   "en": "Peppa Pig",
+   "i": 63,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 295.6,
+   "end": 297.6,
+   "en": "Peppa Pig",
+   "i": 64,
+   "zh": "小猪佩奇"
+  }
+ ]
+}

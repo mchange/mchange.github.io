@@ -1,0 +1,89 @@
+{
+ "id": "pep49",
+ "words": [
+  {
+   "type": "word",
+   "en": "shop",
+   "zh": "购物",
+   "emoji": "🛒",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "shopping",
+   "zh": "购物",
+   "emoji": "🛒",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "So does Peppa.",
+   "zh": "佩奇也是。",
+   "emoji": "💬",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "spaghetti",
+   "zh": "意大利面",
+   "emoji": "🍝",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 19
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 34
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 48
+  },
+  {
+   "type": "phrase",
+   "en": "I remember now.",
+   "zh": "我现在想起来了。",
+   "emoji": "💬",
+   "line": 55
+  },
+  {
+   "type": "word",
+   "en": "cake",
+   "zh": "蛋糕",
+   "emoji": "🎂",
+   "line": 83
+  },
+  {
+   "type": "word",
+   "en": "chocolate",
+   "zh": "巧克力",
+   "emoji": "🍫",
+   "line": 83
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 93
+  }
+ ]
+}

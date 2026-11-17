@@ -1,0 +1,323 @@
+{
+ "id": "pep07",
+ "title": "Mummy Pig at Work",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 6.0,
+   "end": 10.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 10.326,
+   "end": 14.012,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 19.0,
+   "end": 21.0,
+   "en": "Mummy Pig at work.",
+   "i": 3,
+   "zh": "猪妈妈在工作。"
+  },
+  {
+   "start": 26.825,
+   "end": 30.0,
+   "en": "Mummy Pig is working on her computer.",
+   "i": 4,
+   "zh": "猪妈妈正在电脑上工作。"
+  },
+  {
+   "start": 35.025,
+   "end": 38.0,
+   "en": "Daddy Pig is making soup for lunch.",
+   "i": 5,
+   "zh": "猪爸爸正在煮午餐汤。"
+  },
+  {
+   "start": 41.05,
+   "end": 45.0,
+   "en": "Daddy, can we go and watch Mummy on her computer?",
+   "i": 6,
+   "zh": "爸爸，我们可以去妈妈电脑上看吗？"
+  },
+  {
+   "start": 45.149,
+   "end": 50.0,
+   "en": "Yes, as long as you don't disturb her. She has a lot of important work to do today.",
+   "i": 7,
+   "zh": "可以，只要你不打扰她。她今天有很多重要的工作要做。"
+  },
+  {
+   "start": 50.05,
+   "end": 52.0,
+   "en": "Thank you Daddy!",
+   "i": 8,
+   "zh": "谢谢爸爸！"
+  },
+  {
+   "start": 55.025,
+   "end": 58.0,
+   "en": "Mummy Pig has a lot of important work to do.",
+   "i": 9,
+   "zh": "猪妈妈还有很多重要的工作要做。"
+  },
+  {
+   "start": 61.149,
+   "end": 66.0,
+   "en": "Mummy, can George and I sit on your lap and watch you work?",
+   "i": 10,
+   "zh": "妈妈，乔治和我可以坐在你腿上看你工作吗？"
+  },
+  {
+   "start": 66.0,
+   "end": 69.0,
+   "en": "Yes, if you both sit quietly.",
+   "i": 11,
+   "zh": "是的，如果你们都安静地坐着。"
+  },
+  {
+   "start": 71.0,
+   "end": 75.0,
+   "en": "Peppa and George love to watch Mummy work on the computer.",
+   "i": 12,
+   "zh": "佩奇和乔治喜欢看妈妈在电脑上工作。"
+  },
+  {
+   "start": 76.999,
+   "end": 81.0,
+   "en": "Mummy, can we play that computer game Happy Mrs Chicken?",
+   "i": 13,
+   "zh": "妈妈，我们可以玩快乐鸡太太那个电脑游戏吗？"
+  },
+  {
+   "start": 81.124,
+   "end": 85.0,
+   "en": "We can play Happy Mrs Chicken later, but now I have to work.",
+   "i": 14,
+   "zh": "稍后我们可以玩快乐鸡太太，但现在我必须工作。"
+  },
+  {
+   "start": 85.001,
+   "end": 88.0,
+   "en": "Mummy, can we help you work?",
+   "i": 15,
+   "zh": "妈妈，我们可以帮你工作吗？"
+  },
+  {
+   "start": 88.975,
+   "end": 92.0,
+   "en": "No Peppa, you mustn't touch the computer.",
+   "i": 16,
+   "zh": "不佩奇，你不能碰电脑。"
+  },
+  {
+   "start": 92.001,
+   "end": 96.0,
+   "en": "And George, you mustn't touch the computer either.",
+   "i": 17,
+   "zh": "还有乔治，你也不能碰电脑。"
+  },
+  {
+   "start": 96.499,
+   "end": 99.0,
+   "en": "Yes George, you mustn't do this.",
+   "i": 18,
+   "zh": "是的，乔治，你不可以这样做。"
+  },
+  {
+   "start": 101.0,
+   "end": 102.0,
+   "en": "Peppa, stop!",
+   "i": 19,
+   "zh": "佩奇，住手！"
+  },
+  {
+   "start": 103.399,
+   "end": 108.0,
+   "en": "Sorry Mummy, I was just showing George what not to do.",
+   "i": 20,
+   "zh": "对不起，妈妈，我只是在告诉乔治什么不该做。"
+  },
+  {
+   "start": 110.0,
+   "end": 114.0,
+   "en": "Oh dear, the computer is not meant to do that.",
+   "i": 21,
+   "zh": "噢，亲爱的，计算机不应该这样做。"
+  },
+  {
+   "start": 114.001,
+   "end": 115.001,
+   "en": "Daddy Pig!",
+   "i": 22,
+   "zh": "猪爸爸！"
+  },
+  {
+   "start": 116.299,
+   "end": 118.0,
+   "en": "Daddy Pig!",
+   "i": 23,
+   "zh": "猪爸爸！"
+  },
+  {
+   "start": 118.449,
+   "end": 120.0,
+   "en": "What is it Mummy Pig?",
+   "i": 24,
+   "zh": "猪妈妈是什么？"
+  },
+  {
+   "start": 123.149,
+   "end": 126.0,
+   "en": "Daddy Pig, can you mend the computer?",
+   "i": 25,
+   "zh": "猪爸爸，你能修电脑吗？"
+  },
+  {
+   "start": 126.001,
+   "end": 127.001,
+   "en": "Erm...",
+   "i": 26,
+   "zh": "呃……"
+  },
+  {
+   "start": 127.599,
+   "end": 130.0,
+   "en": "I'll finish the lunch while you mend the computer.",
+   "i": 27,
+   "zh": "你修电脑的时候我吃完午饭。"
+  },
+  {
+   "start": 130.15,
+   "end": 135.0,
+   "en": "Right you are Mummy Pig, but I'm not very good with these things.",
+   "i": 28,
+   "zh": "没错，你是猪妈妈，但我不太擅长这些。"
+  },
+  {
+   "start": 135.001,
+   "end": 137.0,
+   "en": "Oh thank you Daddy Pig.",
+   "i": 29,
+   "zh": "噢，谢谢猪爸爸。"
+  },
+  {
+   "start": 138.15,
+   "end": 141.0,
+   "en": "Daddy Pig is going to mend the computer.",
+   "i": 30,
+   "zh": "猪爸爸要去修电脑了。"
+  },
+  {
+   "start": 154.025,
+   "end": 159.0,
+   "en": "Maybe if I just switch it off, and then switch it on again.",
+   "i": 31,
+   "zh": "也许我把它关掉，然后再打开它。"
+  },
+  {
+   "start": 162.75,
+   "end": 165.0,
+   "en": "Daddy Pig has mended the computer.",
+   "i": 32,
+   "zh": "猪爸爸修好了电脑。"
+  },
+  {
+   "start": 165.35,
+   "end": 167.0,
+   "en": "Hooray Daddy!",
+   "i": 33,
+   "zh": "爸爸万岁！"
+  },
+  {
+   "start": 169.375,
+   "end": 172.0,
+   "en": "Yes, I am a bit of an expert at these things.",
+   "i": 34,
+   "zh": "是的，我在这些方面有点专家。"
+  },
+  {
+   "start": 174.05,
+   "end": 179.0,
+   "en": "Daddy, can we play that computer game, Happy Mrs Chicken?",
+   "i": 35,
+   "zh": "爸爸，我们可以玩快乐鸡太太那个电脑游戏吗？"
+  },
+  {
+   "start": 179.05,
+   "end": 181.0,
+   "en": "Maybe you should ask Mummy Pig.",
+   "i": 36,
+   "zh": "也许你应该问猪妈妈。"
+  },
+  {
+   "start": 181.1,
+   "end": 184.0,
+   "en": "Mummy said that we can play it later.",
+   "i": 37,
+   "zh": "妈妈说我们稍后再玩吧。"
+  },
+  {
+   "start": 184.001,
+   "end": 188.0,
+   "en": "Well that's ok then, but I don't know where the disk is.",
+   "i": 38,
+   "zh": "那么没关系，但我不知道磁盘在哪里。"
+  },
+  {
+   "start": 197.975,
+   "end": 200.0,
+   "en": "Yippee!",
+   "i": 39,
+   "zh": "太棒啦！"
+  },
+  {
+   "start": 219.0,
+   "end": 221.0,
+   "en": "Now it's my turn!",
+   "i": 40,
+   "zh": "现在轮到我了！"
+  },
+  {
+   "start": 228.0,
+   "end": 230.0,
+   "en": "Now it's my turn!",
+   "i": 41,
+   "zh": "现在轮到我了！"
+  },
+  {
+   "start": 245.0,
+   "end": 248.0,
+   "en": "What on earth is going on?",
+   "i": 42,
+   "zh": "到底是怎么回事？"
+  },
+  {
+   "start": 258.0,
+   "end": 261.0,
+   "en": "Well, I see the computer is working again.",
+   "i": 43,
+   "zh": "嗯，我看到计算机又开始工作了。"
+  },
+  {
+   "start": 289.0,
+   "end": 292.0,
+   "en": "Thanks for watching!",
+   "i": 44,
+   "zh": "感谢您的观看！"
+  },
+  {
+   "start": 292.001,
+   "end": 295.0,
+   "en": "Please subscribe and thumb up!",
+   "i": 45,
+   "zh": "请订阅并点赞！"
+  }
+ ]
+}

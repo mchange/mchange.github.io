@@ -1,0 +1,442 @@
+{
+ "id": "pep17",
+ "title": "Frogs and Worms and Butterflies",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 4.0,
+   "end": 8.302,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 8.326,
+   "end": 12.012,
+   "en": "this is Mommy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.0,
+   "end": 15.0,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 18.0,
+   "end": 22.0,
+   "en": "Frogs and worms and butterflies",
+   "i": 4,
+   "zh": "青蛙、蠕虫和蝴蝶"
+  },
+  {
+   "start": 27.0,
+   "end": 31.0,
+   "en": "Peppa and George are helping Grandpa Pig in his garden.",
+   "i": 5,
+   "zh": "佩奇和乔治正在他的花园里帮助猪爷爷。"
+  },
+  {
+   "start": 33.9,
+   "end": 36.0,
+   "en": "Wow!",
+   "i": 6,
+   "zh": "哇！"
+  },
+  {
+   "start": 36.001,
+   "end": 38.0,
+   "en": "What a beautiful butterfly!",
+   "i": 7,
+   "zh": "多么美丽的蝴蝶啊！"
+  },
+  {
+   "start": 41.124,
+   "end": 45.0,
+   "en": "Grandpa, why do butterflies like flowers?",
+   "i": 8,
+   "zh": "爷爷，蝴蝶为什么喜欢花？"
+  },
+  {
+   "start": 45.099,
+   "end": 48.0,
+   "en": "They get their food from flowers.",
+   "i": 9,
+   "zh": "他们从花中获取食物。"
+  },
+  {
+   "start": 48.001,
+   "end": 49.0,
+   "en": "How?",
+   "i": 10,
+   "zh": "怎么办？"
+  },
+  {
+   "start": 49.001,
+   "end": 52.0,
+   "en": "They have very long tongues.",
+   "i": 11,
+   "zh": "他们的舌头很长。"
+  },
+  {
+   "start": 52.001,
+   "end": 54.0,
+   "en": "Look at them mine!",
+   "i": 12,
+   "zh": "看看他们是我的！"
+  },
+  {
+   "start": 54.199,
+   "end": 61.0,
+   "en": "Oh yes, the butterfly's tongue is even longer than yours.",
+   "i": 13,
+   "zh": "哦，是的，蝴蝶的舌头比你的还要长。"
+  },
+  {
+   "start": 61.001,
+   "end": 64.0,
+   "en": "She uses it to drink from the flower.",
+   "i": 14,
+   "zh": "她用它来喝花的水。"
+  },
+  {
+   "start": 69.0,
+   "end": 70.0,
+   "en": "Wow!",
+   "i": 15,
+   "zh": "哇！"
+  },
+  {
+   "start": 70.001,
+   "end": 74.0,
+   "en": "Peppa, the butterfly thinks you're a flower.",
+   "i": 16,
+   "zh": "佩奇，蝴蝶以为你是花。"
+  },
+  {
+   "start": 75.424,
+   "end": 79.0,
+   "en": "I'm not a flower, I'm Peppa Pig.",
+   "i": 17,
+   "zh": "我不是花，我是佩奇。"
+  },
+  {
+   "start": 81.924,
+   "end": 84.0,
+   "en": "She is so pretty.",
+   "i": 18,
+   "zh": "她真漂亮。"
+  },
+  {
+   "start": 84.049,
+   "end": 86.0,
+   "en": "I want to be a butterfly.",
+   "i": 19,
+   "zh": "我想成为一只蝴蝶。"
+  },
+  {
+   "start": 87.0,
+   "end": 89.0,
+   "en": "Peppa is playing at being a butterfly.",
+   "i": 20,
+   "zh": "佩奇正在扮演一只蝴蝶。"
+  },
+  {
+   "start": 89.001,
+   "end": 91.0,
+   "en": "I'm a little butterfly.",
+   "i": 21,
+   "zh": "我是一只小蝴蝶。"
+  },
+  {
+   "start": 92.274,
+   "end": 94.0,
+   "en": "George wants to play too.",
+   "i": 22,
+   "zh": "乔治也想玩。"
+  },
+  {
+   "start": 96.0,
+   "end": 101.0,
+   "en": "George, I'm the butterfly, you have to be something else.",
+   "i": 23,
+   "zh": "乔治，我是蝴蝶，你必须是别的东西。"
+  },
+  {
+   "start": 104.049,
+   "end": 107.0,
+   "en": "I know, you can be a wriggly worm.",
+   "i": 24,
+   "zh": "我知道，你可以是一条蠕动的蠕虫。"
+  },
+  {
+   "start": 111.0,
+   "end": 114.0,
+   "en": "Look, look, I'm a butterfly.",
+   "i": 25,
+   "zh": "看，看，我是一只蝴蝶。"
+  },
+  {
+   "start": 117.0,
+   "end": 122.0,
+   "en": "Oh dear, George does not want to be a worm, he wants to be a butterfly.",
+   "i": 26,
+   "zh": "哦天哪，乔治不想成为一只虫子，他想成为一只蝴蝶。"
+  },
+  {
+   "start": 122.299,
+   "end": 129.0,
+   "en": "George, when I was a little piggy, I used to like playing at being a worm.",
+   "i": 27,
+   "zh": "乔治，当我还是一只小猪的时候，我曾经喜欢扮演一只虫子。"
+  },
+  {
+   "start": 129.3,
+   "end": 134.0,
+   "en": "It's very easy to be a worm, I'll show you how.",
+   "i": 28,
+   "zh": "成为蠕虫很容易，我会告诉你如何做。"
+  },
+  {
+   "start": 134.15,
+   "end": 142.0,
+   "en": "First, you have to lie down on the ground, then you wriggle around.",
+   "i": 29,
+   "zh": "首先，你必须躺在地上，然后扭动身体。"
+  },
+  {
+   "start": 144.0,
+   "end": 146.0,
+   "en": "I'm a wriggly worm.",
+   "i": 30,
+   "zh": "我是一条扭来扭去的毛毛虫。"
+  },
+  {
+   "start": 151.0,
+   "end": 156.0,
+   "en": "George and Grandpa Pig are having such fun being wriggly worms.",
+   "i": 31,
+   "zh": "乔治和猪爷爷当蠕虫，玩得很开心。"
+  },
+  {
+   "start": 157.0,
+   "end": 160.0,
+   "en": "I'm a little butterfly, I'm a little butterfly.",
+   "i": 32,
+   "zh": "我是一只小蝴蝶，我是一只小蝴蝶。"
+  },
+  {
+   "start": 164.774,
+   "end": 167.0,
+   "en": "Look, look, I'm a butterfly.",
+   "i": 33,
+   "zh": "看，看，我是一只蝴蝶。"
+  },
+  {
+   "start": 167.001,
+   "end": 171.0,
+   "en": "Yes, Peppa, you're a beautiful butterfly.",
+   "i": 34,
+   "zh": "是的，佩奇，你是一只美丽的蝴蝶。"
+  },
+  {
+   "start": 172.0,
+   "end": 175.0,
+   "en": "Grandpa, George, what are you doing?",
+   "i": 35,
+   "zh": "爷爷，乔治，你在做什么？"
+  },
+  {
+   "start": 175.275,
+   "end": 178.0,
+   "en": "We are wriggly worms.",
+   "i": 36,
+   "zh": "我们是蠕动的蠕虫。"
+  },
+  {
+   "start": 180.15,
+   "end": 182.0,
+   "en": "I want to be a wriggly worm too.",
+   "i": 37,
+   "zh": "我也想成为一只蠕动的蠕虫。"
+  },
+  {
+   "start": 182.001,
+   "end": 184.0,
+   "en": "I'm a wriggly worm.",
+   "i": 38,
+   "zh": "我是一条扭来扭去的毛毛虫。"
+  },
+  {
+   "start": 187.0,
+   "end": 190.0,
+   "en": "I'm a wriggly worm.",
+   "i": 39,
+   "zh": "我是一条扭来扭去的毛毛虫。"
+  },
+  {
+   "start": 190.001,
+   "end": 194.0,
+   "en": "I'm a wriggly worm, I'm a wriggly worm.",
+   "i": 40,
+   "zh": "我是一条蠕动的蠕虫，我是一条蠕动的蠕虫。"
+  },
+  {
+   "start": 194.001,
+   "end": 197.0,
+   "en": "How do you do? I love you.",
+   "i": 41,
+   "zh": "你好吗？我爱你。"
+  },
+  {
+   "start": 197.001,
+   "end": 199.0,
+   "en": "I'm a wriggly worm.",
+   "i": 42,
+   "zh": "我是一条扭来扭去的毛毛虫。"
+  },
+  {
+   "start": 204.0,
+   "end": 205.0,
+   "en": "That was fun.",
+   "i": 43,
+   "zh": "很有趣。"
+  },
+  {
+   "start": 206.15,
+   "end": 208.0,
+   "en": "What animal do you want to be now?",
+   "i": 44,
+   "zh": "你现在想成为什么动物？"
+  },
+  {
+   "start": 210.0,
+   "end": 211.0,
+   "en": "I don't know.",
+   "i": 45,
+   "zh": "我不知道。"
+  },
+  {
+   "start": 212.899,
+   "end": 216.0,
+   "en": "Look, Grandpa, there's a little frog.",
+   "i": 46,
+   "zh": "看，爷爷，有一只小青蛙。"
+  },
+  {
+   "start": 217.3,
+   "end": 220.0,
+   "en": "Why don't you play it being frogs?",
+   "i": 47,
+   "zh": "你为什么不扮演青蛙呢？"
+  },
+  {
+   "start": 221.05,
+   "end": 225.0,
+   "en": "Frogs are not as pretty as butterflies or as wriggly as worms.",
+   "i": 48,
+   "zh": "青蛙不像蝴蝶那么漂亮，也不像蠕虫那么蠕动。"
+  },
+  {
+   "start": 225.874,
+   "end": 228.0,
+   "en": "But frogs do play a game you like.",
+   "i": 49,
+   "zh": "但是青蛙确实会玩你喜欢的游戏。"
+  },
+  {
+   "start": 230.05,
+   "end": 232.0,
+   "en": "Do frogs play dolls houses?",
+   "i": 50,
+   "zh": "青蛙会玩娃娃屋吗？"
+  },
+  {
+   "start": 233.05,
+   "end": 236.0,
+   "en": "Silly Peppa, what's your favorite game?",
+   "i": 51,
+   "zh": "傻佩奇，你最喜欢的游戏是什么？"
+  },
+  {
+   "start": 237.0,
+   "end": 239.0,
+   "en": "Jumping in muddy puddles.",
+   "i": 52,
+   "zh": "跳泥坑。"
+  },
+  {
+   "start": 240.0,
+   "end": 243.0,
+   "en": "Yes, frogs love jumping in muddy puddles.",
+   "i": 53,
+   "zh": "是的，青蛙喜欢在泥坑里跳。"
+  },
+  {
+   "start": 246.0,
+   "end": 249.0,
+   "en": "Yes, George. Let's play frogs.",
+   "i": 54,
+   "zh": "是的，乔治。我们来玩青蛙吧。"
+  },
+  {
+   "start": 251.0,
+   "end": 253.0,
+   "en": "I'm a little froggy.",
+   "i": 55,
+   "zh": "我有点青蛙。"
+  },
+  {
+   "start": 253.001,
+   "end": 255.0,
+   "en": "I'm a little froggy.",
+   "i": 56,
+   "zh": "我有点青蛙。"
+  },
+  {
+   "start": 261.0,
+   "end": 264.0,
+   "en": "The froggies have found a nice big muddy puddle to play in.",
+   "i": 57,
+   "zh": "青蛙们找到了一个漂亮的大泥坑可以玩。"
+  },
+  {
+   "start": 264.001,
+   "end": 268.0,
+   "en": "Peppa and George love jumping up and down in muddy puddles.",
+   "i": 58,
+   "zh": "佩奇和乔治喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 268.001,
+   "end": 271.0,
+   "en": "Everyone loves jumping up and down in muddy puddles.",
+   "i": 59,
+   "zh": "大家都喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 273.0,
+   "end": 278.0,
+   "en": "Butterflies and worms are very nice, but I like frogs the best.",
+   "i": 60,
+   "zh": "蝴蝶和蠕虫都很好，但我最喜欢青蛙。"
+  },
+  {
+   "start": 286.0,
+   "end": 290.0,
+   "en": "George, I'll pick up the sticks and you can carry them.",
+   "i": 61,
+   "zh": "乔治，我把棍子捡起来，你拿着。"
+  },
+  {
+   "start": 293.0,
+   "end": 295.0,
+   "en": "Collecting sticks is fun.",
+   "i": 62,
+   "zh": "收集棍子很有趣。"
+  }
+ ]
+}

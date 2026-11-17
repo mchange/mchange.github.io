@@ -1,0 +1,89 @@
+{
+ "id": "pep20",
+ "words": [
+  {
+   "type": "word",
+   "en": "paint",
+   "zh": "涂色",
+   "emoji": "🎨",
+   "line": 10
+  },
+  {
+   "type": "phrase",
+   "en": "\"The face painting.",
+   "zh": "脸部彩绘。",
+   "emoji": "💬",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "ball",
+   "zh": "球",
+   "emoji": "⚽",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "balloon",
+   "zh": "气球",
+   "emoji": "🎈",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "balloons",
+   "zh": "气球",
+   "emoji": "🎈",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "castle",
+   "zh": "城堡",
+   "emoji": "🏰",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 21
+  },
+  {
+   "type": "word",
+   "en": "elephant",
+   "zh": "大象",
+   "emoji": "🐘",
+   "line": 31
+  },
+  {
+   "type": "word",
+   "en": "cat",
+   "zh": "猫",
+   "emoji": "🐱",
+   "line": 44
+  },
+  {
+   "type": "phrase",
+   "en": "\"A lion, please.",
+   "zh": "\"请来一头狮子。",
+   "emoji": "💬",
+   "line": 68
+  }
+ ]
+}

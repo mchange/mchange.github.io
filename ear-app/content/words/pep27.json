@@ -1,0 +1,89 @@
+{
+ "id": "pep27",
+ "words": [
+  {
+   "type": "word",
+   "en": "castle",
+   "zh": "城堡",
+   "emoji": "🏰",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "wind",
+   "zh": "风",
+   "emoji": "🌬️",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "windy",
+   "zh": "有风的",
+   "emoji": "🌬️",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 6
+  },
+  {
+   "type": "phrase",
+   "en": "George likes castles.",
+   "zh": "乔治喜欢城堡。",
+   "emoji": "💬",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "grandpa",
+   "zh": "爷爷",
+   "emoji": "👴",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "granny",
+   "zh": "奶奶",
+   "emoji": "👵",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "map",
+   "zh": "地图",
+   "emoji": "🗺️",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "lost",
+   "zh": "丢了",
+   "emoji": "😢",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 23
+  },
+  {
+   "type": "phrase",
+   "en": "As I thought.",
+   "zh": "正如我所想。",
+   "emoji": "💬",
+   "line": 58
+  }
+ ]
+}

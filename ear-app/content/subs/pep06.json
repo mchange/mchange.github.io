@@ -1,0 +1,540 @@
+{
+ "id": "pep06",
+ "title": "The Playgroup",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 0.05,
+   "end": 3.88,
+   "en": "I'm Peppa Pig.",
+   "i": 1,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 3.881,
+   "end": 6.56,
+   "en": "This is my little brother, George.",
+   "i": 2,
+   "zh": "这是我的弟弟乔治。"
+  },
+  {
+   "start": 6.561,
+   "end": 8.76,
+   "en": "This is Mummy Pig.",
+   "i": 3,
+   "zh": "这是猪妈妈。"
+  },
+  {
+   "start": 8.761,
+   "end": 11.2,
+   "en": "And this is Daddy Pig.",
+   "i": 4,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 11.201,
+   "end": 14.72,
+   "en": "Peppa Pig.",
+   "i": 5,
+   "zh": "佩奇。"
+  },
+  {
+   "start": 20.24,
+   "end": 21.76,
+   "en": "The Playgroup.",
+   "i": 6,
+   "zh": "幼儿园。"
+  },
+  {
+   "start": 26.23,
+   "end": 28.92,
+   "en": "Peppa and George are going to the Playgroup.",
+   "i": 7,
+   "zh": "佩奇和乔治要去幼儿园。"
+  },
+  {
+   "start": 28.921,
+   "end": 30.76,
+   "en": "It is George's first day.",
+   "i": 8,
+   "zh": "这是乔治第一天。"
+  },
+  {
+   "start": 30.761,
+   "end": 34.12,
+   "en": "George, are you looking forward to the Playgroup?",
+   "i": 9,
+   "zh": "乔治，你期待幼儿园吗？"
+  },
+  {
+   "start": 35.161,
+   "end": 40.36,
+   "en": "Daddy, maybe George is too small to go to my Playgroup.",
+   "i": 10,
+   "zh": "爸爸，也许乔治太小了，不能去我的幼儿园。"
+  },
+  {
+   "start": 40.881,
+   "end": 42.8,
+   "en": "He'll be fine, Peppa.",
+   "i": 11,
+   "zh": "他会没事的，佩奇。"
+  },
+  {
+   "start": 42.801,
+   "end": 46.44,
+   "en": "There'll be you and Mr Dinosaur there to keep him company.",
+   "i": 12,
+   "zh": "会有你和恐龙先生陪伴他。"
+  },
+  {
+   "start": 46.489,
+   "end": 48.92,
+   "en": "Grr, dinosaur.",
+   "i": 13,
+   "zh": "咕噜，恐龙。"
+  },
+  {
+   "start": 50.281,
+   "end": 52.76,
+   "en": "But I want to play with the big children.",
+   "i": 14,
+   "zh": "但我想和大孩子们一起玩。"
+  },
+  {
+   "start": 53.121,
+   "end": 56.08,
+   "en": "Not George and his toy dinosaur.",
+   "i": 15,
+   "zh": "不是乔治和他的玩具恐龙。"
+  },
+  {
+   "start": 56.081,
+   "end": 59.56,
+   "en": "Oh, dear. Peppa doesn't want George to go to her Playgroup.",
+   "i": 16,
+   "zh": "哦，亲爱的。佩奇不希望乔治去她的幼儿园。"
+  },
+  {
+   "start": 65.76,
+   "end": 67.52,
+   "en": "We're here.",
+   "i": 17,
+   "zh": "我们到了。"
+  },
+  {
+   "start": 68.28,
+   "end": 71.84,
+   "en": "Daddy, are you sure George is big enough?",
+   "i": 18,
+   "zh": "爸爸，你确定乔治够大吗？"
+  },
+  {
+   "start": 71.989,
+   "end": 74.08,
+   "en": "He'll be fine.",
+   "i": 19,
+   "zh": "他会没事的。"
+  },
+  {
+   "start": 74.179,
+   "end": 77.469,
+   "en": "All right.",
+   "i": 20,
+   "zh": "好吧。"
+  },
+  {
+   "start": 77.519,
+   "end": 78.96,
+   "en": "He can come.",
+   "i": 21,
+   "zh": "他可以来。"
+  },
+  {
+   "start": 79.059,
+   "end": 81.096,
+   "en": "Ho, ho, ho.",
+   "i": 22,
+   "zh": "嗬嗬嗬。"
+  },
+  {
+   "start": 81.097,
+   "end": 82.28,
+   "en": "Bye-bye.",
+   "i": 23,
+   "zh": "再见。"
+  },
+  {
+   "start": 90.601,
+   "end": 94.08,
+   "en": "Madam Gazelle looks after the children at the Playgroup.",
+   "i": 24,
+   "zh": "羚羊女士在幼儿园照顾孩子们。"
+  },
+  {
+   "start": 94.081,
+   "end": 96.56,
+   "en": "Hello.",
+   "i": 25,
+   "zh": "你好。"
+  },
+  {
+   "start": 96.634,
+   "end": 99.72,
+   "en": "This is my little brother, George.",
+   "i": 26,
+   "zh": "这是我的弟弟，乔治。"
+  },
+  {
+   "start": 99.77,
+   "end": 102.72,
+   "en": "Hello, George.",
+   "i": 27,
+   "zh": "你好，乔治。"
+  },
+  {
+   "start": 109.569,
+   "end": 112.36,
+   "en": "I wish I had a little brother like George.",
+   "i": 28,
+   "zh": "我希望我有一个像乔治这样的弟弟。"
+  },
+  {
+   "start": 112.409,
+   "end": 114.0,
+   "en": "Really?",
+   "i": 29,
+   "zh": "真的吗？"
+  },
+  {
+   "start": 114.049,
+   "end": 116.08,
+   "en": "Hello, I'm Danny Dog.",
+   "i": 30,
+   "zh": "大家好，我是小狗丹尼。"
+  },
+  {
+   "start": 117.009,
+   "end": 118.8,
+   "en": "Is that a dinosaur?",
+   "i": 31,
+   "zh": "那是恐龙吗？"
+  },
+  {
+   "start": 119.249,
+   "end": 121.6,
+   "en": "It's just a toy dinosaur.",
+   "i": 32,
+   "zh": "这只是一个玩具恐龙。"
+  },
+  {
+   "start": 121.601,
+   "end": 124.24,
+   "en": "Dinosaur.",
+   "i": 33,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 124.24,
+   "end": 125.88,
+   "en": "Brilliant.",
+   "i": 34,
+   "zh": "太棒了。"
+  },
+  {
+   "start": 125.881,
+   "end": 128.28,
+   "en": "Dinosaur.",
+   "i": 35,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 130.64,
+   "end": 134.0,
+   "en": "Dinosaur.",
+   "i": 36,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 135.121,
+   "end": 137.76,
+   "en": "Ah, really scary.",
+   "i": 37,
+   "zh": "啊，真可怕。"
+  },
+  {
+   "start": 139.361,
+   "end": 140.92,
+   "en": "That's brilliant.",
+   "i": 38,
+   "zh": "太棒了。"
+  },
+  {
+   "start": 144.081,
+   "end": 146.16,
+   "en": "George is my brother.",
+   "i": 39,
+   "zh": "乔治是我的兄弟。"
+  },
+  {
+   "start": 147.2,
+   "end": 148.32,
+   "en": "He's brilliant.",
+   "i": 40,
+   "zh": "他很聪明。"
+  },
+  {
+   "start": 149.161,
+   "end": 152.2,
+   "en": "Peppa is proud of her little brother, George.",
+   "i": 41,
+   "zh": "佩奇为她的弟弟乔治感到骄傲。"
+  },
+  {
+   "start": 155.521,
+   "end": 159.4,
+   "en": "Shall we show George how we paint pictures?",
+   "i": 42,
+   "zh": "我们可以向乔治展示我们如何画画吗？"
+  },
+  {
+   "start": 159.95,
+   "end": 161.96,
+   "en": "George is not very good at painting.",
+   "i": 43,
+   "zh": "乔治不太擅长画画。"
+  },
+  {
+   "start": 162.51,
+   "end": 164.44,
+   "en": "Well, maybe you could help him.",
+   "i": 44,
+   "zh": "好吧，也许你可以帮助他。"
+  },
+  {
+   "start": 164.961,
+   "end": 167.32,
+   "en": "Yes, I'm very good.",
+   "i": 45,
+   "zh": "是的，我很好。"
+  },
+  {
+   "start": 168.735,
+   "end": 170.56,
+   "en": "I will show him how to paint a flower.",
+   "i": 46,
+   "zh": "我会教他如何画花。"
+  },
+  {
+   "start": 172.361,
+   "end": 175.16,
+   "en": "First you paint a big circle.",
+   "i": 47,
+   "zh": "首先画一个大圆圈。"
+  },
+  {
+   "start": 178.641,
+   "end": 181.68,
+   "en": "Now, George, that's the wrong colour.",
+   "i": 48,
+   "zh": "现在，乔治，颜色不对。"
+  },
+  {
+   "start": 183.481,
+   "end": 186.0,
+   "en": "Now you paint the flower's petals.",
+   "i": 49,
+   "zh": "现在你画花瓣。"
+  },
+  {
+   "start": 186.001,
+   "end": 188.96,
+   "en": "George!",
+   "i": 50,
+   "zh": "乔治！"
+  },
+  {
+   "start": 189.601,
+   "end": 191.64,
+   "en": "That's the wrong shape.",
+   "i": 51,
+   "zh": "那是错误的形状。"
+  },
+  {
+   "start": 193.361,
+   "end": 195.68,
+   "en": "Now you paint the stalk of the leaves.",
+   "i": 52,
+   "zh": "现在你画叶柄。"
+  },
+  {
+   "start": 195.681,
+   "end": 200.76,
+   "en": "Perfect.",
+   "i": 53,
+   "zh": "完美。"
+  },
+  {
+   "start": 202.93,
+   "end": 205.68,
+   "en": "George, you've done it all wrong.",
+   "i": 54,
+   "zh": "乔治，你都做错了。"
+  },
+  {
+   "start": 207.681,
+   "end": 209.68,
+   "en": "Now what do we have here?",
+   "i": 55,
+   "zh": "现在我们这里有什么？"
+  },
+  {
+   "start": 210.37,
+   "end": 212.36,
+   "en": "I've painted a flower.",
+   "i": 56,
+   "zh": "我画了一朵花。"
+  },
+  {
+   "start": 212.66,
+   "end": 214.88,
+   "en": "That's very good, Peppa.",
+   "i": 57,
+   "zh": "非常好，佩奇。"
+  },
+  {
+   "start": 214.881,
+   "end": 218.72,
+   "en": "And George has painted a dinosaur.",
+   "i": 58,
+   "zh": "乔治画了一只恐龙。"
+  },
+  {
+   "start": 218.721,
+   "end": 220.08,
+   "en": "Grr.",
+   "i": 59,
+   "zh": "哥们。"
+  },
+  {
+   "start": 220.081,
+   "end": 221.4,
+   "en": "Dinosaur.",
+   "i": 60,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 224.321,
+   "end": 230.48,
+   "en": "Brilliant.",
+   "i": 61,
+   "zh": "太棒了。"
+  },
+  {
+   "start": 230.481,
+   "end": 234.92,
+   "en": "I think George and Peppa's pictures should go on the wall.",
+   "i": 62,
+   "zh": "我认为乔治和佩奇的照片应该挂在墙上。"
+  },
+  {
+   "start": 234.921,
+   "end": 236.0,
+   "en": "Hooray!",
+   "i": 63,
+   "zh": "好耶！"
+  },
+  {
+   "start": 238.361,
+   "end": 242.68,
+   "en": "Peppa, you must be very proud of your little brother.",
+   "i": 64,
+   "zh": "佩奇，你一定为你的弟弟感到骄傲吧。"
+  },
+  {
+   "start": 242.681,
+   "end": 245.8,
+   "en": "Yes, I am.",
+   "i": 65,
+   "zh": "是的，我是。"
+  },
+  {
+   "start": 247.881,
+   "end": 252.32,
+   "en": "It is home time, and the children's parents are here to pick them up.",
+   "i": 66,
+   "zh": "到家时间了，孩子们的家长来接他们了。"
+  },
+  {
+   "start": 252.801,
+   "end": 255.0,
+   "en": "Can George come next time?",
+   "i": 67,
+   "zh": "乔治下次可以来吗？"
+  },
+  {
+   "start": 255.001,
+   "end": 259.24,
+   "en": "Yes, and he can paint us another lovely picture.",
+   "i": 68,
+   "zh": "是的，他可以为我们描绘另一幅可爱的图画。"
+  },
+  {
+   "start": 259.241,
+   "end": 262.44,
+   "en": "And what will you paint next time, George?",
+   "i": 69,
+   "zh": "乔治，下次你会画什么？"
+  },
+  {
+   "start": 262.441,
+   "end": 263.8,
+   "en": "Dinosaur.",
+   "i": 70,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 263.801,
+   "end": 265.04,
+   "en": "Grr.",
+   "i": 71,
+   "zh": "咕噜。"
+  },
+  {
+   "start": 265.041,
+   "end": 268.04,
+   "en": "Oh, another dinosaur picture.",
+   "i": 72,
+   "zh": "哦，另一张恐龙照片。"
+  },
+  {
+   "start": 268.041,
+   "end": 271.12,
+   "en": "Well, maybe you can show us all how to paint a dinosaur.",
+   "i": 73,
+   "zh": "好吧，也许你可以向我们展示如何画恐龙。"
+  },
+  {
+   "start": 272.161,
+   "end": 274.68,
+   "en": "Brilliant.",
+   "i": 74,
+   "zh": "太棒了。"
+  },
+  {
+   "start": 274.681,
+   "end": 276.96,
+   "en": "Yes, brilliant.",
+   "i": 75,
+   "zh": "是的，太棒了。"
+  },
+  {
+   "start": 276.961,
+   "end": 279.2,
+   "en": "Brilliant.",
+   "i": 76,
+   "zh": "太棒了。"
+  }
+ ]
+}

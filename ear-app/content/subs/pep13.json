@@ -1,0 +1,547 @@
+{
+ "id": "pep13",
+ "title": "Secrets",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 7.0,
+   "end": 10.828,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 10.852,
+   "end": 15.012,
+   "en": "This is Mummy Pig. And this is Daddy Pig. Peppa Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。小猪佩奇。"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "Secrets",
+   "i": 3,
+   "zh": "秘密"
+  },
+  {
+   "start": 26.0,
+   "end": 29.0,
+   "en": "Mummy Pig has made a special box for Peppa.",
+   "i": 4,
+   "zh": "猪妈妈为佩奇做了一个特殊的盒子。"
+  },
+  {
+   "start": 29.001,
+   "end": 32.0,
+   "en": "Peppa, this box is just for you.",
+   "i": 5,
+   "zh": "佩奇，这个盒子是专门给你的。"
+  },
+  {
+   "start": 32.001,
+   "end": 34.0,
+   "en": "Thank you Mummy.",
+   "i": 6,
+   "zh": "谢谢妈妈。"
+  },
+  {
+   "start": 34.001,
+   "end": 38.0,
+   "en": "It's a secret box for you to keep secret things in.",
+   "i": 7,
+   "zh": "这是一个供你存放秘密物品的秘密盒子。"
+  },
+  {
+   "start": 38.001,
+   "end": 40.0,
+   "en": "What things can I put in it Mummy?",
+   "i": 8,
+   "zh": "妈妈我可以在里面放什么东西？"
+  },
+  {
+   "start": 40.001,
+   "end": 45.0,
+   "en": "Only you can decide that Peppa. It's your secret box.",
+   "i": 9,
+   "zh": "只有你才能决定那个佩奇。这是你的秘密盒子。"
+  },
+  {
+   "start": 45.001,
+   "end": 48.0,
+   "en": "I know what I can put in it.",
+   "i": 10,
+   "zh": "我知道我可以在里面放什么。"
+  },
+  {
+   "start": 48.199,
+   "end": 50.0,
+   "en": "Good, but don't tell me.",
+   "i": 11,
+   "zh": "好，但别告诉我。"
+  },
+  {
+   "start": 50.001,
+   "end": 56.0,
+   "en": "I won't tell you, or George, or Daddy. It's a secret.",
+   "i": 12,
+   "zh": "我不会告诉你，或者乔治，或者爸爸。这是一个秘密。"
+  },
+  {
+   "start": 58.0,
+   "end": 61.0,
+   "en": "George, this is my secret box.",
+   "i": 13,
+   "zh": "乔治，这是我的秘密盒子。"
+  },
+  {
+   "start": 61.074,
+   "end": 67.0,
+   "en": "It's empty. I have to find some things to put inside.",
+   "i": 14,
+   "zh": "是空的。我得找一些东西放进去。"
+  },
+  {
+   "start": 68.0,
+   "end": 70.0,
+   "en": "George wants to help Peppa.",
+   "i": 15,
+   "zh": "乔治想帮助佩奇。"
+  },
+  {
+   "start": 70.001,
+   "end": 74.0,
+   "en": "No George, only I must know what's in the box.",
+   "i": 16,
+   "zh": "不，乔治，只是我必须知道盒子里有什么。"
+  },
+  {
+   "start": 74.774,
+   "end": 78.0,
+   "en": "You have to wait outside while I choose.",
+   "i": 17,
+   "zh": "我选择的时候你必须在外面等。"
+  },
+  {
+   "start": 81.0,
+   "end": 85.0,
+   "en": "Peppa is going to choose some secret things to put in the box.",
+   "i": 18,
+   "zh": "佩奇要挑选一些秘密的东西放进盒子里。"
+  },
+  {
+   "start": 87.949,
+   "end": 91.0,
+   "en": "Now my secret box is full.",
+   "i": 19,
+   "zh": "现在我的秘密盒子已经满了。"
+  },
+  {
+   "start": 92.699,
+   "end": 96.0,
+   "en": "George, you must not look inside.",
+   "i": 20,
+   "zh": "乔治，你不许往里面看。"
+  },
+  {
+   "start": 96.499,
+   "end": 100.0,
+   "en": "George would like to know what is inside Peppa's secret box.",
+   "i": 21,
+   "zh": "乔治想知道佩奇的秘密盒子里有什么。"
+  },
+  {
+   "start": 100.149,
+   "end": 103.0,
+   "en": "If you like, you can try to guess.",
+   "i": 22,
+   "zh": "如果你愿意的话，你可以试着猜一猜。"
+  },
+  {
+   "start": 105.0,
+   "end": 106.0,
+   "en": "Dinosaur!",
+   "i": 23,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 106.001,
+   "end": 109.0,
+   "en": "George thinks Peppa has put a dinosaur in the box.",
+   "i": 24,
+   "zh": "乔治认为佩奇在盒子里放了一只恐龙。"
+  },
+  {
+   "start": 109.001,
+   "end": 114.0,
+   "en": "Oh George, you always say dinosaur for everything.",
+   "i": 25,
+   "zh": "哦，乔治，你总是用恐龙来形容一切。"
+  },
+  {
+   "start": 114.874,
+   "end": 119.0,
+   "en": "Anyway, a dinosaur is too big to fit in the box.",
+   "i": 26,
+   "zh": "无论如何，恐龙太大了，装不进盒子。"
+  },
+  {
+   "start": 120.199,
+   "end": 123.0,
+   "en": "George cannot guess what is in Peppa's secret box.",
+   "i": 27,
+   "zh": "乔治无法猜出佩奇的秘密盒子里有什么。"
+  },
+  {
+   "start": 124.249,
+   "end": 126.0,
+   "en": "Daddy Pig is cleaning a picture.",
+   "i": 28,
+   "zh": "猪爸爸正在清理照片。"
+  },
+  {
+   "start": 126.274,
+   "end": 131.0,
+   "en": "Daddy, this is my secret box. Mummy made it for me.",
+   "i": 29,
+   "zh": "爸爸，这是我的秘密盒子。妈妈给我做的。"
+  },
+  {
+   "start": 131.001,
+   "end": 134.0,
+   "en": "It's very nice Peppa. What's inside?",
+   "i": 30,
+   "zh": "佩奇非常好。里面是什么？"
+  },
+  {
+   "start": 134.25,
+   "end": 139.0,
+   "en": "It's a secret. George tried to guess, but he didn't get it right.",
+   "i": 31,
+   "zh": "这是一个秘密。乔治试图猜测，但没猜对。"
+  },
+  {
+   "start": 139.001,
+   "end": 141.0,
+   "en": "Can I have a try?",
+   "i": 32,
+   "zh": "我可以尝试一下吗？"
+  },
+  {
+   "start": 141.001,
+   "end": 142.001,
+   "en": "Yes.",
+   "i": 33,
+   "zh": "是的。"
+  },
+  {
+   "start": 145.0,
+   "end": 148.0,
+   "en": "Have you put my glasses inside?",
+   "i": 34,
+   "zh": "你把我的眼镜放进去了吗？"
+  },
+  {
+   "start": 148.001,
+   "end": 152.0,
+   "en": "No. Your glasses are on your head.",
+   "i": 35,
+   "zh": "不，你的眼镜戴在头上。"
+  },
+  {
+   "start": 152.001,
+   "end": 154.0,
+   "en": "So they are.",
+   "i": 36,
+   "zh": "确实如此。"
+  },
+  {
+   "start": 154.001,
+   "end": 157.0,
+   "en": "Silly Daddy, you must have a proper guess.",
+   "i": 37,
+   "zh": "傻爸爸，你一定猜对了。"
+  },
+  {
+   "start": 157.25,
+   "end": 161.0,
+   "en": "OK. Have you put Mummy's shoes in the box?",
+   "i": 38,
+   "zh": "好的。你把妈妈的鞋子放进盒子里了吗？"
+  },
+  {
+   "start": 161.1,
+   "end": 164.0,
+   "en": "Nope, and that's all your guesses used up.",
+   "i": 39,
+   "zh": "不，你的猜测就到此为止了。"
+  },
+  {
+   "start": 164.6,
+   "end": 166.0,
+   "en": "Peppa likes secrets.",
+   "i": 40,
+   "zh": "佩奇喜欢秘密。"
+  },
+  {
+   "start": 167.0,
+   "end": 171.0,
+   "en": "Mummy, no one knows what's in my box.",
+   "i": 41,
+   "zh": "妈妈，没人知道我的盒子里装的是什么。"
+  },
+  {
+   "start": 172.1,
+   "end": 175.0,
+   "en": "Oh, what has George got?",
+   "i": 42,
+   "zh": "哦，乔治得到了什么？"
+  },
+  {
+   "start": 175.001,
+   "end": 179.0,
+   "en": "I made a box for George too, and he's filled it with secret things.",
+   "i": 43,
+   "zh": "我也给乔治做了一个盒子，他在里面装满了秘密的东西。"
+  },
+  {
+   "start": 179.35,
+   "end": 182.0,
+   "en": "And only George knows what's inside.",
+   "i": 44,
+   "zh": "只有乔治知道里面有什么。"
+  },
+  {
+   "start": 182.075,
+   "end": 184.0,
+   "en": "Oh.",
+   "i": 45,
+   "zh": "哦。"
+  },
+  {
+   "start": 184.45,
+   "end": 187.0,
+   "en": "Peppa would like to know what is inside George's box.",
+   "i": 46,
+   "zh": "佩奇想知道乔治的盒子里有什么。"
+  },
+  {
+   "start": 187.6,
+   "end": 191.0,
+   "en": "It's George's toy dinosaur of course.",
+   "i": 47,
+   "zh": "当然是乔治的玩具恐龙。"
+  },
+  {
+   "start": 191.001,
+   "end": 192.0,
+   "en": "No.",
+   "i": 48,
+   "zh": "不。"
+  },
+  {
+   "start": 192.001,
+   "end": 195.0,
+   "en": "George's toy dinosaur is not in George's box.",
+   "i": 49,
+   "zh": "乔治的玩具恐龙不在乔治的盒子里。"
+  },
+  {
+   "start": 195.001,
+   "end": 199.0,
+   "en": "It's too difficult. I'll never guess.",
+   "i": 50,
+   "zh": "太难了。我永远不会猜测。"
+  },
+  {
+   "start": 199.7,
+   "end": 202.0,
+   "en": "Peppa does not like secrets as much as she used to.",
+   "i": 51,
+   "zh": "佩奇不像以前那么喜欢秘密了。"
+  },
+  {
+   "start": 202.001,
+   "end": 204.677,
+   "en": "Maybe if you showed George one thing from your",
+   "i": 52,
+   "zh": "也许如果你向乔治展示你的一件东西"
+  },
+  {
+   "start": 204.678,
+   "end": 208.0,
+   "en": "box, then he could show you one thing from his.",
+   "i": 53,
+   "zh": "盒子，然后他可以给你看他的一件东西。"
+  },
+  {
+   "start": 208.1,
+   "end": 211.0,
+   "en": "OK, but we must do it at the same time.",
+   "i": 54,
+   "zh": "好的，但是我们必须同时进行。"
+  },
+  {
+   "start": 211.175,
+   "end": 213.0,
+   "en": "That's a good idea.",
+   "i": 55,
+   "zh": "这是个好主意。"
+  },
+  {
+   "start": 213.001,
+   "end": 217.0,
+   "en": "On the count of three, you each show what's in your boxes.",
+   "i": 56,
+   "zh": "数到三后，你们各自展示自己盒子里的东西。"
+  },
+  {
+   "start": 217.001,
+   "end": 218.0,
+   "en": "Ready?",
+   "i": 57,
+   "zh": "准备好了吗？"
+  },
+  {
+   "start": 218.001,
+   "end": 219.001,
+   "en": "Yes.",
+   "i": 58,
+   "zh": "是的。"
+  },
+  {
+   "start": 219.375,
+   "end": 222.0,
+   "en": "One, two, three.",
+   "i": 59,
+   "zh": "一、二、三。"
+  },
+  {
+   "start": 222.95,
+   "end": 226.0,
+   "en": "George has a drum, and Peppa has a trumpet.",
+   "i": 60,
+   "zh": "乔治有鼓，佩奇有小号。"
+  },
+  {
+   "start": 226.001,
+   "end": 233.0,
+   "en": "Oh, lovely.",
+   "i": 61,
+   "zh": "哦，可爱的。"
+  },
+  {
+   "start": 233.001,
+   "end": 235.0,
+   "en": "Yes, it sounds very nice.",
+   "i": 62,
+   "zh": "是的，听起来很不错。"
+  },
+  {
+   "start": 235.001,
+   "end": 238.0,
+   "en": "Do you have any more secret things?",
+   "i": 63,
+   "zh": "你还有什么秘密吗？"
+  },
+  {
+   "start": 238.05,
+   "end": 241.0,
+   "en": "George has a custard doughnut.",
+   "i": 64,
+   "zh": "乔治有一个奶油甜甜圈。"
+  },
+  {
+   "start": 241.001,
+   "end": 242.001,
+   "en": "Oh.",
+   "i": 65,
+   "zh": "哦。"
+  },
+  {
+   "start": 242.05,
+   "end": 245.0,
+   "en": "But Peppa's box is empty.",
+   "i": 66,
+   "zh": "但是佩奇的盒子是空的。"
+  },
+  {
+   "start": 245.001,
+   "end": 247.0,
+   "en": "I've got nothing else.",
+   "i": 67,
+   "zh": "我没有别的了。"
+  },
+  {
+   "start": 247.001,
+   "end": 250.0,
+   "en": "Luckily I have. Come on, tuck in.",
+   "i": 68,
+   "zh": "幸运的是我有。来吧，塞进去。"
+  },
+  {
+   "start": 250.001,
+   "end": 254.0,
+   "en": "George, Peppa, Mummy Pig and Daddy Pig all like custard doughnuts.",
+   "i": 69,
+   "zh": "乔治、佩奇、猪妈妈、猪爸爸都喜欢蛋奶甜甜圈。"
+  },
+  {
+   "start": 254.4,
+   "end": 260.0,
+   "en": "I don't have a special box, but I know a very good place to hide my custard doughnut.",
+   "i": 70,
+   "zh": "我没有特殊的盒子，但我知道一个很好的地方来藏我的蛋奶甜甜圈。"
+  },
+  {
+   "start": 260.15,
+   "end": 262.0,
+   "en": "Can you guess where?",
+   "i": 71,
+   "zh": "你能猜到在哪里吗？"
+  },
+  {
+   "start": 262.001,
+   "end": 266.0,
+   "en": "Hmm. Are you going to hide it in the fridge?",
+   "i": 72,
+   "zh": "嗯。你要把它藏在冰箱里吗？"
+  },
+  {
+   "start": 266.001,
+   "end": 269.0,
+   "en": "No. Somewhere much more special.",
+   "i": 73,
+   "zh": "不。在更特别的地方。"
+  },
+  {
+   "start": 269.25,
+   "end": 271.0,
+   "en": "My tummy.",
+   "i": 74,
+   "zh": "我的肚子。"
+  },
+  {
+   "start": 271.05,
+   "end": 274.0,
+   "en": "Mmm. Delicious.",
+   "i": 75,
+   "zh": "嗯。可口的。"
+  },
+  {
+   "start": 274.001,
+   "end": 278.0,
+   "en": "I'm going to hide mine in my tummy.",
+   "i": 76,
+   "zh": "我要把我的藏在肚子里。"
+  },
+  {
+   "start": 278.001,
+   "end": 280.0,
+   "en": "Me too.",
+   "i": 77,
+   "zh": "我也是。"
+  }
+ ]
+}

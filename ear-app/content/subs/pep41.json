@@ -1,0 +1,603 @@
+{
+ "id": "pep41",
+ "title": "Chloé's Puppet Show",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 7.0,
+   "end": 10.828,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 10.852,
+   "end": 15.012,
+   "en": "This is Mommy Pig. And this is Daddy Pig. Peppa Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这就是猪爸爸。佩奇。"
+  },
+  {
+   "start": 15.35,
+   "end": 20.0,
+   "en": "Chloe's Poppit Show",
+   "i": 3,
+   "zh": "克洛伊的波皮特秀"
+  },
+  {
+   "start": 20.001,
+   "end": 25.0,
+   "en": "Peppa and her family are visiting Uncle Pig and Auntie Pig and cousin Chloe.",
+   "i": 4,
+   "zh": "佩奇和她的家人正在拜访猪叔叔和猪阿姨以及克洛伊姐姐。"
+  },
+  {
+   "start": 25.001,
+   "end": 29.0,
+   "en": "I expect Uncle Pig will fall asleep after lunch like he always does.",
+   "i": 5,
+   "zh": "我希望猪叔叔会像往常一样午饭后睡着。"
+  },
+  {
+   "start": 29.001,
+   "end": 31.538,
+   "en": "Daddy Pig, you shouldn't say such things about your",
+   "i": 6,
+   "zh": "猪爸爸，你不应该说这样的话"
+  },
+  {
+   "start": 31.562,
+   "end": 34.012,
+   "en": "own brother, especially in front of the children.",
+   "i": 7,
+   "zh": "自己的兄弟，尤其是在孩子们面前。"
+  },
+  {
+   "start": 34.013,
+   "end": 37.304,
+   "en": "But it's true. Uncle Pig always eats too much",
+   "i": 8,
+   "zh": "但这是真的。猪叔叔总是吃得太多"
+  },
+  {
+   "start": 37.328,
+   "end": 41.0,
+   "en": "lunch and falls asleep, snoring loudly, like this.",
+   "i": 9,
+   "zh": "吃完午饭就睡着了，鼾声很大，就这样。"
+  },
+  {
+   "start": 46.001,
+   "end": 50.0,
+   "en": "Uh, Peppa, George, forget what I just said about Uncle Pig.",
+   "i": 10,
+   "zh": "呃，佩奇，乔治，忘记我刚才说的猪叔叔了。"
+  },
+  {
+   "start": 50.001,
+   "end": 55.0,
+   "en": "Okay, Daddy.",
+   "i": 11,
+   "zh": "好的，爸爸。"
+  },
+  {
+   "start": 55.001,
+   "end": 59.0,
+   "en": "Peppa and her family have arrived at Uncle Pig and Auntie Pig's house.",
+   "i": 12,
+   "zh": "佩奇和她的家人已经到达猪叔叔和猪阿姨家了。"
+  },
+  {
+   "start": 59.099,
+   "end": 61.0,
+   "en": "Hello, Auntie Pig and Uncle Pig.",
+   "i": 13,
+   "zh": "你好，猪阿姨和猪叔叔。"
+  },
+  {
+   "start": 61.001,
+   "end": 63.0,
+   "en": "Hello.",
+   "i": 14,
+   "zh": "你好。"
+  },
+  {
+   "start": 63.149,
+   "end": 64.0,
+   "en": "Hello, everyone.",
+   "i": 15,
+   "zh": "大家好。"
+  },
+  {
+   "start": 64.001,
+   "end": 66.0,
+   "en": "Hello, big brother.",
+   "i": 16,
+   "zh": "大哥你好。"
+  },
+  {
+   "start": 66.001,
+   "end": 71.0,
+   "en": "Uncle Pig is Daddy Pig's brother. Chloe Pig is Peppa and George's cousin.",
+   "i": 17,
+   "zh": "猪叔叔是猪爸爸的弟弟。克洛伊猪是佩奇和乔治的表弟。"
+  },
+  {
+   "start": 71.001,
+   "end": 72.001,
+   "en": "Hello, Chloe.",
+   "i": 18,
+   "zh": "你好，克洛伊。"
+  },
+  {
+   "start": 72.249,
+   "end": 77.0,
+   "en": "Hello, Peppa. Hello, George. I want to show you something.",
+   "i": 19,
+   "zh": "你好，佩奇。你好，乔治。我想给你看一些东西。"
+  },
+  {
+   "start": 78.0,
+   "end": 86.0,
+   "en": "This is my new puppet theatre. My daddy made it for me.",
+   "i": 20,
+   "zh": "这是我的新木偶剧院。我爸爸为我做的。"
+  },
+  {
+   "start": 86.049,
+   "end": 88.0,
+   "en": "Wow!",
+   "i": 21,
+   "zh": "哇！"
+  },
+  {
+   "start": 88.001,
+   "end": 93.0,
+   "en": "I've made two puppets already. This one is called Chloe.",
+   "i": 22,
+   "zh": "我已经制作了两个木偶了。这个人名叫克洛伊。"
+  },
+  {
+   "start": 93.449,
+   "end": 98.0,
+   "en": "Hello. I am Chloe Pig.",
+   "i": 23,
+   "zh": "你好。我是克洛伊猪。"
+  },
+  {
+   "start": 98.199,
+   "end": 101.0,
+   "en": "And this one is my daddy, Uncle Pig.",
+   "i": 24,
+   "zh": "这是我的爸爸，猪叔叔。"
+  },
+  {
+   "start": 101.549,
+   "end": 106.0,
+   "en": "Hello, Peppa. I am Uncle Pig.",
+   "i": 25,
+   "zh": "你好，佩奇。我是猪叔叔。"
+  },
+  {
+   "start": 106.001,
+   "end": 110.0,
+   "en": "Chloe, can me and George make puppets, too?",
+   "i": 26,
+   "zh": "克洛伊，我和乔治也可以制作木偶吗？"
+  },
+  {
+   "start": 110.001,
+   "end": 113.0,
+   "en": "Yes.",
+   "i": 27,
+   "zh": "是的。"
+  },
+  {
+   "start": 113.001,
+   "end": 116.0,
+   "en": "Chloe paints the puppets' eyes.",
+   "i": 28,
+   "zh": "克洛伊画木偶的眼睛。"
+  },
+  {
+   "start": 116.001,
+   "end": 117.0,
+   "en": "Can I do the mouth?",
+   "i": 29,
+   "zh": "我可以做嘴吗？"
+  },
+  {
+   "start": 117.001,
+   "end": 120.0,
+   "en": "Okay.",
+   "i": 30,
+   "zh": "好吧。"
+  },
+  {
+   "start": 120.099,
+   "end": 123.0,
+   "en": "My name is Peppa.",
+   "i": 31,
+   "zh": "我叫佩奇。"
+  },
+  {
+   "start": 123.001,
+   "end": 126.0,
+   "en": "George, what puppet would you like to make?",
+   "i": 32,
+   "zh": "乔治，你想制作什么木偶？"
+  },
+  {
+   "start": 126.001,
+   "end": 127.0,
+   "en": "Dinosaur.",
+   "i": 33,
+   "zh": "恐龙。"
+  },
+  {
+   "start": 127.001,
+   "end": 129.0,
+   "en": "A dinosaur?",
+   "i": 34,
+   "zh": "恐龙？"
+  },
+  {
+   "start": 129.075,
+   "end": 133.0,
+   "en": "George always says dinosaur for everything.",
+   "i": 35,
+   "zh": "乔治总是说一切都是恐龙。"
+  },
+  {
+   "start": 133.001,
+   "end": 137.0,
+   "en": "Okay. A scary dinosaur puppet.",
+   "i": 36,
+   "zh": "好的。一个可怕的恐龙木偶。"
+  },
+  {
+   "start": 137.001,
+   "end": 140.0,
+   "en": "Chloe is making George a dinosaur puppet.",
+   "i": 37,
+   "zh": "克洛伊正在把乔治变成恐龙木偶。"
+  },
+  {
+   "start": 140.001,
+   "end": 142.0,
+   "en": "It needs pointy teeth.",
+   "i": 38,
+   "zh": "它需要尖牙。"
+  },
+  {
+   "start": 142.001,
+   "end": 146.0,
+   "en": "There. A scary dinosaur.",
+   "i": 39,
+   "zh": "那里。一只可怕的恐龙。"
+  },
+  {
+   "start": 146.001,
+   "end": 149.0,
+   "en": "Girl.",
+   "i": 40,
+   "zh": "女孩。"
+  },
+  {
+   "start": 149.001,
+   "end": 151.0,
+   "en": "Lunchtime, everyone.",
+   "i": 41,
+   "zh": "午餐时间，大家。"
+  },
+  {
+   "start": 151.001,
+   "end": 152.0,
+   "en": "Coming.",
+   "i": 42,
+   "zh": "来了。"
+  },
+  {
+   "start": 152.001,
+   "end": 155.0,
+   "en": "After lunch, we'll do a puppet show.",
+   "i": 43,
+   "zh": "午餐后，我们将表演木偶戏。"
+  },
+  {
+   "start": 155.001,
+   "end": 157.0,
+   "en": "Hooray!",
+   "i": 44,
+   "zh": "好耶！"
+  },
+  {
+   "start": 157.001,
+   "end": 162.0,
+   "en": "Auntie Pig has made spaghetti for lunch.",
+   "i": 45,
+   "zh": "猪阿姨做了意大利面当午餐。"
+  },
+  {
+   "start": 162.5,
+   "end": 166.0,
+   "en": "This spaghetti is delicious.",
+   "i": 46,
+   "zh": "这个意大利面很好吃。"
+  },
+  {
+   "start": 166.001,
+   "end": 168.0,
+   "en": "Best spaghetti ever.",
+   "i": 47,
+   "zh": "有史以来最好的意大利面。"
+  },
+  {
+   "start": 168.4,
+   "end": 173.0,
+   "en": "You can tell you two are brothers alike in every way.",
+   "i": 48,
+   "zh": "你可以说你们两个在各方面都是兄弟。"
+  },
+  {
+   "start": 173.001,
+   "end": 175.0,
+   "en": "What do you mean?",
+   "i": 49,
+   "zh": "什么意思？"
+  },
+  {
+   "start": 175.001,
+   "end": 180.0,
+   "en": "We are completely different.",
+   "i": 50,
+   "zh": "我们完全不同。"
+  },
+  {
+   "start": 180.001,
+   "end": 184.0,
+   "en": "Peppa, George and I are going to do a puppet show.",
+   "i": 51,
+   "zh": "佩奇，乔治和我要表演木偶戏。"
+  },
+  {
+   "start": 184.001,
+   "end": 186.0,
+   "en": "Fantastic. Call us when you're ready.",
+   "i": 52,
+   "zh": "太棒了。准备好后请致电我们。"
+  },
+  {
+   "start": 186.001,
+   "end": 188.0,
+   "en": "See you later.",
+   "i": 53,
+   "zh": "回头见。"
+  },
+  {
+   "start": 188.025,
+   "end": 190.0,
+   "en": "A puppet show? That sounds fun.",
+   "i": 54,
+   "zh": "木偶戏？听起来很有趣。"
+  },
+  {
+   "start": 190.35,
+   "end": 193.0,
+   "en": "Have I got time for some more spaghetti?",
+   "i": 55,
+   "zh": "我还有时间再吃点意大利面吗？"
+  },
+  {
+   "start": 193.001,
+   "end": 197.0,
+   "en": "Could I have some more too?",
+   "i": 56,
+   "zh": "我还能再要一些吗？"
+  },
+  {
+   "start": 197.15,
+   "end": 203.0,
+   "en": "The puppet show is about to begin.",
+   "i": 57,
+   "zh": "木偶戏即将开始。"
+  },
+  {
+   "start": 203.001,
+   "end": 206.0,
+   "en": "Hello. My name is Chloe.",
+   "i": 58,
+   "zh": "你好。我叫克洛伊。"
+  },
+  {
+   "start": 206.001,
+   "end": 209.0,
+   "en": "And I am Peppa.",
+   "i": 59,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 209.001,
+   "end": 212.0,
+   "en": "Ah! It's a dinosaur.",
+   "i": 60,
+   "zh": "啊！这是一只恐龙。"
+  },
+  {
+   "start": 212.001,
+   "end": 216.0,
+   "en": "A scary dinosaur.",
+   "i": 61,
+   "zh": "可怕的恐龙。"
+  },
+  {
+   "start": 216.001,
+   "end": 218.0,
+   "en": "Oh, say, that's very good.",
+   "i": 62,
+   "zh": "哦，说吧，那很好。"
+  },
+  {
+   "start": 218.001,
+   "end": 219.001,
+   "en": "Bravo!",
+   "i": 63,
+   "zh": "太棒了！"
+  },
+  {
+   "start": 219.35,
+   "end": 221.0,
+   "en": "I am Uncle Pig.",
+   "i": 64,
+   "zh": "我是猪叔叔。"
+  },
+  {
+   "start": 221.001,
+   "end": 223.0,
+   "en": "Hello, Uncle Pig.",
+   "i": 65,
+   "zh": "你好，猪叔叔。"
+  },
+  {
+   "start": 223.001,
+   "end": 226.0,
+   "en": "Hello, Peppa. Ho, ho, ho.",
+   "i": 66,
+   "zh": "你好，佩奇。嗬，嗬，嗬。"
+  },
+  {
+   "start": 226.2,
+   "end": 228.0,
+   "en": "It looks just like you.",
+   "i": 67,
+   "zh": "看起来就像你一样。"
+  },
+  {
+   "start": 228.001,
+   "end": 230.0,
+   "en": "I think they've made my tummy a bit big.",
+   "i": 68,
+   "zh": "我觉得他们让我的肚子有点大了。"
+  },
+  {
+   "start": 230.001,
+   "end": 234.0,
+   "en": "Oh, ho. I did enjoy my lunch.",
+   "i": 69,
+   "zh": "哦，嗬。我确实很享受我的午餐。"
+  },
+  {
+   "start": 234.001,
+   "end": 238.0,
+   "en": "Uncle Pig, are you going to fall asleep",
+   "i": 70,
+   "zh": "猪叔叔，你要睡觉了吗"
+  },
+  {
+   "start": 238.25,
+   "end": 241.0,
+   "en": "and snore like you always do?",
+   "i": 71,
+   "zh": "还像往常一样打呼噜？"
+  },
+  {
+   "start": 241.001,
+   "end": 243.0,
+   "en": "What do you mean?",
+   "i": 72,
+   "zh": "什么意思？"
+  },
+  {
+   "start": 243.001,
+   "end": 249.0,
+   "en": "Daddy says you always fall asleep and snore loudly, like this.",
+   "i": 73,
+   "zh": "爸爸说你总是睡着了，鼾声如雷。"
+  },
+  {
+   "start": 249.025,
+   "end": 256.772,
+   "en": "Ho, ho.",
+   "i": 74,
+   "zh": "嗬嗬。"
+  },
+  {
+   "start": 256.773,
+   "end": 257.101,
+   "en": "Your daddy's right.",
+   "i": 75,
+   "zh": "你爸爸说得对。"
+  },
+  {
+   "start": 257.125,
+   "end": 259.0,
+   "en": "I do snore like this.",
+   "i": 76,
+   "zh": "我就是这样打呼噜。"
+  },
+  {
+   "start": 262.001,
+   "end": 265.0,
+   "en": "Daddy Pig, you shouldn't have said those things about Uncle Pig.",
+   "i": 77,
+   "zh": "猪爸爸，你不应该说猪叔叔那些话。"
+  },
+  {
+   "start": 265.001,
+   "end": 269.0,
+   "en": "I don't think Daddy Pig or Uncle Pig can hear you.",
+   "i": 78,
+   "zh": "我觉得猪爸爸或猪叔叔听不到你说话。"
+  },
+  {
+   "start": 269.001,
+   "end": 272.0,
+   "en": "Daddy Pig and Uncle Pig have fallen asleep.",
+   "i": 79,
+   "zh": "猪爸爸和猪叔叔睡着了。"
+  },
+  {
+   "start": 272.001,
+   "end": 275.0,
+   "en": "You can tell they are brothers.",
+   "i": 80,
+   "zh": "看得出他们是兄弟。"
+  },
+  {
+   "start": 276.001,
+   "end": 277.0,
+   "en": "Hey, what happened?",
+   "i": 81,
+   "zh": "嘿，发生了什么事？"
+  },
+  {
+   "start": 277.001,
+   "end": 280.0,
+   "en": "Huh? Has the puppet show started yet?",
+   "i": 82,
+   "zh": "嗯？木偶戏开始了吗？"
+  },
+  {
+   "start": 285.025,
+   "end": 289.0,
+   "en": "Peppa Pig.",
+   "i": 83,
+   "zh": "佩奇。"
+  },
+  {
+   "start": 289.001,
+   "end": 294.0,
+   "en": "Peppa Pig.",
+   "i": 84,
+   "zh": "佩奇。"
+  },
+  {
+   "start": 294.001,
+   "end": 298.0,
+   "en": "Peppa Pig.",
+   "i": 85,
+   "zh": "佩奇。"
+  }
+ ]
+}

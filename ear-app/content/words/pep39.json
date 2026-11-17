@@ -1,0 +1,89 @@
+{
+ "id": "pep39",
+ "words": [
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "museum",
+   "zh": "博物馆",
+   "emoji": "🏛️",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Older than you?",
+   "zh": "比你大？",
+   "emoji": "💬",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "dinosaur",
+   "zh": "恐龙",
+   "emoji": "🦕",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "crown",
+   "zh": "王冠",
+   "emoji": "👑",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "look",
+   "zh": "看",
+   "emoji": "👀",
+   "line": 30
+  },
+  {
+   "type": "word",
+   "en": "cake",
+   "zh": "蛋糕",
+   "emoji": "🎂",
+   "line": 38
+  },
+  {
+   "type": "phrase",
+   "en": "Come on everyone.",
+   "zh": "大家加油。",
+   "emoji": "💬",
+   "line": 44
+  },
+  {
+   "type": "word",
+   "en": "small",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 60
+  },
+  {
+   "type": "word",
+   "en": "big",
+   "zh": "大的",
+   "emoji": "🐘",
+   "line": 61
+  }
+ ]
+}

@@ -1,0 +1,673 @@
+{
+ "id": "pep35",
+ "title": "Camping",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.5,
+   "end": 7.124,
+   "en": "I'm Peppa Pig, this is my little brother",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟"
+  },
+  {
+   "start": 7.148,
+   "end": 11.5,
+   "en": "George, this is Mummy Pig and this is Daddy Pig.",
+   "i": 2,
+   "zh": "乔治，这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.501,
+   "end": 18.58,
+   "en": "Peppa Pig camping.",
+   "i": 3,
+   "zh": "佩奇露营。"
+  },
+  {
+   "start": 18.581,
+   "end": 20.72,
+   "en": "Peppa and her family are going camping.",
+   "i": 4,
+   "zh": "佩奇和她的家人要去露营。"
+  },
+  {
+   "start": 20.721,
+   "end": 24.8,
+   "en": "I love camping.",
+   "i": 5,
+   "zh": "我喜欢露营。"
+  },
+  {
+   "start": 27.32,
+   "end": 35.32,
+   "en": "We're here, Peppa, George, this is the tent I had when I was a little boy.",
+   "i": 6,
+   "zh": "我们在这里，佩奇，乔治，这是我小时候的帐篷。"
+  },
+  {
+   "start": 35.469,
+   "end": 40.2,
+   "en": "Daddy, how are you going to make that into a tent?",
+   "i": 7,
+   "zh": "爸爸，你要怎么把它做成帐篷呢？"
+  },
+  {
+   "start": 40.201,
+   "end": 44.2,
+   "en": "Don't worry Peppa, I'm an expert at camping.",
+   "i": 8,
+   "zh": "别担心佩奇，我是露营专家。"
+  },
+  {
+   "start": 44.201,
+   "end": 47.84,
+   "en": "Mummy Pig, put the tent on the poles please.",
+   "i": 9,
+   "zh": "猪妈妈，请把帐篷放在柱子上。"
+  },
+  {
+   "start": 47.841,
+   "end": 50.4,
+   "en": "That's it, easy as pie.",
+   "i": 10,
+   "zh": "就是这样，简单易行。"
+  },
+  {
+   "start": 50.401,
+   "end": 51.401,
+   "en": "Oh.",
+   "i": 11,
+   "zh": "哦。"
+  },
+  {
+   "start": 51.549,
+   "end": 53.32,
+   "en": "Do these pegs do anything?",
+   "i": 12,
+   "zh": "这些钉子有什么作用吗？"
+  },
+  {
+   "start": 53.569,
+   "end": 57.5,
+   "en": "Of course, I forgot about the pegs.",
+   "i": 13,
+   "zh": "当然，我忘记了钉子。"
+  },
+  {
+   "start": 57.501,
+   "end": 59.76,
+   "en": "The pegs hold the tent up.",
+   "i": 14,
+   "zh": "钉子把帐篷撑起来。"
+  },
+  {
+   "start": 59.761,
+   "end": 60.76,
+   "en": "There.",
+   "i": 15,
+   "zh": "好啦。"
+  },
+  {
+   "start": 60.761,
+   "end": 64.64,
+   "en": "The tent is a bit little.",
+   "i": 16,
+   "zh": "帐篷有点小。"
+  },
+  {
+   "start": 64.641,
+   "end": 69.96,
+   "en": "It was big enough for me when I was a boy, but it does look a bit small now.",
+   "i": 17,
+   "zh": "当我还是个男孩的时候，它对我来说已经足够大了，但现在看起来确实有点小。"
+  },
+  {
+   "start": 69.961,
+   "end": 73.2,
+   "en": "That's because you've grown a bit since you were a boy, Daddy Pig.",
+   "i": 18,
+   "zh": "那是因为你从小时候开始长大了一点，猪爸爸。"
+  },
+  {
+   "start": 73.399,
+   "end": 78.28,
+   "en": "And your tummy has grown the most of all.",
+   "i": 19,
+   "zh": "最重要的是你的肚子变大了。"
+  },
+  {
+   "start": 78.281,
+   "end": 81.44,
+   "en": "Talking of tummies, we should cook supper.",
+   "i": 20,
+   "zh": "说到肚子，我们应该煮晚饭了。"
+  },
+  {
+   "start": 81.441,
+   "end": 82.441,
+   "en": "Yes.",
+   "i": 21,
+   "zh": "是的。"
+  },
+  {
+   "start": 82.489,
+   "end": 86.8,
+   "en": "First, we have to collect sticks to make a fire.",
+   "i": 22,
+   "zh": "首先，我们必须收集木棍来生火。"
+  },
+  {
+   "start": 86.801,
+   "end": 90.12,
+   "en": "Peppa and George are helping Daddy Pig collect sticks for the campfire.",
+   "i": 23,
+   "zh": "佩奇和乔治正在帮助猪爸爸收集篝火的木棍。"
+  },
+  {
+   "start": 90.121,
+   "end": 97.8,
+   "en": "George, I'll pick up the sticks and you can carry them.",
+   "i": 24,
+   "zh": "乔治，我把棍子捡起来，你拿着。"
+  },
+  {
+   "start": 97.801,
+   "end": 100.92,
+   "en": "Collecting sticks is fun.",
+   "i": 25,
+   "zh": "收集棍子很有趣。"
+  },
+  {
+   "start": 100.921,
+   "end": 107.44,
+   "en": "Good, that's enough sticks.",
+   "i": 26,
+   "zh": "好，棍子够了。"
+  },
+  {
+   "start": 107.441,
+   "end": 109.88,
+   "en": "That's a splendid campfire.",
+   "i": 27,
+   "zh": "那是一场绚丽的篝火。"
+  },
+  {
+   "start": 109.881,
+   "end": 110.88,
+   "en": "Now I'll light it.",
+   "i": 28,
+   "zh": "现在我把它点燃。"
+  },
+  {
+   "start": 110.881,
+   "end": 111.88,
+   "en": "Here are the matches.",
+   "i": 29,
+   "zh": "这是匹配项。"
+  },
+  {
+   "start": 111.881,
+   "end": 113.88,
+   "en": "Oh, we don't need matches.",
+   "i": 30,
+   "zh": "哦，我们不需要火柴。"
+  },
+  {
+   "start": 113.881,
+   "end": 117.84,
+   "en": "Daddy, how can you light it without matches?",
+   "i": 31,
+   "zh": "爸爸，没有火柴怎么点灯呢？"
+  },
+  {
+   "start": 117.841,
+   "end": 123.36,
+   "en": "I'm going to make fire the old way by simply rubbing these two sticks together.",
+   "i": 32,
+   "zh": "我要用老方法生火，只需将这两根棍子摩擦在一起即可。"
+  },
+  {
+   "start": 123.361,
+   "end": 126.96,
+   "en": "Daddy Pig is rubbing the two sticks together to light the campfire.",
+   "i": 33,
+   "zh": "猪爸爸正在摩擦两根木棍来点燃篝火。"
+  },
+  {
+   "start": 126.96,
+   "end": 131.08,
+   "en": "Where is the fire, Daddy?",
+   "i": 34,
+   "zh": "爸爸，火在哪里？"
+  },
+  {
+   "start": 131.081,
+   "end": 133.08,
+   "en": "Nearly there.",
+   "i": 35,
+   "zh": "快到了。"
+  },
+  {
+   "start": 133.081,
+   "end": 134.48,
+   "en": "Hooray!",
+   "i": 36,
+   "zh": "好耶！"
+  },
+  {
+   "start": 134.505,
+   "end": 140.2,
+   "en": "Easy as pie.",
+   "i": 37,
+   "zh": "小菜一碟。"
+  },
+  {
+   "start": 140.201,
+   "end": 143.32,
+   "en": "Now we can heat up the tomato soup.",
+   "i": 38,
+   "zh": "现在我们可以加热番茄汤了。"
+  },
+  {
+   "start": 143.47,
+   "end": 147.72,
+   "en": "Ah, listen to the sounds of nature.",
+   "i": 39,
+   "zh": "啊，聆听大自然的声音。"
+  },
+  {
+   "start": 147.721,
+   "end": 149.72,
+   "en": "What is that sound?",
+   "i": 40,
+   "zh": "那是什么声音？"
+  },
+  {
+   "start": 149.721,
+   "end": 153.64,
+   "en": "That is the sound of crickets chirping.",
+   "i": 41,
+   "zh": "那是蟋蟀鸣叫的声音。"
+  },
+  {
+   "start": 153.641,
+   "end": 154.64,
+   "en": "What is that?",
+   "i": 42,
+   "zh": "那是什么？"
+  },
+  {
+   "start": 154.641,
+   "end": 155.64,
+   "en": "That's an owl.",
+   "i": 43,
+   "zh": "那是一只猫头鹰。"
+  },
+  {
+   "start": 155.641,
+   "end": 159.64,
+   "en": "Look, there it is.",
+   "i": 44,
+   "zh": "看，就在那里。"
+  },
+  {
+   "start": 159.641,
+   "end": 160.641,
+   "en": "Wow!",
+   "i": 45,
+   "zh": "哇！"
+  },
+  {
+   "start": 161.015,
+   "end": 164.04,
+   "en": "And what's that noise?",
+   "i": 46,
+   "zh": "那是什么声音？"
+  },
+  {
+   "start": 164.74,
+   "end": 166.8,
+   "en": "Oh, I'm not sure.",
+   "i": 47,
+   "zh": "哦，我不确定。"
+  },
+  {
+   "start": 166.801,
+   "end": 171.6,
+   "en": "It's Daddy's tummy.",
+   "i": 48,
+   "zh": "爸爸的肚子。"
+  },
+  {
+   "start": 171.601,
+   "end": 174.72,
+   "en": "My tummy rumbling is one of the best sounds of nature.",
+   "i": 49,
+   "zh": "我肚子的咕噜声是大自然中最好的声音之一。"
+  },
+  {
+   "start": 174.945,
+   "end": 176.76,
+   "en": "It means it's time to eat.",
+   "i": 50,
+   "zh": "这意味着该吃饭了。"
+  },
+  {
+   "start": 177.51,
+   "end": 179.8,
+   "en": "I love tomato soup.",
+   "i": 51,
+   "zh": "我喜欢番茄汤。"
+  },
+  {
+   "start": 179.801,
+   "end": 183.6,
+   "en": "So do I.",
+   "i": 52,
+   "zh": "我也是。"
+  },
+  {
+   "start": 183.601,
+   "end": 186.76,
+   "en": "There's another one of Daddy Pig's sounds of nature.",
+   "i": 53,
+   "zh": "猪爸爸的天籁之音又来了。"
+  },
+  {
+   "start": 186.761,
+   "end": 187.76,
+   "en": "Eh?",
+   "i": 54,
+   "zh": "呃？"
+  },
+  {
+   "start": 187.761,
+   "end": 188.761,
+   "en": "What?",
+   "i": 55,
+   "zh": "什么？"
+  },
+  {
+   "start": 189.01,
+   "end": 192.4,
+   "en": "Come on, children, into the tent.",
+   "i": 56,
+   "zh": "来吧，孩子们，进帐篷吧。"
+  },
+  {
+   "start": 192.401,
+   "end": 193.4,
+   "en": "It's bedtime.",
+   "i": 57,
+   "zh": "睡觉时间到了。"
+  },
+  {
+   "start": 193.401,
+   "end": 194.4,
+   "en": "We won't all fit in.",
+   "i": 58,
+   "zh": "我们不会全部融入。"
+  },
+  {
+   "start": 194.401,
+   "end": 195.4,
+   "en": "The tent is too little.",
+   "i": 59,
+   "zh": "帐篷太小了。"
+  },
+  {
+   "start": 195.401,
+   "end": 197.42,
+   "en": "The tent is too little.",
+   "i": 60,
+   "zh": "帐篷太小了。"
+  },
+  {
+   "start": 197.421,
+   "end": 199.04,
+   "en": "It will be fine.",
+   "i": 61,
+   "zh": "会好的。"
+  },
+  {
+   "start": 199.041,
+   "end": 201.64,
+   "en": "In you go.",
+   "i": 62,
+   "zh": "你走吧。"
+  },
+  {
+   "start": 201.765,
+   "end": 203.64,
+   "en": "Move further in, Mummy Pig.",
+   "i": 63,
+   "zh": "再进去一点，猪妈妈。"
+  },
+  {
+   "start": 203.84,
+   "end": 209.08,
+   "en": "Daddy, you're too big for the tent.",
+   "i": 64,
+   "zh": "爸爸，你太大了，装不下帐篷。"
+  },
+  {
+   "start": 209.081,
+   "end": 210.08,
+   "en": "Never mind.",
+   "i": 65,
+   "zh": "没关系。"
+  },
+  {
+   "start": 210.081,
+   "end": 212.4,
+   "en": "I'd rather sleep outside anyway.",
+   "i": 66,
+   "zh": "无论如何我宁愿睡在外面。"
+  },
+  {
+   "start": 212.401,
+   "end": 213.4,
+   "en": "Good night, Daddy Pig.",
+   "i": 67,
+   "zh": "晚安，猪爸爸。"
+  },
+  {
+   "start": 213.401,
+   "end": 214.4,
+   "en": "Good night, Daddy.",
+   "i": 68,
+   "zh": "晚安，爸爸。"
+  },
+  {
+   "start": 214.401,
+   "end": 215.401,
+   "en": "Night, night.",
+   "i": 69,
+   "zh": "夜，夜。"
+  },
+  {
+   "start": 215.625,
+   "end": 216.92,
+   "en": "Good night, everyone.",
+   "i": 70,
+   "zh": "大家晚安。"
+  },
+  {
+   "start": 216.921,
+   "end": 221.0,
+   "en": "Mummy Pig, Peppa and George are sleeping in the tent.",
+   "i": 71,
+   "zh": "猪妈妈、佩奇和乔治正在帐篷里睡觉。"
+  },
+  {
+   "start": 221.001,
+   "end": 223.6,
+   "en": "Daddy Pig is sleeping outside under the stars.",
+   "i": 72,
+   "zh": "猪爸爸正在外面的星空下睡觉。"
+  },
+  {
+   "start": 223.601,
+   "end": 226.84,
+   "en": "Ah, I love camping.",
+   "i": 73,
+   "zh": "啊，我喜欢露营。"
+  },
+  {
+   "start": 226.841,
+   "end": 232.0,
+   "en": "Sleeping in the open air with the stars above me.",
+   "i": 74,
+   "zh": "睡在露天，头顶是星星。"
+  },
+  {
+   "start": 232.001,
+   "end": 236.2,
+   "en": "Maybe this wasn't such a good idea after all.",
+   "i": 75,
+   "zh": "也许这根本不是一个好主意。"
+  },
+  {
+   "start": 236.201,
+   "end": 239.92,
+   "en": "It is morning.",
+   "i": 76,
+   "zh": "现在是早上。"
+  },
+  {
+   "start": 239.921,
+   "end": 244.44,
+   "en": "Daddy, it was lovely and cosy in the tent.",
+   "i": 77,
+   "zh": "爸爸，帐篷里可爱又舒适。"
+  },
+  {
+   "start": 244.441,
+   "end": 246.74,
+   "en": "Oh, where's Daddy?",
+   "i": 78,
+   "zh": "噢，爸爸在哪儿？"
+  },
+  {
+   "start": 246.741,
+   "end": 248.28,
+   "en": "Daddy Pig has gone.",
+   "i": 79,
+   "zh": "猪爸爸走了。"
+  },
+  {
+   "start": 248.281,
+   "end": 249.281,
+   "en": "Poor Daddy Pig.",
+   "i": 80,
+   "zh": "可怜的猪爸爸。"
+  },
+  {
+   "start": 249.63,
+   "end": 251.68,
+   "en": "He must have been cold and wet.",
+   "i": 81,
+   "zh": "他一定又冷又湿。"
+  },
+  {
+   "start": 251.98,
+   "end": 254.0,
+   "en": "And now where is he?",
+   "i": 82,
+   "zh": "那么他现在在哪里？"
+  },
+  {
+   "start": 255.001,
+   "end": 256.44,
+   "en": "What's that sound?",
+   "i": 83,
+   "zh": "那是什么声音？"
+  },
+  {
+   "start": 256.441,
+   "end": 258.56,
+   "en": "It sounds like flooring.",
+   "i": 84,
+   "zh": "听起来像地板。"
+  },
+  {
+   "start": 258.561,
+   "end": 260.56,
+   "en": "Daddy Pig!",
+   "i": 85,
+   "zh": "猪爸爸！"
+  },
+  {
+   "start": 260.561,
+   "end": 261.56,
+   "en": "What?",
+   "i": 86,
+   "zh": "什么？"
+  },
+  {
+   "start": 261.561,
+   "end": 262.56,
+   "en": "Daddy!",
+   "i": 87,
+   "zh": "爸爸！"
+  },
+  {
+   "start": 262.561,
+   "end": 263.56,
+   "en": "You're safe.",
+   "i": 88,
+   "zh": "你安全了。"
+  },
+  {
+   "start": 264.561,
+   "end": 265.56,
+   "en": "Of course I'm safe.",
+   "i": 89,
+   "zh": "我当然安全了。"
+  },
+  {
+   "start": 265.561,
+   "end": 266.56,
+   "en": "I'm an expert at camping.",
+   "i": 90,
+   "zh": "我是露营专家。"
+  },
+  {
+   "start": 266.561,
+   "end": 267.56,
+   "en": "I slept in the car.",
+   "i": 91,
+   "zh": "我睡在车里。"
+  },
+  {
+   "start": 267.561,
+   "end": 269.56,
+   "en": "Silly Daddy.",
+   "i": 92,
+   "zh": "傻爸爸。"
+  },
+  {
+   "start": 269.561,
+   "end": 271.56,
+   "en": "I love camping.",
+   "i": 93,
+   "zh": "我喜欢露营。"
+  },
+  {
+   "start": 278.24,
+   "end": 286.24,
+   "en": "Peppa Pig...",
+   "i": 94,
+   "zh": "佩奇..."
+  },
+  {
+   "start": 288.96,
+   "end": 299.12,
+   "en": "Peppa Pig... Peppa Pig...",
+   "i": 95,
+   "zh": "佩奇... 佩奇..."
+  }
+ ]
+}

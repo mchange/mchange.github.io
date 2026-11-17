@@ -1,0 +1,512 @@
+{
+ "id": "pep52",
+ "title": "School Play",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 8.0,
+   "end": 11.828,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 11.852,
+   "end": 16.012,
+   "en": "This is Mummy Pig. And this is Daddy Pig. Peppa Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。小猪佩奇。"
+  },
+  {
+   "start": 18.0,
+   "end": 20.0,
+   "en": "School Play",
+   "i": 3,
+   "zh": "学校剧"
+  },
+  {
+   "start": 20.001,
+   "end": 26.0,
+   "en": "Peppa's play group are going to put on a play. The Little Red Riding Hood. Hooray!",
+   "i": 4,
+   "zh": "佩奇剧组要上演话剧。小红帽。万岁！"
+  },
+  {
+   "start": 26.001,
+   "end": 32.0,
+   "en": "All the children have parts in the play. They have to practice at home.",
+   "i": 5,
+   "zh": "所有的孩子都在剧中扮演角色。他们必须在家练习。"
+  },
+  {
+   "start": 32.001,
+   "end": 34.739,
+   "en": "Peppa is going to be Little Red Riding Hood.",
+   "i": 6,
+   "zh": "佩奇将成为小红帽。"
+  },
+  {
+   "start": 34.763,
+   "end": 39.012,
+   "en": "Mummy Pig has made her costume. Daddy Pig is helping Peppa practice.",
+   "i": 7,
+   "zh": "猪妈妈做了服装。猪爸爸正在帮助佩奇练习。"
+  },
+  {
+   "start": 39.013,
+   "end": 42.0,
+   "en": "OK Peppa, what do you say?",
+   "i": 8,
+   "zh": "好的佩奇，你说呢？"
+  },
+  {
+   "start": 42.001,
+   "end": 44.0,
+   "en": "I'm Little Red Riding Hood.",
+   "i": 9,
+   "zh": "我是小红帽。"
+  },
+  {
+   "start": 44.05,
+   "end": 46.0,
+   "en": "Very good. Then what?",
+   "i": 10,
+   "zh": "非常好。然后呢？"
+  },
+  {
+   "start": 46.299,
+   "end": 49.0,
+   "en": "I'm going to visit my Grandma.",
+   "i": 11,
+   "zh": "我要去拜访我的奶奶。"
+  },
+  {
+   "start": 49.001,
+   "end": 51.0,
+   "en": "I'm going to visit my Grandma.",
+   "i": 12,
+   "zh": "我要去拜访我的奶奶。"
+  },
+  {
+   "start": 51.001,
+   "end": 54.0,
+   "en": "Bravo Peppa!",
+   "i": 13,
+   "zh": "好佩奇！"
+  },
+  {
+   "start": 54.001,
+   "end": 58.0,
+   "en": "Danny Dog is going to play the Big Bad Wolf.",
+   "i": 14,
+   "zh": "小狗丹尼要扮演大灰狼。"
+  },
+  {
+   "start": 58.399,
+   "end": 61.0,
+   "en": "Grandad Dog and Mummy Dog are helping him practice.",
+   "i": 15,
+   "zh": "狗爷爷和狗妈妈正在帮他练习。"
+  },
+  {
+   "start": 61.249,
+   "end": 63.0,
+   "en": "I'm the Big Bad Wolf.",
+   "i": 16,
+   "zh": "我是大灰狼。"
+  },
+  {
+   "start": 63.001,
+   "end": 65.0,
+   "en": "Try not to laugh Danny.",
+   "i": 17,
+   "zh": "尽量不要笑丹尼。"
+  },
+  {
+   "start": 65.001,
+   "end": 70.0,
+   "en": "You should be a bit scarier. Try it like this Danny.",
+   "i": 18,
+   "zh": "你应该更可怕一点。像丹尼一样尝试一下。"
+  },
+  {
+   "start": 71.0,
+   "end": 79.0,
+   "en": "I'm the Big Bad Wolf. I'm going to eat you all up.",
+   "i": 19,
+   "zh": "我是大灰狼。我要把你们都吃掉。"
+  },
+  {
+   "start": 79.1,
+   "end": 80.0,
+   "en": "You see?",
+   "i": 20,
+   "zh": "你看到了吗？"
+  },
+  {
+   "start": 80.001,
+   "end": 84.0,
+   "en": "Yes, that was really scary.",
+   "i": 21,
+   "zh": "是的，那真的很可怕。"
+  },
+  {
+   "start": 84.849,
+   "end": 90.0,
+   "en": "Pedro Pony is going to play the Hunter. He will rescue Peppa from the Big Bad Wolf.",
+   "i": 22,
+   "zh": "佩德罗小马将扮演猎人。他将从大灰狼手中救出佩奇。"
+  },
+  {
+   "start": 90.899,
+   "end": 94.0,
+   "en": "I'm the Hunter and...",
+   "i": 23,
+   "zh": "我是猎人并且..."
+  },
+  {
+   "start": 94.999,
+   "end": 96.0,
+   "en": "Pedro is a bit shy.",
+   "i": 24,
+   "zh": "佩德罗有点害羞。"
+  },
+  {
+   "start": 96.001,
+   "end": 101.0,
+   "en": "You say, I'm going to chase you away you Big Bad Wolf.",
+   "i": 25,
+   "zh": "你说，我要把你赶走，你这个大灰狼。"
+  },
+  {
+   "start": 101.599,
+   "end": 105.0,
+   "en": "Go away naughty wolf.",
+   "i": 26,
+   "zh": "走开，顽皮的狼。"
+  },
+  {
+   "start": 105.001,
+   "end": 107.0,
+   "en": "Very good Pedro.",
+   "i": 27,
+   "zh": "非常好的佩德罗。"
+  },
+  {
+   "start": 107.001,
+   "end": 110.0,
+   "en": "Rebecca Rabbit is going to be the Grandma.",
+   "i": 28,
+   "zh": "小兔瑞贝卡要当奶奶了。"
+  },
+  {
+   "start": 110.024,
+   "end": 112.0,
+   "en": "What do I say Mummy?",
+   "i": 29,
+   "zh": "妈妈我该说什么？"
+  },
+  {
+   "start": 112.001,
+   "end": 113.0,
+   "en": "Let's see.",
+   "i": 30,
+   "zh": "让我们看看。"
+  },
+  {
+   "start": 113.001,
+   "end": 117.0,
+   "en": "At the start of the play you get locked in a cupboard by the Big Bad Wolf.",
+   "i": 31,
+   "zh": "在游戏开始时，你被大灰狼锁在橱柜里。"
+  },
+  {
+   "start": 117.099,
+   "end": 121.0,
+   "en": "Then right at the end of the play you are rescued by the Hunter.",
+   "i": 32,
+   "zh": "然后在游戏结束时你被猎人救了。"
+  },
+  {
+   "start": 121.001,
+   "end": 125.0,
+   "en": "And you say, thank you.",
+   "i": 33,
+   "zh": "你说，谢谢。"
+  },
+  {
+   "start": 125.001,
+   "end": 127.0,
+   "en": "Thank you.",
+   "i": 34,
+   "zh": "谢谢。"
+  },
+  {
+   "start": 127.001,
+   "end": 129.0,
+   "en": "Very good Rebecca.",
+   "i": 35,
+   "zh": "非常好的丽贝卡。"
+  },
+  {
+   "start": 133.0,
+   "end": 136.0,
+   "en": "Everyone has come to see the school play.",
+   "i": 36,
+   "zh": "大家都来看学校的演出了。"
+  },
+  {
+   "start": 137.0,
+   "end": 145.0,
+   "en": "Ladies and gentlemen, welcome to our play, The Little Red Riding Hood.",
+   "i": 37,
+   "zh": "女士们先生们，欢迎观看我们的戏剧《小红帽》。"
+  },
+  {
+   "start": 145.001,
+   "end": 149.0,
+   "en": "First, let us meet the actors.",
+   "i": 38,
+   "zh": "首先让我们来认识一下演员们。"
+  },
+  {
+   "start": 155.0,
+   "end": 160.0,
+   "en": "Please, please, for the sake of the actors, no photography please.",
+   "i": 39,
+   "zh": "拜托拜托，为了演员的缘故，请勿拍照。"
+  },
+  {
+   "start": 162.0,
+   "end": 166.0,
+   "en": "And now our play begins.",
+   "i": 40,
+   "zh": "现在我们的比赛开始了。"
+  },
+  {
+   "start": 169.924,
+   "end": 173.0,
+   "en": "Grandma is at home.",
+   "i": 41,
+   "zh": "奶奶在家。"
+  },
+  {
+   "start": 173.001,
+   "end": 176.0,
+   "en": "But who is this visitor?",
+   "i": 42,
+   "zh": "但是这位访客是谁？"
+  },
+  {
+   "start": 176.001,
+   "end": 179.0,
+   "en": "I'm the Big Bad Wolf.",
+   "i": 43,
+   "zh": "我是大灰狼。"
+  },
+  {
+   "start": 179.001,
+   "end": 182.0,
+   "en": "Well done Danny.",
+   "i": 44,
+   "zh": "干得好，丹尼。"
+  },
+  {
+   "start": 182.7,
+   "end": 186.0,
+   "en": "Oh dear, Danny has forgotten what he says next.",
+   "i": 45,
+   "zh": "哦天哪，丹尼忘了他接下来要说什么。"
+  },
+  {
+   "start": 186.001,
+   "end": 189.0,
+   "en": "Grandma, you must go in the cupboard.",
+   "i": 46,
+   "zh": "奶奶，你必须去柜子里。"
+  },
+  {
+   "start": 189.001,
+   "end": 191.0,
+   "en": "Go in the cupboard.",
+   "i": 47,
+   "zh": "到柜子里去。"
+  },
+  {
+   "start": 191.001,
+   "end": 195.0,
+   "en": "The Big Bad Wolf is pretending to be Grandma.",
+   "i": 48,
+   "zh": "大灰狼正在冒充奶奶。"
+  },
+  {
+   "start": 197.4,
+   "end": 200.0,
+   "en": "I am Little Red Riding Hood.",
+   "i": 49,
+   "zh": "我是小红帽。"
+  },
+  {
+   "start": 200.1,
+   "end": 202.0,
+   "en": "I'm going to visit my Grandma.",
+   "i": 50,
+   "zh": "我要去拜访我的奶奶。"
+  },
+  {
+   "start": 202.001,
+   "end": 204.0,
+   "en": "Bravo Peppa.",
+   "i": 51,
+   "zh": "布拉沃·佩奇。"
+  },
+  {
+   "start": 204.001,
+   "end": 208.0,
+   "en": "Daddy, you must not take photos.",
+   "i": 52,
+   "zh": "爸爸，不许拍照。"
+  },
+  {
+   "start": 208.1,
+   "end": 211.0,
+   "en": "Oops, sorry Peppa, carry on.",
+   "i": 53,
+   "zh": "哎呀，对不起佩奇，继续。"
+  },
+  {
+   "start": 211.25,
+   "end": 215.0,
+   "en": "I'm going to visit my Grandma.",
+   "i": 54,
+   "zh": "我要去拜访我的奶奶。"
+  },
+  {
+   "start": 215.001,
+   "end": 219.0,
+   "en": "Oh, you don't look like my Grandma.",
+   "i": 55,
+   "zh": "哦，你看起来不像我奶奶。"
+  },
+  {
+   "start": 219.001,
+   "end": 222.0,
+   "en": "What big eyes you have.",
+   "i": 56,
+   "zh": "你的眼睛好大啊。"
+  },
+  {
+   "start": 222.125,
+   "end": 225.0,
+   "en": "What big teeth you have.",
+   "i": 57,
+   "zh": "你的牙齿好大啊。"
+  },
+  {
+   "start": 225.001,
+   "end": 231.0,
+   "en": "You are not Grandma, you are the Big Bad Wolf.",
+   "i": 58,
+   "zh": "你不是奶奶，你是大灰狼。"
+  },
+  {
+   "start": 231.001,
+   "end": 234.0,
+   "en": "Help, oh help.",
+   "i": 59,
+   "zh": "救命啊救命啊。"
+  },
+  {
+   "start": 234.001,
+   "end": 240.0,
+   "en": "But look who is here, just in time, Pedro the Hunter.",
+   "i": 60,
+   "zh": "但是看看谁来了，来得正是时候，猎人佩德罗。"
+  },
+  {
+   "start": 241.1,
+   "end": 243.0,
+   "en": "Help, oh help.",
+   "i": 61,
+   "zh": "救命啊救命啊。"
+  },
+  {
+   "start": 243.7,
+   "end": 247.0,
+   "en": "Just in time, Pedro the Hunter.",
+   "i": 62,
+   "zh": "来得正是时候，猎人佩德罗。"
+  },
+  {
+   "start": 248.4,
+   "end": 250.0,
+   "en": "Pedro is a bit shy.",
+   "i": 63,
+   "zh": "佩德罗有点害羞。"
+  },
+  {
+   "start": 250.075,
+   "end": 253.0,
+   "en": "Pedro, would you like me to come on with you?",
+   "i": 64,
+   "zh": "佩德罗，你愿意我和你一起去吗？"
+  },
+  {
+   "start": 253.001,
+   "end": 255.0,
+   "en": "Yes please.",
+   "i": 65,
+   "zh": "是的，请。"
+  },
+  {
+   "start": 256.3,
+   "end": 259.0,
+   "en": "You are a very naughty wolf.",
+   "i": 66,
+   "zh": "你是一只非常调皮的狼。"
+  },
+  {
+   "start": 259.001,
+   "end": 262.0,
+   "en": "I saved you Grandma.",
+   "i": 67,
+   "zh": "我救了你奶奶。"
+  },
+  {
+   "start": 262.001,
+   "end": 264.0,
+   "en": "Hooray.",
+   "i": 68,
+   "zh": "万岁。"
+  },
+  {
+   "start": 264.75,
+   "end": 266.0,
+   "en": "Thank you.",
+   "i": 69,
+   "zh": "谢谢。"
+  },
+  {
+   "start": 266.001,
+   "end": 269.0,
+   "en": "Bravo.",
+   "i": 70,
+   "zh": "太棒了。"
+  },
+  {
+   "start": 272.0,
+   "end": 276.0,
+   "en": "Pedro, you were very good.",
+   "i": 71,
+   "zh": "佩德罗，你很好。"
+  },
+  {
+   "start": 278.0,
+   "end": 282.0,
+   "en": "You were almost as good as me.",
+   "i": 72,
+   "zh": "你几乎和我一样好。"
+  }
+ ]
+}

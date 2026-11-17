@@ -1,0 +1,89 @@
+{
+ "id": "pep31",
+ "words": [
+  {
+   "type": "word",
+   "en": "ball",
+   "zh": "球",
+   "emoji": "⚽",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "teacher",
+   "zh": "老师",
+   "emoji": "👩‍🏫",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Oh, so sweet.",
+   "zh": "噢，太可爱了。",
+   "emoji": "💬",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "friend",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "friends",
+   "zh": "朋友",
+   "emoji": "🤝",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 15
+  },
+  {
+   "type": "word",
+   "en": "everyone",
+   "zh": "大家",
+   "emoji": "👨‍👩‍👧‍👦",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "jump",
+   "zh": "跳",
+   "emoji": "🦘",
+   "line": 21
+  },
+  {
+   "type": "phrase",
+   "en": "Grace and beauty.",
+   "zh": "优雅和美丽。",
+   "emoji": "💬",
+   "line": 35
+  },
+  {
+   "type": "word",
+   "en": "dance",
+   "zh": "跳舞",
+   "emoji": "💃",
+   "line": 37
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 37
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 42
+  }
+ ]
+}

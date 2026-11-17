@@ -1,0 +1,554 @@
+{
+ "id": "pep40",
+ "title": "Very Hot Day",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.36,
+   "end": 7.662,
+   "en": "I'm Peppa Pig. This is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治，"
+  },
+  {
+   "start": 7.686,
+   "end": 11.36,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.361,
+   "end": 15.36,
+   "en": "Peppa Pig.",
+   "i": 3,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 18.24,
+   "end": 20.24,
+   "en": "Very hot day.",
+   "i": 4,
+   "zh": "非常热的一天。"
+  },
+  {
+   "start": 21.24,
+   "end": 25.24,
+   "en": "The sun is shining. It is a very hot day.",
+   "i": 5,
+   "zh": "阳光明媚。这是一个非常热的一天。"
+  },
+  {
+   "start": 25.241,
+   "end": 28.24,
+   "en": "What a lovely hot day!",
+   "i": 6,
+   "zh": "多么可爱的炎热的一天啊！"
+  },
+  {
+   "start": 28.241,
+   "end": 32.24,
+   "en": "Peppa and George are wearing their boots. They are going to jump in muddy puddles.",
+   "i": 7,
+   "zh": "佩奇和乔治穿着他们的靴子。他们要跳进泥坑里。"
+  },
+  {
+   "start": 32.241,
+   "end": 34.24,
+   "en": "I love muddy puddles.",
+   "i": 8,
+   "zh": "我喜欢跳泥坑。"
+  },
+  {
+   "start": 36.739,
+   "end": 40.24,
+   "en": "Oh dear, the sun is so hot that the puddles have dried up.",
+   "i": 9,
+   "zh": "天哪，太阳这么大，泥坑都干了。"
+  },
+  {
+   "start": 41.289,
+   "end": 46.24,
+   "en": "Mummy, Daddy, the puddles are all dry and we can't jump in them.",
+   "i": 10,
+   "zh": "妈妈、爸爸，泥坑都干了，我们跳不进去。"
+  },
+  {
+   "start": 46.464,
+   "end": 51.24,
+   "en": "Never mind Peppa, it's so sunny you can play in the paddling pool instead.",
+   "i": 11,
+   "zh": "别管佩奇了，阳光这么好，你可以去戏水池里玩。"
+  },
+  {
+   "start": 51.241,
+   "end": 54.24,
+   "en": "Yes, the paddling pool.",
+   "i": 12,
+   "zh": "是的，戏水池。"
+  },
+  {
+   "start": 54.689,
+   "end": 57.24,
+   "en": "First you have to change into your swimming costumes.",
+   "i": 13,
+   "zh": "首先你必须换上泳衣。"
+  },
+  {
+   "start": 57.241,
+   "end": 59.24,
+   "en": "Yes Mummy.",
+   "i": 14,
+   "zh": "是的妈妈。"
+  },
+  {
+   "start": 64.239,
+   "end": 67.24,
+   "en": "Peppa and George are wearing their swimming costumes.",
+   "i": 15,
+   "zh": "佩奇和乔治穿着泳衣。"
+  },
+  {
+   "start": 67.241,
+   "end": 69.24,
+   "en": "Mummy Pig is wearing her swimming costume.",
+   "i": 16,
+   "zh": "猪妈妈穿着她的泳衣。"
+  },
+  {
+   "start": 69.241,
+   "end": 72.24,
+   "en": "And Daddy Pig is wearing his swimming costume.",
+   "i": 17,
+   "zh": "猪爸爸穿着他的泳衣。"
+  },
+  {
+   "start": 72.241,
+   "end": 76.24,
+   "en": "Because it's so hot, you need sun cream.",
+   "i": 18,
+   "zh": "因为太热了，需要防晒霜。"
+  },
+  {
+   "start": 78.389,
+   "end": 82.24,
+   "en": "Yuck, so oily and yucky.",
+   "i": 19,
+   "zh": "恶心，太油腻了，恶心。"
+  },
+  {
+   "start": 85.389,
+   "end": 89.24,
+   "en": "What a fuss about nothing.",
+   "i": 20,
+   "zh": "没什么大惊小怪的。"
+  },
+  {
+   "start": 89.241,
+   "end": 93.24,
+   "en": "Yes, we all need sun cream today.",
+   "i": 21,
+   "zh": "是的，今天我们都需要防晒霜。"
+  },
+  {
+   "start": 99.289,
+   "end": 101.24,
+   "en": "Come on George.",
+   "i": 22,
+   "zh": "来吧，乔治。"
+  },
+  {
+   "start": 102.24,
+   "end": 105.24,
+   "en": "Let's get some air into this paddling pool.",
+   "i": 23,
+   "zh": "让我们到这个戏水池里呼吸一些空气。"
+  },
+  {
+   "start": 105.241,
+   "end": 108.24,
+   "en": "Daddy Pig is pumping up the paddling pool.",
+   "i": 24,
+   "zh": "猪爸爸正在给戏水池打水。"
+  },
+  {
+   "start": 112.24,
+   "end": 114.24,
+   "en": "Easy as pie.",
+   "i": 25,
+   "zh": "小菜一碟。"
+  },
+  {
+   "start": 120.24,
+   "end": 124.24,
+   "en": "Peppa holds the hose and Mummy Pig turns on the water.",
+   "i": 26,
+   "zh": "佩奇拿着水管，猪妈妈打开水。"
+  },
+  {
+   "start": 126.24,
+   "end": 128.24,
+   "en": "Where's the water?",
+   "i": 27,
+   "zh": "水在哪里？"
+  },
+  {
+   "start": 130.24,
+   "end": 132.24,
+   "en": "Whoa!",
+   "i": 28,
+   "zh": "哇！"
+  },
+  {
+   "start": 142.24,
+   "end": 144.24,
+   "en": "Peppa and George love their paddling pool.",
+   "i": 29,
+   "zh": "佩奇和乔治喜欢他们的戏水池。"
+  },
+  {
+   "start": 146.24,
+   "end": 148.24,
+   "en": "Ice cream! Ice cream!",
+   "i": 30,
+   "zh": "冰淇淋！冰淇淋！"
+  },
+  {
+   "start": 148.241,
+   "end": 150.24,
+   "en": "Miss Rabbit the ice cream lady!",
+   "i": 31,
+   "zh": "冰淇淋小姐兔小姐！"
+  },
+  {
+   "start": 152.24,
+   "end": 153.24,
+   "en": "Ice cream!",
+   "i": 32,
+   "zh": "冰淇淋！"
+  },
+  {
+   "start": 153.241,
+   "end": 156.24,
+   "en": "On very hot days Miss Rabbit sells ice cream.",
+   "i": 33,
+   "zh": "大热天兔小姐卖冰淇淋。"
+  },
+  {
+   "start": 156.241,
+   "end": 160.24,
+   "en": "Mummy, Daddy, can George and I have an ice cream please?",
+   "i": 34,
+   "zh": "妈妈、爸爸，我和乔治可以吃冰淇淋吗？"
+  },
+  {
+   "start": 160.241,
+   "end": 164.24,
+   "en": "Oh well, I suppose it is an especially hot day.",
+   "i": 35,
+   "zh": "哦，好吧，我想今天是特别热的一天。"
+  },
+  {
+   "start": 164.241,
+   "end": 165.24,
+   "en": "Hooray!",
+   "i": 36,
+   "zh": "好耶！"
+  },
+  {
+   "start": 165.241,
+   "end": 167.24,
+   "en": "Please can I have one as well?",
+   "i": 37,
+   "zh": "请问我也可以一份吗？"
+  },
+  {
+   "start": 167.415,
+   "end": 169.24,
+   "en": "Everyone likes ice cream.",
+   "i": 38,
+   "zh": "每个人都喜欢冰淇淋。"
+  },
+  {
+   "start": 169.241,
+   "end": 171.24,
+   "en": "Hello Mummy Pig, Peppa and George.",
+   "i": 39,
+   "zh": "猪妈妈、佩奇和乔治你们好。"
+  },
+  {
+   "start": 171.241,
+   "end": 173.24,
+   "en": "Hello Miss Rabbit.",
+   "i": 40,
+   "zh": "兔小姐你好。"
+  },
+  {
+   "start": 173.64,
+   "end": 175.24,
+   "en": "What ice creams would you like?",
+   "i": 41,
+   "zh": "你想要什么冰淇淋？"
+  },
+  {
+   "start": 175.39,
+   "end": 177.24,
+   "en": "Can I have a cone please Miss Rabbit?",
+   "i": 42,
+   "zh": "兔小姐能给我一个甜筒吗？"
+  },
+  {
+   "start": 177.241,
+   "end": 179.24,
+   "en": "Of course you may Peppa.",
+   "i": 43,
+   "zh": "当然你可以佩奇。"
+  },
+  {
+   "start": 179.241,
+   "end": 181.24,
+   "en": "Thank you.",
+   "i": 44,
+   "zh": "谢谢。"
+  },
+  {
+   "start": 181.241,
+   "end": 184.24,
+   "en": "The same for me and one for Daddy Pig please.",
+   "i": 45,
+   "zh": "我也一样，猪爸爸也一样。"
+  },
+  {
+   "start": 184.99,
+   "end": 187.24,
+   "en": "And what would young Mr George like?",
+   "i": 46,
+   "zh": "那么年轻的乔治先生会喜欢什么？"
+  },
+  {
+   "start": 187.241,
+   "end": 189.24,
+   "en": "Dinosaur!",
+   "i": 47,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 189.241,
+   "end": 190.241,
+   "en": "A dinosaur?",
+   "i": 48,
+   "zh": "恐龙？"
+  },
+  {
+   "start": 190.865,
+   "end": 192.24,
+   "en": "Silly George.",
+   "i": 49,
+   "zh": "傻乔治。"
+  },
+  {
+   "start": 192.54,
+   "end": 195.24,
+   "en": "He always says dinosaur for everything.",
+   "i": 50,
+   "zh": "他总是说一切都是恐龙。"
+  },
+  {
+   "start": 195.39,
+   "end": 201.24,
+   "en": "Well, it just so happens that I do have a dinosaur shaped ice lolly.",
+   "i": 51,
+   "zh": "嗯，碰巧我有一根恐龙形状的冰棍。"
+  },
+  {
+   "start": 202.64,
+   "end": 204.24,
+   "en": "Dinosaur!",
+   "i": 52,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 205.64,
+   "end": 209.24,
+   "en": "George, you should eat your ice lolly before it melts.",
+   "i": 53,
+   "zh": "乔治，你应该在冰棒融化之前吃掉它。"
+  },
+  {
+   "start": 209.241,
+   "end": 210.241,
+   "en": "Dinosaur!",
+   "i": 54,
+   "zh": "恐龙！"
+  },
+  {
+   "start": 210.54,
+   "end": 214.24,
+   "en": "George loves his dinosaur ice lolly so much he doesn't want to eat it.",
+   "i": 55,
+   "zh": "乔治非常喜欢他的恐龙冰棍，以至于他不想吃它。"
+  },
+  {
+   "start": 214.69,
+   "end": 216.24,
+   "en": "Thank you Miss Rabbit.",
+   "i": 56,
+   "zh": "谢谢兔小姐。"
+  },
+  {
+   "start": 216.241,
+   "end": 218.24,
+   "en": "Enjoy the weather!",
+   "i": 57,
+   "zh": "祝天气愉快！"
+  },
+  {
+   "start": 219.24,
+   "end": 224.24,
+   "en": "George, I really think you should eat your ice lolly before it melts and...",
+   "i": 58,
+   "zh": "乔治，我真的认为你应该在冰棍融化之前吃掉它......"
+  },
+  {
+   "start": 224.64,
+   "end": 226.24,
+   "en": "falls on the ground.",
+   "i": 59,
+   "zh": "掉在地上。"
+  },
+  {
+   "start": 226.241,
+   "end": 231.24,
+   "en": "Oh dear, George's dinosaur ice lolly has melted and fallen on the ground.",
+   "i": 60,
+   "zh": "天啊，乔治的恐龙冰棒融化掉在地上了。"
+  },
+  {
+   "start": 231.241,
+   "end": 235.24,
+   "en": "Never mind George, you can share Daddy's ice cream.",
+   "i": 61,
+   "zh": "别管乔治，你可以分享爸爸的冰淇淋。"
+  },
+  {
+   "start": 235.241,
+   "end": 237.24,
+   "en": "I'm sure he won't mind.",
+   "i": 62,
+   "zh": "我确信他不会介意。"
+  },
+  {
+   "start": 240.24,
+   "end": 243.24,
+   "en": "It is so warm Daddy Pig has fallen asleep.",
+   "i": 63,
+   "zh": "好温暖猪爸爸睡着了。"
+  },
+  {
+   "start": 243.34,
+   "end": 245.24,
+   "en": "Daddy Pig does look hot.",
+   "i": 64,
+   "zh": "猪爸爸看起来很火辣。"
+  },
+  {
+   "start": 245.34,
+   "end": 248.24,
+   "en": "Let's take water on Daddy to cool him down.",
+   "i": 65,
+   "zh": "我们去给爸爸浇点水给他降温吧。"
+  },
+  {
+   "start": 248.241,
+   "end": 250.24,
+   "en": "Good idea Peppa.",
+   "i": 66,
+   "zh": "佩奇好主意。"
+  },
+  {
+   "start": 252.24,
+   "end": 253.24,
+   "en": "What happened?",
+   "i": 67,
+   "zh": "发生了什么？"
+  },
+  {
+   "start": 253.241,
+   "end": 255.24,
+   "en": "You were all red and hot Daddy Pig.",
+   "i": 68,
+   "zh": "你们都是又红又热的猪爸爸。"
+  },
+  {
+   "start": 255.34,
+   "end": 257.24,
+   "en": "So we took water on you.",
+   "i": 69,
+   "zh": "所以我们给你浇了水。"
+  },
+  {
+   "start": 257.241,
+   "end": 260.24,
+   "en": "Oh, I see. Thank you Peppa.",
+   "i": 70,
+   "zh": "哦，我明白了。谢谢佩奇。"
+  },
+  {
+   "start": 262.215,
+   "end": 266.24,
+   "en": "Look, the puddles are back.",
+   "i": 71,
+   "zh": "看，泥坑又回来了。"
+  },
+  {
+   "start": 266.29,
+   "end": 269.24,
+   "en": "Quick George, let's get our boots.",
+   "i": 72,
+   "zh": "快点乔治，我们穿上靴子吧。"
+  },
+  {
+   "start": 273.24,
+   "end": 276.24,
+   "en": "Peppa and George are wearing their boots.",
+   "i": 73,
+   "zh": "佩奇和乔治穿着他们的靴子。"
+  },
+  {
+   "start": 277.24,
+   "end": 280.26,
+   "en": "Peppa and George love the hot day, but most of",
+   "i": 74,
+   "zh": "佩奇和乔治喜欢炎热的天气，但大多数人"
+  },
+  {
+   "start": 280.284,
+   "end": 283.252,
+   "en": "all they love jumping up and down in puddles.",
+   "i": 75,
+   "zh": "他们都喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 287.24,
+   "end": 289.24,
+   "en": "Peppa Pig.",
+   "i": 76,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 292.241,
+   "end": 294.24,
+   "en": "Peppa Pig.",
+   "i": 77,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 296.241,
+   "end": 298.24,
+   "en": "Peppa Pig.",
+   "i": 78,
+   "zh": "小猪佩奇。"
+  }
+ ]
+}

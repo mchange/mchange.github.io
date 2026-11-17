@@ -1,0 +1,561 @@
+{
+ "id": "pep23",
+ "title": "The New Car",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 7.0,
+   "end": 10.828,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 10.852,
+   "end": 15.012,
+   "en": "This is Mommy Pig. And this is Daddy Pig. Peppa Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这就是猪爸爸。佩奇。"
+  },
+  {
+   "start": 20.2,
+   "end": 22.0,
+   "en": "The New Car",
+   "i": 3,
+   "zh": "新车"
+  },
+  {
+   "start": 27.0,
+   "end": 31.0,
+   "en": "Today, Peppa and her family are going for a drive in their red car.",
+   "i": 4,
+   "zh": "今天，佩奇和她的家人要开着他们的红色汽车去兜风。"
+  },
+  {
+   "start": 31.001,
+   "end": 33.0,
+   "en": "Shall we have the roof down?",
+   "i": 5,
+   "zh": "我们可以把屋顶拆下来吗？"
+  },
+  {
+   "start": 33.099,
+   "end": 35.0,
+   "en": "Yes, please.",
+   "i": 6,
+   "zh": "好的，谢谢。"
+  },
+  {
+   "start": 39.0,
+   "end": 41.0,
+   "en": "Peppa and George love their car.",
+   "i": 7,
+   "zh": "佩奇和乔治喜欢他们的车。"
+  },
+  {
+   "start": 41.001,
+   "end": 42.0,
+   "en": "Is everybody ready?",
+   "i": 8,
+   "zh": "大家准备好了吗？"
+  },
+  {
+   "start": 42.001,
+   "end": 43.0,
+   "en": "Ready!",
+   "i": 9,
+   "zh": "准备好了！"
+  },
+  {
+   "start": 43.001,
+   "end": 45.0,
+   "en": "Then let's go!",
+   "i": 10,
+   "zh": "那我们走吧！"
+  },
+  {
+   "start": 52.0,
+   "end": 54.0,
+   "en": "I love our car.",
+   "i": 11,
+   "zh": "我喜欢我们的车。"
+  },
+  {
+   "start": 54.001,
+   "end": 57.0,
+   "en": "And our car loves us too, don't you?",
+   "i": 12,
+   "zh": "我们的车也爱我们，不是吗？"
+  },
+  {
+   "start": 64.0,
+   "end": 67.0,
+   "en": "Oh dear, the car does not sound very well.",
+   "i": 13,
+   "zh": "噢，亲爱的，这辆车听起来不太好。"
+  },
+  {
+   "start": 71.949,
+   "end": 74.0,
+   "en": "What's wrong, Daddy?",
+   "i": 14,
+   "zh": "怎么了，爸爸？"
+  },
+  {
+   "start": 74.001,
+   "end": 76.0,
+   "en": "I don't know.",
+   "i": 15,
+   "zh": "我不知道。"
+  },
+  {
+   "start": 76.001,
+   "end": 80.0,
+   "en": "Let's take it to Grandad Dog's garage. He can fix it.",
+   "i": 16,
+   "zh": "去狗爷爷的车库吧。他可以解决它。"
+  },
+  {
+   "start": 80.001,
+   "end": 82.0,
+   "en": "That's a good idea, Mommy Pig.",
+   "i": 17,
+   "zh": "这是个好主意，猪妈妈。"
+  },
+  {
+   "start": 85.0,
+   "end": 90.0,
+   "en": "Grandad Dog runs the garage. He is very good at mending cars.",
+   "i": 18,
+   "zh": "狗爷爷经营车库。他非常擅长修理汽车。"
+  },
+  {
+   "start": 94.0,
+   "end": 99.0,
+   "en": "Oh dear, Daddy Pig. Your car does not sound very well.",
+   "i": 19,
+   "zh": "亲爱的猪爸爸。你的车听起来不太好。"
+  },
+  {
+   "start": 99.199,
+   "end": 102.0,
+   "en": "Can you fix it please, Grandad Dog?",
+   "i": 20,
+   "zh": "狗爷爷你能修好吗？"
+  },
+  {
+   "start": 102.001,
+   "end": 106.0,
+   "en": "Yes, but it will take all day.",
+   "i": 21,
+   "zh": "是的，但是需要一整天的时间。"
+  },
+  {
+   "start": 107.0,
+   "end": 110.0,
+   "en": "We wanted to go for a drive in our car.",
+   "i": 22,
+   "zh": "我们想开车去兜风。"
+  },
+  {
+   "start": 110.001,
+   "end": 114.0,
+   "en": "Don't worry, you can borrow this new car while I fix yours.",
+   "i": 23,
+   "zh": "别担心，你可以借这辆新车，我来修理你的车。"
+  },
+  {
+   "start": 114.001,
+   "end": 116.0,
+   "en": "Hooray!",
+   "i": 24,
+   "zh": "好耶！"
+  },
+  {
+   "start": 116.001,
+   "end": 118.0,
+   "en": "Thank you, Grandad Dog.",
+   "i": 25,
+   "zh": "谢谢狗爷爷。"
+  },
+  {
+   "start": 118.001,
+   "end": 119.0,
+   "en": "Would you like the roof down?",
+   "i": 26,
+   "zh": "你想把屋顶放下吗？"
+  },
+  {
+   "start": 119.001,
+   "end": 121.0,
+   "en": "Yes, please.",
+   "i": 27,
+   "zh": "好的，谢谢。"
+  },
+  {
+   "start": 121.001,
+   "end": 124.0,
+   "en": "I'll just press this red button.",
+   "i": 28,
+   "zh": "我只需按这个红色按钮即可。"
+  },
+  {
+   "start": 125.099,
+   "end": 127.0,
+   "en": "What a clever car.",
+   "i": 29,
+   "zh": "多么聪明的车啊。"
+  },
+  {
+   "start": 127.001,
+   "end": 129.0,
+   "en": "Wow!",
+   "i": 30,
+   "zh": "哇！"
+  },
+  {
+   "start": 129.15,
+   "end": 132.0,
+   "en": "When you come back, I will have fixed your car.",
+   "i": 31,
+   "zh": "当你回来时，我会修好你的车。"
+  },
+  {
+   "start": 132.001,
+   "end": 135.0,
+   "en": "Thank you, Grandad Dog. Goodbye!",
+   "i": 32,
+   "zh": "谢谢狗爷爷。再见！"
+  },
+  {
+   "start": 135.001,
+   "end": 136.0,
+   "en": "Goodbye!",
+   "i": 33,
+   "zh": "再见！"
+  },
+  {
+   "start": 136.001,
+   "end": 137.0,
+   "en": "Bye-bye!",
+   "i": 34,
+   "zh": "再见！"
+  },
+  {
+   "start": 137.001,
+   "end": 138.001,
+   "en": "Goodbye!",
+   "i": 35,
+   "zh": "再见！"
+  },
+  {
+   "start": 141.0,
+   "end": 144.0,
+   "en": "Peppa and her family like the new blue car.",
+   "i": 36,
+   "zh": "佩奇和她的家人喜欢这辆新的蓝色汽车。"
+  },
+  {
+   "start": 144.4,
+   "end": 147.0,
+   "en": "There are so many buttons in this new car.",
+   "i": 37,
+   "zh": "这辆新车的按钮真多。"
+  },
+  {
+   "start": 147.001,
+   "end": 150.0,
+   "en": "What does the green button do, Daddy?",
+   "i": 38,
+   "zh": "爸爸，绿色按钮有什么作用？"
+  },
+  {
+   "start": 150.001,
+   "end": 151.001,
+   "en": "Let's see.",
+   "i": 39,
+   "zh": "让我们看看。"
+  },
+  {
+   "start": 151.824,
+   "end": 154.0,
+   "en": "Magic windows!",
+   "i": 40,
+   "zh": "神奇的窗户！"
+  },
+  {
+   "start": 157.0,
+   "end": 160.0,
+   "en": "Daddy, make the magic windows go down.",
+   "i": 41,
+   "zh": "爸爸，让魔法窗户落下。"
+  },
+  {
+   "start": 163.05,
+   "end": 165.0,
+   "en": "What does the blue button do?",
+   "i": 42,
+   "zh": "蓝色按钮有什么作用？"
+  },
+  {
+   "start": 165.001,
+   "end": 168.0,
+   "en": "I don't know. Let's see.",
+   "i": 43,
+   "zh": "我不知道。让我们来看看。"
+  },
+  {
+   "start": 170.0,
+   "end": 173.0,
+   "en": "I love this new car. Can we keep it?",
+   "i": 44,
+   "zh": "我喜欢这辆新车。我们可以保留它吗？"
+  },
+  {
+   "start": 173.001,
+   "end": 176.0,
+   "en": "No, we can't keep it, Peppa.",
+   "i": 45,
+   "zh": "不，我们不能保留它，佩奇。"
+  },
+  {
+   "start": 176.001,
+   "end": 178.0,
+   "en": "We've only borrowed it for today.",
+   "i": 46,
+   "zh": "我们只是今天借用的。"
+  },
+  {
+   "start": 178.001,
+   "end": 179.001,
+   "en": "Oh!",
+   "i": 47,
+   "zh": "哦！"
+  },
+  {
+   "start": 180.0,
+   "end": 183.0,
+   "en": "Oh, no. I think it's going to rain.",
+   "i": 48,
+   "zh": "哦，不。我想天要下雨了。"
+  },
+  {
+   "start": 183.15,
+   "end": 185.0,
+   "en": "Yes, I'll just put the roof up.",
+   "i": 49,
+   "zh": "是的，我就把屋顶盖起来。"
+  },
+  {
+   "start": 187.0,
+   "end": 190.0,
+   "en": "Now, which is the button to close the roof?",
+   "i": 50,
+   "zh": "现在，关闭车顶的按钮是哪个？"
+  },
+  {
+   "start": 193.0,
+   "end": 194.0,
+   "en": "Oops!",
+   "i": 51,
+   "zh": "哎呀！"
+  },
+  {
+   "start": 197.0,
+   "end": 200.0,
+   "en": "Oops! Silly me!",
+   "i": 52,
+   "zh": "哎呀！傻我啊！"
+  },
+  {
+   "start": 200.001,
+   "end": 202.0,
+   "en": "This must be the button.",
+   "i": 53,
+   "zh": "这一定是按钮。"
+  },
+  {
+   "start": 203.899,
+   "end": 207.0,
+   "en": "The new car has squirted Daddy Pig with water.",
+   "i": 54,
+   "zh": "新车给猪爸爸喷了水。"
+  },
+  {
+   "start": 207.001,
+   "end": 210.0,
+   "en": "Silly Daddy, that's not the roof.",
+   "i": 55,
+   "zh": "傻爸爸，那不是屋顶。"
+  },
+  {
+   "start": 210.001,
+   "end": 211.0,
+   "en": "This button.",
+   "i": 56,
+   "zh": "这个按钮。"
+  },
+  {
+   "start": 211.001,
+   "end": 213.0,
+   "en": "Oops! Not that one.",
+   "i": 57,
+   "zh": "哎呀！不是那个。"
+  },
+  {
+   "start": 213.001,
+   "end": 214.001,
+   "en": "This button.",
+   "i": 58,
+   "zh": "这个按钮。"
+  },
+  {
+   "start": 217.0,
+   "end": 221.0,
+   "en": "Daddy Pig has forgotten which button closes the roof.",
+   "i": 59,
+   "zh": "猪爸爸忘记了哪个按钮是关屋顶的。"
+  },
+  {
+   "start": 221.001,
+   "end": 223.0,
+   "en": "I don't think this car likes me.",
+   "i": 60,
+   "zh": "我不认为这辆车喜欢我。"
+  },
+  {
+   "start": 223.001,
+   "end": 225.0,
+   "en": "Let's try the red button.",
+   "i": 61,
+   "zh": "让我们试试红色按钮。"
+  },
+  {
+   "start": 225.001,
+   "end": 227.0,
+   "en": "Hooray!",
+   "i": 62,
+   "zh": "好耶！"
+  },
+  {
+   "start": 231.0,
+   "end": 233.0,
+   "en": "But now it's stopped raining.",
+   "i": 63,
+   "zh": "但现在雨停了。"
+  },
+  {
+   "start": 233.001,
+   "end": 235.0,
+   "en": "Can we open the roof again?",
+   "i": 64,
+   "zh": "我们可以再打开屋顶吗？"
+  },
+  {
+   "start": 235.001,
+   "end": 238.0,
+   "en": "Yes. Which button was it?",
+   "i": 65,
+   "zh": "是的。是哪个按钮？"
+  },
+  {
+   "start": 238.001,
+   "end": 240.0,
+   "en": "The red one!",
+   "i": 66,
+   "zh": "红色的！"
+  },
+  {
+   "start": 241.0,
+   "end": 243.0,
+   "en": "Hooray!",
+   "i": 67,
+   "zh": "好耶！"
+  },
+  {
+   "start": 245.0,
+   "end": 248.0,
+   "en": "Grandad Dog has fixed the car.",
+   "i": 68,
+   "zh": "狗爷爷修好了车。"
+  },
+  {
+   "start": 250.0,
+   "end": 252.0,
+   "en": "Your car is fixed.",
+   "i": 69,
+   "zh": "你的车修好了。"
+  },
+  {
+   "start": 252.001,
+   "end": 256.0,
+   "en": "Hooray! Thank you, Grandad Dog, and keep the change.",
+   "i": 70,
+   "zh": "万岁！谢谢狗爷爷，保持不变。"
+  },
+  {
+   "start": 256.001,
+   "end": 258.0,
+   "en": "Thank you, Daddy Pig.",
+   "i": 71,
+   "zh": "谢谢猪爸爸。"
+  },
+  {
+   "start": 259.0,
+   "end": 260.0,
+   "en": "Goodbye!",
+   "i": 72,
+   "zh": "再见！"
+  },
+  {
+   "start": 260.001,
+   "end": 261.0,
+   "en": "Goodbye!",
+   "i": 73,
+   "zh": "再见！"
+  },
+  {
+   "start": 261.001,
+   "end": 262.0,
+   "en": "Goodbye!",
+   "i": 74,
+   "zh": "再见！"
+  },
+  {
+   "start": 262.001,
+   "end": 263.001,
+   "en": "Bye-bye!",
+   "i": 75,
+   "zh": "再见！"
+  },
+  {
+   "start": 266.0,
+   "end": 269.0,
+   "en": "Ah, it's good to get our old car back again.",
+   "i": 76,
+   "zh": "啊，我们的旧车又回来了，真是太好了。"
+  },
+  {
+   "start": 269.001,
+   "end": 271.0,
+   "en": "I like the new car.",
+   "i": 77,
+   "zh": "我喜欢这辆新车。"
+  },
+  {
+   "start": 271.001,
+   "end": 273.0,
+   "en": "But I like our old car better.",
+   "i": 78,
+   "zh": "但我更喜欢我们的旧车。"
+  },
+  {
+   "start": 273.001,
+   "end": 277.0,
+   "en": "And I think our old car likes us too, don't you?",
+   "i": 79,
+   "zh": "我想我们的旧车也喜欢我们，不是吗？"
+  }
+ ]
+}

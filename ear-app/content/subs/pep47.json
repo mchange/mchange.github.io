@@ -1,0 +1,645 @@
+{
+ "id": "pep47",
+ "title": "Mister Skinnylegs",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "en": "I'm Peppa Pig.",
+   "i": 1,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 2.001,
+   "end": 5.0,
+   "en": "This is my little brother George.",
+   "i": 2,
+   "zh": "这是我的弟弟乔治。"
+  },
+  {
+   "start": 5.001,
+   "end": 7.0,
+   "en": "This is Mummy Pig.",
+   "i": 3,
+   "zh": "这是猪妈妈。"
+  },
+  {
+   "start": 7.001,
+   "end": 9.0,
+   "en": "And this is Daddy Pig.",
+   "i": 4,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 11.0,
+   "end": 13.0,
+   "en": "Peppa Pig.",
+   "i": 5,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 16.825,
+   "end": 19.0,
+   "en": "Mr. Skinnylegs.",
+   "i": 6,
+   "zh": "细腿先生。"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "Peppa is playing with her doll's house.",
+   "i": 7,
+   "zh": "佩奇正在玩她的娃娃屋。"
+  },
+  {
+   "start": 22.001,
+   "end": 24.0,
+   "en": "George is playing too.",
+   "i": 8,
+   "zh": "乔治也在玩。"
+  },
+  {
+   "start": 25.0,
+   "end": 28.0,
+   "en": "Peppa is making a tea party for the doll family.",
+   "i": 9,
+   "zh": "佩奇正在为娃娃一家举办茶会。"
+  },
+  {
+   "start": 28.001,
+   "end": 31.0,
+   "en": "Here George, I'm the mummy and daddy.",
+   "i": 10,
+   "zh": "乔治，我是妈妈和爸爸。"
+  },
+  {
+   "start": 31.001,
+   "end": 33.0,
+   "en": "You can be the children.",
+   "i": 11,
+   "zh": "你可以是孩子。"
+  },
+  {
+   "start": 35.05,
+   "end": 37.0,
+   "en": "Children, it's nearly tea time.",
+   "i": 12,
+   "zh": "孩子们，快到下午茶时间了。"
+  },
+  {
+   "start": 37.299,
+   "end": 40.0,
+   "en": "So you must wash your hands.",
+   "i": 13,
+   "zh": "所以你必须洗手。"
+  },
+  {
+   "start": 42.249,
+   "end": 44.0,
+   "en": "George is putting the dolls to bed.",
+   "i": 14,
+   "zh": "乔治正在把娃娃放到床上。"
+  },
+  {
+   "start": 44.001,
+   "end": 46.0,
+   "en": "Night night.",
+   "i": 15,
+   "zh": "夜夜。"
+  },
+  {
+   "start": 46.001,
+   "end": 49.0,
+   "en": "George, why are you putting the children to bed?",
+   "i": 16,
+   "zh": "乔治，你为什么要让孩子们上床睡觉？"
+  },
+  {
+   "start": 49.001,
+   "end": 51.0,
+   "en": "They're having a tea party.",
+   "i": 17,
+   "zh": "他们正在开茶会。"
+  },
+  {
+   "start": 51.825,
+   "end": 54.0,
+   "en": "George likes putting the dolls to bed.",
+   "i": 18,
+   "zh": "乔治喜欢把娃娃放到床上。"
+  },
+  {
+   "start": 54.001,
+   "end": 56.0,
+   "en": "Children, come to bed.",
+   "i": 19,
+   "zh": "孩子们，上床睡觉。"
+  },
+  {
+   "start": 56.001,
+   "end": 59.0,
+   "en": "Children, come downstairs right now.",
+   "i": 20,
+   "zh": "孩子们，马上下楼来。"
+  },
+  {
+   "start": 59.001,
+   "end": 62.0,
+   "en": "Or you won't get any cake.",
+   "i": 21,
+   "zh": "否则你不会得到任何蛋糕。"
+  },
+  {
+   "start": 62.399,
+   "end": 64.0,
+   "en": "George isn't listening.",
+   "i": 22,
+   "zh": "乔治没有在听。"
+  },
+  {
+   "start": 64.001,
+   "end": 66.0,
+   "en": "He's too busy putting the dolls to bed.",
+   "i": 23,
+   "zh": "他正忙着把娃娃放到床上。"
+  },
+  {
+   "start": 66.001,
+   "end": 72.0,
+   "en": "George, if you want to play with my doll's house, you have to help with the tea party.",
+   "i": 24,
+   "zh": "乔治，如果你想玩我的娃娃屋，你就得帮忙举办茶会。"
+  },
+  {
+   "start": 73.974,
+   "end": 77.0,
+   "en": "Here George, you can fill the teapot with water.",
+   "i": 25,
+   "zh": "乔治，你可以把茶壶装满水。"
+  },
+  {
+   "start": 79.599,
+   "end": 82.0,
+   "en": "Children, come downstairs right now.",
+   "i": 26,
+   "zh": "孩子们，现在就下楼来。"
+  },
+  {
+   "start": 82.999,
+   "end": 85.0,
+   "en": "Mummy, we're coming.",
+   "i": 27,
+   "zh": "妈妈，我们来了。"
+  },
+  {
+   "start": 87.274,
+   "end": 90.0,
+   "en": "George is going to fill the teapot with water.",
+   "i": 28,
+   "zh": "乔治要给茶壶装满水。"
+  },
+  {
+   "start": 94.0,
+   "end": 97.0,
+   "en": "George has found a spider in the sink.",
+   "i": 29,
+   "zh": "乔治在水槽里发现了一只蜘蛛。"
+  },
+  {
+   "start": 97.001,
+   "end": 100.0,
+   "en": "George wants the spider to be his friend.",
+   "i": 30,
+   "zh": "乔治希望蜘蛛成为他的朋友。"
+  },
+  {
+   "start": 106.0,
+   "end": 108.0,
+   "en": "George likes the spider.",
+   "i": 31,
+   "zh": "乔治喜欢蜘蛛。"
+  },
+  {
+   "start": 108.001,
+   "end": 111.0,
+   "en": "The spider likes George.",
+   "i": 32,
+   "zh": "蜘蛛喜欢乔治。"
+  },
+  {
+   "start": 112.199,
+   "end": 115.0,
+   "en": "Peppa loves playing tea parties.",
+   "i": 33,
+   "zh": "佩奇喜欢玩茶会。"
+  },
+  {
+   "start": 115.149,
+   "end": 118.0,
+   "en": "Where are all the chocolate biscuits, Daddy?",
+   "i": 34,
+   "zh": "爸爸，巧克力饼干在哪里？"
+  },
+  {
+   "start": 118.0,
+   "end": 120.0,
+   "en": "We had lots yesterday.",
+   "i": 35,
+   "zh": "昨天我们有很多。"
+  },
+  {
+   "start": 121.299,
+   "end": 123.0,
+   "en": "Oh, I'm sorry, Mummy.",
+   "i": 36,
+   "zh": "哦，对不起，妈妈。"
+  },
+  {
+   "start": 123.001,
+   "end": 125.0,
+   "en": "I must have eaten them all.",
+   "i": 37,
+   "zh": "我肯定把它们都吃了。"
+  },
+  {
+   "start": 125.001,
+   "end": 127.0,
+   "en": "Ho, ho, ho.",
+   "i": 38,
+   "zh": "嗬，嗬，嗬。"
+  },
+  {
+   "start": 127.249,
+   "end": 129.0,
+   "en": "Naughty Daddy.",
+   "i": 39,
+   "zh": "淘气的爸爸。"
+  },
+  {
+   "start": 134.0,
+   "end": 136.0,
+   "en": "George is putting the spider to bed.",
+   "i": 40,
+   "zh": "乔治正在让蜘蛛上床睡觉。"
+  },
+  {
+   "start": 136.001,
+   "end": 138.0,
+   "en": "Night night.",
+   "i": 41,
+   "zh": "夜夜。"
+  },
+  {
+   "start": 138.001,
+   "end": 140.0,
+   "en": "George, what are you doing?",
+   "i": 42,
+   "zh": "乔治，你在做什么？"
+  },
+  {
+   "start": 140.05,
+   "end": 143.0,
+   "en": "You have to help me with the tea party.",
+   "i": 43,
+   "zh": "你必须帮我举办茶会。"
+  },
+  {
+   "start": 146.05,
+   "end": 148.0,
+   "en": "Help! Help!",
+   "i": 44,
+   "zh": "救命！帮助！"
+  },
+  {
+   "start": 148.001,
+   "end": 151.0,
+   "en": "Daddy, there's a spider in my bedroom.",
+   "i": 45,
+   "zh": "爸爸，我的卧室里有一只蜘蛛。"
+  },
+  {
+   "start": 151.001,
+   "end": 154.0,
+   "en": "Oh, ho, don't worry, Peppa.",
+   "i": 46,
+   "zh": "哦，呵呵，别担心，佩奇。"
+  },
+  {
+   "start": 154.001,
+   "end": 157.0,
+   "en": "Please, Daddy, take it away.",
+   "i": 47,
+   "zh": "爸爸，请把它拿走。"
+  },
+  {
+   "start": 157.975,
+   "end": 160.0,
+   "en": "No need to panic.",
+   "i": 48,
+   "zh": "无需惊慌。"
+  },
+  {
+   "start": 161.0,
+   "end": 164.0,
+   "en": "Hello, George. Have you seen the spider?",
+   "i": 49,
+   "zh": "你好，乔治。你见过蜘蛛吗？"
+  },
+  {
+   "start": 164.001,
+   "end": 168.0,
+   "en": "It's too scary. Take it away.",
+   "i": 50,
+   "zh": "太可怕了。把它拿走。"
+  },
+  {
+   "start": 168.001,
+   "end": 171.0,
+   "en": "There's no need to be afraid, Peppa.",
+   "i": 51,
+   "zh": "不用害怕，佩奇。"
+  },
+  {
+   "start": 171.001,
+   "end": 175.0,
+   "en": "Spiders are very, very small and they can't hurt you.",
+   "i": 52,
+   "zh": "蜘蛛非常非常小，它们不会伤害你。"
+  },
+  {
+   "start": 175.001,
+   "end": 179.0,
+   "en": "But don't worry. Daddy will take it out of the bedroom.",
+   "i": 53,
+   "zh": "不过别担心。爸爸会把它带出卧室。"
+  },
+  {
+   "start": 179.975,
+   "end": 183.0,
+   "en": "Whoa! He's quite big, isn't he?",
+   "i": 54,
+   "zh": "哇！他已经很大了，不是吗？"
+  },
+  {
+   "start": 183.001,
+   "end": 186.0,
+   "en": "Um, I'll just fetch Mummy Pig.",
+   "i": 55,
+   "zh": "嗯，我去接猪妈妈。"
+  },
+  {
+   "start": 186.4,
+   "end": 188.0,
+   "en": "Mummy Pig!",
+   "i": 56,
+   "zh": "猪妈妈！"
+  },
+  {
+   "start": 190.0,
+   "end": 193.0,
+   "en": "Hello, Mr Skinny Legs.",
+   "i": 57,
+   "zh": "你好，细腿先生腿。"
+  },
+  {
+   "start": 193.1,
+   "end": 195.0,
+   "en": "Peppa feels a little bit braver.",
+   "i": 58,
+   "zh": "佩奇感觉勇敢了一点。"
+  },
+  {
+   "start": 195.5,
+   "end": 198.0,
+   "en": "He likes being in my doll's house.",
+   "i": 59,
+   "zh": "他喜欢待在我的玩偶之家。"
+  },
+  {
+   "start": 198.001,
+   "end": 202.0,
+   "en": "Hello, children. I hear you've found a little spider.",
+   "i": 60,
+   "zh": "哈喽，孩子们。我听说你发现了一只小蜘蛛。"
+  },
+  {
+   "start": 202.001,
+   "end": 205.0,
+   "en": "I'll take him out of the bedroom so you two can play.",
+   "i": 61,
+   "zh": "我会把他带出卧室，这样你们两个就可以玩了。"
+  },
+  {
+   "start": 205.001,
+   "end": 209.0,
+   "en": "Mummy, his name is Mr Skinny Legs.",
+   "i": 62,
+   "zh": "妈妈，他的名字是细腿先生。"
+  },
+  {
+   "start": 210.0,
+   "end": 214.0,
+   "en": "Ah! Mr Skinny Legs is big, isn't he?",
+   "i": 63,
+   "zh": "啊！细腿先生腿很大吧？"
+  },
+  {
+   "start": 214.001,
+   "end": 217.0,
+   "en": "Peppa and George like the spider.",
+   "i": 64,
+   "zh": "佩奇和乔治就像蜘蛛。"
+  },
+  {
+   "start": 218.0,
+   "end": 220.0,
+   "en": "Night night.",
+   "i": 65,
+   "zh": "夜夜。"
+  },
+  {
+   "start": 220.001,
+   "end": 222.0,
+   "en": "George is putting the spider to bed.",
+   "i": 66,
+   "zh": "乔治正在让蜘蛛上床睡觉。"
+  },
+  {
+   "start": 222.001,
+   "end": 225.0,
+   "en": "No, George. He wants some tea.",
+   "i": 67,
+   "zh": "不，乔治。他想要一些茶。"
+  },
+  {
+   "start": 225.001,
+   "end": 227.0,
+   "en": "He doesn't want to be in bed.",
+   "i": 68,
+   "zh": "他不想躺在床上。"
+  },
+  {
+   "start": 227.001,
+   "end": 230.0,
+   "en": "Are you hungry, Mr Skinny Legs?",
+   "i": 69,
+   "zh": "细腿先生腿你饿吗？"
+  },
+  {
+   "start": 230.001,
+   "end": 232.0,
+   "en": "Would you like some cake?",
+   "i": 70,
+   "zh": "你想要一些蛋糕吗？"
+  },
+  {
+   "start": 232.001,
+   "end": 235.0,
+   "en": "Peppa isn't afraid of the spider anymore.",
+   "i": 71,
+   "zh": "佩奇不再害怕蜘蛛了。"
+  },
+  {
+   "start": 235.001,
+   "end": 238.0,
+   "en": "Mummy, Daddy, sit down.",
+   "i": 72,
+   "zh": "妈妈爸爸，请坐。"
+  },
+  {
+   "start": 238.001,
+   "end": 242.0,
+   "en": "We are all going to have tea with Mr Skinny Legs.",
+   "i": 73,
+   "zh": "我们都要和细腿先生腿一起喝茶。"
+  },
+  {
+   "start": 242.075,
+   "end": 244.0,
+   "en": "Who wants tea?",
+   "i": 74,
+   "zh": "谁要茶？"
+  },
+  {
+   "start": 244.001,
+   "end": 246.0,
+   "en": "Me, please.",
+   "i": 75,
+   "zh": "请我。"
+  },
+  {
+   "start": 249.0,
+   "end": 250.0,
+   "en": "Delicious.",
+   "i": 76,
+   "zh": "好吃。"
+  },
+  {
+   "start": 250.001,
+   "end": 253.0,
+   "en": "Peppa loves playing tea parties.",
+   "i": 77,
+   "zh": "佩奇喜欢玩茶会。"
+  },
+  {
+   "start": 253.001,
+   "end": 256.0,
+   "en": "Here's your tea, Mr Skinny Legs.",
+   "i": 78,
+   "zh": "这是你的茶，细腿先生腿。"
+  },
+  {
+   "start": 256.05,
+   "end": 260.0,
+   "en": "What's that? You want to say hello to my Daddy?",
+   "i": 79,
+   "zh": "那是什么？你想跟我爸爸打个招呼吗？"
+  },
+  {
+   "start": 260.9,
+   "end": 263.0,
+   "en": "Hello, Mr Baby Pig.",
+   "i": 80,
+   "zh": "你好，猪宝宝先生。"
+  },
+  {
+   "start": 263.001,
+   "end": 265.0,
+   "en": "Hey, that's all right, Peppa.",
+   "i": 81,
+   "zh": "嘿，没关系，佩奇。"
+  },
+  {
+   "start": 265.001,
+   "end": 267.0,
+   "en": "Let Mr Skinny Legs drink his tea.",
+   "i": 82,
+   "zh": "让细腿先生喝他的茶。"
+  },
+  {
+   "start": 267.25,
+   "end": 269.0,
+   "en": "You're not scared, are you, Daddy?",
+   "i": 83,
+   "zh": "爸爸你不害怕吧？"
+  },
+  {
+   "start": 269.001,
+   "end": 272.0,
+   "en": "Oh, no. Of course not.",
+   "i": 84,
+   "zh": "哦，不。当然不是。"
+  },
+  {
+   "start": 272.001,
+   "end": 274.0,
+   "en": "Well, not so close.",
+   "i": 85,
+   "zh": "好吧，不是那么接近。"
+  },
+  {
+   "start": 274.1,
+   "end": 276.0,
+   "en": "Whoa!",
+   "i": 86,
+   "zh": "哇！"
+  },
+  {
+   "start": 279.0,
+   "end": 281.0,
+   "en": "Peppa likes Mr Skinny Legs.",
+   "i": 87,
+   "zh": "佩奇喜欢细腿先生腿。"
+  },
+  {
+   "start": 281.001,
+   "end": 284.0,
+   "en": "Everyone likes Mr Skinny Legs.",
+   "i": 88,
+   "zh": "每个人都喜欢细腿先生腿。"
+  },
+  {
+   "start": 287.0,
+   "end": 289.0,
+   "en": "Peppa Pig",
+   "i": 89,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 292.0,
+   "end": 294.0,
+   "en": "Peppa Pig",
+   "i": 90,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 296.0,
+   "end": 298.0,
+   "en": "Peppa Pig",
+   "i": 91,
+   "zh": "小猪佩奇"
+  }
+ ]
+}

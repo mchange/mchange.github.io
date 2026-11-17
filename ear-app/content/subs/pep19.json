@@ -1,0 +1,526 @@
+{
+ "id": "pep19",
+ "title": "New Shoes",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 7.0,
+   "end": 10.828,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 10.852,
+   "end": 15.012,
+   "en": "This is Mummy Pig. And this is Daddy Pig. Peppa Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这是猪爸爸。小猪佩奇。"
+  },
+  {
+   "start": 20.0,
+   "end": 22.0,
+   "en": "New shoes.",
+   "i": 3,
+   "zh": "新鞋。"
+  },
+  {
+   "start": 25.0,
+   "end": 28.0,
+   "en": "Peppa and George have been playing in the garden.",
+   "i": 4,
+   "zh": "佩奇和乔治一直在花园里玩耍。"
+  },
+  {
+   "start": 31.0,
+   "end": 34.0,
+   "en": "Peppa, where are your shoes?",
+   "i": 5,
+   "zh": "佩奇，你的鞋子呢？"
+  },
+  {
+   "start": 34.349,
+   "end": 37.0,
+   "en": "Oh, I've lost them.",
+   "i": 6,
+   "zh": "哦，我把它们弄丢了。"
+  },
+  {
+   "start": 37.001,
+   "end": 42.0,
+   "en": "Well, I'm sure we can find them. Maybe we should try the garden.",
+   "i": 7,
+   "zh": "好吧，我相信我们能找到他们。也许我们应该去花园试试。"
+  },
+  {
+   "start": 42.001,
+   "end": 44.0,
+   "en": "Yes!",
+   "i": 8,
+   "zh": "是的！"
+  },
+  {
+   "start": 46.124,
+   "end": 48.937,
+   "en": "Everyone is looking for Peppa's shoes.",
+   "i": 9,
+   "zh": "大家都在找佩奇的鞋子。"
+  },
+  {
+   "start": 48.961,
+   "end": 54.012,
+   "en": "Mummy Pig is looking in the flower bed. Peppa's shoes are not there.",
+   "i": 10,
+   "zh": "猪妈妈正在花坛里寻找。佩奇的鞋子不在那里。"
+  },
+  {
+   "start": 55.074,
+   "end": 59.0,
+   "en": "Daddy Pig is looking in the wheelbarrow. Peppa's shoes are not there.",
+   "i": 11,
+   "zh": "猪爸爸正在独轮车里寻找。佩奇的鞋子不在那里。"
+  },
+  {
+   "start": 59.149,
+   "end": 60.149,
+   "en": "Oh!",
+   "i": 12,
+   "zh": "哦！"
+  },
+  {
+   "start": 61.0,
+   "end": 66.0,
+   "en": "Peppa and George look in the flower pots. Peppa's shoes are not there either.",
+   "i": 13,
+   "zh": "佩奇和乔治在花盆里看。佩奇的鞋子也不在那里。"
+  },
+  {
+   "start": 66.1,
+   "end": 67.1,
+   "en": "Oh!",
+   "i": 14,
+   "zh": "哦！"
+  },
+  {
+   "start": 67.999,
+   "end": 72.0,
+   "en": "We've looked everywhere, but we can't find Peppa's shoes.",
+   "i": 15,
+   "zh": "我们到处都找遍了，就是找不到佩奇的鞋子。"
+  },
+  {
+   "start": 72.049,
+   "end": 74.0,
+   "en": "Peppa's shoes are lost.",
+   "i": 16,
+   "zh": "佩奇的鞋子丢了。"
+  },
+  {
+   "start": 74.249,
+   "end": 77.0,
+   "en": "Now I haven't got any shoes to wear.",
+   "i": 17,
+   "zh": "现在我没有鞋子可穿了。"
+  },
+  {
+   "start": 77.149,
+   "end": 82.0,
+   "en": "Poor Peppa. Your shoes were getting a bit old. We'll buy you a new pair.",
+   "i": 18,
+   "zh": "可怜的佩奇。你的鞋子有点旧了。我们会给你买一双新的。"
+  },
+  {
+   "start": 82.001,
+   "end": 85.0,
+   "en": "Can my new shoes be red, Mummy?",
+   "i": 19,
+   "zh": "妈妈，我的新鞋可以是红色的吗？"
+  },
+  {
+   "start": 85.0,
+   "end": 87.0,
+   "en": "Of course they can.",
+   "i": 20,
+   "zh": "当然可以。"
+  },
+  {
+   "start": 87.001,
+   "end": 91.0,
+   "en": "George, I'm going to have new red shoes.",
+   "i": 21,
+   "zh": "乔治，我要买新的红鞋了。"
+  },
+  {
+   "start": 94.0,
+   "end": 98.0,
+   "en": "Mummy Pig and Peppa are at Miss Rabbit's shoe shop.",
+   "i": 22,
+   "zh": "猪妈妈和佩奇在兔小姐的鞋店。"
+  },
+  {
+   "start": 98.199,
+   "end": 99.0,
+   "en": "Hello, Miss Rabbit.",
+   "i": 23,
+   "zh": "你好，兔小姐。"
+  },
+  {
+   "start": 99.001,
+   "end": 100.001,
+   "en": "Hello, Mummy Pig.",
+   "i": 24,
+   "zh": "你好，猪妈妈。"
+  },
+  {
+   "start": 100.249,
+   "end": 103.0,
+   "en": "We would like to buy some new shoes for Peppa, please.",
+   "i": 25,
+   "zh": "我们想给佩奇买一些新鞋。"
+  },
+  {
+   "start": 103.001,
+   "end": 105.0,
+   "en": "Red shoes.",
+   "i": 26,
+   "zh": "红鞋。"
+  },
+  {
+   "start": 105.124,
+   "end": 108.0,
+   "en": "Oh, I'm sure we can find you some lovely new shoes, Peppa.",
+   "i": 27,
+   "zh": "哦，我相信我们能为你找到一些可爱的新鞋，佩奇。"
+  },
+  {
+   "start": 108.049,
+   "end": 110.0,
+   "en": "Red ones, please.",
+   "i": 28,
+   "zh": "红色的，请。"
+  },
+  {
+   "start": 110.474,
+   "end": 113.0,
+   "en": "Of course. Red ones.",
+   "i": 29,
+   "zh": "当然。红色的。"
+  },
+  {
+   "start": 113.099,
+   "end": 115.0,
+   "en": "Wow!",
+   "i": 30,
+   "zh": "哇！"
+  },
+  {
+   "start": 118.099,
+   "end": 121.0,
+   "en": "New red shoes.",
+   "i": 31,
+   "zh": "新红鞋。"
+  },
+  {
+   "start": 124.749,
+   "end": 127.0,
+   "en": "George and Daddy Pig are playing drafts.",
+   "i": 32,
+   "zh": "乔治和猪爸爸正在玩跳棋。"
+  },
+  {
+   "start": 127.0,
+   "end": 130.0,
+   "en": "Oh, well done, George.",
+   "i": 33,
+   "zh": "哦，干得好，乔治。"
+  },
+  {
+   "start": 130.001,
+   "end": 132.0,
+   "en": "Daddy, Daddy.",
+   "i": 34,
+   "zh": "爸爸，爸爸。"
+  },
+  {
+   "start": 132.001,
+   "end": 136.0,
+   "en": "Look at my new shoes. They're red.",
+   "i": 35,
+   "zh": "看看我的新鞋。它们是红色的。"
+  },
+  {
+   "start": 136.2,
+   "end": 138.0,
+   "en": "I say, they are red.",
+   "i": 36,
+   "zh": "我说，它们是红色的。"
+  },
+  {
+   "start": 138.001,
+   "end": 141.0,
+   "en": "Mummy, do you like my new shoes?",
+   "i": 37,
+   "zh": "妈妈，你喜欢我的新鞋吗？"
+  },
+  {
+   "start": 141.001,
+   "end": 144.0,
+   "en": "Yes, Peppa. They make you look very smart.",
+   "i": 38,
+   "zh": "是的，佩奇。它们让你看起来很聪明。"
+  },
+  {
+   "start": 144.1,
+   "end": 147.0,
+   "en": "George, do you like my new shoes?",
+   "i": 39,
+   "zh": "乔治，你喜欢我的新鞋吗？"
+  },
+  {
+   "start": 148.899,
+   "end": 151.0,
+   "en": "Everyone likes Peppa's new shoes.",
+   "i": 40,
+   "zh": "大家都喜欢佩奇的新鞋。"
+  },
+  {
+   "start": 151.001,
+   "end": 154.0,
+   "en": "I like my new shoes so much.",
+   "i": 41,
+   "zh": "我非常喜欢我的新鞋。"
+  },
+  {
+   "start": 154.001,
+   "end": 157.0,
+   "en": "I don't want to ever take them off.",
+   "i": 42,
+   "zh": "我不想把它们脱下来。"
+  },
+  {
+   "start": 159.0,
+   "end": 161.0,
+   "en": "It is bath time.",
+   "i": 43,
+   "zh": "洗澡时间到了。"
+  },
+  {
+   "start": 161.001,
+   "end": 165.0,
+   "en": "Peppa wants to keep her new shoes on, even for her bath.",
+   "i": 44,
+   "zh": "佩奇想穿着她的新鞋，即使是洗澡。"
+  },
+  {
+   "start": 168.0,
+   "end": 172.0,
+   "en": "Peppa is in her pyjamas. She still has her new shoes on.",
+   "i": 45,
+   "zh": "佩奇穿着睡衣。她还穿着新鞋。"
+  },
+  {
+   "start": 175.0,
+   "end": 178.0,
+   "en": "Peppa even wants to wear her new shoes in bed.",
+   "i": 46,
+   "zh": "佩奇甚至想在床上穿她的新鞋。"
+  },
+  {
+   "start": 178.1,
+   "end": 181.0,
+   "en": "Peppa, are you sure you don't want to take your shoes off?",
+   "i": 47,
+   "zh": "佩奇，你确定不想脱鞋吗？"
+  },
+  {
+   "start": 181.2,
+   "end": 184.0,
+   "en": "I don't want to ever take my new shoes off, Mummy.",
+   "i": 48,
+   "zh": "我不想脱掉我的新鞋，妈妈。"
+  },
+  {
+   "start": 184.001,
+   "end": 187.0,
+   "en": "Very well. Good night, Peppa and George.",
+   "i": 49,
+   "zh": "很好。晚安，佩奇和乔治。"
+  },
+  {
+   "start": 189.924,
+   "end": 192.0,
+   "en": "Good night, Mummy.",
+   "i": 50,
+   "zh": "晚安，妈妈。"
+  },
+  {
+   "start": 192.25,
+   "end": 194.0,
+   "en": "Good night, Daddy.",
+   "i": 51,
+   "zh": "晚安，爸爸。"
+  },
+  {
+   "start": 194.35,
+   "end": 197.0,
+   "en": "Good night, my little piggies.",
+   "i": 52,
+   "zh": "晚安，我的小猪们。"
+  },
+  {
+   "start": 201.0,
+   "end": 205.0,
+   "en": "It has been raining all night, and now the garden is very wet.",
+   "i": 53,
+   "zh": "下了整晚的雨，现在花园很湿。"
+  },
+  {
+   "start": 205.65,
+   "end": 207.0,
+   "en": "Mummy Pig is wearing her boots.",
+   "i": 54,
+   "zh": "猪妈妈穿着她的靴子。"
+  },
+  {
+   "start": 207.2,
+   "end": 209.0,
+   "en": "Daddy Pig is wearing his boots.",
+   "i": 55,
+   "zh": "猪爸爸穿着他的靴子。"
+  },
+  {
+   "start": 209.001,
+   "end": 212.0,
+   "en": "George is wearing his boots.",
+   "i": 56,
+   "zh": "乔治穿着他的靴子。"
+  },
+  {
+   "start": 212.001,
+   "end": 215.0,
+   "en": "Peppa is still wearing her new red shoes.",
+   "i": 57,
+   "zh": "佩奇还穿着她的新红鞋。"
+  },
+  {
+   "start": 216.15,
+   "end": 219.0,
+   "en": "George is going to play in the wet grass.",
+   "i": 58,
+   "zh": "乔治要在湿漉漉的草地上玩耍。"
+  },
+  {
+   "start": 221.2,
+   "end": 224.0,
+   "en": "Oh, dear. Peppa loves playing in the wet grass,",
+   "i": 59,
+   "zh": "哦，亲爱的。佩奇喜欢在湿漉漉的草地上玩耍，"
+  },
+  {
+   "start": 224.001,
+   "end": 227.0,
+   "en": "but she doesn't want to get her new shoes wet.",
+   "i": 60,
+   "zh": "但她不想弄湿她的新鞋。"
+  },
+  {
+   "start": 227.001,
+   "end": 230.0,
+   "en": "I can't play in the wet grass, George.",
+   "i": 61,
+   "zh": "我不能在湿草地上玩耍，乔治。"
+  },
+  {
+   "start": 230.001,
+   "end": 231.001,
+   "en": "Oh.",
+   "i": 62,
+   "zh": "哦。"
+  },
+  {
+   "start": 233.15,
+   "end": 236.0,
+   "en": "George loves jumping in muddy puddles.",
+   "i": 63,
+   "zh": "乔治喜欢在泥坑里跳。"
+  },
+  {
+   "start": 236.824,
+   "end": 239.0,
+   "en": "Peppa loves jumping in puddles,",
+   "i": 64,
+   "zh": "佩奇喜欢在泥坑里跳，"
+  },
+  {
+   "start": 239.4,
+   "end": 242.0,
+   "en": "but she doesn't want to get her new shoes muddy.",
+   "i": 65,
+   "zh": "但她不想让她的新鞋沾满泥。"
+  },
+  {
+   "start": 243.2,
+   "end": 246.0,
+   "en": "Mummy and Daddy love jumping up and down in muddy puddles.",
+   "i": 66,
+   "zh": "妈妈和爸爸最喜欢在泥坑里跳来跳去。"
+  },
+  {
+   "start": 246.001,
+   "end": 249.0,
+   "en": "Everyone likes jumping in muddy puddles.",
+   "i": 67,
+   "zh": "每个人都喜欢跳泥坑。"
+  },
+  {
+   "start": 251.0,
+   "end": 253.0,
+   "en": "Where is Peppa going?",
+   "i": 68,
+   "zh": "佩奇要去哪里？"
+  },
+  {
+   "start": 256.0,
+   "end": 259.0,
+   "en": "Peppa is putting on her boots.",
+   "i": 69,
+   "zh": "佩奇正在穿靴子。"
+  },
+  {
+   "start": 269.0,
+   "end": 270.0,
+   "en": "Whee!",
+   "i": 70,
+   "zh": "哇——！"
+  },
+  {
+   "start": 272.0,
+   "end": 277.0,
+   "en": "If you jump in muddy puddles, you must wear your boots.",
+   "i": 71,
+   "zh": "如果跳泥坑，必须穿靴子。"
+  },
+  {
+   "start": 287.0,
+   "end": 290.0,
+   "en": "Peppa Pig",
+   "i": 72,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 292.0,
+   "end": 294.0,
+   "en": "Peppa Pig",
+   "i": 73,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 296.0,
+   "end": 299.0,
+   "en": "Peppa Pig",
+   "i": 74,
+   "zh": "小猪佩奇"
+  }
+ ]
+}

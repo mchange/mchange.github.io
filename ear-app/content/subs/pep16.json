@@ -1,0 +1,449 @@
+{
+ "id": "pep16",
+ "title": "Musical Instruments",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 5.28,
+   "end": 9.582,
+   "en": "I'm Peppa Pig, this is my little brother George,",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟乔治，"
+  },
+  {
+   "start": 9.606,
+   "end": 13.28,
+   "en": "this is Mummy Pig, and this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 13.281,
+   "end": 15.28,
+   "en": "Peppa Pig",
+   "i": 3,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 20.23,
+   "end": 22.28,
+   "en": "Musical instruments",
+   "i": 4,
+   "zh": "乐器"
+  },
+  {
+   "start": 26.205,
+   "end": 29.28,
+   "en": "Mummy Pig and Daddy Pig have been tidying the house.",
+   "i": 5,
+   "zh": "猪妈妈和猪爸爸正在收拾房子。"
+  },
+  {
+   "start": 30.105,
+   "end": 34.28,
+   "en": "Mummy Pig and I found this old box in the attic.",
+   "i": 6,
+   "zh": "猪妈妈和我在阁楼发现了这个旧盒子。"
+  },
+  {
+   "start": 34.379,
+   "end": 39.28,
+   "en": "Can anyone guess what's inside?",
+   "i": 7,
+   "zh": "谁能猜出里面是什么？"
+  },
+  {
+   "start": 39.281,
+   "end": 44.28,
+   "en": "Nope, it's full of musical instruments.",
+   "i": 8,
+   "zh": "不，里面全是乐器。"
+  },
+  {
+   "start": 44.281,
+   "end": 46.28,
+   "en": "Wow!",
+   "i": 9,
+   "zh": "哇！"
+  },
+  {
+   "start": 46.281,
+   "end": 50.28,
+   "en": "They are a bit old and dusty.",
+   "i": 10,
+   "zh": "它们有点旧，布满灰尘。"
+  },
+  {
+   "start": 55.28,
+   "end": 58.28,
+   "en": "This is the violin I used to play when I was little.",
+   "i": 11,
+   "zh": "这是我小时候拉的小提琴。"
+  },
+  {
+   "start": 58.281,
+   "end": 60.28,
+   "en": "Mummy, can you play your violin?",
+   "i": 12,
+   "zh": "妈妈，你会拉小提琴吗？"
+  },
+  {
+   "start": 60.829,
+   "end": 63.28,
+   "en": "I haven't played it for a long time.",
+   "i": 13,
+   "zh": "好久没玩了。"
+  },
+  {
+   "start": 63.379,
+   "end": 66.28,
+   "en": "Please Mummy, please play it.",
+   "i": 14,
+   "zh": "妈妈，请播放它。"
+  },
+  {
+   "start": 66.281,
+   "end": 69.28,
+   "en": "I hope I haven't forgotten how.",
+   "i": 15,
+   "zh": "我希望我没有忘记怎么做。"
+  },
+  {
+   "start": 79.104,
+   "end": 81.28,
+   "en": "Mummy, can I play the violin?",
+   "i": 16,
+   "zh": "妈妈，我可以拉小提琴吗？"
+  },
+  {
+   "start": 81.479,
+   "end": 83.28,
+   "en": "Hold it like this.",
+   "i": 17,
+   "zh": "这样握着。"
+  },
+  {
+   "start": 83.281,
+   "end": 85.28,
+   "en": "Yes Mummy!",
+   "i": 18,
+   "zh": "是的妈妈！"
+  },
+  {
+   "start": 89.28,
+   "end": 93.28,
+   "en": "Oh dear, I do not think it is meant to sound like that.",
+   "i": 19,
+   "zh": "哦，亲爱的，我不认为这听起来是这样的。"
+  },
+  {
+   "start": 94.329,
+   "end": 96.28,
+   "en": "George wants to try.",
+   "i": 20,
+   "zh": "乔治想尝试一下。"
+  },
+  {
+   "start": 96.579,
+   "end": 98.28,
+   "en": "Hold it like this George.",
+   "i": 21,
+   "zh": "像乔治这样握住它。"
+  },
+  {
+   "start": 102.155,
+   "end": 105.28,
+   "en": "Oh, that does not sound quite right either.",
+   "i": 22,
+   "zh": "哦，这听起来也不太对劲。"
+  },
+  {
+   "start": 105.281,
+   "end": 108.28,
+   "en": "The violin is too hard to play.",
+   "i": 23,
+   "zh": "小提琴太难拉了。"
+  },
+  {
+   "start": 108.281,
+   "end": 112.28,
+   "en": "Peppa, maybe you would do better with this tin drum.",
+   "i": 24,
+   "zh": "佩奇，也许你用这个锡鼓会做得更好。"
+  },
+  {
+   "start": 112.281,
+   "end": 114.28,
+   "en": "Thank you Daddy.",
+   "i": 25,
+   "zh": "谢谢爸爸。"
+  },
+  {
+   "start": 114.329,
+   "end": 118.28,
+   "en": "That sounds better. Peppa loves playing the drum.",
+   "i": 26,
+   "zh": "听起来好多了。佩奇喜欢打鼓。"
+  },
+  {
+   "start": 118.329,
+   "end": 120.28,
+   "en": "Oh lovely!",
+   "i": 27,
+   "zh": "哦，可爱！"
+  },
+  {
+   "start": 120.281,
+   "end": 122.28,
+   "en": "Yes, it sounds very nice.",
+   "i": 28,
+   "zh": "是的，听起来很不错。"
+  },
+  {
+   "start": 124.479,
+   "end": 127.28,
+   "en": "This is Daddy Pig's old accordion.",
+   "i": 29,
+   "zh": "这是猪爸爸的旧手风琴。"
+  },
+  {
+   "start": 127.28,
+   "end": 130.28,
+   "en": "I used to play this to Mummy Pig when we first met.",
+   "i": 30,
+   "zh": "我们第一次见面的时候我经常给猪妈妈玩这个。"
+  },
+  {
+   "start": 132.28,
+   "end": 136.28,
+   "en": "Oh Daddy Pig, I remember this tune.",
+   "i": 31,
+   "zh": "哦猪爸爸，我记得这首曲子。"
+  },
+  {
+   "start": 142.179,
+   "end": 144.28,
+   "en": "George wants to play the accordion too.",
+   "i": 32,
+   "zh": "乔治也想拉手风琴。"
+  },
+  {
+   "start": 144.281,
+   "end": 146.28,
+   "en": "Are you sure George?",
+   "i": 33,
+   "zh": "你确定乔治吗？"
+  },
+  {
+   "start": 146.38,
+   "end": 148.28,
+   "en": "The accordion is quite difficult.",
+   "i": 34,
+   "zh": "手风琴相当难。"
+  },
+  {
+   "start": 148.58,
+   "end": 155.28,
+   "en": "George, the accordion is almost as difficult to play as my drum.",
+   "i": 35,
+   "zh": "乔治，手风琴几乎和我的鼓一样难演奏。"
+  },
+  {
+   "start": 156.33,
+   "end": 158.28,
+   "en": "OK George.",
+   "i": 36,
+   "zh": "好的乔治。"
+  },
+  {
+   "start": 164.43,
+   "end": 168.28,
+   "en": "Maybe George is a bit too little to play the accordion.",
+   "i": 37,
+   "zh": "也许乔治太小了，无法拉手风琴。"
+  },
+  {
+   "start": 168.43,
+   "end": 172.28,
+   "en": "Daddy, what other instruments are in the box?",
+   "i": 38,
+   "zh": "爸爸，盒子里还有什么乐器？"
+  },
+  {
+   "start": 172.281,
+   "end": 174.28,
+   "en": "Just this horn.",
+   "i": 39,
+   "zh": "就这个号角。"
+  },
+  {
+   "start": 174.38,
+   "end": 176.28,
+   "en": "Can I try?",
+   "i": 40,
+   "zh": "我可以试试吗？"
+  },
+  {
+   "start": 176.281,
+   "end": 178.28,
+   "en": "You have to blow it very hard.",
+   "i": 41,
+   "zh": "你必须非常用力地吹它。"
+  },
+  {
+   "start": 181.63,
+   "end": 183.28,
+   "en": "That does not sound right.",
+   "i": 42,
+   "zh": "这听起来不对。"
+  },
+  {
+   "start": 183.68,
+   "end": 185.28,
+   "en": "It is impossible.",
+   "i": 43,
+   "zh": "这是不可能的。"
+  },
+  {
+   "start": 185.73,
+   "end": 188.28,
+   "en": "I think I used to be able to play it.",
+   "i": 44,
+   "zh": "我想我以前可以玩。"
+  },
+  {
+   "start": 191.28,
+   "end": 194.28,
+   "en": "That really does not sound right.",
+   "i": 45,
+   "zh": "这听起来确实不对。"
+  },
+  {
+   "start": 194.43,
+   "end": 198.28,
+   "en": "Maybe it just needs someone big and strong like me.",
+   "i": 46,
+   "zh": "也许它只需要像我这样又大又强的人。"
+  },
+  {
+   "start": 205.28,
+   "end": 207.28,
+   "en": "That does not sound right either.",
+   "i": 47,
+   "zh": "这听起来也不对。"
+  },
+  {
+   "start": 209.53,
+   "end": 212.28,
+   "en": "Peppa's right. It is impossible to play.",
+   "i": 48,
+   "zh": "佩奇说得对。这是不可能玩的。"
+  },
+  {
+   "start": 212.281,
+   "end": 216.28,
+   "en": "Never mind Daddy Pig. Just stick to the accordion.",
+   "i": 49,
+   "zh": "别介意猪爸爸。只要坚持手风琴即可。"
+  },
+  {
+   "start": 216.281,
+   "end": 218.28,
+   "en": "You play it beautifully.",
+   "i": 50,
+   "zh": "你弹得很好。"
+  },
+  {
+   "start": 218.43,
+   "end": 223.28,
+   "en": "Well I do play it quite nicely, even if I say so myself.",
+   "i": 51,
+   "zh": "嗯，我确实弹得很好，即使我自己这么说。"
+  },
+  {
+   "start": 223.78,
+   "end": 225.28,
+   "en": "And I'll play my violin.",
+   "i": 52,
+   "zh": "我会拉小提琴。"
+  },
+  {
+   "start": 225.281,
+   "end": 227.28,
+   "en": "And I will play my drum.",
+   "i": 53,
+   "zh": "我会打鼓。"
+  },
+  {
+   "start": 228.18,
+   "end": 229.28,
+   "en": "Mummy Pig plays the violin.",
+   "i": 54,
+   "zh": "猪妈妈拉小提琴。"
+  },
+  {
+   "start": 231.28,
+   "end": 233.28,
+   "en": "Daddy Pig plays the accordion.",
+   "i": 55,
+   "zh": "猪爸爸拉手风琴。"
+  },
+  {
+   "start": 234.28,
+   "end": 236.28,
+   "en": "Peppa plays the drum.",
+   "i": 56,
+   "zh": "佩奇打鼓。"
+  },
+  {
+   "start": 238.28,
+   "end": 241.28,
+   "en": "But what instrument will George play?",
+   "i": 57,
+   "zh": "但是乔治会演奏什么乐器呢？"
+  },
+  {
+   "start": 250.28,
+   "end": 252.28,
+   "en": "George is blowing the horn.",
+   "i": 58,
+   "zh": "乔治正在吹号角。"
+  },
+  {
+   "start": 252.281,
+   "end": 254.28,
+   "en": "Mummy couldn't play the horn.",
+   "i": 59,
+   "zh": "妈妈不会吹喇叭。"
+  },
+  {
+   "start": 254.281,
+   "end": 256.279,
+   "en": "And Daddy couldn't play it.",
+   "i": 60,
+   "zh": "爸爸也玩不了。"
+  },
+  {
+   "start": 256.43,
+   "end": 259.279,
+   "en": "And even I couldn't play it.",
+   "i": 61,
+   "zh": "即使我也玩不了。"
+  },
+  {
+   "start": 259.43,
+   "end": 261.279,
+   "en": "But George can play it.",
+   "i": 62,
+   "zh": "但乔治会玩。"
+  },
+  {
+   "start": 282.28,
+   "end": 286.28,
+   "en": "Thanks for watching. Please like, share and subscribe.",
+   "i": 63,
+   "zh": "感谢您的观看。请喜欢、分享和订阅。"
+  }
+ ]
+}

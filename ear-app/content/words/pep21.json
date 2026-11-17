@@ -1,0 +1,89 @@
+{
+ "id": "pep21",
+ "words": [
+  {
+   "type": "word",
+   "en": "birthday",
+   "zh": "生日",
+   "emoji": "🎂",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "happy",
+   "zh": "开心的",
+   "emoji": "😊",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 5
+  },
+  {
+   "type": "phrase",
+   "en": "Happy Birthday Mummy!",
+   "zh": "妈妈生日快乐！",
+   "emoji": "💬",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "surprise",
+   "zh": "惊喜",
+   "emoji": "🎁",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "read",
+   "zh": "读",
+   "emoji": "📖",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "ready",
+   "zh": "准备好了",
+   "emoji": "🏁",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "candle",
+   "zh": "蜡烛",
+   "emoji": "🕯️",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "candles",
+   "zh": "蜡烛",
+   "emoji": "🕯️",
+   "line": 13
+  },
+  {
+   "type": "phrase",
+   "en": "This is fun!",
+   "zh": "这很有趣！",
+   "emoji": "💬",
+   "line": 52
+  }
+ ]
+}

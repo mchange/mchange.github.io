@@ -1,0 +1,89 @@
+{
+ "id": "pep46",
+ "words": [
+  {
+   "type": "word",
+   "en": "ball",
+   "zh": "球",
+   "emoji": "⚽",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "beach",
+   "zh": "沙滩",
+   "emoji": "🏖️",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "sun",
+   "zh": "太阳",
+   "emoji": "☀️",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "cat",
+   "zh": "猫",
+   "emoji": "🐱",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "catch",
+   "zh": "接住",
+   "emoji": "🤲",
+   "line": 13
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 17
+  },
+  {
+   "type": "phrase",
+   "en": "Yes please Daddy.",
+   "zh": "是的，爸爸。",
+   "emoji": "💬",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "water",
+   "zh": "水",
+   "emoji": "💧",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 25
+  },
+  {
+   "type": "word",
+   "en": "sand",
+   "zh": "沙子",
+   "emoji": "🏖️",
+   "line": 31
+  },
+  {
+   "type": "word",
+   "en": "hat",
+   "zh": "帽子",
+   "emoji": "🎩",
+   "line": 40
+  },
+  {
+   "type": "phrase",
+   "en": "We forgot Daddy!",
+   "zh": "我们忘了爸爸！",
+   "emoji": "💬",
+   "line": 63
+  }
+ ]
+}

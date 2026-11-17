@@ -1,0 +1,456 @@
+{
+ "id": "pep09",
+ "title": "Daddy Loses his Glasses",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 0.1,
+   "end": 2.0,
+   "en": "I'm Peppa Pig.",
+   "i": 1,
+   "zh": "我是佩奇。"
+  },
+  {
+   "start": 2.001,
+   "end": 5.0,
+   "en": "This is my little brother George.",
+   "i": 2,
+   "zh": "这是我的弟弟乔治。"
+  },
+  {
+   "start": 5.001,
+   "end": 7.0,
+   "en": "This is Mummy Pig.",
+   "i": 3,
+   "zh": "这是猪妈妈。"
+  },
+  {
+   "start": 7.001,
+   "end": 9.0,
+   "en": "And this is Daddy Pig.",
+   "i": 4,
+   "zh": "这是猪爸爸。"
+  },
+  {
+   "start": 11.0,
+   "end": 13.0,
+   "en": "Peppa Pig.",
+   "i": 5,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 18.8,
+   "end": 21.0,
+   "en": "Daddy loses his glasses.",
+   "i": 6,
+   "zh": "爸爸的眼镜掉了。"
+  },
+  {
+   "start": 35.001,
+   "end": 37.0,
+   "en": "Daddy Pig wears glasses.",
+   "i": 7,
+   "zh": "猪爸爸戴眼镜。"
+  },
+  {
+   "start": 39.549,
+   "end": 42.0,
+   "en": "He needs to wear glasses to see clearly.",
+   "i": 8,
+   "zh": "他需要戴眼镜才能看得清楚。"
+  },
+  {
+   "start": 42.799,
+   "end": 46.0,
+   "en": "When Daddy Pig wears his glasses, everything looks fine.",
+   "i": 9,
+   "zh": "当猪爸爸戴上眼镜时，一切看起来都很好。"
+  },
+  {
+   "start": 47.975,
+   "end": 51.0,
+   "en": "But when Daddy Pig takes his glasses off,",
+   "i": 10,
+   "zh": "但是当猪爸爸摘下眼镜时，"
+  },
+  {
+   "start": 52.0,
+   "end": 54.0,
+   "en": "he can't see things clearly.",
+   "i": 11,
+   "zh": "他看不清东西。"
+  },
+  {
+   "start": 54.925,
+   "end": 58.0,
+   "en": "Everything looks a bit soft and fuzzy.",
+   "i": 12,
+   "zh": "一切看起来都有点柔软和模糊。"
+  },
+  {
+   "start": 58.074,
+   "end": 63.0,
+   "en": "So it is very important that Daddy Pig knows where his glasses are.",
+   "i": 13,
+   "zh": "所以猪爸爸知道他的眼镜在哪里非常重要。"
+  },
+  {
+   "start": 75.0,
+   "end": 78.0,
+   "en": "Sometimes Daddy Pig loses his glasses.",
+   "i": 14,
+   "zh": "有时猪爸爸的眼镜会掉。"
+  },
+  {
+   "start": 78.001,
+   "end": 82.0,
+   "en": "Peppa, George, have you seen Daddy Pig's glasses?",
+   "i": 15,
+   "zh": "佩奇乔治，你看到猪爸爸的眼镜了吗？"
+  },
+  {
+   "start": 82.001,
+   "end": 84.0,
+   "en": "He can't find them anywhere.",
+   "i": 16,
+   "zh": "他在任何地方都找不到它们。"
+  },
+  {
+   "start": 84.349,
+   "end": 86.0,
+   "en": "No, Mummy.",
+   "i": 17,
+   "zh": "不，妈妈。"
+  },
+  {
+   "start": 86.001,
+   "end": 90.0,
+   "en": "Peppa and George do not know where Daddy Pig's glasses are.",
+   "i": 18,
+   "zh": "佩奇和乔治不知道猪爸爸的眼镜在哪里。"
+  },
+  {
+   "start": 90.099,
+   "end": 92.0,
+   "en": "Oh, dear.",
+   "i": 19,
+   "zh": "哦，亲爱的。"
+  },
+  {
+   "start": 92.099,
+   "end": 96.0,
+   "en": "Daddy Pig cannot see a thing without them and it makes him very grumpy.",
+   "i": 20,
+   "zh": "猪爸爸没有它们就看不到任何东西，这让他非常脾气暴躁。"
+  },
+  {
+   "start": 99.199,
+   "end": 103.0,
+   "en": "Without his glasses on, Daddy Pig cannot read his newspaper.",
+   "i": 21,
+   "zh": "猪爸爸不戴眼镜就看不到报纸。"
+  },
+  {
+   "start": 103.8,
+   "end": 106.0,
+   "en": "This is ridiculous.",
+   "i": 22,
+   "zh": "这太荒谬了。"
+  },
+  {
+   "start": 106.199,
+   "end": 108.0,
+   "en": "I can't see anything.",
+   "i": 23,
+   "zh": "我什么也看不见。"
+  },
+  {
+   "start": 108.349,
+   "end": 111.0,
+   "en": "Somebody must have put my glasses somewhere.",
+   "i": 24,
+   "zh": "一定有人把我的眼镜放在什么地方了。"
+  },
+  {
+   "start": 111.099,
+   "end": 114.0,
+   "en": "Do you remember where you last put them, Daddy Pig?",
+   "i": 25,
+   "zh": "猪爸爸，你还记得上次把它们放在哪里吗？"
+  },
+  {
+   "start": 114.599,
+   "end": 118.0,
+   "en": "When I don't wear them, I always put them in my pocket.",
+   "i": 26,
+   "zh": "当我不戴的时候，我总是把它们放在口袋里。"
+  },
+  {
+   "start": 118.249,
+   "end": 120.0,
+   "en": "But they aren't there now.",
+   "i": 27,
+   "zh": "但他们现在不在那里。"
+  },
+  {
+   "start": 120.599,
+   "end": 123.0,
+   "en": "Daddy, can we help find your glasses?",
+   "i": 28,
+   "zh": "爸爸，我们可以帮你找眼镜吗？"
+  },
+  {
+   "start": 123.001,
+   "end": 125.0,
+   "en": "Good idea, Peppa.",
+   "i": 29,
+   "zh": "好主意，佩奇。"
+  },
+  {
+   "start": 125.299,
+   "end": 128.0,
+   "en": "If you find them, Daddy will stop being so grumpy.",
+   "i": 30,
+   "zh": "如果你找到了他们，爸爸就不再那么脾气暴躁了。"
+  },
+  {
+   "start": 128.001,
+   "end": 130.0,
+   "en": "I'm not grumpy.",
+   "i": 31,
+   "zh": "我不脾气暴躁。"
+  },
+  {
+   "start": 133.275,
+   "end": 136.0,
+   "en": "Peppa and George are looking for Daddy's glasses.",
+   "i": 32,
+   "zh": "佩奇和乔治正在寻找爸爸的眼镜。"
+  },
+  {
+   "start": 137.0,
+   "end": 142.0,
+   "en": "Peppa looks under the newspaper, but Daddy Pig's glasses are not there.",
+   "i": 33,
+   "zh": "佩奇往报纸下面一看，猪爸爸的眼镜不见了。"
+  },
+  {
+   "start": 142.45,
+   "end": 144.0,
+   "en": "Oh.",
+   "i": 34,
+   "zh": "哦。"
+  },
+  {
+   "start": 144.4,
+   "end": 149.0,
+   "en": "George looks on top of the television, but Daddy Pig's glasses are not there.",
+   "i": 35,
+   "zh": "乔治看着电视上方，但猪爸爸的眼镜不在那里。"
+  },
+  {
+   "start": 149.65,
+   "end": 151.0,
+   "en": "Oh.",
+   "i": 36,
+   "zh": "哦。"
+  },
+  {
+   "start": 152.3,
+   "end": 156.0,
+   "en": "Let's look upstairs at Mummy and Daddy's bedroom.",
+   "i": 37,
+   "zh": "我们去楼上看看妈妈和爸爸的卧室。"
+  },
+  {
+   "start": 162.0,
+   "end": 166.0,
+   "en": "Peppa and George are looking in Mummy and Daddy Pig's bedroom.",
+   "i": 38,
+   "zh": "佩奇和乔治正在妈妈和猪爸爸的卧室里找。"
+  },
+  {
+   "start": 166.5,
+   "end": 170.0,
+   "en": "George, be careful not to knock anything over.",
+   "i": 39,
+   "zh": "乔治，小心别碰翻任何东西。"
+  },
+  {
+   "start": 175.0,
+   "end": 178.0,
+   "en": "It's not funny.",
+   "i": 40,
+   "zh": "这不好笑。"
+  },
+  {
+   "start": 182.125,
+   "end": 186.0,
+   "en": "Peppa looks under the pillows, but Daddy Pig's glasses are not there.",
+   "i": 41,
+   "zh": "佩奇往枕头底下看，但猪爸爸的眼镜不见了。"
+  },
+  {
+   "start": 186.1,
+   "end": 188.0,
+   "en": "Oh.",
+   "i": 42,
+   "zh": "哦。"
+  },
+  {
+   "start": 188.001,
+   "end": 193.0,
+   "en": "George looks in Daddy's slippers, but the glasses are not there either.",
+   "i": 43,
+   "zh": "乔治看了爸爸的拖鞋，但眼镜也不在了。"
+  },
+  {
+   "start": 197.0,
+   "end": 200.0,
+   "en": "Let's look in the bathroom.",
+   "i": 44,
+   "zh": "我们去浴室看看吧。"
+  },
+  {
+   "start": 202.0,
+   "end": 205.0,
+   "en": "Peppa and George are looking in the bathroom.",
+   "i": 45,
+   "zh": "佩奇和乔治正在浴室里看。"
+  },
+  {
+   "start": 205.35,
+   "end": 207.0,
+   "en": "The glasses are not in the bath.",
+   "i": 46,
+   "zh": "眼镜不在浴缸里。"
+  },
+  {
+   "start": 207.001,
+   "end": 209.0,
+   "en": "Oh.",
+   "i": 47,
+   "zh": "哦。"
+  },
+  {
+   "start": 209.5,
+   "end": 212.0,
+   "en": "The glasses are not in the toilet.",
+   "i": 48,
+   "zh": "眼镜不在厕所里。"
+  },
+  {
+   "start": 212.25,
+   "end": 214.0,
+   "en": "Oh.",
+   "i": 49,
+   "zh": "哦。"
+  },
+  {
+   "start": 214.5,
+   "end": 217.0,
+   "en": "It's too difficult.",
+   "i": 50,
+   "zh": "太难了。"
+  },
+  {
+   "start": 219.0,
+   "end": 223.0,
+   "en": "Peppa and George cannot find Daddy Pig's glasses anywhere.",
+   "i": 51,
+   "zh": "佩奇和乔治到处都找不到猪爸爸的眼镜。"
+  },
+  {
+   "start": 223.924,
+   "end": 228.0,
+   "en": "We've looked everywhere, but we can't find Daddy's glasses.",
+   "i": 52,
+   "zh": "我们到处都找遍了，就是找不到爸爸的眼镜。"
+  },
+  {
+   "start": 228.001,
+   "end": 231.0,
+   "en": "Oh, dear. Now what can we do?",
+   "i": 53,
+   "zh": "哦，亲爱的。现在我们能做什么？"
+  },
+  {
+   "start": 231.001,
+   "end": 235.0,
+   "en": "I suppose I'll just have to learn to do without them.",
+   "i": 54,
+   "zh": "我想我只需要学会没有它们就可以了。"
+  },
+  {
+   "start": 235.001,
+   "end": 238.0,
+   "en": "If I move slowly, I won't bump into things.",
+   "i": 55,
+   "zh": "如果我动作慢一点，就不会撞到东西。"
+  },
+  {
+   "start": 240.2,
+   "end": 243.0,
+   "en": "There they are! Daddy's glasses!",
+   "i": 56,
+   "zh": "他们在那里！爸爸的眼镜！"
+  },
+  {
+   "start": 244.0,
+   "end": 248.0,
+   "en": "Daddy Pig, you were sitting on them all the time.",
+   "i": 57,
+   "zh": "猪爸爸，你一直坐在他们身上。"
+  },
+  {
+   "start": 248.001,
+   "end": 250.0,
+   "en": "Oh.",
+   "i": 58,
+   "zh": "哦。"
+  },
+  {
+   "start": 251.0,
+   "end": 254.0,
+   "en": "Silly Daddy.",
+   "i": 59,
+   "zh": "傻爸爸。"
+  },
+  {
+   "start": 256.05,
+   "end": 259.0,
+   "en": "I don't know how they got there.",
+   "i": 60,
+   "zh": "我不知道他们是怎么到那里的。"
+  },
+  {
+   "start": 259.875,
+   "end": 263.0,
+   "en": "I wonder how.",
+   "i": 61,
+   "zh": "我不知道怎么办。"
+  },
+  {
+   "start": 267.25,
+   "end": 270.0,
+   "en": "Well, you may have been a bit silly, Daddy Pig,",
+   "i": 62,
+   "zh": "好吧，你可能有点傻了，猪爸爸，"
+  },
+  {
+   "start": 270.175,
+   "end": 273.0,
+   "en": "but at least you're not grumpy any more.",
+   "i": 63,
+   "zh": "但至少你不再脾气暴躁了。"
+  },
+  {
+   "start": 273.001,
+   "end": 276.0,
+   "en": "I was not grumpy.",
+   "i": 64,
+   "zh": "我并不脾气暴躁。"
+  }
+ ]
+}

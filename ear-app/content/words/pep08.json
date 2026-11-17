@@ -1,0 +1,89 @@
+{
+ "id": "pep08",
+ "words": [
+  {
+   "type": "word",
+   "en": "play",
+   "zh": "玩",
+   "emoji": "🎮",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "ball",
+   "zh": "球",
+   "emoji": "⚽",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "cat",
+   "zh": "猫",
+   "emoji": "🐱",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "catch",
+   "zh": "接住",
+   "emoji": "🤲",
+   "line": 7
+  },
+  {
+   "type": "phrase",
+   "en": "Not like this.",
+   "zh": "不是这样的。",
+   "emoji": "💬",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 10
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "tea",
+   "zh": "茶",
+   "emoji": "🍵",
+   "line": 12
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 14
+  },
+  {
+   "type": "word",
+   "en": "throw",
+   "zh": "扔",
+   "emoji": "🤾",
+   "line": 18
+  },
+  {
+   "type": "phrase",
+   "en": "Catch it, George.",
+   "zh": "抓住它，乔治。",
+   "emoji": "💬",
+   "line": 50
+  },
+  {
+   "type": "word",
+   "en": "help",
+   "zh": "帮忙",
+   "emoji": "🤝",
+   "line": 53
+  }
+ ]
+}

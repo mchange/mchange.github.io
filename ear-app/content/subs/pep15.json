@@ -1,0 +1,463 @@
+{
+ "id": "pep15",
+ "title": "Picnic",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.6,
+   "end": 7.902,
+   "en": "I'm Peppa Pig. This is my little brother George.",
+   "i": 1,
+   "zh": "我是佩奇。这是我的弟弟乔治。"
+  },
+  {
+   "start": 7.926,
+   "end": 11.6,
+   "en": "This is Mommy Pig. And this is Daddy Pig.",
+   "i": 2,
+   "zh": "这是猪妈妈。这就是猪爸爸。"
+  },
+  {
+   "start": 11.601,
+   "end": 14.6,
+   "en": "Peppa Pig.",
+   "i": 3,
+   "zh": "小猪佩奇。"
+  },
+  {
+   "start": 20.475,
+   "end": 21.6,
+   "en": "Picnic.",
+   "i": 4,
+   "zh": "野餐。"
+  },
+  {
+   "start": 24.6,
+   "end": 29.6,
+   "en": "It is a lovely bright sunny day. Peppa and her family are going for a picnic.",
+   "i": 5,
+   "zh": "这是一个阳光灿烂的美好日子。佩奇和她的家人要去野餐。"
+  },
+  {
+   "start": 30.025,
+   "end": 32.1,
+   "en": "Daddy Pig is bringing the picnic basket.",
+   "i": 6,
+   "zh": "猪爸爸带来了野餐篮。"
+  },
+  {
+   "start": 32.249,
+   "end": 36.714,
+   "en": "Picnic blanket, bread, cheese, tomatoes and lemonade.",
+   "i": 7,
+   "zh": "野餐毯、面包、奶酪、西红柿和柠檬水。"
+  },
+  {
+   "start": 36.738,
+   "end": 39.6,
+   "en": "Is there anything we've forgotten?",
+   "i": 8,
+   "zh": "有什么我们忘记的吗？"
+  },
+  {
+   "start": 39.601,
+   "end": 41.6,
+   "en": "Mommy's strawberry cake.",
+   "i": 9,
+   "zh": "妈妈的草莓蛋糕。"
+  },
+  {
+   "start": 41.601,
+   "end": 47.6,
+   "en": "I was just teasing. Mommy's homemade strawberry cake is there too.",
+   "i": 10,
+   "zh": "我只是在开玩笑。妈妈自制的草莓蛋糕也在那里。"
+  },
+  {
+   "start": 47.65,
+   "end": 49.6,
+   "en": "Is everybody ready?",
+   "i": 11,
+   "zh": "大家准备好了吗？"
+  },
+  {
+   "start": 49.601,
+   "end": 50.6,
+   "en": "Ready!",
+   "i": 12,
+   "zh": "准备好了！"
+  },
+  {
+   "start": 50.601,
+   "end": 52.6,
+   "en": "Then let's go!",
+   "i": 13,
+   "zh": "那我们走吧！"
+  },
+  {
+   "start": 60.6,
+   "end": 64.599,
+   "en": "This looks like just the spot for our picnic.",
+   "i": 14,
+   "zh": "这看起来就是我们野餐的地方。"
+  },
+  {
+   "start": 68.6,
+   "end": 73.6,
+   "en": "It's great to be outdoors. We should run around a bit and get some exercise.",
+   "i": 15,
+   "zh": "在户外真是太好了。我们应该出去跑一跑，锻炼一下身体。"
+  },
+  {
+   "start": 73.601,
+   "end": 78.6,
+   "en": "I want to eat then have a nap. I certainly don't want to run around.",
+   "i": 16,
+   "zh": "我想吃饭然后睡午觉。我当然不想到处乱跑。"
+  },
+  {
+   "start": 78.601,
+   "end": 82.6,
+   "en": "Maybe Daddy should run around a bit. His tummy is quite big.",
+   "i": 17,
+   "zh": "也许爸爸应该跑一跑。他的肚子相当大。"
+  },
+  {
+   "start": 82.749,
+   "end": 89.6,
+   "en": "My tummy is not big. But later I will get some exercise even if no one else does.",
+   "i": 18,
+   "zh": "我的肚子不大。但以后即使没有人做，我也会做一些锻炼。"
+  },
+  {
+   "start": 90.6,
+   "end": 91.6,
+   "en": "Let's eat.",
+   "i": 19,
+   "zh": "我们吃饭吧。"
+  },
+  {
+   "start": 91.601,
+   "end": 94.6,
+   "en": "Good idea, Mommy Pig. I'm really hungry.",
+   "i": 20,
+   "zh": "好主意，猪妈妈。我真的很饿。"
+  },
+  {
+   "start": 97.6,
+   "end": 98.6,
+   "en": "Delicious!",
+   "i": 21,
+   "zh": "好吃！"
+  },
+  {
+   "start": 104.6,
+   "end": 106.6,
+   "en": "I feel quite sleepy.",
+   "i": 22,
+   "zh": "我感觉很困。"
+  },
+  {
+   "start": 106.899,
+   "end": 109.6,
+   "en": "I thought you wanted to run around a bit, Daddy Pig.",
+   "i": 23,
+   "zh": "我以为你想跑一跑，猪爸爸。"
+  },
+  {
+   "start": 109.899,
+   "end": 111.6,
+   "en": "Later.",
+   "i": 24,
+   "zh": "稍后。"
+  },
+  {
+   "start": 116.6,
+   "end": 118.6,
+   "en": "Look, there's a little duck pond.",
+   "i": 25,
+   "zh": "看，有一个小鸭池。"
+  },
+  {
+   "start": 120.699,
+   "end": 123.6,
+   "en": "Mummy, can we feed the ducks?",
+   "i": 26,
+   "zh": "妈妈，我们可以喂鸭子吗？"
+  },
+  {
+   "start": 123.601,
+   "end": 126.6,
+   "en": "Yes, you can feed them the rest of the bread.",
+   "i": 27,
+   "zh": "是的，你可以把剩下的面包喂给他们。"
+  },
+  {
+   "start": 129.6,
+   "end": 132.6,
+   "en": "Peppa and George love feeding bread to ducks.",
+   "i": 28,
+   "zh": "佩奇和乔治喜欢给鸭子喂面包。"
+  },
+  {
+   "start": 137.8,
+   "end": 140.6,
+   "en": "Mummy, I think they want some more.",
+   "i": 29,
+   "zh": "妈妈，我想他们还想要更多。"
+  },
+  {
+   "start": 140.601,
+   "end": 144.6,
+   "en": "That was the last of the bread. I'm sure they've had enough.",
+   "i": 30,
+   "zh": "那是最后一块面包了。我确信他们已经受够了。"
+  },
+  {
+   "start": 144.601,
+   "end": 148.6,
+   "en": "Sorry, Mrs Duck. We've no more bread.",
+   "i": 31,
+   "zh": "对不起，鸭太太。我们没有面包了。"
+  },
+  {
+   "start": 151.25,
+   "end": 153.6,
+   "en": "The ducks want more food.",
+   "i": 32,
+   "zh": "鸭子想要更多食物。"
+  },
+  {
+   "start": 155.6,
+   "end": 158.6,
+   "en": "So much for Daddy Pig and his exercise.",
+   "i": 33,
+   "zh": "猪爸爸和他的锻炼就到此为止了。"
+  },
+  {
+   "start": 158.75,
+   "end": 161.6,
+   "en": "Eh? What?",
+   "i": 34,
+   "zh": "呃？什么？"
+  },
+  {
+   "start": 163.6,
+   "end": 167.6,
+   "en": "You lot again? Peppa told you, there's no more bread.",
+   "i": 35,
+   "zh": "你们又来了吗？佩奇告诉你，没有面包了。"
+  },
+  {
+   "start": 167.85,
+   "end": 171.6,
+   "en": "Mummy, we do have strawberry cake.",
+   "i": 36,
+   "zh": "妈妈，我们有草莓蛋糕。"
+  },
+  {
+   "start": 171.601,
+   "end": 175.6,
+   "en": "Well, if there's any cake left over, you can give it to the ducks.",
+   "i": 37,
+   "zh": "好吧，如果还有剩下的蛋糕，你可以把它送给鸭子。"
+  },
+  {
+   "start": 176.6,
+   "end": 180.2,
+   "en": "Everyone likes Mummy Pig's homemade strawberry cake.",
+   "i": 38,
+   "zh": "大家都喜欢猪妈妈自制的草莓蛋糕。"
+  },
+  {
+   "start": 180.201,
+   "end": 184.2,
+   "en": "Ooh, a wasp! I hate wasps. Shoo!",
+   "i": 39,
+   "zh": "噢，一只黄蜂！我讨厌黄蜂。嘘！"
+  },
+  {
+   "start": 184.25,
+   "end": 188.2,
+   "en": "What a fuss, Mummy Pig. It's only a little wasp.",
+   "i": 40,
+   "zh": "真是大惊小怪，猪妈妈。这只是一只小黄蜂。"
+  },
+  {
+   "start": 188.201,
+   "end": 190.2,
+   "en": "Go away, wasp!",
+   "i": 41,
+   "zh": "走开，黄蜂！"
+  },
+  {
+   "start": 190.201,
+   "end": 193.2,
+   "en": "Just stay still, Mummy Pig, then it will fly away.",
+   "i": 42,
+   "zh": "猪妈妈，别动，它就会飞走。"
+  },
+  {
+   "start": 195.2,
+   "end": 198.2,
+   "en": "There, you see? All you had to do was stay still.",
+   "i": 43,
+   "zh": "在那里，你看到了吗？你所要做的就是保持静止。"
+  },
+  {
+   "start": 198.201,
+   "end": 202.2,
+   "en": "Eh? Get away! Scram!",
+   "i": 44,
+   "zh": "呃？逃离！滚！"
+  },
+  {
+   "start": 202.201,
+   "end": 208.2,
+   "en": "Whoa! Help! Whoa! Shoo! Get it off me!",
+   "i": 45,
+   "zh": "哇！帮助！哇！嘘！把它从我身上拿开！"
+  },
+  {
+   "start": 208.5,
+   "end": 211.2,
+   "en": "I hope the wasp doesn't sting, Daddy.",
+   "i": 46,
+   "zh": "我希望黄蜂不会蜇人，爸爸。"
+  },
+  {
+   "start": 211.201,
+   "end": 214.2,
+   "en": "Oh, get away, you little pest!",
+   "i": 47,
+   "zh": "哦，走开，你这个小害虫！"
+  },
+  {
+   "start": 214.3,
+   "end": 218.2,
+   "en": "No, Daddy Pig is running too fast for the wasp to catch him.",
+   "i": 48,
+   "zh": "不行，猪爸爸跑得太快了，黄蜂追不上他。"
+  },
+  {
+   "start": 219.2,
+   "end": 223.2,
+   "en": "Let's eat our cake before the wasp comes back.",
+   "i": 49,
+   "zh": "让我们在黄蜂回来之前吃掉我们的蛋糕吧。"
+  },
+  {
+   "start": 229.3,
+   "end": 232.2,
+   "en": "Oh, no, we forgot to leave any for the ducks.",
+   "i": 50,
+   "zh": "哦，不，我们忘了给鸭子留一些。"
+  },
+  {
+   "start": 235.3,
+   "end": 237.2,
+   "en": "I think I lost it.",
+   "i": 51,
+   "zh": "我想我把它弄丢了。"
+  },
+  {
+   "start": 237.201,
+   "end": 240.2,
+   "en": "You said you would run around and get some exercise, Daddy Pig,",
+   "i": 52,
+   "zh": "你说要跑来跑去锻炼身体的猪爸爸，"
+  },
+  {
+   "start": 240.525,
+   "end": 242.2,
+   "en": "but I didn't believe you'd do it.",
+   "i": 53,
+   "zh": "但我不相信你会这么做。"
+  },
+  {
+   "start": 245.5,
+   "end": 250.2,
+   "en": "Luckily, I managed to hang on to my slice of strawberry cake.",
+   "i": 54,
+   "zh": "幸运的是，我设法保住了我的那片草莓蛋糕。"
+  },
+  {
+   "start": 250.35,
+   "end": 254.2,
+   "en": "Stop, Daddy! We promised the rest of the cake for the ducks.",
+   "i": 55,
+   "zh": "停下来，爸爸！我们答应把剩下的蛋糕给鸭子。"
+  },
+  {
+   "start": 254.85,
+   "end": 256.2,
+   "en": "Oh.",
+   "i": 56,
+   "zh": "哦。"
+  },
+  {
+   "start": 256.201,
+   "end": 259.2,
+   "en": "You are very lucky, ducks.",
+   "i": 57,
+   "zh": "你们很幸运，鸭子。"
+  },
+  {
+   "start": 261.5,
+   "end": 263.2,
+   "en": "Say thank you to Daddy Pig.",
+   "i": 58,
+   "zh": "向猪爸爸表示感谢。"
+  },
+  {
+   "start": 265.325,
+   "end": 267.2,
+   "en": "You're most welcome.",
+   "i": 59,
+   "zh": "不客气。"
+  },
+  {
+   "start": 268.8,
+   "end": 271.2,
+   "en": "It's time to go home. Say goodbye to the ducks.",
+   "i": 60,
+   "zh": "该回家了。和鸭子说再见。"
+  },
+  {
+   "start": 271.201,
+   "end": 273.2,
+   "en": "Bye-bye, ducks.",
+   "i": 61,
+   "zh": "再见，鸭子们。"
+  },
+  {
+   "start": 275.2,
+   "end": 277.2,
+   "en": "See you next time.",
+   "i": 62,
+   "zh": "下次见。"
+  },
+  {
+   "start": 287.2,
+   "end": 289.2,
+   "en": "Peppa Pig",
+   "i": 63,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 292.2,
+   "end": 294.2,
+   "en": "Peppa Pig",
+   "i": 64,
+   "zh": "小猪佩奇"
+  },
+  {
+   "start": 296.2,
+   "end": 298.2,
+   "en": "Peppa Pig",
+   "i": 65,
+   "zh": "小猪佩奇"
+  }
+ ]
+}

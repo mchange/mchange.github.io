@@ -1,0 +1,449 @@
+{
+ "id": "pep31",
+ "title": "Ballet Lesson",
+ "source": "peppa-s1-en-srt + zh-translation",
+ "note": "英文人工 SRT 与中文翻译逐条对齐；纯音效/水印行已剔除。",
+ "lines": [
+  {
+   "start": 3.72,
+   "end": 7.344,
+   "en": "I'm Peppa Pig, this is my little brother",
+   "i": 1,
+   "zh": "我是佩奇，这是我的弟弟"
+  },
+  {
+   "start": 7.368,
+   "end": 11.72,
+   "en": "George, this is Mummy Pig and this is Daddy Pig.",
+   "i": 2,
+   "zh": "乔治，这是猪妈妈，这是猪爸爸。"
+  },
+  {
+   "start": 11.721,
+   "end": 14.72,
+   "en": "Peppa Pig!",
+   "i": 3,
+   "zh": "小猪佩奇！"
+  },
+  {
+   "start": 18.72,
+   "end": 20.72,
+   "en": "Ballet Lesson",
+   "i": 4,
+   "zh": "芭蕾课"
+  },
+  {
+   "start": 21.72,
+   "end": 24.72,
+   "en": "Peppa is going to her first ballet lesson.",
+   "i": 5,
+   "zh": "佩奇要去上她的第一堂芭蕾舞课。"
+  },
+  {
+   "start": 24.721,
+   "end": 27.72,
+   "en": "This is Madame Gazelle, the ballet teacher.",
+   "i": 6,
+   "zh": "这是羚羊夫人，芭蕾舞老师。"
+  },
+  {
+   "start": 27.721,
+   "end": 33.72,
+   "en": "Aho, you must be young Peppa. I am Madame Gazelle.",
+   "i": 7,
+   "zh": "阿嗬，你一定是年轻的佩奇。我是羚羊夫人。"
+  },
+  {
+   "start": 36.419,
+   "end": 37.72,
+   "en": "Hello, madame.",
+   "i": 8,
+   "zh": "你好，女士。"
+  },
+  {
+   "start": 39.695,
+   "end": 41.72,
+   "en": "Oh, so sweet.",
+   "i": 9,
+   "zh": "噢，太可爱了。"
+  },
+  {
+   "start": 41.819,
+   "end": 47.72,
+   "en": "Welcome to your first lesson of the ballet.",
+   "i": 10,
+   "zh": "欢迎来到您的第一堂芭蕾舞课。"
+  },
+  {
+   "start": 47.721,
+   "end": 49.72,
+   "en": "I'll pick you up later.",
+   "i": 11,
+   "zh": "我稍后去接你。"
+  },
+  {
+   "start": 49.721,
+   "end": 50.72,
+   "en": "Bye bye.",
+   "i": 12,
+   "zh": "再见。"
+  },
+  {
+   "start": 50.721,
+   "end": 52.72,
+   "en": "Enjoy yourself.",
+   "i": 13,
+   "zh": "玩得开心。"
+  },
+  {
+   "start": 52.721,
+   "end": 55.933,
+   "en": "Here are Peppa's friends, Candy Cat, Suzy",
+   "i": 14,
+   "zh": "这里是佩奇的朋友，小猫坎迪，苏西"
+  },
+  {
+   "start": 55.957,
+   "end": 59.72,
+   "en": "Sheep, Danny Dog, Rebecca Rabbit and Pedro Pony.",
+   "i": 15,
+   "zh": "羊、小狗丹尼、小兔瑞贝卡和佩德罗小马。"
+  },
+  {
+   "start": 59.721,
+   "end": 65.72,
+   "en": "Childrein, today we have a new pupil, Peppa Pig.",
+   "i": 16,
+   "zh": "孩子们，今天我们迎来了一位新同学，佩奇。"
+  },
+  {
+   "start": 66.019,
+   "end": 68.72,
+   "en": "Now Peppa, run and join your friends.",
+   "i": 17,
+   "zh": "现在佩奇，跑起来和你的朋友们一起吧。"
+  },
+  {
+   "start": 69.645,
+   "end": 71.72,
+   "en": "Hello everyone.",
+   "i": 18,
+   "zh": "大家好。"
+  },
+  {
+   "start": 71.721,
+   "end": 73.72,
+   "en": "Hello Peppa.",
+   "i": 19,
+   "zh": "你好，佩奇。"
+  },
+  {
+   "start": 74.72,
+   "end": 80.72,
+   "en": "Childrein, we begin with demi plié.",
+   "i": 20,
+   "zh": "孩子们，我们先从半蹲开始。"
+  },
+  {
+   "start": 82.645,
+   "end": 84.72,
+   "en": "Demi plié.",
+   "i": 21,
+   "zh": "黛米·普利埃。"
+  },
+  {
+   "start": 90.72,
+   "end": 92.72,
+   "en": "Now a little jump.",
+   "i": 22,
+   "zh": "现在稍微跳一下。"
+  },
+  {
+   "start": 92.721,
+   "end": 94.72,
+   "en": "Petit jeté.",
+   "i": 23,
+   "zh": "小喷射。"
+  },
+  {
+   "start": 99.869,
+   "end": 101.72,
+   "en": "With grace and beauty.",
+   "i": 24,
+   "zh": "优雅而美丽。"
+  },
+  {
+   "start": 102.72,
+   "end": 104.72,
+   "en": "Petit jeté.",
+   "i": 25,
+   "zh": "小喷射。"
+  },
+  {
+   "start": 106.72,
+   "end": 108.72,
+   "en": "Grace and beauty.",
+   "i": 26,
+   "zh": "优雅和美丽。"
+  },
+  {
+   "start": 113.669,
+   "end": 115.72,
+   "en": "Petit jeté.",
+   "i": 27,
+   "zh": "小喷射。"
+  },
+  {
+   "start": 117.619,
+   "end": 119.72,
+   "en": "Grace and beauty.",
+   "i": 28,
+   "zh": "优雅和美丽。"
+  },
+  {
+   "start": 122.72,
+   "end": 125.72,
+   "en": "The ballet lesson is a lot of fun.",
+   "i": 29,
+   "zh": "芭蕾舞课很有趣。"
+  },
+  {
+   "start": 125.721,
+   "end": 127.72,
+   "en": "Raise your arms.",
+   "i": 30,
+   "zh": "举起你的手臂。"
+  },
+  {
+   "start": 130.745,
+   "end": 133.72,
+   "en": "Imagine that you are beautiful swans.",
+   "i": 31,
+   "zh": "想象你是美丽的天鹅。"
+  },
+  {
+   "start": 140.72,
+   "end": 144.72,
+   "en": "And what noise do you think a swan might make?",
+   "i": 32,
+   "zh": "你认为天鹅会发出什么声音？"
+  },
+  {
+   "start": 146.72,
+   "end": 147.72,
+   "en": "Meow.",
+   "i": 33,
+   "zh": "喵。"
+  },
+  {
+   "start": 147.721,
+   "end": 148.721,
+   "en": "Neigh.",
+   "i": 34,
+   "zh": "邻居。"
+  },
+  {
+   "start": 149.72,
+   "end": 150.72,
+   "en": "Neigh.",
+   "i": 35,
+   "zh": "邻居。"
+  },
+  {
+   "start": 152.67,
+   "end": 154.72,
+   "en": "Grace and beauty.",
+   "i": 36,
+   "zh": "优雅和美丽。"
+  },
+  {
+   "start": 154.721,
+   "end": 157.72,
+   "en": "Peppa loves dancing. Everyone loves dancing.",
+   "i": 37,
+   "zh": "佩奇喜欢跳舞。每个人都喜欢跳舞。"
+  },
+  {
+   "start": 168.72,
+   "end": 172.72,
+   "en": "Mummy Mummy, we all danced as swans.",
+   "i": 38,
+   "zh": "妈妈妈妈，我们都像天鹅一样跳舞。"
+  },
+  {
+   "start": 172.721,
+   "end": 175.72,
+   "en": "Peppa did very well.",
+   "i": 39,
+   "zh": "佩奇表现得很好。"
+  },
+  {
+   "start": 175.82,
+   "end": 179.72,
+   "en": "I had to dance beautifully and gracefully.",
+   "i": 40,
+   "zh": "我必须跳得美丽而优雅。"
+  },
+  {
+   "start": 179.97,
+   "end": 181.72,
+   "en": "That's lovely.",
+   "i": 41,
+   "zh": "太可爱了。"
+  },
+  {
+   "start": 181.92,
+   "end": 183.72,
+   "en": "Can I show you how I did it?",
+   "i": 42,
+   "zh": "我可以告诉你我是怎么做到的吗？"
+  },
+  {
+   "start": 183.795,
+   "end": 188.72,
+   "en": "Let's get home first, then you can show Daddy Pig and George and me.",
+   "i": 43,
+   "zh": "我们先回家吧，然后你可以给猪爸爸、乔治和我看。"
+  },
+  {
+   "start": 189.594,
+   "end": 190.72,
+   "en": "Bye bye.",
+   "i": 44,
+   "zh": "再见。"
+  },
+  {
+   "start": 195.72,
+   "end": 197.72,
+   "en": "Peppa and Mummy Pig are home.",
+   "i": 45,
+   "zh": "佩奇和猪妈妈回家了。"
+  },
+  {
+   "start": 198.72,
+   "end": 202.72,
+   "en": "Daddy George, I'm going to show you how to do ballet.",
+   "i": 46,
+   "zh": "乔治爸爸，我要教你如何跳芭蕾舞。"
+  },
+  {
+   "start": 203.72,
+   "end": 204.72,
+   "en": "Is it difficult?",
+   "i": 47,
+   "zh": "难吗？"
+  },
+  {
+   "start": 204.721,
+   "end": 210.72,
+   "en": "It was easy for me, but you, George and Mummy will find it very hard.",
+   "i": 48,
+   "zh": "这对我来说很容易，但你、乔治和妈妈会发现这很难。"
+  },
+  {
+   "start": 211.82,
+   "end": 213.72,
+   "en": "First, we need music.",
+   "i": 49,
+   "zh": "首先，我们需要音乐。"
+  },
+  {
+   "start": 215.67,
+   "end": 216.72,
+   "en": "Good.",
+   "i": 50,
+   "zh": "好。"
+  },
+  {
+   "start": 216.721,
+   "end": 221.72,
+   "en": "Now, George, Daddy and Mummy, you must copy what I do.",
+   "i": 51,
+   "zh": "现在，乔治、爸爸和妈妈，你们必须复制我的做法。"
+  },
+  {
+   "start": 221.721,
+   "end": 228.732,
+   "en": "Madame Gazelle used funny words, but really, it's just bending your knees and jumping.",
+   "i": 52,
+   "zh": "羚羊夫人用了搞笑的话，但实际上，只是弯曲膝盖跳跃。"
+  },
+  {
+   "start": 229.72,
+   "end": 231.72,
+   "en": "Ah, the petit jete.",
+   "i": 53,
+   "zh": "啊，小杰特。"
+  },
+  {
+   "start": 231.721,
+   "end": 234.72,
+   "en": "Daddy, you know the funny words.",
+   "i": 54,
+   "zh": "爸爸，你知道这些有趣的话。"
+  },
+  {
+   "start": 235.72,
+   "end": 238.72,
+   "en": "Mummy Pig and I used to be quite good at ballet.",
+   "i": 55,
+   "zh": "猪妈妈和我曾经很擅长芭蕾舞。"
+  },
+  {
+   "start": 242.72,
+   "end": 244.72,
+   "en": "Do be careful, Daddy Pig.",
+   "i": 56,
+   "zh": "小心点，猪爸爸。"
+  },
+  {
+   "start": 245.72,
+   "end": 248.72,
+   "en": "Our favourite was the pas de deux.",
+   "i": 57,
+   "zh": "我们最喜欢的是双人舞。"
+  },
+  {
+   "start": 252.72,
+   "end": 254.72,
+   "en": "Voila!",
+   "i": 58,
+   "zh": "瞧！"
+  },
+  {
+   "start": 256.72,
+   "end": 258.72,
+   "en": "That wasn't quite how I remembered it.",
+   "i": 59,
+   "zh": "这与我记忆中的不太一样。"
+  },
+  {
+   "start": 261.495,
+   "end": 263.72,
+   "en": "Silly Daddy Pig.",
+   "i": 60,
+   "zh": "傻猪爸爸。"
+  },
+  {
+   "start": 264.72,
+   "end": 267.72,
+   "en": "Maybe we should leave the ballet to Peppa.",
+   "i": 61,
+   "zh": "也许我们应该把芭蕾舞留给佩奇。"
+  },
+  {
+   "start": 267.721,
+   "end": 270.72,
+   "en": "Yes, I am the best at it.",
+   "i": 62,
+   "zh": "是的，我最擅长。"
+  },
+  {
+   "start": 275.72,
+   "end": 277.72,
+   "en": "I am a beautiful swan.",
+   "i": 63,
+   "zh": "我是一只美丽的天鹅。"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "pep35",
+ "words": [
+  {
+   "type": "word",
+   "en": "little",
+   "zh": "小的",
+   "emoji": "🤏",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "tent",
+   "zh": "帐篷",
+   "emoji": "⛺",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 6
+  },
+  {
+   "type": "word",
+   "en": "camping",
+   "zh": "露营",
+   "emoji": "🏕️",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "mummy",
+   "zh": "妈妈",
+   "emoji": "👩",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 8
+  },
+  {
+   "type": "word",
+   "en": "car",
+   "zh": "汽车",
+   "emoji": "🚗",
+   "line": 23
+  },
+  {
+   "type": "phrase",
+   "en": "Easy as pie.",
+   "zh": "小菜一碟。",
+   "emoji": "💬",
+   "line": 36
+  },
+  {
+   "type": "phrase",
+   "en": "So do I.",
+   "zh": "我也是。",
+   "emoji": "💬",
+   "line": 51
+  },
+  {
+   "type": "word",
+   "en": "sleep",
+   "zh": "睡觉",
+   "emoji": "😴",
+   "line": 65
+  },
+  {
+   "type": "word",
+   "en": "star",
+   "zh": "星星",
+   "emoji": "⭐",
+   "line": 71
+  },
+  {
+   "type": "word",
+   "en": "safe",
+   "zh": "安全的",
+   "emoji": "✅",
+   "line": 87
+  }
+ ]
+}

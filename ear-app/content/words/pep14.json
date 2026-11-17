@@ -1,0 +1,89 @@
+{
+ "id": "pep14",
+ "words": [
+  {
+   "type": "word",
+   "en": "kite",
+   "zh": "风筝",
+   "emoji": "🪁",
+   "line": 5
+  },
+  {
+   "type": "word",
+   "en": "run",
+   "zh": "跑",
+   "emoji": "🏃",
+   "line": 7
+  },
+  {
+   "type": "word",
+   "en": "wind",
+   "zh": "风",
+   "emoji": "🌬️",
+   "line": 11
+  },
+  {
+   "type": "word",
+   "en": "daddy",
+   "zh": "爸爸",
+   "emoji": "👨",
+   "line": 17
+  },
+  {
+   "type": "phrase",
+   "en": "Thank you Daddy!",
+   "zh": "谢谢爸爸！",
+   "emoji": "💬",
+   "line": 17
+  },
+  {
+   "type": "word",
+   "en": "pig",
+   "zh": "猪",
+   "emoji": "🐷",
+   "line": 18
+  },
+  {
+   "type": "word",
+   "en": "mud",
+   "zh": "泥巴",
+   "emoji": "🟫",
+   "line": 31
+  },
+  {
+   "type": "word",
+   "en": "muddy",
+   "zh": "泥泞的",
+   "emoji": "🟤",
+   "line": 31
+  },
+  {
+   "type": "word",
+   "en": "puddle",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 31
+  },
+  {
+   "type": "word",
+   "en": "jump",
+   "zh": "跳",
+   "emoji": "🦘",
+   "line": 32
+  },
+  {
+   "type": "word",
+   "en": "puddles",
+   "zh": "泥坑",
+   "emoji": "💧",
+   "line": 32
+  },
+  {
+   "type": "phrase",
+   "en": "Stand back, children.",
+   "zh": "退后一点，孩子们。",
+   "emoji": "💬",
+   "line": 36
+  }
+ ]
+}
