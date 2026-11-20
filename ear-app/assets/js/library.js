@@ -11,6 +11,10 @@ function statusOf(ep) {
   if (!ep.video && ep.source !== 'imported') {
     return { kind: 'danger', label: '缺视频', iconName: 'alert' };
   }
+  // B 站外链集：视频不落地，字幕在画面里，别误报「字幕待整理」
+  if (ep.videoKind === 'embed') {
+    return { kind: 'blue', label: 'B站外链', iconName: 'link' };
+  }
   // 主题曲这类「本来就没有字幕」的集，不能打成「字幕待整理」的黄标
   if (ep.subtitleKind === 'none') {
     return { kind: 'blue', label: '无字幕', iconName: 'info' };

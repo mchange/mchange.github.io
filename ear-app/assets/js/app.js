@@ -5,6 +5,7 @@ import { loadCatalog, invalidateCatalog, releaseBlobUrls } from './content.js';
 import { getPrefs, setPrefs, storageAvailable } from './store.js';
 import { renderLibrary } from './library.js';
 import { renderWorkbench } from './workbench.js';
+import { renderEmbedWorkbench } from './embed.js';
 import { renderImport } from './importer.js';
 
 const root = document.getElementById('app');
@@ -210,7 +211,10 @@ async function render() {
     paintTopbar();
     const main = h('div', { style: { display: 'contents' } });
     root.appendChild(main);
-    cleanupCurrent = await renderWorkbench(main, ep);
+    /* 外链集（B 站）走独立的受限 iframe 播放页，不进普通工作台的自有播放器。 */
+    cleanupCurrent = ep.videoKind === 'embed'
+      ? await renderEmbedWorkbench(main, ep, ctx)
+      : await renderWorkbench(main, ep);
     return;
   }
 

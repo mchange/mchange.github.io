@@ -84,8 +84,9 @@ function matchEpisode(fileName, episodes, idx) {
 
 export function createLocalVideoPanel(catalog) {
   /* 导入的新集本来就存在浏览器里，不需要再配本机视频 */
+  /* 外链播放集（B 站）由官方播放器负责，不需要也不能关联本机 mp4 */
   const episodes = (catalog.episodes || [])
-    .filter((ep) => ep.source !== 'imported' && ep.video);
+    .filter((ep) => ep.source !== 'imported' && ep.video && ep.videoKind !== 'embed');
   const byId = new Map(episodes.map((ep) => [ep.id, ep]));
   const idx = buildIndex(episodes);
 

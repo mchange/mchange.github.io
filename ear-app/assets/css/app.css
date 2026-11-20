@@ -503,10 +503,56 @@ html.topbar-hidden { --vh-extra: var(--topbar-h, 54px); }
   overflow: hidden;
   box-shadow: var(--shadow-2);
 }
-.player video {
+.player video,
+.player.embed-player iframe {
   display: block; width: 100%; background: #12160F;
   max-height: calc(60vh + var(--vh-extra));
-  aspect-ratio: 16 / 9; object-fit: contain;
+  aspect-ratio: 16 / 9;
+}
+.player video { object-fit: contain; }
+.player.embed-player iframe { border: 0; }
+
+/* --- 外链播放页（B 站 iframe）-------------------------------------
+   顶层壳沿用工作台布局；播放器里的一切交互归 B 站，我们只提供选集壳。 */
+.embed-nav { display: flex; align-items: center; gap: 9px; }
+.embed-nav-title { flex: 1 1 auto; min-width: 0; text-align: center; }
+.embed-nav-title h2 {
+  margin: 1px 0 0; font-size: 15px; font-weight: 650;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.embed-kicker { font-size: 11.5px; color: var(--ink-3); letter-spacing: .02em; }
+.embed-note {
+  margin: 0; display: flex; align-items: flex-start; gap: 7px;
+  color: var(--ink-3); font-size: 12.5px; line-height: 1.55;
+}
+.embed-note svg { flex: 0 0 auto; width: 15px; height: 15px; margin-top: 1px; }
+.embed-side-head {
+  flex: 0 0 auto; padding: 11px 12px 9px;
+  font-size: 12.5px; font-weight: 650; color: var(--ink-3);
+  border-bottom: 1px solid var(--line); background: var(--surface-2);
+}
+.embed-list {
+  flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  padding: 7px; display: flex; flex-direction: column; gap: 3px;
+}
+.embed-item {
+  appearance: none; cursor: pointer; text-align: left;
+  display: flex; align-items: center; gap: 9px;
+  padding: 8px 9px; border: 1px solid transparent; border-radius: var(--radius-sm);
+  background: none; color: var(--ink-2); font: inherit; font-size: 13px;
+  -webkit-tap-highlight-color: transparent;
+}
+.embed-item:hover { background: var(--surface-2); }
+.embed-item.is-active {
+  background: var(--green-line); border-color: var(--green-line);
+  color: var(--green-strong); font-weight: 650;
+}
+.embed-item-no {
+  flex: 0 0 auto; font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-3);
+}
+.embed-item.is-active .embed-item-no { color: var(--green-strong); }
+.embed-item-title {
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .player-veil {
   position: absolute; inset: 0; display: grid; place-items: center; text-align: center;
@@ -1138,7 +1184,8 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
      而 wb-lock 又禁用了页面滚动，底部就永远够不着。
      交给上面的 grid 行 minmax(220px, 1fr) 分配剩余高度即可。 */
   .side-panel { min-height: 0; }
-  .player video { max-height: 38vh; }
+  .player video,
+  .player.embed-player iframe { max-height: 38vh; }
   /* 竖屏是上下排布，收起控制时保持单列，不参与右侧面板收窄；
      省出的高度让给播放器区域 */
   .wb.chrome-hidden .wb-body { grid-template-columns: minmax(0, 1fr); }
@@ -1161,7 +1208,8 @@ body.blind .trow[data-revealed="1"] { background: var(--surface-2); }
 
 /* 横屏但高度很矮（iPad 横屏 + Safari 工具栏）时的紧凑处理 */
 @media (orientation: landscape) and (max-height: 520px) {
-  .player video { max-height: calc(46vh + var(--vh-extra)); }
+  .player video,
+  .player.embed-player iframe { max-height: calc(46vh + var(--vh-extra)); }
   .wb.chrome-hidden .player video { max-height: calc(56vh + var(--vh-extra)); }
   .fc-card { height: 142px; }
   .fc-emoji { font-size: 27px; }

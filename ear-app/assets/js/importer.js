@@ -72,7 +72,8 @@ function grabThumb(videoEl, at) {
 /* -------------------------------------------------------------- 面板 */
 
 function panelSource(catalog, extra) {
-  const mounted = catalog.episodes.filter((e) => e.source === 'mounted').length;
+  // 外链播放集（B 站）没有本地字幕/视频，不纳入「本地挂载」统计
+  const mounted = catalog.episodes.filter((e) => e.source === 'mounted' && e.videoKind !== 'embed').length;
   const imported = catalog.episodes.filter((e) => e.source === 'imported').length;
   const el = h('section.card.panel');
   append(el,
@@ -143,15 +144,17 @@ export async function renderImport(host, ctx) {
     listBody);
   grid.appendChild(listPanel);
 
-  let selectedId = catalog.episodes[0] ? catalog.episodes[0].id : null;
+  /* B 站外链集的字幕由 B 站画面提供，没有可校对的逐句表，别混进这个列表 */
+  const subsEps = catalog.episodes.filter((e) => e.videoKind !== 'embed');
+  let selectedId = subsEps[0] ? subsEps[0].id : null;
 
   function paintList() {
     clear(listBody);
-    if (!catalog.episodes.length) {
+    if (!subsEps.length) {
       listBody.appendChild(h('div.vrow', h('span.vrow-body', h('span.vrow-msg', '还没有内容。'))));
       return;
     }
-    for (const ep of catalog.episodes) {
+    for (const ep of subsEps) {
       const verified = ep.subtitleStatus === 'verified';
       const zhCount = ep.lineCount ? null : null;
       const row = h('div.vrow', { class: verified ? 'v-ok' : 'v-warn' },
@@ -201,7 +204,7 @@ export async function renderImport(host, ctx) {
 
   async function paintDetail() {
     clear(detailBody);
-    const ep = catalog.episodes.find((e) => e.id === selectedId) || catalog.episodes[0];
+    const ep = subsEps.find((e) => e.id === selectedId) || subsEps[0];
     if (!ep) return;
     const lines = await loadLines(ep);
     const v = validate({
